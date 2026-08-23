@@ -96,10 +96,23 @@ touching provisioning. If it fails, it prints the compiler errors.
 Other options:
 
 ```bash
-./ios/setup-mac.sh                    # check the toolchain and open Xcode
-./ios/setup-mac.sh --team ABC1234567  # write your signing team into the project
-./ios/setup-mac.sh --build --no-open  # verify it compiles, open nothing
+./ios/setup-mac.sh                       # check the toolchain and open Xcode
+./ios/setup-mac.sh --team ABC1234567     # write your signing team into the project
+./ios/setup-mac.sh --build --no-open     # verify it compiles, open nothing
+./ios/setup-mac.sh --download-platform --build   # fetch the iOS SDK first
 ```
+
+**Two things trip up a fresh Mac**, and the script names both rather than letting
+Xcode fail obscurely:
+
+- *Command Line Tools installed but not Xcode.* The CLT ship their own
+  `/usr/bin/xcodebuild`, so the binary exists and appears to work. It cannot
+  build an iOS app.
+- *Xcode installed but no iOS platform.* Since Xcode 16, the iOS SDK and
+  simulator runtimes are a separate multi-gigabyte download. Without them
+  `xcodebuild` reports "Unable to find a destination matching the provided
+  destination specifier", which does not obviously mean "your SDK is missing".
+  Fix: `xcodebuild -downloadPlatform iOS`.
 
 Then in Xcode: pick your Team under the target's **Signing & Capabilities** tab,
 choose your iPhone, and press Run. Allow notifications when asked, and use

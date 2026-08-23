@@ -6,6 +6,7 @@
 #   ./ios/setup-mac.sh --build      # also compile for the simulator (no signing needed)
 #   ./ios/setup-mac.sh --team ABC123456   # write your signing team into the project
 #   ./ios/setup-mac.sh --build --no-open  # CI-style: verify it compiles, open nothing
+#   ./ios/setup-mac.sh --download-platform # fetch the iOS SDK, then build
 #
 # The --build check is the useful one: it compiles for the simulator, which needs
 # no Apple account and no signing, so it tells you whether the code is sound
@@ -20,11 +21,13 @@ MIN_XCODE_MAJOR=16
 
 DO_BUILD=0
 DO_OPEN=1
+DO_DOWNLOAD=0
 TEAM=""
 
 while [ $# -gt 0 ]; do
   case "$1" in
     --build)    DO_BUILD=1 ;;
+    --download-platform) DO_DOWNLOAD=1 ;;
     --no-open)  DO_OPEN=0 ;;
     --team)     TEAM="${2:-}"; shift ;;
     -h|--help)  sed -n '2,14p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
@@ -157,6 +160,37 @@ else
 fi
 
 # -------------------------------------------------------------------- build
+
+# Xcode 16 and later ship without the iOS platform: the toolchain installs, but
+# the iOS SDK and simulator runtimes are a separate multi-gigabyte download. Left
+# undetected this surfaces as "Unable to find a destination matching the provided
+# destination specifier", which does not obviously mean "your SDK is missing".
+if [ "$DO_BUILD" -eq 1 ] || [ "$DO_DOWNLOAD" -eq 1 ]; then
+  say "Checking the iOS platform"
+
+  if xcodebuild -showsdks 2>/dev/null | grep -q 'iphonesimulator'; then
+    ok "iOS SDK present: $(xcodebuild -showsdks 2>/dev/null | sed -n 's/.*-sdk \(iphonesimulator[0-9.]*\).*/\1/p' | head -n 1)"
+  elif [ "$DO_DOWNLOAD" -eq 1 ]; then
+    say "Downloading the iOS platform (several GB - this takes a while)"
+    xcodebuild -downloadPlatform iOS || die "Platform download failed. Try Xcode > Settings > Components instead."
+    ok "iOS platform installed"
+  else
+    warn "The iOS platform is not installed."
+    echo
+    echo "    Xcode 16 and later install the toolchain without the iOS SDK or any"
+    echo "    simulator runtime, so there is nothing to build against yet."
+    echo
+    echo "    Fetch it (several GB):"
+    echo "      xcodebuild -downloadPlatform iOS"
+    echo
+    echo "    or re-run this script as:"
+    echo "      ./ios/setup-mac.sh --download-platform --build"
+    echo
+    echo "    The GUI equivalent is Xcode > Settings > Components."
+    echo
+    die "The iOS platform is required to build."
+  fi
+fi
 
 if [ "$DO_BUILD" -eq 1 ]; then
   say "Compiling for the simulator (no signing required)"
