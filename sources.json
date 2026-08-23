@@ -13,7 +13,15 @@
     "to show, because they are least likely to be framed for engagement.",
     "",
     "Add or remove sources freely. The pipeline degrades gracefully: any feed that",
-    "fails to fetch or parse is skipped and reported in the build log."
+    "fails to fetch or parse is skipped and reported in the build log.",
+    "",
+    "Every URL here responded with parseable items on a live probe (GitHub Actions,",
+    "2026-08-23). Reuters was dropped: apnews.com, reuters.com and reutersagency.com",
+    "all return 401/404 to feed readers now. UPI, the Washington Times and CBC were",
+    "unreachable. Re-run the Probe feeds workflow when the digest looks thin.",
+    "",
+    "One feed per outlet, always. Two feeds from the same newsroom would each count",
+    "as a distinct source and inflate the consensus score for that outlet's stories."
   ],
   "sources": [
     {
@@ -29,13 +37,6 @@
       "lean": "center",
       "wire": true,
       "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-    },
-    {
-      "id": "upi",
-      "name": "UPI",
-      "lean": "center",
-      "wire": true,
-      "url": "https://rss.upi.com/news/top_news.rss"
     },
     {
       "id": "csm",
@@ -64,13 +65,6 @@
       "lean": "center",
       "wire": true,
       "url": "https://www.france24.com/en/rss"
-    },
-    {
-      "id": "cbc",
-      "name": "CBC",
-      "lean": "center-left",
-      "wire": true,
-      "url": "https://www.cbc.ca/webfeed/rss/rss-world"
     },
     {
       "id": "skynews",
@@ -136,13 +130,6 @@
       "url": "https://moxie.foxnews.com/google-publisher/world.xml"
     },
     {
-      "id": "washtimes",
-      "name": "The Washington Times",
-      "lean": "right",
-      "wire": false,
-      "url": "https://www.washingtontimes.com/rss/headlines/news/world/"
-    },
-    {
       "id": "nypost",
       "name": "New York Post",
       "lean": "right",
@@ -155,20 +142,6 @@
       "lean": "center",
       "wire": false,
       "url": "https://www.newsweek.com/rss"
-    },
-    {
-      "id": "ap",
-      "name": "Associated Press",
-      "lean": "center",
-      "wire": true,
-      "url": "https://apnews.com/hub/world-news.rss"
-    },
-    {
-      "id": "reuters",
-      "name": "Reuters",
-      "lean": "center",
-      "wire": true,
-      "url": "https://www.reuters.com/arc/outboundfeeds/news-world/?outputType=xml"
     },
     {
       "id": "wsj",
@@ -211,6 +184,91 @@
       "lean": "center",
       "wire": true,
       "url": "https://www.straitstimes.com/news/world/rss.xml"
+    },
+    {
+      "id": "ap_mirror",
+      "name": "Associated Press (mirror)",
+      "lean": "center",
+      "wire": false,
+      "url": "https://feedx.net/rss/ap.xml",
+      "note": "Unofficial mirror. AP's own feeds require auth; verify or drop if it goes stale."
+    },
+    {
+      "id": "euronews",
+      "name": "Euronews",
+      "lean": "center",
+      "wire": true,
+      "url": "https://www.euronews.com/rss?level=theme&name=news"
+    },
+    {
+      "id": "japantimes",
+      "name": "The Japan Times",
+      "lean": "center",
+      "wire": true,
+      "url": "https://www.japantimes.co.jp/feed/"
+    },
+    {
+      "id": "scmp",
+      "name": "South China Morning Post",
+      "lean": "center",
+      "wire": true,
+      "url": "https://www.scmp.com/rss/91/feed"
+    },
+    {
+      "id": "toi",
+      "name": "Times of India",
+      "lean": "center",
+      "wire": true,
+      "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"
+    },
+    {
+      "id": "abcau",
+      "name": "ABC Australia",
+      "lean": "center",
+      "wire": true,
+      "url": "https://www.abc.net.au/news/feed/2942460/rss.xml"
+    },
+    {
+      "id": "pbs",
+      "name": "PBS NewsHour",
+      "lean": "center-left",
+      "wire": true,
+      "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+    },
+    {
+      "id": "politico",
+      "name": "Politico",
+      "lean": "center-left",
+      "wire": false,
+      "url": "https://rss.politico.com/politics-news.xml"
+    },
+    {
+      "id": "independent",
+      "name": "The Independent",
+      "lean": "center-left",
+      "wire": false,
+      "url": "https://www.independent.co.uk/news/world/rss"
+    },
+    {
+      "id": "reason",
+      "name": "Reason",
+      "lean": "center-right",
+      "wire": false,
+      "url": "https://reason.com/latest/feed/"
+    },
+    {
+      "id": "freebeacon",
+      "name": "Washington Free Beacon",
+      "lean": "right",
+      "wire": false,
+      "url": "https://freebeacon.com/feed/"
+    },
+    {
+      "id": "nationalreview",
+      "name": "National Review",
+      "lean": "right",
+      "wire": false,
+      "url": "https://www.nationalreview.com/feed/"
     }
   ],
   "leanWeights": {

@@ -3,7 +3,7 @@
 Ten news stories on your phone at 06:00, one notification each. No ads, no
 trackers, no comment sections, and no single newsroom deciding what leads.
 
-- **A GitHub Actions cron** builds the digest at 05:00 America/Chicago from 28
+- **A GitHub Actions cron** builds the digest at 05:00 America/Chicago from 35
   RSS feeds spanning the political spectrum, and commits it as `docs/digest.json`.
 - **A SwiftUI iOS app** fetches that file and schedules one local notification
   per story for 06:00.
@@ -20,7 +20,7 @@ What this does instead is **measure consensus and show you the evidence**:
 
 | Mechanism | What it buys you |
 |---|---|
-| 28 sources, roughly balanced left / centre / right | No single outlet's news judgement sets your morning |
+| 35 sources — 10 left-of-centre, 15 centre, 10 right-of-centre | No single outlet's news judgement sets your morning |
 | Stories ranked by **how many distinct outlets** ran them | "Top" means broadly-reported, not editorially promoted |
 | Ranking rewards **spread across the spectrum** | A story only the left or only the right ran ranks below one everybody ran |
 | Headline picked as the **least sensational** phrasing among covering outlets | You get "Federal Reserve holds rates steady", not "Fed SLAMS critics" |
@@ -53,10 +53,19 @@ Without this the build succeeds but the commit step fails with a 403.
 
 ### 3. Check the feeds are alive
 
-Run the **Probe feeds** workflow (Actions tab → Probe feeds → Run workflow).
-Feeds move and die; this reports which are usable. Delete or replace any broken
-entries in `sources.json`. It also runs automatically on the first Monday of
-each month.
+Every feed in `sources.json` was probed live on 2026-08-23 and returned parseable
+items, so this is maintenance rather than setup. Run the **Probe feeds** workflow
+(Actions tab → Probe feeds → Run workflow) whenever the digest looks thin; it
+reports which feeds are usable, and runs itself on the first Monday of each month.
+
+Two things worth knowing about the source list:
+
+- **Reuters is not in it.** `reuters.com`, `reutersagency.com` and `apnews.com`
+  all return 401/404 to feed readers now. Their wire copy still reaches the digest
+  indirectly, since ABC, CBS and NBC run it.
+- **AP comes from a third-party mirror** (`feedx.net`), which is why it is marked
+  `wire: false` — a feed nobody here controls should not win headline selection.
+  Drop it if you would rather not depend on a mirror.
 
 ### 4. Build the first digest
 
