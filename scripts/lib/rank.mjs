@@ -6,6 +6,23 @@
 
 import { cleanDescription, firstSentences, truncate } from './text.mjs';
 
+// Soft news: legitimately reported and often widely syndicated, but not what a
+// "top ten news" brief is for. Demoted rather than excluded, so a genuine hard
+// news story that happens to mention a royal is not silently dropped.
+const SOFT_NEWS = [
+  /\b(royal|monarchy|duchess|duke of|prince (?:harry|william|andrew)|meghan|kate middleton)\b/i,
+  /\b(celebrity|red carpet|box office|grammy|oscar|emmy|bafta|met gala)\b/i,
+  /\b(reality tv|dating show|makeover|recipe|horoscope|zodiac)\b/i,
+  /\b(net worth|fashion|style icon|engagement ring|baby bump)\b/i,
+];
+
+/** Share of a cluster's headlines that read as soft news, 0 to 1. */
+export function softness(items) {
+  if (items.length === 0) return 0;
+  const soft = items.filter((i) => SOFT_NEWS.some((re) => re.test(i.title))).length;
+  return soft / items.length;
+}
+
 // Framing devices common in engagement-optimised headlines. Presence of these
 // does not make a report false - it makes it a worse choice of neutral summary,
 // so we prefer a sibling headline that lacks them.
@@ -69,18 +86,22 @@ export function scoreCluster(cluster, { leanWeights, now = Date.now() }) {
   // Half-life of about 18 hours: yesterday's lead should yield to this morning's.
   const recency = Math.pow(0.5, ageHours / 18);
 
+  const soft = softness(cluster.items);
+  const softPenalty = 6.0 * soft;
+
   const breadth = 3.0 * Math.log2(1 + distinctSources);
   const diversity = 1.4 * (distinctLeans - 1) + 2.2 * spread;
   const wire = 0.8 * Math.min(wireCount, 4);
   const freshness = 2.5 * recency;
 
   return {
-    total: breadth + diversity + wire + freshness,
+    total: breadth + diversity + wire + freshness - softPenalty,
     components: {
       breadth: round(breadth),
       diversity: round(diversity),
       wire: round(wire),
       freshness: round(freshness),
+      softPenalty: round(-softPenalty),
     },
     distinctSources,
     distinctLeans,
@@ -151,7 +172,7 @@ export function buildStories(clusters, { leanWeights, sourcesById, limit, now = 
       rank: index + 1,
       id: stableId(headlineItem.title, score.newest),
       title: truncate(headlineItem.title, 180),
-      summary: summary.text || truncate(cleanDescription(headlineItem.description), 260),
+      summary: summary.text || fallbackSummary(items),
       url: headlineItem.link,
       headlineSource: sourcesById[headlineItem.sourceId]?.name ?? headlineItem.sourceId,
       summarySource: summary.sourceId ? (sourcesById[summary.sourceId]?.name ?? summary.sourceId) : null,
@@ -165,6 +186,18 @@ export function buildStories(clusters, { leanWeights, sourcesById, limit, now = 
       coverage,
     };
   });
+}
+
+/**
+ * Last resort when no outlet supplied a usable description. Returns the longest
+ * scrap of prose available, or an empty string - never a stray markup fragment.
+ */
+function fallbackSummary(items) {
+  const best = items
+    .map((i) => cleanDescription(i.description))
+    .filter((t) => t.length >= 40)
+    .sort((a, b) => b.length - a.length)[0];
+  return best ? truncate(best, 260) : '';
 }
 
 /** Deterministic id so the app can tell a genuinely new story from a re-run. */

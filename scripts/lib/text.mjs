@@ -33,16 +33,28 @@ function safeCodePoint(code) {
   try { return String.fromCodePoint(code); } catch { return ''; }
 }
 
-/** Strip markup, decode entities, collapse whitespace. */
+/**
+ * Strip markup, decode entities, collapse whitespace.
+ *
+ * Stripping and decoding are interleaved, not sequential: plenty of feeds escape
+ * their own markup, so `&lt;/p&gt;` only becomes a visible tag after a decode
+ * pass. Decoding once at the end would leave literal "</p>" in the summary.
+ */
 export function stripHtml(input) {
-  return decodeEntities(
-    String(input ?? '')
-      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-      .replace(/<br\s*\/?>/gi, ' ')
-      .replace(/<\/p>/gi, ' ')
-      .replace(/<[^>]*>/g, ' '),
-  )
+  let out = String(input ?? '');
+  for (let pass = 0; pass < 3; pass += 1) {
+    const before = out;
+    out = decodeEntities(
+      out
+        .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+        .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+        .replace(/<br\s*\/?>/gi, ' ')
+        .replace(/<\/p>/gi, ' ')
+        .replace(/<[^>]*>/g, ' '),
+    );
+    if (out === before) break;
+  }
+  return out
     .replace(/\s+/g, ' ')
     // Inline tags leave a gap before possessives and punctuation; close it back up.
     .replace(/\s+([’'](?:s|t|re|ve|ll|d)\b)/gi, '$1')

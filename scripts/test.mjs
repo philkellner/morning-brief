@@ -175,3 +175,41 @@ test('source registry is well formed and politically balanced', () => {
   // A lopsided registry would make "consensus" mean "one side agreed with itself".
   assert.ok(Math.abs(left - right) <= 2, `registry is lopsided: ${left} left vs ${right} right`);
 });
+
+test('stripHtml handles feeds that escape their own markup', () => {
+  // Regression: these arrived as a literal "</p>" summary in the first live digest.
+  assert.equal(cleanDescription('&lt;p&gt;Real body text.&lt;/p&gt;'), 'Real body text.');
+  assert.equal(cleanDescription('&lt;/p&gt;'), '');
+  assert.equal(cleanDescription('&amp;lt;p&amp;gt;Double encoded&amp;lt;/p&amp;gt;'), 'Double encoded');
+});
+
+test('a story never gets a markup fragment as its summary', () => {
+  const items = [
+    { sourceId: 'bbc', lean: 'center', wire: true, title: 'Sword attack victim was a teenager, police say', description: '&lt;/p&gt;', link: 'https://e.invalid/1', published: new Date() },
+    { sourceId: 'abc', lean: 'center-left', wire: false, title: 'Police name teenager as sword attack victim', description: '<p></p>', link: 'https://e.invalid/2', published: new Date() },
+  ];
+  const sourcesById = Object.fromEntries(config.sources.map((s) => [s.id, s]));
+  const [story] = buildStories(clusterItems(items), { leanWeights: config.leanWeights, sourcesById, limit: 1 });
+  assert.ok(!story.summary.includes('<'), `summary contained markup: ${story.summary}`);
+  assert.ok(!story.summary.includes('>'), `summary contained markup: ${story.summary}`);
+  assert.equal(story.summary, '', 'with no usable description the summary should be empty, not a fragment');
+});
+
+test('soft news is demoted below hard news of equal reach', () => {
+  const make = (prefix, title) => ['npr', 'bbc', 'foxnews', 'guardian'].map((sourceId, i) => ({
+    sourceId, lean: config.sources.find((s) => s.id === sourceId).lean,
+    wire: Boolean(config.sources.find((s) => s.id === sourceId).wire),
+    title: `${title} ${prefix}`,
+    description: `${title} reported in detail by outlet number ${i} with enough body text to count.`,
+    link: `https://e.invalid/${prefix}${i}`, published: new Date(),
+  }));
+  const items = [
+    ...make('alpha', 'Prince Harry and Meghan search for a brand'),
+    ...make('beta', 'Central bank holds benchmark interest rates steady'),
+  ];
+  const sourcesById = Object.fromEntries(config.sources.map((s) => [s.id, s]));
+  const stories = buildStories(clusterItems(items), { leanWeights: config.leanWeights, sourcesById, limit: 2 });
+  assert.equal(stories.length, 2);
+  assert.match(stories[0].title, /interest rates/, 'hard news should outrank soft news at equal reach');
+  assert.ok(stories[1].scoreComponents.softPenalty < 0, 'the soft story should carry a penalty');
+});
