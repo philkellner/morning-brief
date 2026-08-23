@@ -45,32 +45,55 @@ say "Checking the environment"
 [ "$(uname -s)" = "Darwin" ] || die "This script only runs on macOS (found $(uname -s))."
 ok "macOS $(sw_vers -productVersion)"
 
-if ! command -v xcodebuild >/dev/null 2>&1; then
-  die "Xcode is not installed. Get it from the App Store (search 'Xcode'), then re-run this."
+# The Command Line Tools ship their own /usr/bin/xcodebuild shim, so the presence
+# of that binary proves nothing. Find a real Xcode.app before recommending a path
+# to point xcode-select at - otherwise the advice is a directory that may not exist.
+XCODE_APP=""
+for candidate in /Applications/Xcode.app /Applications/Xcode-beta.app "$HOME/Applications/Xcode.app"; do
+  if [ -d "$candidate/Contents/Developer" ]; then XCODE_APP="$candidate"; break; fi
+done
+if [ -z "$XCODE_APP" ] && command -v mdfind >/dev/null 2>&1; then
+  XCODE_APP="$(mdfind "kMDItemCFBundleIdentifier == 'com.apple.dt.Xcode'" 2>/dev/null | head -n 1 || true)"
+  [ -n "$XCODE_APP" ] && [ ! -d "$XCODE_APP/Contents/Developer" ] && XCODE_APP=""
 fi
+
+if [ -z "$XCODE_APP" ]; then
+  warn "Xcode itself is not installed - only Apple's Command Line Tools."
+  echo
+  echo "    The Command Line Tools provide a /usr/bin/xcodebuild shim, which is why"
+  echo "    'xcodebuild' appears to exist. It cannot build an iOS app."
+  echo
+  echo "    Install Xcode from the App Store (a ~10GB download):"
+  echo "      open 'macappstores://apps.apple.com/app/xcode/id497799835'"
+  echo
+  echo "    Then launch it once to finish setup, and re-run this script."
+  echo
+  die "Xcode is required to build the app."
+fi
+ok "Xcode found at $XCODE_APP"
 
 DEVELOPER_DIR_PATH="$(xcode-select -p 2>/dev/null || true)"
 case "$DEVELOPER_DIR_PATH" in
-  *CommandLineTools*|"")
-    warn "xcode-select points at the Command Line Tools, not Xcode itself."
+  "$XCODE_APP"/*) ok "developer dir: $DEVELOPER_DIR_PATH" ;;
+  *)
+    warn "xcode-select points at ${DEVELOPER_DIR_PATH:-nothing}, not at Xcode."
     echo
     echo "    Fix it with:"
-    echo "      sudo xcode-select -s /Applications/Xcode.app/Contents/Developer"
+    echo "      sudo xcode-select -s '$XCODE_APP/Contents/Developer'"
     echo
     die "Re-run this script afterwards."
     ;;
 esac
-ok "developer dir: $DEVELOPER_DIR_PATH"
 
 # `xcodebuild -version` fails until the licence is accepted, so surface that clearly.
 if ! XCODE_VERSION_RAW="$(xcodebuild -version 2>/dev/null)"; then
-  warn "Xcode will not report its version - the licence is probably unaccepted."
+  warn "Xcode will not report its version - its licence is probably unaccepted."
   echo
-  echo "    Run these, then try again:"
+  echo "    Run these two, then re-run this script:"
   echo "      sudo xcodebuild -license accept"
   echo "      sudo xcodebuild -runFirstLaunch"
   echo
-  die "Xcode needs first-launch setup."
+  die "Xcode needs its one-time first-launch setup."
 fi
 
 XCODE_VERSION="$(printf '%s' "$XCODE_VERSION_RAW" | awk 'NR==1{print $2}')"
