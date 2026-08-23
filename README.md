@@ -80,19 +80,43 @@ need this — it reads the raw file from GitHub directly.
 
 ### 6. Build the app
 
-Open `ios/MorningBrief/MorningBrief.xcodeproj` in **Xcode 16 or newer**, set your
-signing team on the target, and run it on your iPhone. Allow notifications when
-asked.
+On your Mac:
 
-A free Apple ID works; Apple expires free provisioning profiles after 7 days, so
-you would re-run from Xcode weekly. A paid developer account ($99/yr) makes the
-build last a year.
+```bash
+git clone https://github.com/philkellner/morning-brief.git
+cd morning-brief
+./ios/setup-mac.sh --build
+```
 
-If the project file will not open, regenerate it:
+That checks your toolchain, compiles the app for the simulator, and opens Xcode.
+The `--build` step is the one that matters: it compiles without needing any
+Apple account or signing setup, so you find out whether the code is sound before
+touching provisioning. If it fails, it prints the compiler errors.
+
+Other options:
+
+```bash
+./ios/setup-mac.sh                    # check the toolchain and open Xcode
+./ios/setup-mac.sh --team ABC1234567  # write your signing team into the project
+./ios/setup-mac.sh --build --no-open  # verify it compiles, open nothing
+```
+
+Then in Xcode: pick your Team under the target's **Signing & Capabilities** tab,
+choose your iPhone, and press Run. Allow notifications when asked, and use
+**Settings → Send a test notification** to confirm delivery without waiting for
+06:00.
+
+Requires **Xcode 16 or newer** — the project uses the newer file-system
+synchronized group format, so adding Swift files never means editing the project
+file. On an older Xcode, regenerate it:
 
 ```bash
 brew install xcodegen && cd ios/MorningBrief && xcodegen generate
 ```
+
+A free Apple ID works; Apple expires free provisioning profiles after 7 days, so
+you would re-run from Xcode weekly. A paid developer account ($99/yr) makes the
+build last a year.
 
 ---
 
