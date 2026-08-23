@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-08-23",
-  "generatedAt": "2026-08-23T10:21:57.489Z",
+  "generatedAt": "2026-08-23T16:29:25.347Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,50 +12,38 @@
   },
   "feeds": {
     "attempted": 35,
-    "succeeded": 34,
-    "failed": [
-      {
-        "id": "newsweek",
-        "error": "HTTP 404"
-      }
-    ]
+    "succeeded": 35,
+    "failed": []
   },
   "stories": [
     {
       "rank": 1,
       "id": "2026-08-23-rrk7lo",
       "title": "Canada will match US tariffs 'dollar for dollar,' Carney says",
-      "summary": "Canada and the US failed to reach a trade deal late on Aug 21 after days of tense negotiations.",
+      "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
       "url": "https://www.euronews.com/2026/08/22/canada-will-match-us-tariffs-dollar-for-dollar-carney-says",
       "headlineSource": "Euronews",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-08-23T09:47:28.000Z",
-      "sourceCount": 17,
-      "leanCount": 3,
-      "leanSpread": 0.5,
+      "summarySource": "BBC News",
+      "publishedAt": "2026-08-23T15:54:36.000Z",
+      "sourceCount": 18,
+      "leanCount": 4,
+      "leanSpread": 1,
       "wireCount": 11,
-      "score": 22.06,
+      "score": 24.79,
       "scoreComponents": {
-        "breadth": 12.51,
-        "diversity": 3.9,
+        "breadth": 12.74,
+        "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.45,
+        "freshness": 2.44,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Trump's 50% tariffs on Canada take effect as Carney vows to retaliate",
-          "url": "https://abcnews.com/Business/trumps-proposed-tariffs-canada-hurtle-deadline-amid-trade/story?id=135833861"
-        },
-        {
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
-          "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates?traffic_source=rss"
+          "title": "Canada, US and tit-for-tat tariffs: How will they impact their economies?",
+          "url": "https://www.aljazeera.com/news/2026/8/23/canada-us-and-tit-for-tat-tariffs-how-will-it-impact-their-economies?traffic_source=rss"
         },
         {
           "source": "BBC News",
@@ -93,10 +81,17 @@
           "url": "https://www.france24.com/en/us-canada-trade-dispute-escalates-after-carney-announces-retaliatory-tariffs"
         },
         {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Canadian PM Mark Carney claims country ‘at war’ with Trump on trade after tariffs: ‘We got attacked’",
+          "url": "https://nypost.com/2026/08/23/us-news/canadian-pm-mark-carney-says-country-at-war-with-president-trump-on-trade-we-got-attacked/"
+        },
+        {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
+          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
           "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
         },
         {
@@ -117,22 +112,22 @@
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "Canada’s Carney refuses to take Trump’s ‘bait’, confronting US in trade war",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3364948/canadas-carney-refuses-take-trumps-bait-confronting-us-trade-war"
+          "title": "US warns Canada not to think it can win ‘devastating’ trade war",
+          "url": "https://www.scmp.com/news/us/economy-trade-business/article/3364988/us-warns-canada-not-think-it-can-win-devastating-trade-war"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Canada vows ‘dollar for dollar’ response as US puts 50% tariffs on some goods",
-          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+          "title": "‘No more!!!’: Trump lashes out after US-Canada talks devolve into trade war",
+          "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
         },
         {
           "source": "The Hill",
           "sourceId": "thehill",
           "lean": "center",
-          "title": "Sunday shows preview: Canada faces off in trade ‘war’ with U.S. amid national debt woes; Republicans gear up for upcoming primaries",
-          "url": "https://thehill.com/homenews/sunday-talk-shows/6045326-sunday-shows-trump-canada-trade-republican-primaries/"
+          "title": "Trump accuses Canada of wanting 'benefits of being a State, without being one' amid trade war",
+          "url": "https://thehill.com/homenews/administration/6045531-trump-canada-tariffs-retaliation/"
         },
         {
           "source": "The Japan Times",
@@ -152,15 +147,22 @@
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Canada to retaliate for US tariffs, worsening ties after talks fail",
-          "url": "https://www.straitstimes.com/world/canada-to-impose-retaliatory-tariffs-across-a-raft-of-us-sectors-pm-carney-says"
+          "title": "Trump’s top trade representative details offer that Canada refused",
+          "url": "https://www.straitstimes.com/world/trumps-top-trade-representative-details-offer-that-canada-refused"
         },
         {
           "source": "Times of India",
           "sourceId": "toi",
           "lean": "center",
-          "title": "US FTA proposal: What are the '3 American demands' that became deal breaker for Canada",
-          "url": "https://timesofindia.indiatimes.com/business/international-business/us-fta-proposal-what-are-the-3-american-demands-that-became-deal-breaker-for-canada/articleshow/133434404.cms"
+          "title": "Trump tariffs: What India can learn from Canada’s failed trade talks with US",
+          "url": "https://timesofindia.indiatimes.com/business/india-business/trump-tariffs-what-india-can-learn-from-canadas-failed-trade-talks-with-us/articleshow/133441067.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Canada ‘doesn’t have a military,’ Duffy says as cross-border trade war ignites",
+          "url": "https://www.washingtonexaminer.com/policy/economy/4697624/canada-military-sean-duffy-tariff-trade-war/"
         }
       ]
     },
@@ -168,19 +170,19 @@
       "rank": 2,
       "id": "2026-08-23-xko03u",
       "title": "Iran warns countries against joining US 'economic war'",
-      "summary": "Official says any state joining US would be considered an enemy and Tehran would target their interests in retaliation.",
+      "summary": "Iranian President Masoud Pezeshkian says Iran has stood firm despite what he calls a full-scale war.",
       "url": "https://www.dw.com/en/iran-warns-countries-against-joining-us-economic-war/a-78473222?maca=en-rss-en-all-1573-rdf",
       "headlineSource": "Deutsche Welle",
       "summarySource": "Al Jazeera",
-      "publishedAt": "2026-08-23T09:58:29.000Z",
-      "sourceCount": 12,
-      "leanCount": 3,
-      "leanSpread": 0.5,
+      "publishedAt": "2026-08-23T16:02:38.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
       "wireCount": 7,
-      "score": 20.66,
+      "score": 23.48,
       "scoreComponents": {
-        "breadth": 11.1,
-        "diversity": 3.9,
+        "breadth": 11.42,
+        "diversity": 6.4,
         "wire": 3.2,
         "freshness": 2.46,
         "softPenalty": 0
@@ -190,29 +192,15 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Iran war live: Tehran warns neighbours against joining US economic war",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war?traffic_source=rss"
-        },
-        {
-          "source": "Associated Press (mirror)",
-          "sourceId": "ap_mirror",
-          "lean": "center",
-          "title": "Iran’s president says US memorandum is best path out of stalled war, and other Middle East news",
-          "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f"
+          "title": "Pezeshkian says Iran ‘has not become Venezuela’ despite war and sanctions",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/23-08-clip-pezeshkian-iran-ir-fm?traffic_source=rss"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Iran says any country joining U.S. sanctions on Tehran is considered an \"enemy\"",
+          "title": "Iran's president defends U.S. memorandum of understanding as best path forward",
           "url": "https://www.cbsnews.com/live-updates/iran-war-trump-economic-crackdown/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'",
-          "url": "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html"
         },
         {
           "source": "Deutsche Welle",
@@ -229,6 +217,20 @@
           "url": "https://www.france24.com/en/iran-escalates-threats-as-us-pushes-economic-isolation"
         },
         {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Iran’s top civilian leaders push for cutting a deal with Trump to end the war: ‘We will not endure’",
+          "url": "https://nypost.com/2026/08/23/us-news/irans-top-civilian-leaders-push-for-cutting-a-deal-with-president-trump-to-end-the-war/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Iran's president says U.S. memorandum is best path out of stalled war, and other Middle East news",
+          "url": "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news"
+        },
+        {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
@@ -239,8 +241,15 @@
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Iran’s new security chief says neighbours who join US economic war will be considered ‘enemies’",
+          "title": "Iran’s foreign minister calls threat of new US economic sanctions ‘desperate’",
           "url": "https://www.theguardian.com/world/2026/aug/23/iran-new-security-chief-trump-economic-war-enemies-mohsen-rezaei"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Iran warns Middle East neighbors against joining US 'economic war'",
+          "url": "https://thehill.com/policy/international/6045556-iran-warns-middle-east-us-economic-war/"
         },
         {
           "source": "The Independent",
@@ -257,18 +266,18 @@
           "url": "https://www.japantimes.co.jp/news/2026/08/23/world/trump-economic-isolation-iran-strikes-gulf/"
         },
         {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Iran Warns Gulf States Not to Join Trump’s Economic War",
+          "url": "https://www.nytimes.com/2026/08/23/world/europe/iran-economy-war-united-states.html"
+        },
+        {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Iran executes man accused of aiding US, Israel in anti-govt protests",
-          "url": "https://www.straitstimes.com/world/middle-east/iran-executes-man-accused-of-aiding-us-israel-in-anti-govt-protests"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Pezeshkian sounds alarm, says Iran in 'full-scale war' as US sanctions loom",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/pezeshkian-admits-many-problems-says-iran-is-in-full-scale-war-as-us-sanctions-loom/articleshow/133437667.cms"
+          "title": "Iran says new sanctions threatened by 'desperate' US will fail",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-says-new-sanctions-threatened-by-desperate-us-will-fail"
         }
       ]
     },
@@ -280,20 +289,27 @@
       "url": "https://www.straitstimes.com/world/europe/zelensky-rejects-wartime-elections-says-would-split-ukraine",
       "headlineSource": "The Straits Times",
       "summarySource": "BBC News",
-      "publishedAt": "2026-08-23T09:53:06.000Z",
-      "sourceCount": 8,
+      "publishedAt": "2026-08-23T14:49:42.000Z",
+      "sourceCount": 13,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 5,
-      "score": 19.06,
+      "wireCount": 8,
+      "score": 20.87,
       "scoreComponents": {
-        "breadth": 9.51,
+        "breadth": 11.42,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.45,
+        "freshness": 2.35,
         "softPenalty": 0
       },
       "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Zelenskyy says wartime elections could ‘destroy’ Ukraine",
+          "url": "https://www.aljazeera.com/news/2026/8/23/zelenskyy-says-wartime-elections-could-destroy-ukraine?traffic_source=rss"
+        },
         {
           "source": "BBC News",
           "sourceId": "bbc",
@@ -312,29 +328,43 @@
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "Ukraine: Could ex-defense minister challenge Zelenskyy?",
-          "url": "https://www.dw.com/en/ukraine-could-ex-defense-minister-challenge-zelenskyy/a-78469496?maca=en-rss-en-all-1573-rdf"
+          "title": "Ukraine: Zelenskyy rejects wartime elections",
+          "url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Ukraine: Zelensky asks for more Patriot interceptors as civilian deaths hit highest level since 2022",
-          "url": "https://www.france24.com/en/ukraine-zelensky-asks-for-more-patriot-interceptors-as-civilian-deaths-hit-highest-level-since-2022"
+          "title": "Zelensky rejects wartime elections, saying vote would 'split' Ukraine",
+          "url": "https://www.france24.com/en/zelensky-rejects-wartime-elections-saying-vote-would-split-ukraine"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Russia Strikes Ukraine After Putin 'Pandora's Box' Warning",
+          "url": "https://www.newsweek.com/russia-strikes-ukraine-putin-pandora-box-warning-12357115"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Putin wants to draft 300,000 new troops for war, Ukraine’s Zelensky says",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364985/putin-wants-draft-300000-new-troops-war-ukraines-zelensky-says"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Attack on Ukraine shopping centre that killed 16 is ‘terror by design’, says EU foreign policy chief",
-          "url": "https://www.theguardian.com/world/2026/aug/22/ukraine-shopping-centre-attack-deaths-russia-terror-by-design-kaja-kallas-kryvyi-rih"
+          "title": "Holding election in wartime would risk destroying Ukraine, says Zelenskyy",
+          "url": "https://www.theguardian.com/world/2026/aug/23/ukraine-election-wartime-risk-russia-zelenskyy"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Zelensky vows revenge after Russian double-tap strike on shopping mall in his hometown kills 16",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-shopping-mall-zelensky-b3037469.html"
+          "title": "Ukraine-Russia war latest: Zelensky claims Putin is drafting 300,000 troops and gives warning on wartime elections",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-missiles-ambassador-b3037670.html"
         },
         {
           "source": "The Japan Times",
@@ -344,36 +374,57 @@
           "url": "https://www.japantimes.co.jp/news/2026/08/23/world/politics/putin-economic-impact-ukraine-strikes/"
         },
         {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Zelensky Says His Ex-Defense Minister Was Wrong to Call for Elections",
+          "url": "https://www.nytimes.com/2026/08/23/world/europe/ukraine-zelensky-fedorov-elections.html"
+        },
+        {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
           "title": "Zelensky rejects wartime elections, says would ‘split’ Ukraine",
           "url": "https://www.straitstimes.com/world/europe/zelensky-rejects-wartime-elections-says-would-split-ukraine"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "‘600-630 of most potent type weapon’: Zelenskyy’s warning on Russian missile arsenal",
+          "url": "https://timesofindia.indiatimes.com/defence/international/600-630-of-most-potent-type-weapon-zelenskyys-big-warning-on-russian-missile-stockpile/articleshow/133440562.cms"
         }
       ]
     },
     {
       "rank": 4,
-      "id": "2026-08-23-1b3ddk6",
-      "title": "White House ballroom will cost nearly $400m as Supreme Court allows work to continue",
+      "id": "2026-08-23-a1c33s",
+      "title": "Carney faces crucial test after walking away from Trump's deal",
       "summary": "US President Donald Trump says the project is being funded by private donors and companies.",
-      "url": "https://www.euronews.com/2026/08/22/white-house-ballroom-will-cost-nearly-400m-as-supreme-court-allows-work-to-continue",
-      "headlineSource": "Euronews",
+      "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo",
+      "headlineSource": "BBC News",
       "summarySource": "Euronews",
-      "publishedAt": "2026-08-23T02:07:04.000Z",
-      "sourceCount": 7,
+      "publishedAt": "2026-08-23T15:21:21.000Z",
+      "sourceCount": 9,
       "leanCount": 4,
       "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 18.27,
+      "wireCount": 4,
+      "score": 20.81,
       "scoreComponents": {
-        "breadth": 9,
+        "breadth": 9.97,
         "diversity": 5.85,
-        "wire": 1.6,
-        "freshness": 1.82,
-        "softPenalty": 0
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": -0.6
       },
       "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Carney faces crucial test after walking away from Trump's deal",
+          "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo"
+        },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
@@ -396,25 +447,25 @@
           "url": "https://www.euronews.com/2026/08/22/white-house-ballroom-will-cost-nearly-400m-as-supreme-court-allows-work-to-continue"
         },
         {
+          "source": "National Review",
+          "sourceId": "nationalreview",
+          "lean": "right",
+          "title": "Defending the Supreme Court’s Legitimacy",
+          "url": "https://www.nationalreview.com/2026/08/defending-the-supreme-courts-legitimacy/"
+        },
+        {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "From White House ballroom to IndyCar race, Trump's spectacles take center stage in D.C.",
-          "url": "https://www.pbs.org/newshour/show/from-white-house-ballroom-to-indycar-race-trumps-spectacles-take-center-stage-in-d-c"
+          "title": "Trump will kick off the IndyCar race before cars zoom through Washington's streets",
+          "url": "https://www.pbs.org/newshour/politics/trump-will-kick-off-the-indycar-race-before-cars-zoom-through-washingtons-streets"
         },
         {
           "source": "Reason",
           "sourceId": "reason",
           "lean": "center-right",
-          "title": "Today in Supreme Court History: August 22, 1998",
-          "url": "https://reason.com/volokh/2026/08/22/today-in-supreme-court-history-august-22-1998-6/"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Collins asks White House to consider 'negative impact' of Canada trade war",
-          "url": "https://thehill.com/homenews/senate/6045413-susan-collins-canada-trade-war-negative-impact/"
+          "title": "Today in Supreme Court History: August 23, 2007",
+          "url": "https://reason.com/volokh/2026/08/23/today-in-supreme-court-history-august-23-2007-6/"
         },
         {
           "source": "The Independent",
@@ -422,177 +473,38 @@
           "lean": "center-left",
           "title": "Trump gloats over ballroom construction with new photo after Supreme Court allows him to keep on building – for now",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ballroom-construction-supreme-court-b3037557.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "From roses to stone and statues: Trump's makeover of White House Rose Garden",
+          "url": "https://timesofindia.indiatimes.com/real-estate/news/from-roses-to-stone-and-statues-trumps-makeover-of-white-house-rose-garden/articleshow/133436026.cms"
         }
       ]
     },
     {
       "rank": 5,
-      "id": "2026-08-23-c1cuf8",
-      "title": "Chinese robot beats Usain Bolt's 100m world record",
-      "summary": "The second-edition of the five-day competition kicked off in Beijing, China, on Saturday.",
-      "url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-08-23T09:59:13.000Z",
-      "sourceCount": 7,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 6,
-      "score": 16.61,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 1.95,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Chinese robot beats Usain Bolt’s 100m world record at humanoid games",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/chinese-robot-beats-usain-bolts-100m-world-record-at-humanoid-games?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Robots compete in boxing, football and sprinting at World Humanoid Games",
-          "url": "https://www.bbc.co.uk/news/videos/c7vgvj6e1emo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Chinese humanoid robot beats Usain Bolt's sprint world record",
-          "url": "https://www.cbsnews.com/news/china-robot-usain-bolt-sprint-run-record-faster/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Chinese robot beats Usain Bolt's 100m world record",
-          "url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Chinese humanoid robot beats Bolt's 100-metre world record time",
-          "url": "https://www.euronews.com/2026/08/23/chinese-humanoid-robot-beats-bolts-100-metre-world-record-time"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Are humanoid robots the future? Chinese makers instead highlight practical design",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3364911/are-humanoid-robots-future-chinese-makers-instead-highlight-practical-design"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Robots can outrun humans, but can they plug in a cable?",
-          "url": "https://www.japantimes.co.jp/news/2026/08/23/asia-pacific/science-health/robots-outrun-humans-future/"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-08-23-a1c33s",
-      "title": "Carney faces crucial test after walking away from Trump's deal",
-      "summary": "Provincial premiers have joined Canada’s Prime Minister Mark Carney, firing back after US President imposed tariffs.",
-      "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo",
-      "headlineSource": "BBC News",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-08-23T06:15:08.000Z",
-      "sourceCount": 6,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 4,
-      "score": 15.71,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 1.95,
-        "wire": 3.2,
-        "freshness": 2.13,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/you-just-cant-trust-trump-canadian-premiers-fire-back-in-trade-war?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Carney faces crucial test after walking away from Trump's deal",
-          "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Canadian PM Carney says new US tariffs are 'designed to hurt us and divide us'",
-          "url": "https://www.euronews.com/2026/08/23/canadian-pm-carney-says-new-us-tariffs-are-designed-to-hurt-us-and-divide-us"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Canadian Prime Minister Mark Carney calls new U.S. tariffs ‘a miscalculation’",
-          "url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
-          "url": "https://www.pbs.org/newshour/economy/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Canadian PM says country ‘at war’ with US on trade and fires back at Trump’s 50% tariffs with retaliatory measures",
-          "url": "https://www.independent.co.uk/news/world/americas/canada-tariffs-us-carney-trump-feud-b3037587.html"
-        }
-      ]
-    },
-    {
-      "rank": 7,
       "id": "2026-08-23-9kyy18",
       "title": "Girl, 17, killed in Swedish sword attack, police say",
-      "summary": "Two boys aged 12 and 17 were also injured, while an 18-year-old suspect has been detained.",
+      "summary": "Police on Aug 22 identified the one fatality in the attack as a 17-year-old girl.",
       "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo",
       "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-08-23T01:34:15.000Z",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-08-23T12:27:00.000Z",
       "sourceCount": 6,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 2,
-      "score": 15.7,
+      "wireCount": 3,
+      "score": 16.86,
       "scoreComponents": {
         "breadth": 8.42,
         "diversity": 3.9,
-        "wire": 1.6,
-        "freshness": 1.78,
+        "wire": 2.4,
+        "freshness": 2.14,
         "softPenalty": 0
       },
       "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Victim of sword attack at Swedish school was a 17-year-old girl",
-          "url": "https://abcnews.com/International/wireStory/victim-sword-attack-swedish-school-17-year-girl-135861734"
-        },
         {
           "source": "BBC News",
           "sourceId": "bbc",
@@ -627,28 +539,108 @@
           "lean": "left",
           "title": "Seventeen-year-old girl killed in sword attack at school in Sweden",
           "url": "https://www.theguardian.com/world/2026/aug/22/seventeen-year-old-girl-killed-in-sword-attack-at-school-in-sweden"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Sweden remands school sword attack suspect in custody",
+          "url": "https://www.straitstimes.com/world/europe/sweden-remands-school-sword-attack-suspect-in-custody"
         }
       ]
     },
     {
-      "rank": 8,
-      "id": "2026-08-23-11jfk53",
-      "title": "Flooding across Caracas, Venezuela, after heavy rains",
-      "summary": "S. companies need a pathway to convert Venezuela’s energy resources into computing capacity.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/flooding-across-caracas-venezuela-after-heavy-rains?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "National Review",
-      "publishedAt": "2026-08-23T09:45:24.000Z",
-      "sourceCount": 3,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 14.49,
+      "rank": 6,
+      "id": "2026-08-23-c1cuf8",
+      "title": "Chinese robot beats Usain Bolt's 100m world record",
+      "summary": "The second-edition of the five-day competition kicked off in Beijing, China, on Saturday.",
+      "url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-08-23T12:47:06.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 6,
+      "score": 16.32,
       "scoreComponents": {
-        "breadth": 6,
-        "diversity": 4.45,
-        "wire": 1.6,
-        "freshness": 2.44,
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.17,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Robot boxing, football and sprinting at World Humanoid Games",
+          "url": "https://www.bbc.co.uk/news/videos/c7vgvj6e1emo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Chinese humanoid robot beats Usain Bolt's sprint world record",
+          "url": "https://www.cbsnews.com/news/china-robot-usain-bolt-sprint-run-record-faster/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Chinese robot beats Usain Bolt's 100m world record",
+          "url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Chinese humanoid robot beats Bolt's 100-metre world record time",
+          "url": "https://www.euronews.com/2026/08/23/chinese-humanoid-robot-beats-bolts-100-metre-world-record-time"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Humanoid robot breaks Usain Bolt's 100m record in China",
+          "url": "https://www.france24.com/en/asia-pacific/20260823-humanoid-robots-break-records-at-competition-in-beijing"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Chinese robots tackle tennis, smash track records at World Humanoid Robot Games",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3364977/chinese-robots-tackle-tennis-smash-track-records-world-humanoid-robot-games"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Robots can outrun humans, but can they plug in a cable?",
+          "url": "https://www.japantimes.co.jp/news/2026/08/23/asia-pacific/science-health/robots-outrun-humans-future/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-08-23-vhq4mh",
+      "title": "Congo, M23 rebels agree to peace roadmap",
+      "summary": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
+      "url": "https://www.dw.com/en/congo-m23-rebels-agree-to-peace-roadmap/a-78476169?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-08-23T12:52:08.000Z",
+      "sourceCount": 5,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 15.08,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.17,
         "softPenalty": 0
       },
       "coverage": [
@@ -656,22 +648,88 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Flooding across Caracas, Venezuela, after heavy rains",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/flooding-across-caracas-venezuela-after-heavy-rains?traffic_source=rss"
+          "title": "DR Congo miners risk Ebola to make a living",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/dr-congo-miners-risk-ebola-to-make-a-living?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "DR Congo and M23 rebels agree roadmap for peace talks",
+          "url": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Congo, M23 rebels agree to peace roadmap",
+          "url": "https://www.dw.com/en/congo-m23-rebels-agree-to-peace-roadmap/a-78476169?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Venezuela: Two months after the quake, 12,500 people still live in temporary camps",
-          "url": "https://www.france24.com/en/venezuela-two-months-after-the-quake-12-500-people-still-live-in-temporary-camps"
+          "title": "DR Congo, AFC/M23 group agree on roadmap for peace negotiations after Swiss talks",
+          "url": "https://www.france24.com/en/africa/20260823-dr-congo-afc-m23-group-agree-on-roadmap-for-peace-negotiations-after-swiss-talks"
         },
         {
-          "source": "National Review",
-          "sourceId": "nationalreview",
-          "lean": "right",
-          "title": "Venezuela Just Joined China’s AI Alliance. Washington Should Respond",
-          "url": "https://www.nationalreview.com/2026/08/venezuela-just-joined-chinas-ai-alliance-washington-should-respond/"
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "The desperate race to contain Ebola in DR Congo as deadly outbreak reaches 100 days",
+          "url": "https://www.independent.co.uk/news/world/africa/ebola-congo-outbreak-virus-100-days-b3037227.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-08-23-1v6v4cj",
+      "title": "Man completes 2,800 mile scoot across Australia",
+      "summary": "\"",
+      "url": "https://www.bbc.co.uk/news/articles/clylqlkq5e5o",
+      "headlineSource": "BBC News",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-08-23T15:00:35.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 14.83,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Man completes 2,800 mile scoot across Australia",
+          "url": "https://www.bbc.co.uk/news/articles/clylqlkq5e5o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Australia confirms H5N1 bird flu case in local mammal",
+          "url": "https://www.dw.com/en/australia-confirms-h5n1-bird-flu-case-in-local-mammal/a-78473874?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Australia’s first home buyers are still taking out loans as property investors step back, data shows",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/24/first-home-buyers-property-investors-mortgage-loan"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Australia confirms first H5N1 bird flu case in a mammal",
+          "url": "https://www.independent.co.uk/news/world/australasia/australia-bird-flu-mammal-seal-b3037710.html"
         }
       ]
     },
@@ -683,20 +741,27 @@
       "url": "https://www.dw.com/en/mexican-governor-facing-us-drug-charges-says-leaving-office/a-78473557?maca=en-rss-en-all-1573-rdf",
       "headlineSource": "Deutsche Welle",
       "summarySource": "Christian Science Monitor",
-      "publishedAt": "2026-08-23T05:46:20.000Z",
-      "sourceCount": 4,
+      "publishedAt": "2026-08-23T14:32:06.000Z",
+      "sourceCount": 5,
       "leanCount": 2,
       "leanSpread": 0.25,
       "wireCount": 3,
-      "score": 13.41,
+      "score": 14.42,
       "scoreComponents": {
-        "breadth": 6.97,
+        "breadth": 7.75,
         "diversity": 1.95,
         "wire": 2.4,
-        "freshness": 2.09,
+        "freshness": 2.32,
         "softPenalty": 0
       },
       "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Mexican official accused by U.S. of drug trafficking abruptly resigns again",
+          "url": "https://www.cbsnews.com/news/mexican-governnor-ruben-rocha-moya-sinaloa-resigns-again-us-drug-trafficking/"
+        },
         {
           "source": "Christian Science Monitor",
           "sourceId": "csm",
@@ -729,53 +794,53 @@
     },
     {
       "rank": 10,
-      "id": "2026-08-23-cclf20",
-      "title": "Red faces as Sydney Marathon medal shows German stadium",
-      "summary": "Runners will receive a medal at the 2026 Sydney Marathon with an engraving of a German stadium.",
-      "url": "https://www.dw.com/en/red-faces-as-sydney-marathon-medal-shows-german-stadium/a-78473705?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-08-23T07:26:00.000Z",
+      "id": "2026-08-23-atyi5u",
+      "title": "Iranian hackers disabled UK power plant for four days: Report",
+      "summary": "Incident marks apparent escalation by Tehran in its in retaliation against UK over allowing US to use British bases Hackers linked to Iran have been blamed for a cyber-attack that caused a British power plant to be temporarily shut down. The incident involved…",
+      "url": "https://www.washingtonexaminer.com/news/world/4697562/iran-hackers-uk-power-plant-four-days/",
+      "headlineSource": "Washington Examiner",
+      "summarySource": "The Guardian",
+      "publishedAt": "2026-08-23T14:46:56.000Z",
       "sourceCount": 4,
-      "leanCount": 2,
-      "leanSpread": 0.5,
-      "wireCount": 2,
-      "score": 13.3,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 14.31,
       "scoreComponents": {
         "breadth": 6.97,
-        "diversity": 2.5,
-        "wire": 1.6,
-        "freshness": 2.23,
+        "diversity": 5,
+        "wire": 0,
+        "freshness": 2.34,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "BBC News",
-          "sourceId": "bbc",
+          "source": "CNBC",
+          "sourceId": "cnbc",
           "lean": "center",
-          "title": "'We're not going to run from it': Sydney Marathon laughs off medal error",
-          "url": "https://www.bbc.co.uk/news/articles/cn4n4l1yyvro"
+          "title": "Small UK power generator shut down after cyberattack linked to Iran: Telegraph",
+          "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html"
         },
         {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Red faces as Sydney Marathon medal shows German stadium",
-          "url": "https://www.dw.com/en/red-faces-as-sydney-marathon-medal-shows-german-stadium/a-78473705?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Marathon organisers admit 'unfortunate error' after wrong stadium etched on to medals",
-          "url": "https://news.sky.com/story/sydney-marathon-organisers-admit-unfortunate-error-after-bayern-munichs-allianz-arena-etched-onto-medals-13576195"
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Iranian hackers 'shut down British power plant for four days' in unprecedented cyber attack",
+          "url": "https://www.dailymail.com/news/article-16072999/Iranian-hackers-shut-British-power-plant-four-days.html"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Sydney Marathon admits ‘unfortunate error’ as finisher’s medal depicts Munich stadium as race highlight",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/23/sydney-marathon-medal-allianz-stadium-munich-germany-unfortunate-error"
+          "title": "Iran-linked hackers blamed for cyber-attack that shut down UK power plant",
+          "url": "https://www.theguardian.com/world/2026/aug/23/iran-linked-hackers-blamed-cyber-attack-british-power-plant"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Iranian hackers disabled UK power plant for four days: Report",
+          "url": "https://www.washingtonexaminer.com/news/world/4697562/iran-hackers-uk-power-plant-four-days/"
         }
       ]
     }
