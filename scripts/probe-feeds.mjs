@@ -2,7 +2,7 @@
 // Checks every feed in sources.json and reports which are usable.
 // Feeds move and die; run this whenever the digest looks thin.
 //
-//   node scripts/probe-feeds.mjs [--json]
+//   node scripts/probe-feeds.mjs [--json] [--file candidates.json]
 
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
@@ -12,8 +12,10 @@ import { parseFeed } from './lib/rss.mjs';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const USER_AGENT = 'morning-brief/1.0 (+https://github.com/philkellner/morning-brief)';
 const asJson = process.argv.includes('--json');
+const fileIndex = process.argv.indexOf('--file');
+const sourceFile = fileIndex > -1 ? process.argv[fileIndex + 1] : 'sources.json';
 
-const { sources } = JSON.parse(await readFile(resolve(ROOT, 'sources.json'), 'utf8'));
+const { sources } = JSON.parse(await readFile(resolve(ROOT, sourceFile), 'utf8'));
 
 const probe = async (source) => {
   const started = Date.now();

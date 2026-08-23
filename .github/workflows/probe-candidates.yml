@@ -1,0 +1,16 @@
+name: Probe candidate feeds
+
+# Temporary helper: checks candidates.json rather than the live source list.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/probe-feeds.mjs --file candidates.json
+        continue-on-error: true

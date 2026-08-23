@@ -1,0 +1,27 @@
+{
+  "_comment": "Scratch list probed on GitHub's network to find replacements for dead feeds. Not used by the build.",
+  "sources": [
+    { "id": "ap_feedx",     "name": "AP (mirror)",            "lean": "center",      "wire": true,  "url": "https://feedx.net/rss/ap.xml" },
+    { "id": "ap_hub",       "name": "AP (topnews)",           "lean": "center",      "wire": true,  "url": "https://apnews.com/index.rss" },
+    { "id": "reuters_arc",  "name": "Reuters (world)",        "lean": "center",      "wire": true,  "url": "https://www.reuters.com/rssfeed/world" },
+    { "id": "reuters_ag",   "name": "Reuters agency",         "lean": "center",      "wire": true,  "url": "https://www.reutersagency.com/feed/" },
+    { "id": "upi_alt",      "name": "UPI (alt)",              "lean": "center",      "wire": true,  "url": "https://www.upi.com/rss/top_news.rss" },
+    { "id": "cbc_top",      "name": "CBC (top stories)",      "lean": "center-left", "wire": true,  "url": "https://www.cbc.ca/webfeed/rss/rss-topstories" },
+    { "id": "washtimes_pol","name": "Washington Times (pol)", "lean": "right",       "wire": false, "url": "https://www.washingtontimes.com/rss/headlines/news/politics/" },
+    { "id": "pbs",          "name": "PBS NewsHour",           "lean": "center-left", "wire": true,  "url": "https://www.pbs.org/newshour/feeds/rss/headlines" },
+    { "id": "euronews",     "name": "Euronews",               "lean": "center",      "wire": true,  "url": "https://www.euronews.com/rss?level=theme&name=news" },
+    { "id": "scmp",         "name": "South China Morning Post","lean": "center",     "wire": true,  "url": "https://www.scmp.com/rss/91/feed" },
+    { "id": "toi",          "name": "Times of India",         "lean": "center",      "wire": true,  "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms" },
+    { "id": "japantimes",   "name": "The Japan Times",        "lean": "center",      "wire": true,  "url": "https://www.japantimes.co.jp/feed/" },
+    { "id": "bloomberg",    "name": "Bloomberg",              "lean": "center",      "wire": false, "url": "https://feeds.bloomberg.com/politics/news.rss" },
+    { "id": "independent",  "name": "The Independent",        "lean": "center-left", "wire": false, "url": "https://www.independent.co.uk/news/world/rss" },
+    { "id": "politico",     "name": "Politico",               "lean": "center-left", "wire": false, "url": "https://rss.politico.com/politics-news.xml" },
+    { "id": "freebeacon",   "name": "Washington Free Beacon", "lean": "right",       "wire": false, "url": "https://freebeacon.com/feed/" },
+    { "id": "nationalreview","name": "National Review",       "lean": "right",       "wire": false, "url": "https://www.nationalreview.com/feed/" },
+    { "id": "reason",       "name": "Reason",                 "lean": "center-right","wire": false, "url": "https://reason.com/latest/feed/" },
+    { "id": "dailycaller",  "name": "Daily Caller",           "lean": "right",       "wire": false, "url": "https://dailycaller.com/feed/" },
+    { "id": "thefederalist","name": "The Federalist",         "lean": "right",       "wire": false, "url": "https://thefederalist.com/feed/" },
+    { "id": "csmonitor_us", "name": "CSM (USA)",              "lean": "center",      "wire": true,  "url": "https://rss.csmonitor.com/feeds/usa" },
+    { "id": "abcau",        "name": "ABC Australia",          "lean": "center",      "wire": true,  "url": "https://www.abc.net.au/news/feed/2942460/rss.xml" }
+  ]
+}
