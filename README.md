@@ -125,10 +125,16 @@ build last a year.
 The hour of slack matters. GitHub's scheduled runs are queued, not guaranteed
 punctual, and the phone needs time to pick the new file up.
 
-GitHub cron only speaks UTC and has no notion of daylight saving, so
-`digest.yml` fires at both 10:00 and 11:00 UTC and the job's first step drops
-whichever one is not 05:00 in Chicago. You get 05:00 local year-round without
-touching the cron twice a year.
+GitHub cron only speaks UTC and has no notion of daylight saving, so `digest.yml`
+fires at both 10:00 and 11:00 UTC — one of which is 05:00 in Chicago whichever
+side of a DST change you are on.
+
+Rather than testing the clock hour, the job asks whether today's digest has been
+built yet: whichever run arrives first does the work, and the second finds today's
+edition already committed and stops. That matters because scheduled runs are
+queued, not punctual — the first real one slipped 21 minutes — and an
+"is it 05:00?" test would fail on *both* firings if a run drifted across the hour
+boundary, silently costing you a day.
 
 To change the delivery time, use **Settings** in the app — it reschedules
 immediately. If you move it earlier than 05:45, also shift the cron in

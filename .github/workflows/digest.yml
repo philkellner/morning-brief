@@ -26,23 +26,35 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Decide whether this run is the 05:00 Chicago one
+      - uses: actions/checkout@v4
+
+      # GitHub cron is UTC-only and has no notion of daylight saving, so the
+      # workflow fires at both candidate hours. Deciding by clock hour turned out
+      # to be fragile: scheduled runs are queued, not punctual (the first real
+      # one slipped 21 minutes), and a run delayed across the hour boundary would
+      # fail an "is it 05:00?" test on BOTH firings, silently costing a day.
+      #
+      # So the gate asks the question that actually matters: has today's digest
+      # been built yet? Whichever run arrives first does the work; the second
+      # finds today's edition already committed and stops. That is correct under
+      # CDT, under CST, and under any delay short of a full day.
+      - name: Decide whether today's digest still needs building
         id: gate
         run: |
-          HOUR=$(TZ=America/Chicago date +%H)
-          echo "Local Chicago hour: $HOUR"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual run - proceeding."
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          elif [ "$HOUR" = "05" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Not 05:00 in Chicago - this is the off-season duplicate. Skipping."
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
+          TODAY="$(TZ=America/Chicago date +%F)"
+          CURRENT="$(node -p "require('./docs/digest.json').edition" 2>/dev/null || echo none)"
+          echo "Chicago date: $TODAY / committed edition: $CURRENT"
 
-      - uses: actions/checkout@v4
-        if: steps.gate.outputs.run == 'true'
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run - building regardless."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$CURRENT" = "$TODAY" ]; then
+            echo "Today's digest is already committed. Nothing to do."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "No digest for today yet - building."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-node@v4
         if: steps.gate.outputs.run == 'true'
