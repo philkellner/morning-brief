@@ -1,0 +1,33 @@
+# Fallback project definition for XcodeGen (https://github.com/yonaskolb/XcodeGen).
+#
+# The checked-in MorningBrief.xcodeproj should open directly in Xcode 16 or newer.
+# If it does not, regenerate it from this spec instead:
+#
+#   brew install xcodegen && cd ios/MorningBrief && xcodegen generate
+name: MorningBrief
+options:
+  bundleIdPrefix: com.philkellner
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+targets:
+  MorningBrief:
+    type: application
+    platform: iOS
+    sources:
+      - path: MorningBrief
+    info:
+      path: MorningBrief/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.philkellner.MorningBrief
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: MorningBrief/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ENABLE_PREVIEWS: YES

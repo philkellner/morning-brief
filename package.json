@@ -1,0 +1,16 @@
+{
+  "name": "morning-brief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily top-10 news digest ranked by cross-source consensus.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build-digest.mjs",
+    "preview": "node scripts/build-digest.mjs --dry-run",
+    "demo": "node scripts/build-digest.mjs --fixture scripts/fixtures/headlines.json --dry-run",
+    "probe": "node scripts/probe-feeds.mjs",
+    "test": "node --test scripts/test.mjs"
+  },
+  "license": "MIT"
+}

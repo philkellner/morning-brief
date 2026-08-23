@@ -1,0 +1,18 @@
+name: Probe feeds
+
+# Feeds move and die. Run this manually whenever the digest looks thin, or on the
+# first Monday of the month to catch rot before it costs you a morning.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 1-7 * 1'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/probe-feeds.mjs

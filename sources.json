@@ -1,0 +1,223 @@
+{
+  "_comment": [
+    "Source registry for the morning brief.",
+    "",
+    "'lean' is a coarse, editorially-contested label. It is NOT used to filter anything out.",
+    "It is used for exactly two things:",
+    "  1. Diversity scoring - a story covered across several leans ranks above a story",
+    "     covered by many outlets that all share one lean.",
+    "  2. Transparency - the app shows you the spread so you can judge it yourself.",
+    "",
+    "'wire' marks agency/wire-service style desks whose house style is closest to",
+    "plain declarative reporting. Wire headlines win ties when picking the headline",
+    "to show, because they are least likely to be framed for engagement.",
+    "",
+    "Add or remove sources freely. The pipeline degrades gracefully: any feed that",
+    "fails to fetch or parse is skipped and reported in the build log."
+  ],
+  "sources": [
+    {
+      "id": "npr",
+      "name": "NPR",
+      "lean": "center-left",
+      "wire": true,
+      "url": "https://feeds.npr.org/1001/rss.xml"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC News",
+      "lean": "center",
+      "wire": true,
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "id": "upi",
+      "name": "UPI",
+      "lean": "center",
+      "wire": true,
+      "url": "https://rss.upi.com/news/top_news.rss"
+    },
+    {
+      "id": "csm",
+      "name": "Christian Science Monitor",
+      "lean": "center",
+      "wire": true,
+      "url": "https://rss.csmonitor.com/feeds/world"
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "lean": "center-left",
+      "wire": true,
+      "url": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "lean": "center",
+      "wire": true,
+      "url": "https://rss.dw.com/rdf/rss-en-all"
+    },
+    {
+      "id": "france24",
+      "name": "France 24",
+      "lean": "center",
+      "wire": true,
+      "url": "https://www.france24.com/en/rss"
+    },
+    {
+      "id": "cbc",
+      "name": "CBC",
+      "lean": "center-left",
+      "wire": true,
+      "url": "https://www.cbc.ca/webfeed/rss/rss-world"
+    },
+    {
+      "id": "skynews",
+      "name": "Sky News",
+      "lean": "center",
+      "wire": false,
+      "url": "https://feeds.skynews.com/feeds/rss/world.xml"
+    },
+    {
+      "id": "abc",
+      "name": "ABC News",
+      "lean": "center-left",
+      "wire": false,
+      "url": "https://abcnews.go.com/abcnews/topstories"
+    },
+    {
+      "id": "cbs",
+      "name": "CBS News",
+      "lean": "center-left",
+      "wire": false,
+      "url": "https://www.cbsnews.com/latest/rss/world"
+    },
+    {
+      "id": "nbc",
+      "name": "NBC News",
+      "lean": "center-left",
+      "wire": false,
+      "url": "https://feeds.nbcnews.com/nbcnews/public/world"
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "lean": "left",
+      "wire": false,
+      "url": "https://www.theguardian.com/world/rss"
+    },
+    {
+      "id": "nytimes",
+      "name": "The New York Times",
+      "lean": "center-left",
+      "wire": false,
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+    },
+    {
+      "id": "thehill",
+      "name": "The Hill",
+      "lean": "center",
+      "wire": false,
+      "url": "https://thehill.com/news/feed/"
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "lean": "center",
+      "wire": false,
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+    },
+    {
+      "id": "foxnews",
+      "name": "Fox News",
+      "lean": "right",
+      "wire": false,
+      "url": "https://moxie.foxnews.com/google-publisher/world.xml"
+    },
+    {
+      "id": "washtimes",
+      "name": "The Washington Times",
+      "lean": "right",
+      "wire": false,
+      "url": "https://www.washingtontimes.com/rss/headlines/news/world/"
+    },
+    {
+      "id": "nypost",
+      "name": "New York Post",
+      "lean": "right",
+      "wire": false,
+      "url": "https://nypost.com/news/feed/"
+    },
+    {
+      "id": "newsweek",
+      "name": "Newsweek",
+      "lean": "center",
+      "wire": false,
+      "url": "https://www.newsweek.com/rss"
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "lean": "center",
+      "wire": true,
+      "url": "https://apnews.com/hub/world-news.rss"
+    },
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "lean": "center",
+      "wire": true,
+      "url": "https://www.reuters.com/arc/outboundfeeds/news-world/?outputType=xml"
+    },
+    {
+      "id": "wsj",
+      "name": "The Wall Street Journal",
+      "lean": "center-right",
+      "wire": false,
+      "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
+    },
+    {
+      "id": "telegraph",
+      "name": "The Telegraph",
+      "lean": "center-right",
+      "wire": false,
+      "url": "https://www.telegraph.co.uk/news/rss.xml"
+    },
+    {
+      "id": "economist",
+      "name": "The Economist",
+      "lean": "center-right",
+      "wire": false,
+      "url": "https://www.economist.com/international/rss.xml"
+    },
+    {
+      "id": "examiner",
+      "name": "Washington Examiner",
+      "lean": "right",
+      "wire": false,
+      "url": "https://www.washingtonexaminer.com/feed/"
+    },
+    {
+      "id": "dailymail",
+      "name": "Daily Mail",
+      "lean": "right",
+      "wire": false,
+      "url": "https://www.dailymail.co.uk/news/index.rss"
+    },
+    {
+      "id": "straitstimes",
+      "name": "The Straits Times",
+      "lean": "center",
+      "wire": true,
+      "url": "https://www.straitstimes.com/news/world/rss.xml"
+    }
+  ],
+  "leanWeights": {
+    "left": -2,
+    "center-left": -1,
+    "center": 0,
+    "center-right": 1,
+    "right": 2
+  }
+}

@@ -1,0 +1,71 @@
+name: Build morning digest
+
+on:
+  schedule:
+    # GitHub cron is UTC only and has no notion of daylight saving, so we fire at
+    # both candidate hours and let the job itself decide. 10:00 UTC is 05:00 in
+    # Chicago during CDT; 11:00 UTC is 05:00 during CST. The guard below drops
+    # whichever run is not actually 05:00 local.
+    - cron: '0 10 * * *'
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Number of stories'
+        required: false
+        default: '10'
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Decide whether this run is the 05:00 Chicago one
+        id: gate
+        run: |
+          HOUR=$(TZ=America/Chicago date +%H)
+          echo "Local Chicago hour: $HOUR"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run - proceeding."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$HOUR" = "05" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not 05:00 in Chicago - this is the off-season duplicate. Skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          node-version: '20'
+
+      - name: Run tests
+        if: steps.gate.outputs.run == 'true'
+        run: npm test
+
+      - name: Build digest
+        if: steps.gate.outputs.run == 'true'
+        run: node scripts/build-digest.mjs --limit "${{ github.event.inputs.limit || '10' }}"
+
+      - name: Commit digest
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/digest.json docs/archive
+          if git diff --staged --quiet; then
+            echo "No change in digest - nothing to commit."
+          else
+            git commit -m "Digest for $(TZ=America/Chicago date +%Y-%m-%d)"
+            git push
+          fi

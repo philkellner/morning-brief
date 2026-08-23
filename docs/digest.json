@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "edition": "2026-08-22",
+  "generatedAt": "2026-08-23T03:35:52.034Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "SAMPLE DATA - this placeholder ships with the repo so the app has something to render before the first scheduled build. Real stories replace it automatically.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 0,
+    "succeeded": 0,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-08-23-do69t1",
+      "title": "[SAMPLE] US Federal Reserve keeps interest rates on hold",
+      "summary": "The US central bank left its benchmark rate unchanged on Wednesday.",
+      "url": "https://example.invalid/bbc/US%20Federal%20Reserve%20keeps%20interest%20rates%20",
+      "headlineSource": "BBC News",
+      "summarySource": "Associated Press",
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 16.07,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5,
+        "wire": 1.6,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "Associated Press",
+          "sourceId": "ap",
+          "lean": "center",
+          "title": "Federal Reserve holds interest rates steady amid inflation concerns",
+          "url": "https://example.invalid/ap/Federal%20Reserve%20holds%20interest%20rates%20ste"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US Federal Reserve keeps interest rates on hold",
+          "url": "https://example.invalid/bbc/US%20Federal%20Reserve%20keeps%20interest%20rates%20"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Fed leaves rates unchanged as inflation fight drags on",
+          "url": "https://example.invalid/foxnews/Fed%20leaves%20rates%20unchanged%20as%20inflation%20"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Federal Reserve resists pressure to cut interest rates",
+          "url": "https://example.invalid/guardian/Federal%20Reserve%20resists%20pressure%20to%20cut%20"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-08-23-1mae3io",
+      "title": "[SAMPLE] Trump administration unveils steel tariff package",
+      "summary": "The European Union warned it would respond to the steel duties.",
+      "url": "https://example.invalid/foxnews/Trump%20administration%20unveils%20steel%20tarif",
+      "headlineSource": "Fox News",
+      "summarySource": "The Guardian",
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 13.5,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 5,
+        "wire": 0,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "White House announces new tariffs on imported steel",
+          "url": "https://example.invalid/cnbc/White%20House%20announces%20new%20tariffs%20on%20imp"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Trump administration unveils steel tariff package",
+          "url": "https://example.invalid/foxnews/Trump%20administration%20unveils%20steel%20tarif"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US steel tariffs draw retaliation threats from trading partners",
+          "url": "https://example.invalid/guardian/US%20steel%20tariffs%20draw%20retaliation%20threat"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-08-23-1gp6y68",
+      "title": "[SAMPLE] Japan issues tsunami advisory after powerful earthquake",
+      "summary": "The quake struck off northern Japan early Thursday.",
+      "url": "https://example.invalid/dw/Japan%20issues%20tsunami%20advisory%20after%20powe",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": null,
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 3,
+      "score": 12.85,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 2.4,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "CBC",
+          "sourceId": "cbc",
+          "lean": "center-left",
+          "title": "Magnitude 7.1 earthquake hits Japan, prompting tsunami warning",
+          "url": "https://example.invalid/cbc/Magnitude%207.1%20earthquake%20hits%20Japan%2C%20pro"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Japan issues tsunami advisory after powerful earthquake",
+          "url": "https://example.invalid/dw/Japan%20issues%20tsunami%20advisory%20after%20powe"
+        },
+        {
+          "source": "Reuters",
+          "sourceId": "reuters",
+          "lean": "center",
+          "title": "Strong earthquake strikes northern Japan, tsunami advisory issued",
+          "url": "https://example.invalid/reuters/Strong%20earthquake%20strikes%20northern%20Japan"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-08-23-1kbfw98",
+      "title": "[SAMPLE] Peru sets date for snap presidential election",
+      "summary": "Congress approved an early vote following months of unrest in Lima.",
+      "url": "https://example.invalid/reuters/Peru%20sets%20date%20for%20snap%20presidential%20ele",
+      "headlineSource": "Reuters",
+      "summarySource": "Reuters",
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 2,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 10.8,
+      "scoreComponents": {
+        "breadth": 4.75,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Peru to hold early presidential vote next year",
+          "url": "https://example.invalid/aljazeera/Peru%20to%20hold%20early%20presidential%20vote%20nex"
+        },
+        {
+          "source": "Reuters",
+          "sourceId": "reuters",
+          "lean": "center",
+          "title": "Peru sets date for snap presidential election",
+          "url": "https://example.invalid/reuters/Peru%20sets%20date%20for%20snap%20presidential%20ele"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-08-23-1y2yh20",
+      "title": "[SAMPLE] Ceasefire negotiations resume in Doha",
+      "summary": "Negotiators returned to Doha for another round of discussions.",
+      "url": "https://example.invalid/aljazeera/Ceasefire%20negotiations%20resume%20in%20Doha",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 2,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 10.8,
+      "scoreComponents": {
+        "breadth": 4.75,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Ceasefire negotiations resume in Doha",
+          "url": "https://example.invalid/aljazeera/Ceasefire%20negotiations%20resume%20in%20Doha"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Qatar hosts renewed ceasefire talks between the parties",
+          "url": "https://example.invalid/bbc/Qatar%20hosts%20renewed%20ceasefire%20talks%20betw"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-08-23-opyv7z",
+      "title": "[SAMPLE] Aid convoy reaches northern Gaza after weeks of delays",
+      "summary": "Trucks carrying flour and medicine crossed into the territory.",
+      "url": "https://example.invalid/npr/Aid%20convoy%20reaches%20northern%20Gaza%20after%20w",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 2,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 1,
+      "score": 10,
+      "scoreComponents": {
+        "breadth": 4.75,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Aid convoy reaches northern Gaza after weeks of delays",
+          "url": "https://example.invalid/npr/Aid%20convoy%20reaches%20northern%20Gaza%20after%20w"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "First aid trucks in weeks arrive in northern Gaza",
+          "url": "https://example.invalid/skynews/First%20aid%20trucks%20in%20weeks%20arrive%20in%20nort"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-08-23-1g8ee0n",
+      "title": "[SAMPLE] Kenya opposition leader concedes presidential election",
+      "summary": "The result ends weeks of uncertainty in Nairobi.",
+      "url": "https://example.invalid/npr/Kenya%20opposition%20leader%20concedes%20preside",
+      "headlineSource": "NPR",
+      "summarySource": null,
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 2,
+      "leanCount": 1,
+      "leanSpread": 0,
+      "wireCount": 2,
+      "score": 8.85,
+      "scoreComponents": {
+        "breadth": 4.75,
+        "diversity": 0,
+        "wire": 1.6,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Kenya election: Opposition candidate accepts defeat",
+          "url": "https://example.invalid/aljazeera/Kenya%20election%3A%20Opposition%20candidate%20acc"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Kenya opposition leader concedes presidential election",
+          "url": "https://example.invalid/npr/Kenya%20opposition%20leader%20concedes%20preside"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-08-23-zh90u",
+      "title": "[SAMPLE] Chile hit by moderate earthquake near Valparaiso",
+      "summary": "No tsunami warning was issued after the Chilean quake.",
+      "url": "https://example.invalid/dw/Chile%20hit%20by%20moderate%20earthquake%20near%20Va",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": null,
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 2,
+      "leanCount": 1,
+      "leanSpread": 0,
+      "wireCount": 2,
+      "score": 8.85,
+      "scoreComponents": {
+        "breadth": 4.75,
+        "diversity": 0,
+        "wire": 1.6,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Earthquake shakes central Chile, no casualties reported",
+          "url": "https://example.invalid/bbc/Earthquake%20shakes%20central%20Chile%2C%20no%20casu"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Chile hit by moderate earthquake near Valparaiso",
+          "url": "https://example.invalid/dw/Chile%20hit%20by%20moderate%20earthquake%20near%20Va"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-08-23-cs7obe",
+      "title": "[SAMPLE] ECB trims rates as eurozone inflation cools",
+      "summary": "The ECB lowered its deposit rate by a quarter point in Frankfurt.",
+      "url": "https://example.invalid/wsj/ECB%20trims%20rates%20as%20eurozone%20inflation%20co",
+      "headlineSource": "The Wall Street Journal",
+      "summarySource": "The Economist",
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 2,
+      "leanCount": 1,
+      "leanSpread": 0,
+      "wireCount": 0,
+      "score": 7.25,
+      "scoreComponents": {
+        "breadth": 4.75,
+        "diversity": 0,
+        "wire": 0,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "The Economist",
+          "sourceId": "economist",
+          "lean": "center-right",
+          "title": "European Central Bank cuts eurozone interest rates",
+          "url": "https://example.invalid/economist/European%20Central%20Bank%20cuts%20eurozone%20inte"
+        },
+        {
+          "source": "The Wall Street Journal",
+          "sourceId": "wsj",
+          "lean": "center-right",
+          "title": "ECB trims rates as eurozone inflation cools",
+          "url": "https://example.invalid/wsj/ECB%20trims%20rates%20as%20eurozone%20inflation%20co"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-08-23-ucgxt1",
+      "title": "[SAMPLE] Airline profits climb on strong summer travel demand",
+      "summary": "Carriers reported higher quarterly earnings.",
+      "url": "https://example.invalid/cnbc/Airline%20profits%20climb%20on%20strong%20summer%20t",
+      "headlineSource": "CNBC",
+      "summarySource": null,
+      "publishedAt": "2026-08-23T03:35:52.011Z",
+      "sourceCount": 1,
+      "leanCount": 1,
+      "leanSpread": 0,
+      "wireCount": 0,
+      "score": 5.5,
+      "scoreComponents": {
+        "breadth": 3,
+        "diversity": 0,
+        "wire": 0,
+        "freshness": 2.5
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Airline profits climb on strong summer travel demand",
+          "url": "https://example.invalid/cnbc/Airline%20profits%20climb%20on%20strong%20summer%20t"
+        }
+      ]
+    }
+  ],
+  "seed": true
+}

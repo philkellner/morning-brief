@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+.swiftpm/
