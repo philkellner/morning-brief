@@ -1,7 +1,7 @@
 // Run with: node --test scripts/test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -212,4 +212,48 @@ test('soft news is demoted below hard news of equal reach', () => {
   assert.equal(stories.length, 2);
   assert.match(stories[0].title, /interest rates/, 'hard news should outrank soft news at equal reach');
   assert.ok(stories[1].scoreComponents.softPenalty < 0, 'the soft story should carry a penalty');
+});
+
+// --- iOS project structure -------------------------------------------------
+// These run in CI on Linux, where no Xcode exists. They cannot tell us the app
+// compiles, but they catch the structural mistakes that cost a build cycle.
+
+test('Info.plist sits outside the synchronized source folder', () => {
+  // The Xcode 16 file-system-synchronized group adds every file under the source
+  // folder to Copy Bundle Resources. An Info.plist there is therefore produced
+  // twice - once as a copied resource, once from INFOPLIST_FILE - and the build
+  // fails with "Multiple commands produce .../Info.plist".
+  const syncedDir = resolve(ROOT, 'ios/MorningBrief/MorningBrief');
+  const stray = readdirSync(syncedDir, { recursive: true })
+    .map(String)
+    .filter((f) => f.endsWith('Info.plist'));
+  assert.deepEqual(stray, [], `Info.plist must not live inside ${syncedDir}`);
+  assert.ok(existsSync(resolve(ROOT, 'ios/MorningBrief/Info.plist')), 'Info.plist should sit beside the .xcodeproj');
+});
+
+test('the Xcode project points at that Info.plist and generates no other', () => {
+  const pbx = readFileSync(resolve(ROOT, 'ios/MorningBrief/MorningBrief.xcodeproj/project.pbxproj'), 'utf8');
+  // The lookbehind matters: INFOPLIST_FILE is a substring of GENERATE_INFOPLIST_FILE.
+  const infoplistSettings = pbx.match(/(?<![A-Z_])INFOPLIST_FILE = [^;]+;/g) ?? [];
+  assert.equal(infoplistSettings.length, 2, 'expected one INFOPLIST_FILE per build configuration');
+  for (const setting of infoplistSettings) {
+    assert.equal(setting, 'INFOPLIST_FILE = Info.plist;');
+  }
+  assert.equal((pbx.match(/GENERATE_INFOPLIST_FILE = NO;/g) ?? []).length, 2,
+    'both configurations must use the checked-in plist rather than a generated one');
+});
+
+test('the background task identifier matches the bundle identifier', () => {
+  // BGTaskScheduler refuses to register an identifier absent from the plist, and
+  // the failure only shows up at runtime on a device.
+  const plist = readFileSync(resolve(ROOT, 'ios/MorningBrief/Info.plist'), 'utf8');
+  const swift = readFileSync(resolve(ROOT, 'ios/MorningBrief/MorningBrief/Services/BackgroundRefresh.swift'), 'utf8');
+  const declared = plist.match(/<key>BGTaskSchedulerPermittedIdentifiers<\/key>\s*<array>\s*<string>([^<]+)<\/string>/)?.[1];
+  const used = swift.match(/taskIdentifier\s*=\s*"([^"]+)"/)?.[1];
+  assert.ok(declared, 'Info.plist must declare BGTaskSchedulerPermittedIdentifiers');
+  assert.equal(used, declared, 'the identifier in Swift must match the one declared in Info.plist');
+
+  const pbx = readFileSync(resolve(ROOT, 'ios/MorningBrief/MorningBrief.xcodeproj/project.pbxproj'), 'utf8');
+  const bundleId = pbx.match(/PRODUCT_BUNDLE_IDENTIFIER = ([^;]+);/)?.[1];
+  assert.ok(declared.startsWith(bundleId), `background task id ${declared} must be prefixed by bundle id ${bundleId}`);
 });

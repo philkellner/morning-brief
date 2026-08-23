@@ -15,17 +15,18 @@ targets:
   MorningBrief:
     type: application
     platform: iOS
+    # Info.plist deliberately lives beside the project, NOT inside the synchronized
+    # source folder: anything in that folder is also copied as a bundle resource,
+    # which collides with the Info.plist the build already generates from it.
     sources:
       - path: MorningBrief
-    info:
-      path: MorningBrief/Info.plist
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.philkellner.MorningBrief
         MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
         GENERATE_INFOPLIST_FILE: NO
-        INFOPLIST_FILE: MorningBrief/Info.plist
+        INFOPLIST_FILE: Info.plist
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         SWIFT_VERSION: "5.0"
