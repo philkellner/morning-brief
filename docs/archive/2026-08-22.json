@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-08-22",
-  "generatedAt": "2026-08-23T03:50:08.509Z",
+  "generatedAt": "2026-08-23T03:53:37.107Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -25,16 +25,17 @@
       "headlineSource": "France 24",
       "summarySource": "Al Jazeera",
       "publishedAt": "2026-08-23T03:08:00.000Z",
-      "sourceCount": 16,
+      "sourceCount": 17,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 9,
-      "score": 24.3,
+      "wireCount": 8,
+      "score": 24.54,
       "scoreComponents": {
-        "breadth": 12.26,
+        "breadth": 12.51,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.43
+        "freshness": 2.43,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -50,6 +51,13 @@
           "lean": "center-left",
           "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
           "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo"
         },
         {
           "source": "CNBC",
@@ -80,18 +88,18 @@
           "url": "https://www.france24.com/en/canada-says-will-match-new-us-50-tariffs-dollar-for-dollar"
         },
         {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Canadian Prime Minister Mark Carney calls new U.S. tariffs ‘a miscalculation’",
+          "url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510"
+        },
+        {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
           "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
           "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
-          "url": "https://www.pbs.org/newshour/world/u-s-imposes-50-tariffs-on-20-billion-worth-of-canadian-products-canada-says-it-will-retaliate"
         },
         {
           "source": "Sky News",
@@ -122,6 +130,13 @@
           "url": "https://thehill.com/homenews/sunday-talk-shows/6045326-sunday-shows-trump-canada-trade-republican-primaries/"
         },
         {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Canadian PM says country ‘at war’ with US on trade and fires back at Trump’s 50% tariffs with retaliatory measures",
+          "url": "https://www.independent.co.uk/news/world/americas/canada-tariffs-us-carney-trump-feud-b3037587.html"
+        },
+        {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
@@ -132,15 +147,8 @@
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Trump’s Top Trade Representative Details Offer That Canada Rejected",
-          "url": "https://www.nytimes.com/2026/08/22/business/economy/greer-us-canada-trade-deal.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Canada to retaliate for US tariffs, worsening ties after talks fail",
-          "url": "https://www.straitstimes.com/world/canada-to-impose-retaliatory-tariffs-across-a-raft-of-us-sectors-pm-carney-says"
+          "title": "Carney Slams U.S.-Canada Trade Proposal and Vows Retaliation",
+          "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html"
         },
         {
           "source": "Washington Examiner",
@@ -164,12 +172,13 @@
       "leanCount": 4,
       "leanSpread": 0.75,
       "wireCount": 4,
-      "score": 22.07,
+      "score": 22.06,
       "scoreComponents": {
         "breadth": 10.75,
         "diversity": 5.85,
         "wire": 3.2,
-        "freshness": 2.26
+        "freshness": 2.26,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -269,7 +278,8 @@
         "breadth": 10.38,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.47
+        "freshness": 2.47,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -348,7 +358,7 @@
       "rank": 4,
       "id": "2026-08-23-123i3fh",
       "title": "Swedish sword attack victim was 17-year-old girl, police say",
-      "summary": "</p>",
+      "summary": "A photo on a TikTok account showed a sword that investigators say may have belonged to the suspect.",
       "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo",
       "headlineSource": "BBC News",
       "summarySource": "The Straits Times",
@@ -357,12 +367,13 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 6,
-      "score": 19.77,
+      "score": 19.76,
       "scoreComponents": {
         "breadth": 10.38,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.29
+        "freshness": 2.29,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -450,12 +461,13 @@
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 3,
-      "score": 18.21,
+      "score": 18.2,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 4.45,
         "wire": 2.4,
-        "freshness": 2.36
+        "freshness": 2.35,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -527,7 +539,8 @@
         "breadth": 9,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 1.69
+        "freshness": 1.69,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -583,64 +596,6 @@
     },
     {
       "rank": 7,
-      "id": "2026-08-23-bozax",
-      "title": "As they return to the UK, Harry and Meghan search for a brand that sticks",
-      "summary": "They will not be working royals when they come back. So what could they be doing instead?",
-      "url": "https://www.bbc.co.uk/news/articles/c0l5d387j18o",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-08-23T03:27:36.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 17.42,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 0.8,
-        "freshness": 2.46
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "As they return to the UK, Harry and Meghan search for a brand that sticks",
-          "url": "https://www.bbc.co.uk/news/articles/c0l5d387j18o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Prince Harry must pay Daily Mail publisher millions after invasion of privacy case fails",
-          "url": "https://www.cbsnews.com/video/prince-harry-must-pay-daily-mail-publisher-millions-after-invasion-of-privacy-case-fails/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Queen Camilla - a fixed smile in place - offered tea to Prince Harry despite his public denunciation of her as 'evil': It appears to have calmed the Sussexes' fears about…",
-          "url": "https://www.dailymail.com/news/royals/article-16072953/Queen-Camilla-Prince-Harry-denunciation-evil-Sussexes-TOM-BOWER.html"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Is this the end of Harry and Meghan’s American dream?",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/22/prince-harry-meghan-american-dream"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "What Does Harry and Meghan’s Return to England Mean for Their Children?",
-          "url": "https://www.nytimes.com/2026/08/22/world/europe/harry-meghan-children-schools.html"
-        }
-      ]
-    },
-    {
-      "rank": 8,
       "id": "2026-08-22-1p8x98y",
       "title": "Israel strikes southern Syria; Damascus condemns attack",
       "summary": "The latest incident comes days after reports emerged Israel had struck a military airbase close to the Turkish border.",
@@ -657,7 +612,8 @@
         "breadth": 9,
         "diversity": 1.95,
         "wire": 3.2,
-        "freshness": 1.97
+        "freshness": 1.97,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -712,10 +668,10 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 8,
       "id": "2026-08-23-1x244il",
       "title": "Seven dead in UK after vehicle travelling wrong way hits police car",
-      "summary": "</p>",
+      "summary": "All occupants of the two cars, including two police officers, died at the scene.",
       "url": "https://www.straitstimes.com/world/europe/seven-dead-in-uk-after-vehicle-travelling-wrong-way-hits-police-car",
       "headlineSource": "The Straits Times",
       "summarySource": "The Straits Times",
@@ -729,7 +685,8 @@
         "breadth": 6.97,
         "diversity": 5,
         "wire": 1.6,
-        "freshness": 2.3
+        "freshness": 2.29,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -763,7 +720,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 9,
       "id": "2026-08-23-1tfssvq",
       "title": "Trump seeks to block the BBC’s attempt to subpoena Ivanka Trump, Trump Jr",
       "summary": "While lawyers for the US president argue the subpoenas are 'cynical', the BBC says they could help shine light on case.",
@@ -780,7 +737,8 @@
         "breadth": 7.75,
         "diversity": 4.45,
         "wire": 0.8,
-        "freshness": 2.25
+        "freshness": 2.24,
+        "softPenalty": 0
       },
       "coverage": [
         {
@@ -817,6 +775,58 @@
           "lean": "right",
           "title": "Trump requests court to protect family records from BBC defamation case investigation",
           "url": "https://www.washingtonexaminer.com/news/justice/4697396/trump-court-family-record-bbc-defamation/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-08-22-10iph3m",
+      "title": "How Israel is expanding settlements in drive to reshape West Bank",
+      "summary": "Palestinians face attacks and forced displacement as settlers expand control, backed by military raids and inaction.",
+      "url": "https://www.bbc.co.uk/news/articles/c2lq5g4dedpo",
+      "headlineSource": "BBC News",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-08-22T21:02:29.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 15.19,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 1.92,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Israeli army and settlers injure several Palestinians across West Bank",
+          "url": "https://www.aljazeera.com/news/2026/8/22/israeli-army-and-settlers-injure-several-palestinians-across-west-bank?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "How Israel is expanding settlements in drive to reshape West Bank",
+          "url": "https://www.bbc.co.uk/news/articles/c2lq5g4dedpo"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "102 senior diplomats urge West Bank action against Israeli 'ethnic cleansing'",
+          "url": "https://www.france24.com/en/102-senior-diplomats-urge-west-bank-action-against-israeli-ethnic-cleansing"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Former British and French diplomats urge action over Israel’s ‘erasure’ of Palestine",
+          "url": "https://www.theguardian.com/world/2026/aug/22/uk-france-diplomats-israel-palestine"
         }
       ]
     }
