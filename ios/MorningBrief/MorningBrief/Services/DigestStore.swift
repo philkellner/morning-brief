@@ -18,7 +18,7 @@ final class DigestStore {
 
     private let settings: AppSettings
     private let session: URLSession
-    private let logger = Logger(subsystem: "com.philkellner.MorningBrief", category: "DigestStore")
+    private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "MorningBrief", category: "DigestStore")
 
     var digest: Digest? {
         if case let .loaded(digest) = state { return digest }

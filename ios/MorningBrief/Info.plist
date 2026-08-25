@@ -30,7 +30,7 @@
 	</array>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>com.philkellner.MorningBrief.refresh</string>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER).refresh</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

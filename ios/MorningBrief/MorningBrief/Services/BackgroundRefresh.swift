@@ -9,9 +9,14 @@ import OSLog
 /// notifications carry the digest's edition date so a stale brief announces itself
 /// instead of pretending to be current.
 enum BackgroundRefresh {
-    static let taskIdentifier = "com.philkellner.MorningBrief.refresh"
+    /// Derived from the bundle identifier rather than hard-coded, and Info.plist
+    /// declares it as $(PRODUCT_BUNDLE_IDENTIFIER).refresh. Changing the bundle id
+    /// in Xcode - which you must do if Apple reports it as already registered -
+    /// therefore keeps the two in step on its own. A mismatch is not a build
+    /// error: BGTaskScheduler raises it at launch, on device only.
+    static let taskIdentifier = "\(Bundle.main.bundleIdentifier ?? "com.philkellner.MorningBrief").refresh"
 
-    private static let logger = Logger(subsystem: "com.philkellner.MorningBrief", category: "BackgroundRefresh")
+    private static let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "MorningBrief", category: "BackgroundRefresh")
 
     /// Must be called before the app finishes launching.
     static func register() {

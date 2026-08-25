@@ -243,17 +243,33 @@ test('the Xcode project points at that Info.plist and generates no other', () =>
     'both configurations must use the checked-in plist rather than a generated one');
 });
 
-test('the background task identifier matches the bundle identifier', () => {
-  // BGTaskScheduler refuses to register an identifier absent from the plist, and
-  // the failure only shows up at runtime on a device.
+test('the background task identifier is derived, not hard-coded', () => {
+  // BGTaskScheduler refuses to register an identifier absent from Info.plist, and
+  // that failure appears at launch on device - never at build time. Deriving both
+  // sides from the bundle id means renaming the bundle cannot desynchronise them.
   const plist = readFileSync(resolve(ROOT, 'ios/MorningBrief/Info.plist'), 'utf8');
   const swift = readFileSync(resolve(ROOT, 'ios/MorningBrief/MorningBrief/Services/BackgroundRefresh.swift'), 'utf8');
-  const declared = plist.match(/<key>BGTaskSchedulerPermittedIdentifiers<\/key>\s*<array>\s*<string>([^<]+)<\/string>/)?.[1];
-  const used = swift.match(/taskIdentifier\s*=\s*"([^"]+)"/)?.[1];
-  assert.ok(declared, 'Info.plist must declare BGTaskSchedulerPermittedIdentifiers');
-  assert.equal(used, declared, 'the identifier in Swift must match the one declared in Info.plist');
 
-  const pbx = readFileSync(resolve(ROOT, 'ios/MorningBrief/MorningBrief.xcodeproj/project.pbxproj'), 'utf8');
-  const bundleId = pbx.match(/PRODUCT_BUNDLE_IDENTIFIER = ([^;]+);/)?.[1];
-  assert.ok(declared.startsWith(bundleId), `background task id ${declared} must be prefixed by bundle id ${bundleId}`);
+  const declared = plist.match(/<key>BGTaskSchedulerPermittedIdentifiers<\/key>\s*<array>\s*<string>([^<]+)<\/string>/)?.[1];
+  assert.equal(declared, '$(PRODUCT_BUNDLE_IDENTIFIER).refresh',
+    'Info.plist should derive the task id from the bundle id build setting');
+
+  const usesBundleId = /taskIdentifier\s*=\s*"\\\(Bundle\.main\.bundleIdentifier/.test(swift);
+  assert.ok(usesBundleId, 'BackgroundRefresh should derive taskIdentifier from Bundle.main.bundleIdentifier');
+  assert.ok(/\.refresh"/.test(swift), 'the derived identifier should keep the .refresh suffix');
+});
+
+test('no source file hard-codes the bundle identifier', () => {
+  // A stale literal here survives a bundle-id change and breaks silently.
+  const dir = resolve(ROOT, 'ios/MorningBrief/MorningBrief');
+  const offenders = readdirSync(dir, { recursive: true })
+    .map(String)
+    .filter((f) => f.endsWith('.swift'))
+    .filter((f) => {
+      const body = readFileSync(resolve(dir, f), 'utf8');
+      // The fallback inside the derivation itself is fine; a bare literal is not.
+      return /"com\.philkellner\.MorningBrief"/.test(body)
+        && !/bundleIdentifier \?\? "com\.philkellner\.MorningBrief"/.test(body);
+    });
+  assert.deepEqual(offenders, [], 'these files hard-code the bundle identifier');
 });

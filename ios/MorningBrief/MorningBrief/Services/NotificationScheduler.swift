@@ -12,7 +12,7 @@ struct NotificationScheduler {
     static let shared = NotificationScheduler()
 
     private let center = UNUserNotificationCenter.current()
-    private let logger = Logger(subsystem: "com.philkellner.MorningBrief", category: "Notifications")
+    private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "MorningBrief", category: "Notifications")
 
     static let categoryIdentifier = "MORNING_BRIEF_STORY"
     private static let identifierPrefix = "story."
