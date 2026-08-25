@@ -131,6 +131,30 @@ A free Apple ID works; Apple expires free provisioning profiles after 7 days, so
 you would re-run from Xcode weekly. A paid developer account ($99/yr) makes the
 build last a year.
 
+### 7. Get it onto your iPhone
+
+The first connection has to be over USB; wireless works after that.
+
+1. **Plug the phone in and unlock it.** Answer *Trust This Computer?* with **Trust**
+   and enter your passcode. Until you do, the phone will not appear in Xcode.
+2. **Enable Developer Mode**: *Settings → Privacy & Security → Developer Mode →
+   on*, then restart the phone. The toggle only appears once a Mac running Xcode
+   has connected, so plug in first if you cannot find it.
+3. **Select the phone** in Xcode's device menu, in the toolbar beside the scheme
+   name, and press Run.
+4. **Trust the certificate.** With a free Personal Team the app installs but
+   refuses to launch until you approve it: *Settings → General → VPN & Device
+   Management → your Apple ID under "Developer App" → Trust*. Once only.
+
+Then switch to wireless, because free provisioning expires weekly and you will be
+re-running from Xcode often: with the phone still attached, *Window → Devices and
+Simulators* (`⇧⌘2`) → select it → tick **Connect via Network**. Unplug; it stays
+available while both are on the same Wi-Fi.
+
+Finally, in the app: allow notifications when asked, then **Settings → Send a test
+notification**. It fires after five seconds and exercises the whole delivery path
+without waiting for 06:00.
+
 ---
 
 ## Timing, and why the build is at 05:00 but delivery is at 06:00
