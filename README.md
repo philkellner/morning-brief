@@ -7,6 +7,9 @@ trackers, no comment sections, and no single newsroom deciding what leads.
   RSS feeds spanning the political spectrum, and commits it as `docs/digest.json`.
 - **A SwiftUI iOS app** fetches that file and schedules one local notification
   per story for 06:00.
+- **Or, with no app to maintain**, the same cron can push the ten stories to
+  your phone via [ntfy](https://ntfy.sh) — see *Phone notifications without the
+  app* below.
 
 There is no server and nothing to pay for. The whole backend is a cron job that
 commits a JSON file.
@@ -154,6 +157,75 @@ available while both are on the same Wi-Fi.
 Finally, in the app: allow notifications when asked, then **Settings → Send a test
 notification**. It fires after five seconds and exercises the whole delivery path
 without waiting for 06:00.
+
+---
+
+## Phone notifications without the app
+
+The iOS app is only a reader; the digest does not depend on it. If you would
+rather not maintain a sideloaded build — Apple expires free provisioning every
+7 days — the cron can push the same ten stories straight to your phone through
+[ntfy](https://ntfy.sh), whose app comes from the App Store and never expires.
+
+You still get one notification per story at 06:00. What you lose is the app's
+coverage breakdown, lean bar and story detail.
+
+### Setup
+
+1. **Pick a topic name nobody will guess.** The topic *is* the credential on
+   public ntfy: anyone who knows it can read your notifications or publish to
+   them. Generate one rather than inventing it:
+
+   ```bash
+   openssl rand -hex 12
+   ```
+
+2. **Add it as a repository secret**: *Settings → Secrets and variables →
+   Actions → New repository secret*, named `NTFY_TOPIC`.
+
+3. **Install ntfy** on your iPhone from the App Store and subscribe to that
+   topic.
+
+4. **Test it**: run the **Send a test notification** workflow from the Actions
+   tab. It sends the current lead story immediately.
+
+From then on the daily build sends all ten. Until `NTFY_TOPIC` exists the
+notification step exits quietly, so nothing changes if you never set it.
+
+### How the timing works
+
+The messages are published at 05:00 carrying ntfy's `delay` field set to 06:00,
+so ntfy holds them and releases them on schedule, staggered 45 seconds apart.
+One cron entry produces both the build and the delivery — there is no second
+schedule to keep in step, and no DST arithmetic beyond what the build already
+does.
+
+Payloads are sent as JSON rather than through ntfy's HTTP headers, because
+headers cannot carry UTF-8 and real headlines are full of curly quotes, em
+dashes and accented names.
+
+### Options
+
+All optional, as repository secrets or local environment variables:
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `NTFY_TOPIC` | — | Required. Without it, notifications are skipped. |
+| `NTFY_SERVER` | `https://ntfy.sh` | Point at a self-hosted instance. |
+| `NTFY_TOKEN` | — | Bearer token for an access-controlled topic. |
+| `NTFY_HOUR` / `NTFY_MINUTE` | `6` / `0` | Delivery time. |
+| `NTFY_TIMEZONE` | `America/Chicago` | Zone that time is local to. |
+| `NTFY_SPACING_SECONDS` | `45` | Gap between stories. |
+| `NTFY_PRIORITY` | `3` | ntfy priority, 1–5. |
+
+```bash
+npm run notify:dry     # print what would be sent, send nothing
+npm run notify:test    # send the lead story immediately
+npm run notify         # send the full digest, scheduled for 06:00
+```
+
+If you self-host ntfy, or use a reserved topic with an access token, the topic
+name stops being a shared secret and `NTFY_TOKEN` does the authenticating instead.
 
 ---
 

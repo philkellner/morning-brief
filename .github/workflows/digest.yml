@@ -69,6 +69,17 @@ jobs:
         if: steps.gate.outputs.run == 'true'
         run: node scripts/build-digest.mjs --limit "${{ github.event.inputs.limit || '10' }}"
 
+      - name: Send notifications
+        if: steps.gate.outputs.run == 'true'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        # Exits quietly when NTFY_TOPIC is unset, so this is a no-op until you
+        # add the secret. Messages carry a scheduled delivery time, so the 05:00
+        # build produces 06:00 notifications without a second cron entry.
+        run: node scripts/notify-ntfy.mjs
+
       - name: Commit digest
         if: steps.gate.outputs.run == 'true'
         run: |

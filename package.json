@@ -4,13 +4,18 @@
   "private": true,
   "type": "module",
   "description": "Daily top-10 news digest ranked by cross-source consensus.",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "node scripts/build-digest.mjs",
     "preview": "node scripts/build-digest.mjs --dry-run",
     "demo": "node scripts/build-digest.mjs --fixture scripts/fixtures/headlines.json --dry-run",
     "probe": "node scripts/probe-feeds.mjs",
-    "test": "node --test scripts/test.mjs"
+    "test": "node --test scripts/test.mjs",
+    "notify": "node scripts/notify-ntfy.mjs",
+    "notify:test": "node scripts/notify-ntfy.mjs --now --limit 1",
+    "notify:dry": "node scripts/notify-ntfy.mjs --dry-run"
   },
   "license": "MIT"
 }

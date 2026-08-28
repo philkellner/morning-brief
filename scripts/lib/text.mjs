@@ -95,13 +95,38 @@ export function truncate(text, max) {
   return `${base}…`;
 }
 
+/**
+ * Remove an unmatched quote or bracket left dangling at the end of a trimmed
+ * string. Sentence splitting routinely strands the opening quote of a pull
+ * quote it did not keep, which then shows up in a notification as a stray ".
+ */
+export function dropDanglingOpener(text) {
+  let out = String(text ?? '').trimEnd();
+  const pairs = [['"', '"'], ['\u201c', '\u201d'], ['\u2018', '\u2019'], ['(', ')'], ['[', ']']];
+  for (let pass = 0; pass < 2; pass += 1) {
+    const before = out;
+    for (const [open, close] of pairs) {
+      const last = out.at(-1);
+      if (last !== open) continue;
+      const opens = [...out].filter((c) => c === open).length;
+      const closes = open === close ? 0 : [...out].filter((c) => c === close).length;
+      // For symmetric quotes an odd count means one is unclosed; for brackets,
+      // more openers than closers means the same.
+      const unbalanced = open === close ? opens % 2 === 1 : opens > closes;
+      if (unbalanced) out = out.slice(0, -1).trimEnd().replace(/[,;:\u2013\u2014-]+$/, '').trimEnd();
+    }
+    if (out === before) break;
+  }
+  return out;
+}
+
 /** Keep at most `count` sentences, then hard-cap the length. */
 export function firstSentences(text, count, maxChars) {
   const s = String(text ?? '').trim();
   if (!s) return '';
   const parts = s.match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) ?? [s];
   const joined = parts.slice(0, count).join(' ').replace(/\s+/g, ' ').trim();
-  return truncate(joined, maxChars);
+  return dropDanglingOpener(truncate(joined, maxChars));
 }
 
 const STOPWORDS = new Set(`a about after again against all also am an and any are as at be because been before

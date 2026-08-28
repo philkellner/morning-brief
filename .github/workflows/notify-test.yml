@@ -1,0 +1,25 @@
+name: Send a test notification
+
+# Sends the current digest's top story to your ntfy topic immediately, so you can
+# confirm delivery without waiting for tomorrow morning.
+on:
+  workflow_dispatch:
+    inputs:
+      stories:
+        description: 'How many stories to send'
+        required: false
+        default: '1'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: node scripts/notify-ntfy.mjs --now --limit "${{ github.event.inputs.stories || '1' }}"

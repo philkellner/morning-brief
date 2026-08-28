@@ -5,7 +5,8 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences } from './lib/text.mjs';
+import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener } from './lib/text.mjs';
+import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch } from './lib/ntfy.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { sensationalism, pickHeadline, leanSpread, buildStories } from './lib/rank.mjs';
@@ -272,4 +273,68 @@ test('no source file hard-codes the bundle identifier', () => {
         && !/bundleIdentifier \?\? "com\.philkellner\.MorningBrief"/.test(body);
     });
   assert.deepEqual(offenders, [], 'these files hard-code the bundle identifier');
+});
+
+// --- notification delivery --------------------------------------------------
+
+test('a stranded opening quote is dropped from a summary', () => {
+  // Seen live: sentence splitting kept the opening quote of a pull quote it
+  // then discarded, so the notification ended with a bare ".
+  assert.equal(firstSentences('Talks collapsed. "We will respond," said the minister.', 1, 200), 'Talks collapsed.');
+  assert.equal(dropDanglingOpener('Talks collapsed. "'), 'Talks collapsed.');
+  assert.equal(dropDanglingOpener('A quoted "phrase" inside stays intact.'), 'A quoted "phrase" inside stays intact.');
+  assert.equal(dropDanglingOpener('Balanced (parens) are fine.'), 'Balanced (parens) are fine.');
+});
+
+test('local delivery time survives daylight saving', () => {
+  const timeZone = 'America/Chicago';
+  const at = (year, month, day) => new Date(zonedTimeToEpoch({ year, month, day, hour: 6, timeZone })).toISOString();
+  assert.equal(at(2026, 6, 15), '2026-06-15T11:00:00.000Z', 'CDT is UTC-5');
+  assert.equal(at(2026, 1, 15), '2026-01-15T12:00:00.000Z', 'CST is UTC-6');
+  // 2026-03-08 is the spring-forward date; a naive offset calculation lands an hour out.
+  assert.equal(at(2026, 3, 8), '2026-03-08T11:00:00.000Z');
+  assert.equal(at(2026, 3, 7), '2026-03-07T12:00:00.000Z');
+});
+
+test('delivery rolls to tomorrow once today\'s slot has passed', () => {
+  const timeZone = 'America/Chicago';
+  const fiveAm = zonedTimeToEpoch({ year: 2026, month: 6, day: 15, hour: 5, timeZone });
+  const sevenAm = zonedTimeToEpoch({ year: 2026, month: 6, day: 15, hour: 7, timeZone });
+  assert.equal(nextDeliveryEpoch({ now: fiveAm, hour: 6, minute: 0, timeZone }),
+    zonedTimeToEpoch({ year: 2026, month: 6, day: 15, hour: 6, timeZone }), 'before the slot: today');
+  assert.equal(nextDeliveryEpoch({ now: sevenAm, hour: 6, minute: 0, timeZone }),
+    zonedTimeToEpoch({ year: 2026, month: 6, day: 16, hour: 6, timeZone }), 'after the slot: tomorrow');
+});
+
+test('ntfy messages carry the story, a click target and a stagger', () => {
+  const digest = {
+    edition: '2026-06-15',
+    stories: [
+      { rank: 1, id: 'a', title: 'First story', summary: 'Body one.', url: 'https://e.invalid/1', headlineSource: 'BBC News', sourceCount: 12, leanCount: 4 },
+      { rank: 2, id: 'b', title: 'Second story', summary: 'Body two.', url: '', headlineSource: 'NPR', sourceCount: 3, leanCount: 2 },
+    ],
+  };
+  const now = Date.UTC(2026, 5, 15, 10, 0, 0);
+  const deliverAt = now + 3600_000;
+  const msgs = buildMessages(digest, { topic: 't', deliverAt, spacingSeconds: 45, now });
+
+  assert.equal(msgs.length, 2);
+  assert.equal(msgs[0].title, 'First story');
+  assert.match(msgs[0].message, /Body one\./);
+  assert.match(msgs[0].message, /12 outlets · 4 leans · via BBC News/);
+  assert.equal(msgs[0].click, 'https://e.invalid/1');
+  assert.ok(!('click' in msgs[1]), 'a story with no url should not carry a click action');
+  assert.equal(Number(msgs[1].delay) - Number(msgs[0].delay), 45, 'stories are staggered by the spacing');
+});
+
+test('ntfy refuses to broadcast the bundled sample digest', () => {
+  assert.throws(() => buildMessages({ seed: true, stories: [{ rank: 1, title: 'x', summary: 'y' }] }, { topic: 't' }),
+    /sample data/i);
+});
+
+test('a delay in the past is omitted rather than sent', () => {
+  const now = Date.now();
+  const digest = { stories: [{ rank: 1, title: 'x', summary: 'y', url: '', headlineSource: 'BBC', sourceCount: 1, leanCount: 1 }] };
+  const [msg] = buildMessages(digest, { topic: 't', deliverAt: now - 60_000, now });
+  assert.ok(!('delay' in msg), 'ntfy rejects a delay in the past, so it must be dropped');
 });
