@@ -9,6 +9,10 @@ on:
         description: 'How many stories to send'
         required: false
         default: '1'
+      delay_minutes:
+        description: 'Minutes to delay delivery (0 = send immediately). Use a small number to verify ntfy scheduling.'
+        required: false
+        default: '0'
 
 jobs:
   notify:
@@ -22,4 +26,11 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
-        run: node scripts/notify-ntfy.mjs --now --limit "${{ github.event.inputs.stories || '1' }}"
+        run: |
+          STORIES="${{ github.event.inputs.stories || '1' }}"
+          DELAY="${{ github.event.inputs.delay_minutes || '0' }}"
+          if [ "$DELAY" = "0" ]; then
+            node scripts/notify-ntfy.mjs --now --limit "$STORIES"
+          else
+            node scripts/notify-ntfy.mjs --in "$DELAY" --limit "$STORIES"
+          fi

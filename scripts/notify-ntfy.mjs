@@ -3,6 +3,7 @@
 //
 //   NTFY_TOPIC=your-secret-topic node scripts/notify-ntfy.mjs
 //   NTFY_TOPIC=... node scripts/notify-ntfy.mjs --now --limit 1   # test immediately
+//   NTFY_TOPIC=... node scripts/notify-ntfy.mjs --in 2 --limit 1   # test ntfy's delay path
 //   node scripts/notify-ntfy.mjs --dry-run                        # print, send nothing
 //
 // Environment:
@@ -40,6 +41,10 @@ if (!topic) {
 const { server, timeZone, hour, minute, spacingSeconds, priority } = config;
 const limit = Number(value('--limit', config.limit)) || config.limit;
 const sendNow = has('--now');
+// --in exercises the same scheduled-delivery path production uses, on a
+// timescale you can actually wait out. --now skips that path altogether, so a
+// passing --now test says nothing about whether delayed delivery works.
+const inMinutes = Number(value('--in', NaN));
 const dryRun = has('--dry-run');
 
 const digest = JSON.parse(await readFile(resolve(ROOT, 'docs/digest.json'), 'utf8'));
@@ -47,7 +52,10 @@ const now = Date.now();
 
 // --now skips scheduling entirely, which is what makes a test notification arrive
 // in seconds rather than tomorrow morning.
-const deliverAt = sendNow ? null : nextDeliveryEpoch({ now, hour, minute, timeZone });
+let deliverAt;
+if (sendNow) deliverAt = null;
+else if (Number.isFinite(inMinutes)) deliverAt = now + inMinutes * 60_000;
+else deliverAt = nextDeliveryEpoch({ now, hour, minute, timeZone });
 
 let messages;
 try {
@@ -63,9 +71,15 @@ if (messages.length === 0) {
 }
 
 console.log(`Digest edition ${digest.edition}, ${messages.length} stories -> ${server}/${topic}`);
-console.log(deliverAt
-  ? `Scheduled from ${new Date(deliverAt).toISOString()} (${hour}:${String(minute).padStart(2, '0')} ${timeZone}), ${spacingSeconds}s apart`
-  : 'Sending immediately');
+if (!deliverAt) {
+  console.log('Sending immediately (ntfy scheduling not exercised)');
+} else {
+  const when = new Date(deliverAt).toISOString();
+  const basis = Number.isFinite(inMinutes)
+    ? `${inMinutes} minute${inMinutes === 1 ? '' : 's'} from now`
+    : `${hour}:${String(minute).padStart(2, '0')} ${timeZone}`;
+  console.log(`Scheduled from ${when} (${basis}), ${spacingSeconds}s apart`);
+}
 
 if (dryRun) {
   for (const m of messages) {
