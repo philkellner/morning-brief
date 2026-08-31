@@ -6,7 +6,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener } from './lib/text.mjs';
-import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch } from './lib/ntfy.mjs';
+import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, readConfig } from './lib/ntfy.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { sensationalism, pickHeadline, leanSpread, buildStories } from './lib/rank.mjs';
@@ -337,4 +337,33 @@ test('a delay in the past is omitted rather than sent', () => {
   const digest = { stories: [{ rank: 1, title: 'x', summary: 'y', url: '', headlineSource: 'BBC', sourceCount: 1, leanCount: 1 }] };
   const [msg] = buildMessages(digest, { topic: 't', deliverAt: now - 60_000, now });
   assert.ok(!('delay' in msg), 'ntfy rejects a delay in the past, so it must be dropped');
+});
+
+test('empty environment variables fall back to defaults', () => {
+  // GitHub Actions sets `FOO: ${{ secrets.FOO }}` to "" when the secret does not
+  // exist, so an unset NTFY_SERVER arrived as an empty string and became
+  // fetch(""), failing with "Failed to parse URL from".
+  const withEmpties = readConfig({
+    NTFY_TOPIC: 'abc', NTFY_SERVER: '', NTFY_TOKEN: '',
+    NTFY_HOUR: '', NTFY_MINUTE: '', NTFY_SPACING_SECONDS: '', NTFY_PRIORITY: '',
+  });
+  assert.equal(withEmpties.server, 'https://ntfy.sh');
+  assert.equal(withEmpties.token, null, 'an empty token must not become "Bearer "');
+  // Number('') is 0, which would silently move delivery to midnight.
+  assert.equal(withEmpties.hour, 6);
+  assert.equal(withEmpties.spacingSeconds, 45);
+  assert.equal(withEmpties.priority, 3);
+
+  assert.deepEqual(readConfig({ NTFY_TOPIC: 'abc' }), withEmpties, 'absent and empty must behave identically');
+});
+
+test('config trims values and strips a trailing slash from the server', () => {
+  const config = readConfig({ NTFY_TOPIC: '  abc  ', NTFY_SERVER: 'https://n.example.com/', NTFY_HOUR: '7' });
+  assert.equal(config.topic, 'abc');
+  assert.equal(config.server, 'https://n.example.com');
+  assert.equal(config.hour, 7);
+});
+
+test('a non-numeric override does not silently become zero', () => {
+  assert.equal(readConfig({ NTFY_TOPIC: 'a', NTFY_HOUR: 'six' }).hour, 6);
 });

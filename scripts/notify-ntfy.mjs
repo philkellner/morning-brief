@@ -18,7 +18,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildMessages, nextDeliveryEpoch } from './lib/ntfy.mjs';
+import { buildMessages, nextDeliveryEpoch, readConfig } from './lib/ntfy.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -29,20 +29,16 @@ const value = (flag, fallback) => {
   return i > -1 ? args[i + 1] : fallback;
 };
 
-const topic = process.env.NTFY_TOPIC?.trim();
+const config = readConfig(process.env);
+const { topic } = config;
 if (!topic) {
   console.log('NTFY_TOPIC is not set - skipping notifications.');
   console.log('Set it as a repository secret to enable them. See README, "Phone notifications without the app".');
   process.exit(0);
 }
 
-const server = (process.env.NTFY_SERVER ?? 'https://ntfy.sh').replace(/\/+$/, '');
-const timeZone = process.env.NTFY_TIMEZONE ?? 'America/Chicago';
-const hour = Number(process.env.NTFY_HOUR ?? 6);
-const minute = Number(process.env.NTFY_MINUTE ?? 0);
-const spacingSeconds = Number(process.env.NTFY_SPACING_SECONDS ?? 45);
-const priority = Number(process.env.NTFY_PRIORITY ?? 3);
-const limit = Number(value('--limit', process.env.NTFY_LIMIT ?? 10));
+const { server, timeZone, hour, minute, spacingSeconds, priority } = config;
+const limit = Number(value('--limit', config.limit)) || config.limit;
 const sendNow = has('--now');
 const dryRun = has('--dry-run');
 
@@ -83,7 +79,7 @@ if (dryRun) {
 }
 
 const headers = { 'content-type': 'application/json' };
-if (process.env.NTFY_TOKEN) headers.authorization = `Bearer ${process.env.NTFY_TOKEN}`;
+if (config.token) headers.authorization = `Bearer ${config.token}`;
 
 let failures = 0;
 for (const [index, message] of messages.entries()) {

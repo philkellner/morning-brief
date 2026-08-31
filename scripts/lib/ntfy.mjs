@@ -105,3 +105,40 @@ function buildBody(story, total) {
   const provenance = `${story.rank} of ${total} · ${story.sourceCount} outlet${story.sourceCount === 1 ? '' : 's'} · ${story.leanCount} lean${story.leanCount === 1 ? '' : 's'} · via ${story.headlineSource}`;
   return story.summary ? `${story.summary}\n\n${provenance}` : provenance;
 }
+
+
+/**
+ * Read configuration from an environment.
+ *
+ * Written against empty strings, not just absent keys: GitHub Actions sets
+ * `FOO: ${{ secrets.FOO }}` to "" when the secret does not exist, so `??`
+ * fallbacks never fire and an unset NTFY_SERVER became fetch(""). Numeric
+ * values need the same care - Number("") is 0, which would silently move
+ * delivery to midnight.
+ */
+export function readConfig(env = process.env) {
+  const text = (name, fallback = null) => {
+    const raw = env[name];
+    if (raw === undefined || raw === null) return fallback;
+    const trimmed = String(raw).trim();
+    return trimmed === '' ? fallback : trimmed;
+  };
+  const number = (name, fallback) => {
+    const raw = text(name);
+    if (raw === null) return fallback;
+    const parsed = Number(raw);
+    return Number.isFinite(parsed) ? parsed : fallback;
+  };
+
+  return {
+    topic: text('NTFY_TOPIC'),
+    server: (text('NTFY_SERVER', 'https://ntfy.sh')).replace(/\/+$/, ''),
+    token: text('NTFY_TOKEN'),
+    timeZone: text('NTFY_TIMEZONE', 'America/Chicago'),
+    hour: number('NTFY_HOUR', 6),
+    minute: number('NTFY_MINUTE', 0),
+    spacingSeconds: number('NTFY_SPACING_SECONDS', 45),
+    priority: number('NTFY_PRIORITY', 3),
+    limit: number('NTFY_LIMIT', 10),
+  };
+}
