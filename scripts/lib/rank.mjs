@@ -72,8 +72,14 @@ export function leanSpread(leans, leanWeights) {
  * (and a sceptical reader) can see exactly why a story ranked where it did.
  */
 export function scoreCluster(cluster, { leanWeights, now = Date.now() }) {
+  // Keyed by outlet, not feed: a newsroom with both a world and a technology
+  // feed must count once, or it inflates the very consensus number the whole
+  // ranking rests on.
   const sources = new Map();
-  for (const item of cluster.items) if (!sources.has(item.sourceId)) sources.set(item.sourceId, item);
+  for (const item of cluster.items) {
+    const outlet = item.outlet ?? item.sourceId;
+    if (!sources.has(outlet)) sources.set(outlet, item);
+  }
 
   const distinctSources = sources.size;
   const leans = [...sources.values()].map((i) => i.lean);

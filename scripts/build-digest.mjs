@@ -148,6 +148,7 @@ async function collectItems(sources, args, log) {
 
       items.push({
         sourceId: source.id,
+        outlet: source.outlet ?? source.id,
         lean: source.lean,
         wire: Boolean(source.wire),
         title: stripHtml(item.title),
@@ -177,6 +178,7 @@ async function main() {
     const fixture = JSON.parse(await readFile(resolve(ROOT, args.fixture), 'utf8'));
     items = fixture.map((f) => ({
       ...f,
+      outlet: f.outlet ?? sourcesById[f.sourceId]?.outlet ?? f.sourceId,
       lean: f.lean ?? sourcesById[f.sourceId]?.lean ?? 'center',
       wire: f.wire ?? Boolean(sourcesById[f.sourceId]?.wire),
       link: f.link ?? `https://example.invalid/${f.sourceId}/${encodeURIComponent(f.title.slice(0, 40))}`,
