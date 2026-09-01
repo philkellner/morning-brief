@@ -5,6 +5,13 @@
 // significance which no single newsroom's front page can give you.
 
 import { cleanDescription, firstSentences, truncate } from './text.mjs';
+import { classifyCluster, selectByQuota, TOPICS, DEFAULT_TOPIC } from './topics.mjs';
+
+/**
+ * Slots per topic. World gets the largest share because it is the catch-all -
+ * anything not clearly specialist lands there, including national politics.
+ */
+export const DEFAULT_QUOTAS = { world: 4, tech: 2, business: 2, health: 2 };
 
 // Soft news: legitimately reported and often widely syndicated, but not what a
 // "top ten news" brief is for. Demoted rather than excluded, so a genuine hard
@@ -153,13 +160,22 @@ export function pickSummary(items, headlineItem) {
 }
 
 /** Assemble the final ranked story list. */
-export function buildStories(clusters, { leanWeights, sourcesById, limit, now = Date.now() }) {
-  const scored = clusters
-    .map((cluster) => ({ cluster, score: scoreCluster(cluster, { leanWeights, now }) }))
-    .sort((a, b) => b.score.total - a.score.total)
-    .slice(0, limit);
+export function buildStories(clusters, {
+  leanWeights, sourcesById, limit, now = Date.now(), quotas = DEFAULT_QUOTAS,
+}) {
+  const ranked = clusters
+    .map((cluster) => ({
+      cluster,
+      topic: classifyCluster(cluster.items),
+      score: scoreCluster(cluster, { leanWeights, now }),
+    }))
+    .sort((a, b) => b.score.total - a.score.total);
 
-  return scored.map(({ cluster, score }, index) => {
+  // Ranking within topic is what stops world news taking all ten slots: every
+  // outlet runs a world desk, so an unsegmented list always converges there.
+  const scored = selectByQuota(ranked, { quotas, limit });
+
+  return scored.map(({ cluster, score, topic }, index) => {
     const items = score.uniqueItems;
     const headlineItem = pickHeadline(items);
     const summary = pickSummary(items, headlineItem);
@@ -177,6 +193,9 @@ export function buildStories(clusters, { leanWeights, sourcesById, limit, now = 
     return {
       rank: index + 1,
       id: stableId(headlineItem.title, score.newest),
+      topic,
+      topicLabel: TOPICS[topic]?.label ?? TOPICS[DEFAULT_TOPIC].label,
+      topicShort: TOPICS[topic]?.short ?? TOPICS[DEFAULT_TOPIC].short,
       title: truncate(headlineItem.title, 180),
       summary: summary.text || fallbackSummary(items),
       url: headlineItem.link,

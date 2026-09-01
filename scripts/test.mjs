@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener } from './lib/text.mjs';
 import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
+import { classifyCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { sensationalism, pickHeadline, leanSpread, buildStories } from './lib/rank.mjs';
@@ -391,4 +392,115 @@ test('slot detection holds across a daylight-saving change', () => {
   const { passed, slot } = isSlotPassed({ now: morning, hour: 6, timeZone });
   assert.equal(passed, true);
   assert.equal(new Date(slot).toISOString(), '2026-03-08T11:00:00.000Z');
+});
+
+// --- topics -----------------------------------------------------------------
+
+test('one newsroom with several feeds counts as one outlet', () => {
+  // BBC runs world, technology, science and health feeds. Counting those as
+  // four independent confirmations would inflate the number the whole ranking
+  // rests on.
+  const mk = (sourceId, outlet, title) => ({
+    sourceId, outlet, lean: 'center', wire: false, title,
+    description: `${title} reported with enough body text to be usable here.`,
+    link: `https://e.invalid/${sourceId}`, published: new Date(), categories: [],
+  });
+  const items = [
+    mk('bbc', 'bbc', 'Chip maker unveils new processor'),
+    mk('bbc_tech', 'bbc', 'Chip maker unveils its new processor'),
+    mk('verge', 'verge', 'New processor unveiled by chip maker'),
+  ];
+  const [story] = buildStories(clusterItems(items), { leanWeights: config.leanWeights, sourcesById: {}, limit: 1 });
+  assert.equal(story.sourceCount, 2, 'BBC twice must count once');
+  assert.equal(story.coverage.length, 2);
+});
+
+test('the classifier separates specialist stories from general news', () => {
+  const item = (title, description) => ({ title, description, link: 'https://e.com/news/x', categories: [] });
+  const cases = [
+    ['world', 'Iran says it will return to ceasefire if US does', 'Tehran signalled willingness to resume talks after weeks of strikes.'],
+    ['world', 'Supreme Court allows ballroom project to proceed', 'The justices ruled on an emergency application by the administration.'],
+    ['world', 'Aid convoy reaches northern Gaza after weeks of delays', 'Trucks carrying flour and medicine crossed into the territory.'],
+    ['tech', 'Chip maker unveils processor built on new architecture', 'The semiconductor firm said its chips use a smaller process node.'],
+    ['tech', 'Astronomers spot most distant galaxy yet', 'Researchers used the telescope to observe light from the early universe.'],
+    ['business', 'Fed holds interest rates steady as inflation cools', 'The central bank left its benchmark rate unchanged, citing the economy.'],
+    ['business', 'Airline profits climb on strong summer demand', 'Carriers reported higher quarterly earnings and raised guidance for shareholders.'],
+    ['health', 'Study finds treatment slows Alzheimer disease', 'Researchers reported clinical trial results in patients at several hospitals.'],
+    ['health', 'Wildfires force evacuations as heatwave intensifies', 'Climate scientists link the extreme weather to global warming.'],
+  ];
+  for (const [expected, title, description] of cases) {
+    assert.equal(classifyCluster([item(title, description)]), expected, `misclassified: ${title}`);
+  }
+});
+
+test('a topic-scoped feed outranks bland wording', () => {
+  const bland = { title: 'Company announces annual results', description: 'No obvious vocabulary here at all.', link: 'https://e.com/x', categories: [] };
+  assert.equal(classifyCluster([bland]), DEFAULT_TOPIC);
+  assert.equal(classifyCluster([{ ...bland, topicHint: 'business' }]), 'business');
+});
+
+test('one stray keyword does not reclassify general news', () => {
+  // "economy" in a diplomatic story must not make it business.
+  const item = {
+    title: 'Leaders meet for talks on regional security',
+    description: 'The summit also touched on the economy, officials said.',
+    link: 'https://e.com/world/x', categories: [],
+  };
+  assert.equal(classifyCluster([item]), DEFAULT_TOPIC);
+});
+
+test('quotas give each topic its slots', () => {
+  const entry = (topic, total, distinctSources = 3) => ({ topic, score: { total, distinctSources } });
+  const ranked = [
+    entry('world', 30), entry('world', 29), entry('world', 28), entry('world', 27),
+    entry('world', 26), entry('world', 25), entry('world', 24),
+    entry('tech', 12), entry('tech', 11),
+    entry('business', 10), entry('business', 9),
+    entry('health', 8), entry('health', 7),
+  ];
+  const chosen = selectByQuota(ranked, { quotas: { world: 4, tech: 2, business: 2, health: 2 }, limit: 10 });
+  const counts = {};
+  for (const c of chosen) counts[c.topic] = (counts[c.topic] ?? 0) + 1;
+  assert.equal(chosen.length, 10);
+  assert.deepEqual(counts, { world: 4, tech: 2, business: 2, health: 2 });
+  // Without quotas the seven world stories would have taken seven of ten slots.
+  assert.ok(chosen.every((c, i, a) => i === 0 || a[i - 1].score.total >= c.score.total), 'output stays score-ordered');
+});
+
+test('an empty topic gives its slots back rather than padding', () => {
+  const entry = (topic, total, distinctSources = 3) => ({ topic, score: { total, distinctSources } });
+  const ranked = [
+    entry('world', 30), entry('world', 29), entry('world', 28), entry('world', 27),
+    entry('world', 26), entry('world', 25),
+    entry('tech', 12), entry('tech', 11),
+    // Health has only a single-source story: below the floor, so not worth a slot.
+    entry('health', 9, 1),
+  ];
+  const chosen = selectByQuota(ranked, { quotas: { world: 4, tech: 2, business: 2, health: 2 }, limit: 8, minSources: 2 });
+  const counts = {};
+  for (const c of chosen) counts[c.topic] = (counts[c.topic] ?? 0) + 1;
+  assert.equal(chosen.length, 8);
+  assert.equal(counts.world, 6, 'unused business and health slots go to the next-best stories');
+  assert.ok(!counts.business);
+});
+
+test('the registry stays balanced as topic feeds are added', () => {
+  const weight = (s) => config.leanWeights[s.lean];
+  const left = config.sources.filter((s) => weight(s) < 0).length;
+  const right = config.sources.filter((s) => weight(s) > 0).length;
+  assert.ok(Math.abs(left - right) <= 2, `lopsided: ${left} left vs ${right} right`);
+
+  // Feed ids must be unique; outlets deliberately are not.
+  const ids = config.sources.map((s) => s.id);
+  assert.equal(new Set(ids).size, ids.length, 'duplicate feed id');
+
+  // Every topic needs enough outlets that consensus means something.
+  const byTopic = {};
+  for (const s of config.sources) {
+    const t = s.topic ?? 'general';
+    (byTopic[t] ??= new Set()).add(s.outlet);
+  }
+  for (const topic of ['tech', 'business', 'health']) {
+    assert.ok(byTopic[topic]?.size >= 6, `${topic} has only ${byTopic[topic]?.size ?? 0} outlets`);
+  }
 });

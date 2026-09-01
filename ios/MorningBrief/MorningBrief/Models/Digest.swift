@@ -31,6 +31,10 @@ struct Digest: Codable, Sendable, Equatable {
 struct Story: Codable, Sendable, Identifiable, Hashable {
     let rank: Int
     let id: String
+    // Optional so a digest published before topics existed still decodes.
+    let topic: String?
+    let topicLabel: String?
+    let topicShort: String?
     let title: String
     let summary: String
     let url: String

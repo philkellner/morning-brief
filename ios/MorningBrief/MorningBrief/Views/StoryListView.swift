@@ -90,6 +90,13 @@ struct StoryRow: View {
                 .padding(.top, 2)
 
             VStack(alignment: .leading, spacing: 4) {
+                if let topic = story.topicShort {
+                    Text(topic)
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(Color.accentColor)
+                        .accessibilityLabel("Topic: \(story.topicLabel ?? topic)")
+                }
+
                 Text(story.title)
                     .font(.headline)
                     .fixedSize(horizontal: false, vertical: true)

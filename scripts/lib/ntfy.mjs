@@ -83,7 +83,9 @@ export function buildMessages(digest, {
   return stories.map((story, index) => {
     const message = {
       topic,
-      title: story.title,
+      // One labelled stream: the prefix is what makes a mixed brief scannable
+      // without splitting it across several ntfy subscriptions.
+      title: story.topicShort ? `${story.topicShort} · ${story.title}` : story.title,
       message: buildBody(story, stories.length),
       priority,
       tags: ['newspaper'],

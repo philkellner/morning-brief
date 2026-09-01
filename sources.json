@@ -21,7 +21,15 @@
     "unreachable. Re-run the Probe feeds workflow when the digest looks thin.",
     "",
     "One feed per outlet, always. Two feeds from the same newsroom would each count",
-    "as a distinct source and inflate the consensus score for that outlet's stories."
+    "as a distinct source and inflate the consensus score for that outlet's stories.",
+    "",
+    "Feeds carry an 'outlet' separate from their id. Several newsrooms contribute",
+    "more than one feed (BBC world + BBC technology). Consensus counts distinct",
+    "OUTLETS, so those count once - otherwise a newsroom with four desks would",
+    "look like four independent confirmations of the same story.",
+    "",
+    "'topic' marks a topic-scoped feed and is the strongest classification signal.",
+    "Topic feeds were probed live on 2026-09-01; all 28 responded."
   ],
   "sources": [
     {
@@ -29,161 +37,207 @@
       "name": "NPR",
       "lean": "center-left",
       "wire": true,
-      "url": "https://feeds.npr.org/1001/rss.xml"
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "outlet": "npr",
+      "topic": null
     },
     {
       "id": "bbc",
       "name": "BBC News",
       "lean": "center",
       "wire": true,
-      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "outlet": "bbc",
+      "topic": null
     },
     {
       "id": "csm",
       "name": "Christian Science Monitor",
       "lean": "center",
       "wire": true,
-      "url": "https://rss.csmonitor.com/feeds/world"
+      "url": "https://rss.csmonitor.com/feeds/world",
+      "outlet": "csm",
+      "topic": null
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
       "lean": "center-left",
       "wire": true,
-      "url": "https://www.aljazeera.com/xml/rss/all.xml"
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "outlet": "aljazeera",
+      "topic": null
     },
     {
       "id": "dw",
       "name": "Deutsche Welle",
       "lean": "center",
       "wire": true,
-      "url": "https://rss.dw.com/rdf/rss-en-all"
+      "url": "https://rss.dw.com/rdf/rss-en-all",
+      "outlet": "dw",
+      "topic": null
     },
     {
       "id": "france24",
       "name": "France 24",
       "lean": "center",
       "wire": true,
-      "url": "https://www.france24.com/en/rss"
+      "url": "https://www.france24.com/en/rss",
+      "outlet": "france24",
+      "topic": null
     },
     {
       "id": "skynews",
       "name": "Sky News",
       "lean": "center",
       "wire": false,
-      "url": "https://feeds.skynews.com/feeds/rss/world.xml"
+      "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+      "outlet": "skynews",
+      "topic": null
     },
     {
       "id": "abc",
       "name": "ABC News",
       "lean": "center-left",
       "wire": false,
-      "url": "https://abcnews.go.com/abcnews/topstories"
+      "url": "https://abcnews.go.com/abcnews/topstories",
+      "outlet": "abc",
+      "topic": null
     },
     {
       "id": "cbs",
       "name": "CBS News",
       "lean": "center-left",
       "wire": false,
-      "url": "https://www.cbsnews.com/latest/rss/world"
+      "url": "https://www.cbsnews.com/latest/rss/world",
+      "outlet": "cbs",
+      "topic": null
     },
     {
       "id": "nbc",
       "name": "NBC News",
       "lean": "center-left",
       "wire": false,
-      "url": "https://feeds.nbcnews.com/nbcnews/public/world"
+      "url": "https://feeds.nbcnews.com/nbcnews/public/world",
+      "outlet": "nbc",
+      "topic": null
     },
     {
       "id": "guardian",
       "name": "The Guardian",
       "lean": "left",
       "wire": false,
-      "url": "https://www.theguardian.com/world/rss"
+      "url": "https://www.theguardian.com/world/rss",
+      "outlet": "guardian",
+      "topic": null
     },
     {
       "id": "nytimes",
       "name": "The New York Times",
       "lean": "center-left",
       "wire": false,
-      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "outlet": "nytimes",
+      "topic": null
     },
     {
       "id": "thehill",
       "name": "The Hill",
       "lean": "center",
       "wire": false,
-      "url": "https://thehill.com/news/feed/"
+      "url": "https://thehill.com/news/feed/",
+      "outlet": "thehill",
+      "topic": null
     },
     {
       "id": "cnbc",
       "name": "CNBC",
       "lean": "center",
       "wire": false,
-      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "outlet": "cnbc",
+      "topic": null
     },
     {
       "id": "foxnews",
       "name": "Fox News",
       "lean": "right",
       "wire": false,
-      "url": "https://moxie.foxnews.com/google-publisher/world.xml"
+      "url": "https://moxie.foxnews.com/google-publisher/world.xml",
+      "outlet": "foxnews",
+      "topic": null
     },
     {
       "id": "nypost",
       "name": "New York Post",
       "lean": "right",
       "wire": false,
-      "url": "https://nypost.com/news/feed/"
+      "url": "https://nypost.com/news/feed/",
+      "outlet": "nypost",
+      "topic": null
     },
     {
       "id": "newsweek",
       "name": "Newsweek",
       "lean": "center",
       "wire": false,
-      "url": "https://www.newsweek.com/rss"
+      "url": "https://www.newsweek.com/rss",
+      "outlet": "newsweek",
+      "topic": null
     },
     {
       "id": "wsj",
       "name": "The Wall Street Journal",
       "lean": "center-right",
       "wire": false,
-      "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
+      "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+      "outlet": "wsj",
+      "topic": null
     },
     {
       "id": "telegraph",
       "name": "The Telegraph",
       "lean": "center-right",
       "wire": false,
-      "url": "https://www.telegraph.co.uk/news/rss.xml"
+      "url": "https://www.telegraph.co.uk/news/rss.xml",
+      "outlet": "telegraph",
+      "topic": null
     },
     {
       "id": "economist",
       "name": "The Economist",
       "lean": "center-right",
       "wire": false,
-      "url": "https://www.economist.com/international/rss.xml"
+      "url": "https://www.economist.com/international/rss.xml",
+      "outlet": "economist",
+      "topic": null
     },
     {
       "id": "examiner",
       "name": "Washington Examiner",
       "lean": "right",
       "wire": false,
-      "url": "https://www.washingtonexaminer.com/feed/"
+      "url": "https://www.washingtonexaminer.com/feed/",
+      "outlet": "examiner",
+      "topic": null
     },
     {
       "id": "dailymail",
       "name": "Daily Mail",
       "lean": "right",
       "wire": false,
-      "url": "https://www.dailymail.co.uk/news/index.rss"
+      "url": "https://www.dailymail.co.uk/news/index.rss",
+      "outlet": "dailymail",
+      "topic": null
     },
     {
       "id": "straitstimes",
       "name": "The Straits Times",
       "lean": "center",
       "wire": true,
-      "url": "https://www.straitstimes.com/news/world/rss.xml"
+      "url": "https://www.straitstimes.com/news/world/rss.xml",
+      "outlet": "straitstimes",
+      "topic": null
     },
     {
       "id": "ap_mirror",
@@ -191,84 +245,360 @@
       "lean": "center",
       "wire": false,
       "url": "https://feedx.net/rss/ap.xml",
-      "note": "Unofficial mirror. AP's own feeds require auth; verify or drop if it goes stale."
+      "note": "Unofficial mirror. AP's own feeds require auth; verify or drop if it goes stale.",
+      "outlet": "ap_mirror",
+      "topic": null
     },
     {
       "id": "euronews",
       "name": "Euronews",
       "lean": "center",
       "wire": true,
-      "url": "https://www.euronews.com/rss?level=theme&name=news"
+      "url": "https://www.euronews.com/rss?level=theme&name=news",
+      "outlet": "euronews",
+      "topic": null
     },
     {
       "id": "japantimes",
       "name": "The Japan Times",
       "lean": "center",
       "wire": true,
-      "url": "https://www.japantimes.co.jp/feed/"
+      "url": "https://www.japantimes.co.jp/feed/",
+      "outlet": "japantimes",
+      "topic": null
     },
     {
       "id": "scmp",
       "name": "South China Morning Post",
       "lean": "center",
       "wire": true,
-      "url": "https://www.scmp.com/rss/91/feed"
+      "url": "https://www.scmp.com/rss/91/feed",
+      "outlet": "scmp",
+      "topic": null
     },
     {
       "id": "toi",
       "name": "Times of India",
       "lean": "center",
       "wire": true,
-      "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms"
+      "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+      "outlet": "toi",
+      "topic": null
     },
     {
       "id": "abcau",
       "name": "ABC Australia",
       "lean": "center",
       "wire": true,
-      "url": "https://www.abc.net.au/news/feed/2942460/rss.xml"
+      "url": "https://www.abc.net.au/news/feed/2942460/rss.xml",
+      "outlet": "abcau",
+      "topic": null
     },
     {
       "id": "pbs",
       "name": "PBS NewsHour",
       "lean": "center-left",
       "wire": true,
-      "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+      "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+      "outlet": "pbs",
+      "topic": null
     },
     {
       "id": "politico",
       "name": "Politico",
       "lean": "center-left",
       "wire": false,
-      "url": "https://rss.politico.com/politics-news.xml"
+      "url": "https://rss.politico.com/politics-news.xml",
+      "outlet": "politico",
+      "topic": null
     },
     {
       "id": "independent",
       "name": "The Independent",
       "lean": "center-left",
       "wire": false,
-      "url": "https://www.independent.co.uk/news/world/rss"
+      "url": "https://www.independent.co.uk/news/world/rss",
+      "outlet": "independent",
+      "topic": null
     },
     {
       "id": "reason",
       "name": "Reason",
       "lean": "center-right",
       "wire": false,
-      "url": "https://reason.com/latest/feed/"
+      "url": "https://reason.com/latest/feed/",
+      "outlet": "reason",
+      "topic": null
     },
     {
       "id": "freebeacon",
       "name": "Washington Free Beacon",
       "lean": "right",
       "wire": false,
-      "url": "https://freebeacon.com/feed/"
+      "url": "https://freebeacon.com/feed/",
+      "outlet": "freebeacon",
+      "topic": null
     },
     {
       "id": "nationalreview",
       "name": "National Review",
       "lean": "right",
       "wire": false,
-      "url": "https://www.nationalreview.com/feed/"
+      "url": "https://www.nationalreview.com/feed/",
+      "outlet": "nationalreview",
+      "topic": null
+    },
+    {
+      "id": "verge",
+      "outlet": "verge",
+      "name": "The Verge",
+      "lean": "center-left",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "id": "guardian_tech",
+      "outlet": "guardian",
+      "name": "Guardian Tech",
+      "lean": "left",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://www.theguardian.com/uk/technology/rss"
+    },
+    {
+      "id": "nyt_tech",
+      "outlet": "nytimes",
+      "name": "NYT Technology",
+      "lean": "center-left",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+    },
+    {
+      "id": "npr_science",
+      "outlet": "npr",
+      "name": "NPR Science",
+      "lean": "center-left",
+      "wire": true,
+      "topic": "tech",
+      "url": "https://feeds.npr.org/1007/rss.xml"
+    },
+    {
+      "id": "wsj_tech",
+      "outlet": "wsj",
+      "name": "WSJ Technology",
+      "lean": "center-right",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://feeds.a.dj.com/rss/RSSWSJD.xml"
+    },
+    {
+      "id": "tele_tech",
+      "outlet": "telegraph",
+      "name": "Telegraph Tech",
+      "lean": "center-right",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://www.telegraph.co.uk/technology/rss.xml"
+    },
+    {
+      "id": "econ_scitech",
+      "outlet": "economist",
+      "name": "Economist Science",
+      "lean": "center-right",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://www.economist.com/science-and-technology/rss.xml"
+    },
+    {
+      "id": "fox_scitech",
+      "outlet": "foxnews",
+      "name": "Fox Science",
+      "lean": "right",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://moxie.foxnews.com/google-publisher/science.xml"
+    },
+    {
+      "id": "arstechnica",
+      "outlet": "arstechnica",
+      "name": "Ars Technica",
+      "lean": "center",
+      "wire": false,
+      "topic": "tech",
+      "url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "id": "nature",
+      "outlet": "nature",
+      "name": "Nature",
+      "lean": "center",
+      "wire": true,
+      "topic": "tech",
+      "url": "https://www.nature.com/nature.rss"
+    },
+    {
+      "id": "sciencedaily",
+      "outlet": "sciencedaily",
+      "name": "ScienceDaily",
+      "lean": "center",
+      "wire": true,
+      "topic": "tech",
+      "url": "https://www.sciencedaily.com/rss/top/science.xml"
+    },
+    {
+      "id": "bbc_tech",
+      "outlet": "bbc",
+      "name": "BBC Technology",
+      "lean": "center",
+      "wire": true,
+      "topic": "tech",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "id": "nyt_business",
+      "outlet": "nytimes",
+      "name": "NYT Business",
+      "lean": "center-left",
+      "wire": false,
+      "topic": "business",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"
+    },
+    {
+      "id": "guardian_biz",
+      "outlet": "guardian",
+      "name": "Guardian Business",
+      "lean": "left",
+      "wire": false,
+      "topic": "business",
+      "url": "https://www.theguardian.com/uk/business/rss"
+    },
+    {
+      "id": "businessinsider",
+      "outlet": "businessinsider",
+      "name": "Business Insider",
+      "lean": "center-left",
+      "wire": false,
+      "topic": "business",
+      "url": "https://www.businessinsider.com/rss"
+    },
+    {
+      "id": "wsj_markets",
+      "outlet": "wsj",
+      "name": "WSJ Markets",
+      "lean": "center-right",
+      "wire": false,
+      "topic": "business",
+      "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+    },
+    {
+      "id": "econ_business",
+      "outlet": "economist",
+      "name": "Economist Business",
+      "lean": "center-right",
+      "wire": false,
+      "topic": "business",
+      "url": "https://www.economist.com/business/rss.xml"
+    },
+    {
+      "id": "foxbusiness",
+      "outlet": "foxnews",
+      "name": "Fox Business",
+      "lean": "right",
+      "wire": false,
+      "topic": "business",
+      "url": "https://moxie.foxbusiness.com/google-publisher/latest.xml"
+    },
+    {
+      "id": "bloomberg",
+      "outlet": "bloomberg",
+      "name": "Bloomberg",
+      "lean": "center",
+      "wire": false,
+      "topic": "business",
+      "url": "https://feeds.bloomberg.com/markets/news.rss"
+    },
+    {
+      "id": "marketwatch",
+      "outlet": "marketwatch",
+      "name": "MarketWatch",
+      "lean": "center",
+      "wire": false,
+      "topic": "business",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+    },
+    {
+      "id": "npr_health",
+      "outlet": "npr",
+      "name": "NPR Health",
+      "lean": "center-left",
+      "wire": true,
+      "topic": "health",
+      "url": "https://feeds.npr.org/1128/rss.xml"
+    },
+    {
+      "id": "guardian_env",
+      "outlet": "guardian",
+      "name": "Guardian Environment",
+      "lean": "left",
+      "wire": false,
+      "topic": "health",
+      "url": "https://www.theguardian.com/uk/environment/rss"
+    },
+    {
+      "id": "nyt_health",
+      "outlet": "nytimes",
+      "name": "NYT Health",
+      "lean": "center-left",
+      "wire": false,
+      "topic": "health",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml"
+    },
+    {
+      "id": "fox_health",
+      "outlet": "foxnews",
+      "name": "Fox Health",
+      "lean": "right",
+      "wire": false,
+      "topic": "health",
+      "url": "https://moxie.foxnews.com/google-publisher/health.xml"
+    },
+    {
+      "id": "dailymail_hea",
+      "outlet": "dailymail",
+      "name": "Daily Mail Health",
+      "lean": "right",
+      "wire": false,
+      "topic": "health",
+      "url": "https://www.dailymail.co.uk/health/index.rss"
+    },
+    {
+      "id": "statnews",
+      "outlet": "statnews",
+      "name": "STAT News",
+      "lean": "center",
+      "wire": false,
+      "topic": "health",
+      "url": "https://www.statnews.com/feed/"
+    },
+    {
+      "id": "carbonbrief",
+      "outlet": "carbonbrief",
+      "name": "Carbon Brief",
+      "lean": "center",
+      "wire": true,
+      "topic": "health",
+      "url": "https://www.carbonbrief.org/feed/"
+    },
+    {
+      "id": "bbc_health",
+      "outlet": "bbc",
+      "name": "BBC Health",
+      "lean": "center",
+      "wire": true,
+      "topic": "health",
+      "url": "https://feeds.bbci.co.uk/news/health/rss.xml"
     }
   ],
   "leanWeights": {

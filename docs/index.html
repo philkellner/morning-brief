@@ -23,6 +23,7 @@
   .story { margin:22px 0; }
   .story-head { display:flex; gap:10px; align-items:baseline; }
   .rank { color:var(--dim); flex:0 0 auto; }
+  .topic { color:var(--bg); background:var(--dim); padding:0 5px; font-size:11px; letter-spacing:1px; flex:0 0 auto; }
   .title { font-size:15px; font-weight:bold; }
   .title a { color:var(--fg); text-decoration:none; border-bottom:1px dotted var(--dim); }
   .title a:hover { background:var(--fg); color:var(--bg); }
@@ -88,6 +89,7 @@ fetch('digest.json?t=' + Date.now())
       <div class="story">
         <div class="story-head">
           <span class="rank">${String(s.rank).padStart(2,'0')}.</span>
+          ${s.topicShort ? `<span class="topic">${esc(s.topicShort)}</span>` : ''}
           <span class="title">${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a>` : esc(s.title)}</span>
         </div>
         <div class="summary">${esc(s.summary)}</div>

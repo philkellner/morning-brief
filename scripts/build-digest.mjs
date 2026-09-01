@@ -20,7 +20,7 @@ const CONFIG = {
   maxAgeHours: 36,
   perFeedItems: 30,
   fetchTimeoutMs: 20000,
-  concurrency: 8,
+  concurrency: 12,
   // Publishing a two-story digest is worse than publishing nothing and keeping
   // yesterday's, so the build fails loudly below these floors.
   minFeeds: 5,
@@ -155,6 +155,10 @@ async function collectItems(sources, args, log) {
         description: item.description ?? '',
         link: item.link,
         published: item.published,
+        // Both feed the topic classifier: categories are the publisher's own
+        // labelling, topicHint records that the feed itself is topic-scoped.
+        categories: item.categories ?? [],
+        topicHint: source.topic ?? null,
       });
       kept += 1;
     }
@@ -182,6 +186,8 @@ async function main() {
       lean: f.lean ?? sourcesById[f.sourceId]?.lean ?? 'center',
       wire: f.wire ?? Boolean(sourcesById[f.sourceId]?.wire),
       link: f.link ?? `https://example.invalid/${f.sourceId}/${encodeURIComponent(f.title.slice(0, 40))}`,
+      categories: f.categories ?? [],
+      topicHint: f.topicHint ?? sourcesById[f.sourceId]?.topic ?? null,
       published: f.published ? new Date(f.published) : new Date(),
     }));
     feedResults = [];
