@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-01",
-  "generatedAt": "2026-09-01T15:13:52.209Z",
+  "generatedAt": "2026-09-01T15:17:25.209Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,8 +12,13 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 63,
-    "failed": []
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
   },
   "stories": [
     {
@@ -27,7 +32,7 @@
       "url": "https://www.aljazeera.com/news/2026/9/1/iran-urges-us-to-honour-commitments-under-mou?traffic_source=rss",
       "headlineSource": "Al Jazeera",
       "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T15:10:28.000Z",
+      "publishedAt": "2026-09-01T15:14:38.000Z",
       "sourceCount": 12,
       "leanCount": 4,
       "leanSpread": 1,
@@ -37,7 +42,7 @@
         "breadth": 11.1,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.49,
+        "freshness": 2.5,
         "softPenalty": 0
       },
       "coverage": [
@@ -143,12 +148,12 @@
       "leanCount": 4,
       "leanSpread": 0.75,
       "wireCount": 3,
-      "score": 19.67,
+      "score": 19.66,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 5.85,
         "wire": 2.4,
-        "freshness": 2.42,
+        "freshness": 2.41,
         "softPenalty": 0
       },
       "coverage": [
@@ -219,12 +224,12 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 5,
-      "score": 19.55,
+      "score": 19.54,
       "scoreComponents": {
         "breadth": 9.97,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.48,
+        "freshness": 2.47,
         "softPenalty": 0
       },
       "coverage": [
@@ -295,89 +300,6 @@
     },
     {
       "rank": 4,
-      "id": "2026-09-01-11sk480",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
-      "summary": "Russian attacks escalate as EU defence ministers meet in Ireland to discuss Ukraine air defence shortages.",
-      "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do",
-      "headlineSource": "BBC News",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-01T14:56:39.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 4,
-      "score": 19.08,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Russian drone and missile barrage kills at least 12 in Ukraine’s Kyiv",
-          "url": "https://www.aljazeera.com/news/2026/9/1/russian-drone-and-missile-barrage-kills-at-least-12-in-ukraines-kyiv?traffic_source=rss"
-        },
-        {
-          "source": "Associated Press (mirror)",
-          "sourceId": "ap_mirror",
-          "lean": "center",
-          "title": "Air raid alert shatters first day of school in Kyiv after overnight Russian missile strikes",
-          "url": "https://apnews.com/article/war-russia-ukraine-schools-missile-education-35e50e202b767c38258075ed1ca5c698"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "At least 12 killed and over a dozen injured in Russian strikes on Kyiv",
-          "url": "https://www.france24.com/en/at-least-12-killed-and-over-a-dozen-injured-in-russian-strikes-on-kyiv"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Russia kills at least 12 on sixth night of drone attacks on Kyiv",
-          "url": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Kyiv says 2,500 Russian troops trapped on tiny strip of land with artillery destroyed",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-nato-missiles-drones-b3042434.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
-          "url": "https://www.nytimes.com/2026/08/31/world/europe/ukraine-kyiv-drones-russia-sirens.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Russia hits port export facilities in Ukraine's Odesa region, Kyiv says",
-          "url": "https://www.straitstimes.com/world/europe/russia-hits-port-export-facilities-in-ukraines-odesa-region-kyiv-says"
-        }
-      ]
-    },
-    {
-      "rank": 5,
       "id": "2026-09-01-1mmuixq",
       "topic": "tech",
       "topicLabel": "Tech & science",
@@ -392,7 +314,7 @@
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 3,
-      "score": 18.73,
+      "score": 18.72,
       "scoreComponents": {
         "breadth": 9.51,
         "diversity": 4.45,
@@ -460,16 +382,16 @@
       ]
     },
     {
-      "rank": 6,
-      "id": "2026-09-01-11hird5",
+      "rank": 5,
+      "id": "2026-09-01-1pd66hn",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Israeli strikes on Gaza kill at least five, including children",
-      "summary": "Reports say the Israeli military carried out strikes after a raid by Israeli special forces and Israel-backed Palestinian militiamen was discovered.",
-      "url": "https://www.aljazeera.com/news/2026/9/1/israeli-attacks-on-gaza-kill-at-least-four-including-children?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
+      "title": "Israeli airstrikes kill at least five palestinians in Gaza City",
+      "summary": "Palestinian farmers inspect olive trees bulldozed by Israeli forces",
+      "url": "https://www.euronews.com/video/2026/09/01/israeli-airstrikes-kill-at-least-five-palestinians-in-gaza-city",
+      "headlineSource": "Euronews",
+      "summarySource": "Al Jazeera",
       "publishedAt": "2026-09-01T15:06:58.000Z",
       "sourceCount": 6,
       "leanCount": 3,
@@ -480,7 +402,7 @@
         "breadth": 8.42,
         "diversity": 4.45,
         "wire": 3.2,
-        "freshness": 2.49,
+        "freshness": 2.48,
         "softPenalty": 0
       },
       "coverage": [
@@ -488,8 +410,8 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Israeli strikes on Gaza kill at least five, including children",
-          "url": "https://www.aljazeera.com/news/2026/9/1/israeli-attacks-on-gaza-kill-at-least-four-including-children?traffic_source=rss"
+          "title": "Palestinian farmers inspect olive trees bulldozed by Israeli forces",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/palestinian-farmers-inspect-olive-trees-bulldozed-by-israeli-forces?traffic_source=rss"
         },
         {
           "source": "BBC News",
@@ -529,7 +451,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "id": "2026-09-01-1tx8r1k",
       "topic": "business",
       "topicLabel": "Business",
@@ -544,12 +466,12 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 5,
-      "score": 18.53,
+      "score": 18.52,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.43,
+        "freshness": 2.42,
         "softPenalty": 0
       },
       "coverage": [
@@ -605,6 +527,89 @@
       ]
     },
     {
+      "rank": 7,
+      "id": "2026-09-01-11sk480",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
+      "summary": "Ukrainian officials say 20 people, including two children, were injured in the capital and the wider region.",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-01T14:56:39.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 18.28,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Associated Press (mirror)",
+          "sourceId": "ap_mirror",
+          "lean": "center",
+          "title": "Air raid alert shatters first day of school in Kyiv after overnight Russian missile strikes",
+          "url": "https://apnews.com/article/war-russia-ukraine-schools-missile-education-35e50e202b767c38258075ed1ca5c698"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "At least 12 killed and over a dozen injured in Russian strikes on Kyiv",
+          "url": "https://www.france24.com/en/at-least-12-killed-and-over-a-dozen-injured-in-russian-strikes-on-kyiv"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Bootleg ‘Spider-Man’ swings into Russian cinemas despite Hollywood boycott",
+          "url": "https://www.nbcnews.com/world/russia/spider-man-movie-swings-bootleg-russia-cinema-hollywood-boycott-rcna594541"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Russia kills at least 12 on sixth night of drone attacks on Kyiv",
+          "url": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Kyiv says 2,500 Russian troops trapped on tiny strip of land with artillery destroyed",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-nato-missiles-drones-b3042434.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
+          "url": "https://www.nytimes.com/2026/08/31/world/europe/ukraine-kyiv-drones-russia-sirens.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Russia hits port export facilities in Ukraine's Odesa region, Kyiv says",
+          "url": "https://www.straitstimes.com/world/europe/russia-hits-port-export-facilities-in-ukraines-odesa-region-kyiv-says"
+        }
+      ]
+    },
+    {
       "rank": 8,
       "id": "2026-09-01-1hoa2a3",
       "topic": "health",
@@ -620,7 +625,7 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 4,
-      "score": 17.77,
+      "score": 17.76,
       "scoreComponents": {
         "breadth": 8.42,
         "diversity": 3.9,
