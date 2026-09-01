@@ -88,7 +88,12 @@ const KEYWORD_CAP = 4;
 // it is general news whatever words it happens to contain. Keywords still
 // score - they decide BETWEEN topics once provenance has established there is
 // a specialist claim to judge - but they can no longer make that claim alone.
-const REQUIRE_PROVENANCE = true;
+// Share of covering outlets that are topic desks for the story to count as
+// specialist. Half is decisive on its own; a third is enough once at least
+// three separate specialist desks have run it.
+const DOMINANT_SHARE = 0.5;
+const PLURAL_OUTLETS = 3;
+const PLURAL_SHARE = 0.34;
 
 /**
  * Topic evidence for a single item.
@@ -125,31 +130,49 @@ export function scoreItemTopics(item) {
  * science feed) can carry a cluster whose other members are generalists.
  */
 export function classifyCluster(items) {
-  const totals = {
-    tech: { score: 0, provenance: 0, hits: 0 },
-    business: { score: 0, provenance: 0, hits: 0 },
-    health: { score: 0, provenance: 0, hits: 0 },
-  };
-
+  // Provenance is counted per OUTLET and weighed as a share, not a presence.
+  //
+  // Requiring merely that some topic feed carried the story was still wrong on
+  // live data: Guardian Environment genuinely covers Nepal floods, and business
+  // desks genuinely cover Iran sanctions. One specialist desk among twelve
+  // general outlets does not make a story specialist - it makes it big enough
+  // that everyone ran it, which is the definition of general news.
+  //
+  // What distinguishes a real tech story is that the tech desks are most of its
+  // coverage.
+  const outlets = new Map();
   for (const item of items) {
+    const key = item.outlet ?? item.sourceId ?? item.link ?? String(items.indexOf(item));
+    if (!outlets.has(key)) outlets.set(key, { topics: new Set(), hits: { tech: 0, business: 0, health: 0 } });
+    const record = outlets.get(key);
     const scores = scoreItemTopics(item);
-    for (const topic of Object.keys(totals)) {
-      totals[topic].score += scores[topic].score;
-      totals[topic].provenance += scores[topic].provenance;
-      // The best-evidenced member decides, not the sum: one dedicated science
-      // feed should carry a cluster whose other members are generalists, but
-      // ten generalists each brushing one keyword should not.
-      totals[topic].hits = Math.max(totals[topic].hits, scores[topic].hits);
+    for (const [topic, evidence] of Object.entries(scores)) {
+      if (evidence.provenance > 0) record.topics.add(topic);
+      record.hits[topic] = Math.max(record.hits[topic], evidence.hits);
     }
   }
 
+  const total = outlets.size;
+  if (total === 0) return DEFAULT_TOPIC;
+
+  const votes = { tech: 0, business: 0, health: 0 };
+  const keywordSupport = { tech: 0, business: 0, health: 0 };
+  for (const record of outlets.values()) {
+    for (const topic of record.topics) votes[topic] += 1;
+    for (const topic of Object.keys(keywordSupport)) keywordSupport[topic] += record.hits[topic];
+  }
+
   let best = DEFAULT_TOPIC;
-  let bestScore = 0;
-  for (const [topic, evidence] of Object.entries(totals)) {
-    const qualifies = REQUIRE_PROVENANCE ? evidence.provenance > 0 : evidence.hits > 0;
+  let bestRank = 0;
+  for (const [topic, count] of Object.entries(votes)) {
+    const share = count / total;
+    // Either the specialist desks dominate the coverage, or enough of them ran
+    // it that a sizeable minority is still convincing.
+    const qualifies = share >= DOMINANT_SHARE || (count >= PLURAL_OUTLETS && share >= PLURAL_SHARE);
     if (!qualifies) continue;
-    const normalised = evidence.score / Math.max(1, Math.sqrt(items.length));
-    if (normalised > bestScore) { best = topic; bestScore = normalised; }
+    // Keyword support breaks ties between topics, never creates a claim.
+    const rank = share + Math.min(keywordSupport[topic], 6) * 0.01;
+    if (rank > bestRank) { best = topic; bestRank = rank; }
   }
   return best;
 }

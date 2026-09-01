@@ -518,3 +518,43 @@ test('the registry stays balanced as topic feeds are added', () => {
     assert.ok(byTopic[topic]?.size >= 6, `${topic} has only ${byTopic[topic]?.size ?? 0} outlets`);
   }
 });
+
+test('a lone specialist desk among many general outlets does not reclassify', () => {
+  // Both of these shipped in a live digest wearing the wrong topic, and each
+  // consumed a specialist slot that a real tech or health story should have had.
+  const item = (outlet, path, title, description) => ({
+    outlet, link: `https://e.com${path}a`, title, description, categories: [],
+  });
+
+  const iran = [...Array(11)].map((_, i) => item(`gen${i}`, '/world/',
+    'Iran urges US to honour commitments under MoU',
+    'Tehran said the economy and sanctions relief were central to the agreement.'));
+  iran.push(item('bloomberg', '/markets/', 'Iran urges US to honour MoU commitments',
+    'Sanctions relief and the economy were central.'));
+  assert.equal(classifyCluster(iran), DEFAULT_TOPIC, 'one business desk of twelve is still world news');
+
+  const nepal = [...Array(8)].map((_, i) => item(`gen${i}`, '/world/',
+    'Nepal families post photos of missing relatives',
+    'Flooding and landslides have left hundreds unaccounted for.'));
+  nepal.push(item('guardian', '/environment/', 'Nepal floods leave hundreds missing',
+    'Extreme weather and landslides across the region.'));
+  assert.equal(classifyCluster(nepal), DEFAULT_TOPIC, 'one environment desk of nine is still world news');
+});
+
+test('specialist desks dominating the coverage do reclassify', () => {
+  const item = (outlet, path, title) => ({
+    outlet, link: `https://e.com${path}a`, title,
+    description: 'The company confirmed the change in a statement to staff.', categories: [],
+  });
+  const apple = [...Array(3)].map((_, i) => item(`gen${i}`, '/news/', 'Apple names new chief executive'));
+  for (const outlet of ['verge', 'arstechnica', 'bbc', 'nytimes', 'wsj']) {
+    apple.push(item(outlet, '/technology/', 'Apple names Ternus as chief executive'));
+  }
+  assert.equal(classifyCluster(apple), 'tech', 'five tech desks of eight is a tech story');
+
+  // A small story carried only by specialists still classifies.
+  assert.equal(classifyCluster([
+    item('verge', '/technology/', 'Chip maker unveils processor'),
+    item('arstechnica', '/technology/', 'Chipmaker reveals new processor'),
+  ]), 'tech');
+});
