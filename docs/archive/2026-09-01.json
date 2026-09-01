@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-01",
-  "generatedAt": "2026-09-01T15:17:25.209Z",
+  "generatedAt": "2026-09-01T15:20:41.762Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -23,36 +23,29 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-09-01-1ltjg7m",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Iran urges US to honour commitments under MoU",
-      "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
-      "url": "https://www.aljazeera.com/news/2026/9/1/iran-urges-us-to-honour-commitments-under-mou?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
+      "id": "2026-09-01-1p3xeu3",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US and Iran trade strikes for first time in weeks",
+      "summary": "S. and Iran in over a month triggered missile launches and a spike in global oil prices.",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po",
+      "headlineSource": "BBC News",
+      "summarySource": "PBS NewsHour",
       "publishedAt": "2026-09-01T15:14:38.000Z",
-      "sourceCount": 12,
+      "sourceCount": 11,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 4,
-      "score": 23.2,
+      "wireCount": 3,
+      "score": 22.05,
       "scoreComponents": {
-        "breadth": 11.1,
+        "breadth": 10.75,
         "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.5,
+        "wire": 2.4,
+        "freshness": 2.49,
         "softPenalty": 0
       },
       "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Iran urges US to honour commitments under MoU",
-          "url": "https://www.aljazeera.com/news/2026/9/1/iran-urges-us-to-honour-commitments-under-mou?traffic_source=rss"
-        },
         {
           "source": "BBC News",
           "sourceId": "bbc",
@@ -64,8 +57,8 @@
           "source": "Bloomberg",
           "sourceId": "bloomberg",
           "lean": "center",
-          "title": "Hormuz Hostilities Pick Up as Two Tankers Reportedly Struck",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-01/two-oil-supertankers-hit-by-projectiles-in-hormuz-marisks-says"
+          "title": "Latest Oil Market News and Analysis for Sept. 1",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-31/latest-oil-market-news-and-analysis-for-sept-1"
         },
         {
           "source": "CBS News",
@@ -113,8 +106,8 @@
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Trump considering new strikes to stop Strait of Hormuz attacks as president threatens to ‘smack’ Tehran",
-          "url": "https://www.independent.co.uk/news/world/middle-east/trump-strait-hormuz-iran-attacks-b3042645.html"
+          "title": "Iran-US war latest: Trump official says Hormuz will soon be a ‘worthless piece of water’ and threatens new sanctions",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-kharg-oil-jordan-airbase-b3042455.html"
         },
         {
           "source": "The New York Times",
@@ -211,9 +204,9 @@
     {
       "rank": 3,
       "id": "2026-09-01-1bg8wx0",
-      "topic": "health",
-      "topicLabel": "Health & climate",
-      "topicShort": "HEALTH",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
       "title": "Nepal families post photos of missing relatives on Kathmandu hospital wall",
       "summary": "Thousands are still missing as Chinese state media report the official number of fatalities in Tibet at 16.",
       "url": "https://www.euronews.com/video/2026/09/01/nepal-families-post-photos-of-missing-relatives-on-kathmandu-hospital-wall",
@@ -319,7 +312,7 @@
         "breadth": 9.51,
         "diversity": 4.45,
         "wire": 2.4,
-        "freshness": 2.37,
+        "freshness": 2.36,
         "softPenalty": 0
       },
       "coverage": [
@@ -397,7 +390,7 @@
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 4,
-      "score": 18.56,
+      "score": 18.55,
       "scoreComponents": {
         "breadth": 8.42,
         "diversity": 4.45,
@@ -452,303 +445,68 @@
     },
     {
       "rank": 6,
-      "id": "2026-09-01-1tx8r1k",
+      "id": "2026-09-01-1nlh2ge",
       "topic": "business",
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
-      "title": "Iran says it will return to ceasefire if US does",
-      "summary": "The SCO started in 1996 and accounts for 43 percent of the world’s population and 23 percent of the global economy.",
-      "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-01T14:29:00.000Z",
-      "sourceCount": 7,
+      "title": "Global sell-off in government bonds intensifies",
+      "summary": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
+      "url": "https://thehill.com/business/6063247-government-bond-yields-rise/",
+      "headlineSource": "The Hill",
+      "summarySource": "CNBC",
+      "publishedAt": "2026-09-01T14:48:30.000Z",
+      "sourceCount": 5,
       "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 5,
-      "score": 18.52,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 15.2,
       "scoreComponents": {
-        "breadth": 9,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.42,
+        "breadth": 7.75,
+        "diversity": 5,
+        "wire": 0,
+        "freshness": 2.45,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "SCO slams attacks, sanctions on Iran: Key takeaways from Bishkek summit",
-          "url": "https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit?traffic_source=rss"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
           "lean": "center",
-          "title": "Iran says it will return to ceasefire if US does",
-          "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-rdf"
+          "title": "Global Bond Selloff Sends Yields to the Highest Level Since 2008",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-01/australian-benchmark-bond-yield-jumps-to-level-last-seen-in-2011"
         },
         {
-          "source": "Euronews",
-          "sourceId": "euronews",
+          "source": "CNBC",
+          "sourceId": "cnbc",
           "lean": "center",
-          "title": "Iran says it will return to June ceasefire deal if US does the same",
-          "url": "https://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same"
+          "title": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+          "url": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html"
         },
         {
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Bond market turmoil gives UK a £6bn debt interest headache as borrowing costs jump to highest level since 1998",
+          "url": "https://www.dailymail.com/money/markets/article-16094185/Burnham-Healey-face-Budget-crunch-UK-borrowing-costs-stuck-highest-level-30-years.html"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
           "lean": "left",
-          "title": "Iran’s economy in crisis as US launches new sanctions campaign",
-          "url": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump"
+          "title": "UK long-term borrowing costs could halve chancellor’s budget headroom",
+          "url": "https://www.theguardian.com/business/2026/sep/01/uk-gilt-yield-long-term-borrowing-costs-28-year-high"
         },
         {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Iran's president says Iran would return to ceasefire agreement if US does, and other Mideast news",
-          "url": "https://www.independent.co.uk/news/world/americas/iran-strait-of-hormuz-kyrgyzstan-washington-revolutionary-guard-b3042734.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
+          "source": "The Hill",
+          "sourceId": "thehill",
           "lean": "center",
-          "title": "Iran president offers US olive branch before Putin meeting",
-          "url": "https://www.straitstimes.com/world/middle-east/iran-president-offers-us-olive-branch-before-putin-meeting"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "'We can resist US unilateralism': Iran president tells Putin on sidelines of SCO summit",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/we-can-resist-us-unilateralism-iran-president-tells-putin-on-sidelines-of-sco-summit/articleshow/133684388.cms"
+          "title": "Global sell-off in government bonds intensifies",
+          "url": "https://thehill.com/business/6063247-government-bond-yields-rise/"
         }
       ]
     },
     {
       "rank": 7,
-      "id": "2026-09-01-11sk480",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
-      "summary": "Ukrainian officials say 20 people, including two children, were injured in the capital and the wider region.",
-      "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T14:56:39.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 3,
-      "score": 18.28,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 3.9,
-        "wire": 2.4,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Associated Press (mirror)",
-          "sourceId": "ap_mirror",
-          "lean": "center",
-          "title": "Air raid alert shatters first day of school in Kyiv after overnight Russian missile strikes",
-          "url": "https://apnews.com/article/war-russia-ukraine-schools-missile-education-35e50e202b767c38258075ed1ca5c698"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "At least 12 killed and over a dozen injured in Russian strikes on Kyiv",
-          "url": "https://www.france24.com/en/at-least-12-killed-and-over-a-dozen-injured-in-russian-strikes-on-kyiv"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Bootleg ‘Spider-Man’ swings into Russian cinemas despite Hollywood boycott",
-          "url": "https://www.nbcnews.com/world/russia/spider-man-movie-swings-bootleg-russia-cinema-hollywood-boycott-rcna594541"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Russia kills at least 12 on sixth night of drone attacks on Kyiv",
-          "url": "https://www.theguardian.com/world/2026/sep/01/russia-kills-sixth-night-drone-attacks-ukraine-kyiv"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Kyiv says 2,500 Russian troops trapped on tiny strip of land with artillery destroyed",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-nato-missiles-drones-b3042434.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
-          "url": "https://www.nytimes.com/2026/08/31/world/europe/ukraine-kyiv-drones-russia-sirens.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Russia hits port export facilities in Ukraine's Odesa region, Kyiv says",
-          "url": "https://www.straitstimes.com/world/europe/russia-hits-port-export-facilities-in-ukraines-odesa-region-kyiv-says"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-09-01-1hoa2a3",
-      "topic": "health",
-      "topicLabel": "Health & climate",
-      "topicShort": "HEALTH",
-      "title": "Court says India must uphold Pakistan water treaty",
-      "summary": "Japanese companies are doubling down on India amid a shrinking domestic market and rising risks in China.",
-      "url": "https://www.dw.com/en/court-says-india-must-uphold-pakistan-water-treaty/a-78579010?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T12:25:28.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 4,
-      "score": 17.76,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.24,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Pakistan wins Indus waters battle at The Hague, but India threat remains",
-          "url": "https://www.aljazeera.com/news/2026/9/1/pakistan-wins-indus-waters-battle-at-the-hague-but-india-threat-remains?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Japan Inc is betting big on India as China risks deepen",
-          "url": "https://www.bbc.co.uk/news/articles/cz64955d56po"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "India rejects court order to uphold decades-old water-sharing treaty with Pakistan",
-          "url": "https://www.cnbc.com/2026/09/01/india-hague-ruling-pakistan-water-treaty.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Court says India must uphold Pakistan water treaty",
-          "url": "https://www.dw.com/en/court-says-india-must-uphold-pakistan-water-treaty/a-78579010?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Nature",
-          "sourceId": "nature",
-          "lean": "center",
-          "title": "India has an ambitious plan to lure scientists back — will it work?",
-          "url": "https://www.nature.com/articles/d41586-026-02636-9"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "‘The mountains are changing’: What the floods tell us about the future of India’s Himalayas",
-          "url": "https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-09-01-um0bus",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Putin envoy warns of Russian economy going 'berserk' on war footing",
-      "summary": "BBC correspondents in Delhi and Moscow look at why the Indian PM made a very public peace plea to his Russian ally.",
-      "url": "https://www.straitstimes.com/world/europe/putin-envoy-warns-of-russian-economy-going-berserk-on-war-footing",
-      "headlineSource": "The Straits Times",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T14:31:10.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 17.7,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.43,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Why did Modi urge Putin to end Ukraine war - and will he listen?",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zy3wdqqeo"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Indian Prime Minister Modi asks Putin to end Ukraine war amid U.S. tariff threat on Russian oil",
-          "url": "https://www.cnbc.com/2026/09/01/russia-india-ukraine-war-oil-modi-putin.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Ukraine: Russia threatens 'devastating' Baltic response",
-          "url": "https://www.dw.com/en/ukraine-russia-threatens-devastating-baltic-response/live-78582421?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Putin unleashes new fury on Ukraine as report exposes fear hanging over war’s end",
-          "url": "https://www.foxnews.com/world/putin-unleashes-new-fury-ukraine-report-exposes-fear-hanging-over-wars-end"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Putin’s friends finally tell him the truth: Get out of Ukraine to save yourself",
-          "url": "https://www.independent.co.uk/news/world/europe/modi-putin-trump-russia-ukraine-india-b3042661.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Putin envoy warns of Russian economy going 'berserk' on war footing",
-          "url": "https://www.straitstimes.com/world/europe/putin-envoy-warns-of-russian-economy-going-berserk-on-war-footing"
-        }
-      ]
-    },
-    {
-      "rank": 10,
       "id": "2026-09-01-1sbxb51",
       "topic": "tech",
       "topicLabel": "Tech & science",
@@ -763,7 +521,7 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 1,
-      "score": 14.46,
+      "score": 14.45,
       "scoreComponents": {
         "breadth": 7.75,
         "diversity": 3.9,
@@ -806,6 +564,150 @@
           "lean": "center-left",
           "title": "FTC and 22 States Sue Amazon Over Advertising Practices",
           "url": "https://www.nytimes.com/2026/08/31/technology/ftc-amazon-lawsuit-ad-prices.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-09-01-300jdf",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Shein valued at $26bn after long-awaited stock market debut",
+      "summary": "The firm's Hong Kong listing on Tuesday comes after a years-long quest to sell shares in New York and London.",
+      "url": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-01T15:01:18.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 13.48,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 2.47,
+        "softPenalty": -0.86
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Shein valued at $26bn after long-awaited stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Power failure halts trams running between Hong Kong’s Wan Chai and Admiralty",
+          "url": "https://www.scmp.com/news/hong-kong/transport/article/3366028/power-failure-halts-trams-running-between-hong-kongs-wan-chai-and-admiralty"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Shein shares slide on fast-fashion retailer’s stock market debut",
+          "url": "https://www.theguardian.com/business/2026/sep/01/shein-shares-slide-fast-fashion-retailer-stock-market-debut-hong-kong"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Shein shares plunge 10% in Hong Kong debut after rocky road to IPO",
+          "url": "https://www.japantimes.co.jp/business/2026/09/01/shein-shares-hk-debut-ipo/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-09-01-imnoxd",
+      "topic": "health",
+      "topicLabel": "Health & climate",
+      "topicShort": "HEALTH",
+      "title": "Reaching 90 without dementia doesn’t mean you’re in the clear",
+      "summary": "A study of people over 90 found that dementia risk remains strongly shaped by sex, race and genetics, with women and black participants facing notably higher risks. Intriguingly, some people stayed cognitively healthy despite carrying major risk factors…",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829235953.htm",
+      "headlineSource": "ScienceDaily",
+      "summarySource": "ScienceDaily",
+      "publishedAt": "2026-09-01T12:09:42.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 11.51,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 0.8,
+        "freshness": 2.21,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Can surgery to flush out toxic proteins 'reverse' dementia?",
+          "url": "https://www.dailymail.com/health/article-16093247/surgery-flush-toxic-proteins-reverse-dementia.html"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "7 new dementia risk factors revealed — including one millions struggle with",
+          "url": "https://www.foxnews.com/health/7-new-dementia-risk-factors-revealed-including-one-millions-struggle"
+        },
+        {
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "lean": "center",
+          "title": "Reaching 90 without dementia doesn’t mean you’re in the clear",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260829235953.htm"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-09-01-1iflkmv",
+      "topic": "health",
+      "topicLabel": "Health & climate",
+      "topicShort": "HEALTH",
+      "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
+      "summary": "Methane is a powerful greenhouse gas and the second-largest contributor to global warming after carbon dioxide (CO2). Methane traps heat…",
+      "url": "https://www.carbonbrief.org/guest-post-why-tough-methane-cuts-are-crucial-for-keeping-warming-well-below-2c",
+      "headlineSource": "Carbon Brief",
+      "summarySource": "Carbon Brief",
+      "publishedAt": "2026-09-01T09:00:00.000Z",
+      "sourceCount": 2,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 10.01,
+      "scoreComponents": {
+        "breadth": 4.75,
+        "diversity": 2.5,
+        "wire": 0.8,
+        "freshness": 1.96,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Carbon Brief",
+          "sourceId": "carbonbrief",
+          "lean": "center",
+          "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
+          "url": "https://www.carbonbrief.org/guest-post-why-tough-methane-cuts-are-crucial-for-keeping-warming-well-below-2c"
+        },
+        {
+          "source": "Guardian Environment",
+          "sourceId": "guardian_env",
+          "lean": "left",
+          "title": "‘Breakthrough’ as Turkmenistan starts fixing ‘mindboggling’ methane mega-leaks",
+          "url": "https://www.theguardian.com/environment/2026/aug/31/turkmenistan-methane-leaks-un-alerts-mars"
         }
       ]
     }
