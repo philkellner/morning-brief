@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-01",
-  "generatedAt": "2026-09-01T14:30:05.410Z",
+  "generatedAt": "2026-09-01T15:13:52.209Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -11,27 +11,30 @@
     "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
   },
   "feeds": {
-    "attempted": 35,
-    "succeeded": 35,
+    "attempted": 63,
+    "succeeded": 63,
     "failed": []
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-09-01-1tx8r1k",
-      "title": "Iran says it will return to ceasefire if US does",
-      "summary": "Tehran says it will uphold the truce if Washington does, as new attacks revive fears of a wider war.",
-      "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-09-01T14:25:36.000Z",
-      "sourceCount": 13,
+      "id": "2026-09-01-1ltjg7m",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Iran urges US to honour commitments under MoU",
+      "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
+      "url": "https://www.aljazeera.com/news/2026/9/1/iran-urges-us-to-honour-commitments-under-mou?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-01T15:10:28.000Z",
+      "sourceCount": 12,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 6,
-      "score": 23.51,
+      "wireCount": 4,
+      "score": 23.2,
       "scoreComponents": {
-        "breadth": 11.42,
+        "breadth": 11.1,
         "diversity": 6.4,
         "wire": 3.2,
         "freshness": 2.49,
@@ -42,8 +45,8 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "SCO slams attacks, sanctions on Iran: Key takeaways from Bishkek summit",
-          "url": "https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit?traffic_source=rss"
+          "title": "Iran urges US to honour commitments under MoU",
+          "url": "https://www.aljazeera.com/news/2026/9/1/iran-urges-us-to-honour-commitments-under-mou?traffic_source=rss"
         },
         {
           "source": "BBC News",
@@ -51,6 +54,13 @@
           "lean": "center",
           "title": "US and Iran trade strikes for first time in weeks",
           "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Hormuz Hostilities Pick Up as Two Tankers Reportedly Struck",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-01/two-oil-supertankers-hit-by-projectiles-in-hormuz-marisks-says"
         },
         {
           "source": "CBS News",
@@ -67,25 +77,25 @@
           "url": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html"
         },
         {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Iran says it will return to ceasefire if US does",
-          "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Iran says it will return to June ceasefire deal if US does the same",
-          "url": "https://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same"
-        },
-        {
           "source": "Fox News",
           "sourceId": "foxnews",
           "lean": "right",
           "title": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink",
           "url": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Global oil prices surge above $92 a barrel after report of strikes on two tankers in the Strait of Hormuz",
+          "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control",
+          "url": "https://www.pbs.org/newshour/show/u-s-and-iran-trade-strikes-for-first-time-in-weeks-over-strait-of-hormuz-control"
         },
         {
           "source": "The Guardian",
@@ -98,8 +108,8 @@
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Iran's president says Iran would return to ceasefire agreement if US does, and other Mideast news",
-          "url": "https://www.independent.co.uk/news/world/americas/iran-strait-of-hormuz-kyrgyzstan-washington-revolutionary-guard-b3042734.html"
+          "title": "Trump considering new strikes to stop Strait of Hormuz attacks as president threatens to ‘smack’ Tehran",
+          "url": "https://www.independent.co.uk/news/world/middle-east/trump-strait-hormuz-iran-attacks-b3042645.html"
         },
         {
           "source": "The New York Times",
@@ -112,202 +122,17 @@
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Tehran presses US to honour deal as Trump threatens to hit Iran ‘hard’",
-          "url": "https://www.straitstimes.com/world/middle-east/iran-urges-us-to-comply-with-interim-deal-after-trump-threatens-further-strikes"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Pak PM in damage control mode after his office edits leaders out of SCO summit pic",
-          "url": "https://timesofindia.indiatimes.com/world/pakistan/to-keep-himself-in-focus-pak-pm-shehbaz-sharif-crops-out-world-leaders-from-sco-summit-photo/articleshow/133675747.cms"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Don’t fall for Tehran’s talking points about the resistance",
-          "url": "https://www.washingtonexaminer.com/op-eds/4707343/iran-democratic-change-organized-resistance/"
+          "title": "Blockade succeeds where sanctions failed as Iran oil exports stall",
+          "url": "https://www.straitstimes.com/world/middle-east/blockade-succeeds-where-sanctions-failed-as-iran-oil-exports-stall"
         }
       ]
     },
     {
       "rank": 2,
-      "id": "2026-09-01-tqx91w",
-      "title": "Former British PM Starmer steps down from Parliament",
-      "summary": "Britain’s former prime minister Keir Starmer, who stepped down as leader this summer after a tumultuous two years in power, announced on Tuesday he would quit parliament to focus on “international affairs”. In a statement on social media, Starmer said it was…",
-      "url": "https://www.straitstimes.com/world/europe/former-british-pm-starmer-steps-down-from-parliament",
-      "headlineSource": "The Straits Times",
-      "summarySource": "South China Morning Post",
-      "publishedAt": "2026-09-01T14:24:02.000Z",
-      "sourceCount": 7,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 21.09,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Feeling the heat, Prime Minister? Burnham works up a sweat as he faces his first grilling by Badenoch and Cabinet gather ahead of showdown",
-          "url": "https://www.dailymail.com/news/article-16095121/Andy-Burnham-prisoner-release-tax-MPs-Commons-PM.html"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "UK PM Andy Burnham faces MPs for first time since taking office",
-          "url": "https://www.france24.com/en/europe/20260901-live-uk-pm-andy-burnham-faces-mps-for-first-time-since-taking-office"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "UK ex-PM Starmer to quit parliament, focus on ‘international affairs’",
-          "url": "https://www.scmp.com/news/world/europe/article/3366013/uk-ex-pm-starmer-quit-parliament-focus-international-affairs"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Burnham to give first Commons address as PM after Starmer quits parliament – UK politics live",
-          "url": "https://www.theguardian.com/politics/live/2026/sep/01/andy-burnham-statement-commons-prison-release-farage-healey-defence-latest-news-updates"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Keir Starmer, Former UK Prime Minister, Says He Will Resign From Parliament",
-          "url": "https://www.nytimes.com/2026/09/01/world/europe/keir-starmer-uk-prime-minister-resigns-mp.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Former British PM Starmer steps down from Parliament",
-          "url": "https://www.straitstimes.com/world/europe/former-british-pm-starmer-steps-down-from-parliament"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Former UK PM Keir Starmer to step down as MP: Report",
-          "url": "https://timesofindia.indiatimes.com/world/uk/former-uk-pm-keir-starmer-to-step-down-as-mp-report/articleshow/133679803.cms"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-09-01-3yqehz",
-      "title": "Nepal buries unidentified flood victims as families await answers",
-      "summary": "Thousands are still missing as Chinese state media report the official number of fatalities in Tibet at 16.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/nepal-buries-unidentified-flood-victims-as-families-await-answers?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T14:08:18.000Z",
-      "sourceCount": 11,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 7,
-      "score": 20.32,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Nepal buries unidentified flood victims as families await answers",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/nepal-buries-unidentified-flood-victims-as-families-await-answers?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels",
-          "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "American among thousands missing in Nepal contacted, officials say",
-          "url": "https://www.cbsnews.com/news/nepal-flood-missing-american-contacted-nepali-officials-tell-cbs-news/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Nepal flood: Death toll tops 1,000 as rescue continues",
-          "url": "https://www.dw.com/en/nepal-flood-death-toll-tops-1-000-as-rescue-continues/a-78589460?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Nepal families post photos of missing relatives on Kathmandu hospital wall",
-          "url": "https://www.euronews.com/video/2026/09/01/nepal-families-post-photos-of-missing-relatives-on-kathmandu-hospital-wall"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Nepal's rescuers navigate mud-swamped tunnels for hundreds of missing workers",
-          "url": "https://www.france24.com/en/nepal-s-rescuers-navigate-mud-swamped-tunnels-for-hundreds-of-missing-workers"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Nepal flood deaths pass 1,000 as hope fades in the search for survivors",
-          "url": "https://www.nbcnews.com/world/asia/nepal-floods-deaths-pass-1000-death-smell-rcna595469"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "The odds of survival for those trapped after Nepal flood, according to experts",
-          "url": "https://www.pbs.org/newshour/world/the-odds-of-survival-for-those-trapped-after-nepal-flood-according-to-experts"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Nepal rescuers race to reach hundreds feared trapped in hydropower tunnels",
-          "url": "https://www.theguardian.com/world/2026/aug/31/nepal-tibet-floods-rescuers-hundreds-trapped-hydropower"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Nepal’s wall of missing offers last hope after glacial flash flood destruction",
-          "url": "https://www.japantimes.co.jp/news/2026/09/01/asia-pacific/society/nepal-wall-missing-himalayas-flood/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "China Censors and Punishes to Shape Narrative on Floods in Tibet, a Contrast to Nepal",
-          "url": "https://www.nytimes.com/2026/09/01/world/asia/china-tibet-floods-nepal-censorship.html"
-        }
-      ]
-    },
-    {
-      "rank": 4,
       "id": "2026-09-01-11cwanz",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
       "title": "US Supreme Court allows Trump ballroom project to proceed",
       "summary": "But Chief Justice John Roberts dissents, writing that \"construction is likely unlawful\".",
       "url": "https://www.dw.com/en/us-supreme-court-allows-trump-ballroom-project-to-proceed/a-78581275?maca=en-rss-en-all-1573-rdf",
@@ -318,12 +143,12 @@
       "leanCount": 4,
       "leanSpread": 0.75,
       "wireCount": 3,
-      "score": 19.73,
+      "score": 19.67,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 5.85,
         "wire": 2.4,
-        "freshness": 2.48,
+        "freshness": 2.42,
         "softPenalty": 0
       },
       "coverage": [
@@ -379,24 +204,117 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "id": "2026-09-01-1bg8wx0",
+      "topic": "health",
+      "topicLabel": "Health & climate",
+      "topicShort": "HEALTH",
+      "title": "Nepal families post photos of missing relatives on Kathmandu hospital wall",
+      "summary": "Thousands are still missing as Chinese state media report the official number of fatalities in Tibet at 16.",
+      "url": "https://www.euronews.com/video/2026/09/01/nepal-families-post-photos-of-missing-relatives-on-kathmandu-hospital-wall",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-01T15:01:29.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.55,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels",
+          "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "American among thousands missing in Nepal contacted, officials say",
+          "url": "https://www.cbsnews.com/news/nepal-flood-missing-american-contacted-nepali-officials-tell-cbs-news/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Nepal flood: Death toll tops 1,000 as rescue continues",
+          "url": "https://www.dw.com/en/nepal-flood-death-toll-tops-1-000-as-rescue-continues/a-78589460?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Nepal families post photos of missing relatives on Kathmandu hospital wall",
+          "url": "https://www.euronews.com/video/2026/09/01/nepal-families-post-photos-of-missing-relatives-on-kathmandu-hospital-wall"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "After the floods, Nepal works to bury hundreds of washed-up unidentified bodies",
+          "url": "https://www.france24.com/en/after-the-floods-nepal-works-to-bury-hundreds-of-washed-up-unidentified-bodies"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Nepal flood deaths pass 1,000 as hope fades in the search for survivors",
+          "url": "https://www.nbcnews.com/world/asia/nepal-floods-deaths-pass-1000-death-smell-rcna595469"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nepal rescuers race to reach hundreds feared trapped in hydropower tunnels",
+          "url": "https://www.theguardian.com/world/2026/aug/31/nepal-tibet-floods-rescuers-hundreds-trapped-hydropower"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Nepal’s wall of missing offers last hope after glacial flash flood destruction",
+          "url": "https://www.japantimes.co.jp/news/2026/09/01/asia-pacific/society/nepal-wall-missing-himalayas-flood/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "China Censors and Punishes to Shape Narrative on Floods in Tibet, a Contrast to Nepal",
+          "url": "https://www.nytimes.com/2026/09/01/world/asia/china-tibet-floods-nepal-censorship.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
       "id": "2026-09-01-11sk480",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
       "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
       "summary": "Russian attacks escalate as EU defence ministers meet in Ireland to discuss Ukraine air defence shortages.",
       "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do",
       "headlineSource": "BBC News",
       "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-01T13:34:32.000Z",
-      "sourceCount": 7,
+      "publishedAt": "2026-09-01T14:56:39.000Z",
+      "sourceCount": 8,
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 4,
-      "score": 18.51,
+      "score": 19.08,
       "scoreComponents": {
-        "breadth": 9,
+        "breadth": 9.51,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.41,
+        "freshness": 2.47,
         "softPenalty": 0
       },
       "coverage": [
@@ -406,6 +324,13 @@
           "lean": "center-left",
           "title": "Russian drone and missile barrage kills at least 12 in Ukraine’s Kyiv",
           "url": "https://www.aljazeera.com/news/2026/9/1/russian-drone-and-missile-barrage-kills-at-least-12-in-ukraines-kyiv?traffic_source=rss"
+        },
+        {
+          "source": "Associated Press (mirror)",
+          "sourceId": "ap_mirror",
+          "lean": "center",
+          "title": "Air raid alert shatters first day of school in Kyiv after overnight Russian missile strikes",
+          "url": "https://apnews.com/article/war-russia-ukraine-schools-missile-education-35e50e202b767c38258075ed1ca5c698"
         },
         {
           "source": "BBC News",
@@ -418,8 +343,8 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Ukraine hopes for bolstered support as EU defence ministers meet in Dublin",
-          "url": "https://www.france24.com/en/ukraine-hopes-for-bolstered-support-as-eu-defence-ministers-meet-in-dublin"
+          "title": "At least 12 killed and over a dozen injured in Russian strikes on Kyiv",
+          "url": "https://www.france24.com/en/at-least-12-killed-and-over-a-dozen-injured-in-russian-strikes-on-kyiv"
         },
         {
           "source": "The Guardian",
@@ -452,274 +377,255 @@
       ]
     },
     {
-      "rank": 6,
-      "id": "2026-09-01-40mmy6",
-      "title": "China demands rights guarantee as US firm secures 100-year Venezuelan oil deal",
-      "summary": "China has demanded protection of its interests in Venezuela after a US-backed energy company was granted 100-year concessions covering oilfields previously operated by Chinese and Russian firms. “China-Venezuela cooperation is protected by international law…",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365995/china-demands-rights-guarantee-us-firm-secures-100-year-venezuelan-oil-deal",
+      "rank": 5,
+      "id": "2026-09-01-1mmuixq",
+      "topic": "tech",
+      "topicLabel": "Tech & science",
+      "topicShort": "TECH",
+      "title": "Apple’s new CEO Ternus takes over from Tim Cook after 15 years",
+      "summary": "John Ternus is just the third Apple CEO in 30 years. His primary challenge is to correct the company's faltering AI strategy to preserve its position as a big tech leader.",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366022/apples-new-ceo-ternus-takes-over-tim-cook-after-15-years",
       "headlineSource": "South China Morning Post",
-      "summarySource": "South China Morning Post",
-      "publishedAt": "2026-09-01T13:59:10.000Z",
-      "sourceCount": 7,
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-09-01T13:51:02.000Z",
+      "sourceCount": 8,
       "leanCount": 3,
       "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 17.5,
+      "wireCount": 3,
+      "score": 18.73,
       "scoreComponents": {
-        "breadth": 9,
+        "breadth": 9.51,
         "diversity": 4.45,
-        "wire": 1.6,
-        "freshness": 2.45,
+        "wire": 2.4,
+        "freshness": 2.37,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "CBS News",
-          "sourceId": "cbs",
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "U.S.-Venezuela oil deal will rely on North American Blue Energy Partners",
-          "url": "https://www.cbsnews.com/news/white-house-trump-venezuela-oil-deal-north-american-blue-energy-partners/"
-        },
-        {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
-          "lean": "center",
-          "title": "US-Venezuela oil deal promises a windfall. But, Venezuelans ask, for whom?",
-          "url": "https://www.csmonitor.com/World/Americas/2026/0831/venezuela-oil-deal-pdvsa-trump-rodriguez?icid=rss"
+          "title": "Meet John Ternus, the Apple exec who replaced Tim Cook as CEO",
+          "url": "https://www.businessinsider.com/meet-apple-ceo-john-ternus-replacing-tim-cook-2026-4"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Venezuela grants U.S.-backed oil firm NABEP 100-year concessions for 17 oil fields, White House says",
-          "url": "https://www.cnbc.com/2026/08/31/venezuela-grants-north-american-blue-energy-partners-100-year-concessions-for-17-oil-fields-white-house-says.html"
+          "title": "Apple enters John Ternus era as AI challenges and memory crunch intensify",
+          "url": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Can new Apple CEO John Ternus fix the tech giant's AI woes?",
+          "url": "https://www.dw.com/en/can-new-apple-ceo-john-ternus-fix-the-tech-giant-s-ai-woes/a-78575898?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Tim Cook's last day as Apple CEO: How he led the tech giant's rise to $4T",
+          "url": "https://www.foxbusiness.com/markets/tim-cooks-last-day-apple-ceo-how-he-led-tech-giants-rise-4t"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "John Ternus Replaces Tim Cook as Apple CEO",
+          "url": "https://www.nytimes.com/2026/09/01/technology/apple-tim-cook-john-ternus.html"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "China demands rights guarantee as US firm secures 100-year Venezuelan oil deal",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3365995/china-demands-rights-guarantee-us-firm-secures-100-year-venezuelan-oil-deal"
+          "title": "Apple’s new CEO Ternus takes over from Tim Cook after 15 years",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3366022/apples-new-ceo-ternus-takes-over-tim-cook-after-15-years"
         },
         {
-          "source": "The Hill",
-          "sourceId": "thehill",
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
           "lean": "center",
-          "title": "Trump administration unveils additional details in Venezuela oil deal",
-          "url": "https://thehill.com/policy/energy-environment/6063148-trump-administration-venezuela-oil-deal/"
+          "title": "Apple claims OpenAI is using confidential Apple material and destroying evidence",
+          "url": "https://www.japantimes.co.jp/business/2026/09/01/tech/apple-openai-evidence-trade-secrets/"
         },
         {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
+          "source": "The Verge",
+          "sourceId": "verge",
           "lean": "center-left",
-          "title": "How the Pentagon Is Getting Into the Venezuelan Oil Business Under Trump",
-          "url": "https://www.nytimes.com/2026/08/31/us/politics/pentagon-venezuela-oil.html"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Trump administration taking 35% equity stake in new Venezuelan oil company",
-          "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4707530/trump-administration-taking-equity-stake-new-venezuelan-oil-company/"
+          "title": "Tim Cook’s legacy isn’t just phones, it’s politics",
+          "url": "https://www.theverge.com/?p=987356"
         }
       ]
     },
     {
-      "rank": 7,
-      "id": "2026-09-01-1c1on9l",
-      "title": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
-      "summary": "Most migrants have returned to neighbouring Morocco, but as many as 5,000 remain in the Spanish exclave.",
-      "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo",
-      "headlineSource": "BBC News",
+      "rank": 6,
+      "id": "2026-09-01-11hird5",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Israeli strikes on Gaza kill at least five, including children",
+      "summary": "Reports say the Israeli military carried out strikes after a raid by Israeli special forces and Israel-backed Palestinian militiamen was discovered.",
+      "url": "https://www.aljazeera.com/news/2026/9/1/israeli-attacks-on-gaza-kill-at-least-four-including-children?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
       "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T13:46:05.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 17.39,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 0.8,
-        "freshness": 2.43,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Thousands of migrants on the streets. Rapes and violence a daily occurrence. Now officials warn Ceuta is on the verge of disaster with 'the worst of the worst' still in the enclave",
-          "url": "https://www.dailymail.com/news/article-16095323/Thousands-migrants-streets-Rapes-violence-daily-occurrence-officials-warn-Ceuta-verge-disaster-worst-worst-enclave.html"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Italy and Spain extend tit-for-tat border controls after Ceuta migrant surge",
-          "url": "https://news.sky.com/story/italy-and-spain-extend-tit-for-tat-border-controls-after-ceuta-migrant-surge-13579414"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Morocco not to blame for Ceuta border breach, says Spanish PM",
-          "url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Spanish Leader Says 5,000 Migrants Are Still in Ceuta, Weeks After Border Surge",
-          "url": "https://www.nytimes.com/2026/08/31/world/europe/ceuta-migrants-pedro-sanchez-north-africa.html"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-09-01-um0bus",
-      "title": "Putin envoy warns of Russian economy going 'berserk' on war footing",
-      "summary": "BBC correspondents in Delhi and Moscow look at why the Indian PM made a very public peace plea to his Russian ally.",
-      "url": "https://www.straitstimes.com/world/europe/putin-envoy-warns-of-russian-economy-going-berserk-on-war-footing",
-      "headlineSource": "The Straits Times",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T14:23:00.000Z",
+      "publishedAt": "2026-09-01T15:06:58.000Z",
       "sourceCount": 6,
       "leanCount": 3,
       "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 16.96,
+      "wireCount": 4,
+      "score": 18.56,
       "scoreComponents": {
         "breadth": 8.42,
         "diversity": 4.45,
-        "wire": 1.6,
+        "wire": 3.2,
         "freshness": 2.49,
         "softPenalty": 0
       },
       "coverage": [
         {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Israeli strikes on Gaza kill at least five, including children",
+          "url": "https://www.aljazeera.com/news/2026/9/1/israeli-attacks-on-gaza-kill-at-least-four-including-children?traffic_source=rss"
+        },
+        {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Why did Modi urge Putin to end Ukraine war - and will he listen?",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zy3wdqqeo"
+          "title": "Israel says senior Hamas member seized as strikes kill three during Gaza raid",
+          "url": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o"
         },
         {
-          "source": "CNBC",
-          "sourceId": "cnbc",
+          "source": "Euronews",
+          "sourceId": "euronews",
           "lean": "center",
-          "title": "Indian Prime Minister Modi asks Putin to end Ukraine war amid U.S. tariff threat on Russian oil",
-          "url": "https://www.cnbc.com/2026/09/01/russia-india-ukraine-war-oil-modi-putin.html"
+          "title": "Israeli airstrikes kill at least five palestinians in Gaza City",
+          "url": "https://www.euronews.com/video/2026/09/01/israeli-airstrikes-kill-at-least-five-palestinians-in-gaza-city"
         },
         {
           "source": "Fox News",
           "sourceId": "foxnews",
           "lean": "right",
-          "title": "Putin unleashes new fury on Ukraine as report exposes fear hanging over war’s end",
-          "url": "https://www.foxnews.com/world/putin-unleashes-new-fury-ukraine-report-exposes-fear-hanging-over-wars-end"
+          "title": "Israel captures top Hamas commander in Gaza strike, defense minister says",
+          "url": "https://www.foxnews.com/world/israel-captures-top-hamas-commander-gaza-strike-defense-minister-says"
         },
         {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Putin's Ally Modi Tells Him To Halt 'Endless War' for Humanity's Sake",
-          "url": "https://www.newsweek.com/vladimir-putin-ally-narendra-modi-tells-him-halt-endless-ukraine-war-humanity-sake-12389704"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
+          "source": "The New York Times",
+          "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Putin’s friends finally tell him the truth: Get out of Ukraine to save yourself",
-          "url": "https://www.independent.co.uk/news/world/europe/modi-putin-trump-russia-ukraine-india-b3042661.html"
+          "title": "Israeli Operation in Gaza Kills 4, Palestinian Officials Say",
+          "url": "https://www.nytimes.com/2026/09/01/world/middleeast/israel-gaza-hamas-leader.html"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Putin envoy warns of Russian economy going 'berserk' on war footing",
-          "url": "https://www.straitstimes.com/world/europe/putin-envoy-warns-of-russian-economy-going-berserk-on-war-footing"
+          "title": "Israeli strikes kill five in Gaza as military says it arrests Hamas militant",
+          "url": "https://www.straitstimes.com/world/middle-east/israeli-fire-kills-four-people-including-three-children-in-gaza-medics-say"
         }
       ]
     },
     {
-      "rank": 9,
-      "id": "2026-09-01-g9aphx",
-      "title": "Trump says US position on Falklands 'one of many' under review",
-      "summary": "The UK says Falkland islanders \"are British with a right to determine their own future\".",
-      "url": "https://www.bbc.co.uk/news/articles/cm2q1qgg542o",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-01T12:54:22.000Z",
-      "sourceCount": 4,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 16.52,
+      "rank": 7,
+      "id": "2026-09-01-1tx8r1k",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Iran says it will return to ceasefire if US does",
+      "summary": "The SCO started in 1996 and accounts for 43 percent of the world’s population and 23 percent of the global economy.",
+      "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-09-01T14:29:00.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 18.53,
       "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 6.4,
-        "wire": 0.8,
-        "freshness": 2.35,
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.43,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Trump says US position on Falklands 'one of many' under review",
-          "url": "https://www.bbc.co.uk/news/articles/cm2q1qgg542o"
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "SCO slams attacks, sanctions on Iran: Key takeaways from Bishkek summit",
+          "url": "https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit?traffic_source=rss"
         },
         {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Trump says US position on the Falklands is 'under review' as he puts pressure on UK to boost defence spending",
-          "url": "https://www.dailymail.com/news/article-16095097/Trump-says-US-position-Falklands-review-puts-pressure-UK-boost-defence-spending.html"
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Iran says it will return to ceasefire if US does",
+          "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Iran says it will return to June ceasefire deal if US does the same",
+          "url": "https://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Trump suggests he is reviewing US support for UK over Falkland Islands",
-          "url": "https://www.theguardian.com/us-news/2026/aug/31/trump-uk-sovereignty-falkland-islands"
+          "title": "Iran’s economy in crisis as US launches new sanctions campaign",
+          "url": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Trump says he is reviewing US position on Falkland Islands",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/falklands-trump-uk-argentina-sovereignty-b3042377.html"
+          "title": "Iran's president says Iran would return to ceasefire agreement if US does, and other Mideast news",
+          "url": "https://www.independent.co.uk/news/world/americas/iran-strait-of-hormuz-kyrgyzstan-washington-revolutionary-guard-b3042734.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Iran president offers US olive branch before Putin meeting",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-president-offers-us-olive-branch-before-putin-meeting"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'We can resist US unilateralism': Iran president tells Putin on sidelines of SCO summit",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/we-can-resist-us-unilateralism-iran-president-tells-putin-on-sidelines-of-sco-summit/articleshow/133684388.cms"
         }
       ]
     },
     {
-      "rank": 10,
+      "rank": 8,
       "id": "2026-09-01-1hoa2a3",
+      "topic": "health",
+      "topicLabel": "Health & climate",
+      "topicShort": "HEALTH",
       "title": "Court says India must uphold Pakistan water treaty",
       "summary": "Japanese companies are doubling down on India amid a shrinking domestic market and rising risks in China.",
       "url": "https://www.dw.com/en/court-says-india-must-uphold-pakistan-water-treaty/a-78579010?maca=en-rss-en-all-1573-rdf",
       "headlineSource": "Deutsche Welle",
       "summarySource": "BBC News",
       "publishedAt": "2026-09-01T12:25:28.000Z",
-      "sourceCount": 5,
+      "sourceCount": 6,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 3,
-      "score": 16.36,
+      "wireCount": 4,
+      "score": 17.77,
       "scoreComponents": {
-        "breadth": 7.75,
+        "breadth": 8.42,
         "diversity": 3.9,
-        "wire": 2.4,
-        "freshness": 2.31,
+        "wire": 3.2,
+        "freshness": 2.24,
         "softPenalty": 0
       },
       "coverage": [
@@ -752,11 +658,149 @@
           "url": "https://www.dw.com/en/court-says-india-must-uphold-pakistan-water-treaty/a-78579010?maca=en-rss-en-all-1573-rdf"
         },
         {
+          "source": "Nature",
+          "sourceId": "nature",
+          "lean": "center",
+          "title": "India has an ambitious plan to lure scientists back — will it work?",
+          "url": "https://www.nature.com/articles/d41586-026-02636-9"
+        },
+        {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
           "title": "‘The mountains are changing’: What the floods tell us about the future of India’s Himalayas",
           "url": "https://www.theguardian.com/world/2026/aug/31/this-is-india-what-the-nepal-tibet-floods-tell-us-about-the-future-of-indias-himalayas"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-09-01-um0bus",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Putin envoy warns of Russian economy going 'berserk' on war footing",
+      "summary": "BBC correspondents in Delhi and Moscow look at why the Indian PM made a very public peace plea to his Russian ally.",
+      "url": "https://www.straitstimes.com/world/europe/putin-envoy-warns-of-russian-economy-going-berserk-on-war-footing",
+      "headlineSource": "The Straits Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-01T14:31:10.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 17.7,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Why did Modi urge Putin to end Ukraine war - and will he listen?",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zy3wdqqeo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Indian Prime Minister Modi asks Putin to end Ukraine war amid U.S. tariff threat on Russian oil",
+          "url": "https://www.cnbc.com/2026/09/01/russia-india-ukraine-war-oil-modi-putin.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine: Russia threatens 'devastating' Baltic response",
+          "url": "https://www.dw.com/en/ukraine-russia-threatens-devastating-baltic-response/live-78582421?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Putin unleashes new fury on Ukraine as report exposes fear hanging over war’s end",
+          "url": "https://www.foxnews.com/world/putin-unleashes-new-fury-ukraine-report-exposes-fear-hanging-over-wars-end"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Putin’s friends finally tell him the truth: Get out of Ukraine to save yourself",
+          "url": "https://www.independent.co.uk/news/world/europe/modi-putin-trump-russia-ukraine-india-b3042661.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Putin envoy warns of Russian economy going 'berserk' on war footing",
+          "url": "https://www.straitstimes.com/world/europe/putin-envoy-warns-of-russian-economy-going-berserk-on-war-footing"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-09-01-1sbxb51",
+      "topic": "tech",
+      "topicLabel": "Tech & science",
+      "topicShort": "TECH",
+      "title": "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
+      "summary": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market.",
+      "url": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-01T09:30:01.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 14.46,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
+          "url": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "I work on AI at Amazon. My biggest career regret is waiting years to build a reputation outside the company.",
+          "url": "https://www.businessinsider.com/amazon-ai-scientist-regrets-not-building-an-external-reputation-sooner-2026-8"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+          "url": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "US trade regulator and 22 states accuse Amazon of taking $20bn with secret surcharges",
+          "url": "https://www.theguardian.com/technology/2026/aug/31/amazon-advertising-lawsuit"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "FTC and 22 States Sue Amazon Over Advertising Practices",
+          "url": "https://www.nytimes.com/2026/08/31/technology/ftc-amazon-lawsuit-ad-prices.html"
         }
       ]
     }
