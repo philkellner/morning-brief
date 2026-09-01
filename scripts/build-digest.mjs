@@ -42,6 +42,12 @@ const EXCLUDED_TITLE = [
   /\bpodcast\b/i, /\bquiz\b/i, /\bcrossword\b/i, /\bnewsletter\b/i,
   /\bwatch live\b/i, /\bmorning briefing\b/i, /\bwhat to watch\b/i,
   /\byour (?:daily|morning|evening)\b/i, /\brecap\b/i, /\bhoroscope\b/i,
+  // Specialist outlets label their commentary in the headline. Carbon Brief's
+  // "Guest post:" reached rank 10 of a live digest: it is an opinion piece, and
+  // opinion is excluded everywhere else by section path, which these bypass
+  // because they sit under the same path as the outlet's reporting.
+  /^\s*guest post\b/i, /^\s*analysis:/i, /^\s*explainer:/i, /^\s*q&a:/i,
+  /^\s*comment:/i, /^\s*viewpoint:/i, /^\s*debriefed\b/i,
 ];
 
 const EXCLUDED_CATEGORY = /^(opinion|sport|sports|entertainment|lifestyle|travel|arts|culture|food)$/i;

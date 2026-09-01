@@ -558,3 +558,17 @@ test('specialist desks dominating the coverage do reclassify', () => {
     item('arstechnica', '/technology/', 'Chipmaker reveals new processor'),
   ]), 'tech');
 });
+
+test('headline-labelled commentary is excluded like sectioned opinion', () => {
+  // Carbon Brief publishes "Guest post:" pieces under its normal news path, so
+  // the section filter cannot see them. One reached rank 10 of a live digest.
+  const EXCLUDED_TITLE = [
+    /^\s*guest post\b/i, /^\s*analysis:/i, /^\s*explainer:/i, /^\s*q&a:/i,
+    /^\s*comment:/i, /^\s*viewpoint:/i, /^\s*debriefed\b/i,
+  ];
+  const excluded = (title) => EXCLUDED_TITLE.some((re) => re.test(title));
+  assert.ok(excluded('Guest post: Why tough methane cuts are crucial'));
+  assert.ok(excluded('Analysis: What the ruling means'));
+  assert.ok(!excluded('Methane cuts agreed at climate summit'), 'reported news must survive');
+  assert.ok(!excluded('Guests arrive for the state dinner'), 'the word alone is not the label');
+});
