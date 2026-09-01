@@ -416,21 +416,35 @@ test('one newsroom with several feeds counts as one outlet', () => {
 });
 
 test('the classifier separates specialist stories from general news', () => {
-  const item = (title, description) => ({ title, description, link: 'https://e.com/news/x', categories: [] });
+  const item = (title, description, path) => ({ title, description, link: `https://e.com${path}x`, categories: [] });
   const cases = [
-    ['world', 'Iran says it will return to ceasefire if US does', 'Tehran signalled willingness to resume talks after weeks of strikes.'],
-    ['world', 'Supreme Court allows ballroom project to proceed', 'The justices ruled on an emergency application by the administration.'],
-    ['world', 'Aid convoy reaches northern Gaza after weeks of delays', 'Trucks carrying flour and medicine crossed into the territory.'],
-    ['tech', 'Chip maker unveils processor built on new architecture', 'The semiconductor firm said its chips use a smaller process node.'],
-    ['tech', 'Astronomers spot most distant galaxy yet', 'Researchers used the telescope to observe light from the early universe.'],
-    ['business', 'Fed holds interest rates steady as inflation cools', 'The central bank left its benchmark rate unchanged, citing the economy.'],
-    ['business', 'Airline profits climb on strong summer demand', 'Carriers reported higher quarterly earnings and raised guidance for shareholders.'],
-    ['health', 'Study finds treatment slows Alzheimer disease', 'Researchers reported clinical trial results in patients at several hospitals.'],
-    ['health', 'Wildfires force evacuations as heatwave intensifies', 'Climate scientists link the extreme weather to global warming.'],
+    ['world', '/world/', 'Iran says it will return to ceasefire if US does', 'Tehran signalled willingness to resume talks after weeks of strikes.'],
+    ['world', '/news/', 'Supreme Court allows ballroom project to proceed', 'The justices ruled on an emergency application by the administration.'],
+    ['world', '/world/', 'Aid convoy reaches northern Gaza after weeks of delays', 'Trucks carrying flour and medicine crossed into the territory.'],
+    ['tech', '/technology/', 'Chip maker unveils processor built on new architecture', 'The semiconductor firm said its chips use a smaller process node.'],
+    ['tech', '/science/', 'Astronomers spot most distant galaxy yet', 'Researchers used the telescope to observe light from the early universe.'],
+    ['business', '/business/', 'Fed holds interest rates steady as inflation cools', 'The central bank left its benchmark rate unchanged, citing the economy.'],
+    ['business', '/markets/', 'Airline profits climb on strong summer demand', 'Carriers reported higher quarterly earnings and raised guidance.'],
+    ['health', '/health/', 'Study finds treatment slows Alzheimer disease', 'Researchers reported clinical trial results in patients at several hospitals.'],
+    ['health', '/environment/', 'Wildfires force evacuations as heatwave intensifies', 'Climate scientists link the extreme weather to global warming.'],
   ];
-  for (const [expected, title, description] of cases) {
-    assert.equal(classifyCluster([item(title, description)]), expected, `misclassified: ${title}`);
+  for (const [expected, path, title, description] of cases) {
+    assert.equal(classifyCluster([item(title, description, path)]), expected, `misclassified: ${title}`);
   }
+});
+
+test('vocabulary alone cannot promote a story into a specialist topic', () => {
+  // Every one of these was mislabelled on a live digest by a keyword-only rule,
+  // and then took a specialist slot from a real tech or health story.
+  const general = (title, description) => classifyCluster([
+    { title, description, link: 'https://e.com/news/x', categories: [] },
+  ]);
+  assert.equal(general('Iran urges US to honour commitments under MoU',
+    'Tehran said the economy and sanctions relief were central to the agreement.'), DEFAULT_TOPIC);
+  assert.equal(general('Nepal families post photos of missing relatives',
+    'Flooding and landslides have left hundreds unaccounted for after extreme weather.'), DEFAULT_TOPIC);
+  assert.equal(general('Court says India must uphold Pakistan water treaty',
+    'The ruling concerns river flows and environment obligations between the two states.'), DEFAULT_TOPIC);
 });
 
 test('a topic-scoped feed outranks bland wording', () => {

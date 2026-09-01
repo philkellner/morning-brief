@@ -24,7 +24,7 @@ export const TOPICS = {
 
 const RULES = {
   tech: {
-    paths: /\/(technolog|tech|science|sci|space|gadgets|computing|ai)\//i,
+    paths: /\/(tech\w*|scien\w*|space|gadget\w*|computing|ai)\//i,
     categories: /^(tech|technology|science|space|computing|artificial intelligence|gadgets)$/i,
     keywords: [
       /\b(artificial intelligence|machine learning|neural network|deep learning)\b/i,
@@ -43,7 +43,7 @@ const RULES = {
     ],
   },
   business: {
-    paths: /\/(business|markets?|econom|finance|money|investing)\//i,
+    paths: /\/(business|market\w*|econom\w*|financ\w*|money|investing)\//i,
     categories: /^(business|markets|economy|finance|money|economics)$/i,
     keywords: [
       /\b(shares?|stock market|equities|index closed|wall street|nasdaq|ftse)\b/i,
@@ -57,7 +57,7 @@ const RULES = {
     ],
   },
   health: {
-    paths: /\/(health|medicine|medical|environment|climate|energy|wellness)\//i,
+    paths: /\/(health\w*|medicine|medical|environment\w*|climate\w*|energy|wellness)\//i,
     categories: /^(health|medicine|environment|climate|climate change|energy|science and environment)$/i,
     keywords: [
       /\b(vaccine|outbreak|epidemic|pandemic|infection|virus strain)\b/i,
@@ -75,10 +75,20 @@ const RULES = {
 // its headline avoids every science word.
 const WEIGHT = { feedHint: 4, path: 2.5, category: 2, keyword: 1 };
 const KEYWORD_CAP = 4;
-// Vocabulary alone must corroborate itself. One stray word - "economy" in a
-// diplomatic story, "climate" in a political one - is not enough to reclassify
-// general news; two independent matches, or any provenance signal, is.
-const MIN_KEYWORD_HITS = 2;
+
+// Vocabulary alone cannot promote a story into a specialist topic - only
+// provenance can. Measured on a live digest, a two-keyword bar mislabelled four
+// of ten stories: "Iran urges US to honour commitments under MoU" became
+// business, "Nepal families post photos of missing relatives" became health.
+// Those then consumed the specialist slots, displacing the real tech and health
+// stories, which is worse than never having segmented at all.
+//
+// The reliable signal is who carried it. Tech desks cover tech. If twelve
+// general outlets ran a story and not one of the registry's topic feeds did,
+// it is general news whatever words it happens to contain. Keywords still
+// score - they decide BETWEEN topics once provenance has established there is
+// a specialist claim to judge - but they can no longer make that claim alone.
+const REQUIRE_PROVENANCE = true;
 
 /**
  * Topic evidence for a single item.
@@ -136,7 +146,7 @@ export function classifyCluster(items) {
   let best = DEFAULT_TOPIC;
   let bestScore = 0;
   for (const [topic, evidence] of Object.entries(totals)) {
-    const qualifies = evidence.provenance > 0 || evidence.hits >= MIN_KEYWORD_HITS;
+    const qualifies = REQUIRE_PROVENANCE ? evidence.provenance > 0 : evidence.hits > 0;
     if (!qualifies) continue;
     const normalised = evidence.score / Math.max(1, Math.sqrt(items.length));
     if (normalised > bestScore) { best = topic; bestScore = normalised; }
