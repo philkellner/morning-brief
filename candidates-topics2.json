@@ -1,0 +1,21 @@
+{
+  "_comment": "Right-of-centre topic feeds, to keep the registry balanced as topics are added.",
+  "sources": [
+    { "id": "wsj_tech",      "outlet": "wsj",       "name": "WSJ Technology",     "lean": "center-right", "wire": false, "url": "https://feeds.a.dj.com/rss/RSSWSJD.xml" },
+    { "id": "wsj_markets",   "outlet": "wsj",       "name": "WSJ Markets",        "lean": "center-right", "wire": false, "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml" },
+    { "id": "wsj_business",  "outlet": "wsj",       "name": "WSJ Business",       "lean": "center-right", "wire": false, "url": "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml" },
+    { "id": "tele_business", "outlet": "telegraph", "name": "Telegraph Business", "lean": "center-right", "wire": false, "url": "https://www.telegraph.co.uk/business/rss.xml" },
+    { "id": "tele_tech",     "outlet": "telegraph", "name": "Telegraph Tech",     "lean": "center-right", "wire": false, "url": "https://www.telegraph.co.uk/technology/rss.xml" },
+    { "id": "econ_scitech",  "outlet": "economist", "name": "Economist Sci/Tech", "lean": "center-right", "wire": false, "url": "https://www.economist.com/science-and-technology/rss.xml" },
+    { "id": "econ_business", "outlet": "economist", "name": "Economist Business", "lean": "center-right", "wire": false, "url": "https://www.economist.com/business/rss.xml" },
+    { "id": "foxbusiness",   "outlet": "foxnews",   "name": "Fox Business",       "lean": "right",        "wire": false, "url": "https://moxie.foxbusiness.com/google-publisher/latest.xml" },
+    { "id": "fox_scitech",   "outlet": "foxnews",   "name": "Fox Science",        "lean": "right",        "wire": false, "url": "https://moxie.foxnews.com/google-publisher/science.xml" },
+    { "id": "fox_health",    "outlet": "foxnews",   "name": "Fox Health",         "lean": "right",        "wire": false, "url": "https://moxie.foxnews.com/google-publisher/health.xml" },
+    { "id": "nypost_biz",    "outlet": "nypost",    "name": "NY Post Business",   "lean": "right",        "wire": false, "url": "https://nypost.com/business/feed/" },
+    { "id": "examiner_biz",  "outlet": "examiner",  "name": "Examiner Business",  "lean": "right",        "wire": false, "url": "https://www.washingtonexaminer.com/tag/business/feed/" },
+    { "id": "dailymail_sci", "outlet": "dailymail", "name": "Daily Mail Science", "lean": "right",        "wire": false, "url": "https://www.dailymail.co.uk/sciencetech/index.rss" },
+    { "id": "dailymail_hea", "outlet": "dailymail", "name": "Daily Mail Health",  "lean": "right",        "wire": false, "url": "https://www.dailymail.co.uk/health/index.rss" },
+    { "id": "cnbc_tech",     "outlet": "cnbc",      "name": "CNBC Technology",    "lean": "center",       "wire": false, "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html" },
+    { "id": "cnbc_health",   "outlet": "cnbc",      "name": "CNBC Health",        "lean": "center",       "wire": false, "url": "https://www.cnbc.com/id/10000108/device/rss/rss.html" }
+  ]
+}
