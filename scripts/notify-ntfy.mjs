@@ -19,7 +19,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildMessages, nextDeliveryEpoch, readConfig } from './lib/ntfy.mjs';
+import { buildMessages, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -53,9 +53,26 @@ const now = Date.now();
 // --now skips scheduling entirely, which is what makes a test notification arrive
 // in seconds rather than tomorrow morning.
 let deliverAt;
-if (sendNow) deliverAt = null;
-else if (Number.isFinite(inMinutes)) deliverAt = now + inMinutes * 60_000;
-else deliverAt = nextDeliveryEpoch({ now, hour, minute, timeZone });
+if (sendNow) {
+  deliverAt = null;
+} else if (Number.isFinite(inMinutes)) {
+  deliverAt = now + inMinutes * 60_000;
+} else {
+  // A build can arrive hours late - GitHub's scheduler has run this job as much
+  // as 10 hours behind its cron. If today's slot is already gone, scheduling
+  // would silently queue these stories for TOMORROW's slot, where they would
+  // collide with tomorrow's build and deliver yesterday's news. Stop instead,
+  // and let the next build own the next morning.
+  const { passed, slot: todaySlot } = isSlotPassed({ now, hour, minute, timeZone });
+  if (passed && !has('--force-schedule')) {
+    const slot = new Date(todaySlot).toISOString();
+    const lateMinutes = Math.round((now - todaySlot) / 60_000);
+    console.log(`Today's ${hour}:${String(minute).padStart(2, '0')} ${timeZone} slot passed ${lateMinutes} minutes ago (${slot}).`);
+    console.log('Skipping, so tomorrow\'s build is not duplicated. Use --now to send anyway, or --force-schedule to queue for tomorrow.');
+    process.exit(0);
+  }
+  deliverAt = nextDeliveryEpoch({ now, hour, minute, timeZone });
+}
 
 let messages;
 try {

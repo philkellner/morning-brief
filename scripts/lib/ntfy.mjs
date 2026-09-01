@@ -108,6 +108,18 @@ function buildBody(story, total) {
 
 
 /**
+ * Has today's delivery slot already gone by?
+ *
+ * Builds can arrive hours late, so this decides whether scheduling is still
+ * meaningful. If the slot has passed, queuing would land on TOMORROW's slot and
+ * collide with tomorrow's build.
+ */
+export function isSlotPassed({ now, hour, minute = 0, timeZone }) {
+  const slot = zonedTimeToEpoch({ ...dateInZone(now, timeZone), hour, minute, timeZone });
+  return { passed: now > slot, slot };
+}
+
+/**
  * Read configuration from an environment.
  *
  * Written against empty strings, not just absent keys: GitHub Actions sets

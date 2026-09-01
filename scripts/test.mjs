@@ -6,7 +6,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener } from './lib/text.mjs';
-import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, readConfig } from './lib/ntfy.mjs';
+import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { sensationalism, pickHeadline, leanSpread, buildStories } from './lib/rank.mjs';
@@ -366,4 +366,29 @@ test('config trims values and strips a trailing slash from the server', () => {
 
 test('a non-numeric override does not silently become zero', () => {
   assert.equal(readConfig({ NTFY_TOPIC: 'a', NTFY_HOUR: 'six' }).hour, 6);
+});
+
+test('a late build recognises that its delivery slot has passed', () => {
+  // GitHub has run this job as much as 10 hours behind its cron. Scheduling from
+  // a late build would queue the stories for tomorrow's slot, colliding with
+  // tomorrow's build and delivering a day-old brief.
+  const timeZone = 'America/Chicago';
+  const slotFor = (day, h) => zonedTimeToEpoch({ year: 2026, month: 9, day, hour: h, timeZone });
+
+  assert.equal(isSlotPassed({ now: slotFor(1, 5), hour: 6, timeZone }).passed, false, '05:00 is before the slot');
+  assert.equal(isSlotPassed({ now: slotFor(1, 9), hour: 6, timeZone }).passed, true, '09:00 is after it');
+  assert.equal(isSlotPassed({ now: slotFor(1, 6) - 1, hour: 6, timeZone }).passed, false, 'one ms before is not passed');
+
+  // The reported slot must be today's, not tomorrow's - that is what makes the
+  // "how late are we" message meaningful.
+  assert.equal(isSlotPassed({ now: slotFor(1, 9), hour: 6, timeZone }).slot, slotFor(1, 6));
+});
+
+test('slot detection holds across a daylight-saving change', () => {
+  const timeZone = 'America/Chicago';
+  // 2026-03-08 springs forward; 06:00 local is 11:00Z, not 12:00Z.
+  const morning = zonedTimeToEpoch({ year: 2026, month: 3, day: 8, hour: 7, timeZone });
+  const { passed, slot } = isSlotPassed({ now: morning, hour: 6, timeZone });
+  assert.equal(passed, true);
+  assert.equal(new Date(slot).toISOString(), '2026-03-08T11:00:00.000Z');
 });

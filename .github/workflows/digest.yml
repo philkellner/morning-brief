@@ -2,10 +2,23 @@ name: Build morning digest
 
 on:
   schedule:
-    # GitHub cron is UTC only and has no notion of daylight saving, so we fire at
-    # both candidate hours and let the job itself decide. 10:00 UTC is 05:00 in
-    # Chicago during CDT; 11:00 UTC is 05:00 during CST. The guard below drops
-    # whichever run is not actually 05:00 local.
+    # Eight attempts, not two.
+    #
+    # GitHub treats `schedule` as best-effort and drops or delays runs under
+    # load. Measured on this repository: ~30 minutes late in the first week,
+    # then 4-10 hours late, then a day with no run at all. Two entries at the
+    # exact delivery hour were never going to survive that.
+    #
+    # This window is 23:00-06:00 Chicago, so the first firing after local
+    # midnight builds and the rest exit at the gate in a few seconds. Under both
+    # CDT and CST at least one attempt precedes the 06:00 delivery slot unless
+    # GitHub drops seven in a row.
+    - cron: '0 4 * * *'
+    - cron: '0 5 * * *'
+    - cron: '0 6 * * *'
+    - cron: '0 7 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 9 * * *'
     - cron: '0 10 * * *'
     - cron: '0 11 * * *'
   workflow_dispatch:
@@ -69,17 +82,6 @@ jobs:
         if: steps.gate.outputs.run == 'true'
         run: node scripts/build-digest.mjs --limit "${{ github.event.inputs.limit || '10' }}"
 
-      - name: Send notifications
-        if: steps.gate.outputs.run == 'true'
-        env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
-          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
-        # Exits quietly when NTFY_TOPIC is unset, so this is a no-op until you
-        # add the secret. Messages carry a scheduled delivery time, so the 05:00
-        # build produces 06:00 notifications without a second cron entry.
-        run: node scripts/notify-ntfy.mjs
-
       - name: Commit digest
         if: steps.gate.outputs.run == 'true'
         run: |
@@ -92,3 +94,14 @@ jobs:
             git commit -m "Digest for $(TZ=America/Chicago date +%Y-%m-%d)"
             git push
           fi
+
+      - name: Send notifications
+        if: steps.gate.outputs.run == 'true'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        # Exits quietly when NTFY_TOPIC is unset, so this is a no-op until you
+        # add the secret. Messages carry a scheduled delivery time, so the 05:00
+        # build produces 06:00 notifications without a second cron entry.
+        run: node scripts/notify-ntfy.mjs
