@@ -1,0 +1,39 @@
+{
+  "_comment": "Scratch list for topic expansion. Probed on GitHub's network. Not used by the build.",
+  "sources": [
+    { "id": "arstechnica",   "outlet": "arstechnica",  "name": "Ars Technica",       "lean": "center",      "wire": false, "url": "https://feeds.arstechnica.com/arstechnica/index" },
+    { "id": "verge",         "outlet": "verge",        "name": "The Verge",          "lean": "center-left", "wire": false, "url": "https://www.theverge.com/rss/index.xml" },
+    { "id": "techcrunch",    "outlet": "techcrunch",   "name": "TechCrunch",         "lean": "center",      "wire": false, "url": "https://techcrunch.com/feed/" },
+    { "id": "wired",         "outlet": "wired",        "name": "Wired",              "lean": "center-left", "wire": false, "url": "https://www.wired.com/feed/rss" },
+    { "id": "mittr",         "outlet": "mittr",        "name": "MIT Tech Review",    "lean": "center",      "wire": false, "url": "https://www.technologyreview.com/feed/" },
+    { "id": "ieee",          "outlet": "ieee",         "name": "IEEE Spectrum",      "lean": "center",      "wire": true,  "url": "https://spectrum.ieee.org/feeds/feed.rss" },
+    { "id": "nature",        "outlet": "nature",       "name": "Nature",             "lean": "center",      "wire": true,  "url": "https://www.nature.com/nature.rss" },
+    { "id": "sciencedaily",  "outlet": "sciencedaily", "name": "ScienceDaily",       "lean": "center",      "wire": true,  "url": "https://www.sciencedaily.com/rss/top/science.xml" },
+    { "id": "physorg",       "outlet": "physorg",      "name": "Phys.org",           "lean": "center",      "wire": true,  "url": "https://phys.org/rss-feed/" },
+    { "id": "newscientist",  "outlet": "newscientist", "name": "New Scientist",      "lean": "center",      "wire": false, "url": "https://www.newscientist.com/feed/home/" },
+    { "id": "bbc_tech",      "outlet": "bbc",          "name": "BBC Technology",     "lean": "center",      "wire": true,  "url": "https://feeds.bbci.co.uk/news/technology/rss.xml" },
+    { "id": "bbc_science",   "outlet": "bbc",          "name": "BBC Science",        "lean": "center",      "wire": true,  "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" },
+    { "id": "guardian_tech", "outlet": "guardian",     "name": "Guardian Tech",      "lean": "left",        "wire": false, "url": "https://www.theguardian.com/uk/technology/rss" },
+    { "id": "nyt_tech",      "outlet": "nytimes",      "name": "NYT Technology",     "lean": "center-left", "wire": false, "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" },
+    { "id": "npr_science",   "outlet": "npr",          "name": "NPR Science",        "lean": "center-left", "wire": true,  "url": "https://feeds.npr.org/1007/rss.xml" },
+
+    { "id": "marketwatch",   "outlet": "marketwatch",  "name": "MarketWatch",        "lean": "center",      "wire": false, "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories" },
+    { "id": "bloomberg",     "outlet": "bloomberg",    "name": "Bloomberg",          "lean": "center",      "wire": false, "url": "https://feeds.bloomberg.com/markets/news.rss" },
+    { "id": "fortune",       "outlet": "fortune",      "name": "Fortune",            "lean": "center",      "wire": false, "url": "https://fortune.com/feed/" },
+    { "id": "businessinsider","outlet": "businessinsider","name": "Business Insider","lean": "center-left", "wire": false, "url": "https://www.businessinsider.com/rss" },
+    { "id": "bbc_business",  "outlet": "bbc",          "name": "BBC Business",       "lean": "center",      "wire": true,  "url": "https://feeds.bbci.co.uk/news/business/rss.xml" },
+    { "id": "guardian_biz",  "outlet": "guardian",     "name": "Guardian Business",  "lean": "left",        "wire": false, "url": "https://www.theguardian.com/uk/business/rss" },
+    { "id": "nyt_business",  "outlet": "nytimes",      "name": "NYT Business",       "lean": "center-left", "wire": false, "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml" },
+    { "id": "npr_business",  "outlet": "npr",          "name": "NPR Business",       "lean": "center-left", "wire": true,  "url": "https://feeds.npr.org/1006/rss.xml" },
+    { "id": "cnbc_finance",  "outlet": "cnbc",         "name": "CNBC Finance",       "lean": "center",      "wire": false, "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html" },
+
+    { "id": "statnews",      "outlet": "statnews",     "name": "STAT News",          "lean": "center",      "wire": false, "url": "https://www.statnews.com/feed/" },
+    { "id": "medicalxpress", "outlet": "medicalxpress","name": "Medical Xpress",     "lean": "center",      "wire": true,  "url": "https://medicalxpress.com/rss-feed/" },
+    { "id": "carbonbrief",   "outlet": "carbonbrief",  "name": "Carbon Brief",       "lean": "center",      "wire": true,  "url": "https://www.carbonbrief.org/feed/" },
+    { "id": "insideclimate", "outlet": "insideclimate","name": "Inside Climate News","lean": "center-left", "wire": false, "url": "https://insideclimatenews.org/feed/" },
+    { "id": "bbc_health",    "outlet": "bbc",          "name": "BBC Health",         "lean": "center",      "wire": true,  "url": "https://feeds.bbci.co.uk/news/health/rss.xml" },
+    { "id": "guardian_env",  "outlet": "guardian",     "name": "Guardian Environment","lean": "left",       "wire": false, "url": "https://www.theguardian.com/uk/environment/rss" },
+    { "id": "npr_health",    "outlet": "npr",          "name": "NPR Health",         "lean": "center-left", "wire": true,  "url": "https://feeds.npr.org/1128/rss.xml" },
+    { "id": "nyt_health",    "outlet": "nytimes",      "name": "NYT Health",         "lean": "center-left", "wire": false, "url": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml" }
+  ]
+}

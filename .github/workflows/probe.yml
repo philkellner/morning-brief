@@ -4,6 +4,11 @@ name: Probe feeds
 # first Monday of the month to catch rot before it costs you a morning.
 on:
   workflow_dispatch:
+    inputs:
+      file:
+        description: 'Source file to probe (default sources.json)'
+        required: false
+        default: 'sources.json'
   schedule:
     - cron: '0 12 1-7 * 1'
 
@@ -15,4 +20,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: node scripts/probe-feeds.mjs
+      - run: node scripts/probe-feeds.mjs --file "${{ github.event.inputs.file || 'sources.json' }}"
