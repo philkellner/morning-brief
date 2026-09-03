@@ -617,3 +617,45 @@ test('the summary comes from a member that is about the same story', () => {
   assert.ok(!/Hormuz/.test(summary.text), `summary drifted off-story: ${summary.text}`);
   assert.match(summary.text, /G20|trade|exports/i);
 });
+
+test('a summary must be about the same story as the headline shown', () => {
+  // Both shipped in a live brief. An over-merged cluster agrees on little or
+  // nothing, which is exactly when cluster-level agreement stops being a useful
+  // reference - the earlier guard returned "fully representative" for an empty
+  // core and so disabled itself in the case that needed it most.
+  const item = (title, description) => ({ wire: true, sourceId: title.slice(0, 6), title, description });
+
+  const advocacy = [
+    item('Protect Our Care targeting 29 House Republicans',
+      'The advocacy group said it would run advertising against 29 House Republicans over health coverage votes.'),
+    item('Beef tariff plan draws cattle industry uproar',
+      "Trump's plan to lower tariffs on 300,000 metric tons of imported beef caused an uproar among cattle producers."),
+  ];
+  assert.ok(!/beef|cattle/i.test(pickSummary(advocacy, advocacy[0]).text),
+    'a beef-tariff summary must not appear under a health-advocacy headline');
+
+  // Two unrelated Japan stories merge on the single shared term "japan", which
+  // both candidates match perfectly - so the preference for a second outlet
+  // decided it, and decided wrong.
+  const japan = [
+    item('Japan developing GPS-based app to locate nationals overseas',
+      'The government said the application would help track citizens abroad during emergencies.'),
+    item('Japan to transfer ageing warships to Philippines',
+      "Japan's plans to transfer ageing warships to the Philippines and Indonesia could turn older hardware into leverage."),
+  ];
+  assert.ok(!/warship/i.test(pickSummary(japan, japan[0]).text),
+    'a warships summary must not appear under a GPS-app headline');
+});
+
+test('a coherent cluster still takes its summary from a second outlet', () => {
+  // The guard must not collapse into "always quote the headline's own outlet",
+  // which would lose the cross-outlet framing the summary exists to provide.
+  const cluster = [
+    { wire: false, sourceId: 'nyt', title: 'At G20 Meeting, Bessent Accuses China of Flooding World With Cheap Goods',
+      description: 'The Treasury secretary used the G20 meeting to accuse China of flooding world markets with cheap goods.' },
+    { wire: true, sourceId: 'f24', title: 'G20 backs statement despite China dissent',
+      description: 'G20 finance ministers backed a final statement on cheap exports and trade imbalances, with China dissenting.' },
+  ];
+  const summary = pickSummary(cluster, cluster[0]);
+  assert.equal(summary.sourceId, 'f24', 'summary should come from the outlet that did not supply the headline');
+});

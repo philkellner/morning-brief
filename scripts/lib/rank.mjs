@@ -181,11 +181,35 @@ export function pickHeadline(items) {
  * Build the two-sentence summary. Prefers a description from a different outlet
  * than the headline, so the story is not framed entirely by one newsroom.
  */
+// A summary sharing less than this of its reference vocabulary is about
+// something else. Better to show no summary than a confidently wrong one.
+const MIN_SUMMARY_OVERLAP = 0.2;
+
 export function pickSummary(items, headlineItem) {
   // The summary is judged on the same representativeness as the headline. The
   // same live digest paired a G20 trade headline with a sentence about the
   // Strait of Hormuz, taken from the one cluster member about something else.
-  const core = coreTerms(items);
+  //
+  // Where the cluster agrees on nothing - which is exactly what an over-merged
+  // cluster looks like - fall back to the headline's own vocabulary. Treating
+  // an empty core as "everything matches" disabled this check in the one case
+  // that most needed it, and shipped two mismatched summaries to a live brief.
+  const clusterCore = coreTerms(items);
+  const core = clusterCore.size > 0 ? clusterCore : new Set(tokenize(headlineItem.title));
+
+  // Whatever the cluster agrees on, the summary must be about the same thing as
+  // the headline actually shown. Cluster agreement alone is too coarse: two
+  // unrelated Japan stories merged on the single shared term "japan", which both
+  // candidates matched perfectly, so the preference for a second outlet picked
+  // the wrong one and shipped a warships summary under a GPS-app headline.
+  const headlineTokens = new Set(tokenize(headlineItem.title));
+  const relatesToHeadline = (item, text) => {
+    if (headlineTokens.size === 0) return true;
+    const tokens = new Set(tokenize(`${item.title} ${text}`));
+    let hits = 0;
+    for (const term of headlineTokens) if (tokens.has(term)) hits += 1;
+    return hits / headlineTokens.size >= MIN_SUMMARY_OVERLAP;
+  };
   const cost = (item, text) => (item.wire ? -2 : 0)
     + sensationalism(text) * 0.5
     + (item === headlineItem ? 0.75 : 0)
@@ -194,11 +218,16 @@ export function pickSummary(items, headlineItem) {
   const candidates = items
     .map((i) => ({ item: i, text: cleanDescription(i.description) }))
     .filter((c) => c.text.length >= 60)
+    .filter((c) => relatesToHeadline(c.item, c.text))
     .sort((a, b) => cost(a.item, a.text) - cost(b.item, b.text));
 
   const chosen = candidates[0];
   if (!chosen) {
     // No usable description anywhere - fall back to the headline itself.
+    return { text: '', sourceId: null };
+  }
+  // Last line of defence: even the best candidate may be about another story.
+  if (representativeness(`${chosen.item.title} ${chosen.text}`, core) < MIN_SUMMARY_OVERLAP) {
     return { text: '', sourceId: null };
   }
   return { text: firstSentences(chosen.text, 2, 260), sourceId: chosen.item.sourceId };
@@ -242,7 +271,7 @@ export function buildStories(clusters, {
       topicLabel: TOPICS[topic]?.label ?? TOPICS[DEFAULT_TOPIC].label,
       topicShort: TOPICS[topic]?.short ?? TOPICS[DEFAULT_TOPIC].short,
       title: truncate(headlineItem.title, 180),
-      summary: summary.text || fallbackSummary(items),
+      summary: summary.text || fallbackSummary(items, headlineItem),
       url: headlineItem.link,
       headlineSource: sourcesById[headlineItem.sourceId]?.name ?? headlineItem.sourceId,
       summarySource: summary.sourceId ? (sourcesById[summary.sourceId]?.name ?? summary.sourceId) : null,
@@ -262,12 +291,15 @@ export function buildStories(clusters, {
  * Last resort when no outlet supplied a usable description. Returns the longest
  * scrap of prose available, or an empty string - never a stray markup fragment.
  */
-function fallbackSummary(items) {
-  const best = items
-    .map((i) => cleanDescription(i.description))
-    .filter((t) => t.length >= 40)
-    .sort((a, b) => b.length - a.length)[0];
-  return best ? truncate(best, 260) : '';
+function fallbackSummary(items, headlineItem) {
+  // Prefer the headline's own outlet: whatever else is true, its description
+  // describes its headline.
+  const ordered = [headlineItem, ...items.filter((i) => i !== headlineItem)];
+  for (const item of ordered) {
+    const text = cleanDescription(item.description);
+    if (text.length >= 40) return truncate(text, 260);
+  }
+  return '';
 }
 
 /** Deterministic id so the app can tell a genuinely new story from a re-run. */
