@@ -10,7 +10,7 @@ import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readC
 import { classifyCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
-import { sensationalism, pickHeadline, leanSpread, buildStories } from './lib/rank.mjs';
+import { sensationalism, pickHeadline, pickSummary, coreTerms, representativeness, leanSpread, buildStories } from './lib/rank.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const fixture = JSON.parse(readFileSync(resolve(ROOT, 'scripts/fixtures/headlines.json'), 'utf8'));
@@ -571,4 +571,49 @@ test('headline-labelled commentary is excluded like sectioned opinion', () => {
   assert.ok(excluded('Analysis: What the ruling means'));
   assert.ok(!excluded('Methane cuts agreed at climate summit'), 'reported news must survive');
   assert.ok(!excluded('Guests arrive for the state dinner'), 'the word alone is not the label');
+});
+
+test('the chosen headline must describe the story, not merely avoid framing', () => {
+  // Shipped live: a nine-outlet G20 trade story went out as "China's corruption
+  // investigation procedures". That headline has no loaded words, no
+  // punctuation, and came from a wire desk, so it scored perfectly on
+  // sensationalism alone - while carrying almost no information.
+  const item = (wire, title) => ({ wire, title });
+  const cluster = [
+    item(false, "China dissented from G20 statement opposing 'cheap exports' flooding markets"),
+    item(false, "Bessent vows to 'asphyxiate' Iran economically, warns regime's offshore assets"),
+    item(true, 'G20 backs final statement despite Russia tensions, China dissent'),
+    item(false, 'At G20 Meeting, Scott Bessent Accuses China of Flooding the World With Cheap Goods'),
+    item(true, "China dissents as Bessent says 19 finance ministers agree to address 'cheap exports'"),
+    item(true, 'China\u2019s corruption investigation procedures'),
+    item(false, 'Scott Bessent pitches Trump-inspired finance competition at G20 ministerial'),
+    item(true, 'G20 finance chiefs \u2014 except China \u2014 back action on distorted trade'),
+    item(true, 'China prevented G-20 communique over imbalance trade spat, says US Bessent'),
+  ];
+
+  const core = coreTerms(cluster);
+  assert.ok(core.has('china') && core.has('g20'), `core terms were ${[...core].join(',')}`);
+
+  const chosen = pickHeadline(cluster);
+  assert.ok(!/corruption investigation procedures/.test(chosen.title),
+    `picked the uninformative headline: ${chosen.title}`);
+  assert.ok(/g20/i.test(chosen.title) && /china/i.test(chosen.title),
+    `chosen headline should carry the shared terms: ${chosen.title}`);
+
+  assert.ok(representativeness('China\u2019s corruption investigation procedures', core)
+    < representativeness('At G20 Meeting, Scott Bessent Accuses China of Flooding the World With Cheap Goods', core));
+});
+
+test('the summary comes from a member that is about the same story', () => {
+  // The same digest paired that G20 headline with a sentence about the Strait
+  // of Hormuz, lifted from the one cluster member covering something else.
+  const item = (title, description) => ({ wire: true, title, description });
+  const cluster = [
+    item('China dissents at G20 over cheap exports', 'Finance ministers at the G20 agreed to address cheap exports flooding world markets, with China dissenting from the statement.'),
+    item('G20 finance chiefs back action on distorted trade', 'The G20 communique on trade imbalances was backed by every delegation except China, officials said afterwards.'),
+    item('Bessent vows to asphyxiate Iran economically', 'He said the US and China agree on the importance of keeping the Strait of Hormuz open to shipping traffic.'),
+  ];
+  const summary = pickSummary(cluster, cluster[0]);
+  assert.ok(!/Hormuz/.test(summary.text), `summary drifted off-story: ${summary.text}`);
+  assert.match(summary.text, /G20|trade|exports/i);
 });

@@ -4,7 +4,7 @@
 // the political spectrum all chose to run it. That is a measurable proxy for
 // significance which no single newsroom's front page can give you.
 
-import { cleanDescription, firstSentences, truncate } from './text.mjs';
+import { cleanDescription, firstSentences, truncate, tokenize } from './text.mjs';
 import { classifyCluster, selectByQuota, TOPICS, DEFAULT_TOPIC } from './topics.mjs';
 
 /**
@@ -127,12 +127,52 @@ export function scoreCluster(cluster, { leanWeights, now = Date.now() }) {
 
 const round = (n) => Math.round(n * 100) / 100;
 
-/** Choose the least-framed headline available, preferring wire desks on a tie. */
+/**
+ * Terms shared by a substantial share of a cluster's headlines - what the story
+ * is actually about, as agreed by the outlets covering it.
+ */
+export function coreTerms(items, { minShare = 0.4 } = {}) {
+  const counts = new Map();
+  for (const item of items) {
+    for (const term of new Set(tokenize(item.title))) {
+      counts.set(term, (counts.get(term) ?? 0) + 1);
+    }
+  }
+  const needed = Math.max(2, Math.ceil(items.length * minShare));
+  return new Set([...counts].filter(([, count]) => count >= needed).map(([term]) => term));
+}
+
+/** How much of the cluster's shared vocabulary a headline actually carries, 0-1. */
+export function representativeness(title, core) {
+  if (core.size === 0) return 1;
+  const tokens = new Set(tokenize(title));
+  let hits = 0;
+  for (const term of core) if (tokens.has(term)) hits += 1;
+  return hits / core.size;
+}
+
+// Weighted to outrank any plausible sensationalism difference: an uninformative
+// headline is a worse notification than a slightly livelier accurate one.
+const REPRESENTATIVE_WEIGHT = 5;
+
+/**
+ * Choose the plainest headline that still describes the story.
+ *
+ * Sensationalism alone is not enough. Scoring only the absence of framing
+ * rewards headlines that say nothing: a live digest led a nine-outlet G20 trade
+ * story with "China's corruption investigation procedures", which has no loaded
+ * words at all and no information either. A headline must also carry the
+ * vocabulary its cluster agrees on.
+ */
 export function pickHeadline(items) {
+  const core = coreTerms(items);
+  const cost = (item) => sensationalism(item.title)
+    - (item.wire ? 1.25 : 0)
+    - REPRESENTATIVE_WEIGHT * representativeness(item.title, core);
+
   return [...items].sort((a, b) => {
-    const sa = sensationalism(a.title) - (a.wire ? 1.25 : 0);
-    const sb = sensationalism(b.title) - (b.wire ? 1.25 : 0);
-    if (sa !== sb) return sa - sb;
+    const diff = cost(a) - cost(b);
+    if (diff !== 0) return diff;
     return a.title.length - b.title.length;
   })[0];
 }
@@ -142,14 +182,19 @@ export function pickHeadline(items) {
  * than the headline, so the story is not framed entirely by one newsroom.
  */
 export function pickSummary(items, headlineItem) {
+  // The summary is judged on the same representativeness as the headline. The
+  // same live digest paired a G20 trade headline with a sentence about the
+  // Strait of Hormuz, taken from the one cluster member about something else.
+  const core = coreTerms(items);
+  const cost = (item, text) => (item.wire ? -2 : 0)
+    + sensationalism(text) * 0.5
+    + (item === headlineItem ? 0.75 : 0)
+    - REPRESENTATIVE_WEIGHT * representativeness(`${item.title} ${text}`, core);
+
   const candidates = items
     .map((i) => ({ item: i, text: cleanDescription(i.description) }))
     .filter((c) => c.text.length >= 60)
-    .sort((a, b) => {
-      const wa = (a.item.wire ? -2 : 0) + sensationalism(a.text) * 0.5 + (a.item === headlineItem ? 0.75 : 0);
-      const wb = (b.item.wire ? -2 : 0) + sensationalism(b.text) * 0.5 + (b.item === headlineItem ? 0.75 : 0);
-      return wa - wb;
-    });
+    .sort((a, b) => cost(a.item, a.text) - cost(b.item, b.text));
 
   const chosen = candidates[0];
   if (!chosen) {
