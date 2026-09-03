@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-02",
-  "generatedAt": "2026-09-02T08:23:41.611Z",
+  "generatedAt": "2026-09-03T00:18:45.560Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,32 +12,37 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 63,
-    "failed": []
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-09-02-177dgkx",
+      "id": "2026-09-03-1lxviu",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "US and Iran trade fire as hostilities flare again",
-      "summary": "Dozens of people are injured, and at least five dead, after US strikes hit a wedding ceremony near Sirik, Iran.",
-      "url": "https://www.france24.com/en/middle-east/20260901-us-and-iran-trade-fire-as-hostilities-flare-again",
-      "headlineSource": "France 24",
+      "title": "Israel says prepared to ‘respond with great force’ if Iran attacks",
+      "summary": "The US president says that renewed fighting with Iran will not last “too long” while claiming control over Hormuz.",
+      "url": "https://www.straitstimes.com/world/middle-east/israel-says-prepared-to-respond-with-great-force-if-iran-attacks",
+      "headlineSource": "The Straits Times",
       "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-02T07:59:18.000Z",
-      "sourceCount": 18,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "sourceCount": 17,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 8,
-      "score": 24.8,
+      "wireCount": 11,
+      "score": 24.58,
       "scoreComponents": {
-        "breadth": 12.74,
+        "breadth": 12.51,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.47,
         "softPenalty": 0
       },
       "coverage": [
@@ -45,43 +50,36 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "US strikes on Iran kill child at wedding ceremony",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/us-strikes-on-iran-kill-child-at-wedding-ceremony?traffic_source=rss"
-        },
-        {
-          "source": "Associated Press (mirror)",
-          "sourceId": "ap_mirror",
-          "lean": "center",
-          "title": "Iran fires on Gulf neighbors despite Trump’s threats to escalate US attacks",
-          "url": "https://apnews.com/article/iran-us-strikes-hormuz-trump-september-2-2026-cc891e22860d7a53bf7ade9a3d74c0ae"
+          "title": "Iran war live: Trump says renewed US-Iran clashes will not last ‘too long’",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/3/iran-war-live-trump-says-renewed-us-iran-clashes-will-not-last-too?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
+          "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
           "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Iran launches attacks on Jordan and Bahrain as hostilities flare",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/"
+          "title": "Trump says U.S. prepared to hit Iran \"anytime we want\" after \"very heavy attack\"",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-dismisses-diplomacy-tehran-says-wedding-hit-in-strike/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Fresh strikes by US and Iran risk further destabilizing the global economy",
+          "url": "https://www.csmonitor.com/World/Middle-East/2026/0902/us-iran-hormuz-jordan-strikes-war?icid=rss"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Trump says U.S. is not forcing Iran to negotiate after fresh round of strikes",
+          "title": "Iran says two tankers have hit Hormuz naval mines. U.S. disputes claim",
           "url": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Iran war: US, Tehran trade fire in new flare-up",
-          "url": "https://www.dw.com/en/iran-war-us-tehran-trade-fire-in-new-flare-up/live-78656656?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Euronews",
@@ -94,36 +92,36 @@
           "source": "Fox News",
           "sourceId": "foxnews",
           "lean": "right",
-          "title": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink",
-          "url": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink"
+          "title": "Trump revives Iran regime change speculation with cryptic call for people to 'rise up'",
+          "url": "https://www.foxnews.com/world/trump-revives-iran-regime-change-speculation-cryptic-call-people-rise-up"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "US and Iran trade fire as hostilities flare again",
-          "url": "https://www.france24.com/en/middle-east/20260901-us-and-iran-trade-fire-as-hostilities-flare-again"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "U.S. has launched ‘large and powerful’ strikes on Iran, Trump says",
-          "url": "https://www.nbcnews.com/world/iran/us-launched-large-powerful-strikes-iran-trump-says-rcna595581"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Seven US Embassies Issue Security Alert Warnings Over Iran Strikes",
-          "url": "https://www.newsweek.com/us-embassies-issue-security-alert-warnings-over-iran-strikes-middle-east-12393771"
+          "title": "🔴 Live: Trump suggests renaming Hormuz 'Trump Strait'",
+          "url": "https://www.france24.com/en/middle-east/20260902-us-military-striking-targets-in-iran-after-attempted-attacks-on-shipping"
         },
         {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "U.S. military strikes Iran, while Trump vows more for Tehran's retaliation",
-          "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war"
+          "title": "Iran fires on its Gulf neighbors, retaliating for U.S. strikes after a monthlong lull",
+          "url": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. strikes Iran again as Tehran targets American allies in Gulf region",
+          "url": "https://www.pbs.org/newshour/show/u-s-strikes-iran-again-as-tehran-targets-american-allies-in-gulf-region"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "SCO takes landmark stand on nuclear security as Iran comes under renewed attack",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3366108/sco-takes-landmark-stand-nuclear-security-iran-comes-under-renewed-attack"
         },
         {
           "source": "The Guardian",
@@ -136,276 +134,61 @@
           "source": "The Hill",
           "sourceId": "thehill",
           "lean": "center",
-          "title": "US launches new strikes against Iran as Trump says he's \"not trying to force Iran to the negotiating table\"",
-          "url": "https://thehill.com/policy/defense/6065153-us-military-strikes-iran-targets/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Iran-US war latest: Tehran accuses Trump of bombing wedding party and killing five in new wave of strikes",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-oil-tankers-jordan-news-b3043187.html"
+          "title": "Trump under pressure to contain Iran fighting as midterms near",
+          "url": "https://thehill.com/policy/defense/6067742-trump-iran-strikes-escalation-midterms/"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "Xi returns to transformed Middle East for first Egypt visit in 10 years",
-          "url": "https://www.japantimes.co.jp/news/2026/09/02/world/politics/xi-jinping-egypt-middle-east/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US military says it completed latest wave of strikes on Iran",
-          "url": "https://www.straitstimes.com/world/middle-east/us-military-says-it-completed-latest-wave-of-strikes-on-iran"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Trump implores Iranians to ‘rise up and fight’ as he shrugs off ‘worthless’ talks",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4709061/trump-iranians-rise-up-and-fight-war/"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-09-02-lp2pv4",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "EU summons Russian envoy over failed Leipzig drone attack",
-      "summary": "Germany says an attempted drone attack at Leipzig Airport showed hallmarks of Russian hybrid operations against Ukraine.",
-      "url": "https://www.dw.com/en/eu-summons-russian-envoy-over-failed-leipzig-drone-attack/a-78687280?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-02T08:01:06.000Z",
-      "sourceCount": 14,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 8,
-      "score": 23.78,
-      "scoreComponents": {
-        "breadth": 11.72,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Germany says Russia preparing ‘hybrid’ attacks over Ukraine support",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/germany-says-russia-preparing-hybrid-attacks-over-ukraine-support?traffic_source=rss"
-        },
-        {
-          "source": "Associated Press (mirror)",
-          "sourceId": "ap_mirror",
-          "lean": "center",
-          "title": "EU’s Kallas calls alleged Russian drone plot ‘state sponsored terrorism’ as Europe mulls a response",
-          "url": "https://apnews.com/article/germany-russia-explosive-drone-leipzig-attack-8a0054face48cc56f6cb6bcf9a8f4b51"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-          "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "EU summons Russian envoy over failed Leipzig drone attack",
-          "url": "https://www.dw.com/en/eu-summons-russian-envoy-over-failed-leipzig-drone-attack/a-78687280?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Germany blames Russia after explosive-laden drone found near Ukrainian cargo planes at major airport",
-          "url": "https://www.foxnews.com/world/germany-blames-russia-explosive-laden-drone-found-near-ukrainian-cargo-planes-major-airport"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Germany blames Russia for airport drone incident, hits back with sanctions",
-          "url": "https://www.france24.com/en/germany-blames-russia-for-airport-drone-incident-hits-back-with-sanctions"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Germany blames Russia for attempted drone attack at Leipzig airport",
-          "url": "https://www.pbs.org/newshour/world/germany-blames-russia-for-attempted-drone-attack-at-leipzig-airport"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Attempted drone attack at German airport blamed on Russia",
-          "url": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Ukraine’s president warns airlines to avoid ‘drone-infested’ Russian airspace",
-          "url": "https://www.scmp.com/news/world/europe/article/3366049/ukraines-president-warns-airlines-avoid-drone-infested-russian-airspace"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "EU holds talks on response to Leipzig drone attack after Germany formally blames Moscow for incident – Europe live",
-          "url": "https://www.theguardian.com/world/live/2026/sep/02/europe-eu-germany-leipzig-drone-attack-russia-ukraine-macron-latest-news-updates"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine Russia war latest: Zelensky issues warning to airlines over ‘completely unsafe’ Russian airspace",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-uk-germany-b3043169.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Russian cybercrime operation being dismantled after two decades: U.S. and CrowdStrike",
-          "url": "https://www.japantimes.co.jp/news/2026/09/02/world/russian-cybercrime-us-crowdstrike/"
+          "title": "Driven by faith, activists stand up to fellow Jews to protect Palestinians",
+          "url": "https://www.japantimes.co.jp/news/2026/09/02/world/society/faith-activists-jews-palestinians/"
         },
         {
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Weeks After Failed Drone Attack, Germany Points Finger at Russia",
-          "url": "https://www.nytimes.com/2026/09/01/world/europe/germany-russia-drone-airport.html"
+          "title": "Israeli Authorities Charge 12 Guards in Beating Death of Palestinian Prisoner",
+          "url": "https://www.nytimes.com/2026/09/01/world/middleeast/israel-guards-palestinian-prisoner.html"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Russia, US see grounds for financial ties, Russian finance minister says",
-          "url": "https://www.straitstimes.com/world/russia-us-see-grounds-for-financial-ties-russian-finance-minister-says"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-09-02-n5bk9d",
-      "topic": "tech",
-      "topicLabel": "Tech & science",
-      "topicShort": "TECH",
-      "title": "John Ternus takes over as Apple enters era of AI, foldable phones",
-      "summary": "Ternus faces challenges that will force him to step outside his comfort zone in hardware engineering.",
-      "url": "https://www.straitstimes.com/world/united-states/john-ternus-takes-over-as-apple-enters-era-of-ai-foldable-phones",
-      "headlineSource": "The Straits Times",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-09-02T07:15:23.000Z",
-      "sourceCount": 9,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 21.96,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.39,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Apple enters John Ternus era as AI challenges and memory crunch intensify",
-          "url": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Can new Apple CEO John Ternus fix the tech giant's AI woes?",
-          "url": "https://www.dw.com/en/can-new-apple-ceo-john-ternus-fix-the-tech-giant-s-ai-woes/a-78575898?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Apple enters a new era as John Ternus takes over as CEO",
-          "url": "https://www.foxbusiness.com/markets/apple-enters-new-era-john-ternus-takes-over-ceo"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "Who is John Ternus, Apple’s new CEO?",
-          "url": "https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "John Ternus Replaces Tim Cook as Apple CEO",
-          "url": "https://www.nytimes.com/2026/09/01/technology/apple-tim-cook-john-ternus.html"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Apple's new CEO, John Ternus, takes over from Tim Cook at a pivotal time for the company",
-          "url": "https://www.pbs.org/newshour/nation/apples-new-ceo-john-ternus-takes-over-from-tim-cook-at-a-pivotal-time-for-the-company"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "John Ternus takes over as Apple enters era of AI, foldable phones",
-          "url": "https://www.straitstimes.com/world/united-states/john-ternus-takes-over-as-apple-enters-era-of-ai-foldable-phones"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Tim Cook did alright by the environment — but AI could upend his climate legacy",
-          "url": "https://www.theverge.com/?p=987550"
+          "title": "Israel says prepared to ‘respond with great force’ if Iran attacks",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-says-prepared-to-respond-with-great-force-if-iran-attacks"
         },
         {
           "source": "Times of India",
           "sourceId": "toi",
           "lean": "center",
-          "title": "Apple CEO John Ternus’ first memo to employees has a message on iPhone 18 series",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/apple-ceo-john-ternus-first-ever-memo-to-employees-as-ceo-also-has-a-message-on-iphone-18-series/articleshow/133701800.cms"
+          "title": "'November is a priority’: Trump aides push to contain Iran war until midterm elections",
+          "url": "https://timesofindia.indiatimes.com/world/us/november-is-a-priority-donald-trump-aides-push-to-contain-iran-war-until-midterm-elections/articleshow/133706799.cms"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-09-02-wo47kc",
+      "rank": 2,
+      "id": "2026-09-02-vmzlqr",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Hong Kong activist Joshua Wong pleads guilty to collusion",
-      "summary": "Wong, 29, is already in prison on subversion charges under the controversial National Security Law.",
-      "url": "https://www.dw.com/en/hong-kong-activist-joshua-wong-pleads-guilty-to-collusion/a-78657525?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-02T07:21:12.000Z",
-      "sourceCount": 10,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 7,
-      "score": 19.88,
+      "title": "Chevron to expand Venezuela oil operations with US$7 billion plan",
+      "summary": "Chevron is the largest foreign oil operator in Venezuela. The deal will expand its footprint at a time of political and economic uncertainty for Venezuela.",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366144/us-chevron-expand-venezuela-oil-operations-us7-billion-plan",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "NPR",
+      "publishedAt": "2026-09-02T22:27:59.000Z",
+      "sourceCount": 12,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 24.43,
       "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 3.9,
+        "breadth": 11.1,
+        "diversity": 7.8,
         "wire": 3.2,
-        "freshness": 2.4,
+        "freshness": 2.33,
         "softPenalty": 0
       },
       "coverage": [
@@ -413,119 +196,555 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Hong Kong activist Joshua Wong pleads guilty in national security case",
-          "url": "https://www.aljazeera.com/news/2026/9/2/hong-kong-activist-joshua-wong-pleads-guilty-in-national-security-case?traffic_source=rss"
+          "title": "Signing ceremony as US to control a fifth of Venezuela’s oil reserves",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/signing-ceremony-as-us-to-control-a-fifth-of-venezuelas-oil-reserves?traffic_source=rss"
         },
         {
-          "source": "BBC News",
-          "sourceId": "bbc",
+          "source": "CNBC",
+          "sourceId": "cnbc",
           "lean": "center",
-          "title": "Jailed HK activist Joshua Wong pleads guilty to foreign collusion",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zmzg0408o"
+          "title": "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
+          "url": "https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html"
         },
         {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Hong Kong activist Joshua Wong pleads guilty to collusion",
-          "url": "https://www.dw.com/en/hong-kong-activist-joshua-wong-pleads-guilty-to-collusion/a-78657525?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Prominent pro-democracy Hong Kong activist Joshua Wong pleads guilty in second national security law case",
-          "url": "https://www.euronews.com/2026/09/02/prominent-pro-democracy-hong-kong-activist-joshua-wong-pleads-guilty-in-second-national-se"
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Oil giant Chevron strikes agreement to expand Venezuela operations",
+          "url": "https://www.foxbusiness.com/energy/oil-giant-chevron-strikes-agreement-expand-venezuela-operations"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Hong Kong democracy activist Joshua Wong pleads guilty to foreign collusion",
-          "url": "https://www.france24.com/en/asia-pacific/20260902-hong-kong-democracy-activist-joshua-wong-pleads-guilty-to-foreign-collusion"
+          "title": "US oversees signing of ‘billions’ in deals between Venezuela and Chevron, ENI, GE",
+          "url": "https://www.france24.com/en/americas/20260902-us-oversees-signing-of-billions-in-deals-between-venezuela-and-chevron-eni-ge"
         },
         {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Joshua Wong pleads guilty under Hong Kong's security law",
-          "url": "https://news.sky.com/story/joshua-wong-pleads-guilty-under-hong-kongs-security-law-13580218"
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Chevron to expand in Venezuela, days after the U.S. and Venezuela strike oil deal",
+          "url": "https://www.npr.org/2026/09/02/nx-s1-5952190/chevron-venezuela-oil-deal"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Chevron Expansion in Venezuela Extends U.S. Influence Over Oil Riches",
+          "url": "https://www.nytimes.com/2026/09/02/business/energy-environment/chevron-venezuela-oil-trump.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. oil giant Chevron confirms it will expand operations in Venezuela",
+          "url": "https://www.pbs.org/newshour/world/u-s-oil-giant-chevron-confirms-it-will-expand-operations-in-venezuela"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "Trump's Venezuela Oil Deal Sells Out Democracy and Free Markets",
+          "url": "https://reason.com/2026/09/02/trumps-venezuela-oil-deal-sells-out-democracy-and-free-markets/"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "9 children, 5 others injured after 2 buses collide at Hong Kong primary school",
-          "url": "https://www.scmp.com/news/hong-kong/transport/article/3366084/least-14-injured-after-2-buses-collide-hong-kong-primary-school"
+          "title": "Chevron to expand Venezuela oil operations with US$7 billion plan",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3366144/us-chevron-expand-venezuela-oil-operations-us7-billion-plan"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Hong Kong pro-democracy activist Joshua Wong pleads guilty in second national security case",
-          "url": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+          "title": "Trump ally defends Venezuela oil deal amid ‘gunpoint diplomacy’ criticism",
+          "url": "https://www.theguardian.com/world/2026/sep/02/venezuela-oil-deal-trump-chris-wright"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Chevron plans to double its Venezuela oil production",
+          "url": "https://thehill.com/newsletters/energy-environment/6067707-chevron-plans-to-double-its-venezuela-oil-production/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Chevron, Eni commit to expand oil projects in Venezuela under US eye",
+          "url": "https://www.straitstimes.com/world/chevron-eni-ink-pacts-for-large-oil-project-expansions-in-venezuela"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-09-02-1idyl95",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Search continues for tunnel workers in Nepal floods",
+      "summary": "At least 1,050 people have been killed and nearly 4,000 remain unaccounted ​for.",
+      "url": "https://www.france24.com/en/video/20260902-search-continues-for-tunnel-workers-in-nepal-floods",
+      "headlineSource": "France 24",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-09-02T21:00:06.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 8,
+      "score": 23.22,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.2,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Nepal families hold symbolic funerals, thousands still missing",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/02-09-sv-nepal-a-week-after-symbolic-funerals-wrap-fm?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "'Nothing but mud and silt' - the village swept away by deadly floods in Nepal",
+          "url": "https://www.bbc.co.uk/news/videos/cn0j4k45z32o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-02/deadly-flooding-in-nepal-highlights-asia-s-climate-vulnerability"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "American among thousands missing in Nepal contacted, officials say",
+          "url": "https://www.cbsnews.com/news/nepal-flood-missing-american-contacted-nepali-officials-tell-cbs-news/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "As glaciers melt, can communities be protected?",
+          "url": "https://www.dw.com/en/as-glaciers-melt-can-communities-be-protected/a-78615775?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Mass burials of unidentified victims continue in Nepal as death toll exceeds 1,100 one week after flash floods",
+          "url": "https://www.euronews.com/2026/09/02/mass-burials-of-unidentified-victims-continue-in-nepal-as-death-toll-exceeds-1000-one-week"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Rescuers use ziplines to transport trapped citizens after devastating Nepal floods decimate country's bridges",
+          "url": "https://www.foxnews.com/world/rescuers-ziplines-transport-trapped-citizens-devastating-nepal-floods-decimate-countrys-bridges"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Search continues for tunnel workers in Nepal floods",
+          "url": "https://www.france24.com/en/video/20260902-search-continues-for-tunnel-workers-in-nepal-floods"
+        },
+        {
+          "source": "Guardian Environment",
+          "sourceId": "guardian_env",
+          "lean": "left",
+          "title": "After the flood: human suffering on an unfathomable scale in Nepal’s worst-hit districts",
+          "url": "https://www.theguardian.com/world/2026/sep/02/after-the-flood-human-suffering-nepal-worst-hit-districts"
+        },
+        {
+          "source": "Nature",
+          "sourceId": "nature",
+          "lean": "center",
+          "title": "Satellite images before Nepal disaster showed warning signs",
+          "url": "https://www.nature.com/articles/d41586-026-02746-4"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "Hong Kong activist Joshua Wong pleads guilty to collusion",
-          "url": "https://www.japantimes.co.jp/news/2026/09/02/asia-pacific/politics/hong-kong-joshua-wong-guilty/"
+          "title": "Hopes of finding survivors dim a week after catastrophic Nepal flood",
+          "url": "https://www.japantimes.co.jp/news/2026/09/02/asia-pacific/nepal-flood-10000-death-rescuers/"
         },
         {
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Hong Kong Pro-Democracy Activist Joshua Wong Pleads Guilty to Collusion",
-          "url": "https://www.nytimes.com/2026/09/02/world/asia/hong-kong-joshua-wong-activist-guilty.html"
+          "title": "Nepal’s Economy Has Few Ways to Absorb the Cost of Flood Damage",
+          "url": "https://www.nytimes.com/2026/09/01/world/asia/nepal-floods-economy.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "India pledges help to rebuild school in flood-ravaged Nepal",
+          "url": "https://timesofindia.indiatimes.com/india/india-pledges-help-to-rebuild-school-in-flood-ravaged-nepal/articleshow/133719620.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-09-02-ulxndf",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "USS Abraham Lincoln reaches Thailand after 9 months at sea",
+      "summary": "The USS Abraham Lincoln is docking close to Pattaya, known for its neon-lit nightlife, and for sex tourism.",
+      "url": "https://www.aljazeera.com/news/2026/9/2/uss-abraham-lincoln-reaches-thailand-after-9-months-at-sea?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-02T18:51:57.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 21.59,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.03,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "USS Abraham Lincoln reaches Thailand after 9 months at sea",
+          "url": "https://www.aljazeera.com/news/2026/9/2/uss-abraham-lincoln-reaches-thailand-after-9-months-at-sea?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US sailors arrive in Thailand's Pattaya after record 250 days at sea",
+          "url": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "USS Abraham Lincoln docks in Thailand after more than 9 months at sea",
+          "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-thailand/"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Controversial US aircraft carrier Abraham Lincoln arrives in Thailand after months at sea",
+          "url": "https://www.euronews.com/2026/09/02/controversial-us-aircraft-carrier-abraham-lincoln-arrives-in-thailand-after-months-at-sea"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Thai resort city cracks down on prostitution ahead of USS Abraham Lincoln arrival",
+          "url": "https://www.foxnews.com/world/thai-resort-city-cracks-down-prostitution-ahead-uss-abraham-lincoln-arrival"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Thousands of U.S. service members arrive in Thailand after record stint at sea",
+          "url": "https://www.nbcnews.com/world/asia/uss-abraham-lincoln-arrives-thailand-extended-iran-deployment-rcna595651"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Hello, sailor: Thailand’s Pattaya rolls out welcome mat for USS Abraham Lincoln crew",
+          "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3366128/hello-sailor-thailands-pattaya-rolls-out-welcome-mat-uss-abraham-lincoln-crew"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea",
+          "url": "https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "U.S.S. Abraham Lincoln Docks in Thailand, Giving Weary Crew a Break",
+          "url": "https://www.nytimes.com/2026/09/02/world/asia/uss-lincoln-arrives-thailand.html"
         }
       ]
     },
     {
       "rank": 5,
-      "id": "2026-09-02-1yo29a8",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "China’s corruption investigation procedures",
-      "summary": "He said the US and China agree on the importance of keeping the Strait of Hormuz open.",
-      "url": "https://www.scmp.com/plus/news/china/politics/article/3366057/chinas-corruption-investigation-procedures",
-      "headlineSource": "South China Morning Post",
+      "id": "2026-09-02-1irbv8g",
+      "topic": "tech",
+      "topicLabel": "Tech & science",
+      "topicShort": "TECH",
+      "title": "Uber, Wayve launch London’s first robotaxi service",
+      "summary": "Passengers will still have a human supervisor behind the wheel.",
+      "url": "https://www.straitstimes.com/world/europe/uber-wayve-launch-londons-first-robotaxi-service",
+      "headlineSource": "The Straits Times",
       "summarySource": "The Straits Times",
-      "publishedAt": "2026-09-02T04:39:00.000Z",
-      "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 5,
-      "score": 19.78,
+      "publishedAt": "2026-09-02T23:38:00.000Z",
+      "sourceCount": 7,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 19.44,
       "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.16,
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.44,
         "softPenalty": 0
       },
       "coverage": [
         {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Uber shuts operations in Nigeria and Uganda with immediate effect",
+          "url": "https://www.bbc.co.uk/news/articles/c86xpv8l9y9o"
+        },
+        {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
-          "url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html"
+          "title": "Uber to cut 10% of workforce in bid to move 'simpler and faster'",
+          "url": "https://www.cnbc.com/2026/09/02/uber-to-cut-10percent-of-workforce-in-bid-to-move-simpler-and-faster.html"
         },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Uber to cut thousands of jobs in sweeping restructuring effort",
+          "url": "https://www.foxbusiness.com/economy/uber-cut-thousands-jobs-sweeping-restructuring-effort"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm",
+          "url": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Uber and Wayve to Start Testing Robotaxis in London",
+          "url": "https://www.nytimes.com/2026/09/02/business/uber-wayve-london.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Uber, Wayve launch London’s first robotaxi service",
+          "url": "https://www.straitstimes.com/world/europe/uber-wayve-launch-londons-first-robotaxi-service"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Uber beats Waymo as first to launch robotaxis in London",
+          "url": "https://www.theverge.com/?p=988415"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-09-02-1uooy5d",
+      "topic": "tech",
+      "topicLabel": "Tech & science",
+      "topicShort": "TECH",
+      "title": "Google escapes ad tech breakup in third Big Tech antitrust loss for US",
+      "summary": "A judge ruled that Google must make changes to address its advertising technology monopoly, but would not need to break up that business.",
+      "url": "https://www.straitstimes.com/world/united-states/google-escapes-ad-tech-breakup-in-third-big-tech-antitrust-loss-for-us",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-09-02T21:53:04.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 17.74,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.28,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US judge rejects bid to break up Google’s ad business",
+          "url": "https://www.aljazeera.com/economy/2026/9/2/us-judge-rejects-bid-to-break-up-googles-ad-business?traffic_source=rss"
+        },
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+          "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/"
+        },
+        {
+          "source": "Associated Press (mirror)",
+          "sourceId": "ap_mirror",
+          "lean": "center",
+          "title": "Judge orders changes to Google’s digital ads business but spares it from a breakup",
+          "url": "https://apnews.com/article/google-advertising-technology-monopoly-penalties-d294d31fee27c45b14d5ce2196cdd80a"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Google yet again avoided a breakup of its business — but it will have to play nicer",
+          "url": "https://www.businessinsider.com/google-avoids-adtech-breakup-in-federal-judge-ruling-2026-9"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Google defeats US justice department bid to force ad tech sale",
+          "url": "https://www.theguardian.com/technology/2026/sep/02/google-defeats-justice-department-bid-ad-tech-sale"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "In a Big Win, Google Won’t Have to Break Up Its Ad Tech Business, Court Rules",
+          "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Google avoids ad tech breakup",
+          "url": "https://thehill.com/newsletters/technology/6067634-google-avoids-ad-tech-breakup/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Google escapes ad tech breakup in third Big Tech antitrust loss for US",
+          "url": "https://www.straitstimes.com/world/united-states/google-escapes-ad-tech-breakup-in-third-big-tech-antitrust-loss-for-us"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+          "url": "https://www.theverge.com/?p=988742"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-09-02-1uyhp1u",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Japan developing GPS-based app to locate nationals overseas",
+      "summary": "Japan’s plans to transfer ageing warships to the Philippines and Indonesia could turn older military hardware into geopolitical leverage, deepening regional security ties while helping Tokyo counterbalance Beijing’s growing influence, observers say. Such…",
+      "url": "https://www.japantimes.co.jp/news/2026/09/02/japan/gps-app-overseas-nationals/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-09-02T23:07:04.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 15.64,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Japan’s 30-Year Bond Auction Risks Adding Fuel to Debt Selloff",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-02/japan-s-30-year-bond-auction-risks-adding-fuel-to-debt-selloff"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Satsuki Katayama, the Woman at the Center of Japan’s Currency Fight",
+          "url": "https://www.nytimes.com/2026/09/01/business/japan-finance-minister-yen.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "How Japan aims to convert ageing warships into leverage to counter China",
+          "url": "https://www.scmp.com/news/china/military/article/3366100/how-japan-aims-convert-ageing-warships-leverage-counter-china"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Japan halves speed limit to 30km/h on all narrow city streets",
+          "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Japan developing GPS-based app to locate nationals overseas",
+          "url": "https://www.japantimes.co.jp/news/2026/09/02/japan/gps-app-overseas-nationals/"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-09-02-1m1xo9z",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Bessent rallies support for Trump agenda at G20",
+      "summary": "Treasury Secretary Scott Bessent accused China for flooding the world with its cheap exports.",
+      "url": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/",
+      "headlineSource": "The Hill",
+      "summarySource": "NYT Business",
+      "publishedAt": "2026-09-02T22:42:46.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 12.8,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.35,
+        "softPenalty": 0
+      },
+      "coverage": [
         {
           "source": "Fox Business",
           "sourceId": "foxbusiness",
           "lean": "right",
           "title": "Bessent vows to 'asphyxiate' Iran economically, warns regime's offshore assets will be frozen",
           "url": "https://www.foxbusiness.com/politics/bessent-vows-asphyxiate-iran-economically-warns-regimes-offshore-assets-frozen"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "G20 backs final statement despite Russia tensions, China dissent",
-          "url": "https://www.france24.com/en/americas/20260901-g20-backs-final-statement-despite-russia-tensions-china-dissent"
         },
         {
           "source": "NYT Business",
@@ -535,257 +754,36 @@
           "url": "https://www.nytimes.com/2026/09/01/business/economy/bessent-china-iran-g20.html"
         },
         {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "China dissents as Bessent says 19 finance ministers agree to address 'cheap exports'",
-          "url": "https://www.pbs.org/newshour/economy/china-dissents-as-bessent-says-19-finance-ministers-agree-to-address-cheap-exports"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
+          "source": "The Hill",
+          "sourceId": "thehill",
           "lean": "center",
-          "title": "China’s corruption investigation procedures",
-          "url": "https://www.scmp.com/plus/news/china/politics/article/3366057/chinas-corruption-investigation-procedures"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Scott Bessent pitches Trump-inspired finance competition at G20 ministers meeting",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/scott-bessent-g20-financial-literacy-competition-trump-b3043066.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "G20 finance chiefs — except China — back action on distorted trade",
-          "url": "https://www.japantimes.co.jp/business/2026/09/02/economy/g20-finance-talks-us-china/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "China prevented G-20 communique over imbalance trade spat, says US’ Bessent",
-          "url": "https://www.straitstimes.com/world/united-states/china-prevented-g-20-communique-over-imbalance-trade-spat-says-us-bessent"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-09-02-441yir",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Putin says Ukraine 40-day strike campaign cost Russia 1% of GDP",
-      "summary": "Any escalation in the Baltic region will lead to a significant response, Moscow said.",
-      "url": "https://www.straitstimes.com/world/europe/putin-says-ukraine-40-day-strike-campaign-cost-russia-1-of-gdp",
-      "headlineSource": "The Straits Times",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-09-02T08:17:39.000Z",
-      "sourceCount": 7,
-      "leanCount": 4,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 19.74,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 5.85,
-        "wire": 2.4,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "'It's a military secret': Putin smirks as he taunts Britain over claims he'll attack UK factories over support for Ukraine",
-          "url": "https://www.dailymail.com/news/article-16098149/Its-military-secret-Putin-taunts-Britain-possible-plan-target-UK-defence-plants-support-Ukraine.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Ukraine: Russia threatens 'devastating' Baltic response",
-          "url": "https://www.dw.com/en/ukraine-russia-threatens-devastating-baltic-response/live-78582421?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Indonesia investigates reports of 8 citizens fighting in Russia’s war against Ukraine",
-          "url": "https://www.scmp.com/week-asia/people/article/3366094/indonesia-investigates-reports-8-citizens-fighting-russias-war-against-ukraine"
-        },
-        {
-          "source": "The Economist",
-          "sourceId": "economist",
-          "lean": "center-right",
-          "title": "The Ukraine war is intensifying, expanding and stuck",
-          "url": "https://www.economist.com/international/2026/09/01/the-ukraine-war-is-intensifying-expanding-and-stuck"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "How Ukraine is trying to beat Russia at its own game with massive drone strike campaign",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-drones-russia-putin-moscow-zelensky-war-b3043168.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Putin Pledges Increased Strikes in Ukraine and Support for Iran",
-          "url": "https://www.nytimes.com/2026/09/01/world/europe/putin-ukraine-iran.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Putin says Ukraine 40-day strike campaign cost Russia 1% of GDP",
-          "url": "https://www.straitstimes.com/world/europe/putin-says-ukraine-40-day-strike-campaign-cost-russia-1-of-gdp"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-09-02-1sc1wyz",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "US defends Trump’s Venezuela oil deal as energy secretary lands in Caracas",
-      "summary": "They say it would lower oil prices for Americans and counter Russian and Chinese influence on Washington’s doorstep.",
-      "url": "https://www.straitstimes.com/world/united-states/us-defends-trumps-venezuela-oil-deal",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-09-02T07:45:03.000Z",
-      "sourceCount": 6,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 18.86,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 6.4,
-        "wire": 1.6,
-        "freshness": 2.44,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "India’s ONGC Reviews Assets in Venezuela After US Green Light",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-02/india-s-ongc-reviews-assets-in-venezuela-after-us-green-light"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "U.S.-Venezuela oil deal will rely on North American Blue Energy Partners",
-          "url": "https://www.cbsnews.com/news/white-house-trump-venezuela-oil-deal-north-american-blue-energy-partners/"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Meet the man behind Trump's joint Venezuela oil venture",
-          "url": "https://www.foxbusiness.com/politics/meet-man-behind-trumps-joint-venezuela-oil-venture"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "US firm to take over some Venezuela oilfields previously run by Chinese, Russian firms",
-          "url": "https://www.france24.com/en/us-firm-to-take-over-some-venezuela-oilfields-previously-run-by-chinese-russian-firms"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "US officials defend Venezuela oil deal amid questions over rebuilding plan",
-          "url": "https://www.theguardian.com/us-news/2026/sep/01/trump-venezuela-oil-deal"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US defends Trump’s Venezuela oil deal as energy secretary lands in Caracas",
-          "url": "https://www.straitstimes.com/world/united-states/us-defends-trumps-venezuela-oil-deal"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-09-02-lguehu",
-      "topic": "tech",
-      "topicLabel": "Tech & science",
-      "topicShort": "TECH",
-      "title": "Anthropic changes data retention policy after pushback from customers",
-      "summary": "Anthropic's Enterprise Frontier Safeguards are a response to customer feedback.",
-      "url": "https://www.cnbc.com/2026/09/01/anthropic-data-retention.html",
-      "headlineSource": "CNBC",
-      "summarySource": "CNBC",
-      "publishedAt": "2026-09-02T04:00:23.000Z",
-      "sourceCount": 3,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 0,
-      "score": 12.01,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 3.9,
-        "wire": 0,
-        "freshness": 2.11,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Anthropic changes data retention policy after pushback from customers",
-          "url": "https://www.cnbc.com/2026/09/01/anthropic-data-retention.html"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "‘Not perfectly aligned’ with human values: Anthropic admits security failures behind AI hacking incidents",
-          "url": "https://www.theguardian.com/technology/2026/sep/01/anthropic-claude-ai-hacking-human-values"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
-          "url": "https://www.theverge.com/?p=987830"
+          "title": "Bessent rallies support for Trump agenda at G20",
+          "url": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/"
         }
       ]
     },
     {
       "rank": 9,
-      "id": "2026-09-02-14fjk18",
+      "id": "2026-09-02-1l2omk2",
       "topic": "health",
       "topicLabel": "Health & climate",
       "topicShort": "HEALTH",
-      "title": "Flu vaccine rollout begins as NHS regroups from 'busiest summer'",
-      "summary": "This year's jab has a few tweaks, including changes to better combat last year's Super-K strain.",
-      "url": "https://www.bbc.co.uk/news/articles/c8d3myrgdd1o",
+      "title": "Children as young as six going to A&E in mental health crisis",
+      "summary": "NHS emergency departments are seeing more cases of self-harm, eating disorders and emotional distress in young people.",
+      "url": "https://www.bbc.co.uk/news/articles/cn5d2r0zqvdo",
       "headlineSource": "BBC Health",
       "summarySource": "BBC Health",
-      "publishedAt": "2026-09-02T03:11:38.000Z",
+      "publishedAt": "2026-09-02T17:17:43.000Z",
       "sourceCount": 2,
       "leanCount": 2,
       "leanSpread": 0.5,
       "wireCount": 1,
-      "score": 10.1,
+      "score": 9.96,
       "scoreComponents": {
         "breadth": 4.75,
         "diversity": 2.5,
         "wire": 0.8,
-        "freshness": 2.05,
+        "freshness": 1.91,
         "softPenalty": 0
       },
       "coverage": [
@@ -793,56 +791,56 @@
           "source": "BBC Health",
           "sourceId": "bbc_health",
           "lean": "center",
-          "title": "Flu vaccine rollout begins as NHS regroups from 'busiest summer'",
-          "url": "https://www.bbc.co.uk/news/articles/c8d3myrgdd1o"
+          "title": "Children as young as six going to A&E in mental health crisis",
+          "url": "https://www.bbc.co.uk/news/articles/cn5d2r0zqvdo"
         },
         {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
           "lean": "right",
-          "title": "Darlington nurses who won case against NHS trust after being forced to share a changing room with a trans woman are claiming legal costs",
-          "url": "https://www.dailymail.com/news/article-16097685/Darlington-nurses-won-NHS-forced-changing-trans-woman.html"
+          "title": "Children as young as SIX suffering mental health crises and turning to A&E after failing to get help elsewhere",
+          "url": "https://www.dailymail.com/news/article-16096735/Children-young-SIX-suffering-mental-health-crises.html"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-09-01-l5q7n3",
+      "id": "2026-09-02-16wbb3f",
       "topic": "health",
       "topicLabel": "Health & climate",
       "topicShort": "HEALTH",
-      "title": "How a super El Niño is fueling extreme weather patterns",
-      "summary": "The potentially record-breaking El Niño has brought a relentless stretch of extreme weather across the country. Experts watching the climate and weather patterns are warning that the effects could persist well into 2027.",
-      "url": "https://www.pbs.org/newshour/show/how-a-super-el-nino-is-fueling-extreme-weather-patterns",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-09-01T22:25:55.000Z",
+      "title": "Protect Our Care targeting 29 House Republicans",
+      "summary": "Trump's plan to lower tariffs on 300,000 metric tons of imported beef caused an uproar among cattle ranchers.",
+      "url": "https://thehill.com/newsletters/healthcare/6067812-protect-our-care-targeting-29-house-republicans/",
+      "headlineSource": "The Hill",
+      "summarySource": "CNBC",
+      "publishedAt": "2026-09-02T23:06:39.000Z",
       "sourceCount": 2,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 1,
-      "score": 9.21,
+      "leanCount": 1,
+      "leanSpread": 0,
+      "wireCount": 0,
+      "score": 7.14,
       "scoreComponents": {
         "breadth": 4.75,
-        "diversity": 1.95,
-        "wire": 0.8,
-        "freshness": 1.7,
+        "diversity": 0,
+        "wire": 0,
+        "freshness": 2.39,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Guardian Environment",
-          "sourceId": "guardian_env",
-          "lean": "left",
-          "title": "High winds during El Niño could be deadly for England’s stressed trees, say experts",
-          "url": "https://www.theguardian.com/environment/2026/sep/01/high-winds-el-nino-england-stressed-trees-heat-drought"
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "USTR's Greer huddles with House Republicans amid Trump trade spats",
+          "url": "https://www.cnbc.com/2026/09/02/greer-trade-house-republicans-trump.html"
         },
         {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "How a super El Niño is fueling extreme weather patterns",
-          "url": "https://www.pbs.org/newshour/show/how-a-super-el-nino-is-fueling-extreme-weather-patterns"
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Protect Our Care targeting 29 House Republicans",
+          "url": "https://thehill.com/newsletters/healthcare/6067812-protect-our-care-targeting-29-house-republicans/"
         }
       ]
     }
