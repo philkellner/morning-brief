@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-02",
-  "generatedAt": "2026-09-03T00:18:45.560Z",
+  "generatedAt": "2026-09-03T00:22:44.517Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,13 +12,8 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 62,
-    "failed": [
-      {
-        "id": "newsweek",
-        "error": "HTTP 404"
-      }
-    ]
+    "succeeded": 63,
+    "failed": []
   },
   "stories": [
     {
@@ -28,21 +23,21 @@
       "topicLabel": "World",
       "topicShort": "WORLD",
       "title": "Israel says prepared to ‘respond with great force’ if Iran attacks",
-      "summary": "The US president says that renewed fighting with Iran will not last “too long” while claiming control over Hormuz.",
+      "summary": "Iran attacked American bases and allies across the Gulf region on Wednesday. S.",
       "url": "https://www.straitstimes.com/world/middle-east/israel-says-prepared-to-respond-with-great-force-if-iran-attacks",
       "headlineSource": "The Straits Times",
-      "summarySource": "Al Jazeera",
+      "summarySource": "PBS NewsHour",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "sourceCount": 17,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 11,
-      "score": 24.58,
+      "score": 24.57,
       "scoreComponents": {
         "breadth": 12.51,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.47,
+        "freshness": 2.46,
         "softPenalty": 0
       },
       "coverage": [
@@ -183,12 +178,12 @@
       "leanCount": 5,
       "leanSpread": 1,
       "wireCount": 6,
-      "score": 24.43,
+      "score": 24.42,
       "scoreComponents": {
         "breadth": 11.1,
         "diversity": 7.8,
         "wire": 3.2,
-        "freshness": 2.33,
+        "freshness": 2.32,
         "softPenalty": 0
       },
       "coverage": [
@@ -417,7 +412,7 @@
         "breadth": 9.97,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.03,
+        "freshness": 2.02,
         "softPenalty": 0
       },
       "coverage": [
@@ -502,12 +497,12 @@
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 2,
-      "score": 19.44,
+      "score": 19.43,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 6.4,
         "wire": 1.6,
-        "freshness": 2.44,
+        "freshness": 2.43,
         "softPenalty": 0
       },
       "coverage": [
@@ -583,7 +578,7 @@
         "breadth": 9.97,
         "diversity": 3.9,
         "wire": 1.6,
-        "freshness": 2.28,
+        "freshness": 2.27,
         "softPenalty": 0
       },
       "coverage": [
@@ -659,10 +654,10 @@
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
       "title": "Japan developing GPS-based app to locate nationals overseas",
-      "summary": "Japan’s plans to transfer ageing warships to the Philippines and Indonesia could turn older military hardware into geopolitical leverage, deepening regional security ties while helping Tokyo counterbalance Beijing’s growing influence, observers say. Such…",
+      "summary": "The app is expected to help verify the safety of Japanese citizens swiftly in the event of an armed conflict or a massive disaster overseas.",
       "url": "https://www.japantimes.co.jp/news/2026/09/02/japan/gps-app-overseas-nationals/",
       "headlineSource": "The Japan Times",
-      "summarySource": "South China Morning Post",
+      "summarySource": "The Japan Times",
       "publishedAt": "2026-09-02T23:07:04.000Z",
       "sourceCount": 5,
       "leanCount": 3,
@@ -673,7 +668,7 @@
         "breadth": 7.75,
         "diversity": 3.9,
         "wire": 1.6,
-        "freshness": 2.39,
+        "freshness": 2.38,
         "softPenalty": 0
       },
       "coverage": [
@@ -716,26 +711,26 @@
     },
     {
       "rank": 8,
-      "id": "2026-09-02-1m1xo9z",
+      "id": "2026-09-02-qizxhp",
       "topic": "business",
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
-      "title": "Bessent rallies support for Trump agenda at G20",
-      "summary": "Treasury Secretary Scott Bessent accused China for flooding the world with its cheap exports.",
-      "url": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/",
-      "headlineSource": "The Hill",
-      "summarySource": "NYT Business",
-      "publishedAt": "2026-09-02T22:42:46.000Z",
+      "title": "Social Security update: Recipients could see up to a $2,400 yearly raise under new proposed plan",
+      "summary": "Social Security’s retirement trust fund is projected to exhaust its reserves in 2032.",
+      "url": "https://www.independent.co.uk/us/money/social-security-bernie-sanders-bump-b3043488.html",
+      "headlineSource": "The Independent",
+      "summarySource": "Newsweek",
+      "publishedAt": "2026-09-02T23:09:47.000Z",
       "sourceCount": 3,
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 0,
-      "score": 12.8,
+      "score": 12.84,
       "scoreComponents": {
         "breadth": 6,
         "diversity": 4.45,
         "wire": 0,
-        "freshness": 2.35,
+        "freshness": 2.39,
         "softPenalty": 0
       },
       "coverage": [
@@ -743,22 +738,22 @@
           "source": "Fox Business",
           "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Bessent vows to 'asphyxiate' Iran economically, warns regime's offshore assets will be frozen",
-          "url": "https://www.foxbusiness.com/politics/bessent-vows-asphyxiate-iran-economically-warns-regimes-offshore-assets-frozen"
+          "title": "America's $40T national debt is 'stealing from our next generation,' economist warns",
+          "url": "https://www.foxbusiness.com/politics/americas-40t-national-debt-stealing-from-our-next-generation-economist-warns"
         },
         {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "At G20 Meeting, Scott Bessent Accuses China of Flooding the World With Cheap Exports",
-          "url": "https://www.nytimes.com/2026/09/01/business/economy/bessent-china-iran-g20.html"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
+          "source": "Newsweek",
+          "sourceId": "newsweek",
           "lean": "center",
-          "title": "Bessent rallies support for Trump agenda at G20",
-          "url": "https://thehill.com/newsletters/business-economy/6067771-bessent-trump-agenda-g20-finance/"
+          "title": "Gen-Z Is Paying Social Security Taxes—Will They Ever See the Benefit?",
+          "url": "https://www.newsweek.com/gen-z-is-paying-social-security-taxes-will-they-ever-see-the-benefit-12397651"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Social Security update: Recipients could see up to a $2,400 yearly raise under new proposed plan",
+          "url": "https://www.independent.co.uk/us/money/social-security-bernie-sanders-bump-b3043488.html"
         }
       ]
     },
@@ -783,7 +778,7 @@
         "breadth": 4.75,
         "diversity": 2.5,
         "wire": 0.8,
-        "freshness": 1.91,
+        "freshness": 1.9,
         "softPenalty": 0
       },
       "coverage": [
@@ -805,42 +800,42 @@
     },
     {
       "rank": 10,
-      "id": "2026-09-02-16wbb3f",
+      "id": "2026-09-02-1snlk2b",
       "topic": "health",
       "topicLabel": "Health & climate",
       "topicShort": "HEALTH",
-      "title": "Protect Our Care targeting 29 House Republicans",
-      "summary": "Trump's plan to lower tariffs on 300,000 metric tons of imported beef caused an uproar among cattle ranchers.",
-      "url": "https://thehill.com/newsletters/healthcare/6067812-protect-our-care-targeting-29-house-republicans/",
-      "headlineSource": "The Hill",
-      "summarySource": "CNBC",
-      "publishedAt": "2026-09-02T23:06:39.000Z",
+      "title": "Doctors groups release vaccination guidelines ahead of respiratory illness season",
+      "summary": "Ahead of respiratory illness season, professional organizations have issued guidance on flu, Covid, and RSV vaccines.",
+      "url": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/",
+      "headlineSource": "STAT News",
+      "summarySource": "STAT News",
+      "publishedAt": "2026-09-02T15:46:44.000Z",
       "sourceCount": 2,
-      "leanCount": 1,
-      "leanSpread": 0,
+      "leanCount": 2,
+      "leanSpread": 0.5,
       "wireCount": 0,
-      "score": 7.14,
+      "score": 9.05,
       "scoreComponents": {
         "breadth": 4.75,
-        "diversity": 0,
+        "diversity": 2.5,
         "wire": 0,
-        "freshness": 2.39,
+        "freshness": 1.8,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "USTR's Greer huddles with House Republicans amid Trump trade spats",
-          "url": "https://www.cnbc.com/2026/09/02/greer-trade-house-republicans-trump.html"
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "I put my increased bowel movements down to my active lifestyle and healthy diet. Doctors told me it was IBS... then I developed excruciating backache",
+          "url": "https://www.dailymail.com/health/article-16098761/bowel-lifestyle-diet-doctors-IBS-backache.html"
         },
         {
-          "source": "The Hill",
-          "sourceId": "thehill",
+          "source": "STAT News",
+          "sourceId": "statnews",
           "lean": "center",
-          "title": "Protect Our Care targeting 29 House Republicans",
-          "url": "https://thehill.com/newsletters/healthcare/6067812-protect-our-care-targeting-29-house-republicans/"
+          "title": "Doctors groups release vaccination guidelines ahead of respiratory illness season",
+          "url": "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/"
         }
       ]
     }
