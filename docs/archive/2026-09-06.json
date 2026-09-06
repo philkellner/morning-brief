@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-06",
-  "generatedAt": "2026-09-06T08:21:34.998Z",
+  "generatedAt": "2026-09-06T21:30:54.256Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,67 +12,62 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 62,
-    "failed": [
-      {
-        "id": "newsweek",
-        "error": "HTTP 404"
-      }
-    ]
+    "succeeded": 63,
+    "failed": []
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-09-06-n3tk7",
+      "id": "2026-09-06-5jm8td",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "US envoys set for Ukraine talks after meeting Putin in Russia",
-      "summary": "US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday.",
-      "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po",
-      "headlineSource": "BBC News",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-06T07:57:38.000Z",
-      "sourceCount": 17,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 11,
-      "score": 22.62,
+      "title": "U.S. envoys Witkoff and Kushner hold talks in Ukraine after meeting with Putin",
+      "summary": "S. envoys Steve Witkoff and Jared Kushner held meetings in Kyiv with Ukraine's President Zelenskyy on Sunday, a day after lengthy conversations with Russian President Putin in Moscow.",
+      "url": "https://www.pbs.org/newshour/world/u-s-envoys-witkoff-and-kushner-hold-talks-in-ukraine-after-meeting-with-putin",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "NPR",
+      "publishedAt": "2026-09-06T20:58:36.000Z",
+      "sourceCount": 19,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 10,
+      "score": 25.01,
       "scoreComponents": {
-        "breadth": 12.51,
-        "diversity": 4.45,
+        "breadth": 12.97,
+        "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.45,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Witkoff, Kushner meet with Putin to discuss Ukraine war",
-          "url": "https://abcnews.com/International/witkoff-kushner-meet-putin-discuss-ukraine-war/story?id=136231643"
-        },
-        {
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss"
+          "title": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/witkoff-says-peace-talks-have-been-very-meaningful-in-ukraine?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "US envoys set for Ukraine talks after meeting Putin in Russia",
+          "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
           "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "US Envoys Test New Opening in Ukraine Talks",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-06/us-envoys-test-new-opening-in-ukraine-talks-video"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Witkoff, Kushner visit Moscow in latest push to end war in Ukraine",
-          "url": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
+          "title": "Trump envoys say Ukraine talks were \"very meaningful\" after Moscow visit",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-us-talks-peace-war-witkoff-kushner/"
         },
         {
           "source": "Christian Science Monitor",
@@ -85,15 +80,8 @@
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "US envoys meet with Putin, leave Russia for Kyiv",
-          "url": "https://www.dw.com/en/us-envoys-meet-with-putin-leave-russia-for-kyiv/a-79040773?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Russia to pause strikes on Kyiv as US peace envoys visit",
-          "url": "https://www.euronews.com/2026/09/05/us-peace-envoys-witkoff-and-kushner-to-visit-kyiv-and-moscow-with-plan-to-end-war"
+          "title": "US envoys Witkoff, Kushner arrive in Kiyv after Putin talks",
+          "url": "https://www.dw.com/en/us-envoys-witkoff-kushner-arrive-in-kiyv-after-putin-talks/a-79054779?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Fox News",
@@ -106,89 +94,416 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "'A bad sign': US envoys head to Kyiv after three-hour talks with Putin",
-          "url": "https://www.france24.com/en/a-bad-sign-us-envoys-head-to-kyiv-after-three-hour-talks-with-putin"
+          "title": "🔴 Trump's envoys Witkoff and Kushner arrive in Kyiv after 'substantive' talks with Putin",
+          "url": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "U.S. envoys ‘very encouraged’ after peace talks in Moscow and Kyiv",
+          "url": "https://www.nbcnews.com/world/ukraine/us-envoys-witkoff-kushner-set-arrive-kyiv-peace-talks-moscow-rcna596324"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Kushner, Witkoff ‘really feel good’ about Ukraine-Russia peace push after Zelensky huddle",
+          "url": "https://nypost.com/2026/09/06/us-news/kushner-witkoff-really-feel-good-about-ukraine-russia-peace-push-after-zelensky-huddle/"
         },
         {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "U.S. envoys in Moscow in new push for peace between Russia and Ukraine",
-          "url": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace"
+          "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Putin meets with U.S. envoys at the Kremlin for renewed talks on ending the war in Ukraine",
-          "url": "https://www.pbs.org/newshour/world/putin-orders-a-72-hour-pause-in-strikes-on-kyiv-as-u-s-envoys-visit-russia-and-ukraine"
+          "title": "U.S. envoys Witkoff and Kushner hold talks in Ukraine after meeting with Putin",
+          "url": "https://www.pbs.org/newshour/world/u-s-envoys-witkoff-and-kushner-hold-talks-in-ukraine-after-meeting-with-putin"
         },
         {
-          "source": "The Hill",
-          "sourceId": "thehill",
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
           "lean": "center",
-          "title": "Russia calls talks with US envoys \"useful\"",
-          "url": "https://thehill.com/policy/international/6073550-putin-witkoff-kushner-peace-talks/"
+          "title": "Zelensky warns Ukraine war is likely to continue into winter after US talks",
+          "url": "https://www.scmp.com/news/world/europe/article/3366544/us-envoys-witkoff-kushner-arrive-kyiv-after-talks-putin-moscow"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US envoys Kushner and Witkoff visit Kyiv for first time after Putin talks",
+          "url": "https://www.theguardian.com/world/2026/sep/06/us-envoys-jared-kushner-steve-witkoff-arrive-kyiv-talks-on-ending-war"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Trump envoys set to meet Zelensky in Kyiv after ‘highly useful’ Putin talks",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-talks-witkoff-kushner-b3045408.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Kremlin says Ukraine talks with U.S. envoys were useful, but no signs of breakthrough",
-          "url": "https://www.japantimes.co.jp/news/2026/09/06/world/politics/us-envoys-russia-ukraine-talks/"
+          "title": "US envoys meet Zelensky in Kyiv after Putin talks as frontline battles rage on",
+          "url": "https://www.independent.co.uk/news/world/europe/us-envoys-zelensky-putin-peace-talks-ukraine-b3045534.html"
         },
         {
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Putin Meets Witkoff and Kushner in Moscow to Discuss Ukraine War",
-          "url": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
+          "title": "U.S. Envoys Witkoff and Kushner Arrive in Kyiv After Talks With Putin",
+          "url": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Kremlin says Ukraine talks with US envoys were useful; no sign of breakthrough",
-          "url": "https://www.straitstimes.com/world/europe/russias-putin-tells-us-envoys-witkoff-kushner-that-situation-in-ukraine-is-difficult"
+          "title": "Zelensky in fresh talks with US envoys, says Ukraine official",
+          "url": "https://www.straitstimes.com/world/europe/zelensky-warns-war-likely-to-continue-into-winter-after-us-talks"
         },
         {
           "source": "Times of India",
           "sourceId": "toi",
           "lean": "center",
-          "title": "'Highly useful' but no breakthrough: What was discussed in Putin-US talks on Ukraine",
-          "url": "https://timesofindia.indiatimes.com/world/us/highly-useful-but-no-breakthrough-what-was-discussed-in-putin-us-talks-on-ukraine/articleshow/133824711.cms"
+          "title": "US working on 'peace package' for Ukraine after talks with Putin, Zelenskyy",
+          "url": "https://timesofindia.indiatimes.com/world/europe/us-working-on-peace-package-for-ukraine-after-talks-with-putin-zelenskyy/articleshow/133846700.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump envoys hail ‘encouraging’ talks in Kyiv to end Russia-Ukraine war",
+          "url": "https://www.washingtonexaminer.com/policy/foreign-policy/4715580/witkoff-kushner-kyiv-peace-talks-russia-ukraine-war/"
         }
       ]
     },
     {
       "rank": 2,
-      "id": "2026-09-06-1w911f1",
+      "id": "2026-09-06-1yzm3xd",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Tanker war escalates as Iran strikes US drone, ships",
-      "summary": "IRGC launches new strikes after firing missiles at US warships as standoff in Strait of Hormuz intensifies.",
-      "url": "https://www.straitstimes.com/world/middle-east/tanker-war-escalates-as-iran-strikes-us-drone-ships",
-      "headlineSource": "The Straits Times",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-06T08:08:21.000Z",
-      "sourceCount": 11,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 6,
-      "score": 20.88,
+      "title": "Amazon cargo plane crashes, bursts into flames at Miami airport after overshooting runway",
+      "summary": "An Amazon Air cargo plane has overshot the runway while attempting to land at Miami International Airport.",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366567/amazon-cargo-plane-crashes-bursts-flames-miami-airport-after-overshooting-runway",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-06T21:23:01.000Z",
+      "sourceCount": 18,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 24.83,
       "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 4.45,
+        "breadth": 12.74,
+        "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.48,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Amazon cargo plane overruns runway at Miami International Airport",
+          "url": "https://abcnews.com/US/cargo-plane-overruns-runway-miami-international-airport-faa/story?id=136242081"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Amazon cargo plane crashes in US while landing at Miami airport",
+          "url": "https://www.aljazeera.com/news/2026/9/6/amazon-cargo-plane-crashes-in-us-while-landing-at-miami-airport?traffic_source=rss"
+        },
+        {
+          "source": "Associated Press (mirror)",
+          "sourceId": "ap_mirror",
+          "lean": "center",
+          "title": "Amazon cargo plane sends up billowing cloud of smoke after overrunning runway at Miami airport",
+          "url": "https://apnews.com/article/amazon-cargo-plane-miami-airport-47411c751782887757922efa5f634aa5"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Video shows damaged Amazon cargo plane after crash",
+          "url": "https://www.bbc.co.uk/news/videos/c62k8dz8r4lo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "An Amazon Prime Air cargo plane crashed after it overshot a runway at Miami International Airport",
+          "url": "https://www.businessinsider.com/amazon-prime-cargo-plane-crash-miami-airport-2026-9"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Amazon cargo plane overshoots Miami runway, crashes into vehicles and catches fire",
+          "url": "https://www.euronews.com/2026/09/06/amazon-cargo-plane-overshoots-miami-runway-crashes-into-vehicles-and-catches-fire"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Amazon Boeing 767 jet crashes at Miami airport, terrifying video shows",
+          "url": "https://nypost.com/2026/09/06/us-news/amazon-boeing-767-plane-crashes-at-miami-airport-terrifying-video-shows/"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Amazon Plane Crash Update: Multiple Patients Being Treated at Miami Airport",
+          "url": "https://www.newsweek.com/miami-prime-plane-crash-flights-grounded-amid-emergency-response-12410285"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "'Multiple patients' after Amazon cargo plane crashes at Miami airport",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5959749/amazon-cargo-plane-crashes-at-miami-airport"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Cargo Plane Crashes at Miami Airport, Striking Vehicles",
+          "url": "https://www.nytimes.com/2026/09/06/us/plane-crash-amazon-miami-airport.html"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Amazon cargo plane overshoots runway at Miami airport",
+          "url": "https://news.sky.com/story/amazon-cargo-plane-overshoots-runway-at-miami-airport-13582555"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Amazon cargo plane crashes, bursts into flames at Miami airport after overshooting runway",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3366567/amazon-cargo-plane-crashes-bursts-flames-miami-airport-after-overshooting-runway"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Amazon cargo plane crashes at Miami airport and hits several vehicles",
+          "url": "https://www.theguardian.com/us-news/2026/sep/06/amazon-cargo-plane-crashes-miami-airport"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Amazon cargo plane sends up billowing cloud of smoke after overrunning runway at Miami airport",
+          "url": "https://thehill.com/policy/transportation/aviation/6074113-amazon-cargo-plane-sends-up-billowing-cloud-of-smoke-after-overrunning-runway-at-miami-airport/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Amazon cargo plane on fire after overshooting the runway during landing at Miami airport",
+          "url": "https://www.independent.co.uk/news/world/americas/miami-airport-amazon-plane-crash-b3045603.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Amazon cargo plane overshoots runway at Miami airport, striking vehicles",
+          "url": "https://www.straitstimes.com/world/united-states/amazon-cargo-plane-overshoots-runway-at-miami-airport-striking-vehicles"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Amazon-linked Boeing 767 crashes off Miami runway, huge smoke plume seen in video",
+          "url": "https://timesofindia.indiatimes.com/world/us/amazon-linked-boeing-767-crashes-off-miami-runway-huge-smoke-plume-seen-in-video/articleshow/133850609.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Cargo plane crashes at Miami International Airport after overrunning runway: FAA",
+          "url": "https://www.washingtonexaminer.com/breaking-news/4715572/plane-crashes-miami-international-airport-video-shows/"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-09-06-86xa0e",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "AfD’s Ulrich Siegmund casts vote in key German state election",
+      "summary": "8 per cent in 2021, while the centre-right CDU came a distant second.",
+      "url": "https://www.euronews.com/video/2026/09/06/afds-ulrich-siegmund-casts-vote-in-key-german-state-election",
+      "headlineSource": "Euronews",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-09-06T21:04:00.000Z",
+      "sourceCount": 18,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 10,
+      "score": 24.8,
+      "scoreComponents": {
+        "breadth": 12.74,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "German far-right party set for regional election win but uncertain of governing",
+          "url": "https://abcnews.com/Business/wireStory/german-party-set-regional-election-triumph-uncertain-governing-136241694"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Can AfD form Germany’s first far-right state government since World War II?",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/06-09-sv-germany-afd-wins-saxony-de-fm?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "German far-right set for big win in eastern state, projections show",
+          "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Exit polls put German far-right party ahead in regional election",
+          "url": "https://www.cbsnews.com/news/afd-germany-saxony-anhalt-election-europe-far-right/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Saxony-Anhalt: Digesting the AfD's landmark election win",
+          "url": "https://www.dw.com/en/saxony-anhalt-digesting-the-afd-s-landmark-election-win/a-79103981?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "AfD’s Ulrich Siegmund casts vote in key German state election",
+          "url": "https://www.euronews.com/video/2026/09/06/afds-ulrich-siegmund-casts-vote-in-key-german-state-election"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Anti-migrant AfD seeks to break Germany’s political ‘firewall’ in historic state election",
+          "url": "https://www.foxnews.com/world/anti-migrant-afd-seeks-break-germanys-political-firewall-historic-state-election"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "\"Ready to talk\": German far-right celebrates victory",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260906-ready-to-talk-german-far-right-celebrates-victory"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Germany Election: AFD Wins, May Be First Far-Right Party in Power Since WW2",
+          "url": "https://www.newsweek.com/germany-election-afd-wins-may-be-first-far-right-party-in-power-since-ww2-12409885"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "German exit polls suggest far-right party has big lead in regional election",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right-exit"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "German far-right party set for regional election triumph but uncertain of governing",
+          "url": "https://www.pbs.org/newshour/world/german-far-right-party-set-for-strong-win-in-regional-election-but-uncertain-of-governing"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Germany’s far-right AfD is landslide winner in Saxony-Anhalt vote, exit polls indicate",
+          "url": "https://www.scmp.com/news/world/europe/article/3366562/germanys-far-right-afd-landslide-winner-eastern-state-vote-exit-polls-indicate"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Far-right AfD wins key German state election but may fail to secure majority",
+          "url": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Germany’s far-right AfD set for unprecedented election win: 3 scenarios for what happens next",
+          "url": "https://www.independent.co.uk/news/world/europe/afd-germany-election-what-now-saxony-b3045566.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "‘We can only win’: The rise of the far right in eastern Germany",
+          "url": "https://www.japantimes.co.jp/news/2026/09/06/world/politics/rise-far-right-eastern-germany/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Germany’s AfD Could Win Its First State Government. Here’s What to Know.",
+          "url": "https://www.nytimes.com/2026/09/06/world/europe/germany-election-afd-saxony-anhalt.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Germany’s far-right AfD wins key Saxony-Anhalt election by landslide",
+          "url": "https://www.straitstimes.com/world/europe/far-right-afd-posts-historic-german-state-election-win-exit-polls-show"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "German right-wing party set for strong win in regional election but uncertain of governing",
+          "url": "https://www.washingtonexaminer.com/news/world/4715528/german-afd-party-win-regional-election/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-09-06-1ysrff2",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+      "summary": "Iran’s top negotiator has threatened a more forceful response after Tehran targeted American warships in their latest round of clashes.",
+      "url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates",
+      "headlineSource": "France 24",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-09-06T21:07:42.000Z",
+      "sourceCount": 14,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 9,
+      "score": 21.28,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.46,
         "softPenalty": 0
       },
       "coverage": [
@@ -196,126 +511,36 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Iran war live: IRGC, US trade fire, attack oil tankers in Hormuz",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
-        },
-        {
-          "source": "Associated Press (mirror)",
-          "sourceId": "ap_mirror",
-          "lean": "center",
-          "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
-          "url": "https://apnews.com/article/iran-us-war-strait-hormuz-ship-attack-a52beec77dc90af3d040d0553837ad20"
+          "title": "Iran touts military response as US maintains blockade, hits tankers",
+          "url": "https://www.aljazeera.com/news/2026/9/6/iran-touts-military-response-as-us-maintains-blockade-hits-tankers?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o"
-        },
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Energy Markets Strained by Iran, Ukraine Wars",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-05/energy-markets-strained-by-iran-ukraine-wars-video"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Iran: US hits 3 IRGC-linked oil tankers",
-          "url": "https://www.dw.com/en/iran-us-hits-3-irgc-linked-oil-tankers/live-79044467?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Iran says it attacked US-linked vessels and tankers as Hormuz clashes intensify",
-          "url": "https://www.euronews.com/2026/09/05/iranian-media-report-us-strike-on-iranian-oil-tanker-near-kharg-island"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "Jobs and Iran add to Trump’s midterm headaches. Why that’s good for bonds and bad for energy stocks.",
-          "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Iran attacks naval drone near Hormuz after US strikes 3 oil tankers",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3366526/iran-attacks-naval-drone-near-hormuz-after-us-strikes-3-oil-tankers"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump gets testy and calls Iran war ‘small potatoes’ when pressed on length of fight",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-small-potatoes-length-timeline-b3045133.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Tanker war escalates as Iran strikes US drone, ships",
-          "url": "https://www.straitstimes.com/world/middle-east/tanker-war-escalates-as-iran-strikes-us-drone-ships"
-        },
-        {
-          "source": "Washington Free Beacon",
-          "sourceId": "freebeacon",
-          "lean": "right",
-          "title": "Civil War Strategies in the Strait of Hormuz",
-          "url": "https://freebeacon.com/columns/civil-war-strategies-in-the-strait-of-hormuz/"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-09-06-1pyirow",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "U.S. strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
-      "summary": "S. Central Command.",
-      "url": "https://www.pbs.org/newshour/world/u-s-military-hits-3-iranian-oil-tankers-after-saying-navy-ships-were-targeted-with-missiles",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "NPR",
-      "publishedAt": "2026-09-06T07:49:21.000Z",
-      "sourceCount": 11,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 4,
-      "score": 20.3,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.45,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "US Strikes Iranian Tankers After Attack on US Warships",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-05/us-strikes-iranian-tankers-after-attack-on-us-warships-video"
+          "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+          "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "U.S. strikes Iranian oil tankers in retaliation for Iran targeting warships",
+          "title": "Iran threatens \"more painful\" retaliation after U.S. strikes Iranian oil tankers",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/"
         },
         {
-          "source": "CNBC",
-          "sourceId": "cnbc",
+          "source": "Euronews",
+          "sourceId": "euronews",
           "lean": "center",
-          "title": "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
-          "url": "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html"
+          "title": "Iran claims strike on US navy drone, US says it's \"total lie\" as Hormuz clashes rage on",
+          "url": "https://www.euronews.com/2026/09/06/iranian-forces-target-us-naval-drone-attempting-to-enter-strait-of-hormuz"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+          "url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates"
         },
         {
           "source": "NBC News",
@@ -328,15 +553,29 @@
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "U.S. strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
+          "title": "U.S. and Iran trade attacks on ships as fighting flares up again",
           "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Iran’s Attacks Keep the Strait of Hormuz in a Lethal Stalemate",
+          "url": "https://www.nytimes.com/2026/09/06/business/iran-us-strait-of-hormuz-shipping.html"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "U.S. strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
-          "url": "https://www.pbs.org/newshour/world/u-s-military-hits-3-iranian-oil-tankers-after-saying-navy-ships-were-targeted-with-missiles"
+          "title": "Iran says it plans to announce a new 'exclusion zone' near the Strait of Hormuz",
+          "url": "https://www.pbs.org/newshour/world/iran-claims-a-strike-on-a-u-s-ship-in-the-strait-of-hormuz-but-the-u-s-denies-it"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Iran will declare a ‘prohibited zone’ near Hormuz in coming days: security chief",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3366566/iran-will-declare-prohibited-zone-near-hormuz-coming-days-security-chief"
         },
         {
           "source": "The Guardian",
@@ -349,8 +588,8 @@
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Iran-US war latest: Tehran retaliates after US strikes three Iranian oil tankers as conflict intensifies",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-oil-tankers-hormuz-b3045426.html"
+          "title": "Iran war will continue for another six months, former US defence secretary says",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-war-trump-tehran-leon-panetta-b3045520.html"
         },
         {
           "source": "The Japan Times",
@@ -360,52 +599,232 @@
           "url": "https://www.japantimes.co.jp/news/2026/09/06/world/us-iran-fire-at-vessels/"
         },
         {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Iran says it will declare ‘prohibited zone’ near Hormuz Strait in coming days",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-says-it-will-declare-prohibited-zone-near-hormuz-strait-in-coming-days"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-09-06-8pns4a",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Indonesia volcano eruption disrupts hundreds of flights",
+      "summary": "Mount Anak Krakatoa is an active volcano that sits in the Sunda Strait, between the islands of Java and Sumatra.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/indonesia-volcano-eruption-disrupts-hundreds-of-flights?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-09-06T18:58:35.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 9,
+      "score": 20.47,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.27,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "U.S. Strikes Three Iranian ‘Shadow Network’ Oil Tankers, Military Says",
-          "url": "https://www.nytimes.com/2026/09/05/world/middleeast/iran-us-kharg-oil-tanker-attack.html"
+          "title": "Indonesia volcano eruption disrupts hundreds of flights",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/indonesia-volcano-eruption-disrupts-hundreds-of-flights?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Volcano eruption leaves 170,000 passengers stranded in Indonesia",
+          "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Indonesia volcano eruptions cancels hundreds of flights in major airport hub",
+          "url": "https://www.cbsnews.com/news/indonesia-volcano-eruption-flights-airport/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Indonesia: Flights canceled as Anak Krakatau volcano erupts",
+          "url": "https://www.dw.com/en/indonesia-flights-canceled-as-anak-krakatau-volcano-erupts/a-79050871?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Flights suspended at Indonesia's main airport due to volcanic eruption",
+          "url": "https://www.euronews.com/2026/09/06/flights-suspended-at-indonesias-main-airport-due-to-volcanic-eruption"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Indonesia's Anak Krakatau eruption halts flights, schools, fishing",
+          "url": "https://www.france24.com/en/video/20260906-indonesia-s-anak-krakatau-eruption-halts-flights-schools-fishing"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Volcanic island in Indonesia erupts, forcing the cancellation of hundreds of flights",
+          "url": "https://www.pbs.org/newshour/world/volcanic-island-in-indonesia-erupts-forcing-the-cancellation-of-hundreds-of-flights"
+        },
+        {
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "lean": "center",
+          "title": "Indonesia’s most dangerous fires are burning underground",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260904000318.htm"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Anak Krakatau: Volcano eruption disrupts hundreds of flights",
+          "url": "https://news.sky.com/story/anak-krakatau-volcano-eruption-disrupts-hundreds-of-flights-13582234"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Indonesia’s Anak Krakatoa volcano erupts, disrupting flights at 6 airports",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366530/indonesias-anak-krakatoa-volcano-erupts-disrupting-flights-6-airports"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Volcanic eruption halts flights at Jakarta and seven other Indonesian airports",
+          "url": "https://www.theguardian.com/world/2026/sep/06/volcanic-ash-cloud-halts-flights-at-indonesias-main-international-airport"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Indonesia’s Anak Krakatau eruption halts flights, schools and fishing",
+          "url": "https://www.japantimes.co.jp/news/2026/09/06/asia-pacific/jakarta-airport-anak-krakatau-eruption/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-09-06-1m5a8n1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
+      "summary": "How the nation's highest court rules could have major implications in this year’s midterm elections.",
+      "url": "https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-09-06T21:15:20.000Z",
+      "sourceCount": 7,
+      "leanCount": 4,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 19.73,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 5.85,
+        "wire": 2.4,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump administration appeals again to US Supreme Court over mail-in voting",
+          "url": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Trump Asks Supreme Court to Revive Mail-Ballot Restrictions Before Midterms",
+          "url": "https://www.newsweek.com/trump-supreme-court-mail-ballot-restrictions-midterms-12410106"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
+          "url": "https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "Today in Supreme Court History: September 6, 1983",
+          "url": "https://reason.com/volokh/2026/09/06/today-in-supreme-court-history-september-6-1983-7/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump asks Supreme Court to allow new mail ballot restrictions ahead of midterm elections",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-mail-in-ballot-voting-changes-b3045567.html"
         },
         {
           "source": "Times of India",
           "sourceId": "toi",
           "lean": "center",
-          "title": "'Permanently disabled': US shares video of strike on Iranian tanker, issues warning",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/three-of-yours-us-shares-video-of-strike-on-iranian-tanker-issues-warning-to-tehran/articleshow/133822785.cms"
+          "title": "Govt in a tangle over Supreme Court ruling on 'creamy layer'",
+          "url": "https://timesofindia.indiatimes.com/india/govt-in-a-tangle-over-supreme-court-ruling-on-creamy-layer/articleshow/133852193.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump appeals to Supreme Court for third time over mail-in ballot restrictions",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4715478/trump-appeal-supreme-court-mail-in-ballot-restrictions/"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-09-06-1axoggv",
+      "rank": 7,
+      "id": "2026-09-06-12m2p37",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
-      "summary": "More than 10% of Nepal's energy generation capacity was knocked out by last week's floods.",
-      "url": "https://www.france24.com/en/video/20260905-chinese-national-rescued-from-nepal-tunnel-10-days-after-flash-flood",
-      "headlineSource": "France 24",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-06T07:23:02.000Z",
-      "sourceCount": 11,
+      "title": "At flood-destroyed China-Nepal border, no sign of a once-busy port",
+      "summary": "UN launches $50m appeal to aid over 84,000 flood survivors in Nepal amid cholera threat and sanitation challenges.",
+      "url": "https://www.japantimes.co.jp/news/2026/09/06/asia-pacific/china-nepal-border-port/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-09-06T17:50:17.000Z",
+      "sourceCount": 10,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 7,
-      "score": 20.26,
+      "wireCount": 6,
+      "score": 19.65,
       "scoreComponents": {
-        "breadth": 10.75,
+        "breadth": 10.38,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.41,
+        "freshness": 2.17,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Associated Press (mirror)",
-          "sourceId": "ap_mirror",
-          "lean": "center",
-          "title": "Nepal flood survivor’s family in China relieved after days of anxious waiting",
-          "url": "https://apnews.com/article/nepal-floods-chinese-man-lu-rescued-family-7096a95447c25b9f49655acd7ac673e4"
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Photos: UN urges global aid after China, Nepal floods kill over 1,300",
+          "url": "https://www.aljazeera.com/gallery/2026/9/6/photos-nepal-flood-survivors-face-overwhelming-devastation?traffic_source=rss"
         },
         {
           "source": "BBC News",
@@ -432,22 +851,22 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
-          "url": "https://www.france24.com/en/video/20260905-chinese-national-rescued-from-nepal-tunnel-10-days-after-flash-flood"
+          "title": "Nepal floods: Search operations enter 12th day",
+          "url": "https://www.france24.com/en/video/20260906-nepal-floods-search-operations-enter-12th-day"
         },
         {
-          "source": "NPR Health",
-          "sourceId": "npr_health",
-          "lean": "center-left",
-          "title": "'The health system in Nepal is not prepared for this'",
-          "url": "https://www.npr.org/2026/09/04/nx-s1-5954050/nepal-flood-waters-physical-mental-health"
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Nepal: China confirms number of dead and missing following floods",
+          "url": "https://news.sky.com/story/nepal-china-confirms-number-of-dead-and-missing-following-floods-13582270"
         },
         {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
-          "url": "https://www.pbs.org/newshour/world/rescuers-in-nepal-pull-2-people-alive-from-the-debris-10-days-after-devastating-floods"
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "World’s most powerful lightning-chasing satellite joins China-Nepal flood relief efforts",
+          "url": "https://www.scmp.com/news/china/science/article/3366535/worlds-most-powerful-lightning-chasing-satellite-joins-china-nepal-flood-relief-efforts"
         },
         {
           "source": "The Guardian",
@@ -460,8 +879,8 @@
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
-          "url": "https://www.japantimes.co.jp/news/2026/09/06/asia-pacific/chinese-rescued-nepal-flood/"
+          "title": "At flood-destroyed China-Nepal border, no sign of a once-busy port",
+          "url": "https://www.japantimes.co.jp/news/2026/09/06/asia-pacific/china-nepal-border-port/"
         },
         {
           "source": "The New York Times",
@@ -469,202 +888,31 @@
           "lean": "center-left",
           "title": "Nepal Floods Buried a House. The Woman Inside Was Still Alive.",
           "url": "https://www.nytimes.com/2026/09/05/world/asia/nepal-floods-chinese-worker-rescue.html"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Climate justice tops agenda as Nepal PM Balen heads to UN after deadly floods",
-          "url": "https://timesofindia.indiatimes.com/world/south-asia/climate-justice-tops-agenda-as-nepal-pm-balen-flies-to-un-office/articleshow/133818800.cms"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-09-06-7jpx08",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Food delivery riders call on platforms to open up AI ‘black box’ they say has cut pay",
-      "summary": "Workers who blame algorithms for lowering their earnings are getting help from academics to find out how the system works Gig economy workers are urging delivery platforms to open up the “black box” of computer-driven algorithms that determine the jobs they…",
-      "url": "https://www.theguardian.com/business/2026/sep/05/food-delivery-riders-platforms-open-ai-black-box-cut-pay",
-      "headlineSource": "Guardian Tech",
-      "summarySource": "Guardian Tech",
-      "publishedAt": "2026-09-06T04:43:28.000Z",
-      "sourceCount": 2,
-      "leanCount": 2,
-      "leanSpread": 1,
-      "wireCount": 0,
-      "score": 10.53,
-      "scoreComponents": {
-        "breadth": 4.75,
-        "diversity": 3.6,
-        "wire": 0,
-        "freshness": 2.17,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "Food safety expert explains how deadly bacteria is contaminating so much of the food supply... and how you can protect yourself",
-          "url": "https://www.dailymail.com/health/article-16097125/salmonella-bacteria-food-contamination-prevention.html"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "Food delivery riders call on platforms to open up AI ‘black box’ they say has cut pay",
-          "url": "https://www.theguardian.com/business/2026/sep/05/food-delivery-riders-platforms-open-ai-black-box-cut-pay"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-09-06-k5raun",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "FPIs turn sellers again, pull out Rs 7,443 crore from Indian equities",
-      "summary": "In early September, foreign portfolio investors pulled out Rs 7,443 crore from Indian equities after experiencing two months of net investments. This retreat was influenced by soaring crude oil prices and stable US bond yields, which dampened investor…",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-turn-sellers-again-pull-out-rs-7443-crore-from-indian-equities-in-first-week-of-september/articleshow/133826044.cms",
-      "headlineSource": "Times of India",
-      "summarySource": "Times of India",
-      "publishedAt": "2026-09-06T04:43:27.000Z",
-      "sourceCount": 2,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 10.48,
-      "scoreComponents": {
-        "breadth": 4.75,
-        "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 2.17,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "‘People laughed at me’: Indian youth cleans up a trash-filled river",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/people-laughed-at-me-indian-youth-cleans-up-a-trash-filled-river?traffic_source=rss"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "FPIs turn sellers again, pull out Rs 7,443 crore from Indian equities",
-          "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-turn-sellers-again-pull-out-rs-7443-crore-from-indian-equities-in-first-week-of-september/articleshow/133826044.cms"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-09-05-1ok3xtv",
-      "topic": "health",
-      "topicLabel": "Health & climate",
-      "topicShort": "HEALTH",
-      "title": "Bangladesh measles toll nears grim 1,000-child mark",
-      "summary": "Bangladesh's deadliest measles outbreak in decades is nearing the grim milestone of 1,000 child deaths, as a devastating epidemic sweeps through the country and crowded hospital wards fill with struggling babies.",
-      "url": "https://www.france24.com/en/video/20260905-bangladesh-measles-toll-nears-grim-1-000-child-mark",
-      "headlineSource": "France 24",
-      "summarySource": "France 24",
-      "publishedAt": "2026-09-05T12:18:42.000Z",
-      "sourceCount": 2,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 9.46,
-      "scoreComponents": {
-        "breadth": 4.75,
-        "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 1.16,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Bangladesh measles toll nears grim 1,000-child mark",
-          "url": "https://www.france24.com/en/video/20260905-bangladesh-measles-toll-nears-grim-1-000-child-mark"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Whatever happened to the floating schools of Bangladesh?",
-          "url": "https://www.npr.org/2026/09/05/g-s1-141464/climate-change-floating-schools-bangladesh"
         }
       ]
     },
     {
       "rank": 8,
-      "id": "2026-09-05-1bstxg2",
-      "topic": "health",
-      "topicLabel": "Health & climate",
-      "topicShort": "HEALTH",
-      "title": "STAT+: Novartis’ experimental cardiovascular drug fails a pivotal study",
-      "summary": "Doctors were hopeful the drug, which was being tested in a large clinical trial by Novartis, was going to be a powerful new tool to fight heart disease.",
-      "url": "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/",
-      "headlineSource": "STAT News",
-      "summarySource": "NYT Business",
-      "publishedAt": "2026-09-05T19:29:09.000Z",
-      "sourceCount": 2,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 8.23,
-      "scoreComponents": {
-        "breadth": 4.75,
-        "diversity": 1.95,
-        "wire": 0,
-        "freshness": 1.52,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "The Heart Drug Pelacarsen Fails, Shocking Novartis and Cardiologists",
-          "url": "https://www.nytimes.com/2026/09/04/science/heart-drug-fails-novartis-pelacarsen.html"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
-          "lean": "center",
-          "title": "STAT+: Novartis’ experimental cardiovascular drug fails a pivotal study",
-          "url": "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-09-05-1srfl2a",
+      "id": "2026-09-06-1870kbw",
       "topic": "tech",
       "topicLabel": "Tech & science",
       "topicShort": "TECH",
-      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
-      "summary": "Pennsylvania is one of three states, alongside South Carolina and Utah, that have been hit the hardest by measles this year",
-      "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
-      "headlineSource": "Ars Technica",
-      "summarySource": "The Independent",
-      "publishedAt": "2026-09-05T19:15:54.000Z",
-      "sourceCount": 2,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 8.21,
+      "title": "German rocket reaches space as Europe enters satellite launch race",
+      "summary": "The uncrewed rocket was the first commercial flight to reach orbit from continental Europe, where several nations say they want a share of a growing market for space missions.",
+      "url": "https://www.straitstimes.com/world/europe/german-rocket-reaches-space-as-europe-enters-satellite-launch-race",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-09-06T19:04:22.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 18.38,
       "scoreComponents": {
-        "breadth": 4.75,
-        "diversity": 1.95,
-        "wire": 0,
-        "freshness": 1.51,
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.28,
         "softPenalty": 0
       },
       "coverage": [
@@ -672,56 +920,160 @@
           "source": "Ars Technica",
           "sourceId": "arstechnica",
           "lean": "center",
-          "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
-          "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/"
+          "title": "German company becomes first in Europe to launch fully commercial orbital rocket",
+          "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/"
         },
         {
-          "source": "The Independent",
-          "sourceId": "independent",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "German company successfully launches rocket to space",
+          "url": "https://www.dw.com/en/german-company-successfully-launches-rocket-to-space/a-79050717?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "German startup sends first commercial rocket into space from Europe",
+          "url": "https://www.theguardian.com/business/2026/sep/06/german-startup-sends-first-commercial-rocket-into-space-from-europe"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "German rocket reaches space as Europe enters satellite launch race",
+          "url": "https://www.japantimes.co.jp/news/2026/09/06/world/science-health/german-rocket-space-satellite/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "German rocket reaches space as Europe enters satellite launch race",
+          "url": "https://www.straitstimes.com/world/europe/german-rocket-reaches-space-as-europe-enters-satellite-launch-race"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
           "lean": "center-left",
-          "title": "RFK Jr finally admits that measles was the cause of infant’s death in Pennsylvania",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/rfk-jr-measles-death-pennsylvania-b3045323.html"
+          "title": "Europe has its first commercial orbital rocket",
+          "url": "https://www.theverge.com/?p=990906"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "From drones to assassins: Russia's hybrid war in Europe could turn deadly",
+          "url": "https://timesofindia.indiatimes.com/world/europe/from-drones-to-assassins-russias-hybrid-war-in-europe-could-turn-deadly-experts-warn/articleshow/133842974.cms"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-09-06-hn2hr",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "NYC pedestrian, 58, crushed by MTA bus as unsuspecting driver leaves scene: cops",
+      "summary": "A 58-year-old man was mowed down by a hit-and-run MTA bus driver after he stepped off a Brooklyn curb Saturday night, police said.",
+      "url": "https://nypost.com/2026/09/06/us-news/nyc-pedestrian-58-crushed-by-mta-bus-as-unsuspecting-driver-leaves-scene-cops/",
+      "headlineSource": "New York Post",
+      "summarySource": "New York Post",
+      "publishedAt": "2026-09-06T19:10:41.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 14.5,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 2.28,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "I left Austin for NYC 7 years ago. Here are 9 things I still miss about my old life, and 3 reminders of why I moved.",
+          "url": "https://www.businessinsider.com/moving-from-austin-to-new-york-city-pros-cons-2026-9"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Built from scratch by immigrant parents, this NYC grocery store now faces Mamdani’s taxpayer-backed rival",
+          "url": "https://www.foxbusiness.com/politics/built-from-scratch-immigrant-parents-nyc-grocery-store-now-faces-mamdanis-taxpayer-backed-rival"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "NYC pedestrian, 58, crushed by MTA bus as unsuspecting driver leaves scene: cops",
+          "url": "https://nypost.com/2026/09/06/us-news/nyc-pedestrian-58-crushed-by-mta-bus-as-unsuspecting-driver-leaves-scene-cops/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "AI largely to be banned in NYC elementary and middle schools",
+          "url": "https://www.straitstimes.com/world/ai-largely-to-be-banned-in-nyc-elementary-and-middle-schools"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-09-06-117q3hi",
-      "topic": "tech",
-      "topicLabel": "Tech & science",
-      "topicShort": "TECH",
-      "title": "Israeli Prime Minister Netanyahu says ‘Qatar is a hostile state’",
-      "summary": "Israeli PM Benjamin Netanyahu has dismissed accusations about his government’s alleged ties to Qatar as ‘one big bluff’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/israeli-prime-minister-netanyahu-says-qatar-is-a-hostile?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-06T04:59:28.000Z",
-      "sourceCount": 2,
-      "leanCount": 1,
-      "leanSpread": 0,
+      "id": "2026-09-06-19i7j3x",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "U.S. tourism groups want to win Canadian visitors back. A testy trade war isn't helping",
+      "summary": "The bilateral rift has not stopped state and local tourism officials and popular destinations like Graceland from trying to persuade Canadian visitors to return.",
+      "url": "https://www.pbs.org/newshour/economy/u-s-tourism-groups-want-to-win-canadian-visitors-back-a-testy-trade-war-isnt-helping",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-09-06T17:07:16.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
       "wireCount": 1,
-      "score": 7.75,
+      "score": 11.83,
       "scoreComponents": {
-        "breadth": 4.75,
-        "diversity": 0,
+        "breadth": 6.97,
+        "diversity": 1.95,
         "wire": 0.8,
-        "freshness": 2.2,
+        "freshness": 2.11,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Israeli Prime Minister Netanyahu says ‘Qatar is a hostile state’",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/israeli-prime-minister-netanyahu-says-qatar-is-a-hostile?traffic_source=rss"
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Rep. Stevens Says Canadian Tariffs Are Squeezing Michigan",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-06/rep-stevens-says-tariffs-are-squeezing-michigan-video"
         },
         {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
+          "source": "CBS News",
+          "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Netanyahu Posts A.I. Video Pairing Mamdani With Iranian Ruler",
-          "url": "https://www.nytimes.com/2026/09/04/world/middleeast/netanyahu-ai-video-mamdani.html"
+          "title": "Remembering 9/11: When Gander provided safe haven in a time of crisis",
+          "url": "https://www.cbsnews.com/news/remembering-911-when-gander-provided-safe-haven-in-a-time-of-crisis/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. tourism groups want to win Canadian visitors back. A testy trade war isn't helping",
+          "url": "https://www.pbs.org/newshour/economy/u-s-tourism-groups-want-to-win-canadian-visitors-back-a-testy-trade-war-isnt-helping"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "The US wants to win Canadian visitors back, but tourists say ‘it’s a wasted effort’",
+          "url": "https://www.independent.co.uk/news/world/americas/trump-us-canada-tariffs-travel-tourism-b3045515.html"
         }
       ]
     }
