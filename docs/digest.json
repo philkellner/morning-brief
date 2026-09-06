@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-06",
-  "generatedAt": "2026-09-06T21:30:54.256Z",
+  "generatedAt": "2026-09-06T21:35:43.419Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,8 +12,13 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 63,
-    "failed": []
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
   },
   "stories": [
     {
@@ -28,16 +33,16 @@
       "headlineSource": "PBS NewsHour",
       "summarySource": "NPR",
       "publishedAt": "2026-09-06T20:58:36.000Z",
-      "sourceCount": 19,
+      "sourceCount": 20,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 10,
-      "score": 25.01,
+      "score": 25.22,
       "scoreComponents": {
-        "breadth": 12.97,
+        "breadth": 13.18,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.45,
+        "freshness": 2.44,
         "softPenalty": 0
       },
       "coverage": [
@@ -94,8 +99,8 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "🔴 Trump's envoys Witkoff and Kushner arrive in Kyiv after 'substantive' talks with Putin",
-          "url": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin"
+          "title": "Ukraine-Russia talks: What are the US objectives?",
+          "url": "https://www.france24.com/en/video/20260906-ukraine-russia-talks-what-are-the-us-objectives"
         },
         {
           "source": "NBC News",
@@ -124,6 +129,13 @@
           "lean": "center-left",
           "title": "U.S. envoys Witkoff and Kushner hold talks in Ukraine after meeting with Putin",
           "url": "https://www.pbs.org/newshour/world/u-s-envoys-witkoff-and-kushner-hold-talks-in-ukraine-after-meeting-with-putin"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Bulletproof vests and blacked-out carriages: How Ukraine defies Putin to keep trains moving",
+          "url": "https://news.sky.com/story/bulletproof-vests-and-blacked-out-carriages-how-ukraine-defies-putin-to-keep-trains-moving-13582190"
         },
         {
           "source": "South China Morning Post",
@@ -192,12 +204,12 @@
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 7,
-      "score": 24.83,
+      "score": 24.82,
       "scoreComponents": {
         "breadth": 12.74,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.49,
+        "freshness": 2.48,
         "softPenalty": 0
       },
       "coverage": [
@@ -251,13 +263,6 @@
           "url": "https://nypost.com/2026/09/06/us-news/amazon-boeing-767-plane-crashes-at-miami-airport-terrifying-video-shows/"
         },
         {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Amazon Plane Crash Update: Multiple Patients Being Treated at Miami Airport",
-          "url": "https://www.newsweek.com/miami-prime-plane-crash-flights-grounded-amid-emergency-response-12410285"
-        },
-        {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
@@ -275,7 +280,7 @@
           "source": "Sky News",
           "sourceId": "skynews",
           "lean": "center",
-          "title": "Amazon cargo plane overshoots runway at Miami airport",
+          "title": "At least five dead in Amazon plane crash",
           "url": "https://news.sky.com/story/amazon-cargo-plane-overshoots-runway-at-miami-airport-13582555"
         },
         {
@@ -314,6 +319,13 @@
           "url": "https://www.straitstimes.com/world/united-states/amazon-cargo-plane-overshoots-runway-at-miami-airport-striking-vehicles"
         },
         {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "An Amazon cargo plane crashed at Miami International Airport",
+          "url": "https://www.theverge.com/?p=990918"
+        },
+        {
           "source": "Times of India",
           "sourceId": "toi",
           "lean": "center",
@@ -331,6 +343,131 @@
     },
     {
       "rank": 3,
+      "id": "2026-09-06-1ysrff2",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+      "summary": "Iran’s top negotiator has threatened a more forceful response after Tehran targeted American warships in their latest round of clashes.",
+      "url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates",
+      "headlineSource": "France 24",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-09-06T21:07:43.000Z",
+      "sourceCount": 14,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 8,
+      "score": 23.78,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump official says ‘there may not be a nuclear agreement’ with Iran",
+          "url": "https://www.aljazeera.com/news/2026/9/6/trump-official-says-there-may-not-be-a-nuclear-agreement-with-iran?traffic_source=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "U.S. Energy Secretary Wright says Iran nuclear deal may never happen",
+          "url": "https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Iran claims strike on US navy drone, US says it's \"total lie\" as Hormuz clashes rage on",
+          "url": "https://www.euronews.com/2026/09/06/iranian-forces-target-us-naval-drone-attempting-to-enter-strait-of-hormuz"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+          "url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "U.S. and Iran trade attacks on ships as fighting flares up again",
+          "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Iran’s Attacks Keep the Strait of Hormuz in a Lethal Stalemate",
+          "url": "https://www.nytimes.com/2026/09/06/business/iran-us-strait-of-hormuz-shipping.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Iran says it plans to announce a new 'exclusion zone' near the Strait of Hormuz",
+          "url": "https://www.pbs.org/newshour/world/iran-claims-a-strike-on-a-u-s-ship-in-the-strait-of-hormuz-but-the-u-s-denies-it"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Iran will declare a ‘prohibited zone’ near Hormuz in coming days: security chief",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3366566/iran-will-declare-prohibited-zone-near-hormuz-coming-days-security-chief"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Energy secretary says US might not reach nuclear agreement with Iran",
+          "url": "https://www.theguardian.com/world/2026/sep/06/us-iran-nuclear-agreement-chris-wright"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Wright: US has 'a lot of leverage' in Venezuela after oil deal reached",
+          "url": "https://thehill.com/policy/energy-environment/6074075-us-leverage-venezuela-oil-deal/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump’s Energy secretary embarrassingly says he has no opinion on future of gas prices - then makes his best guess",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-chris-wright-gas-prices-b3045525.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Iran says it will declare ‘prohibited zone’ near Hormuz Strait in coming days",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-says-it-will-declare-prohibited-zone-near-hormuz-strait-in-coming-days"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Can US really make Hormuz safe? The dangerous battle against Iran’s sea mines",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/can-the-us-really-make-hormuz-safe-the-dangerous-battle-against-irans-sea-mines/articleshow/133833524.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Iran nuclear deal may be delayed until ‘next administration’ in Tehran, Wright says",
+          "url": "https://www.washingtonexaminer.com/policy/foreign-policy/4715422/iran-trump-nuclear-deal-chris-wright/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
       "id": "2026-09-06-86xa0e",
       "topic": "world",
       "topicLabel": "World",
@@ -341,26 +478,19 @@
       "headlineSource": "Euronews",
       "summarySource": "The Straits Times",
       "publishedAt": "2026-09-06T21:04:00.000Z",
-      "sourceCount": 18,
+      "sourceCount": 13,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 10,
-      "score": 24.8,
+      "wireCount": 9,
+      "score": 23.47,
       "scoreComponents": {
-        "breadth": 12.74,
+        "breadth": 11.42,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.45,
         "softPenalty": 0
       },
       "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "German far-right party set for regional election win but uncertain of governing",
-          "url": "https://abcnews.com/Business/wireStory/german-party-set-regional-election-triumph-uncertain-governing-136241694"
-        },
         {
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
@@ -374,13 +504,6 @@
           "lean": "center",
           "title": "German far-right set for big win in eastern state, projections show",
           "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Exit polls put German far-right party ahead in regional election",
-          "url": "https://www.cbsnews.com/news/afd-germany-saxony-anhalt-election-europe-far-right/"
         },
         {
           "source": "Deutsche Welle",
@@ -407,15 +530,8 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "\"Ready to talk\": German far-right celebrates victory",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260906-ready-to-talk-german-far-right-celebrates-victory"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Germany Election: AFD Wins, May Be First Far-Right Party in Power Since WW2",
-          "url": "https://www.newsweek.com/germany-election-afd-wins-may-be-first-far-right-party-in-power-since-ww2-12409885"
+          "title": "🔴Germany’s far-right AfD landslide winner in key Saxony-Anhalt vote, early results suggest",
+          "url": "https://www.france24.com/en/video/20260906-afd-could-lead-the-first-far-right-state-government-since-the-dark-days-of-nazism"
         },
         {
           "source": "NPR",
@@ -423,13 +539,6 @@
           "lean": "center-left",
           "title": "German exit polls suggest far-right party has big lead in regional election",
           "url": "https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right-exit"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "German far-right party set for regional election triumph but uncertain of governing",
-          "url": "https://www.pbs.org/newshour/world/german-far-right-party-set-for-strong-win-in-regional-election-but-uncertain-of-governing"
         },
         {
           "source": "South China Morning Post",
@@ -472,138 +581,6 @@
           "lean": "center",
           "title": "Germany’s far-right AfD wins key Saxony-Anhalt election by landslide",
           "url": "https://www.straitstimes.com/world/europe/far-right-afd-posts-historic-german-state-election-win-exit-polls-show"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "German right-wing party set for strong win in regional election but uncertain of governing",
-          "url": "https://www.washingtonexaminer.com/news/world/4715528/german-afd-party-win-regional-election/"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-09-06-1ysrff2",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
-      "summary": "Iran’s top negotiator has threatened a more forceful response after Tehran targeted American warships in their latest round of clashes.",
-      "url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates",
-      "headlineSource": "France 24",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-09-06T21:07:42.000Z",
-      "sourceCount": 14,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 9,
-      "score": 21.28,
-      "scoreComponents": {
-        "breadth": 11.72,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Iran touts military response as US maintains blockade, hits tankers",
-          "url": "https://www.aljazeera.com/news/2026/9/6/iran-touts-military-response-as-us-maintains-blockade-hits-tankers?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
-          "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Iran threatens \"more painful\" retaliation after U.S. strikes Iranian oil tankers",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Iran claims strike on US navy drone, US says it's \"total lie\" as Hormuz clashes rage on",
-          "url": "https://www.euronews.com/2026/09/06/iranian-forces-target-us-naval-drone-attempting-to-enter-strait-of-hormuz"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
-          "url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "U.S. strikes 3 Iranian oil tankers after Iran targets Navy warships, military says",
-          "url": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "U.S. and Iran trade attacks on ships as fighting flares up again",
-          "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Iran’s Attacks Keep the Strait of Hormuz in a Lethal Stalemate",
-          "url": "https://www.nytimes.com/2026/09/06/business/iran-us-strait-of-hormuz-shipping.html"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Iran says it plans to announce a new 'exclusion zone' near the Strait of Hormuz",
-          "url": "https://www.pbs.org/newshour/world/iran-claims-a-strike-on-a-u-s-ship-in-the-strait-of-hormuz-but-the-u-s-denies-it"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Iran will declare a ‘prohibited zone’ near Hormuz in coming days: security chief",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3366566/iran-will-declare-prohibited-zone-near-hormuz-coming-days-security-chief"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "US military says it struck three Iranian tankers after American warships came under missile attack",
-          "url": "https://www.theguardian.com/world/2026/sep/05/us-military-iran-tankers"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Iran war will continue for another six months, former US defence secretary says",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-war-trump-tehran-leon-panetta-b3045520.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Iran retaliates after U.S. strikes oil tankers",
-          "url": "https://www.japantimes.co.jp/news/2026/09/06/world/us-iran-fire-at-vessels/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Iran says it will declare ‘prohibited zone’ near Hormuz Strait in coming days",
-          "url": "https://www.straitstimes.com/world/middle-east/iran-says-it-will-declare-prohibited-zone-near-hormuz-strait-in-coming-days"
         }
       ]
     },
@@ -619,16 +596,16 @@
       "headlineSource": "Al Jazeera",
       "summarySource": "Euronews",
       "publishedAt": "2026-09-06T18:58:35.000Z",
-      "sourceCount": 12,
+      "sourceCount": 11,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 9,
-      "score": 20.47,
+      "wireCount": 8,
+      "score": 20.12,
       "scoreComponents": {
-        "breadth": 11.1,
+        "breadth": 10.75,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.27,
+        "freshness": 2.26,
         "softPenalty": 0
       },
       "coverage": [
@@ -682,13 +659,6 @@
           "url": "https://www.pbs.org/newshour/world/volcanic-island-in-indonesia-erupts-forcing-the-cancellation-of-hundreds-of-flights"
         },
         {
-          "source": "ScienceDaily",
-          "sourceId": "sciencedaily",
-          "lean": "center",
-          "title": "Indonesia’s most dangerous fires are burning underground",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260904000318.htm"
-        },
-        {
           "source": "Sky News",
           "sourceId": "skynews",
           "lean": "center",
@@ -720,82 +690,6 @@
     },
     {
       "rank": 6,
-      "id": "2026-09-06-1m5a8n1",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
-      "summary": "How the nation's highest court rules could have major implications in this year’s midterm elections.",
-      "url": "https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-06T21:15:20.000Z",
-      "sourceCount": 7,
-      "leanCount": 4,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 19.73,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 5.85,
-        "wire": 2.4,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Trump administration appeals again to US Supreme Court over mail-in voting",
-          "url": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Trump Asks Supreme Court to Revive Mail-Ballot Restrictions Before Midterms",
-          "url": "https://www.newsweek.com/trump-supreme-court-mail-ballot-restrictions-midterms-12410106"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
-          "url": "https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "Today in Supreme Court History: September 6, 1983",
-          "url": "https://reason.com/volokh/2026/09/06/today-in-supreme-court-history-september-6-1983-7/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump asks Supreme Court to allow new mail ballot restrictions ahead of midterm elections",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-mail-in-ballot-voting-changes-b3045567.html"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Govt in a tangle over Supreme Court ruling on 'creamy layer'",
-          "url": "https://timesofindia.indiatimes.com/india/govt-in-a-tangle-over-supreme-court-ruling-on-creamy-layer/articleshow/133852193.cms"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Trump appeals to Supreme Court for third time over mail-in ballot restrictions",
-          "url": "https://www.washingtonexaminer.com/news/supreme-court/4715478/trump-appeal-supreme-court-mail-in-ballot-restrictions/"
-        }
-      ]
-    },
-    {
-      "rank": 7,
       "id": "2026-09-06-12m2p37",
       "topic": "world",
       "topicLabel": "World",
@@ -810,12 +704,12 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 6,
-      "score": 19.65,
+      "score": 19.64,
       "scoreComponents": {
         "breadth": 10.38,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.17,
+        "freshness": 2.16,
         "softPenalty": 0
       },
       "coverage": [
@@ -892,27 +786,255 @@
       ]
     },
     {
+      "rank": 7,
+      "id": "2026-09-06-j49kab",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US military strikes oil tankers as Iran vows tougher reprisals",
+      "summary": "Tehran says time for proportionate retaliation is over after a US strike on Iranian tankers inside the blockade line.",
+      "url": "https://www.straitstimes.com/world/middle-east/us-military-strikes-oil-tankers-as-iran-vows-tougher-reprisals",
+      "headlineSource": "The Straits Times",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-09-06T18:55:30.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.32,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.26,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Iran touts military response as US maintains blockade, hits tankers",
+          "url": "https://www.aljazeera.com/news/2026/9/6/iran-touts-military-response-as-us-maintains-blockade-hits-tankers?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+          "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran threatens \"more painful\" retaliation after U.S. strikes Iranian oil tankers",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "U.S. strikes 3 Iranian oil tankers after Iran targets Navy warships, military says",
+          "url": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
+          "url": "https://www.pbs.org/newshour/world/u-s-military-hits-3-iranian-oil-tankers-after-saying-navy-ships-were-targeted-with-missiles"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US military says it struck three Iranian tankers after American warships came under missile attack",
+          "url": "https://www.theguardian.com/world/2026/sep/05/us-military-iran-tankers"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Iran retaliates after U.S. strikes oil tankers",
+          "url": "https://www.japantimes.co.jp/news/2026/09/06/world/us-iran-fire-at-vessels/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "U.S. Strikes Three Iranian ‘Shadow Network’ Oil Tankers, Military Says",
+          "url": "https://www.nytimes.com/2026/09/05/world/middleeast/iran-us-kharg-oil-tanker-attack.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US military strikes oil tankers as Iran vows tougher reprisals",
+          "url": "https://www.straitstimes.com/world/middle-east/us-military-strikes-oil-tankers-as-iran-vows-tougher-reprisals"
+        }
+      ]
+    },
+    {
       "rank": 8,
+      "id": "2026-09-06-1m5a8n1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
+      "summary": "How the nation's highest court rules could have major implications in this year’s midterm elections.",
+      "url": "https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-09-06T21:15:20.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 19.14,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 5.85,
+        "wire": 2.4,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump administration appeals again to US Supreme Court over mail-in voting",
+          "url": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
+          "url": "https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "Today in Supreme Court History: September 6, 1983",
+          "url": "https://reason.com/volokh/2026/09/06/today-in-supreme-court-history-september-6-1983-7/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump asks Supreme Court to allow new mail ballot restrictions ahead of midterm elections",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-mail-in-ballot-voting-changes-b3045567.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Govt in a tangle over Supreme Court ruling on 'creamy layer'",
+          "url": "https://timesofindia.indiatimes.com/india/govt-in-a-tangle-over-supreme-court-ruling-on-creamy-layer/articleshow/133852193.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump appeals to Supreme Court for third time over mail-in ballot restrictions",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4715478/trump-appeal-supreme-court-mail-in-ballot-restrictions/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-09-06-3otd6i",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Explosion of fireworks in central Mexico kills at least 10, injures 64",
+      "summary": "The explosion occurred Saturday night next to the Nuestra Señora de la Luz church in Temascalcingo, a municipality in central Mexico with 66,000 residents.",
+      "url": "https://www.pbs.org/newshour/world/explosion-of-fireworks-in-central-mexico-kills-at-least-10-injures-64",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-09-06T21:23:02.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 18.55,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "At least 10 killed in central Mexico fireworks blast during festival",
+          "url": "https://www.aljazeera.com/news/2026/9/6/at-least-10-killed-in-central-mexico-fireworks-blast-during-festival?traffic_source=rss"
+        },
+        {
+          "source": "Associated Press (mirror)",
+          "sourceId": "ap_mirror",
+          "lean": "center",
+          "title": "Explosion of fireworks in central Mexico kills at least 10, injures 64",
+          "url": "https://apnews.com/article/mexico-explosion-deaths-fireworks-483d85bd3d9899f849b062a491e2f5a4"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Massive firework explosion kills 10, injures 64 during popular festival in Mexico",
+          "url": "https://nypost.com/2026/09/06/us-news/firework-explosion-kills-10-injures-64-during-mexico-festival/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Explosion of fireworks in central Mexico kills at least 10, injures 64",
+          "url": "https://www.pbs.org/newshour/world/explosion-of-fireworks-in-central-mexico-kills-at-least-10-injures-64"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "10 dead, 64 injured in Mexico fireworks explosion at church festival",
+          "url": "https://www.scmp.com/news/world/americas/article/3366568/10-dead-64-injured-mexico-fireworks-explosion-church-festival"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Fireworks blast in Mexico kills at least 10",
+          "url": "https://www.straitstimes.com/world/fireworks-blast-in-mexico-kills-at-least-10"
+        }
+      ]
+    },
+    {
+      "rank": 10,
       "id": "2026-09-06-1870kbw",
       "topic": "tech",
       "topicLabel": "Tech & science",
       "topicShort": "TECH",
       "title": "German rocket reaches space as Europe enters satellite launch race",
-      "summary": "The uncrewed rocket was the first commercial flight to reach orbit from continental Europe, where several nations say they want a share of a growing market for space missions.",
+      "summary": "The launch strengthens European space autonomy and security.",
       "url": "https://www.straitstimes.com/world/europe/german-rocket-reaches-space-as-europe-enters-satellite-launch-race",
       "headlineSource": "The Straits Times",
-      "summarySource": "The Japan Times",
+      "summarySource": "The Straits Times",
       "publishedAt": "2026-09-06T19:04:22.000Z",
       "sourceCount": 7,
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 4,
-      "score": 18.38,
+      "score": 18.37,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.28,
+        "freshness": 2.27,
         "softPenalty": 0
       },
       "coverage": [
@@ -941,8 +1063,8 @@
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "German rocket reaches space as Europe enters satellite launch race",
-          "url": "https://www.japantimes.co.jp/news/2026/09/06/world/science-health/german-rocket-space-satellite/"
+          "title": "Is it better to be rich in Europe or in America?",
+          "url": "https://www.japantimes.co.jp/commentary/2026/09/06/world/rich-in-europe-or-america/"
         },
         {
           "source": "The Straits Times",
@@ -964,116 +1086,6 @@
           "lean": "center",
           "title": "From drones to assassins: Russia's hybrid war in Europe could turn deadly",
           "url": "https://timesofindia.indiatimes.com/world/europe/from-drones-to-assassins-russias-hybrid-war-in-europe-could-turn-deadly-experts-warn/articleshow/133842974.cms"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-09-06-hn2hr",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "NYC pedestrian, 58, crushed by MTA bus as unsuspecting driver leaves scene: cops",
-      "summary": "A 58-year-old man was mowed down by a hit-and-run MTA bus driver after he stepped off a Brooklyn curb Saturday night, police said.",
-      "url": "https://nypost.com/2026/09/06/us-news/nyc-pedestrian-58-crushed-by-mta-bus-as-unsuspecting-driver-leaves-scene-cops/",
-      "headlineSource": "New York Post",
-      "summarySource": "New York Post",
-      "publishedAt": "2026-09-06T19:10:41.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 1,
-      "score": 14.5,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 4.45,
-        "wire": 0.8,
-        "freshness": 2.28,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "I left Austin for NYC 7 years ago. Here are 9 things I still miss about my old life, and 3 reminders of why I moved.",
-          "url": "https://www.businessinsider.com/moving-from-austin-to-new-york-city-pros-cons-2026-9"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Built from scratch by immigrant parents, this NYC grocery store now faces Mamdani’s taxpayer-backed rival",
-          "url": "https://www.foxbusiness.com/politics/built-from-scratch-immigrant-parents-nyc-grocery-store-now-faces-mamdanis-taxpayer-backed-rival"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "NYC pedestrian, 58, crushed by MTA bus as unsuspecting driver leaves scene: cops",
-          "url": "https://nypost.com/2026/09/06/us-news/nyc-pedestrian-58-crushed-by-mta-bus-as-unsuspecting-driver-leaves-scene-cops/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "AI largely to be banned in NYC elementary and middle schools",
-          "url": "https://www.straitstimes.com/world/ai-largely-to-be-banned-in-nyc-elementary-and-middle-schools"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-09-06-19i7j3x",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "U.S. tourism groups want to win Canadian visitors back. A testy trade war isn't helping",
-      "summary": "The bilateral rift has not stopped state and local tourism officials and popular destinations like Graceland from trying to persuade Canadian visitors to return.",
-      "url": "https://www.pbs.org/newshour/economy/u-s-tourism-groups-want-to-win-canadian-visitors-back-a-testy-trade-war-isnt-helping",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-09-06T17:07:16.000Z",
-      "sourceCount": 4,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 1,
-      "score": 11.83,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 1.95,
-        "wire": 0.8,
-        "freshness": 2.11,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Rep. Stevens Says Canadian Tariffs Are Squeezing Michigan",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-06/rep-stevens-says-tariffs-are-squeezing-michigan-video"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Remembering 9/11: When Gander provided safe haven in a time of crisis",
-          "url": "https://www.cbsnews.com/news/remembering-911-when-gander-provided-safe-haven-in-a-time-of-crisis/"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "U.S. tourism groups want to win Canadian visitors back. A testy trade war isn't helping",
-          "url": "https://www.pbs.org/newshour/economy/u-s-tourism-groups-want-to-win-canadian-visitors-back-a-testy-trade-war-isnt-helping"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "The US wants to win Canadian visitors back, but tourists say ‘it’s a wasted effort’",
-          "url": "https://www.independent.co.uk/news/world/americas/trump-us-canada-tariffs-travel-tourism-b3045515.html"
         }
       ]
     }
