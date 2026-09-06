@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-06",
-  "generatedAt": "2026-09-06T21:35:43.419Z",
+  "generatedAt": "2026-09-06T21:38:34.527Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -28,7 +28,7 @@
       "topicLabel": "World",
       "topicShort": "WORLD",
       "title": "U.S. envoys Witkoff and Kushner hold talks in Ukraine after meeting with Putin",
-      "summary": "S. envoys Steve Witkoff and Jared Kushner held meetings in Kyiv with Ukraine's President Zelenskyy on Sunday, a day after lengthy conversations with Russian President Putin in Moscow.",
+      "summary": "U.S. envoys Steve Witkoff and Jared Kushner held meetings in Kyiv with Ukraine's President Zelenskyy on Sunday, a day after lengthy conversations with Russian President Putin in Moscow.",
       "url": "https://www.pbs.org/newshour/world/u-s-envoys-witkoff-and-kushner-hold-talks-in-ukraine-after-meeting-with-putin",
       "headlineSource": "PBS NewsHour",
       "summarySource": "NPR",
@@ -37,7 +37,7 @@
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 10,
-      "score": 25.22,
+      "score": 25.21,
       "scoreComponents": {
         "breadth": 13.18,
         "diversity": 6.4,
@@ -357,12 +357,12 @@
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 8,
-      "score": 23.78,
+      "score": 23.77,
       "scoreComponents": {
         "breadth": 11.72,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.45,
         "softPenalty": 0
       },
       "coverage": [
@@ -473,21 +473,21 @@
       "topicLabel": "World",
       "topicShort": "WORLD",
       "title": "AfD’s Ulrich Siegmund casts vote in key German state election",
-      "summary": "8 per cent in 2021, while the centre-right CDU came a distant second.",
+      "summary": "Germany's AfD has hailed a \"historic result\" and is projected to win 44% of the vote, far ahead of the conservatives on 17%.",
       "url": "https://www.euronews.com/video/2026/09/06/afds-ulrich-siegmund-casts-vote-in-key-german-state-election",
       "headlineSource": "Euronews",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-09-06T21:04:00.000Z",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-06T21:37:05.000Z",
       "sourceCount": 13,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 9,
-      "score": 23.47,
+      "score": 23.52,
       "scoreComponents": {
         "breadth": 11.42,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.45,
+        "freshness": 2.5,
         "softPenalty": 0
       },
       "coverage": [
@@ -502,7 +502,7 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "German far-right set for big win in eastern state, projections show",
+          "title": "Germany's far-right AfD set for big win in eastern state, just short of majority",
           "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o"
         },
         {
@@ -600,7 +600,7 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 8,
-      "score": 20.12,
+      "score": 20.11,
       "scoreComponents": {
         "breadth": 10.75,
         "diversity": 3.9,
@@ -806,7 +806,7 @@
         "breadth": 9.97,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.26,
+        "freshness": 2.25,
         "softPenalty": 0
       },
       "coverage": [
@@ -896,7 +896,7 @@
         "breadth": 8.42,
         "diversity": 5.85,
         "wire": 2.4,
-        "freshness": 2.47,
+        "freshness": 2.46,
         "softPenalty": 0
       },
       "coverage": [
@@ -1029,12 +1029,12 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 4,
-      "score": 18.37,
+      "score": 18.36,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.27,
+        "freshness": 2.26,
         "softPenalty": 0
       },
       "coverage": [
