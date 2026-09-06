@@ -120,13 +120,29 @@ export function dropDanglingOpener(text) {
   return out;
 }
 
+// Periods that do not end a sentence. Splitting naively on them produced live
+// summaries beginning "S. envoys Steve Witkoff..." (from "U.S. envoys") and
+// "8 per cent in 2021..." (from "20.8 per cent").
+const NON_TERMINAL_PERIOD = [
+  /\b([A-Za-z])\./g,                       // initials: U.S., E.U., J. Smith
+  /(\d)\.(?=\d)/g,                         // decimals: 20.8
+  /\b(Mr|Mrs|Ms|Dr|Prof|St|Mt|Jr|Sr|vs|etc|Inc|Ltd|Co|No|Gen|Sen|Rep|Gov|Lt|Col|Sgt|Capt|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\./gi,
+];
+const PERIOD_PLACEHOLDER = '\u0001';
+
 /** Keep at most `count` sentences, then hard-cap the length. */
 export function firstSentences(text, count, maxChars) {
   const s = String(text ?? '').trim();
   if (!s) return '';
-  const parts = s.match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) ?? [s];
+  // Mask periods that are not sentence ends, split, then restore them.
+  let masked = s;
+  for (const re of NON_TERMINAL_PERIOD) {
+    masked = masked.replace(re, (m) => m.replace('.', PERIOD_PLACEHOLDER));
+  }
+  const parts = masked.match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) ?? [masked];
   const joined = parts.slice(0, count).join(' ').replace(/\s+/g, ' ').trim();
-  return dropDanglingOpener(truncate(joined, maxChars));
+  const restored = joined.split(PERIOD_PLACEHOLDER).join('.');
+  return dropDanglingOpener(truncate(restored, maxChars));
 }
 
 const STOPWORDS = new Set(`a about after again against all also am an and any are as at be because been before

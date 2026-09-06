@@ -740,3 +740,16 @@ test('two reports of one event still merge on their shared vocabulary', () => {
     ['independent', 'pbs'],
   );
 });
+
+test('sentence splitting survives abbreviations and decimals', () => {
+  // Two summaries in the 2026-09-06 brief began mid-word, both from the same
+  // cause: "U.S. envoys..." split at "U." and "20.8 per cent" split at "20.".
+  assert.match(firstSentences('U.S. envoys Steve Witkoff and Jared Kushner held meetings in Kyiv. A second round follows.', 1, 260),
+    /^U\.S\. envoys/);
+  assert.match(firstSentences('The AfD polled 20.8 per cent in 2021, while the CDU came second. Turnout rose.', 1, 260),
+    /^The AfD polled 20\.8 per cent/);
+  assert.match(firstSentences('Dr. Smith said the trial had failed. The company disputed it.', 1, 260), /^Dr\. Smith/);
+
+  // Real sentence boundaries must still work.
+  assert.equal(firstSentences('First one here. Second follows. Third too.', 2, 260), 'First one here. Second follows.');
+});
