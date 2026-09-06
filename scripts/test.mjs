@@ -659,3 +659,58 @@ test('a coherent cluster still takes its summary from a second outlet', () => {
   const summary = pickSummary(cluster, cluster[0]);
   assert.equal(summary.sourceId, 'f24', 'summary should come from the outlet that did not supply the headline');
 });
+
+test('a lone specialist desk contradicted by a general outlet does not decide', () => {
+  // Both shipped in the 2026-09-06 brief. Each cluster had exactly two outlets,
+  // one of them a specialist desk, so a single feed was a 50% share and passed
+  // as "dominant". Ars Technica covering a measles death made it TECH; one NYT
+  // feed touching a Netanyahu story made that TECH too.
+  const item = (outlet, topicHint, title, description) => ({
+    outlet, topicHint, title, description, link: 'https://e.com/news/x', categories: [],
+  });
+
+  assert.equal(classifyCluster([
+    item('arstechnica', 'tech', 'Measles killed 6-week-old baby, coroner confirms',
+      'The infant died after contracting measles, the coroner said.'),
+    item('independent', null, 'Coroner confirms measles death of baby',
+      'The six-week-old died after contracting the virus.'),
+  ]), DEFAULT_TOPIC, 'one tech desk of two outlets is not a tech story');
+
+  assert.equal(classifyCluster([
+    item('aljazeera', null, 'Netanyahu says Qatar is a hostile state',
+      'The prime minister criticised Doha over its role in negotiations.'),
+    item('nytimes', 'tech', 'Netanyahu calls Qatar hostile',
+      'The Israeli leader escalated his criticism of Doha.'),
+  ]), DEFAULT_TOPIC, 'one tech feed of two outlets is not a tech story');
+});
+
+test('a story only specialist desks carried needs no second opinion', () => {
+  // The floor is on corroboration, not outlet count: with no general outlet
+  // disagreeing there is no contrary evidence to weigh.
+  const item = (outlet, topicHint, title, description) => ({
+    outlet, topicHint, title, description, link: 'https://e.com/news/x', categories: [],
+  });
+  assert.equal(classifyCluster([
+    item('arstechnica', 'tech', 'Chip maker unveils processor', 'A smaller fabrication node.'),
+  ]), 'tech');
+  assert.equal(classifyCluster([
+    item('verge', 'tech', 'Chip maker unveils processor', 'New process node.'),
+    item('arstechnica', 'tech', 'Chipmaker reveals processor', 'A smaller node.'),
+  ]), 'tech');
+});
+
+test('a specialist slot requires more than the bare minimum corroboration', () => {
+  const entry = (topic, total, distinctSources) => ({ topic, score: { total, distinctSources } });
+  const ranked = [
+    entry('world', 30, 12), entry('world', 29, 11), entry('world', 28, 9), entry('world', 27, 8),
+    entry('world', 26, 7), entry('world', 25, 6), entry('world', 24, 5),
+    entry('tech', 12, 2),      // two outlets: too thin for a topic slot
+    entry('business', 11, 4),  // properly corroborated
+  ];
+  const chosen = selectByQuota(ranked, { quotas: { world: 4, tech: 2, business: 2, health: 2 }, limit: 8 });
+  const counts = {};
+  for (const c of chosen) counts[c.topic] = (counts[c.topic] ?? 0) + 1;
+  assert.equal(counts.business, 1, 'the four-outlet business story keeps its slot');
+  assert.ok(!counts.tech, 'the two-outlet tech story does not take a slot on merit of topic alone');
+  assert.equal(chosen.length, 8, 'freed slots go back to the general pool');
+});

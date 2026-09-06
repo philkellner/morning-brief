@@ -88,9 +88,19 @@ const KEYWORD_CAP = 4;
 // it is general news whatever words it happens to contain. Keywords still
 // score - they decide BETWEEN topics once provenance has established there is
 // a specialist claim to judge - but they can no longer make that claim alone.
-// Share of covering outlets that are topic desks for the story to count as
-// specialist. Half is decisive on its own; a third is enough once at least
-// three separate specialist desks have run it.
+// Share of covering outlets that must be topic desks for a story to count as
+// specialist - AND an absolute floor beneath it.
+//
+// The share alone was not enough. On a two-outlet cluster a single specialist
+// feed is a 50% share, which passed as "dominant" and produced a live brief
+// labelling a measles death TECH (Ars Technica was one of its two outlets) and
+// a Netanyahu story TECH.
+//
+// The floor is on corroboration, not on outlet count as such: a lone specialist
+// desk contradicted by a general outlet is one newsroom's filing decision, but a
+// story that ONLY specialist desks carried needs no second opinion - there is no
+// contrary evidence to weigh.
+const MIN_SPECIALIST_OUTLETS = 2;
 const DOMINANT_SHARE = 0.5;
 const PLURAL_OUTLETS = 3;
 const PLURAL_SHARE = 0.34;
@@ -168,6 +178,8 @@ export function classifyCluster(items) {
     const share = count / total;
     // Either the specialist desks dominate the coverage, or enough of them ran
     // it that a sizeable minority is still convincing.
+    const unanimous = count === total;
+    if (count < MIN_SPECIALIST_OUTLETS && !unanimous) continue;
     const qualifies = share >= DOMINANT_SHARE || (count >= PLURAL_OUTLETS && share >= PLURAL_SHARE);
     if (!qualifies) continue;
     // Keyword support breaks ties between topics, never creates a claim.
@@ -182,10 +194,15 @@ export function classifyCluster(items) {
  * from whatever ranked highest overall.
  *
  * Backfilling matters: on a quiet science day, padding the quota with a
- * single-source story would be worse than giving the slot to the fifth-best
- * world story. `minSources` is what stops that.
+ * thinly-covered story is worse than giving the slot to the fifth-best world
+ * story. `minSources` is what stops that, and it applies only to the specialist
+ * topics - the general pool is the fallback, not a quota to defend.
+ *
+ * A consequence worth stating: on a quiet weekend the brief leans back towards
+ * world news. That is the honest outcome. There was no tech story worth two
+ * outlets' attention, so there is no tech slot to fill.
  */
-export function selectByQuota(ranked, { quotas, limit, minSources = 2 }) {
+export function selectByQuota(ranked, { quotas, limit, minSources = 3 }) {
   const chosen = [];
   const taken = new Set();
 
