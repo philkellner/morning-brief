@@ -714,3 +714,29 @@ test('a specialist slot requires more than the bare minimum corroboration', () =
   assert.ok(!counts.tech, 'the two-outlet tech story does not take a slot on merit of topic alone');
   assert.equal(chosen.length, 8, 'freed slots go back to the general pool');
 });
+
+test('a single shared proper noun does not merge unrelated stories', () => {
+  // The 2026-09-06 brief fused four unrelated stories - a bus fatality, a
+  // grocery profile, a relocation listicle and a schools AI ban - because each
+  // said "NYC". That inflated the cluster to four outlets and, because two were
+  // business desks, labelled the result BUSINESS.
+  const clusters = clusterItems(fixture);
+  const clusterOf = (event) => clusters.findIndex((c) => c.items.some((i) => i.event === event));
+  const nyc = ['nyc_listicle', 'nyc_grocer', 'nyc_bus', 'nyc_schools'].map(clusterOf);
+  assert.equal(new Set(nyc).size, 4, 'the four NYC stories must stay separate');
+
+  // Sharing only "Canada" is likewise not enough.
+  assert.notEqual(clusterOf('tourism'), clusterOf('canada_tariff'));
+  assert.notEqual(clusterOf('tourism'), clusterOf('gander'));
+});
+
+test('two reports of one event still merge on their shared vocabulary', () => {
+  // The guard must not simply split everything: these two are the same story.
+  const clusters = clusterItems(fixture);
+  const tourism = clusters.find((c) => c.items.some((i) => i.event === 'tourism'));
+  assert.equal(tourism.items.length, 2, 'the tourism pair should be one cluster');
+  assert.deepEqual(
+    tourism.items.map((i) => i.sourceId).sort(),
+    ['independent', 'pbs'],
+  );
+});

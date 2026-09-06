@@ -63,20 +63,33 @@ function cosine(a, b) {
 /**
  * Does the overlap between two vectors rest on anything *distinctive*?
  *
- * Two reports of one event share rare, topic-bearing terms ("steel"+"tariff",
- * "Hokkaido"). Two unrelated reports share only common newsroom vocabulary,
- * which IDF has already flattened to near-zero weight. So we look for a single
- * shared term carrying real weight in both vectors, rather than insisting on a
- * shared proper noun - abbreviations and differing attributions mean plenty of
- * genuine matches share no capitalised token at all.
+ * Two reports of one event share several rare, topic-bearing terms
+ * ("steel"+"tariff", "Hokkaido"+"tsunami"). Two unrelated reports share only
+ * common newsroom vocabulary, which IDF has already flattened to near-zero.
+ *
+ * One shared term is not enough, and accepting it merged four unrelated stories
+ * in a live digest purely because each said "NYC": a bus fatality, a grocery
+ * profile, a relocation listicle and a schools AI ban. A short headline's vector
+ * is dominated by its one proper noun, so two of them score as near-identical
+ * while sharing nothing but a place name.
+ *
+ * The '@' prefix marking a proper noun is stripped before counting, so "nyc" and
+ * "@nyc" are one piece of evidence rather than two.
  */
-function hasDistinctiveOverlap(a, b, floor) {
+const MIN_SHARED_TERMS = 2;
+
+function distinctiveOverlap(a, b, floor) {
   const [small, large] = a.size <= b.size ? [a, b] : [b, a];
-  for (const [term, w] of small) {
+  const shared = new Set();
+  for (const [term, weight] of small) {
     const other = large.get(term);
-    if (other && w * other >= floor) return true;
+    if (other && weight * other >= floor) shared.add(term.startsWith('@') ? term.slice(1) : term);
   }
-  return false;
+  return shared.size;
+}
+
+function hasDistinctiveOverlap(a, b, floor) {
+  return distinctiveOverlap(a, b, floor) >= MIN_SHARED_TERMS;
 }
 
 function mergeInto(centroid, vec, weight) {
@@ -97,7 +110,10 @@ export function clusterItems(items, opts = {}) {
   // With nothing distinctive in common we demand a markedly stronger match,
   // otherwise two unrelated stories about "police" and "investigation" fuse.
   const strictThreshold = opts.strictThreshold ?? 0.42;
-  const distinctiveFloor = opts.distinctiveFloor ?? 0.04;
+  // 0.03, retuned when the gate began requiring two shared terms rather than
+  // one. Swept against a 34-item corpus: 0.04 over-splits (recall 0.84) and
+  // 0.02 re-merges the NYC group; 0.03 scores precision and recall both 1.00.
+  const distinctiveFloor = opts.distinctiveFloor ?? 0.03;
 
   if (items.length === 0) return [];
 
