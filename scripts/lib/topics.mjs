@@ -17,14 +17,29 @@ export const DEFAULT_TOPIC = 'world';
 
 export const TOPICS = {
   world: { label: 'World', short: 'WORLD' },
-  tech: { label: 'Tech & science', short: 'TECH' },
+  tech: { label: 'Technology & physical science', short: 'TECH' },
   business: { label: 'Business', short: 'BUSINESS' },
-  health: { label: 'Health & climate', short: 'HEALTH' },
+  health: { label: 'Health, life science & climate', short: 'HEALTH' },
 };
+
+// General-science desks - Nature, ScienceDaily, NPR Science - cover physics and
+// biomedicine alike, so a single topic tag misfiles half their output. Tagging
+// them 'science' grants provenance to tech AND health, and the vocabulary below
+// decides which. A cardiac paper goes to health, a galaxy to tech.
+const HINT_TOPICS = {
+  tech: ['tech'],
+  business: ['business'],
+  health: ['health'],
+  science: ['tech', 'health'],
+};
+
+// A /science/ section path is the same kind of ambiguous evidence as a
+// general-science feed, and is credited to both for the same reason.
+const SCIENCE_PATHS = /\/(scien\w*|research)\//i;
 
 const RULES = {
   tech: {
-    paths: /\/(tech\w*|scien\w*|space|gadget\w*|computing|ai)\//i,
+    paths: /\/(tech\w*|space|gadget\w*|computing|ai)\//i,
     categories: /^(tech|technology|science|space|computing|artificial intelligence|gadgets)$/i,
     keywords: [
       /\b(artificial intelligence|machine learning|neural network|deep learning)\b/i,
@@ -38,8 +53,10 @@ const RULES = {
       /\b(cybersecurity|data breach|ransomware|hacking group|malware)\b/i,
       /\b(quantum|robotics|autonomous vehicle|algorithm)\b/i,
       /\b(satellite|spacecraft|rocket launch|telescope|asteroid|orbit)\b/i,
-      /\b(researchers|scientists|study (?:found|suggests)|peer.reviewed|journal)\b/i,
-      /\b(genome|dna|species|fossil|archaeolog|palaeontolog|physics|astronom)\w*/i,
+      // "researchers"/"scientists" deliberately absent: every research story has
+      // them, so the pattern discriminated nothing while tilting all science tech-ward.
+      /\b(physics|astronom\w*|cosmolog\w*|particle|galaxy|galaxies|black hole)\b/i,
+      /\b(fossil|archaeolog\w*|palaeontolog\w*|dinosaur|geolog\w*)\b/i,
     ],
   },
   business: {
@@ -67,6 +84,14 @@ const RULES = {
       /\b(heatwave|wildfire|drought|flooding|hurricane|extreme weather)\b/i,
       /\b(renewable energy|solar power|wind farm|fossil fuels?|coal plant)\b/i,
       /\b(biodiversity|deforestation|pollution|conservation|ecosystem)\b/i,
+      // Life science and biomedicine: these were in the tech bucket, which sent
+      // "Scientists discover the human heart can regrow muscle" to TECH.
+      /\b(genome|genomic|dna|rna|gene|genetic|chromosome)\b/i,
+      /\b(cells?|stem cell|tissue|protein|enzyme|antibod\w*|immune|microbiome)\b/i,
+      /\b(heart|cardiac|cardiovascular|lung|liver|kidney|brain|neuron\w*|neural tissue)\b/i,
+      /\b(bacteria|bacterial|pathogen|antibiotic|antiviral|infection)\b/i,
+      /\b(surgery|surgical|transplant|therapy|treatment|diagnosis|symptom\w*)\b/i,
+      /\b(species|biolog\w*|evolution|ecolog\w*|organism)\b/i,
     ],
   },
 };
@@ -122,9 +147,13 @@ export function scoreItemTopics(item) {
     if (item.link) path = new URL(item.link).pathname;
   } catch { /* a malformed link simply contributes no path signal */ }
 
+  const hinted = HINT_TOPICS[item.topicHint] ?? [];
+  const scienceSection = Boolean(path) && SCIENCE_PATHS.test(path);
+
   for (const [topic, rule] of Object.entries(RULES)) {
     const entry = scores[topic];
-    if (item.topicHint === topic) entry.provenance += WEIGHT.feedHint;
+    if (hinted.includes(topic)) entry.provenance += WEIGHT.feedHint;
+    if (scienceSection && (topic === 'tech' || topic === 'health')) entry.provenance += WEIGHT.path;
     if (path && rule.paths.test(path)) entry.provenance += WEIGHT.path;
     if (item.categories?.some((c) => rule.categories.test(String(c).trim()))) entry.provenance += WEIGHT.category;
 

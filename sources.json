@@ -29,7 +29,11 @@
     "look like four independent confirmations of the same story.",
     "",
     "'topic' marks a topic-scoped feed and is the strongest classification signal.",
-    "Topic feeds were probed live on 2026-09-01; all 28 responded."
+    "Topic feeds were probed live on 2026-09-01; all 28 responded.",
+    "",
+    "topic 'science' marks a general-science desk that covers physics and biomedicine",
+    "alike. It grants provenance to both tech and health, and the vocabulary in",
+    "scripts/lib/topics.mjs decides which - a cardiac paper is health, a galaxy is tech."
   ],
   "sources": [
     {
@@ -381,7 +385,7 @@
       "name": "NPR Science",
       "lean": "center-left",
       "wire": true,
-      "topic": "tech",
+      "topic": "science",
       "url": "https://feeds.npr.org/1007/rss.xml"
     },
     {
@@ -408,7 +412,7 @@
       "name": "Economist Science",
       "lean": "center-right",
       "wire": false,
-      "topic": "tech",
+      "topic": "science",
       "url": "https://www.economist.com/science-and-technology/rss.xml"
     },
     {
@@ -417,7 +421,7 @@
       "name": "Fox Science",
       "lean": "right",
       "wire": false,
-      "topic": "tech",
+      "topic": "science",
       "url": "https://moxie.foxnews.com/google-publisher/science.xml"
     },
     {
@@ -435,7 +439,7 @@
       "name": "Nature",
       "lean": "center",
       "wire": true,
-      "topic": "tech",
+      "topic": "science",
       "url": "https://www.nature.com/nature.rss"
     },
     {
@@ -444,7 +448,7 @@
       "name": "ScienceDaily",
       "lean": "center",
       "wire": true,
-      "topic": "tech",
+      "topic": "science",
       "url": "https://www.sciencedaily.com/rss/top/science.xml"
     },
     {

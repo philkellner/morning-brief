@@ -814,3 +814,48 @@ test('a summary carrying a verdict loses to one that describes', () => {
   assert.ok(!/all the right things/.test(summary.text), `picked the verdict: ${summary.text}`);
   assert.equal(summary.sourceId, 'cnbc');
 });
+
+test('life science goes to health, physical science to tech', () => {
+  // "Scientists discover the human heart can regrow muscle" was labelled TECH.
+  // Nature, ScienceDaily and NPR Science cover physics and biomedicine alike, so
+  // tagging them 'tech' misfiled half their output by provenance alone.
+  const item = (outlet, title, description) => ({
+    outlet, topicHint: 'science', title, description,
+    link: 'https://e.com/news/x', categories: [],
+  });
+
+  assert.equal(classifyCluster([
+    item('sciencedaily', 'Scientists discover the human heart can regrow muscle after injury',
+      'Researchers found cardiac tissue regenerated in patients following treatment.'),
+    item('nature', 'Human heart shown to regenerate muscle cells',
+      'The study reports new cardiac cells forming in adult tissue.'),
+  ]), 'health', 'cardiac research belongs to health');
+
+  assert.equal(classifyCluster([
+    item('sciencedaily', 'Astronomers spot most distant galaxy yet observed',
+      'The telescope captured light from the early universe, physics teams said.'),
+    item('nature', 'Most distant galaxy confirmed by astronomers',
+      'Observations of the galaxy push back cosmology timelines.'),
+  ]), 'tech', 'astronomy belongs to tech');
+
+  assert.equal(classifyCluster([
+    item('npr_science', 'Gene therapy restores sight in trial',
+      'The treatment altered DNA in retinal cells of patients.'),
+    item('nature', 'Gene therapy trial restores vision',
+      'Genetic changes to cells improved patient outcomes.'),
+  ]), 'health', 'genetics belongs to health');
+});
+
+test('a general-science feed does not force a single topic', () => {
+  // The 'science' hint must grant provenance to both, so vocabulary decides.
+  const science = config.sources.filter((s) => s.topic === 'science').map((s) => s.id);
+  assert.ok(science.length >= 4, `expected general-science feeds to be tagged, found ${science.join(',')}`);
+  for (const id of ['nature', 'sciencedaily', 'npr_science']) {
+    assert.ok(science.includes(id), `${id} covers biomedicine as well as physics and should be 'science'`);
+  }
+  // Dedicated technology desks stay tech.
+  const tech = config.sources.filter((s) => s.topic === 'tech').map((s) => s.id);
+  for (const id of ['verge', 'bbc_tech', 'wsj_tech']) {
+    assert.ok(tech.includes(id), `${id} is a technology desk and should stay 'tech'`);
+  }
+});
