@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-12",
-  "generatedAt": "2026-09-12T08:21:56.112Z",
+  "generatedAt": "2026-09-12T14:07:21.612Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,215 +12,53 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 63,
-    "failed": []
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-09-12-1wqw1ci",
+      "id": "2026-09-12-o1m1l2",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Saudi Arabia shuts key oil pipeline as Houthis seize strategic Red Sea island",
-      "summary": "Houthi forces seize Yemen's Red Sea coast while Saudi Arabia suspends crucial oil pipeline following drone attack.",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-shuts-key-oil-pipeline-as-houthis-seize-strategic-red-sea-island/articleshow/134102085.cms",
-      "headlineSource": "Times of India",
+      "title": "Iranian president, Abu Dhabi crown prince meet on sidelines of Brics summit in India",
+      "summary": "India’s Prime Minister Narendra Modi has called for an overhaul of global governance.",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367318/iranian-president-abu-dhabi-crown-prince-meet-sidelines-brics-summit-india",
+      "headlineSource": "South China Morning Post",
       "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-12T08:09:09.000Z",
-      "sourceCount": 20,
+      "publishedAt": "2026-09-12T13:59:21.000Z",
+      "sourceCount": 13,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 11,
-      "score": 25.26,
+      "wireCount": 7,
+      "score": 23.36,
       "scoreComponents": {
-        "breadth": 13.18,
+        "breadth": 11.42,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.48,
-        "softPenalty": 0
+        "freshness": 2.49,
+        "softPenalty": -0.15
       },
       "coverage": [
         {
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Iran war live: Houthis control Red Sea coast, Saudi pipeline shut down",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/12/iran-war-live-houthis-control-red-sea-coast-saudi-pipeline-shut-down?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-          "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Iran-backed Houthis tighten grip on key oil shipping lane",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
-        },
-        {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
-          "lean": "center",
-          "title": "Why Saudi Arabia and the Houthis in Yemen are heading toward war",
-          "url": "https://www.csmonitor.com/World/Middle-East/2026/0910/yemen-houthis-saudi-iran-shipping-red-sea?icid=rss"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
-          "url": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Yemen: Houthis tighten control of strategic Red Sea towns",
-          "url": "https://www.dw.com/en/yemen-houthis-tighten-control-of-strategic-red-sea-towns/a-79220628?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Drones from Iraq attack and set pipeline on fire in Saudi Arabia",
-          "url": "https://www.euronews.com/2026/09/12/drones-from-iraq-attack-and-set-pipeline-on-fire-in-saudi-arabia"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Saudi Arabia tells Trump now is the time for military action as Iran-backed Houthis advance",
-          "url": "https://www.foxnews.com/world/saudi-arabia-tells-trump-time-military-action-iran-backed-houthis-advance"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
-          "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Strikes shut down key Saudi pipeline as Iran-backed Houthis tighten grip on crucial shipping lane",
-          "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Did Saudi Arabia Have 9/11 Role? Widow Calls Out Kingdom and US Presidents",
-          "url": "https://www.newsweek.com/did-saudi-arabia-have-9-11-role-widow-calls-out-us-presidents-12433431"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Yemen's Houthis capture a Red Sea island in threat to shipping",
-          "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
-          "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Saudi pipeline that bypasses Hormuz shut after attacks",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Nearly 50,000 Yemeni civilians flee as Houthis advance along Red Sea coast",
-          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Iran-US war latest: Crucial Saudi oil pipeline ‘on fire’ as Houthis capture island near key shipping route",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-houthis-red-sea-yemen-oil-b3048368.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
-          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
-          "url": "https://www.straitstimes.com/world/middle-east/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Saudi Arabia shuts key oil pipeline as Houthis seize strategic Red Sea island",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-shuts-key-oil-pipeline-as-houthis-seize-strategic-red-sea-island/articleshow/134102085.cms"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Saudi Arabia shutters key pipeline bypassing Strait of Hormuz following Houthi offensive",
-          "url": "https://www.washingtonexaminer.com/news/world/4724386/saudi-arabia-shutter-key-pipeline-bypass-hormuz-drone-attack-houthis-seize-dhubab/"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-09-12-ncquzr",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "BRICS leaders gather in India as wars and US tensions test unity",
-      "summary": "Tariffs and geopolitical rifts dominate discussions at a critical BRICS summit in India's capital.",
-      "url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran",
-      "headlineSource": "France 24",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-09-12T07:40:50.000Z",
-      "sourceCount": 12,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 7,
-      "score": 21.19,
-      "scoreComponents": {
-        "breadth": 11.1,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.43,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "BRICS summit opens in New Delhi amid wars, global tensions, tariffs",
-          "url": "https://www.aljazeera.com/news/2026/9/12/brics-summit-opens-in-new-delhi-amid-wars-global-tensions-tariffs?traffic_source=rss"
+          "title": "India’s Modi calls for empowerment of Global South at BRICS Summit",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/indias-modi-calls-for-empowerment-of-global-south-at-brics-summit?traffic_source=rss"
         },
         {
           "source": "Bloomberg",
           "sourceId": "bloomberg",
           "lean": "center",
-          "title": "Xi Jinping Arrives For BRICS Summit",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-12/xi-jinping-arrives-for-brics-summit-video"
+          "title": "BRICS 2026: Modi Seeks Bigger Role For Global South",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-12/brics-2026-modi-seeks-bigger-role-for-global-south-video"
         },
         {
           "source": "CNBC",
@@ -254,8 +92,8 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "BRICS leaders gather in India as wars and US tensions test unity",
-          "url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran"
+          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
+          "url": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc"
         },
         {
           "source": "NPR",
@@ -268,8 +106,15 @@
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "Internal splits threaten to slow Brics’ progress as bloc looks back on 20 years of growth",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3367252/internal-splits-threaten-slow-brics-progress-bloc-looks-back-20-years-growth"
+          "title": "Iranian president, Abu Dhabi crown prince meet on sidelines of Brics summit in India",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3367318/iranian-president-abu-dhabi-crown-prince-meet-sidelines-brics-summit-india"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Xi Jinping gets red carpet at Brics summit amid thaw in India-China relations",
+          "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations"
         },
         {
           "source": "The Independent",
@@ -282,40 +127,40 @@
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
-          "url": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html"
+          "title": "At BRICS Summit, China and India Vie for Influence",
+          "url": "https://www.nytimes.com/2026/09/11/world/asia/china-india-brics-summit.html"
         },
         {
           "source": "Times of India",
           "sourceId": "toi",
           "lean": "center",
-          "title": "China Southern to resume Guangzhou-Delhi flights ahead of Xi's India visit",
-          "url": "https://timesofindia.indiatimes.com/india/china-southern-to-resume-guangzhou-delhi-flights-after-6-years-ahead-of-xis-brics-visit/articleshow/134106521.cms"
+          "title": "Tamil link at Brics: PM Modi greets leaders before Rameswaram backdrop",
+          "url": "https://timesofindia.indiatimes.com/india/tamil-link-at-brics-pm-modi-greets-leaders-before-rameswaram-backdrop-xi-stops-for-a-closer-look/articleshow/134130896.cms"
         }
       ]
     },
     {
-      "rank": 3,
-      "id": "2026-09-12-di9b6q",
+      "rank": 2,
+      "id": "2026-09-12-fksfmg",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Trump, Hegseth tie Iran war into 9/11 speeches",
-      "summary": "He defied almost all his advisors, including Vice President J.D. Vance, and has done all the right things on the Iran War.",
-      "url": "https://thehill.com/newsletters/defense-national-security/6085685-trump-hegseth-tie-iran-war-into-9-11-speeches/",
-      "headlineSource": "The Hill",
-      "summarySource": "Reason",
-      "publishedAt": "2026-09-12T00:43:00.000Z",
-      "sourceCount": 9,
+      "title": "Trump says he would 'love' to see a united Ireland",
+      "summary": "Trump is holding meetings in Dublin before attending the Irish Open golf tournament in Doonbeg, County Clare.",
+      "url": "https://www.straitstimes.com/world/europe/trump-says-he-would-love-to-see-a-united-ireland",
+      "headlineSource": "The Straits Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-12T13:56:20.000Z",
+      "sourceCount": 10,
       "leanCount": 4,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 20.08,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 22.46,
       "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 5.85,
-        "wire": 2.4,
-        "freshness": 1.86,
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
         "softPenalty": 0
       },
       "coverage": [
@@ -323,8 +168,396 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "'Never, ever forget' - America marks 25th anniversary of 9/11 attacks",
-          "url": "https://www.bbc.co.uk/news/articles/clyjqvjzlwno"
+          "title": "A united Ireland would be 'fantastic' says Trump during Irish visit",
+          "url": "https://www.bbc.co.uk/news/articles/cy0zvx15rywo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump says he would \"love\" a unified Ireland as he kicks off visit",
+          "url": "https://www.cbsnews.com/news/trump-ireland-dublin-visit-irish-open-golf/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump visits Ireland, says unification would be 'fantastic'",
+          "url": "https://www.dw.com/en/trump-visits-ireland-says-unification-would-be-fantastic/a-79244685?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump will meet with Ireland's leaders before heading to his golf club in Doonbeg",
+          "url": "https://www.france24.com/en/video/20260912-trump-will-meet-with-ireland-s-leaders-before-heading-to-his-golf-club-in-doonbeg"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump optimistic about wrapping up Iran war, claims things will turn out ‘fine and dandy’ during meeting with Ireland PM",
+          "url": "https://nypost.com/2026/09/12/us-news/trump-optimistic-about-wrapping-up-iran-war-claims-things-will-turn-out-fine-and-dandy-during-meeting-with-ireland-pm/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump meets Ireland's leaders before heading to his golf club in Doonbeg",
+          "url": "https://www.npr.org/2026/09/12/g-s1-143076/trump-meets-irelands-leaders"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Trump says he would ‘love’ to see unified Ireland and ‘it may as well happen now’ as he visits Dublin – live",
+          "url": "https://www.theguardian.com/us-news/live/2026/sep/12/donald-trump-ireland-golf-catherine-connolly-us-politics-latest-news-updates"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump says a unified Ireland is 'going to happen eventually'",
+          "url": "https://thehill.com/homenews/administration/6085955-trump-ireland-reunification-comments/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump Ireland visit latest: US president says he’d ‘love to see’ a united Ireland while in Dublin",
+          "url": "https://www.independent.co.uk/news/world/europe/donald-trump-ireland-visit-united-dublin-golf-irish-open-b3049064.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump says he would 'love' to see a united Ireland",
+          "url": "https://www.straitstimes.com/world/europe/trump-says-he-would-love-to-see-a-united-ireland"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-09-12-739h7h",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
+      "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+      "url": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-12T13:16:18.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 20.27,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
+          "url": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+          "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+          "url": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Iran war: Saudi-Houthi escalation intensifies Yemen conflict",
+          "url": "https://www.dw.com/en/iran-war-saudi-houthi-escalation-intensifies-yemen-conflict/a-79226627?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Iran-backed Houthis take control of Red Sea coastline in Yemen",
+          "url": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Yemen's Houthis capture a Red Sea island in threat to shipping",
+          "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
+          "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nearly 50,000 Yemeni civilians flee as Houthis advance along Red Sea coast",
+          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Proxy fight in Yemen heats up, risking new front in US-Iran war",
+          "url": "https://thehill.com/policy/defense/6085660-houthis-takeover-port-saudi-gas-pipeline/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Yemen government forces hit Houthis in strategic Red Sea city",
+          "url": "https://www.straitstimes.com/world/middle-east/yemen-government-forces-hit-houthis-in-strategic-red-sea-city"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-09-12-1iypn06",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Strikes shut down key Saudi pipeline as Iran-backed Houthis tighten grip on crucial shipping lane",
+      "summary": "Yemen's Iran-aligned Houthi rebels captured the strategic Perim Island in the Bab el-Mandeb Strait, located at the southern entrance to the Red Sea, officials said on Friday. The lightning move opens a new front in the Iran war and threatens energy supplies…",
+      "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186",
+      "headlineSource": "NBC News",
+      "summarySource": "France 24",
+      "publishedAt": "2026-09-12T13:49:11.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 20.09,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Iran-backed Houthis seize strategic Mayun Island: Can they hold it?",
+          "url": "https://www.aljazeera.com/news/2026/9/12/iran-backed-houthis-seize-strategic-mayun-island-can-they-hold-it?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran-backed Houthis tighten grip on key oil shipping lane",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Houthis seize key Yemeni island in Bab el-Mandeb, taking control of the strait",
+          "url": "https://www.euronews.com/2026/09/12/houthis-seize-yemeni-island-in-bab-el-mandeb-taking-control-of-the-strait"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Saudi Arabia tells Trump now is the time for military action as Iran-backed Houthis advance",
+          "url": "https://www.foxnews.com/world/saudi-arabia-tells-trump-time-military-action-iran-backed-houthis-advance"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
+          "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Strikes shut down key Saudi pipeline as Iran-backed Houthis tighten grip on crucial shipping lane",
+          "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Iran-US war latest: Crucial Saudi oil pipeline ‘on fire’ as Houthis capture island near key shipping route",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-houthis-red-sea-yemen-oil-b3048368.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Pakistan faces pressure to pick a side as Saudi tensions with Houthis escalate",
+          "url": "https://www.japantimes.co.jp/news/2026/09/12/asia-pacific/politics/pakistan-pressure-choose-side/"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump says Houthis ‘don’t want to fight us’ after strait offensive and Saudi pipeline shutdown",
+          "url": "https://www.washingtonexaminer.com/news/world/4724791/trump-houthi-dont-want-fight/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-09-12-1disc04",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+      "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
+      "url": "https://www.bbc.co.uk/news/articles/c62m933465eo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-12T14:00:39.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.97,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump: Iran probably ‘behind’ Saudi oil pipeline attack",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/trump-iran-probably-behind-saudi-oil-pipeline-attack?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+          "url": "https://www.bbc.co.uk/news/articles/c62m933465eo"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Oil Supply Risks Rise After Saudi Pipeline Attack",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-12/oil-supply-risks-rise-after-saudi-pipeline-attack-video"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq",
+          "url": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Drones from Iraq attack and set pipeline on fire in Saudi Arabia",
+          "url": "https://www.euronews.com/2026/09/12/drones-from-iraq-attack-and-set-pipeline-on-fire-in-saudi-arabia"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Houthis seize key sites around Bab el-Mandeb as Saudi oil exports face disruption",
+          "url": "https://www.france24.com/en/video/20260912-houthis-seize-key-sites-around-bab-el-mandeb-as-saudi-oil-exports-face-disruption"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Saudi shutdown of key pipeline limits oil flow as Yemen hits back against Houthis",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline",
+          "url": "https://www.nytimes.com/2026/09/11/business/iran-war-hormuz-red-sea.html"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Saudi Arabia shuts down key oil pipeline, blaming drones from Iraq",
+          "url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump says Iran probably responsible for attack on Saudi pipeline",
+          "url": "https://www.straitstimes.com/world/europe/trump-says-iran-probably-responsible-for-attack-on-saudi-pipeline"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-09-12-zei8v3",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "War, sanctions and inflation leave Iran short of hundreds of medicines",
+      "summary": "Tehran appears to be boosting pressure on Washington ahead of the crucial midterm vote, but shows little desire to return to a full-scale war.",
+      "url": "https://www.euronews.com/2026/09/11/war-sanctions-and-inflation-leave-iran-short-of-hundreds-of-medicines",
+      "headlineSource": "Euronews",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-09-12T12:15:50.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 17.6,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Trump Signals US Wants Distance From Iran War",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-12/trump-signals-us-wants-distance-from-iran-war-video"
         },
         {
           "source": "CBS News",
@@ -334,11 +567,11 @@
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/"
         },
         {
-          "source": "CNBC",
-          "sourceId": "cnbc",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
           "lean": "center",
-          "title": "Trump says he has no regrets about starting the Iran war as U.S. dials up economic pressure",
-          "url": "https://www.cnbc.com/2026/09/11/us-iran-war-trump-hormuz-banks-oil-sanctions.html"
+          "title": "Iran pursues cautious escalation ahead of US midterms",
+          "url": "https://www.dw.com/en/iran-pursues-cautious-escalation-ahead-of-us-midterms/a-79237061?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Euronews",
@@ -348,278 +581,43 @@
           "url": "https://www.euronews.com/2026/09/11/war-sanctions-and-inflation-leave-iran-short-of-hundreds-of-medicines"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Trump delivers remarks at Pentagon ceremony to mark 25th anniversary of 9/11",
-          "url": "https://www.france24.com/en/video/20260911-trump-delivers-remarks-at-pentagon-ceremony-to-mark-25th-anniversary-of-9-11"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "President Trump Is Bold, Brave, and Right on the Iran War",
-          "url": "https://reason.com/volokh/2026/09/11/president-trump-is-bold-brave-and-right-on-the-iran-war/"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Trump and Hegseth use 9/11 memorial remarks at Pentagon to defend war on Iran",
-          "url": "https://www.theguardian.com/us-news/2026/sep/11/trump-hegseth-911-memorial"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Trump, Hegseth tie Iran war into 9/11 speeches",
-          "url": "https://thehill.com/newsletters/defense-national-security/6085685-trump-hegseth-tie-iran-war-into-9-11-speeches/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "A New York jeweler has been released from prison in Iran but is banned from leaving war-torn country",
-          "url": "https://www.independent.co.uk/news/world/americas/iran-new-york-state-department-american-tehran-b3048902.html"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-09-12-1xcr48",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump remains focus of GOP's midterm campaign as convention wraps",
-      "summary": "Trump urged voters to \"pretend that I'm on the ballot\" during the two-day gathering in Texas.",
-      "url": "https://www.pbs.org/newshour/show/trump-remains-focus-of-gops-midterm-campaign-as-convention-wraps",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-09-12T06:17:00.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 5,
-      "score": 18.38,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.31,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Has Trump won over voters with his midterm convention?",
-          "url": "https://www.bbc.co.uk/news/videos/cn9w5e7wl9ro"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Tributes paid to 9/11 victims at Republican midterm convention in Dallas",
-          "url": "https://www.euronews.com/2026/09/11/tributes-paid-to-911-victims-at-republican-midterm-convention-in-dallas"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Remembering 9/11. And, Vance, Trump urge voters to back Republicans in the midterms",
-          "url": "https://www.npr.org/2026/09/11/g-s1-142846/up-first-newsletter-september-11-remembrance-republican-midterm-convention-scotus-missouri-redistricting"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Trump remains focus of GOP's midterm campaign as convention wraps",
-          "url": "https://www.pbs.org/newshour/show/trump-remains-focus-of-gops-midterm-campaign-as-convention-wraps"
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Chinese entities gave Iran satellite images of air base before missile strike killed 3 US service members in Jordan: report",
+          "url": "https://nypost.com/2026/09/11/us-news/chinese-entities-provided-iran-with-satellite-images-of-air-base-in-jordan-before-deadly-missile-strike-report/"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "At Dallas convention, some loyalists question Trump-centric midterms strategy",
-          "url": "https://www.japantimes.co.jp/news/2026/09/12/world/politics/trump-loyalists-midterm-strategy/"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "‘Trump dividend’ checks meet mounting GOP resistance",
-          "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4724395/trump-dividend-checks-meet-mounting-gop-resistance/"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-09-11-33s4sa",
-      "topic": "tech",
-      "topicLabel": "Tech & science",
-      "topicShort": "TECH",
-      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-      "summary": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
-      "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o",
-      "headlineSource": "BBC Technology",
-      "summarySource": "BBC Technology",
-      "publishedAt": "2026-09-11T23:01:35.000Z",
-      "sourceCount": 6,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 17.37,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 6.4,
-        "wire": 0.8,
-        "freshness": 1.74,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
-          "lean": "center",
-          "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "An ex-OpenAI researcher's influential nonprofit is now smack in the middle of AI's doom debate",
-          "url": "https://www.businessinsider.com/metr-beth-barnes-ai-talent-shortage-safety-research-openai-2026-8"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "AI regulation calls grow in DC after researcher's extinction warning",
-          "url": "https://www.cnbc.com/2026/09/11/ai-regulation-anthropic-researcher-extinction-warning.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Anthropic says it blocked possible efforts to use AI for biological weapons development, Iran-linked cases",
-          "url": "https://www.foxbusiness.com/technology/anthropic-says-blocked-possible-efforts-use-ai-biological-weapons-development-iran-linked-cases"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "More Anthropic researchers warn of AI’s perils but Musk dismisses ‘psyop’",
-          "url": "https://www.theguardian.com/technology/2026/sep/10/anthropic-researchers-warn-ai-musk"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
-          "url": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-09-12-1mcis6u",
-      "topic": "health",
-      "topicLabel": "Health & climate",
-      "topicShort": "HEALTH",
-      "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
-      "summary": "Food and Drug Administration officials said they are confident that all recalled iceberg lettuce related to this specific outbreak is off the market.",
-      "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-09-12T02:02:16.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 17.01,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 4.45,
-        "wire": 1.6,
-        "freshness": 1.96,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Record U.S. cyclosporiasis outbreak is over, CDC says",
-          "url": "https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html"
-        },
-        {
-          "source": "NYT Health",
-          "sourceId": "nyt_health",
-          "lean": "center-left",
-          "title": "U.S. Officials Announce Cyclospora Outbreak Is Over",
-          "url": "https://www.nytimes.com/2026/09/10/well/cyclospora-outbreak-over-fda.html"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
-          "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "US declares end to lettuce parasite outbreak that killed 2",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367272/us-declares-end-lettuce-parasite-outbreak-killed-2"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
-          "lean": "center",
-          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
-          "url": "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "CDC declares cyclospora outbreak over",
-          "url": "https://thehill.com/newsletters/healthcare/6085623-cdc-declares-cyclospora-outbreak-over/"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "CDC declares record-breaking cyclosporiasis outbreak over after almost 13,000 cases",
-          "url": "https://www.washingtonexaminer.com/policy/healthcare/4724340/cdc-cyclosporiasis-outbreak-over/"
+          "title": "How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran",
+          "url": "https://www.japantimes.co.jp/business/2026/09/12/china-iran-secret-trade-mechanism/"
         }
       ]
     },
     {
       "rank": 7,
-      "id": "2026-09-12-1fl4q7e",
+      "id": "2026-09-12-csujy6",
       "topic": "business",
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
-      "title": "Stubborn inflation raises prospect of Fed rate hike",
+      "title": "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
       "summary": "In our news wrap Friday, the Labor Department reported that consumer prices rose 3.4% in August when compared to last year, the inflation report is fueling speculation that the Fed will raise interest rates, U.S. health officials declared an end to the…",
-      "url": "https://thehill.com/newsletters/business-economy/6085552-stubborn-inflation-fed-rate-hike/",
-      "headlineSource": "The Hill",
+      "url": "https://www.nytimes.com/2026/09/11/business/economy/inflation-cpi-august.html",
+      "headlineSource": "NYT Business",
       "summarySource": "PBS NewsHour",
       "publishedAt": "2026-09-12T01:25:46.000Z",
-      "sourceCount": 7,
+      "sourceCount": 5,
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 1,
-      "score": 16.16,
+      "score": 14.54,
       "scoreComponents": {
-        "breadth": 9,
+        "breadth": 7.75,
         "diversity": 4.45,
         "wire": 0.8,
-        "freshness": 1.91,
+        "freshness": 1.53,
         "softPenalty": 0
       },
       "coverage": [
@@ -657,178 +655,150 @@
           "lean": "center-left",
           "title": "News Wrap: August inflation report shows consumer prices up 3.4%",
           "url": "https://www.pbs.org/newshour/show/news-wrap-august-inflation-report-shows-consumer-prices-up-3-4"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Stubborn inflation raises prospect of Fed rate hike",
-          "url": "https://thehill.com/newsletters/business-economy/6085552-stubborn-inflation-fed-rate-hike/"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Inflation and the midterm elections",
-          "url": "https://www.washingtonexaminer.com/daily-memo/4724561/inflation-and-the-midterm-elections/"
         }
       ]
     },
     {
       "rank": 8,
-      "id": "2026-09-12-txxbm7",
+      "id": "2026-09-11-1ftic0r",
       "topic": "tech",
       "topicLabel": "Tech & science",
       "topicShort": "TECH",
-      "title": "How the New iPhone Duo’s Glass Screen Bends Without Breaking",
-      "summary": "The screens of foldable phones are a triumph of materials science and microengineering.",
-      "url": "https://www.nytimes.com/2026/09/10/science/iphone-duo-apple-foldable-glass.html",
-      "headlineSource": "NYT Technology",
-      "summarySource": "NYT Technology",
-      "publishedAt": "2026-09-12T06:17:10.000Z",
-      "sourceCount": 5,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 13.61,
+      "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
+      "summary": "Stephen Aarons said he tried to use ChatGPT to create a ‘bulletproof summary’ during a murder conviction appeal A defense lawyer appealing his client’s murder conviction submitted a legal brief containing ⁠made-up police testimony and ⁠witnesses fabricated by…",
+      "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
+      "headlineSource": "Ars Technica",
+      "summarySource": "Guardian Tech",
+      "publishedAt": "2026-09-11T20:44:02.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 11.18,
       "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 2.31,
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0,
+        "freshness": 1.28,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Apple's new CEO was asked about 'pervert glasses.' Here was his response.",
-          "url": "https://www.businessinsider.com/apple-ceo-ai-glasses-watch-privacy-concerns-meta-2026-9"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "How the New iPhone Duo’s Glass Screen Bends Without Breaking",
-          "url": "https://www.nytimes.com/2026/09/10/science/iphone-duo-apple-foldable-glass.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
           "lean": "center",
-          "title": "Apple’s foldable iPhone poses a $1,999 question: Who is it for?",
-          "url": "https://www.japantimes.co.jp/business/2026/09/12/tech/iphone-wealthy-tech-enthusiasts/"
+          "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
+          "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "New Mexico lawyer fined for using AI-generated brief containing fabricated testimony",
+          "url": "https://www.theguardian.com/technology/2026/sep/11/new-mexico-lawyer-ai-chatgpt-testimony"
         },
         {
           "source": "The Verge",
           "sourceId": "verge",
           "lean": "center-left",
-          "title": "Where to preorder the Apple AirPods 5",
-          "url": "https://www.theverge.com/?p=993637"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "In 1978, Apple was destroying its first computers; Jobs sent a letter to an engineer",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/in-1978-apple-was-destroying-its-first-computers-steve-jobs-sent-a-letter-to-an-engineer-with-400-asking-to-return-the-machine-he-declined-50-years-later-it-may-get-800000-in-auction/articleshow/134112633.cms"
+          "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+          "url": "https://www.theverge.com/?p=994207"
         }
       ]
     },
     {
       "rank": 9,
-      "id": "2026-09-11-1rq5o8j",
-      "topic": "health",
-      "topicLabel": "Health & climate",
-      "topicShort": "HEALTH",
-      "title": "9/11 firefighter's son spends months bringing steel from World Trade Center across US",
-      "summary": "A 9/11 survivor's son reveals the grief techniques that transformed his mental health 25 years after losing his father at the World Trade Center on Sept. 11, 2001.",
-      "url": "https://abcnews.com/US/steel-embodies-soul-911-family-takes-world-trade/story?id=135353595",
-      "headlineSource": "ABC News",
-      "summarySource": "Fox Health",
-      "publishedAt": "2026-09-11T21:29:58.000Z",
+      "id": "2026-09-11-o98u81",
+      "topic": "tech",
+      "topicLabel": "Tech & science",
+      "topicShort": "TECH",
+      "title": "Scientists discover the human heart can regrow muscle after a heart attack",
+      "summary": "Researchers have shown for the first time that human heart muscle cells can regrow after a heart attack. The finding overturns the idea that damaged areas of the heart are completely incapable of regeneration.",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909231754.htm",
+      "headlineSource": "ScienceDaily",
+      "summarySource": "ScienceDaily",
+      "publishedAt": "2026-09-11T21:25:25.000Z",
       "sourceCount": 3,
       "leanCount": 2,
-      "leanSpread": 0.75,
-      "wireCount": 0,
-      "score": 10.7,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 10.86,
       "scoreComponents": {
         "breadth": 6,
-        "diversity": 3.05,
-        "wire": 0,
-        "freshness": 1.65,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 1.31,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "ABC News",
-          "sourceId": "abc",
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Scientists unlock secrets of ancient Egyptian materials with proteomics",
+          "url": "https://arstechnica.com/science/2026/09/scientists-unlock-secrets-of-ancient-egyptian-materials-with-proteomics/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
           "lean": "center-left",
-          "title": "9/11 firefighter's son spends months bringing steel from World Trade Center across US",
-          "url": "https://abcnews.com/US/steel-embodies-soul-911-family-takes-world-trade/story?id=135353595"
+          "title": "Chesapeake blue crabs had an unusual rebound after years of decline. Scientists don't know why",
+          "url": "https://www.pbs.org/newshour/science/chesapeake-blue-crabs-had-an-unusual-rebound-after-years-of-decline-scientists-dont-know-why"
         },
         {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "Decades after 9/11, toxic dust and PTSD may be accelerating brain aging of first responders",
-          "url": "https://www.dailymail.com/health/article-16123817/911-responders-ptsd-brain-aging.html"
-        },
-        {
-          "source": "Fox Health",
-          "sourceId": "fox_health",
-          "lean": "right",
-          "title": "Son who lost father in 9/11 attacks shares powerful lessons 25 years later: ‘I’m still here’",
-          "url": "https://www.foxnews.com/health/son-lost-father-9-11-attacks-shares-powerful-lessons-25-years-later-still-here"
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "lean": "center",
+          "title": "Scientists discover the human heart can regrow muscle after a heart attack",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909231754.htm"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-09-11-1smwwvm",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "AARP Projects 2027 Social Security COLA at 3.6%",
-      "summary": "A higher COLA is a sign that persistent inflation isn’t going anywhere.",
-      "url": "https://www.nytimes.com/2026/09/11/business/economy/social-security-cola.html",
-      "headlineSource": "NYT Business",
-      "summarySource": "MarketWatch",
-      "publishedAt": "2026-09-11T20:08:00.000Z",
+      "id": "2026-09-11-1mcis6u",
+      "topic": "health",
+      "topicLabel": "Health & climate",
+      "topicShort": "HEALTH",
+      "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
+      "summary": "Food and Drug Administration officials said they are confident that all recalled iceberg lettuce related to this specific outbreak is off the market.",
+      "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-09-11T20:10:41.000Z",
       "sourceCount": 3,
       "leanCount": 2,
       "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 9.51,
+      "wireCount": 1,
+      "score": 10,
       "scoreComponents": {
         "breadth": 6,
         "diversity": 1.95,
-        "wire": 0,
-        "freshness": 1.56,
+        "wire": 0.8,
+        "freshness": 1.25,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Social Security COLA for 2027 may be 3.5% to 3.6%, new estimates show — the highest in 3 years",
-          "url": "https://www.cnbc.com/2026/09/11/social-security-cola-2027-estimate.html"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "Your Social Security COLA could go up another $71 a month in 2027. That’s not necessarily good news.",
-          "url": "https://www.marketwatch.com/story/your-social-security-check-could-go-up-another-71-next-year-thats-not-necessarily-good-news-f952c08a?mod=mw_rss_topstories"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
           "lean": "center-left",
-          "title": "AARP Projects 2027 Social Security COLA at 3.6%",
-          "url": "https://www.nytimes.com/2026/09/11/business/economy/social-security-cola.html"
+          "title": "U.S. Officials Announce Cyclospora Outbreak Is Over",
+          "url": "https://www.nytimes.com/2026/09/10/well/cyclospora-outbreak-over-fda.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
+          "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
+          "url": "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/"
         }
       ]
     }
