@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener } from './lib/text.mjs';
 import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
 import { classifyCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
+import { looksLikeOpinion, opinionScore, OPINION_PATHS } from './lib/opinion.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { sensationalism, pickHeadline, pickSummary, coreTerms, representativeness, leanSpread, buildStories } from './lib/rank.mjs';
@@ -752,4 +753,64 @@ test('sentence splitting survives abbreviations and decimals', () => {
 
   // Real sentence boundaries must still work.
   assert.equal(firstSentences('First one here. Second follows. Third too.', 2, 260), 'First one here. Second follows.');
+});
+
+// --- opinion -----------------------------------------------------------------
+
+test('commentary is detected by verdict and prescription, not by sensationalism', () => {
+  // The live case: a brief summarised a nine-outlet story from
+  // reason.com/volokh/.../president-trump-is-bold-brave-and-right-on-the-iran-war.
+  // The section filter missed it because "/volokh/" says neither opinion nor
+  // blog, and the sensationalism scorer rated it low because praise is not
+  // sensational - it has no "slams" or "blasts" in it at all.
+  assert.ok(looksLikeOpinion('President Trump Is Bold, Brave, and Right on the Iran War'));
+  assert.ok(looksLikeOpinion('Why Congress should reject the spending bill'));
+  assert.ok(looksLikeOpinion('We must stop pretending the deal will work'));
+  assert.ok(looksLikeOpinion('The case for leaving the treaty'));
+
+  // Sensationalism would not have caught the live one.
+  assert.equal(sensationalism('President Trump Is Bold, Brave, and Right on the Iran War'), 0,
+    'this is the gap: the framing scorer sees nothing wrong with it');
+});
+
+test('reporting is not mistaken for commentary', () => {
+  // Every headline from the same live cluster, plus constructions that borrow
+  // opinion vocabulary innocently.
+  const reporting = [
+    "'Never, ever forget' - America marks 25th anniversary of 9/11",
+    'Trump says he has no regrets about starting the Iran war as US strikes tankers',
+    'Trump and Hegseth use 9/11 memorial remarks at Pentagon to defend Iran war',
+    'Iran strikes U.S. jets after Trump promises war to end after months',
+    'Trump, Hegseth tie Iran war into 9/11 speeches',
+    'War, sanctions and inflation leave Iran short of hundreds of millions',
+    'German rocket reaches space as Europe enters satellite launch race',
+    'Man charged with reckless driving after crash',
+    'Court rules company must pay damages',
+  ];
+  for (const title of reporting) {
+    assert.ok(!looksLikeOpinion(title), `wrongly excluded as opinion: ${title}`);
+  }
+  // A single judgement adjective must never be enough on its own.
+  assert.ok(opinionScore('Man charged with reckless driving') < 2);
+});
+
+test('commentary paths are excluded even when they never say "opinion"', () => {
+  for (const path of ['/volokh/2026/09/11/x', '/opinion/x', '/commentary/x', '/column/x', '/op-ed/x', '/blogs/x']) {
+    assert.ok(OPINION_PATHS.test(path), `should be excluded: ${path}`);
+  }
+  for (const path of ['/news/world/x', '/business/markets/x', '/technology/x', '/health/x']) {
+    assert.ok(!OPINION_PATHS.test(path), `should survive: ${path}`);
+  }
+});
+
+test('a summary carrying a verdict loses to one that describes', () => {
+  const cluster = [
+    { wire: false, sourceId: 'reason', title: 'Trump and the Iran war',
+      description: 'He defied almost all his advisors, including the Vice President, and has done all the right things on the Iran War.' },
+    { wire: true, sourceId: 'cnbc', title: 'Trump says he has no regrets over Iran war',
+      description: 'The president told reporters he had no regrets about the campaign as US forces struck tankers in the Strait of Hormuz.' },
+  ];
+  const summary = pickSummary(cluster, cluster[1]);
+  assert.ok(!/all the right things/.test(summary.text), `picked the verdict: ${summary.text}`);
+  assert.equal(summary.sourceId, 'cnbc');
 });

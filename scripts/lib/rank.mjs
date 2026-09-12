@@ -6,6 +6,7 @@
 
 import { cleanDescription, firstSentences, truncate, tokenize } from './text.mjs';
 import { classifyCluster, selectByQuota, TOPICS, DEFAULT_TOPIC } from './topics.mjs';
+import { opinionScore } from './opinion.mjs';
 
 /**
  * Slots per topic. World gets the largest share because it is the catch-all -
@@ -210,8 +211,14 @@ export function pickSummary(items, headlineItem) {
     for (const term of headlineTokens) if (tokens.has(term)) hits += 1;
     return hits / headlineTokens.size >= MIN_SUMMARY_OVERLAP;
   };
+  // Evaluative language in the summary is penalised as well as in the headline.
+  // A live brief summarised a nine-outlet story with "He defied almost all his
+  // advisors... and has done all the right things on the Iran War" - a verdict,
+  // not a description. Ingestion now drops that piece, but a summary carrying a
+  // verdict should lose to one that does not, whatever its source.
   const cost = (item, text) => (item.wire ? -2 : 0)
     + sensationalism(text) * 0.5
+    + opinionScore(text) * 1.5
     + (item === headlineItem ? 0.75 : 0)
     - REPRESENTATIVE_WEIGHT * representativeness(`${item.title} ${text}`, core);
 

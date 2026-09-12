@@ -27,6 +27,7 @@ What this does instead is **measure consensus and show you the evidence**:
 | Stories ranked by **how many distinct outlets** ran them | "Top" means broadly-reported, not editorially promoted |
 | Ranking rewards **spread across the spectrum** | A story only the left or only the right ran ranks below one everybody ran |
 | Headline picked as the **least sensational** phrasing among covering outlets | You get "Federal Reserve holds rates steady", not "Fed SLAMS critics" |
+| Commentary excluded by **verdict and prescription**, not just by section path | Keeps out "Trump Is Bold, Brave, and Right on the Iran War", which no framing filter would flag |
 | Wire desks preferred for headline and summary | Closest thing to plain declarative reporting |
 | Title + description only, tracking params stripped | No ads, no engagement furniture |
 | Every story shows its coverage list and lean spread | You can audit the ranking rather than trust it |

@@ -11,6 +11,7 @@ import { parseFeed } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { buildStories } from './lib/rank.mjs';
 import { stripHtml } from './lib/text.mjs';
+import { looksLikeOpinion, OPINION_PATHS } from './lib/opinion.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const USER_AGENT = 'morning-brief/1.0 (+https://github.com/philkellner/morning-brief)';
@@ -108,7 +109,12 @@ async function pooled(items, size, worker) {
 
 function isNewsworthy(item) {
   if (!item.title || item.title.length < 15) return false;
-  if (item.link && EXCLUDED_PATH.test(new URL(item.link).pathname)) return false;
+  const path = item.link ? new URL(item.link).pathname : '';
+  if (path && EXCLUDED_PATH.test(path)) return false;
+  // Commentary filed under a path that does not say so - a live brief summarised
+  // a story using reason.com/volokh/...-bold-brave-and-right-on-the-iran-war.
+  if (path && OPINION_PATHS.test(path)) return false;
+  if (looksLikeOpinion(item.title)) return false;
   if (EXCLUDED_TITLE.some((re) => re.test(item.title))) return false;
   if (item.categories?.some((c) => EXCLUDED_CATEGORY.test(c.trim()))) return false;
   return true;
