@@ -1,0 +1,708 @@
+{
+  "_comment": [
+    "Cases reported from real briefs. Every entry here was a story that reached a",
+    "notification wrong, or a counterpart that must keep working after the fix.",
+    "",
+    "Add one with:  npm run flag -- --id <slug> --expect topic=health <edition> <story-id>",
+    "Run them with: npm run eval",
+    "They also run as part of npm test, so a fix that breaks an older case fails CI.",
+    "",
+    "Verdicts: topic, clusters, excluded, kept, headlineNot, summaryNot, headlineIndex"
+  ],
+  "cases": [
+    {
+      "id": "volokh-opinion-summary",
+      "reported": "2026-09-12",
+      "note": "A law blog under /volokh/ supplied the summary of a 9-outlet story: 'has done all the right things on the Iran War'. Section filter missed the path; the framing scorer rated it 0 because praise is not sensational.",
+      "expect": {
+        "excluded": true
+      },
+      "items": [
+        {
+          "sourceId": "reason",
+          "outlet": "reason",
+          "title": "President Trump Is Bold, Brave, and Right on the Iran War",
+          "description": "He defied almost all his advisors, including Vice President J.D. Vance, and has done all the right things on the Iran War.",
+          "link": "https://reason.com/volokh/2026/09/11/president-trump-is-bold-brave-and-right-on-the-iran-war/",
+          "topicHint": null,
+          "lean": "center-right",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "reporting-not-opinion",
+      "reported": "2026-09-12",
+      "note": "Every other headline in that same cluster must survive the opinion filter.",
+      "expect": {
+        "kept": true
+      },
+      "items": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "title": "Trump says he has no regrets about starting the Iran war as US strikes tankers",
+          "description": "The president spoke to reporters at the Pentagon.",
+          "link": "https://www.cnbc.com/2026/09/11/us-iran-war.html",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "title": "'Never, ever forget' - America marks 25th anniversary of 9/11",
+          "description": "Ceremonies were held in New York and Washington.",
+          "link": "https://www.bbc.co.uk/news/articles/clyjqvjzlwno",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "title": "Trump and Hegseth use 9/11 memorial remarks at Pentagon to defend Iran war",
+          "description": "The pair addressed an audience of service members.",
+          "link": "https://www.theguardian.com/us-news/2026/sep/11/trump-hegseth-911-memorial",
+          "topicHint": null,
+          "lean": "left",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "cardiac-research-is-health",
+      "reported": "2026-09-12",
+      "note": "'Scientists discover the human heart can regrow muscle' was TECH. General-science feeds were tagged tech, so provenance misfiled biomedicine.",
+      "expect": {
+        "topic": "health"
+      },
+      "items": [
+        {
+          "sourceId": "sciencedaily",
+          "outlet": "sciencedaily",
+          "title": "Scientists discover the human heart can regrow muscle after injury",
+          "description": "Researchers found cardiac tissue regenerated in patients following treatment.",
+          "link": "https://www.sciencedaily.com/releases/2026/09/x.htm",
+          "topicHint": "science",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "title": "Human heart shown to regenerate muscle cells",
+          "description": "The study reports new cardiac cells forming in adult tissue.",
+          "link": "https://www.nature.com/articles/x",
+          "topicHint": "science",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "astronomy-is-tech",
+      "reported": "2026-09-12",
+      "note": "The counterpart: physical science must stay in tech when life science moves out.",
+      "expect": {
+        "topic": "tech"
+      },
+      "items": [
+        {
+          "sourceId": "sciencedaily",
+          "outlet": "sciencedaily",
+          "title": "Astronomers spot most distant galaxy yet observed",
+          "description": "The telescope captured light from the early universe, physics teams said.",
+          "link": "https://www.sciencedaily.com/releases/2026/09/y.htm",
+          "topicHint": "science",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "title": "Most distant galaxy confirmed by astronomers",
+          "description": "Observations of the galaxy push back cosmology timelines.",
+          "link": "https://www.nature.com/articles/y",
+          "topicHint": "science",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "nyc-single-shared-noun",
+      "reported": "2026-09-06",
+      "note": "Four unrelated stories merged on the word NYC, inflating a cluster to 4 outlets and labelling it BUSINESS. Three clusters expected, not four: the first-person listicle is now dropped outright as commentary, which the harness surfaced on its own.",
+      "expect": {
+        "clusters": 3
+      },
+      "items": [
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "title": "I left Austin for NYC 7 years ago. Here are 9 things I still miss",
+          "description": "A writer describes moving from Texas to New York City and what she misses most.",
+          "link": "https://www.businessinsider.com/x",
+          "topicHint": "business",
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "title": "Built from scratch by immigrant parents, this NYC grocery is thriving",
+          "description": "The family store in New York City has grown steadily over two decades of trading.",
+          "link": "https://www.foxbusiness.com/x",
+          "topicHint": "business",
+          "lean": "right",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "title": "NYC pedestrian, 58, crushed by MTA bus as unsuspecting driver left scene",
+          "description": "A 58-year-old man was killed by a hit-and-run MTA bus driver in New York City.",
+          "link": "https://nypost.com/2026/09/06/x/",
+          "topicHint": null,
+          "lean": "right",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "title": "AI largely to be banned in NYC elementary and middle schools",
+          "description": "New York City schools will restrict artificial intelligence tools in classrooms.",
+          "link": "https://www.straitstimes.com/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "nyc-listicle-is-commentary",
+      "reported": "2026-09-06",
+      "note": "A first-person relocation listicle was one of the four NYC items. Reporting does not open in first person; commentary does, so it is dropped before clustering ever sees it.",
+      "expect": {
+        "excluded": true
+      },
+      "items": [
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "title": "I left Austin for NYC 7 years ago. Here are 9 things I still miss",
+          "description": "A writer describes moving from Texas to New York City and what she misses most.",
+          "link": "https://www.businessinsider.com/x",
+          "topicHint": "business",
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "canada-pair-must-merge",
+      "reported": "2026-09-06",
+      "note": "Tightening the merge gate must not split genuine duplicates: these two are one story, while the tariff and Gander pieces are not.",
+      "expect": {
+        "clusters": 3
+      },
+      "items": [
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "title": "U.S. tourism groups want to win Canadian visitors back",
+          "description": "Tourism officials are courting Canadian travellers back after a bilateral rift.",
+          "link": "https://www.pbs.org/newshour/x",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": true,
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "title": "The US wants to win Canadian visitors back, but tourists are wary",
+          "description": "American destinations are trying to attract Canadian visitors back again.",
+          "link": "https://www.independent.co.uk/x",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "title": "Rep. Stevens Says Canadian Tariffs Are Squeezing Michigan Manufacturers",
+          "description": "Tariffs on Canadian goods are hurting manufacturers in Michigan, the congresswoman said.",
+          "link": "https://www.bloomberg.com/x",
+          "topicHint": "business",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "title": "Remembering 9/11: When Gander provided safe haven in a time of crisis",
+          "description": "The Canadian town sheltered stranded air passengers after the September attacks.",
+          "link": "https://www.cbsnews.com/x",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "lone-tech-desk-measles",
+      "reported": "2026-09-06",
+      "note": "A measles death was TECH because Ars Technica was one of its two outlets: 1-of-2 is a 50% share and passed as dominant.",
+      "expect": {
+        "topic": "world"
+      },
+      "items": [
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "title": "Measles killed 6-week-old baby, coroner confirms",
+          "description": "The infant died after contracting measles, the coroner said.",
+          "link": "https://arstechnica.com/x",
+          "topicHint": "tech",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "title": "Coroner confirms measles death of baby",
+          "description": "The six-week-old died after contracting the virus.",
+          "link": "https://www.independent.co.uk/y",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "lone-tech-desk-netanyahu",
+      "reported": "2026-09-06",
+      "note": "Same shape: one NYT feed touching a Netanyahu story made it TECH.",
+      "expect": {
+        "topic": "world"
+      },
+      "items": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "title": "Netanyahu says Qatar is a hostile state",
+          "description": "The prime minister criticised Doha over its role in negotiations.",
+          "link": "https://www.aljazeera.com/x",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "title": "Netanyahu calls Qatar hostile",
+          "description": "The Israeli leader escalated his criticism of Doha.",
+          "link": "https://www.nytimes.com/y",
+          "topicHint": "tech",
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "iran-mou-one-business-desk",
+      "reported": "2026-09-01",
+      "note": "One business desk among twelve general outlets made a diplomatic story BUSINESS.",
+      "expect": {
+        "topic": "world"
+      },
+      "items": [
+        {
+          "sourceId": "gen0",
+          "outlet": "gen0",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e0.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen1",
+          "outlet": "gen1",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e1.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen2",
+          "outlet": "gen2",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e2.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen3",
+          "outlet": "gen3",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e3.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen4",
+          "outlet": "gen4",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e4.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen5",
+          "outlet": "gen5",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e5.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen6",
+          "outlet": "gen6",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e6.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen7",
+          "outlet": "gen7",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e7.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen8",
+          "outlet": "gen8",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e8.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen9",
+          "outlet": "gen9",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e9.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "gen10",
+          "outlet": "gen10",
+          "title": "Iran urges US to honour commitments under MoU",
+          "description": "Tehran said the economy and sanctions relief were central to the agreement.",
+          "link": "https://e10.com/world/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "title": "Iran urges US to honour MoU commitments",
+          "description": "Sanctions relief and the economy were central.",
+          "link": "https://www.bloomberg.com/z",
+          "topicHint": "business",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "apple-succession-is-tech",
+      "reported": "2026-09-01",
+      "note": "The counterpart: specialist desks dominating the coverage should reclassify.",
+      "expect": {
+        "topic": "tech"
+      },
+      "items": [
+        {
+          "sourceId": "g0",
+          "outlet": "g0",
+          "title": "Apple names new chief executive",
+          "description": "The company confirmed the change in a statement to staff.",
+          "link": "https://g0.com/news/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "g1",
+          "outlet": "g1",
+          "title": "Apple names new chief executive",
+          "description": "The company confirmed the change in a statement to staff.",
+          "link": "https://g1.com/news/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "g2",
+          "outlet": "g2",
+          "title": "Apple names new chief executive",
+          "description": "The company confirmed the change in a statement to staff.",
+          "link": "https://g2.com/news/x",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "title": "Apple names Ternus as chief executive",
+          "description": "The company confirmed the succession plan.",
+          "link": "https://verge.com/technology/x",
+          "topicHint": "tech",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "title": "Apple names Ternus as chief executive",
+          "description": "The company confirmed the succession plan.",
+          "link": "https://arstechnica.com/technology/x",
+          "topicHint": "tech",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "title": "Apple names Ternus as chief executive",
+          "description": "The company confirmed the succession plan.",
+          "link": "https://bbc.com/technology/x",
+          "topicHint": "tech",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "title": "Apple names Ternus as chief executive",
+          "description": "The company confirmed the succession plan.",
+          "link": "https://nytimes.com/technology/x",
+          "topicHint": "tech",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "wsj",
+          "outlet": "wsj",
+          "title": "Apple names Ternus as chief executive",
+          "description": "The company confirmed the succession plan.",
+          "link": "https://wsj.com/technology/x",
+          "topicHint": "tech",
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "g20-uninformative-headline",
+      "reported": "2026-09-02",
+      "note": "A nine-outlet G20 trade story went out as 'China's corruption investigation procedures': no loaded words, no information, wire desk, so it scored perfectly.",
+      "expect": {
+        "headlineNot": "corruption investigation procedures"
+      },
+      "items": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "title": "China dissented from G20 statement opposing 'cheap exports' flooding markets",
+          "description": "Finance ministers agreed to address cheap exports; China dissented.",
+          "link": "https://www.cnbc.com/a",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "title": "G20 backs final statement despite Russia tensions, China dissent",
+          "description": "The G20 communique was backed by all but China.",
+          "link": "https://www.france24.com/a",
+          "topicHint": null,
+          "lean": "center",
+          "wire": true,
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "title": "At G20 Meeting, Scott Bessent Accuses China of Flooding the World With Cheap Goods",
+          "description": "The Treasury secretary accused China of flooding world markets with cheap goods.",
+          "link": "https://www.nytimes.com/a",
+          "topicHint": "business",
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "title": "China's corruption investigation procedures",
+          "description": "He said the US and China agree on the importance of keeping the Strait of Hormuz open.",
+          "link": "https://www.scmp.com/a",
+          "topicHint": null,
+          "lean": "center",
+          "wire": true,
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "title": "G20 finance chiefs - except China - back action on distorted trade",
+          "description": "Every delegation except China backed the trade statement.",
+          "link": "https://www.japantimes.co.jp/a",
+          "topicHint": null,
+          "lean": "center",
+          "wire": true,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "japan-gps-wrong-summary",
+      "reported": "2026-09-02",
+      "note": "Two unrelated Japan stories merged on 'japan'; the summary preference for a second outlet then chose the warships one.",
+      "expect": {
+        "clusters": 2,
+        "summaryNot": "warship",
+        "headlineIndex": 0
+      },
+      "items": [
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "title": "Japan developing GPS-based app to locate nationals overseas",
+          "description": "The app is expected to help verify the safety of Japanese citizens in an emergency.",
+          "link": "https://www.japantimes.co.jp/b",
+          "topicHint": null,
+          "lean": "center",
+          "wire": true,
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "title": "Japan to transfer ageing warships to Philippines",
+          "description": "Japan's plans to transfer ageing warships to the Philippines and Indonesia could turn older hardware into leverage.",
+          "link": "https://www.scmp.com/b",
+          "topicHint": null,
+          "lean": "center",
+          "wire": true,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "protect-our-care-wrong-summary",
+      "reported": "2026-09-02",
+      "note": "An over-merged cluster agreed on nothing, and representativeness returned 'perfect' for an empty term set - disabling the guard exactly where it was needed. The deeper fault is that these two stories merged at all.",
+      "expect": {
+        "clusters": 2,
+        "summaryNot": "beef|cattle",
+        "headlineIndex": 0
+      },
+      "items": [
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "title": "Protect Our Care targeting 29 House Republicans",
+          "description": "The advocacy group said it would run advertising against 29 House Republicans over health coverage votes.",
+          "link": "https://thehill.com/c",
+          "topicHint": null,
+          "lean": "center",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "title": "Beef tariff plan draws cattle industry uproar",
+          "description": "Trump's plan to lower tariffs on 300,000 metric tons of imported beef caused an uproar among cattle producers.",
+          "link": "https://nypost.com/c",
+          "topicHint": null,
+          "lean": "right",
+          "wire": false,
+          "categories": []
+        }
+      ]
+    }
+  ]
+}

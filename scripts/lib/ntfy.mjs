@@ -67,12 +67,50 @@ export function nextDeliveryEpoch({ now, hour, minute, timeZone, minLeadMs = 10_
  *
  * @returns {Array<object>} ntfy JSON publish bodies, in delivery order
  */
+/**
+ * A tap-to-flag action, so a wrong story can be reported from the lock screen
+ * rather than remembered until you are at a keyboard. Opens a GitHub issue
+ * prefilled with the edition and rank, which is exactly what `npm run triage`
+ * and `npm run flag` take as arguments.
+ */
+function flagAction(digest, story, repo) {
+  if (!repo) return null;
+  const title = `Brief ${digest.edition} #${story.rank}: ${story.title}`.slice(0, 120);
+  const body = [
+    `**Edition** ${digest.edition}`,
+    `**Rank** ${story.rank}`,
+    `**Topic** ${story.topic ?? 'world'}`,
+    `**Headline** ${story.title}`,
+    story.url ? `**Link** ${story.url}` : '',
+    '',
+    'What is wrong with it:',
+    '',
+    '',
+    '---',
+    'Diagnose and record:',
+    '```',
+    `npm run triage -- ${digest.edition} ${story.rank}`,
+    `npm run flag -- ${digest.edition} ${story.rank} --id <slug> --expect <verdict>`,
+    '```',
+  ].filter((line) => line !== null).join('\n');
+
+  const url = `https://github.com/${repo}/issues/new`
+    + `?labels=brief-report`
+    + `&title=${encodeURIComponent(title)}`
+    + `&body=${encodeURIComponent(body)}`;
+
+  // ntfy caps action payloads; a very long headline is not worth losing the button over.
+  if (url.length > 1800) return null;
+  return { action: 'view', label: 'Flag', url, clear: false };
+}
+
 export function buildMessages(digest, {
   topic,
   limit = 10,
   deliverAt = null,
   spacingSeconds = 45,
   priority = 3,
+  flagRepo = null,
   now = Date.now(),
 } = {}) {
   if (!topic) throw new Error('An ntfy topic is required.');
@@ -92,6 +130,9 @@ export function buildMessages(digest, {
     };
 
     if (story.url) message.click = story.url;
+
+    const flag = flagAction(digest, story, flagRepo);
+    if (flag) message.actions = [flag];
 
     if (deliverAt !== null) {
       const at = deliverAt + index * spacingSeconds * 1000;
@@ -146,6 +187,8 @@ export function readConfig(env = process.env) {
 
   return {
     topic: text('NTFY_TOPIC'),
+    // Repository the "Flag" button files against. Unset means no button.
+    flagRepo: text('NTFY_FLAG_REPO', 'philkellner/morning-brief'),
     server: (text('NTFY_SERVER', 'https://ntfy.sh')).replace(/\/+$/, ''),
     token: text('NTFY_TOKEN'),
     timeZone: text('NTFY_TIMEZONE', 'America/Chicago'),

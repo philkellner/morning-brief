@@ -15,6 +15,8 @@
 //   NTFY_TIMEZONE          default America/Chicago
 //   NTFY_SPACING_SECONDS   gap between stories (default 45)
 //   NTFY_PRIORITY          ntfy priority 1-5 (default 3)
+//   NTFY_FLAG_REPO         repo the notification's Flag button files against
+//                          (default philkellner/morning-brief; empty disables it)
 
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
@@ -76,7 +78,7 @@ if (sendNow) {
 
 let messages;
 try {
-  messages = buildMessages(digest, { topic, limit, deliverAt, spacingSeconds, priority, now });
+  messages = buildMessages(digest, { topic, limit, deliverAt, spacingSeconds, priority, flagRepo: config.flagRepo, now });
 } catch (err) {
   console.error(`Refusing to send: ${err.message}`);
   process.exit(1);

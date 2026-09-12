@@ -15,7 +15,10 @@
     "test": "node --test scripts/test.mjs",
     "notify": "node scripts/notify-ntfy.mjs",
     "notify:test": "node scripts/notify-ntfy.mjs --now --limit 1",
-    "notify:dry": "node scripts/notify-ntfy.mjs --dry-run"
+    "notify:dry": "node scripts/notify-ntfy.mjs --dry-run",
+    "eval": "node scripts/eval.mjs",
+    "triage": "node scripts/triage.mjs",
+    "flag": "node scripts/flag.mjs"
   },
   "license": "MIT"
 }

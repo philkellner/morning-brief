@@ -11,7 +11,7 @@ import { parseFeed } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { buildStories } from './lib/rank.mjs';
 import { stripHtml } from './lib/text.mjs';
-import { looksLikeOpinion, OPINION_PATHS } from './lib/opinion.mjs';
+import { isNewsworthy } from './lib/filter.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const USER_AGENT = 'morning-brief/1.0 (+https://github.com/philkellner/morning-brief)';
@@ -28,30 +28,6 @@ const CONFIG = {
   minStories: 5,
   timezone: 'America/Chicago',
 };
-
-// Sections that are commentary, listings, or lifestyle rather than reported news.
-const EXCLUDED_PATH = new RegExp([
-  'opinion', 'commentisfree', 'editorial', 'voices', 'columnists', 'letters',
-  'blogs?', 'sport', 'sports', 'football', 'soccer', 'nfl', 'nba', 'mlb',
-  'entertainment', 'celebrity', 'showbiz', 'arts', 'lifestyle', 'style',
-  'travel', 'food', 'recipes', 'horoscopes?', 'puzzles?', 'crossword',
-  'obituaries', 'weather', 'shopping', 'deals', 'coupons', 'gaming',
-].map((s) => `/${s}/`).join('|'), 'i');
-
-const EXCLUDED_TITLE = [
-  /\blive updates?\b/i, /\bphotos? of the (?:day|week)\b/i, /\bin pictures\b/i,
-  /\bpodcast\b/i, /\bquiz\b/i, /\bcrossword\b/i, /\bnewsletter\b/i,
-  /\bwatch live\b/i, /\bmorning briefing\b/i, /\bwhat to watch\b/i,
-  /\byour (?:daily|morning|evening)\b/i, /\brecap\b/i, /\bhoroscope\b/i,
-  // Specialist outlets label their commentary in the headline. Carbon Brief's
-  // "Guest post:" reached rank 10 of a live digest: it is an opinion piece, and
-  // opinion is excluded everywhere else by section path, which these bypass
-  // because they sit under the same path as the outlet's reporting.
-  /^\s*guest post\b/i, /^\s*analysis:/i, /^\s*explainer:/i, /^\s*q&a:/i,
-  /^\s*comment:/i, /^\s*viewpoint:/i, /^\s*debriefed\b/i,
-];
-
-const EXCLUDED_CATEGORY = /^(opinion|sport|sports|entertainment|lifestyle|travel|arts|culture|food)$/i;
 
 function parseArgs(argv) {
   const args = { ...CONFIG, out: 'docs/digest.json', fixture: null, dryRun: false, quiet: false };
@@ -105,19 +81,6 @@ async function pooled(items, size, worker) {
   });
   await Promise.all(runners);
   return results;
-}
-
-function isNewsworthy(item) {
-  if (!item.title || item.title.length < 15) return false;
-  const path = item.link ? new URL(item.link).pathname : '';
-  if (path && EXCLUDED_PATH.test(path)) return false;
-  // Commentary filed under a path that does not say so - a live brief summarised
-  // a story using reason.com/volokh/...-bold-brave-and-right-on-the-iran-war.
-  if (path && OPINION_PATHS.test(path)) return false;
-  if (looksLikeOpinion(item.title)) return false;
-  if (EXCLUDED_TITLE.some((re) => re.test(item.title))) return false;
-  if (item.categories?.some((c) => EXCLUDED_CATEGORY.test(c.trim()))) return false;
-  return true;
 }
 
 async function collectItems(sources, args, log) {
@@ -229,6 +192,21 @@ async function main() {
     timeZone: CONFIG.timezone, year: 'numeric', month: '2-digit', day: '2-digit',
   }).format(now);
 
+  // Split the forensic detail out of the published digest: the app and the web
+  // reader want a small file, while diagnosing a story flagged days later needs
+  // every raw member of its cluster.
+  const detail = {
+    edition,
+    generatedAt: now.toISOString(),
+    stories: stories.map((s) => ({
+      rank: s.rank, id: s.id, topic: s.topic, title: s.title,
+      summary: s.summary, headlineSource: s.headlineSource,
+      sourceCount: s.sourceCount, score: s.score, scoreComponents: s.scoreComponents,
+      members: s._members,
+    })),
+  };
+  for (const story of stories) delete story._members;
+
   const digest = {
     version: 1,
     edition,
@@ -268,7 +246,10 @@ async function main() {
   await mkdir(dirname(archivePath), { recursive: true });
   await writeFile(archivePath, json);
 
-  log(`\nWrote ${args.out} and archive/${edition}.json (${stories.length} stories)`);
+  const detailPath = resolve(ROOT, dirname(args.out), 'archive', `${edition}.detail.json`);
+  await writeFile(detailPath, `${JSON.stringify(detail, null, 2)}\n`);
+
+  log(`\nWrote ${args.out}, archive/${edition}.json and archive/${edition}.detail.json (${stories.length} stories)`);
 }
 
 main().catch((err) => {

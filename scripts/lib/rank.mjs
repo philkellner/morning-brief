@@ -290,6 +290,22 @@ export function buildStories(clusters, {
       score: round(score.total),
       scoreComponents: score.components,
       coverage,
+      // Every raw member, for the forensic archive. Stripped before digest.json
+      // is written - the app does not need it - but without it a story flagged
+      // next week cannot be reconstructed: the deduped coverage list drops
+      // descriptions, feed ids and the members that lost headline selection.
+      _members: cluster.items.slice(0, 40).map((i) => ({
+        sourceId: i.sourceId,
+        outlet: i.outlet ?? i.sourceId,
+        lean: i.lean,
+        wire: Boolean(i.wire),
+        topicHint: i.topicHint ?? null,
+        title: i.title,
+        description: cleanDescription(i.description).slice(0, 400),
+        link: i.link,
+        published: i.published ? i.published.toISOString() : null,
+        categories: i.categories ?? [],
+      })),
     };
   });
 }

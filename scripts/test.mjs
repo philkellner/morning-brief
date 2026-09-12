@@ -9,6 +9,7 @@ import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstS
 import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
 import { classifyCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { looksLikeOpinion, opinionScore, OPINION_PATHS } from './lib/opinion.mjs';
+import { loadReported, runCase } from './lib/reported.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { sensationalism, pickHeadline, pickSummary, coreTerms, representativeness, leanSpread, buildStories } from './lib/rank.mjs';
@@ -859,3 +860,14 @@ test('a general-science feed does not force a single topic', () => {
     assert.ok(tech.includes(id), `${id} is a technology desk and should stay 'tech'`);
   }
 });
+
+// --- cases reported from real briefs -----------------------------------------
+// One test per stored case, so a fix that regresses an older report fails CI by
+// name rather than being noticed weeks later in a notification.
+
+for (const reported of loadReported()) {
+  test(`reported: ${reported.id}`, () => {
+    const result = runCase(reported);
+    assert.ok(result.ok, `${reported.note}\n    ${result.failures.join('\n    ')}`);
+  });
+}

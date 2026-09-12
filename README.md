@@ -252,6 +252,73 @@ immediately. If you move it earlier than 05:45, also shift the cron in
 
 ---
 
+## When a story comes out wrong
+
+Heuristics miss things. The point of this loop is that each miss is only allowed
+to happen once.
+
+**1. Flag it.** Every notification carries a **Flag** button. It opens a GitHub
+issue prefilled with the edition, rank, topic and headline — the four things
+needed to find the story again. `NTFY_FLAG_REPO` controls where it files; unset
+it to remove the button.
+
+**2. Diagnose it.** Each build writes `docs/archive/<edition>.detail.json`
+alongside the digest: every raw cluster member, with feed id, URL, description and
+topic hint. The published digest keeps only a deduped view, so without this a
+story flagged next week could not be reconstructed.
+
+```bash
+npm run triage -- 2026-09-12 9        # by edition and rank
+npm run triage -- latest heart        # or a substring of the headline
+```
+
+That prints, for every member: whether the filters would admit it, its opinion
+and sensationalism scores, its URL path — then how the topic vote was counted,
+which terms the outlets agreed on, and why each headline won or lost. The point
+is to land on *the rule responsible*, rather than guessing.
+
+**3. Record it.** Copy the real cluster into the labelled corpus with the verdict
+you assert:
+
+```bash
+npm run flag -- 2026-09-12 9 --id cardiac-research-is-health --expect topic=health
+```
+
+Verdicts: `topic=<t>`, `clusters=<n>`, `excluded=true`, `kept=true`,
+`headlineNot=<regex>`, `summaryNot=<regex>`, `headlineIndex=<n>`.
+
+A freshly flagged case is **expected to fail** — that failure is the bug report.
+
+**4. Fix, then prove it.**
+
+```bash
+npm run eval        # every case ever reported, with its verdict
+npm run eval -- -v  # and why each was filed
+```
+
+`npm test` runs them too, one named test per case, so CI fails by name.
+
+### Why the corpus matters more than any single fix
+
+Reported cases come in pairs. `cardiac-research-is-health` says medical research
+belongs in health; `astronomy-is-tech` says the fix must not drag physics along
+with it. `nyc-single-shared-noun` says four stories sharing a place name must not
+merge; `canada-pair-must-merge` says the tightening must not split genuine
+duplicates.
+
+That pairing is deliberate, and learned the hard way. On 2026-09-02 two
+consecutive summary fixes each broke an assumption the previous one relied on,
+and on 2026-09-06 a classification fix had to be walked back twice. Both were
+caught by luck. With the corpus they are caught by measurement.
+
+The harness itself was wrong twice on first run, which is worth knowing if you
+extend it: clustering cases must be judged **against a background corpus**,
+because TF-IDF over four documents is meaningless and reports the opposite of
+what the live pipeline does. And a case about summary choice must pin which item
+supplies the headline, or it silently tests something else.
+
+---
+
 ## How the ranking works
 
 ```
@@ -279,7 +346,9 @@ the thresholds are tuned to favour precision.
 ## Local development
 
 ```bash
-npm test                    # 19 tests, no dependencies
+npm test                    # tests plus every reported case, no dependencies
+npm run eval                # just the cases reported from real briefs
+npm run triage -- latest 3  # explain how one story was decided
 npm run demo                # run the pipeline against fixtures, no network
 npm run preview             # fetch real feeds, print the digest, write nothing
 npm run probe               # report which feeds are alive
