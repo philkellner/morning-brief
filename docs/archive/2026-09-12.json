@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-12",
-  "generatedAt": "2026-09-12T14:07:21.612Z",
+  "generatedAt": "2026-09-12T14:29:42.250Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,17 +12,144 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 62,
-    "failed": [
-      {
-        "id": "newsweek",
-        "error": "HTTP 404"
-      }
-    ]
+    "succeeded": 63,
+    "failed": []
   },
   "stories": [
     {
       "rank": 1,
+      "id": "2026-09-12-739h7h",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
+      "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+      "url": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-12T14:04:29.000Z",
+      "sourceCount": 15,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 8,
+      "score": 24.06,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
+          "url": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+          "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "On board a warship headed to support the war in Iran",
+          "url": "https://www.cbsnews.com/video/on-board-a-warship-headed-to-support-the-war-in-iran/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+          "url": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Iran war: Saudi-Houthi escalation intensifies Yemen conflict",
+          "url": "https://www.dw.com/en/iran-war-saudi-houthi-escalation-intensifies-yemen-conflict/a-79226627?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "BRICS leaders call for 'maximum restraint' as Middle East war threatens unity",
+          "url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran"
+        },
+        {
+          "source": "National Review",
+          "sourceId": "nationalreview",
+          "lean": "right",
+          "title": "Washington Is Fighting Yesterday’s Middle East",
+          "url": "https://www.nationalreview.com/2026/09/washington-is-fighting-yesterdays-middle-east/"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Iran-backed Houthis take control of Red Sea coastline in Yemen",
+          "url": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Yemen's Houthis capture a Red Sea island in threat to shipping",
+          "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
+          "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nearly 50,000 Yemeni civilians flee as Houthis advance along Red Sea coast",
+          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Proxy fight in Yemen heats up, risking new front in US-Iran war",
+          "url": "https://thehill.com/policy/defense/6085660-houthis-takeover-port-saudi-gas-pipeline/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Yemen government forces hit Houthis in strategic Red Sea city",
+          "url": "https://www.straitstimes.com/world/middle-east/yemen-government-forces-hit-houthis-in-strategic-red-sea-city"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "India's Middle East peace push at Brics: UAE crown prince meets Iran prez Pezeshkian",
+          "url": "https://timesofindia.indiatimes.com/india/indias-middle-east-peace-push-at-brics-uae-crown-prince-meets-iran-prez-pezeshkian/articleshow/134130355.cms"
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "id": "2026-09-12-o1m1l2",
       "topic": "world",
       "topicLabel": "World",
@@ -37,13 +164,13 @@
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 7,
-      "score": 23.36,
+      "score": 23.24,
       "scoreComponents": {
         "breadth": 11.42,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.49,
-        "softPenalty": -0.15
+        "freshness": 2.45,
+        "softPenalty": -0.23
       },
       "coverage": [
         {
@@ -57,8 +184,8 @@
           "source": "Bloomberg",
           "sourceId": "bloomberg",
           "lean": "center",
-          "title": "BRICS 2026: Modi Seeks Bigger Role For Global South",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-12/brics-2026-modi-seeks-bigger-role-for-global-south-video"
+          "title": "Modi Seeks BRICS Unity as Global Tensions Rise",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-12/modi-seeks-brics-unity-as-global-tensions-rise-video"
         },
         {
           "source": "CNBC",
@@ -140,24 +267,24 @@
       ]
     },
     {
-      "rank": 2,
-      "id": "2026-09-12-fksfmg",
+      "rank": 3,
+      "id": "2026-09-12-1fmw5si",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Trump says he would 'love' to see a united Ireland",
+      "title": "Trump visits Ireland, says unification would be 'fantastic'",
       "summary": "Trump is holding meetings in Dublin before attending the Irish Open golf tournament in Doonbeg, County Clare.",
-      "url": "https://www.straitstimes.com/world/europe/trump-says-he-would-love-to-see-a-united-ireland",
-      "headlineSource": "The Straits Times",
+      "url": "https://www.dw.com/en/trump-visits-ireland-says-unification-would-be-fantastic/a-79244685?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
       "summarySource": "BBC News",
-      "publishedAt": "2026-09-12T13:56:20.000Z",
-      "sourceCount": 10,
+      "publishedAt": "2026-09-12T14:16:19.000Z",
+      "sourceCount": 11,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 5,
-      "score": 22.46,
+      "score": 22.83,
       "scoreComponents": {
-        "breadth": 10.38,
+        "breadth": 10.75,
         "diversity": 6.4,
         "wire": 3.2,
         "freshness": 2.48,
@@ -189,8 +316,8 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Trump will meet with Ireland's leaders before heading to his golf club in Doonbeg",
-          "url": "https://www.france24.com/en/video/20260912-trump-will-meet-with-ireland-s-leaders-before-heading-to-his-golf-club-in-doonbeg"
+          "title": "Trump begins two-day Ireland visit, security operation costs €20 million",
+          "url": "https://www.france24.com/en/video/20260912-trump-begins-two-day-ireland-visit-security-operation-costs-%E2%82%AC20-million"
         },
         {
           "source": "New York Post",
@@ -198,6 +325,13 @@
           "lean": "right",
           "title": "Trump optimistic about wrapping up Iran war, claims things will turn out ‘fine and dandy’ during meeting with Ireland PM",
           "url": "https://nypost.com/2026/09/12/us-news/trump-optimistic-about-wrapping-up-iran-war-claims-things-will-turn-out-fine-and-dandy-during-meeting-with-ireland-pm/"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "What Ireland’s President Has Said About Trump Ahead of First Meeting",
+          "url": "https://www.newsweek.com/what-ireland-president-said-about-trump-ahead-meeting-catherine-connolly-12431545"
         },
         {
           "source": "NPR",
@@ -237,110 +371,6 @@
       ]
     },
     {
-      "rank": 3,
-      "id": "2026-09-12-739h7h",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
-      "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
-      "url": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-09-12T13:16:18.000Z",
-      "sourceCount": 11,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 6,
-      "score": 20.27,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.42,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "‘Divine triumph’: Iran celebrates Houthis’ capture of Yemen’s Red Sea coast",
-          "url": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-          "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
-          "url": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Iran war: Saudi-Houthi escalation intensifies Yemen conflict",
-          "url": "https://www.dw.com/en/iran-war-saudi-houthi-escalation-intensifies-yemen-conflict/a-79226627?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Iran-backed Houthis take control of Red Sea coastline in Yemen",
-          "url": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Yemen's Houthis capture a Red Sea island in threat to shipping",
-          "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
-          "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Nearly 50,000 Yemeni civilians flee as Houthis advance along Red Sea coast",
-          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Proxy fight in Yemen heats up, risking new front in US-Iran war",
-          "url": "https://thehill.com/policy/defense/6085660-houthis-takeover-port-saudi-gas-pipeline/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
-          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Yemen government forces hit Houthis in strategic Red Sea city",
-          "url": "https://www.straitstimes.com/world/middle-east/yemen-government-forces-hit-houthis-in-strategic-red-sea-city"
-        }
-      ]
-    },
-    {
       "rank": 4,
       "id": "2026-09-12-1iypn06",
       "topic": "world",
@@ -351,17 +381,17 @@
       "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186",
       "headlineSource": "NBC News",
       "summarySource": "France 24",
-      "publishedAt": "2026-09-12T13:49:11.000Z",
-      "sourceCount": 9,
+      "publishedAt": "2026-09-12T14:16:37.000Z",
+      "sourceCount": 10,
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 4,
-      "score": 20.09,
+      "score": 20.51,
       "scoreComponents": {
-        "breadth": 9.97,
+        "breadth": 10.38,
         "diversity": 4.45,
         "wire": 3.2,
-        "freshness": 2.47,
+        "freshness": 2.48,
         "softPenalty": 0
       },
       "coverage": [
@@ -408,6 +438,13 @@
           "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186"
         },
         {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Yemen’s Houthis Are the Smallest Force With the Biggest Say in Trump’s War",
+          "url": "https://www.newsweek.com/houthis-yemen-saudi-arabia-middle-east-iran-war-trump-12433106"
+        },
+        {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
@@ -446,12 +483,12 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 5,
-      "score": 19.97,
+      "score": 19.93,
       "scoreComponents": {
         "breadth": 10.38,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.49,
+        "freshness": 2.45,
         "softPenalty": 0
       },
       "coverage": [
@@ -529,75 +566,6 @@
     },
     {
       "rank": 6,
-      "id": "2026-09-12-zei8v3",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "War, sanctions and inflation leave Iran short of hundreds of medicines",
-      "summary": "Tehran appears to be boosting pressure on Washington ahead of the crucial midterm vote, but shows little desire to return to a full-scale war.",
-      "url": "https://www.euronews.com/2026/09/11/war-sanctions-and-inflation-leave-iran-short-of-hundreds-of-medicines",
-      "headlineSource": "Euronews",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-09-12T12:15:50.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 17.6,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.33,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Trump Signals US Wants Distance From Iran War",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-12/trump-signals-us-wants-distance-from-iran-war-video"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Iran strikes U.S. jets after Trump promises war to end after midterms",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Iran pursues cautious escalation ahead of US midterms",
-          "url": "https://www.dw.com/en/iran-pursues-cautious-escalation-ahead-of-us-midterms/a-79237061?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "War, sanctions and inflation leave Iran short of hundreds of medicines",
-          "url": "https://www.euronews.com/2026/09/11/war-sanctions-and-inflation-leave-iran-short-of-hundreds-of-medicines"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Chinese entities gave Iran satellite images of air base before missile strike killed 3 US service members in Jordan: report",
-          "url": "https://nypost.com/2026/09/11/us-news/chinese-entities-provided-iran-with-satellite-images-of-air-base-in-jordan-before-deadly-missile-strike-report/"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran",
-          "url": "https://www.japantimes.co.jp/business/2026/09/12/china-iran-secret-trade-mechanism/"
-        }
-      ]
-    },
-    {
-      "rank": 7,
       "id": "2026-09-12-csujy6",
       "topic": "business",
       "topicLabel": "Business",
@@ -612,12 +580,12 @@
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 1,
-      "score": 14.54,
+      "score": 14.52,
       "scoreComponents": {
         "breadth": 7.75,
         "diversity": 4.45,
         "wire": 0.8,
-        "freshness": 1.53,
+        "freshness": 1.51,
         "softPenalty": 0
       },
       "coverage": [
@@ -659,10 +627,65 @@
       ]
     },
     {
+      "rank": 7,
+      "id": "2026-09-12-1mcis6u",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
+      "summary": "Food and Drug Administration officials said they are confident that all recalled iceberg lettuce related to this specific outbreak is off the market.",
+      "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-09-12T13:14:27.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 1,
+      "score": 12.1,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Map Shows Cyclospora Cases Across US As Outbreak Declared Over",
+          "url": "https://www.newsweek.com/map-shows-cyclospora-cases-across-us-as-outbreak-declared-over-12434985"
+        },
+        {
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
+          "lean": "center-left",
+          "title": "U.S. Officials Announce Cyclospora Outbreak Is Over",
+          "url": "https://www.nytimes.com/2026/09/10/well/cyclospora-outbreak-over-fda.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
+          "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
+          "url": "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/"
+        }
+      ]
+    },
+    {
       "rank": 8,
       "id": "2026-09-11-1ftic0r",
       "topic": "tech",
-      "topicLabel": "Tech & science",
+      "topicLabel": "Technology & physical science",
       "topicShort": "TECH",
       "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
       "summary": "Stephen Aarons said he tried to use ChatGPT to create a ‘bulletproof summary’ during a murder conviction appeal A defense lawyer appealing his client’s murder conviction submitted a legal brief containing ⁠made-up police testimony and ⁠witnesses fabricated by…",
@@ -674,12 +697,12 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 0,
-      "score": 11.18,
+      "score": 11.16,
       "scoreComponents": {
         "breadth": 6,
         "diversity": 3.9,
         "wire": 0,
-        "freshness": 1.28,
+        "freshness": 1.26,
         "softPenalty": 0
       },
       "coverage": [
@@ -709,9 +732,9 @@
     {
       "rank": 9,
       "id": "2026-09-11-o98u81",
-      "topic": "tech",
-      "topicLabel": "Tech & science",
-      "topicShort": "TECH",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
       "title": "Scientists discover the human heart can regrow muscle after a heart attack",
       "summary": "Researchers have shown for the first time that human heart muscle cells can regrow after a heart attack. The finding overturns the idea that damaged areas of the heart are completely incapable of regeneration.",
       "url": "https://www.sciencedaily.com/releases/2026/09/260909231754.htm",
@@ -722,12 +745,12 @@
       "leanCount": 2,
       "leanSpread": 0.25,
       "wireCount": 2,
-      "score": 10.86,
+      "score": 10.85,
       "scoreComponents": {
         "breadth": 6,
         "diversity": 1.95,
         "wire": 1.6,
-        "freshness": 1.31,
+        "freshness": 1.3,
         "softPenalty": 0
       },
       "coverage": [
@@ -756,49 +779,56 @@
     },
     {
       "rank": 10,
-      "id": "2026-09-11-1mcis6u",
-      "topic": "health",
-      "topicLabel": "Health & climate",
-      "topicShort": "HEALTH",
-      "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
-      "summary": "Food and Drug Administration officials said they are confident that all recalled iceberg lettuce related to this specific outbreak is off the market.",
-      "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-09-11T20:10:41.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 1,
-      "score": 10,
+      "id": "2026-09-12-1lcx8h6",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Anthropic blocks efforts to use AI to research weapons development and carry out cyber attacks",
+      "summary": "These are some of the notable cases from its Sept 10 report.",
+      "url": "https://news.sky.com/story/anthropic-blocks-effort-to-use-ai-to-research-potential-biological-weapons-13584258",
+      "headlineSource": "Sky News",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-09-12T01:15:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 1,
+      "leanSpread": 0,
+      "wireCount": 2,
+      "score": 10.07,
       "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 0.8,
-        "freshness": 1.25,
+        "breadth": 6.97,
+        "diversity": 0,
+        "wire": 1.6,
+        "freshness": 1.5,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "NYT Health",
-          "sourceId": "nyt_health",
-          "lean": "center-left",
-          "title": "U.S. Officials Announce Cyclospora Outbreak Is Over",
-          "url": "https://www.nytimes.com/2026/09/10/well/cyclospora-outbreak-over-fda.html"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
-          "url": "https://www.pbs.org/newshour/health/u-s-officials-declare-an-end-to-record-setting-cyclospora-outbreak-but-its-origin-is-still-unknown"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
           "lean": "center",
-          "title": "U.S. officials declare an end to record-setting cyclospora outbreak, but its origin is still unknown",
-          "url": "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/"
+          "title": "Claude users found ways around safeguards for bioweapons research",
+          "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Anthropic blocks efforts to use AI to research weapons development and carry out cyber attacks",
+          "url": "https://news.sky.com/story/anthropic-blocks-effort-to-use-ai-to-research-potential-biological-weapons-13584258"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Weapons, spying and cyber operations: Anthropic exposes Claude misuse",
+          "url": "https://www.straitstimes.com/world/united-states/weapons-spying-and-cyber-operations-anthropic-exposes-claude-misuse"
         }
       ]
     }
