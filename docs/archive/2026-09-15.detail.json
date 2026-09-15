@@ -1,0 +1,1625 @@
+{
+  "edition": "2026-09-15",
+  "generatedAt": "2026-09-15T09:11:53.789Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-09-15-8x2phe",
+      "topic": "world",
+      "title": "US Supreme Court rejects Trump bid to restrict mail ballots as voting begins",
+      "summary": "The Trump administration had asked the court to lift a federal judge's temporary block on new rules for mail-in ballots.",
+      "headlineSource": "France 24",
+      "sourceCount": 14,
+      "score": 23.8,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "The Supreme Court rejects Trump's mail voting restrictions for this year's midterms",
+          "description": "The Supreme Court has rejected the Trump administration's request to allow mail-in voting restrictions under a U.S. Postal Service plan for the midterm general election.",
+          "link": "https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump",
+          "published": "2026-09-14T23:38:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Supreme Court blocks Trump's plan to restrict mail-in ballots",
+          "description": "The Trump administration had asked the court to lift a federal judge's temporary block on new rules for mail-in ballots.",
+          "link": "https://www.bbc.co.uk/news/articles/c5yjpdy4gjlo",
+          "published": "2026-09-15T01:15:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Supreme Court rejects Trump mail ballot restrictions ahead of midterms",
+          "description": "US Supreme Court rejects Trump’s bid to tighten mail-in voting rules ahead of critical midterm elections.",
+          "link": "https://www.aljazeera.com/news/2026/9/15/us-supreme-court-rejects-trump-mail-ballot-restrictions-ahead-of-midterms?traffic_source=rss",
+          "published": "2026-09-15T03:21:23.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Supreme Court denies Trump bid to restrict mail-in ballots",
+          "description": "The court said election officials do not have sufficient time to implement the rule before the November midterms. Trump has argued, without providing evidence, that the system is vulnerable to fraud.",
+          "link": "https://www.dw.com/en/us-supreme-court-denies-trump-bid-to-restrict-mail-in-ballots/a-79267854?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-15T01:38:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Supreme Court rejects Trump bid to restrict mail ballots as voting begins",
+          "description": "The US Supreme Court on Monday rejected President Donald Trump’s bid to impose new restrictions on mail ballots ahead of November’s midterm elections. The ruling leaves states free to continue using existing voting procedures, after election officials warned the last-minute changes could disrupt ballot distribution.",
+          "link": "https://www.france24.com/en/americas/20260915-us-supreme-court-rejects-trump-bid-to-restrict-mail-ballots-as-voting-begins",
+          "published": "2026-09-15T01:51:51.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Supreme Court rejects Trump administration's attempt to restrict mail-in voting",
+          "description": "The Supreme Court kept in place a lower court decision blocking the U.S. Postal Service from implementing new restrictions.",
+          "link": "https://abcnews.com/Politics/supreme-court-rejects-trump-administrations-attempt-restrict-mail/story?id=136442477",
+          "published": "2026-09-15T00:37:51.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened",
+          "description": "This live blog is now closed. Supreme court rejects Trump’s mail ballot restrictions for midterm elections",
+          "link": "https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates",
+          "published": "2026-09-15T01:59:45.000Z",
+          "categories": [
+            "US Congress",
+            "Trump administration",
+            "US news",
+            "Donald Trump",
+            "World news",
+            "US supreme court",
+            "US midterm elections 2026",
+            "US politics",
+            "AI (artificial intelligence)"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Supreme court rejects Trump’s mail ballot restrictions for midterm elections",
+          "description": "Decision allows states to send ballots under process followed for years even as president tried to limit system The supreme court on Monday rejected Donald Trump’s mail ballot restrictions for now, capping a flurry of last-minute legal action with voting in the midterm elections already underway. The decision allows states to continue sending out mail ballots under the same processes they have use",
+          "link": "https://www.theguardian.com/us-news/2026/sep/14/supreme-court-rejects-mail-ballot-restrictions",
+          "published": "2026-09-15T01:51:49.000Z",
+          "categories": [
+            "US supreme court",
+            "US midterm elections 2026",
+            "Trump administration",
+            "US news",
+            "US politics"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Supreme Court won’t restore Trump’s mail-in voting plan for midterms",
+          "description": "The Supreme Court refused to clear the way for President Trump’s mail-in voting plan for the midterms on Monday over the dissents of two conservative justices, keeping intact a judge’s block that declared the plan unlawful. It’s the third time the Trump administration brought the plan to the high court’s emergency docket after groups have blocked the effort. Previously, the...",
+          "link": "https://thehill.com/regulation/court-battles/6089348-supreme-court-rejects-trump-mail-ballots/",
+          "published": "2026-09-14T23:46:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Supreme Court rejects Trump bid to lift block on U.S. Postal Service mail-in ballots rule",
+          "description": "Justice Brett Kavanaugh said that applying the U.S. Postal Service rule in the 2026 midterm elections \"would be arbitrary and capricious.\"",
+          "link": "https://www.cnbc.com/2026/09/14/supreme-court-trump-mail-ballots-midterms.html",
+          "published": "2026-09-15T00:48:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Surrogate McKenna West fears baby will be taken out of Texas after turning to Supreme Court",
+          "description": "The surrogate who refused to terminate her pregnancy defying the wishes of the baby’s biological parents fears the child will be moved out of Texas – as she continues to lobby the Supreme Court to intervene in the bitter custody dispute. McKenna West, 28, filed a motion with the nation’s highest court last week amid...",
+          "link": "https://nypost.com/2026/09/15/us-news/surrogate-mckenna-west-fears-baby-will-be-taken-out-of-texas-after-turning-to-supreme-court/",
+          "published": "2026-09-15T08:38:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Supreme Court rejects mail-in voting restrictions ahead of midterms in blow to Trump admin",
+          "description": "The Supreme Court on Monday rejected President Donald Trump’s mail ballot restrictions for now, capping a flurry of last-minute legal action with voting in the midterm elections already underway.",
+          "link": "https://nypost.com/2026/09/14/us-news/supreme-court-rejects-mail-in-voting-restrictions-ahead-of-midterms-in-blow-to-trump-admin/",
+          "published": "2026-09-14T23:52:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘The Steal’ Book Excerpt on How Conservatives Took Over Supreme Court",
+          "description": "The Supreme Court’s reversal of precedents many Americans viewed as settled rights was decades in the making.",
+          "link": "https://www.newsweek.com/the-steal-book-excerpt-how-conservatives-took-over-supreme-court-12439943",
+          "published": "2026-09-15T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "In loss for Trump, Supreme Court won’t let US Postal Service restrict mail ballots",
+          "description": "The US President has for years cast doubt on the security of mail-in ballots, though he often votes by mail himself.",
+          "link": "https://www.straitstimes.com/world/united-states/in-loss-for-trump-us-supreme-court-wont-let-postal-service-restrict-mail-ballots",
+          "published": "2026-09-15T00:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Supreme Court deals blow to Trump's attempts to restrict mail ballots ahead of midterm election",
+          "description": "The decision allows states to continue sending out mail ballots under the same processes they’ve used for years and have accounted for nearly a third of votes cast.",
+          "link": "https://www.euronews.com/2026/09/15/us-supreme-court-rejects-trump-mail-ballot-restrictions-ahead-of-midterms",
+          "published": "2026-09-15T05:31:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Supreme Court rejects Trump mail ballot restrictions ahead of midterms",
+          "description": "The decision allows states to continue sending ballots under existing processes used by nearly one-third of voters.",
+          "link": "https://www.pbs.org/newshour/politics/supreme-court-rejects-trump-mail-ballot-restrictions-ahead-of-midterms",
+          "published": "2026-09-15T01:02:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened",
+          "description": "This live blog is now closed. Supreme court rejects Trump’s mail ballot restrictions for midterm elections",
+          "link": "https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates",
+          "published": "2026-09-15T01:59:45.000Z",
+          "categories": [
+            "US Congress",
+            "Trump administration",
+            "US news",
+            "Donald Trump",
+            "World news",
+            "US supreme court",
+            "US midterm elections 2026",
+            "US politics",
+            "AI (artificial intelligence)"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-09-15-n4b0og",
+      "topic": "world",
+      "title": "Houthi gains in Yemen, attack on Saudi pipeline compound pressure on oil markets",
+      "summary": "Saudi-led coalition promises to respond 'firmly' to Houthi strikes on urban areas in Saudi Arabia.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 11,
+      "score": 22.76,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis say air strikes hit Yemen after Saudi Arabia vows ‘firm’ response",
+          "description": "Saudi-led coalition promises to respond 'firmly' to Houthi strikes on urban areas in Saudi Arabia.",
+          "link": "https://www.aljazeera.com/news/2026/9/15/houthis-report-air-strikes-in-yemen-after-saudi-arabia-vows-firm-response?traffic_source=rss",
+          "published": "2026-09-15T08:11:09.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran war live: 54 Saudi air strikes target Houthis as Yemen fighting rages",
+          "description": "Houthis say attacks by Saudi Arabia ongoing as Yemen PM accuses militia of killing and displacing civilians.",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/9/15/iran-war-live-centcom-refutes-iran-claim-supertanker-hit-hormuz-mines?traffic_source=rss",
+          "published": "2026-09-15T00:00:00.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen: Fact-checking videos claiming to show Houthi rebel attacks",
+          "description": "A video claiming to show Houthi rebels ambushing Saudi-backed mercenaries has racked up major views on X. But the FRANCE 24 Observers found it is actually footage of 2024 Houthi military drills. The clip was edited with football commentary and blurred flags, which originally show Israel, the UK and US, not Saudi Arabia. Other viral videos falsely linked to Houthi attacks on a Saudi Aramco refinery",
+          "link": "https://www.france24.com/en/yemen-fact-checking-videos-claiming-to-show-houthi-rebel-attacks-1",
+          "published": "2026-09-14T21:10:30.000Z",
+          "categories": [
+            "Truth or Fake"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran's proxies using Yemen to compound war's impact on oil prices",
+          "description": "An attack on a Saudi Arabian pipeline and a simmering war between the Saudis and Iran's Houthi allies in Yemen are pushing oil prices up.",
+          "link": "https://www.cbsnews.com/news/iran-war-oil-prices-houthis-yemen-saudi-arabia-east-west-pipeline/",
+          "published": "2026-09-14T15:12:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Leader Meets U.S. Commander as Houthi Attacks Threaten Oil Markets",
+          "description": "Crown Prince Mohammed bin Salman asked the United States for more U.S. military help last week after the Iranian-backed Houthi forces in Yemen launched a broad offensive.",
+          "link": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-leader-meets-centcom.html",
+          "published": "2026-09-14T19:24:08.000Z",
+          "categories": [
+            "US and Israeli Attack on Iran (2026)",
+            "War and Armed Conflicts",
+            "International Relations",
+            "Defense and Military Forces",
+            "Houthis",
+            "Cooper, Brad (1967-)",
+            "Mohammed bin Salman (1985-)",
+            "Middle East",
+            "Saudi Arabia",
+            "Yemen",
+            "Persian Gulf",
+            "Red Sea",
+            "Oil (Petroleum) and Gasoline"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Oil extends gains, Brent crude nears $108 following Houthi strikes on Saudi Arabia",
+          "description": "Oil extended gains amid reports of fresh Houthi strikes on Saudi Arabia and attacks by Iran on ships in the Gulf.",
+          "link": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html",
+          "published": "2026-09-15T07:22:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz",
+          "description": "Saudi Arabia temporarily shut the roughly 750-mile pipeline as attacks threaten a key alternative to the Strait of Hormuz.",
+          "link": "https://www.cnbc.com/2026/09/14/iran-war-saudi-arabia-east-west-pipeline-oil.html",
+          "published": "2026-09-14T13:08:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia warns it will react ‘firmly’ to Houthi attacks",
+          "description": "In the early hours of Sept 15, Saudi civil defence issued air-raid alerts in six regions, before lifting them.",
+          "link": "https://www.straitstimes.com/world/middle-east/saudi-arabia-warns-it-will-react-firmly-to-houthi-attacks",
+          "published": "2026-09-15T04:25:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall",
+          "description": "RIYADH, Sept 15 - Yemen's Iran-aligned Houthis launched a new wave of attacks on Saudi Arabia and were digging into positions on the western coast of Yemen along the Red Sea, Yemeni officials said, as urgent deliberations took place in Riyadh over how to respond to their lightning advance.",
+          "link": "https://www.straitstimes.com/world/middle-east/houthis-strike-saudi-targets-anew-as-talks-over-strait-of-hormuz-stall",
+          "published": "2026-09-15T00:06:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthi gains in Yemen, attack on Saudi pipeline compound pressure on oil markets",
+          "description": "Yemen's Houthi rebels seized more islands in the strategically crucial Bab al-Mandab Strait and now control the west coast of the country. This comes as a crucial pipeline in Saudi Arabia will be out of commission for weeks. Ali Rogin discussed the latest with Michael Ratney, the U.S. ambassador to Saudi Arabia during the Biden administration.",
+          "link": "https://www.pbs.org/newshour/show/houthi-gains-in-yemen-attack-on-saudi-pipeline-compound-pressure-on-oil-markets",
+          "published": "2026-09-14T22:40:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen's Houthis attack Saudis, seize crucial Red Sea islands",
+          "description": "Iran-backed Houthi rebels have tightened their grip on a key shipping route, capturing two strategic Red Sea islands. The closure of another global transport route is the latest ripple effect of the US war with Iran.",
+          "link": "https://www.dw.com/en/yemen-s-houthis-attack-saudis-seize-crucial-red-sea-islands/a-79263838?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-14T15:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Houthis seize strategic Red Sea islands as analysts warn of impending oil crunch",
+          "description": "The militant group in Yemen captured the islands of Greater and Lesser Hanish, near the chokepoint of the Bab al-Mandab strait Yemen’s Houthi militants have seized two strategic islands in the Red Sea, reinforcing the Iran-backed group’s ability to control a key shipping route, as concerns mount that the world is facing a new oil supply crisis. The seizure of the islands of Greater and Lesser Hani",
+          "link": "https://www.theguardian.com/world/2026/sep/15/houthi-rebels-seize-red-sea-hanish-islands-saudi-oil-warning",
+          "published": "2026-09-15T04:22:16.000Z",
+          "categories": [
+            "Houthis",
+            "Yemen",
+            "Middle East and north Africa",
+            "Saudi Arabia",
+            "US-Israel war on Iran",
+            "Oil",
+            "Commodities",
+            "Iran",
+            "Strait of Hormuz"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Houthis enter US 'kill box' after seizing Red Sea 'cork,' former Pentagon official warns",
+          "description": "Houthi rebels seized Perim Island in the Bab el-Mandeb Strait, but a former Pentagon official warns they've entered a vulnerable U.S. Navy kill box.",
+          "link": "https://www.foxnews.com/world/houthis-enter-us-kill-box-after-seizing-red-sea-cork-former-pentagon-official-warns",
+          "published": "2026-09-13T22:52:42.000Z",
+          "categories": [
+            "79609662-41ad-5006-b6e5-20771d91be9d",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/politics/foreign-policy/geopolitics",
+            "fox-news/tech/topics/us-navy",
+            "fox-news/world",
+            "fox-news/politics/foreign-policy",
+            "fox-news/us/military",
+            "fox-news/world/world-regions/saudi-arabia",
+            "fox-news/world/conflicts/iran",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis capture more Yemeni Red Sea islands, tightening grip on Bab el-Mandeb",
+          "description": "The Hanish archipelago fell after hundreds of government-allied forces withdrew, adding to Houthi control of Mokha and Perim Island. More than 80,000 people have been displaced in two weeks of fighting, as the internationally recognised government vows to regroup.",
+          "link": "https://www.euronews.com/2026/09/14/houthis-capture-more-yemeni-red-sea-islands-tightening-grip-on-bab-el-mandeb",
+          "published": "2026-09-14T11:01:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis seize 2 strategic Red Sea islands, and other Mideast developments",
+          "description": "Yemen's Houthi rebels have seized the strategic islands of Greater and Lesser Hanish in the southern Red Sea. This move strengthens their control over a key maritime shipping route.",
+          "link": "https://www.pbs.org/newshour/world/houthis-seize-2-strategic-red-sea-islands-and-other-mideast-developments",
+          "published": "2026-09-14T20:19:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Houthis seize strategic Red Sea islands as analysts warn of impending oil crunch",
+          "description": "The militant group in Yemen captured the islands of Greater and Lesser Hanish, near the chokepoint of the Bab al-Mandab strait Yemen’s Houthi militants have seized two strategic islands in the Red Sea, reinforcing the Iran-backed group’s ability to control a key shipping route, as concerns mount that the world is facing a new oil supply crisis. The seizure of the islands of Greater and Lesser Hani",
+          "link": "https://www.theguardian.com/world/2026/sep/15/houthi-rebels-seize-red-sea-hanish-islands-saudi-oil-warning",
+          "published": "2026-09-15T04:22:16.000Z",
+          "categories": [
+            "Houthis",
+            "Yemen",
+            "Middle East and north Africa",
+            "Saudi Arabia",
+            "US-Israel war on Iran",
+            "Oil",
+            "Commodities",
+            "Iran",
+            "Strait of Hormuz"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-09-15-bw2t27",
+      "topic": "world",
+      "title": "NATO jets shoot down drone over Lithuania",
+      "summary": "The origin of the drone is currently unknown, but authorities say it likely entered Lithuania from neighbouring Belarus, an ally of Russia.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 8,
+      "score": 20.8,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nato jets down drone that entered Lithuanian airspace",
+          "description": "The origin of the drone is currently unknown, but authorities say it likely entered Lithuania from neighbouring Belarus, an ally of Russia.",
+          "link": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo",
+          "published": "2026-09-15T09:07:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "NATO jets shoot down drone over Lithuania",
+          "description": "Lithuania has reported frequent drone incursions since Moscow launched its war against Ukraine. Lithuanian media reports suggest the drone was coming from Russia ally Belarus.",
+          "link": "https://www.dw.com/en/nato-jets-shoot-down-drone-over-lithuania/a-79267975?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-15T04:16:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine war live: NATO downs drone over Lithuania, Russian frigate fires flares at Danish helicopter",
+          "description": "NATO scrambled fighter jets overnight to ​shoot down a drone over Lithuania after the latest incursion on the alliance's eastern flank. In a separate incident, Denmark said a Russian warship fired two emergency flares at a Danish helicopter in the Baltic Sea, adding that the Russian ambassador had been summoned over the \"reckless action\". Follow our liveblog for the latest developments.",
+          "link": "https://www.france24.com/en/europe/20260915-nato-fighter-jets-shoot-down-drone-over-lithuania-after-latest-incursion",
+          "published": "2026-09-15T02:19:11.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lithuania prepares for war, reinforcing its border against Russian tanks",
+          "description": "On the edge of NATO territory in the Baltics, there is growing concern about the threat Russia poses. Aaron MacLean visited the capital of Lithuania to see how they're preparing.",
+          "link": "https://www.cbsnews.com/video/lithuania-prepares-war-reinforcing-border-against-russian-tanks/",
+          "published": "2026-09-14T01:23:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lithuania briefs EU allies after drone shot down by Nato jets overnight – Europe live",
+          "description": "Minister says discussions are ongoing on how to strengthen the alliance’s eastern flank after security incidents intensify across Europe, including in Denmark and Poland I am also keeping an eye on the latest from Sweden, and it looks like we may have to wait a bit longer for the final results of the parliamentary election. The Swedish election authority said it was expecting a larger than usual n",
+          "link": "https://www.theguardian.com/world/live/2026/sep/15/denmark-ukraine-russia-warship-frigate-security-lithuania-poland--sweden-election-eu-europe-latest-news-updates",
+          "published": "2026-09-15T08:32:33.000Z",
+          "categories": [
+            "Russia",
+            "Europe",
+            "Denmark",
+            "Ukraine",
+            "Lithuania",
+            "Poland",
+            "European Union"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nato jets shoot down drone violating Lithuania’s airspace",
+          "description": "The drone, which reportedly entered from Belarus, ⁠was shot down near Pratkunai village in central-southern Lithuania Nato fighter jets shot down a drone over Lithuania after an alert was issued in the ‌capital, Vilnius, and surrounding region, while Poland scrambled fighter jets less than a day after retrieving a suspected Russian drone adrift in its waters. The Lithuania drone ⁠was shot down nea",
+          "link": "https://www.theguardian.com/world/2026/sep/15/nato-jets-shoot-down-drone-violating-lithuania-airspace-kaunas",
+          "published": "2026-09-15T03:36:56.000Z",
+          "categories": [
+            "Nato",
+            "Lithuania",
+            "Russia",
+            "Europe",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "NATO Fighter Jets Shoot Down Drone As Russia Steps Up Threats",
+          "description": "Lithuanian authorities said the unmanned aerial vehicle entered the country's airspace from Belarus, Russia's closest ally.",
+          "link": "https://www.newsweek.com/nato-shoots-down-drone-lithuania-russia-steps-up-threats-romania-denmark-ukraine-war-12442498",
+          "published": "2026-09-15T07:50:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "NATO fighter jets shoot down drone over Lithuania as locals sent urgent phone warning",
+          "description": "The drone had entered the country from neighbouring Belarus, local reports said.",
+          "link": "https://www.dailymail.com/news/article-16131325/NATO-fighter-jets-shoot-drone-Lithuania.html",
+          "published": "2026-09-15T07:08:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Poland scrambles jets as Putin attacks Kyiv with jet-powered drones",
+          "description": "Major Russian attack comes as an Italian Nato fighter jets shot down a drone in Lithuania shortly after midnight",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-poland-putin-drones-strikes-b3050217.html",
+          "published": "2026-09-15T08:56:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "NATO jets down drone in Lithuanian airspace after bloc warns strikes will drive support for Ukraine",
+          "description": "NATO jets have shot down a drone in Lithuanian airspace overnight",
+          "link": "https://www.independent.co.uk/news/world/europe/kyiv-mark-rutte-drone-nato-ukraine-b3050327.html",
+          "published": "2026-09-15T08:17:25.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-09-15-k6vinf",
+      "topic": "world",
+      "title": "Zelensky says Ukraine ready to de-escalate if Russia halts strikes",
+      "summary": "Trump's announcement comes after he called on Ukraine to halt its attacks on Russian diesel infrastructure during a trip to Ireland over the weekend.",
+      "headlineSource": "France 24",
+      "sourceCount": 9,
+      "score": 19.84,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.22,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine, Russia set for new round of US-mediated talks",
+          "description": "New trilateral talks between Ukraine, Russia and the US could begin in October, according to Kyiv and Moscow. Few expect a breakthrough, but Ukraine is seeking a partial de-escalation to help it get through the winter.",
+          "link": "https://www.dw.com/en/ukraine-russia-set-for-new-round-of-us-mediated-talks/a-79261147?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-14T18:46:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump seeks halt to energy attacks by both Russia, Ukraine",
+          "description": "Donald Trump, under fire for record US diesel prices, claims Russia and Ukraine have agreed to stop striking energy targets. Russia said nothing; Ukraine said \"we expect specifics from our partners\" on any such move.",
+          "link": "https://www.dw.com/en/trump-seeks-halt-to-energy-attacks-by-both-russia-ukraine/a-79265774?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-14T17:59:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Far-right AfD puts pressure on German aid to Ukraine",
+          "description": "Emboldened by its win in Saxony-Anhalt, the far-right Alternative for Germany wants the government to change its Ukraine and Russia policies. Berlin is staying the course, but support is fading — especially in the east.",
+          "link": "https://www.dw.com/en/far-right-afd-puts-pressure-on-german-aid-to-ukraine/a-79257524?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-14T12:46:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelensky says Ukraine ready to de-escalate if Russia halts strikes",
+          "description": "Ukraine is ready to halt attacks on Russian energy infrastructure if Moscow does the same, President Volodymyr Zelensky said Monday, after US President Donald Trump announced an apparent agreement between the two sides. Kyiv also warned that intensifying Russian strikes on Ukraine’s rail network are worsening each week.",
+          "link": "https://www.france24.com/en/europe/20260914-zelensky-says-ukraine-ready-to-de-escalate-if-russia-halts-strikes",
+          "published": "2026-09-14T22:57:26.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WATCH: Trump blames Ukraine for rising diesel costs",
+          "description": "President Trump is calling on Ukraine to stop targeting Russia’s refineries. The President says the attacks are triggering diesel fuel shortages and higher prices.",
+          "link": "https://abcnews.com/video/136410719/",
+          "published": "2026-09-14T05:41:52.000Z",
+          "categories": [
+            "WNT"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine says it's open to halting attacks on Russian energy after Trump's claims of deal",
+          "description": "\"The World's Diesel price rise is mostly caused by the Russia/Ukraine War, not Iran,\" Trump said in a social media post.",
+          "link": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-energy-oil-iran.html",
+          "published": "2026-09-14T22:18:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia readies new 500-mile missile as weapon expert warns of 'terminal end game surprises'",
+          "description": "Russia plans to test a new 800-km ballistic missile by year's end, with an analyst warning its advanced maneuverability could strain Ukraine air defense.",
+          "link": "https://www.foxnews.com/world/russia-readies-new-500-mile-missile-weapon-expert-warns-terminal-end-game-surprises",
+          "published": "2026-09-14T20:04:39.000Z",
+          "categories": [
+            "81f079a8-6dd3-527b-a790-ccf840abc615",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-regions/russia",
+            "fox-news/science/air-and-space",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/politics/executive/national-security",
+            "fox-news/armed-forces",
+            "fox-news/us/military",
+            "fox-news/politics/house-of-representatives/foreign-affairs",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine races to counter Russia's jet-powered drone attacks",
+          "description": "KYIV/LONDON, Sept 15 - In early July, Ukraine's military invited a large group of producers to test a new generation of interceptors developed to counter the jet-powered attack drones Russia has used to devastating effect in recent months.",
+          "link": "https://www.straitstimes.com/world/europe/ukraine-races-to-counter-russias-jet-powered-drone-attacks",
+          "published": "2026-09-15T06:06:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What to know about Russia's upcoming parliamentary election",
+          "description": "MOSCOW, Sept 15 - Russia holds a parliamentary election on September 18 to 20, the first since it launched its full-scale war in Ukraine in February 2022.",
+          "link": "https://www.straitstimes.com/world/europe/what-to-know-about-russias-upcoming-parliamentary-election",
+          "published": "2026-09-15T06:06:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia to hold tightly-controlled vote in fifth year of war",
+          "description": "The parliamentary vote from Sept 18 to Sept 20 will be the first since Russia launched its offensive in February 2022.",
+          "link": "https://www.straitstimes.com/world/europe/russia-to-hold-tightly-controlled-vote-in-fifth-year-of-war",
+          "published": "2026-09-15T04:37:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says Ukraine and Russia agree to halt strikes on energy targets",
+          "description": "Trump's announcement comes after he called on Ukraine to halt its attacks on Russian diesel infrastructure during a trip to Ireland over the weekend.",
+          "link": "https://www.euronews.com/2026/09/14/trump-says-ukraine-and-russia-agree-to-halt-strikes-on-energy-targets",
+          "published": "2026-09-14T16:32:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelenskyy says Ukraine will pause strikes on Russia if Kremlin spares critical infrastructure",
+          "description": "His comments Monday follow President Donald Trump's claim that Russia and Ukraine agreed not to target each other's energy infrastructure.",
+          "link": "https://www.pbs.org/newshour/world/zelenskyy-says-ukraine-will-pause-strikes-on-russia-if-kremlin-spares-critical-infrastructure",
+          "published": "2026-09-14T21:57:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "EU leaders urge unity after Russian strike on train",
+          "description": "Russia's drone attack on a train near the Ukraine-Poland border has triggered EU calls to up support for Kyiv. Allies of Ukraine should show they \"are not scared,\" said the bloc's top diplomat, Kaja Kallas.",
+          "link": "https://www.dw.com/en/eu-leaders-urge-unity-after-russian-strike-on-train/a-79259807?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-14T12:12:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russian Strike on Train Station Near Ukraine-Poland Border Seen as Warning to Kyiv’s Allies",
+          "description": "The attack on Ukraine’s rail network, which connects the country to the West, was a jab at Europe, officials said.",
+          "link": "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html",
+          "published": "2026-09-14T16:34:20.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Drones (Pilotless Planes)",
+            "International Relations",
+            "Defense and Military Forces",
+            "Bombs and Explosives",
+            "Railroads",
+            "European Union",
+            "Central Intelligence Agency",
+            "North Atlantic Treaty Organization",
+            "Johnson, Boris",
+            "Kallas, Kaja (1977-)",
+            "Europe",
+            "Kyiv (Ukraine)",
+            "Moscow (Russia)",
+            "Poland",
+            "Ukraine"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Poland and Ukraine slam Russian strike on train near their border as 'escalation'",
+          "description": "The strike hit a Warsaw-bound train near to the border a short time after another train carrying various foreign dignitaries passed through the same track.",
+          "link": "https://www.euronews.com/2026/09/14/poland-and-ukraine-slam-russian-strike-on-train-near-their-border-as-escalation",
+          "published": "2026-09-14T10:49:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Drone strikes hit key Ukraine-Poland supply route, sparking border fires",
+          "description": "Ukraine said a Russian drone strike ignited a fire at a petrol station near the Yahodyn–Dorohusk border crossing with Poland in the early hours of Sunday, 13 September. Video filmed close to the crossing showed flames and thick smoke as firefighters tackled the blaze.",
+          "link": "https://www.euronews.com/video/2026/09/14/drone-strikes-hit-key-ukraine-poland-supply-route-sparking-border-fires",
+          "published": "2026-09-14T07:27:29.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-09-15-joi75v",
+      "topic": "world",
+      "title": "US repeals rules limiting greenhouse gas emissions by power plants",
+      "summary": "The Trump administration says it could save power plants more than $300bn and 'unleash' American energy.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 9,
+      "score": 19.76,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.14,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US scraps limits on emissions from coal and gas power plants",
+          "description": "The Environment Protection Agency says the move will save the country billions of dollars and reduce energy prices.",
+          "link": "https://www.bbc.co.uk/news/articles/cmly433ke05vo",
+          "published": "2026-09-14T22:04:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US repeals rules limiting greenhouse gas emissions by power plants",
+          "description": "The Trump administration says it could save power plants more than $300bn and 'unleash' American energy.",
+          "link": "https://www.aljazeera.com/news/2026/9/14/us-repeals-rules-limiting-greenhouse-gas-emissions-by-power-plants?traffic_source=rss",
+          "published": "2026-09-14T21:36:09.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US scraps greenhouse gas rules for power plants",
+          "description": "The Environmental Protection Agency said it was repealing Biden-era limits on emissions made by power plants, in the \"largest power sector deregulation action ever.\"",
+          "link": "https://www.dw.com/en/us-scraps-greenhouse-gas-rules-for-power-plants/a-79268393?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-15T05:12:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump guts power plant climate rules",
+          "description": "{beacon} Energy & Environment Energy & Environment The Big Story Trump slashes climate rules for coal and gas plants The Trump administration on Monday gutted regulations that limited planet-warming emissions from coal- and gas-fired power plants. © AP Photo/Charlie Riedel, file The move allows a sector that makes up a large share of the U.S.’s...",
+          "link": "https://thehill.com/newsletters/energy-environment/6089296-trump-guts-power-plant-climate-rules/",
+          "published": "2026-09-14T23:05:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "6 takeaways as Trump takes sledgehammer to power plant climate regs",
+          "description": "The Trump administration on Monday gutted the rules governing the nation’s climate regulations for power plants. Here’s what you should know about the final rule from the Environmental Protection Agency (EPA): It axes most, but not all, power plant climate rules The rules, which have been announced but whose underlying text did not appear to...",
+          "link": "https://thehill.com/homenews/state-watch/6089280-epa-power-plant-regs-coal-gas/",
+          "published": "2026-09-14T22:56:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump administration repeals Biden era greenhouse gas requirements for power plants",
+          "description": "President Donald Trump has systemically dismantled regulations implemented by the Obama and Biden administrations that sought to fight climate change.",
+          "link": "https://www.cnbc.com/2026/09/14/trump-epa-carbon-dioxide-power-plant-climate-change.html",
+          "published": "2026-09-14T20:45:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "EPA repeals limits on greenhouse gas emissions from power plants",
+          "description": "The EPA announced it is repealing rules limiting greenhouse gas emissions from coal and gas-fired power plants. The move eliminates requirements that would have forced some power plants to sharply reduce their emissions, including through technologies such as carbon capture and storage. Geoff Bennett discussed what this rollback means with Vickie Patton of the Environmental Defense Fund.",
+          "link": "https://www.pbs.org/newshour/show/epa-repeals-limits-on-greenhouse-gas-emissions-from-power-plants",
+          "published": "2026-09-14T22:35:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "freebeacon",
+          "outlet": "freebeacon",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump EPA Moves To Permanently Eliminate Greenhouse Gas Emissions Rules for Power Plants, Gutting Biden’s Signature Environmental Policies",
+          "description": "The Trump Environmental Protection Agency is planning to propose the permanent repeal of federal regulations of power plants’ greenhouse gas emissions, asserting that such rules have “virtually no benefit,” the Washington Free Beacon has learned. In tandem with that proposal, the agency is finalizing plans to gut other Biden-era climate rules that forced existing coal-fired plants to close down an",
+          "link": "https://freebeacon.com/energy/trump-epa-moves-to-permanently-eliminate-greenhouse-gas-emissions-rules-for-power-plants-gutting-bidens-signature-environmental-policies/",
+          "published": "2026-09-14T11:45:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Trump throws out power plant climate pollution rules",
+          "description": "The Environmental Protection Agency announced its plans today to kill any remaining standards on how much greenhouse gas pollution power plants are allowed to emit in the US. The move will only make electricity dirtier as AI, electric vehicles, and a revival of domestic manufacturing drive up power demand. The EPA's proposal today is a",
+          "link": "https://www.theverge.com/?p=995051",
+          "published": "2026-09-14T20:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Trump's EPA repeals pollution limits on fossil fuel power plants",
+          "description": "The Trump administration is eliminating limits on climate-warming pollution from the nation's fossil fuel power plants. Environmental groups say this will impact the climate and public health.",
+          "link": "https://www.npr.org/2026/09/14/nx-s1-5968785/epa-repeals-pollution-limits-on-power-plants",
+          "published": "2026-09-14T20:34:28.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-09-15-6yz4rt",
+      "topic": "tech",
+      "title": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'",
+      "summary": "During a conversation with Nvidia CEO Jensen Huang, Donald Trump dismissed concerns over AI doomerism as a hoax. He emphasized that robots won't dominate humanity and urged against slowing down AI progress.",
+      "headlineSource": "Fox Business",
+      "sourceCount": 7,
+      "score": 17.4,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.35,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump calls, interrupts Nvidia CEO to say AI fears are ‘a hoax’",
+          "description": "US President Donald Trump makes a surprise call to Nvidia's CEO, interrupting a live event to discuss fears about AI.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/14-09-clip-trump-comments-on-ai?traffic_source=rss",
+          "published": "2026-09-15T03:28:42.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’",
+          "description": "President Trump has been using his social media site to sound off on Anthropic CEO Dario Amodei's suggestion that the AI industry slow its pace of development.",
+          "link": "https://www.cnbc.com/2026/09/14/trump-phones-nvidia-huang-all-in-calls-data-center-opposition-hoax.html",
+          "published": "2026-09-14T21:32:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump Interrupts AI Summit to Say Robots Won't Take Over the World",
+          "description": "Trump called Jensen Huang during the All-In Summit, dismissing AI doomsday fears as a \"hoax\" and backing data centers.",
+          "link": "https://www.newsweek.com/trump-interrupts-ai-summit-to-say-robots-wont-take-over-the-world-12442456",
+          "published": "2026-09-15T07:33:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump calls Nvidia CEO mid-interview, jokes he couldn't get him on speaker",
+          "description": "During a conversation with Nvidia CEO Jensen Huang, Donald Trump dismissed concerns over AI doomerism as a hoax. He emphasized that robots won't dominate humanity and urged against slowing down AI progress. Huang expressed recognition of AI safety worries but criticized the unscientific framing of existential risks, affirming that responsible AI innovation can coexist with substantial advancements",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/donald-trump-called-nvidia-ceo-jensen-huang-mid-interview-and-tells-everyone-he-cannot-take-him-on-/articleshow/134251791.cms",
+          "published": "2026-09-15T04:24:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+          "description": "Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast's All-In Summit. It's not the first time Huang has taken a call from the president during work, but this time he put Trump on speakerphone before a big crowd. During the call, the president launched into his",
+          "link": "https://www.theverge.com/?p=995079",
+          "published": "2026-09-14T20:03:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Nvidia’s Jensen Huang Gets Onstage Call From Trump, Who Dismissed A.I. Safety Concerns",
+          "description": "Mr. Trump called Jensen Huang, Nvidia’s chief executive, while Mr. Huang was onstage in Los Angeles and criticized calls to slow down and regulate A.I.",
+          "link": "https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html",
+          "published": "2026-09-14T22:29:25.000Z",
+          "categories": [
+            "Artificial Intelligence",
+            "Regulation and Deregulation of Industry",
+            "United States Politics and Government",
+            "Computers and the Internet",
+            "Anthropic AI LLC",
+            "NVIDIA Corporation",
+            "OpenAI Labs",
+            "Amodei, Dario",
+            "Trump, Donald J",
+            "Huang, Jen-Hsun"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'",
+          "description": "President Trump told the Nvidia chief during a surprise phone call that AI fears are a \"hoax\" as Silicon Valley leaders clash over whether its development should be slowed.",
+          "link": "https://www.foxbusiness.com/technology/trump-calls-nvidia-ceo-jensen-huang-during-summit-dismisses-ai-fears-hoax",
+          "published": "2026-09-15T02:15:20.000Z",
+          "categories": [
+            "fd4c5af0-4cc1-5c54-9dd3-b2ca72f2a2e1",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology",
+            "fox-business/topic/artificial-intelligence",
+            "fox-news/fox-news-tech/fox-news-companies",
+            "fox-business/person/donald-trump",
+            "fox-business/technology",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-09-15-1qwd4hg",
+      "topic": "business",
+      "title": "Donald Trump dismisses concerns about dangers of AI",
+      "summary": "US President Donald Trump on Monday rejected warnings about the risks of artificial intelligence, calling concerns over rogue AI part of a “sick conspiracy” as tech leaders urge greater safeguards. The clash comes as the rapidly advancing technology faces…",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 4,
+      "score": 14.85,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 1.83,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Donald Trump dismisses concerns about dangers of AI",
+          "description": "The president called efforts to slow the development of artificial intelligence a \"sick conspiracy,\" claiming they only serve China. Market leaders have warned of the dangers of the pace of the technology's development.",
+          "link": "https://www.dw.com/en/donald-trump-dismisses-concerns-about-dangers-of-ai/a-79264523?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-14T15:54:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump calls concerns over rogue AI a 'hoax' promoted by a ‘sick conspiracy’",
+          "description": "US President Donald Trump on Monday rejected warnings about the risks of artificial intelligence, calling concerns over rogue AI part of a “sick conspiracy” as tech leaders urge greater safeguards. The clash comes as the rapidly advancing technology faces scrutiny over cybersecurity, jobs, data centres and its potential impact on national security.",
+          "link": "https://www.france24.com/en/technology/20260915-trump-calls-concerns-over-rogue-ai-a-hoax-promoted-by-a-sick-conspiracy",
+          "published": "2026-09-15T01:05:38.000Z",
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Forget guardrails, Trump says all the AI industry needs is a smart president",
+          "description": "\"The Trump Administration has stopped AI 'people' from doing bad, or potentially bad, 'things,' like Dario (Anthropic!)\" President Donald Trump wrote.",
+          "link": "https://www.businessinsider.com/trump-dario-amodei-pacing-ai-regulations-2026-9",
+          "published": "2026-09-14T21:46:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump responds to rising AI safety concerns, insists tech will be 'more good than bad'",
+          "description": "President Donald Trump pushed back on Anthropic CEO Dario Amodei's call for an AI slowdown, insisting the technology will be more good than bad.",
+          "link": "https://www.foxbusiness.com/politics/trump-responds-rising-ai-safety-concerns-insists-tech-more-good-than-bad",
+          "published": "2026-09-14T11:26:20.000Z",
+          "categories": [
+            "ca8e4a16-6d2e-53e4-9456-378976d4420d",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/person/donald-trump",
+            "fox-business/politics",
+            "fox-business/economic-indicators/us-economy",
+            "fox-business/politics",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-09-14-xylf5r",
+      "topic": "health",
+      "title": "Pennsylvania says an unvaccinated woman has died from measles-related complications",
+      "summary": "Pennsylvania has announced its third measles-related death in less than three weeks. A local coroner says the 40-year-old woman was unvaccinated.",
+      "headlineSource": "NPR Science",
+      "sourceCount": 5,
+      "score": 14.6,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 1.6,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pennsylvania's growing measles outbreak",
+          "description": "Click in for more news from The Hill {beacon} Healthcare Healthcare The Big Story Pennsylvania sees third measles-associated death A coroner in Pennsylvania reported another death tied to the state’s worsening measles outbreak. © Sean Rayford, Getty Images The Jefferson County coroner in a release initially posted to Facebook said a woman died Saturday...",
+          "link": "https://thehill.com/newsletters/healthcare/6089110-pennsylvanias-growing-measles-outbreak/",
+          "published": "2026-09-14T21:34:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Pennsylvania says an unvaccinated woman has died from measles-related complications",
+          "description": "Pennsylvania has announced its third measles-related death in less than three weeks. A local coroner says the 40-year-old woman was unvaccinated.",
+          "link": "https://www.npr.org/2026/09/13/nx-s1-5968093/pennsylvania-says-an-unvaccinated-woman-has-died-from-measles-related-complications",
+          "published": "2026-09-13T23:23:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+          "description": "The 40-year-old unvaccinated woman reportedly had underlying health conditions.",
+          "link": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
+          "published": "2026-09-13T21:56:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_health",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Pennsylvania says an unvaccinated woman has died from measles-related complications",
+          "description": "Pennsylvania has announced its third measles-related death in less than three weeks. A local coroner says the 40-year-old woman was unvaccinated.",
+          "link": "https://www.npr.org/2026/09/13/nx-s1-5968093/pennsylvania-says-an-unvaccinated-woman-has-died-from-measles-related-complications",
+          "published": "2026-09-13T23:23:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "US records THIRD measles death in worst resurgence of disease in three decades",
+          "description": "The victim, a 40-year-old woman from Jefferson County, Pennsylvania, died from 'complications associated with measles' on Saturday.",
+          "link": "https://www.dailymail.com/health/article-16129981/us-measles-death-pennsylvania-resurgence.html",
+          "published": "2026-09-14T17:17:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Pennsylvania officials report state’s third death involving measles",
+          "description": "A Pennsylvania woman has died from complications associated with measles, the third death in the state this year involving the virus.",
+          "link": "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/",
+          "published": "2026-09-14T14:34:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Pennsylvania records third measles-related death amid outbreak",
+          "description": "RSV season approaches, a federal judge pauses AAP challenge of RFK J.r vaccine charges, and more health news",
+          "link": "https://www.statnews.com/2026/09/14/health-enws-pennsylvania-records-third-measles-related-death-amid-outbreak/",
+          "published": "2026-09-14T11:49:09.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-09-15-lal8gc",
+      "topic": "tech",
+      "title": "What smart people are saying about the AI apocalypse and calls to slow everything down",
+      "summary": "After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated warnings that artificial intelligence…",
+      "headlineSource": "Business Insider",
+      "sourceCount": 4,
+      "score": 14.21,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5,
+        "wire": 0,
+        "freshness": 2.25,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+          "description": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a",
+          "link": "https://www.theverge.com/?p=995186",
+          "published": "2026-09-14T22:59:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "What smart people are saying about the AI apocalypse and calls to slow everything down",
+          "description": "Anthropic CEO Dario Amodei called for a slowdown of frontier AI, winning support from Sam Altman, Elon Musk, and Demis Hassabis — but not everyone.",
+          "link": "https://www.businessinsider.com/ai-risks-slow-down-reaction-anthropic-dario-amodei-sam-altman-2026-9",
+          "published": "2026-09-15T06:24:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Sam Altman identifies two biggest risks facing AI's future",
+          "description": "OpenAI CEO Sam Altman warned of two scenarios that could derail AI progress, from losing control of alignment to dangerous concentration of power.",
+          "link": "https://www.foxbusiness.com/technology/sam-altman-identifies-two-biggest-risks-facing-ais-future",
+          "published": "2026-09-14T21:53:55.000Z",
+          "categories": [
+            "b6812fb7-633f-5d18-93a5-88dcbb6fd5c0",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/technology",
+            "fox-business/business-leaders",
+            "fox-news/fox-news-tech/chatgpt",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Sam Altman says OpenAI won't go public in 2026 amid AI safety concerns",
+          "description": "OpenAI CEO Sam Altman says the company won't go public in 2026, arguing AI safety and alignment concerns make now the wrong time to pursue an IPO.",
+          "link": "https://www.foxbusiness.com/markets/sam-altman-says-openai-wont-go-public-2026-amid-ai-safety-concerns",
+          "published": "2026-09-14T14:29:15.000Z",
+          "categories": [
+            "194364bb-c758-5524-a3d3-c170adb2437b",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/markets/ipos",
+            "fox-business/markets",
+            "fox-business/markets/us-markets/marketcheck",
+            "fox-business/markets/stocks",
+            "fox-business/markets/wall-street",
+            "fox-business/markets",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "AI CEOs say they need to slow the pace of development. But will they?",
+          "description": "After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated warnings that artificial intelligence could kill all of humanity by 2030, the AI company’s CEO, Dario Amodei, issued a proposal at the weekend to slow down the technology’s advancemen",
+          "link": "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
+          "published": "2026-09-14T05:00:26.000Z",
+          "categories": [
+            "AI (artificial intelligence)",
+            "Technology",
+            "Computing",
+            "Anthropic",
+            "OpenAI",
+            "Sam Altman",
+            "Elon Musk"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "AI CEOs say they need to slow the pace of development. But will they?",
+          "description": "After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated warnings that artificial intelligence could kill all of humanity by 2030, the AI company’s CEO, Dario Amodei, issued a proposal at the weekend to slow down the technology’s advancemen",
+          "link": "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
+          "published": "2026-09-14T05:00:26.000Z",
+          "categories": [
+            "AI (artificial intelligence)",
+            "Technology",
+            "Computing",
+            "Anthropic",
+            "OpenAI",
+            "Sam Altman",
+            "Elon Musk"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "An OpenAI researcher broke ranks to say that pacing the frontier, as Altman and Amodei suggest, won't be enough",
+          "description": "Daniel Selsam, an OpenAI researcher, said slowing down AI development won't be sufficient to avoid a situation where humanity loses everything.",
+          "link": "https://www.businessinsider.com/openai-researcher-daniel-selsam-pacing-frontier-not-enough-2026-9",
+          "published": "2026-09-15T05:50:27.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-09-15-11jixcd",
+      "topic": "business",
+      "title": "Africa's richest man Dangote's IPO out of reach in Nigeria",
+      "summary": "Africa’s richest man Aliko Dangote on Monday launched an IPO for his $19 billion Nigerian oil refinery, seeking $1.6 billion from retail investors across the continent. The offering values Africa’s largest refinery at about $49 billion and has drawn both…",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 4,
+      "score": 13.63,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 1.76,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Africa's richest man launches continent's biggest share sale",
+          "description": "Nigerian billionaire Aliko Dangote says he wants ordinary people to share in the success of his oil refinery.",
+          "link": "https://www.bbc.co.uk/news/articles/cxly50gzldz9o",
+          "published": "2026-09-14T16:23:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Africa's richest man Dangote's IPO out of reach in Nigeria",
+          "description": "Dangote seeks $1.6 billion from investors to finance a $14.3 billion expansion and thus double the oil refinery's capacity. The offer could give millions of Nigerians a stake in the company. But who can truly afford it?",
+          "link": "https://www.dw.com/en/africa-s-richest-man-dangote-s-ipo-out-of-reach-in-nigeria/a-79263398?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-09-14T14:12:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nigeria's Dangote refinery launches biggest African IPO",
+          "description": "Africa’s richest man Aliko Dangote on Monday launched an IPO for his $19 billion Nigerian oil refinery, seeking $1.6 billion from retail investors across the continent. The offering values Africa’s largest refinery at about $49 billion and has drawn both strong investor interest and concerns over its high valuation.",
+          "link": "https://www.france24.com/en/africa/20260915-nigeria-s-dangote-refinery-launches-biggest-african-ipo-for-retail-investors",
+          "published": "2026-09-15T00:05:32.000Z",
+          "categories": [
+            "Africa"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nigeria's Dangote refinery kicks off blockbuster IPO",
+          "description": "Nigerian billionaire Aliko Dangote launched the biggest-ever share sale on the African continent, listing 4.1 billion shares in his Lagos refinery on the stock exchange. He framed it as a \"people's IPO\" to give all Nigerians a chance to share the plant's wealth potentials. Trading is expected to start in November. Meanwhile, global oil prices continued to advance as attacks by Yemen's Houthi rebel",
+          "link": "https://www.france24.com/en/tv-shows/business/20260914-nigeria-s-dangote-refinery-kicks-off-blockbuster-ipo",
+          "published": "2026-09-14T20:46:19.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nigerian oil refinery Dangote aims to raise 1.6 billion dollars",
+          "description": "In tonight's edition, Nigeria's Dangote refinery opens itself to public ownership with plans to raise 1.6 billion dollars from retail investors across the continent. Also, President Felix Tshisekedi calls on the National Service to clean up the streets of Kinshasa. And with a month and a half to go until the Youth Olympic Games begin, the Olympic flame begins its tour of Senegal, the tournament's ",
+          "link": "https://www.france24.com/en/nigerian-oil-refinery-dangote-aims-to-raise-1-6-billion-dollars",
+          "published": "2026-09-14T20:31:28.000Z",
+          "categories": [
+            "Eye on Africa"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+          "description": "Public offering of Aliko Dangote’s Nigerian oil refinery business could swell his net wealth by two-thirds The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering. If Monday’s flotation of Dangote Petroleum Refinery and Petrochemicals on the Nigerian exchange goes ",
+          "link": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo",
+          "published": "2026-09-14T12:38:51.000Z",
+          "categories": [
+            "Nigeria",
+            "Business",
+            "Oil",
+            "Oil and gas companies",
+            "IPOs",
+            "Africa",
+            "World news",
+            "Energy industry",
+            "Commodities",
+            "Stock markets"
+          ]
+        }
+      ]
+    }
+  ]
+}
