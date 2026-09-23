@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-09-23",
-  "generatedAt": "2026-09-23T09:04:36.521Z",
+  "generatedAt": "2026-09-23T11:54:10.567Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -23,21 +23,21 @@
       "topicLabel": "World",
       "topicShort": "WORLD",
       "title": "Trump’s White House media ban faces long odds in court, legal experts say",
-      "summary": "US media outlets are usually fierce competitors, but Donald Trump’s ban on CNN, Politico and MS NOW has prompted an unusual show of solidarity among journalists. The move is changing the way the White House is covered, as Trump arrives in New York for the UN…",
+      "summary": "The Department of Justice defended President Trump's recent media ban, arguing that reporting by CNN, MS Now and Politico on a wide range of issues jeopardized national security and spread falsehoods.",
       "url": "https://www.japantimes.co.jp/news/2026/09/23/world/politics/white-house-media-ban-court/",
       "headlineSource": "The Japan Times",
-      "summarySource": "France 24",
-      "publishedAt": "2026-09-23T09:01:00.000Z",
+      "summarySource": "NPR",
+      "publishedAt": "2026-09-23T11:10:00.000Z",
       "sourceCount": 12,
       "leanCount": 5,
       "leanSpread": 1,
       "wireCount": 5,
-      "score": 24.6,
+      "score": 24.53,
       "scoreComponents": {
         "breadth": 11.1,
         "diversity": 7.8,
         "wire": 3.2,
-        "freshness": 2.49,
+        "freshness": 2.43,
         "softPenalty": 0
       },
       "coverage": [
@@ -45,8 +45,8 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing",
-          "url": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o"
+          "title": "What is the White House pool and why is it in a row with Trump?",
+          "url": "https://www.bbc.co.uk/news/articles/c8dx5dy5rzz2o"
         },
         {
           "source": "CNBC",
@@ -70,25 +70,11 @@
           "url": "https://www.theguardian.com/us-news/video/2026/sep/22/donald-trump-cnn-un-general-assembly-video"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Trump has tense exchange with CNN’s Kaitlan Collins at United Nations after White House media ban: ‘You should not be here’",
-          "url": "https://nypost.com/2026/09/22/us-news/trump-has-tense-exchange-with-cnns-kaitlan-collins-at-united-nations-after-media-ban/"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Donald Trump Unleashes on Kaitlan Collins Again, Calls Her 'Sleazebag'",
-          "url": "https://www.newsweek.com/donald-trump-unleashes-kaitlan-collins-calls-her-sleazebag-cnn-press-ban-white-house-12476009"
-        },
-        {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "Major news outlets banned by Trump will have their day in court",
-          "url": "https://www.npr.org/2026/09/23/nx-s1-5978069/cnn-msnow-politico-trump-white-house-ban"
+          "title": "DOJ defends White House media ban, urges court to reject lawsuit",
+          "url": "https://www.npr.org/2026/09/23/nx-s1-5978614/doj-defend-white-house-media-ban"
         },
         {
           "source": "NYT Business",
@@ -105,6 +91,13 @@
           "url": "https://reason.com/video/2026/09/22/trump-feuds-with-kaitlin-collins-after-cnn-media-ban/"
         },
         {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Fight over Trump’s media ban heads to court",
+          "url": "https://thehill.com/newsletters/morning-report/6105756-donald-trump-white-house-media-ban-court-battle/"
+        },
+        {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
@@ -119,231 +112,23 @@
           "url": "https://www.japantimes.co.jp/news/2026/09/23/world/politics/white-house-media-ban-court/"
         },
         {
-          "source": "Times of India",
-          "sourceId": "toi",
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
           "lean": "center",
-          "title": "'White House access privilege, not right': DOJ backs Trump barring reporters",
-          "url": "https://timesofindia.indiatimes.com/world/us/white-house-access-privilege-not-right-doj-cites-national-security-behind-trump-barring-reporters/articleshow/134426616.cms"
+          "title": "News outlets will ask judge to end Trump’s White House ban at hearing",
+          "url": "https://www.straitstimes.com/world/united-states/news-outlets-will-ask-judge-to-end-trumps-white-house-ban-at-hearing"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump media ban faces uphill climb as judge weighs lawsuit by three news outlets",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4738068/trump-media-ban-uphill-climb-judge-lawsuit-three-outlets/"
         }
       ]
     },
     {
       "rank": 2,
-      "id": "2026-09-23-1o5d6o2",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Zelensky says Ukraine is ready for an energy ceasefire with Russia",
-      "summary": "Russian missiles and drones struck at least four Ukrainian regions overnight, killing five people, officials said Tuesday.",
-      "url": "https://www.france24.com/en/europe/20260922-zelensky-says-ukraine-is-ready-for-an-energy-ceasefire-with-russia",
-      "headlineSource": "France 24",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-09-23T08:21:36.000Z",
-      "sourceCount": 14,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 23.75,
-      "scoreComponents": {
-        "breadth": 11.72,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.43,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "NATO jets scrambled in Poland, Romania as Russia strikes Ukraine",
-          "url": "https://abcnews.com/International/nato-jets-scrambled-poland-romania-russia-strikes-ukraine/story?id=136675492"
-        },
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
-          "url": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Ukrainian commander says flying drones have disabled 300 tankers in Russia's shadow fleet",
-          "url": "https://www.businessinsider.com/ukrainian-commander-russia-flying-drones-disabled-300-shadow-fleet-magyar-2026-9"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Ukraine ready to sign landmark drone defense deal with U.S., sources say",
-          "url": "https://www.cbsnews.com/news/ukraine-us-drone-defense-deal-kyiv-iran-war/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Zelenskyy says Ukraine ready for ‘energy ceasefire’, calls for trilateral meeting with Putin, Trump",
-          "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Kyiv and Washington want war in Ukraine to end 'before winter,' Zelenskyy says",
-          "url": "https://www.euronews.com/2026/09/22/kyiv-and-washington-want-war-in-ukraine-to-end-before-winter-zelenskyy-says"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Battle-tested Zelenskyy sounds chilling alarm on where Putin’s war could head next",
-          "url": "https://www.foxnews.com/world/battle-tested-zelenskyy-sounds-chilling-alarm-where-putins-war-could-head-next"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Zelensky says Ukraine is ready for an energy ceasefire with Russia",
-          "url": "https://www.france24.com/en/europe/20260922-zelensky-says-ukraine-is-ready-for-an-energy-ceasefire-with-russia"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Russia forced a Ukrainian soldier to make a propaganda video. His village refused to bury him.",
-          "url": "https://www.nbcnews.com/tech/misinformation/russia-ukraine-pow-video-propaganda-rcna598593"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Russia and Ukraine trade strikes ahead of Zelenskyy's meeting with Trump",
-          "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-trade-strikes-ahead-of-zelenskyys-meeting-with-trump"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Zelenskyy to present Ukraine’s case to UN general assembly – live",
-          "url": "https://www.theguardian.com/world/live/2026/sep/23/united-nations-general-assembly-unga-zelenksyy-trump-xi-china-ukraine-russia-europe-latest-news-updates"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Zelensky says Putin is planning ‘massive’ attack on Kyiv after Nato commander’s warning",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-zelensky-meeting-putin-nato-b3054670.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Zelensky Says He Hopes Trump Will Help to End Russia-Ukraine War ‘Before Winter’",
-          "url": "https://www.nytimes.com/2026/09/22/world/europe/zelensky-trump-war-russia.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Russia hits Kyiv petrol stations, kills one",
-          "url": "https://www.straitstimes.com/world/europe/russia-hits-kyiv-petrol-stations-kills-one"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-09-23-1ryrsu5",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump defends Iran war and threatens annihilation at UN General Assembly",
-      "summary": "” Trump also held high-level talks with Ukrainian President Volodymyr Zelensky, with both sides saying they wanted the war in Ukraine to end before winter. Today, Zelensky and Iranian President Masoud Pezeshkian are among those addressing the UN General…",
-      "url": "https://www.pbs.org/newshour/show/trump-defends-iran-war-and-threatens-annihilation-at-un-general-assembly",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "France 24",
-      "publishedAt": "2026-09-23T08:30:18.000Z",
-      "sourceCount": 9,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 22.01,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.45,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Iranian President Masoud Pezeshkian arrives in New York for UNGA",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/iranian-president-masoud-pezeshkian-arrives-in-new-york-for-unga?traffic_source=rss"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "In photos: Key takeaways from day one of the UN General Assembly",
-          "url": "https://www.cnbc.com/2026/09/23/unga-trump-iran-china-greenland-ukraine-russia-.html"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Erdoğan urges UN to abolish Security Council veto power ahead of General Assembly address",
-          "url": "https://www.euronews.com/2026/09/23/erdogan-urges-un-to-abolish-security-council-veto-power-ahead-of-general-assembly-address"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Trump rebrands AI, rejects 'globalist scheme' to control tech",
-          "url": "https://www.foxbusiness.com/politics/trump-rebrands-ai-rejects-globalist-scheme-control-tech"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "UN Secretary General Guterres urges reforms of Security Council",
-          "url": "https://www.france24.com/en/un-secretary-general-guterres-urges-reforms-of-security-council"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Trump defends Iran war and threatens annihilation at UN General Assembly",
-          "url": "https://www.pbs.org/newshour/show/trump-defends-iran-war-and-threatens-annihilation-at-un-general-assembly"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Trump defends actions in Iran and Venezuela in UN General Assembly address amid rising tensions with allies – as it happened",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/22/donald-trump-unga-speech-iran-middle-east-ukraine-latest-news-updates"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "5 takeaways from Trump’s whirlwind day at UN General Assembly",
-          "url": "https://thehill.com/homenews/6105208-trump-un-speech-iran-venezuela/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Iran’s president faces stark choice in UN speech after Trump threatens ‘annihilation’",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-masoud-pezeshkian-un-speech-trump-b3054188.html"
-        }
-      ]
-    },
-    {
-      "rank": 4,
       "id": "2026-09-23-1u3lp8s",
       "topic": "world",
       "topicLabel": "World",
@@ -353,17 +138,17 @@
       "url": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo",
       "headlineSource": "BBC News",
       "summarySource": "BBC News",
-      "publishedAt": "2026-09-23T08:51:02.000Z",
+      "publishedAt": "2026-09-23T09:38:06.000Z",
       "sourceCount": 10,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 7,
-      "score": 20.51,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 22.27,
       "scoreComponents": {
         "breadth": 10.38,
-        "diversity": 4.45,
+        "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.48,
+        "freshness": 2.29,
         "softPenalty": 0
       },
       "coverage": [
@@ -424,108 +209,524 @@
           "url": "https://www.scmp.com/news/world/africa/article/3368504/south-africa-mass-shooting-leaves-11-dead-3-wounded"
         },
         {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "South African house party shooting kills 11, could be gang violence",
-          "url": "https://www.straitstimes.com/world/shooting-at-south-africa-house-party-kills-11-injures-three"
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Top South African police officer charged with raping woman, 18, and grooming 16-year-old girl",
+          "url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming"
         },
         {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "South Africa mass shooting: At least 11 killed by unidentified gunman in Durban",
-          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/south-africa-mass-shooting-at-least-11-killed-by-unidentified-gunman-in-durban/articleshow/134426336.cms"
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Eleven people killed including pregnant woman in mass shooting in South Africa",
+          "url": "https://www.independent.co.uk/news/world/africa/south-africa-shooting-pregnant-woman-dead-b3054742.html"
         }
       ]
     },
     {
-      "rank": 5,
-      "id": "2026-09-23-swdvjv",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Meta's Muse becomes App Store's hottest download",
-      "summary": "Muse's early success suggests the AI race will be won with consumer-friendly app design, not frontier models.",
-      "url": "https://www.foxbusiness.com/technology/metas-muse-becomes-app-stores-hottest-download",
-      "headlineSource": "Fox Business",
-      "summarySource": "Business Insider",
-      "publishedAt": "2026-09-23T09:00:01.000Z",
-      "sourceCount": 5,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 1,
-      "score": 15.5,
+      "rank": 3,
+      "id": "2026-09-23-oi0i37",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Russia and Ukraine trade strikes ahead of Zelenskyy's meeting with Trump",
+      "summary": "Russian missiles and drones struck at least four Ukrainian regions overnight, killing five people, officials said Tuesday.",
+      "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-trade-strikes-ahead-of-zelenskyys-meeting-with-trump",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-09-23T11:48:04.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 22.06,
       "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 4.45,
-        "wire": 0.8,
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
         "freshness": 2.49,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
+          "source": "CNBC",
+          "sourceId": "cnbc",
           "lean": "center",
-          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
+          "title": "Zelenskyy says Ukraine ready for ‘energy ceasefire,’ calls for trilateral meeting with Putin, Trump",
+          "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html"
         },
         {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Muse's normie-friendly design is the playbook for how Meta can win at AI",
-          "url": "https://www.businessinsider.com/meta-muse-user-friendly-design-killer-feature-2026-9"
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Famine threatens the Ukrainian town of Oleshky in the southern Kherson region as Russia delays creating a humanitarian evacuation corridor",
+          "url": "https://www.dw.com/en/famine-threatens-the-ukrainian-town-of-oleshky-in-the-southern-kherson-region-as-russia-delays-creating-a-humanitarian-evacuation-corridor/a-79380887?maca=en-rss-en-all-1573-rdf"
         },
         {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Kyiv and Washington want war in Ukraine to end 'before winter,' Zelenskyy says",
+          "url": "https://www.euronews.com/2026/09/22/kyiv-and-washington-want-war-in-ukraine-to-end-before-winter-zelenskyy-says"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
           "lean": "right",
-          "title": "Meta's Muse becomes App Store's hottest download",
-          "url": "https://www.foxbusiness.com/technology/metas-muse-becomes-app-stores-hottest-download"
+          "title": "Battle-tested Zelenskyy sounds chilling alarm on where Putin’s war could head next",
+          "url": "https://www.foxnews.com/world/battle-tested-zelenskyy-sounds-chilling-alarm-where-putins-war-could-head-next"
         },
         {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
+          "source": "France 24",
+          "sourceId": "france24",
           "lean": "center",
-          "title": "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
-          "url": "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories"
+          "title": "Russia attacks four Ukrainian regions overnight",
+          "url": "https://www.france24.com/en/russia-attacks-four-ukrainian-regions-overnight"
         },
         {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Russia forced a Ukrainian soldier to make a propaganda video. His village refused to bury him.",
+          "url": "https://www.nbcnews.com/tech/misinformation/russia-ukraine-pow-video-propaganda-rcna598593"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Russia and Ukraine trade strikes ahead of Zelenskyy's meeting with Trump",
+          "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-trade-strikes-ahead-of-zelenskyys-meeting-with-trump"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Zelenskyy to speak at UN hours after ‘severe’ Russian strikes on Kyiv - live",
+          "url": "https://www.theguardian.com/world/live/2026/sep/23/united-nations-general-assembly-unga-zelenksyy-trump-xi-china-ukraine-russia-europe-latest-news-updates"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
           "lean": "center",
-          "title": "AI trade outlook brightens on falling oil and Meta’s Muse agent ahead of Xi-Trump meeting",
-          "url": "https://www.scmp.com/business/china-business/article/3368470/ai-trade-outlook-brightens-falling-oil-and-metas-muse-agent-ahead-xi-trump-meeting"
+          "title": "Russia hits Kyiv petrol stations, kills one",
+          "url": "https://www.straitstimes.com/world/europe/russia-hits-kyiv-petrol-stations-kills-one"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-09-23-x5arl1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Burnham touts 'good connection' with Trump as pair meet for first time in New York",
+      "summary": "Tuesday's meeting represented the biggest diplomatic test yet for Burnham, Britain's sixth prime minister in a decade.",
+      "url": "https://www.euronews.com/2026/09/22/burnham-touts-good-connection-with-trump-as-pair-meet-for-first-time-in-new-york",
+      "headlineSource": "Euronews",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-09-23T11:08:19.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 21.54,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Watch: Key moments from Andy Burnham's first UN speech",
+          "url": "https://www.bbc.co.uk/news/videos/cq5y4zpn655ko"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Andy Burnham sets up new unit dubbed the 'Ministry of Truth' as he blames Putin for exploiting Brexit to sow division in Britain",
+          "url": "https://www.dailymail.com/news/article-16152971/Putin-dividing-Britain-exploiting-Brexit-Burnham-claims.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Burnham touts 'good connection' with Trump as pair meet for first time in New York",
+          "url": "https://www.euronews.com/2026/09/22/burnham-touts-good-connection-with-trump-as-pair-meet-for-first-time-in-new-york"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Burnham navigates diplomatic rapids in first Trump meeting, but turbulent waters lie ahead",
+          "url": "https://www.theguardian.com/politics/2026/sep/23/andy-burnham-first-donald-trump-meeting-united-nations-un-general-assembly"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "UK to review Chagos Islands handover as Trump criticises ‘terrible’ deal in front of Burnham",
+          "url": "https://www.independent.co.uk/news/uk/politics/trump-chagos-islands-burnham-mauritius-streeting-b3054820.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump slams Chagos deal in first meeting with U.K.’s Burnham",
+          "url": "https://www.japantimes.co.jp/news/2026/09/23/world/politics/trump-chagos-deal-uk-burnham/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Andy Burnham, U.K.’s New Prime Minister, Prepares for U.N. Spotlight",
+          "url": "https://www.nytimes.com/2026/09/22/world/europe/andy-burnham-unga-ukraine-iran-war.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Britain says will revisit Chagos deal after latest Trump criticism",
+          "url": "https://www.straitstimes.com/world/britain-says-will-revisit-chagos-deal-after-latest-trump-criticism"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-09-23-1kuxi87",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump threatens to 'annihilate' Iran at UN, then confirms direct talks",
+      "summary": "Speaking at the UN General Assembly on Tuesday, Trump asked whether he should \"annihilate the Islamic Republic\" or offer it a deal to rebuild before telling reporters that US and Iranian officials had met on the sidelines. Most of Iran's delegation walked out…",
+      "url": "https://www.euronews.com/2026/09/22/trump-threatens-to-annihilate-iran-at-un-then-confirms-direct-talks",
+      "headlineSource": "Euronews",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-09-23T11:52:00.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 20.7,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Trump uses UN speech to defend war with Iran",
+          "url": "https://abcnews.com/video/136655841/"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "‘Annihilate’ vs ‘crushing’ attacks: Why Iran, US up rhetoric amid talks",
+          "url": "https://www.aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+          "url": "https://www.bbc.co.uk/news/articles/ck62m1631d7po"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S., Iran hold first talks since June as Trump threatens annihilation",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "At UN, Trump again threatens Iran, but suggests end of war is near",
+          "url": "https://www.csmonitor.com/World/2026/0922/trump-unga-iran-war-oil-prices?icid=rss"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump threatens to 'annihilate' Iran at UN, then confirms direct talks",
+          "url": "https://www.euronews.com/2026/09/22/trump-threatens-to-annihilate-iran-at-un-then-confirms-direct-talks"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump tells U.N. he could ‘annihilate’ Iran but expects a deal after the midterm elections",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him",
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Iran-US war latest: Tehran responds after Trump says they must choose between a peace deal and ‘annihilation’",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-annihilate-threats-un-hormuz-b3054680.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump threatens to annihilate Iran as diplomats push for deal at U.N.",
+          "url": "https://www.japantimes.co.jp/news/2026/09/23/world/politics/trump-iran-diplomats-deal-un/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "At U.N., Trump Says He Will Strike a Deal With Iran or ‘Annihilate’ It",
+          "url": "https://www.nytimes.com/2026/09/22/world/americas/trump-annihilate-iran-unga.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Strategic desperation': Iran on Trump's 'annihilate Islamic Republic' remark",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/strategic-desperation-iran-on-trumps-annihilate-islamic-republic-remark/articleshow/134426578.cms"
         }
       ]
     },
     {
       "rank": 6,
+      "id": "2026-09-23-1y4no33",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump signs Greenland security deal allowing US to expand military presence",
+      "summary": "The agreement will enable the US to expand its military presence on Greenland through the modernisation and enlargement of its current Pituffik Space Base and the establishment of new defence areas at Narsarsuaq and Mestersvig.",
+      "url": "https://www.euronews.com/2026/09/22/trump-signs-greenland-security-deal-allowing-us-to-expand-military-presence",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-09-23T09:06:36.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 19.31,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.25,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump signs agreement with Greenland and Denmark, but isn't 'complete' change",
+          "url": "https://abcnews.com/Politics/trump-sign-agreement-leaders-greenland-denmark-united-nations/story?id=136636071"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US to build two military bases in Greenland under new deal with Denmark",
+          "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump signs agreement giving U.S. broad military authority in Greenland",
+          "url": "https://www.cbsnews.com/news/trump-greenland-deal-denmark-united-nations/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "U.S. strikes Greenland deal at UN to expand military presence at Arctic outposts",
+          "url": "https://www.cnbc.com/2026/09/22/trump-greenland-security-deal-military-bases-.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump signs 'tremendous' Greenland security deal",
+          "url": "https://www.dw.com/en/trump-signs-tremendous-greenland-security-deal/a-79381148?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump signs Greenland security deal allowing US to expand military presence",
+          "url": "https://www.euronews.com/2026/09/22/trump-signs-greenland-security-deal-allowing-us-to-expand-military-presence"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump signs deal with Denmark over U.S. military presence in Greenland",
+          "url": "https://www.nbcnews.com/video/trump-signs-deal-with-denmark-over-u-s-military-presence-in-greenland-270298181545"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US to build new military bases in Greenland as deal seeks to end tensions between Nato allies - as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/sep/22/eu-trump-russia-putin-sanctions-ukraine-greenland-denmark-zelenskyy-latest-news-updates"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Greenland welcomes US military pact but trust still shaky",
+          "url": "https://www.straitstimes.com/world/europe/greenland-welcomes-us-military-pact-but-trust-still-shaky"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-09-23-i4bjqv",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Hurricane Polo intensifies into rare category 5 storm off the coast of Mexico",
+      "summary": "The storm's sudden intensification is \"truly remarkable\", the US hurricane monitoring agency said.",
+      "url": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-23T11:37:40.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 18.57,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Hurricane Polo intensifies into rare category 5 storm off the coast of Mexico",
+          "url": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Hurricane Polo a very powerful Category 4 storm off Mexico. See its path.",
+          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Hurricane Polo churns off Mexico",
+          "url": "https://www.france24.com/en/hurricane-polo-churns-off-mexico"
+        },
+        {
+          "source": "NPR Science",
+          "sourceId": "npr_science",
+          "lean": "center-left",
+          "title": "Category 5 Hurricane Polo is 'one of the strongest storms ever'",
+          "url": "https://www.npr.org/2026/09/23/nx-s1-5978589/hurricane-polo"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "2 years after the storm, graphic novel shares stories of Hurricane Helene survivors",
+          "url": "https://www.pbs.org/newshour/show/2-years-after-the-storm-graphic-novel-shares-stories-of-hurricane-helene-survivors"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
+          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Hurricane Polo is now a Category 5 storm in the Pacific – here are its potential impacts on the US",
+          "url": "https://www.independent.co.uk/news/world/americas/hurricane-polo-category-5-path-mexico-southwest-b3054720.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
       "id": "2026-09-23-1wn5n9d",
       "topic": "business",
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
       "title": "Taiwan and human rights are ‘red lines’ for China, ambassador says ahead of Trump-Xi meeting",
-      "summary": "Chinese leader Xi Jinping will visit Washington this week for talks ​with U.S. President Donald Trump, as both sides look to bring stability to ties.",
+      "summary": "The BBC’s China correspondent and US editor explain everything you need to know ahead of the Trump-Xi meeting in Washington DC.",
       "url": "https://www.japantimes.co.jp/news/2026/09/23/asia-pacific/politics/china-us-ambassador-taiwan-red-line/",
       "headlineSource": "The Japan Times",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-09-23T07:39:15.000Z",
-      "sourceCount": 4,
+      "summarySource": "BBC News",
+      "publishedAt": "2026-09-23T11:00:09.000Z",
+      "sourceCount": 7,
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 2,
-      "score": 14.83,
+      "score": 16.91,
       "scoreComponents": {
-        "breadth": 6.97,
+        "breadth": 9,
         "diversity": 3.9,
         "wire": 1.6,
-        "freshness": 2.37,
+        "freshness": 2.41,
         "softPenalty": 0
       },
       "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump-Xi meeting comes amid tensions on Iran, Taiwan and trade: What to know",
+          "url": "https://abcnews.com/Politics/trump-xi-meeting-amid-tensions-iran-taiwan-trade/story?id=136650648"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "What's at stake when Trump and Xi meet in the US?",
+          "url": "https://www.bbc.co.uk/news/videos/c38xk275jd21o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Trump and Xi may discuss AI, but it's not like nuclear arms control, a China tech policy analyst says",
+          "url": "https://www.businessinsider.com/trump-xi-meeting-summit-ai-safety-regulation-nuclear-arms-control-2026-9"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Here's who we know is going to the Trump-Xi dinner so far",
+          "url": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html"
+        },
         {
           "source": "Guardian Business",
           "sourceId": "guardian_biz",
@@ -546,38 +747,86 @@
           "lean": "center",
           "title": "Taiwan and human rights are ‘red lines’ for China, ambassador says ahead of Trump-Xi meeting",
           "url": "https://www.japantimes.co.jp/news/2026/09/23/asia-pacific/politics/china-us-ambassador-taiwan-red-line/"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Trump-Xi summit: $14 billion Taiwan arms deal hangs over Washington talks",
-          "url": "https://timesofindia.indiatimes.com/world/us/trump-xi-summit-14-billion-taiwan-arms-deal-hangs-over-washington-talks/articleshow/134428850.cms"
         }
       ]
     },
     {
-      "rank": 7,
-      "id": "2026-09-23-lx1ely",
+      "rank": 9,
+      "id": "2026-09-23-2bsk6x",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Trump Says He Supports Banning Diesel Exports to Bring Down Prices",
+      "summary": "Republican lawmakers have called for an export ban as high diesel prices hit farmers and truckers ahead of the November midterm elections.",
+      "url": "https://www.nytimes.com/2026/09/22/business/energy-environment/trump-diesel-exports-iran-war.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "CNBC",
+      "publishedAt": "2026-09-23T11:49:49.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 13.36,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 0,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury secretary says",
+          "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Why analysts say a diesel export ban could backfire",
+          "url": "https://www.marketwatch.com/story/why-analysts-say-a-diesel-export-ban-could-backfire-8b13cd51?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Trump Says He Supports Banning Diesel Exports to Bring Down Prices",
+          "url": "https://www.nytimes.com/2026/09/22/business/energy-environment/trump-diesel-exports-iran-war.html"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "No, Banning Diesel Exports Won't Lower Gas Prices",
+          "url": "https://reason.com/2026/09/22/no-banning-diesel-exports-wont-lower-gas-prices/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-09-23-1dxyucp",
       "topic": "tech",
       "topicLabel": "Technology & physical science",
       "topicShort": "TECH",
-      "title": "Anthropic, OpenAI release cheaper AI even as safety fears grow",
-      "summary": "Anthropic says its Opus 5.5 model delivers performance close to its Fable AI model.",
-      "url": "https://www.straitstimes.com/world/united-states/anthropic-openai-release-cheaper-ai-even-as-safety-fears-grow",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
+      "title": "Salesforce CEO blames Microsoft for not investing in OpenAI",
+      "summary": "Salesforce CEO Marc Benioff says Microsoft's stake in OpenAI stopped his company from investing in the ChatGPT maker. Speaking on Alex Heath's Sources podcast, Benioff said Sam Altman turned him down, pushing Salesforce towards rival Anthropic.",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/marc-benioff-says-because-of-microsoft-salesforce-could-not-invest-in-openai-salesforce-ceo-says-i-knew-sam-altman-very-well-i-was-like-/articleshow/134426696.cms",
+      "headlineSource": "Times of India",
+      "summarySource": "Times of India",
       "publishedAt": "2026-09-23T05:36:40.000Z",
-      "sourceCount": 6,
+      "sourceCount": 5,
       "leanCount": 2,
       "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 14.16,
+      "wireCount": 1,
+      "score": 12.47,
       "scoreComponents": {
-        "breadth": 8.42,
+        "breadth": 7.75,
         "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 2.19,
+        "wire": 0.8,
+        "freshness": 1.96,
         "softPenalty": 0
       },
       "coverage": [
@@ -606,15 +855,8 @@
           "source": "NYT Technology",
           "sourceId": "nyt_tech",
           "lean": "center-left",
-          "title": "Anthropic Releases a New A.I. Model, Opus 5.5, Amid Safety Debate",
-          "url": "https://www.nytimes.com/2026/09/22/technology/anthropic-ai-model-safety.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Anthropic, OpenAI release cheaper AI even as safety fears grow",
-          "url": "https://www.straitstimes.com/world/united-states/anthropic-openai-release-cheaper-ai-even-as-safety-fears-grow"
+          "title": "What to Know About Recent A.I. Hacks at Google, Anthropic, OpenAI and Meta",
+          "url": "https://www.nytimes.com/2026/09/22/technology/ai-hacks-list.html"
         },
         {
           "source": "Times of India",
@@ -622,164 +864,6 @@
           "lean": "center",
           "title": "Salesforce CEO blames Microsoft for not investing in OpenAI",
           "url": "https://timesofindia.indiatimes.com/technology/tech-news/marc-benioff-says-because-of-microsoft-salesforce-could-not-invest-in-openai-salesforce-ceo-says-i-knew-sam-altman-very-well-i-was-like-/articleshow/134426696.cms"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-09-22-k7jwws",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Nepal rejects 'sympathy,' asks for $20 mill after floods",
-      "summary": "Nature, Published online: 22 September 2026; doi:10.1038/d41586-026-03000-7 Countries should not have to wait months to receive relatively small grants for responding to the immediate impact of extreme weather.",
-      "url": "https://www.dw.com/en/nepal-rejects-sympathy-asks-for-20-mill-after-floods/a-79372239?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "Nature",
-      "publishedAt": "2026-09-22T22:30:00.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 2,
-      "score": 14.13,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 3.9,
-        "wire": 1.6,
-        "freshness": 1.66,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Georgia couple who survived Nepal flood shares their story",
-          "url": "https://www.cbsnews.com/atlanta/news/one-month-after-deadly-nepal-flood-georgia-couple-grapples-with-why-they-made-it-home/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Nepal rejects 'sympathy,' asks for $20 mill after floods",
-          "url": "https://www.dw.com/en/nepal-rejects-sympathy-asks-for-20-mill-after-floods/a-79372239?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Guardian Environment",
-          "sourceId": "guardian_env",
-          "lean": "left",
-          "title": "The Patagonia town where Nepal’s deadly glacier flood could be repeated – and what they’ve learned",
-          "url": "https://www.theguardian.com/global-development/2026/sep/22/the-patagonia-town-where-nepals-deadly-glacier-flood-could-be-repeated-and-what-theyve-learned"
-        },
-        {
-          "source": "Nature",
-          "sourceId": "nature",
-          "lean": "center",
-          "title": "Nepal floods pose biggest test yet for UN climate loss and damage fund",
-          "url": "https://www.nature.com/articles/d41586-026-03000-7"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-09-23-1hc745j",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "US criticises Australia's proposed algorithm opt-out laws as 'censorship'",
-      "summary": "Changes applied to algorithms may impact users globally, US says",
-      "url": "https://www.bbc.co.uk/news/articles/cqj3dgy8x3vro",
-      "headlineSource": "BBC Technology",
-      "summarySource": "The Independent",
-      "publishedAt": "2026-09-23T08:20:08.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 14.1,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 3.9,
-        "wire": 0.8,
-        "freshness": 2.43,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
-          "lean": "center",
-          "title": "US criticises Australia's proposed algorithm opt-out laws as 'censorship'",
-          "url": "https://www.bbc.co.uk/news/articles/cqj3dgy8x3vro"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "The E.U. Just Proposed Its Most Sweeping Social Media Restriction to Date",
-          "url": "https://reason.com/2026/09/22/the-e-u-just-proposed-its-most-sweeping-social-media-restriction-to-date/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "US says Australia’s proposed law to opt out of social media algorithm is ‘censorship’",
-          "url": "https://www.independent.co.uk/tech/australia-social-media-algorithm-opt-out-censorship-b3054663.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "U.S. Rebukes Australia Over Proposed Limits on Social Media Algorithms",
-          "url": "https://www.nytimes.com/2026/09/23/world/australia/social-media-law-algorithms-us-embassy.html"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-09-23-1lx4j68",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Scientists discover why Kent meningitis outbreak was so severe",
-      "summary": "The bacteria responsible picked up some new genetic material, say experts.",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx5pp6rxqyo",
-      "headlineSource": "BBC Health",
-      "summarySource": "BBC Health",
-      "publishedAt": "2026-09-23T08:44:10.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 3,
-      "score": 12.82,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 2.4,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC Health",
-          "sourceId": "bbc_health",
-          "lean": "center",
-          "title": "Scientists discover why Kent meningitis outbreak was so severe",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx5pp6rxqyo"
-        },
-        {
-          "source": "NPR Science",
-          "sourceId": "npr_science",
-          "lean": "center-left",
-          "title": "Scientists hope studying the world's pristine reefs will help them heal others",
-          "url": "https://www.npr.org/2026/09/23/nx-s1-5901157/scientists-hope-studying-the-worlds-pristine-reefs-will-help-them-heal-others"
-        },
-        {
-          "source": "ScienceDaily",
-          "sourceId": "sciencedaily",
-          "lean": "center",
-          "title": "Scientists discover first new penguin species in more than 100 years",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260920222410.htm"
         }
       ]
     }
