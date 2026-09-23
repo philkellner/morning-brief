@@ -703,6 +703,82 @@
           "categories": []
         }
       ]
+    },
+    {
+      "id": "attributed-annihilation-is-reporting",
+      "reported": "2026-09-23",
+      "note": "A brief carried 'Trump defends Iran war and threatens annihilation'. The word is not the newsroom reaching for drama - the president said it, and two of three outlets quoted it. The headline chosen should be one that shows the attribution, but the story must not be suppressed: filtering attributed speech edits what a head of state said out of the record.",
+      "expect": {
+        "kept": true,
+        "headlineNot": "^Trump defends Iran war and threatens annihilation"
+      },
+      "items": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "title": "US President Trump threatens \"annihilation\" of Iran despite successful talks",
+          "description": "The president used his General Assembly address to warn Tehran, hours after officials described the talks as productive.",
+          "link": "https://www.france24.com/en/us-president-trump-threatens-annihilation",
+          "topicHint": null,
+          "lean": "center",
+          "wire": true,
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "title": "Iran\u2019s president faces stark choice in UN speech after Trump threatens \u2018annihilation\u2019",
+          "description": "Masoud Pezeshkian must decide how to respond when he addresses the General Assembly later today.",
+          "link": "https://www.independent.co.uk/news/world/middle-east/iran-masoud-pezeshkian",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "title": "Trump defends Iran war and threatens annihilation at UN General Assembly",
+          "description": "The president defended the campaign against Iran in his address to the General Assembly.",
+          "link": "https://www.pbs.org/newshour/show/trump-defends-iran-war",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": true,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "escalating-verb-in-outlet-voice",
+      "reported": "2026-09-23",
+      "note": "The counterpart: the same vocabulary unquoted is the outlet choosing the verb, and should lose to a plain sibling headline.",
+      "expect": {
+        "headlineNot": "annihilates"
+      },
+      "items": [
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "title": "Senate annihilates spending bill in late-night vote",
+          "description": "Senators rejected the package after hours of debate, sending it back to committee.",
+          "link": "https://nypost.com/2026/09/23/senate-spending-bill/",
+          "topicHint": null,
+          "lean": "right",
+          "wire": false,
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "title": "Senate rejects spending bill in late-night vote",
+          "description": "The chamber voted down the package after hours of debate, returning it to committee.",
+          "link": "https://www.pbs.org/newshour/politics/senate-spending-bill",
+          "topicHint": null,
+          "lean": "center-left",
+          "wire": true,
+          "categories": []
+        }
+      ]
     }
   ]
 }

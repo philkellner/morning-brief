@@ -31,6 +31,32 @@ export function softness(items) {
   return soft / items.length;
 }
 
+// Violent and hyperbolic verbs, penalised ONLY in the outlet's own voice.
+//
+// A live brief carried "Trump defends Iran war and threatens annihilation at the
+// UN". That word is not the newsroom reaching for drama: three outlets used it
+// and two put it in quotation marks, because the president said it. Suppressing
+// attributed speech would make the brief less accurate, not more neutral - it
+// would be editing what a head of state said at the UN out of the record.
+//
+// So these are scored against the headline with quoted spans removed. "Trump
+// threatens 'annihilation'" is reporting; "Senate annihilates the bill" is the
+// outlet choosing the verb, and only the second is penalised.
+const ESCALATING_VERBS = /\b(annihilat\w*|obliterat\w*|decimat\w*|pummel\w*|batter(?:s|ed|ing)?|crush(?:es|ed|ing)?|smash(?:es|ed|ing)?|devastat\w*|ravag\w*|demolish\w*|thrash\w*|trounc\w*|maul(?:s|ed|ing)?|wipe[sd]? out|unleash\w*)\b/i;
+
+/**
+ * Remove quoted spans, so attributed language is not scored as the outlet's own.
+ * Straight single quotes are only treated as a quotation when they clearly are
+ * not a possessive or contraction.
+ */
+export function withoutQuotedSpans(text) {
+  return String(text ?? '')
+    .replace(/"[^"]{2,120}"/g, ' ')
+    .replace(/\u201c[^\u201d]{2,120}\u201d/g, ' ')
+    .replace(/\u2018[^\u2019]{2,120}\u2019/g, ' ')
+    .replace(/(^|\s)'([^']{2,60})'(?!\w)/g, '$1 ');
+}
+
 // Framing devices common in engagement-optimised headlines. Presence of these
 // does not make a report false - it makes it a worse choice of neutral summary,
 // so we prefer a sibling headline that lacks them.
@@ -50,6 +76,8 @@ export function sensationalism(title) {
   const t = String(title ?? '');
   let score = 0;
   for (const re of LOADED_PATTERNS) if (re.test(t)) score += 3;
+  // Escalating verbs count only where the outlet, not a source, chose them.
+  if (ESCALATING_VERBS.test(withoutQuotedSpans(t))) score += 3;
   if (/!/.test(t)) score += 2;
   if (/\?$/.test(t)) score += 1.5;
   // Shouted words (initialisms like UN, EU, US, NATO are fine).

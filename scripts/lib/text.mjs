@@ -96,6 +96,29 @@ export function truncate(text, max) {
 }
 
 /**
+ * Remove an unmatched closing quote or bracket stranded at the START of a
+ * string. A live summary began with a bare closing quote, because the feed's
+ * description opened mid-quotation and the sentence before it was never
+ * included. Symmetric to dropDanglingOpener, which handles the other end.
+ */
+export function dropDanglingCloser(text) {
+  let out = String(text ?? '').trimStart();
+  const pairs = [['"', '"'], ['\u201d', '\u201c'], ['\u2019', '\u2018'], [')', '('], [']', '[']];
+  for (let pass = 0; pass < 2; pass += 1) {
+    const before = out;
+    for (const [close, open] of pairs) {
+      if (out.at(0) !== close) continue;
+      const closes = [...out].filter((c) => c === close).length;
+      const opens = close === open ? 0 : [...out].filter((c) => c === open).length;
+      const unbalanced = close === open ? closes % 2 === 1 : closes > opens;
+      if (unbalanced) out = out.slice(1).trimStart().replace(/^[,;:\u2013\u2014-]+/, '').trimStart();
+    }
+    if (out === before) break;
+  }
+  return out;
+}
+
+/**
  * Remove an unmatched quote or bracket left dangling at the end of a trimmed
  * string. Sentence splitting routinely strands the opening quote of a pull
  * quote it did not keep, which then shows up in a notification as a stray ".
@@ -142,7 +165,7 @@ export function firstSentences(text, count, maxChars) {
   const parts = masked.match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) ?? [masked];
   const joined = parts.slice(0, count).join(' ').replace(/\s+/g, ' ').trim();
   const restored = joined.split(PERIOD_PLACEHOLDER).join('.');
-  return dropDanglingOpener(truncate(restored, maxChars));
+  return dropDanglingOpener(truncate(dropDanglingCloser(restored), maxChars));
 }
 
 const STOPWORDS = new Set(`a about after again against all also am an and any are as at be because been before

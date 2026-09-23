@@ -5,7 +5,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener } from './lib/text.mjs';
+import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener, dropDanglingCloser } from './lib/text.mjs';
 import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
 import { classifyCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { looksLikeOpinion, opinionScore, OPINION_PATHS } from './lib/opinion.mjs';
@@ -871,3 +871,17 @@ for (const reported of loadReported()) {
     assert.ok(result.ok, `${reported.note}\n    ${result.failures.join('\n    ')}`);
   });
 }
+
+test('a summary does not begin with an orphan closing quote', () => {
+  // Live on 2026-09-23: the summary of the UN General Assembly story opened with
+  // a bare closing quote, because the feed description began mid-quotation and
+  // the sentence that opened it was never included.
+  const live = '\u201d Trump also held talks with Zelensky, with both sides saying they wanted the war to end before winter.';
+  assert.ok(!/^[\u201d"')\]]/.test(firstSentences(live, 2, 200)), 'summary still starts with orphan punctuation');
+  assert.match(firstSentences(live, 1, 200), /^Trump also held talks/);
+
+  // Balanced quotation must survive untouched.
+  assert.equal(firstSentences('\u201cWe will not relent,\u201d the minister said.', 1, 120),
+    '\u201cWe will not relent,\u201d the minister said.');
+  assert.equal(dropDanglingCloser('The vote passed (narrowly).'), 'The vote passed (narrowly).');
+});
