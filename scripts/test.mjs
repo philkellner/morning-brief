@@ -987,3 +987,21 @@ test('the workflow commits every file the build writes', () => {
       `build writes ${match[1]} but the workflow does not commit it`);
   }
 });
+
+test('the feed points at the domain the site actually serves on', () => {
+  // The user site philkellner.github.io carries a CNAME to philk.dev, and a
+  // project page inherits that domain, so this repo publishes at
+  // philk.dev/morning-brief/. The feed was built with the github.io address
+  // hardcoded, which an Atom reader uses to identify the feed.
+  const build = readFileSync(resolve(ROOT, 'scripts/build-digest.mjs'), 'utf8');
+  const configured = build.match(/siteUrl: process\.env\.SITE_URL \?\? '([^']+)'/)?.[1];
+  assert.ok(configured, 'build-digest should configure siteUrl in one place');
+  assert.ok(!/github\.io/.test(configured), `siteUrl still points at github.io: ${configured}`);
+
+  // And the committed feed must agree with it.
+  const feed = readFileSync(resolve(ROOT, 'docs/feed.xml'), 'utf8');
+  const self = feed.match(/<link rel="self" href="([^"]+)"/)?.[1];
+  assert.ok(self, 'feed has no self link');
+  assert.ok(self.startsWith(configured), `feed self link ${self} does not match configured ${configured}`);
+  assert.ok(self.endsWith('/feed.xml'));
+});

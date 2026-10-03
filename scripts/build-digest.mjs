@@ -28,6 +28,11 @@ const CONFIG = {
   minFeeds: 5,
   minStories: 5,
   timezone: 'America/Chicago',
+  // Where the site actually serves. The user site philkellner.github.io carries
+  // a CNAME to philk.dev, and a project page inherits that domain, so this repo
+  // is published at philk.dev/morning-brief/ - not at the github.io address.
+  // The Atom self link has to match, because readers use it to identify the feed.
+  siteUrl: process.env.SITE_URL ?? 'https://philk.dev/morning-brief/',
 };
 
 function parseArgs(argv) {
@@ -253,9 +258,10 @@ async function main() {
   // Atom feed for newsreaders. A static file on Pages: nothing to run, and
   // nothing for the reader to subscribe to but a URL.
   const feedPath = resolve(ROOT, dirname(args.out), 'feed.xml');
+  const siteUrl = CONFIG.siteUrl.endsWith('/') ? CONFIG.siteUrl : `${CONFIG.siteUrl}/`;
   await writeFile(feedPath, buildAtom(digest, {
-    siteUrl: 'https://philkellner.github.io/morning-brief/',
-    feedUrl: 'https://philkellner.github.io/morning-brief/feed.xml',
+    siteUrl,
+    feedUrl: new URL('feed.xml', siteUrl).toString(),
   }));
 
   log(`\nWrote ${args.out}, feed.xml, archive/${edition}.json and archive/${edition}.detail.json (${stories.length} stories)`);

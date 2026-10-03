@@ -18,7 +18,8 @@
     "notify:dry": "node scripts/notify-ntfy.mjs --dry-run",
     "eval": "node scripts/eval.mjs",
     "triage": "node scripts/triage.mjs",
-    "flag": "node scripts/flag.mjs"
+    "flag": "node scripts/flag.mjs",
+    "feed": "node scripts/build-feed.mjs"
   },
   "license": "MIT"
 }

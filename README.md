@@ -168,8 +168,15 @@ without waiting for 06:00.
 Every build writes an Atom feed:
 
 ```
-https://philkellner.github.io/morning-brief/feed.xml
+https://philk.dev/morning-brief/feed.xml
 ```
+
+Note the domain: the user site `philkellner.github.io` carries a `CNAME` to
+`philk.dev`, and a project page inherits that domain, so this repository is
+published under `philk.dev/morning-brief/` rather than at its github.io address.
+`SITE_URL` overrides it if that ever changes — the Atom `self` link has to match
+the address the feed actually serves from, because readers use it to identify
+the feed.
 
 Subscribe to that URL in NetNewsWire (**File → New Feed**, or paste it into the
 sidebar) and the brief arrives as ten items each morning. Nothing needs to run,
@@ -416,6 +423,7 @@ the thresholds are tuned to favour precision.
 npm test                    # tests plus every reported case, no dependencies
 npm run eval                # just the cases reported from real briefs
 npm run triage -- latest 3  # explain how one story was decided
+npm run feed                # rebuild only feed.xml from the digest on disk
 npm run demo                # run the pipeline against fixtures, no network
 npm run preview             # fetch real feeds, print the digest, write nothing
 npm run probe               # report which feeds are alive
