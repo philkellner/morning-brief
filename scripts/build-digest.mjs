@@ -12,6 +12,7 @@ import { clusterItems } from './lib/cluster.mjs';
 import { buildStories } from './lib/rank.mjs';
 import { stripHtml } from './lib/text.mjs';
 import { isNewsworthy } from './lib/filter.mjs';
+import { buildAtom } from './lib/feed.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const USER_AGENT = 'morning-brief/1.0 (+https://github.com/philkellner/morning-brief)';
@@ -249,7 +250,15 @@ async function main() {
   const detailPath = resolve(ROOT, dirname(args.out), 'archive', `${edition}.detail.json`);
   await writeFile(detailPath, `${JSON.stringify(detail, null, 2)}\n`);
 
-  log(`\nWrote ${args.out}, archive/${edition}.json and archive/${edition}.detail.json (${stories.length} stories)`);
+  // Atom feed for newsreaders. A static file on Pages: nothing to run, and
+  // nothing for the reader to subscribe to but a URL.
+  const feedPath = resolve(ROOT, dirname(args.out), 'feed.xml');
+  await writeFile(feedPath, buildAtom(digest, {
+    siteUrl: 'https://philkellner.github.io/morning-brief/',
+    feedUrl: 'https://philkellner.github.io/morning-brief/feed.xml',
+  }));
+
+  log(`\nWrote ${args.out}, feed.xml, archive/${edition}.json and archive/${edition}.detail.json (${stories.length} stories)`);
 }
 
 main().catch((err) => {

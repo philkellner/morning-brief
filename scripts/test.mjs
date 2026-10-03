@@ -10,6 +10,7 @@ import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readC
 import { classifyCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { looksLikeOpinion, opinionScore, OPINION_PATHS } from './lib/opinion.mjs';
 import { loadReported, runCase } from './lib/reported.mjs';
+import { buildAtom } from './lib/feed.mjs';
 import { parseFeed, cleanUrl } from './lib/rss.mjs';
 import { clusterItems } from './lib/cluster.mjs';
 import { sensationalism, pickHeadline, pickSummary, coreTerms, representativeness, leanSpread, buildStories } from './lib/rank.mjs';
@@ -884,4 +885,87 @@ test('a summary does not begin with an orphan closing quote', () => {
   assert.equal(firstSentences('\u201cWe will not relent,\u201d the minister said.', 1, 120),
     '\u201cWe will not relent,\u201d the minister said.');
   assert.equal(dropDanglingCloser('The vote passed (narrowly).'), 'The vote passed (narrowly).');
+});
+
+// --- Atom feed ---------------------------------------------------------------
+
+const feedOptions = {
+  siteUrl: 'https://philkellner.github.io/morning-brief/',
+  feedUrl: 'https://philkellner.github.io/morning-brief/feed.xml',
+};
+
+const sampleDigest = {
+  edition: '2026-10-03',
+  generatedAt: '2026-10-03T10:00:00.000Z',
+  stories: [
+    {
+      rank: 1, id: 'abc123', topic: 'world', topicLabel: 'World',
+      title: 'Talks resume & tensions <ease> in "the" region',
+      summary: 'Negotiators met again after a pause.',
+      url: 'https://e.invalid/a?x=1&y=2',
+      headlineSource: 'BBC News', sourceCount: 9, leanCount: 4,
+      coverage: [
+        { source: 'BBC News', sourceId: 'bbc', lean: 'center', title: 'Talks resume', url: 'https://e.invalid/b?a=1&b=2' },
+        { source: 'NPR', sourceId: 'npr', lean: 'center-left', title: 'Negotiators <meet> again', url: '' },
+      ],
+    },
+    {
+      rank: 2, id: 'def456', topic: 'health', topicLabel: 'Health, life science & climate',
+      title: 'Second story', summary: '', url: '',
+      headlineSource: 'STAT News', sourceCount: 3, leanCount: 2, coverage: [],
+    },
+  ],
+};
+
+test('the feed escapes every character XML cannot carry raw', () => {
+  const atom = buildAtom(sampleDigest, feedOptions);
+  // Ampersands and angle brackets from headlines and URLs are the classic break.
+  assert.ok(!/&(?!(amp|lt|gt|quot|apos);)/.test(atom), 'found an unescaped ampersand');
+  assert.ok(atom.includes('Talks resume &amp; tensions &lt;ease&gt;'));
+  assert.ok(atom.includes('x=1&amp;y=2'), 'query strings must be escaped');
+  // A tag from the data must never become markup.
+  assert.ok(!/<ease>/.test(atom));
+});
+
+test('the feed carries one entry per story with a stable, unique id', () => {
+  const atom = buildAtom(sampleDigest, feedOptions);
+  const entries = atom.match(/<entry>/g) ?? [];
+  assert.equal(entries.length, 2);
+
+  const ids = [...atom.matchAll(/<id>([^<]+)<\/id>/g)].map((m) => m[1]);
+  // One feed id plus one per entry, all distinct.
+  assert.equal(new Set(ids).size, ids.length, 'duplicate ids would make a reader drop entries');
+  assert.ok(ids.some((i) => i.includes('2026-10-03:abc123')));
+
+  // Rebuilding the same digest must not change the ids, or every story reappears
+  // as unread on the next poll.
+  assert.equal(buildAtom(sampleDigest, feedOptions), atom);
+});
+
+test('the feed survives a story with no summary, url or coverage', () => {
+  const atom = buildAtom(sampleDigest, feedOptions);
+  assert.ok(atom.includes('<title>Second story</title>'));
+  // With no link of its own the entry falls back to the site, never an empty href.
+  assert.ok(!/href=""/.test(atom));
+  // Atom requires a summary; the headline stands in.
+  assert.ok(atom.includes('<summary type="text">Second story</summary>'));
+});
+
+test('the feed strips characters that would make it unparseable', () => {
+  const hostile = {
+    ...sampleDigest,
+    stories: [{ ...sampleDigest.stories[0], title: 'Bad \u0000 control \u0008 chars', summary: 'Lone surrogate \uD800 here' }],
+  };
+  const atom = buildAtom(hostile, feedOptions);
+  assert.ok(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/.test(atom), 'control characters must be stripped');
+  assert.ok(!/[\uD800-\uDFFF]/.test(atom), 'lone surrogates must be stripped');
+});
+
+test('the feed advertises itself and the site', () => {
+  const atom = buildAtom(sampleDigest, feedOptions);
+  assert.ok(atom.includes(`<link rel="self" href="${feedOptions.feedUrl}"/>`));
+  assert.ok(atom.includes(`<link rel="alternate" href="${feedOptions.siteUrl}"/>`));
+  assert.match(atom, /^<\?xml version="1\.0" encoding="utf-8"\?>/);
+  // Topic travels as a category, so a reader can filter or group by it.
+  assert.ok(atom.includes('<category term="health" label="Health, life science &amp; climate"/>'));
 });

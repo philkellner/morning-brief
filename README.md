@@ -7,9 +7,11 @@ trackers, no comment sections, and no single newsroom deciding what leads.
   RSS feeds spanning the political spectrum, and commits it as `docs/digest.json`.
 - **A SwiftUI iOS app** fetches that file and schedules one local notification
   per story for 06:00.
-- **Or, with no app to maintain**, the same cron can push the ten stories to
-  your phone via [ntfy](https://ntfy.sh) — see *Phone notifications without the
-  app* below.
+- **Or read it in a newsreader**: every build publishes an Atom feed at
+  `/feed.xml`, which is the fullest form of the brief — see *Reading it in a
+  newsreader* below.
+- **Or push to your phone** via [ntfy](https://ntfy.sh), with no app to
+  maintain — see *Phone notifications without the app*.
 
 There is no server and nothing to pay for. The whole backend is a cron job that
 commits a JSON file.
@@ -158,6 +160,44 @@ available while both are on the same Wi-Fi.
 Finally, in the app: allow notifications when asked, then **Settings → Send a test
 notification**. It fires after five seconds and exercises the whole delivery path
 without waiting for 06:00.
+
+---
+
+## Reading it in a newsreader
+
+Every build writes an Atom feed:
+
+```
+https://philkellner.github.io/morning-brief/feed.xml
+```
+
+Subscribe to that URL in NetNewsWire (**File → New Feed**, or paste it into the
+sidebar) and the brief arrives as ten items each morning. Nothing needs to run,
+nothing needs installing, and there is no account anywhere — it is a static file
+on GitHub Pages that the reader polls.
+
+This is the fullest form of the brief, because a reader has room for what a
+notification does not. Each entry carries the headline and summary, then the
+provenance: how many outlets ran the story, across how many editorial leans, the
+outlet whose headline was chosen, and **the full list of who else carried it,
+each with its lean and a link to their version**. That coverage list is the thing
+that makes the ranking auditable rather than something to take on trust, and in
+a reader you can actually read it.
+
+The topic travels as an Atom `<category>`, so a reader can group or filter
+by World, Technology, Business and Health.
+
+Entry ids are stable across rebuilds (`tag:morning-brief,<edition>:<story-id>`),
+so re-running a build does not resurface the whole brief as unread.
+
+**GitHub Pages must be enabled** for the URL to serve — *Settings → Pages →
+Source: main, folder: /docs*. The feed is committed either way, so it is also
+readable at the `raw.githubusercontent.com` URL if you would rather not enable
+Pages.
+
+Notifications and the feed are independent. To stop the morning push and read
+only in NetNewsWire, delete the `NTFY_TOPIC` secret; the notification step then
+exits quietly and everything else carries on.
 
 ---
 
