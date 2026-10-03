@@ -75,6 +75,24 @@ export function runCase(testCase) {
   // filters would actually have admitted.
   const admitted = expect.excluded === true ? items : items.filter(isNewsworthy);
 
+  // Pairwise verdicts, which is what clustering actually needs: a cluster count
+  // over a dozen members is brittle, while "these two are the same story" and
+  // "these two are not" are exactly the claims a reported over-merge makes.
+  if (expect.pairs) {
+    const clusters = clusterItems([...backgroundCorpus(), ...admitted]);
+    const indexOf = new Map();
+    clusters.forEach((cluster, index) => cluster.items.forEach((i) => indexOf.set(i, index)));
+    const together = (i, j) => indexOf.get(admitted[i]) === indexOf.get(admitted[j]);
+    const label = (i) => `${admitted[i]?.sourceId}: ${admitted[i]?.title?.slice(0, 48)}`;
+
+    for (const [i, j] of expect.pairs.merge ?? []) {
+      if (!together(i, j)) failures.push(`should be one story but split:\n      ${label(i)}\n      ${label(j)}`);
+    }
+    for (const [i, j] of expect.pairs.split ?? []) {
+      if (together(i, j)) failures.push(`should be separate stories but merged:\n      ${label(i)}\n      ${label(j)}`);
+    }
+  }
+
   if (typeof expect.clusters === 'number') {
     const clusters = clusterItems([...backgroundCorpus(), ...admitted]);
     const landed = new Set();

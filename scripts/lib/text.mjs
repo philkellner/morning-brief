@@ -213,6 +213,42 @@ export function tokenize(text) {
 }
 
 /**
+ * Is this headline written in Title Case, where every significant word is
+ * capitalised?
+ *
+ * It matters because capitalisation is the only proper-noun signal available,
+ * and in Title Case it carries none: "Benchmark Bond Yield Reaches Highest
+ * Level" yields "reaches", "highest" and "level" as proper nouns, which then
+ * take the entity boost in the similarity vector. 10% of the corpus is written
+ * this way, concentrated in a few outlets, so for those the boost was noise -
+ * and noise on ordinary verbs is a mechanism for spurious merges.
+ */
+export function isTitleCase(text) {
+  // Lowercase-able words only: acronyms are capitalised in either style and
+  // would make every headline look like Title Case.
+  // Quoted speech preserves the speaker's own casing, so it says nothing about
+  // the outlet's house style: "Pezeshkian: 'We are not at war with Saudi Arabia'"
+  // is sentence case wearing a quotation.
+  const unquoted = stripHtml(text)
+    .replace(/"[^"]{2,120}"/g, ' ')
+    .replace(/\u201c[^\u201d]{2,120}\u201d/g, ' ')
+    .replace(/\u2018[^\u2019]{2,120}\u2019/g, ' ')
+    .replace(/(^|\s)'([^']{2,60})'(?!\w)/g, '$1 ');
+
+  const words = unquoted
+    .split(/\s+/)
+    .map((w) => w.replace(/[^A-Za-z']/g, ''))
+    .filter((w) => w.length >= 4 && !/^[A-Z]+$/.test(w));
+  // 0.8 over at least five words. A sentence-case headline ending in a
+  // multi-word proper noun - "...at the UN General Assembly" - reaches 0.6 on
+  // its own, so a looser bar misreads ordinary reporting as Title Case and
+  // throws away the real entities with the noise.
+  if (words.length < 5) return false;
+  const capitalised = words.filter((w) => /^[A-Z]/.test(w)).length;
+  return capitalised / words.length >= 0.8;
+}
+
+/**
  * Capitalised runs from the original casing - a cheap proper-noun proxy.
  * Emits both the full phrase and its component words, so "Federal Reserve"
  * still matches "US Federal Reserve". Sentence-initial words are kept: IDF
@@ -221,6 +257,18 @@ export function tokenize(text) {
  */
 export function entities(text) {
   const clean = stripHtml(text);
+
+  // In Title Case, keep only unambiguous acronyms - UN, G20, NATO, OPEC - and
+  // let the description, which is almost always sentence case, supply the rest.
+  if (isTitleCase(clean)) {
+    return [...new Set(
+      // Acronyms keep their signal: UN, NATO, OPEC, G20, AI.
+      (clean.match(/\b[A-Z][A-Z0-9]{1,5}\b/g) ?? [])
+        .map((a) => a.toLowerCase())
+        .filter((a) => a.length >= 2 && !STOPWORDS.has(a)),
+    )];
+  }
+
   const found = new Set();
   const re = /\b([A-Z][\w'&.-]*(?:\s+(?:of|de|del|van|von|der|and|the)\s+[A-Z][\w'&.-]*|\s+[A-Z][\w'&.-]*)*)/g;
   let m;

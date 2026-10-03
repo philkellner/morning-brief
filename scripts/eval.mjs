@@ -13,7 +13,11 @@ const failed = results.filter((r) => !r.ok);
 
 for (const [index, result] of results.entries()) {
   const source = cases[index];
-  const verdict = Object.entries(source.expect ?? {}).map(([k, v]) => `${k}=${v}`).join(' ');
+  const verdict = Object.entries(source.expect ?? {})
+    .map(([k, v]) => (k === 'pairs'
+      ? `pairs=${(v.merge ?? []).length}merge/${(v.split ?? []).length}split`
+      : `${k}=${v}`))
+    .join(' ');
   console.log(`${result.ok ? '  ok  ' : 'FAIL  '}${result.id.padEnd(34)}${verdict}`);
   if (verbose) console.log(`        ${source.note}`);
   for (const failure of result.failures) console.log(`        ${failure}`);

@@ -23,7 +23,7 @@ What this does instead is **measure consensus and show you the evidence**:
 
 | Mechanism | What it buys you |
 |---|---|
-| 35 sources — 10 left-of-centre, 15 centre, 10 right-of-centre | No single outlet's news judgement sets your morning |
+| 63 feeds across 44 outlets — balanced left / centre / right | No single outlet's news judgement sets your morning |
 | Stories ranked by **how many distinct outlets** ran them | "Top" means broadly-reported, not editorially promoted |
 | Ranking rewards **spread across the spectrum** | A story only the left or only the right ran ranks below one everybody ran |
 | Headline picked as the **least sensational** phrasing among covering outlets | You get "Federal Reserve holds rates steady", not "Fed SLAMS critics" |
@@ -285,7 +285,10 @@ npm run flag -- 2026-09-12 9 --id cardiac-research-is-health --expect topic=heal
 ```
 
 Verdicts: `topic=<t>`, `clusters=<n>`, `excluded=true`, `kept=true`,
-`headlineNot=<regex>`, `summaryNot=<regex>`, `headlineIndex=<n>`.
+`headlineNot=<regex>`, `summaryNot=<regex>`, `headlineIndex=<n>`, and `pairs`
+(`{merge: [[i,j]], split: [[i,j]]}`, by item index — the right shape for a
+reported over-merge, where a cluster count over a dozen members is brittle but
+"these two are the same story" is exact).
 
 A freshly flagged case is **expected to fail** — that failure is the bug report.
 

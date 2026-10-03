@@ -5,25 +5,38 @@
 // "ceasefire") dominate the score; common newsroom vocabulary ("says", "report")
 // is near-worthless after IDF, which is exactly what we want.
 
-import { tokenize, entities } from './text.mjs';
+import { tokenize, entities, stem } from './text.mjs';
 
 const ENTITY_BOOST = 1.7;
 // Description tokens are noisier than headline tokens but rescue stories whose
 // headlines share no vocabulary ("Fed holds rates" / "Central bank stands pat").
 const DESCRIPTION_WEIGHT = 0.45;
 
-/** Build the token->weight map for one item before IDF is applied. */
+/**
+ * Build the token->weight map for one item, plus the set of its tokens that are
+ * proper nouns.
+ *
+ * The proper-noun set is what lets the merge gate tell a story from a subject.
+ * Stemmed to match the tokens, since "Houthis" tokenises to "houthi".
+ */
 function termFrequencies(item) {
   const tf = new Map();
+  const properNouns = new Set();
   const bump = (term, amount) => tf.set(term, (tf.get(term) ?? 0) + amount);
   for (const t of tokenize(item.title)) bump(t, 1);
-  for (const e of entities(item.title)) bump(`@${e}`, ENTITY_BOOST);
+  for (const e of entities(item.title)) {
+    bump(`@${e}`, ENTITY_BOOST);
+    for (const word of e.split(/\s+/)) properNouns.add(stem(word));
+  }
   const description = item.description ?? '';
   for (const t of tokenize(description).slice(0, 40)) bump(t, DESCRIPTION_WEIGHT);
   // Headlines abbreviate ("Fed") where the body spells it out ("Federal Reserve"),
   // so body proper nouns are what link those two reports of the same event.
-  for (const e of entities(description).slice(0, 20)) bump(`@${e}`, DESCRIPTION_WEIGHT * ENTITY_BOOST);
-  return tf;
+  for (const e of entities(description).slice(0, 20)) {
+    bump(`@${e}`, DESCRIPTION_WEIGHT * ENTITY_BOOST);
+    for (const word of e.split(/\s+/)) properNouns.add(stem(word));
+  }
+  return { tf, properNouns };
 }
 
 function idfWeights(allTf) {
@@ -77,19 +90,47 @@ function cosine(a, b) {
  * "@nyc" are one piece of evidence rather than two.
  */
 const MIN_SHARED_TERMS = 2;
+// At least one shared term must be a common noun or verb - the thing that
+// happened - and not a name, place or organisation.
+const MIN_PREDICATE_TERMS = 1;
 
-function distinctiveOverlap(a, b, floor) {
-  const [small, large] = a.size <= b.size ? [a, b] : [b, a];
+function distinctiveOverlap(a, b, { floor, predicateFloor }) {
+  const [small, large] = a.vec.size <= b.vec.size ? [a, b] : [b, a];
   const shared = new Set();
-  for (const [term, weight] of small) {
-    const other = large.get(term);
-    if (other && weight * other >= floor) shared.add(term.startsWith('@') ? term.slice(1) : term);
+  let predicate = 0;
+  for (const [term, weight] of small.vec) {
+    const other = large.vec.get(term);
+    if (!other) continue;
+    const product = weight * other;
+    const isProperNoun = term.startsWith('@')
+      || a.properNouns.has(term)
+      || b.properNouns.has(term);
+
+    if (product >= floor) shared.add(term.startsWith('@') ? term.slice(1) : term);
+    // Predicates get a lower bar: common nouns and verbs carry less IDF weight
+    // than names, so holding them to the proper-noun floor rejected genuine
+    // duplicates that agreed on "cargo", "ship" and "struck".
+    if (!isProperNoun && product >= predicateFloor) predicate += 1;
   }
-  return shared.size;
+  return { shared: shared.size, predicate };
 }
 
-function hasDistinctiveOverlap(a, b, floor) {
-  return distinctiveOverlap(a, b, floor) >= MIN_SHARED_TERMS;
+/**
+ * Two items may merge only if they agree on something that happened.
+ *
+ * Shared proper nouns establish a shared SUBJECT, not a shared story. On one day
+ * "Iranian cargo ship struck in Hormuz", "Oman talks postponed", "Iran destroys
+ * US drone" and a Houthi advance all merged into one twelve-outlet cluster on
+ * iran/iranian/hormuz alone - and pulled in an unrelated story about GOP
+ * midterms. Another merged "Amodei calls for AI slowdown" with "Anthropic picks
+ * Nasdaq for IPO" on the word Anthropic.
+ *
+ * Reports of one event share its predicate: struck, postponed, slowdown.
+ * Reports about one subject do not.
+ */
+function hasDistinctiveOverlap(a, b, opts) {
+  const { shared, predicate } = distinctiveOverlap(a, b, opts);
+  return shared >= MIN_SHARED_TERMS && predicate >= opts.minPredicate;
 }
 
 function mergeInto(centroid, vec, weight) {
@@ -114,12 +155,15 @@ export function clusterItems(items, opts = {}) {
   // one. Swept against a 34-item corpus: 0.04 over-splits (recall 0.84) and
   // 0.02 re-merges the NYC group; 0.03 scores precision and recall both 1.00.
   const distinctiveFloor = opts.distinctiveFloor ?? 0.03;
+  const predicateFloor = opts.predicateFloor ?? 0.012;
+  const minPredicate = opts.minPredicate ?? MIN_PREDICATE_TERMS;
+  const gate = { floor: distinctiveFloor, predicateFloor, minPredicate };
 
   if (items.length === 0) return [];
 
-  const tfs = items.map(termFrequencies);
-  const idf = idfWeights(tfs);
-  const vectors = tfs.map((tf) => toVector(tf, idf));
+  const analysed = items.map(termFrequencies);
+  const idf = idfWeights(analysed.map((a) => a.tf));
+  const vectors = analysed.map(({ tf, properNouns }) => ({ vec: toVector(tf, idf), properNouns }));
 
   const clusters = [];
   for (let i = 0; i < items.length; i += 1) {
@@ -128,9 +172,9 @@ export function clusterItems(items, opts = {}) {
     let bestScore = 0;
 
     for (const cluster of clusters) {
-      const score = cosine(vec, cluster.centroid);
+      const score = cosine(vec.vec, cluster.centroid.vec);
       if (score <= bestScore) continue;
-      const distinctive = hasDistinctiveOverlap(vec, cluster.centroid, distinctiveFloor);
+      const distinctive = hasDistinctiveOverlap(vec, cluster.centroid, gate);
       const required = distinctive ? threshold : strictThreshold;
       if (score >= required) { best = cluster; bestScore = score; }
     }
@@ -138,9 +182,14 @@ export function clusterItems(items, opts = {}) {
     if (best) {
       best.items.push(items[i]);
       best.members.push(vec);
-      mergeInto(best.centroid, vec, 1);
+      mergeInto(best.centroid.vec, vec.vec, 1);
+      for (const p of vec.properNouns) best.centroid.properNouns.add(p);
     } else {
-      clusters.push({ centroid: new Map(vec), items: [items[i]], members: [vec] });
+      clusters.push({
+        centroid: { vec: new Map(vec.vec), properNouns: new Set(vec.properNouns) },
+        items: [items[i]],
+        members: [vec],
+      });
     }
   }
 
@@ -150,11 +199,12 @@ export function clusterItems(items, opts = {}) {
     if (!clusters[a]) continue;
     for (let b = a + 1; b < clusters.length; b += 1) {
       if (!clusters[b]) continue;
-      const score = cosine(clusters[a].centroid, clusters[b].centroid);
-      const distinctive = hasDistinctiveOverlap(clusters[a].centroid, clusters[b].centroid, distinctiveFloor);
+      const score = cosine(clusters[a].centroid.vec, clusters[b].centroid.vec);
+      const distinctive = hasDistinctiveOverlap(clusters[a].centroid, clusters[b].centroid, gate);
       if (score >= (distinctive ? threshold : strictThreshold)) {
         clusters[a].items.push(...clusters[b].items);
-        for (const v of clusters[b].members) mergeInto(clusters[a].centroid, v, 1);
+        for (const v of clusters[b].members) mergeInto(clusters[a].centroid.vec, v.vec, 1);
+        for (const p of clusters[b].centroid.properNouns) clusters[a].centroid.properNouns.add(p);
         clusters[a].members.push(...clusters[b].members);
         clusters[b] = null;
       }
