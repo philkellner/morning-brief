@@ -1,17 +1,14 @@
 # Morning Brief
 
-Ten news stories on your phone at 06:00, one notification each. No ads, no
-trackers, no comment sections, and no single newsroom deciding what leads.
+Ten news stories every morning. No ads, no trackers, no comment sections, and
+no single newsroom deciding what leads.
 
-- **A GitHub Actions cron** builds the digest at 05:00 America/Chicago from 35
+- **A GitHub Actions cron** builds the digest at 05:00 America/Chicago from 63
   RSS feeds spanning the political spectrum, and commits it as `docs/digest.json`.
-- **A SwiftUI iOS app** fetches that file and schedules one local notification
-  per story for 06:00.
-- **Or read it in a newsreader**: every build publishes an Atom feed at
-  `/feed.xml`, which is the fullest form of the brief — see *Reading it in a
-  newsreader* below.
-- **Or push to your phone** via [ntfy](https://ntfy.sh), with no app to
-  maintain — see *Phone notifications without the app*.
+- **Read it in a newsreader**: every build publishes an Atom feed at `/feed.xml`,
+  which is the fullest form of the brief — see *Reading it in a newsreader* below.
+- **Or push to your phone** via [ntfy](https://ntfy.sh), one notification per
+  story at 06:00 — see *Phone notifications*.
 
 There is no server and nothing to pay for. The whole backend is a cron job that
 commits a JSON file.
@@ -78,88 +75,12 @@ Two things worth knowing about the source list:
 Run the **Build morning digest** workflow manually. It commits `docs/digest.json`.
 After that it runs itself at 05:00 Chicago every day.
 
-### 5. Optional: the web view
+### 5. Turn on Pages
 
-**Settings → Pages → Source: main, folder: /docs** publishes a terminal-styled
-reader at `https://philkellner.github.io/morning-brief/`. The iOS app does not
-need this — it reads the raw file from GitHub directly.
-
-### 6. Build the app
-
-On your Mac:
-
-```bash
-git clone https://github.com/philkellner/morning-brief.git
-cd morning-brief
-./ios/setup-mac.sh --build
-```
-
-That checks your toolchain, compiles the app for the simulator, and opens Xcode.
-The `--build` step is the one that matters: it compiles without needing any
-Apple account or signing setup, so you find out whether the code is sound before
-touching provisioning. If it fails, it prints the compiler errors.
-
-Other options:
-
-```bash
-./ios/setup-mac.sh                       # check the toolchain and open Xcode
-./ios/setup-mac.sh --team ABC1234567     # write your signing team into the project
-./ios/setup-mac.sh --build --no-open     # verify it compiles, open nothing
-./ios/setup-mac.sh --download-platform --build   # fetch the iOS SDK first
-```
-
-**Two things trip up a fresh Mac**, and the script names both rather than letting
-Xcode fail obscurely:
-
-- *Command Line Tools installed but not Xcode.* The CLT ship their own
-  `/usr/bin/xcodebuild`, so the binary exists and appears to work. It cannot
-  build an iOS app.
-- *Xcode installed but no iOS platform.* Since Xcode 16, the iOS SDK and
-  simulator runtimes are a separate multi-gigabyte download. Without them
-  `xcodebuild` reports "Unable to find a destination matching the provided
-  destination specifier", which does not obviously mean "your SDK is missing".
-  Fix: `xcodebuild -downloadPlatform iOS`.
-
-Then in Xcode: pick your Team under the target's **Signing & Capabilities** tab,
-choose your iPhone, and press Run. Allow notifications when asked, and use
-**Settings → Send a test notification** to confirm delivery without waiting for
-06:00.
-
-Requires **Xcode 16 or newer** — the project uses the newer file-system
-synchronized group format, so adding Swift files never means editing the project
-file. On an older Xcode, regenerate it:
-
-```bash
-brew install xcodegen && cd ios/MorningBrief && xcodegen generate
-```
-
-A free Apple ID works; Apple expires free provisioning profiles after 7 days, so
-you would re-run from Xcode weekly. A paid developer account ($99/yr) makes the
-build last a year.
-
-### 7. Get it onto your iPhone
-
-The first connection has to be over USB; wireless works after that.
-
-1. **Plug the phone in and unlock it.** Answer *Trust This Computer?* with **Trust**
-   and enter your passcode. Until you do, the phone will not appear in Xcode.
-2. **Enable Developer Mode**: *Settings → Privacy & Security → Developer Mode →
-   on*, then restart the phone. The toggle only appears once a Mac running Xcode
-   has connected, so plug in first if you cannot find it.
-3. **Select the phone** in Xcode's device menu, in the toolbar beside the scheme
-   name, and press Run.
-4. **Trust the certificate.** With a free Personal Team the app installs but
-   refuses to launch until you approve it: *Settings → General → VPN & Device
-   Management → your Apple ID under "Developer App" → Trust*. Once only.
-
-Then switch to wireless, because free provisioning expires weekly and you will be
-re-running from Xcode often: with the phone still attached, *Window → Devices and
-Simulators* (`⇧⌘2`) → select it → tick **Connect via Network**. Unplug; it stays
-available while both are on the same Wi-Fi.
-
-Finally, in the app: allow notifications when asked, then **Settings → Send a test
-notification**. It fires after five seconds and exercises the whole delivery path
-without waiting for 06:00.
+**Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder:
+`/docs` → Save.** That serves the Atom feed, and a terminal-styled web reader
+alongside it. See *Enabling the URL* below for why it has to be the branch
+option and not "GitHub Actions".
 
 ---
 
@@ -232,15 +153,16 @@ exits quietly and everything else carries on.
 
 ---
 
-## Phone notifications without the app
+## Phone notifications
 
-The iOS app is only a reader; the digest does not depend on it. If you would
-rather not maintain a sideloaded build — Apple expires free provisioning every
-7 days — the cron can push the same ten stories straight to your phone through
-[ntfy](https://ntfy.sh), whose app comes from the App Store and never expires.
+Alongside the feed — or instead of it — the cron can push the same ten stories
+straight to your phone through [ntfy](https://ntfy.sh), one notification per
+story at 06:00. There is nothing to install beyond ntfy's own App Store app and
+nothing to renew.
 
-You still get one notification per story at 06:00. What you lose is the app's
-coverage breakdown, lean bar and story detail.
+What a notification loses is the provenance: the coverage list, the lean count
+and the outlet attribution all fit in a newsreader entry and not in a
+notification. The two are independent, so running both is reasonable.
 
 ### Setup
 
@@ -452,17 +374,13 @@ overwriting it with junk.
 
 ## Known limitations
 
-- **iOS background refresh is a request, not a promise.** The app asks to be
-  woken 45 minutes before delivery, and also refreshes whenever you open it. If
-  iOS declines to run it, the 06:00 notifications carry the last digest the phone
-  managed to fetch — and the lead notification says so, with the edition date,
-  rather than passing stale news off as current. In practice, opening the app
-  most days is what keeps iOS generous with background time.
-- **Local notifications, not push.** That is what removes the need for a server,
-  APNs certificate, and paid account. The cost is the staleness window above.
 - **English-language sources only**, and heavily US/UK/EU weighted.
-- **The Swift code has not been compiled.** It was written on Linux, where no
-  Xcode toolchain exists. The Node pipeline is fully tested; the app is not.
+- **Health is the thinnest topic.** Specialist provenance needs two outlets
+  agreeing, and there are only two right-of-centre health desks publishing a
+  usable feed, so a health story occasionally falls back to the world quota.
+- **Actions cron drifts.** GitHub's scheduler is best-effort and has been
+  observed over ten hours late. The workflow carries eight hourly triggers and
+  builds on whichever fires first — see *Timing* above.
 
 ## Licence
 

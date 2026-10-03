@@ -1,7 +1,7 @@
 // Run with: node --test scripts/test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -217,66 +217,6 @@ test('soft news is demoted below hard news of equal reach', () => {
   assert.equal(stories.length, 2);
   assert.match(stories[0].title, /interest rates/, 'hard news should outrank soft news at equal reach');
   assert.ok(stories[1].scoreComponents.softPenalty < 0, 'the soft story should carry a penalty');
-});
-
-// --- iOS project structure -------------------------------------------------
-// These run in CI on Linux, where no Xcode exists. They cannot tell us the app
-// compiles, but they catch the structural mistakes that cost a build cycle.
-
-test('Info.plist sits outside the synchronized source folder', () => {
-  // The Xcode 16 file-system-synchronized group adds every file under the source
-  // folder to Copy Bundle Resources. An Info.plist there is therefore produced
-  // twice - once as a copied resource, once from INFOPLIST_FILE - and the build
-  // fails with "Multiple commands produce .../Info.plist".
-  const syncedDir = resolve(ROOT, 'ios/MorningBrief/MorningBrief');
-  const stray = readdirSync(syncedDir, { recursive: true })
-    .map(String)
-    .filter((f) => f.endsWith('Info.plist'));
-  assert.deepEqual(stray, [], `Info.plist must not live inside ${syncedDir}`);
-  assert.ok(existsSync(resolve(ROOT, 'ios/MorningBrief/Info.plist')), 'Info.plist should sit beside the .xcodeproj');
-});
-
-test('the Xcode project points at that Info.plist and generates no other', () => {
-  const pbx = readFileSync(resolve(ROOT, 'ios/MorningBrief/MorningBrief.xcodeproj/project.pbxproj'), 'utf8');
-  // The lookbehind matters: INFOPLIST_FILE is a substring of GENERATE_INFOPLIST_FILE.
-  const infoplistSettings = pbx.match(/(?<![A-Z_])INFOPLIST_FILE = [^;]+;/g) ?? [];
-  assert.equal(infoplistSettings.length, 2, 'expected one INFOPLIST_FILE per build configuration');
-  for (const setting of infoplistSettings) {
-    assert.equal(setting, 'INFOPLIST_FILE = Info.plist;');
-  }
-  assert.equal((pbx.match(/GENERATE_INFOPLIST_FILE = NO;/g) ?? []).length, 2,
-    'both configurations must use the checked-in plist rather than a generated one');
-});
-
-test('the background task identifier is derived, not hard-coded', () => {
-  // BGTaskScheduler refuses to register an identifier absent from Info.plist, and
-  // that failure appears at launch on device - never at build time. Deriving both
-  // sides from the bundle id means renaming the bundle cannot desynchronise them.
-  const plist = readFileSync(resolve(ROOT, 'ios/MorningBrief/Info.plist'), 'utf8');
-  const swift = readFileSync(resolve(ROOT, 'ios/MorningBrief/MorningBrief/Services/BackgroundRefresh.swift'), 'utf8');
-
-  const declared = plist.match(/<key>BGTaskSchedulerPermittedIdentifiers<\/key>\s*<array>\s*<string>([^<]+)<\/string>/)?.[1];
-  assert.equal(declared, '$(PRODUCT_BUNDLE_IDENTIFIER).refresh',
-    'Info.plist should derive the task id from the bundle id build setting');
-
-  const usesBundleId = /taskIdentifier\s*=\s*"\\\(Bundle\.main\.bundleIdentifier/.test(swift);
-  assert.ok(usesBundleId, 'BackgroundRefresh should derive taskIdentifier from Bundle.main.bundleIdentifier');
-  assert.ok(/\.refresh"/.test(swift), 'the derived identifier should keep the .refresh suffix');
-});
-
-test('no source file hard-codes the bundle identifier', () => {
-  // A stale literal here survives a bundle-id change and breaks silently.
-  const dir = resolve(ROOT, 'ios/MorningBrief/MorningBrief');
-  const offenders = readdirSync(dir, { recursive: true })
-    .map(String)
-    .filter((f) => f.endsWith('.swift'))
-    .filter((f) => {
-      const body = readFileSync(resolve(dir, f), 'utf8');
-      // The fallback inside the derivation itself is fine; a bare literal is not.
-      return /"com\.philkellner\.MorningBrief"/.test(body)
-        && !/bundleIdentifier \?\? "com\.philkellner\.MorningBrief"/.test(body);
-    });
-  assert.deepEqual(offenders, [], 'these files hard-code the bundle identifier');
 });
 
 // --- notification delivery --------------------------------------------------
