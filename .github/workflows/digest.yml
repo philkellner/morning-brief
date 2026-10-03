@@ -87,7 +87,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/digest.json docs/archive
+          git add docs/digest.json docs/feed.xml docs/archive
           if git diff --staged --quiet; then
             echo "No change in digest - nothing to commit."
           else

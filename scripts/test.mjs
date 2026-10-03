@@ -969,3 +969,21 @@ test('the feed advertises itself and the site', () => {
   // Topic travels as a category, so a reader can filter or group by it.
   assert.ok(atom.includes('<category term="health" label="Health, life science &amp; climate"/>'));
 });
+
+test('the workflow commits every file the build writes', () => {
+  // The feed was generated correctly and then thrown away: the commit step
+  // stages named paths, and docs/feed.xml was not among them. The generator was
+  // fully tested; what shipped nothing was the glue.
+  const workflow = readFileSync(resolve(ROOT, '.github/workflows/digest.yml'), 'utf8');
+  const staged = workflow.match(/git add ([^\n]+)/)?.[1] ?? '';
+  for (const path of ['docs/digest.json', 'docs/feed.xml', 'docs/archive']) {
+    assert.ok(staged.includes(path), `digest.yml does not commit ${path}`);
+  }
+
+  // Everything build-digest.mjs writes under docs/ must appear there.
+  const build = readFileSync(resolve(ROOT, 'scripts/build-digest.mjs'), 'utf8');
+  for (const match of build.matchAll(/'(feed\.xml|archive)'/g)) {
+    assert.ok(staged.includes(`docs/${match[1]}`) || staged.includes('docs/archive'),
+      `build writes ${match[1]} but the workflow does not commit it`);
+  }
+});
