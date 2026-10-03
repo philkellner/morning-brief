@@ -190,10 +190,34 @@ by World, Technology, Business and Health.
 Entry ids are stable across rebuilds (`tag:morning-brief,<edition>:<story-id>`),
 so re-running a build does not resurface the whole brief as unread.
 
-**GitHub Pages must be enabled** for the URL to serve — *Settings → Pages →
-Source: main, folder: /docs*. The feed is committed either way, so it is also
-readable at the `raw.githubusercontent.com` URL if you would rather not enable
-Pages.
+### Enabling the URL (one click, once)
+
+The feed is committed on every build, but a repository does not serve a site
+until Pages is switched on, and that first switch has to be made by a repo
+admin. Neither the REST API from a sandboxed environment nor
+`actions/configure-pages` from inside Actions can do it: the Actions token may
+*deploy* to Pages but not *create* the site, and tries fail with
+`Resource not accessible by integration`.
+
+**Settings → Pages → Build and deployment → Source: "Deploy from a branch" →
+Branch: `main`, folder: `/docs` → Save.**
+
+Choose the branch option rather than "GitHub Actions". Pages then rebuilds on
+every push to `main`, including the daily digest commit, with no workflow to
+maintain — and critically, branch builds are not subject to the rule that
+commits made with `GITHUB_TOKEN` do not trigger workflows. An Actions-based
+deploy would need a `workflow_run` trigger to work around exactly that.
+
+Until then, and as a permanent fallback, the feed is readable straight from the
+repository:
+
+```
+https://raw.githubusercontent.com/philkellner/morning-brief/main/docs/feed.xml
+```
+
+NetNewsWire reads that fine. The only difference is the content type —
+`text/plain` raw against `application/xml` from Pages — which stricter readers
+care about and NetNewsWire does not.
 
 Notifications and the feed are independent. To stop the morning push and read
 only in NetNewsWire, delete the `NTFY_TOPIC` secret; the notification step then
