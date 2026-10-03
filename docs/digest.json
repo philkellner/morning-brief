@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "2026-10-03",
-  "generatedAt": "2026-10-03T18:30:50.656Z",
+  "generatedAt": "2026-10-03T18:33:31.335Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -32,7 +32,7 @@
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 8,
-      "score": 24.82,
+      "score": 24.81,
       "scoreComponents": {
         "breadth": 12.74,
         "diversity": 6.4,
@@ -336,7 +336,7 @@
         "breadth": 11.1,
         "diversity": 4.45,
         "wire": 3.2,
-        "freshness": 2.38,
+        "freshness": 2.37,
         "softPenalty": 0
       },
       "coverage": [
@@ -428,6 +428,103 @@
     },
     {
       "rank": 4,
+      "id": "2026-10-03-gveu2k",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Brazil's Lula and Flávio Bolsonaro wrap up campaigns on eve of tight vote",
+      "summary": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
+      "url": "https://www.euronews.com/2026/10/03/brazils-lula-and-flavio-bolsonaro-wrap-up-campaigns-on-eve-of-tight-vote",
+      "headlineSource": "Euronews",
+      "summarySource": "NPR",
+      "publishedAt": "2026-10-03T18:30:15.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 19.97,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "What to know about Brazil’s 2026 presidential election",
+          "url": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Why has Brazil accused the US of election interference?",
+          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Brazil is regulating AI use in elections. Here’s why it’s been a challenge.",
+          "url": "https://www.csmonitor.com/World/Americas/2026/1003/ai-brazil-election-lula-bolsonaro?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+          "url": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US, Australia suspend consular services in Brazil",
+          "url": "https://www.dw.com/en/us-australia-suspend-consular-services-in-brazil/a-79526311?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Brazil's Lula and Flávio Bolsonaro wrap up campaigns on eve of tight vote",
+          "url": "https://www.euronews.com/2026/10/03/brazils-lula-and-flavio-bolsonaro-wrap-up-campaigns-on-eve-of-tight-vote"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Brazil’s Lula gears up for ‘last dance’ with run for fourth presidential term",
+          "url": "https://www.france24.com/en/americas/20261002-brazil-s-lula-gears-up-for-last-dance-with-run-for-fourth-presidential-term"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Brazil's big political rematch: What to know about the Brazilian election",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Brazil’s Lula says only he can stop rise of fascism under Bolsonaro’s son",
+          "url": "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "US suspends consular services in Brazil due to security concerns",
+          "url": "https://thehill.com/policy/international/6127503-us-suspends-brazil-consular-services-friday/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
       "id": "2026-10-03-159gsos",
       "topic": "business",
       "topicLabel": "Business",
@@ -499,103 +596,6 @@
           "lean": "center-left",
           "title": "U.S. and Allies Agree to Release Diesel Reserves as Prices Soar",
           "url": "https://www.nytimes.com/2026/10/02/business/diesel-reserves-g7.html"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-03-h3t3pq",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
-      "summary": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
-      "url": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
-      "headlineSource": "Euronews",
-      "summarySource": "NPR",
-      "publishedAt": "2026-10-03T14:29:48.000Z",
-      "sourceCount": 10,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 7,
-      "score": 19.62,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.14,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "What to know about Brazil’s 2026 presidential election",
-          "url": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Why has Brazil accused the US of election interference?",
-          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo"
-        },
-        {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
-          "lean": "center",
-          "title": "Brazil is regulating AI use in elections. Here’s why it’s been a challenge.",
-          "url": "https://www.csmonitor.com/World/Americas/2026/1003/ai-brazil-election-lula-bolsonaro?icid=rss"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
-          "url": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "US, Australia suspend consular services in Brazil",
-          "url": "https://www.dw.com/en/us-australia-suspend-consular-services-in-brazil/a-79526311?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
-          "url": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Brazil’s Lula gears up for ‘last dance’ with run for fourth presidential term",
-          "url": "https://www.france24.com/en/americas/20261002-brazil-s-lula-gears-up-for-last-dance-with-run-for-fourth-presidential-term"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Brazil's big political rematch: What to know about the Brazilian election",
-          "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Brazil’s Lula says only he can stop rise of fascism under Bolsonaro’s son",
-          "url": "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "US suspends consular services in Brazil due to security concerns",
-          "url": "https://thehill.com/policy/international/6127503-us-suspends-brazil-consular-services-friday/"
         }
       ]
     },
@@ -781,12 +781,12 @@
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 3,
-      "score": 17.7,
+      "score": 17.69,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 3.9,
         "wire": 2.4,
-        "freshness": 2.4,
+        "freshness": 2.39,
         "softPenalty": 0
       },
       "coverage": [
@@ -862,7 +862,7 @@
         "breadth": 6.97,
         "diversity": 4.45,
         "wire": 0.8,
-        "freshness": 1.74,
+        "freshness": 1.73,
         "softPenalty": 0
       },
       "coverage": [
@@ -912,12 +912,12 @@
       "leanCount": 2,
       "leanSpread": 0.25,
       "wireCount": 0,
-      "score": 9.95,
+      "score": 9.94,
       "scoreComponents": {
         "breadth": 6,
         "diversity": 1.95,
         "wire": 0,
-        "freshness": 2,
+        "freshness": 1.99,
         "softPenalty": 0
       },
       "coverage": [

@@ -1,6 +1,6 @@
 {
   "edition": "2026-10-03",
-  "generatedAt": "2026-10-03T18:30:50.656Z",
+  "generatedAt": "2026-10-03T18:33:31.335Z",
   "stories": [
     {
       "rank": 1,
@@ -10,7 +10,7 @@
       "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
       "headlineSource": "Deutsche Welle",
       "sourceCount": 18,
-      "score": 24.82,
+      "score": 24.81,
       "scoreComponents": {
         "breadth": 12.74,
         "diversity": 6.4,
@@ -933,7 +933,7 @@
         "breadth": 11.1,
         "diversity": 4.45,
         "wire": 3.2,
-        "freshness": 2.38,
+        "freshness": 2.37,
         "softPenalty": 0
       },
       "members": [
@@ -1193,6 +1193,207 @@
     },
     {
       "rank": 4,
+      "id": "2026-10-03-gveu2k",
+      "topic": "world",
+      "title": "Brazil's Lula and Flávio Bolsonaro wrap up campaigns on eve of tight vote",
+      "summary": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
+      "headlineSource": "Euronews",
+      "sourceCount": 10,
+      "score": 19.97,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's big political rematch: What to know about the Brazilian election",
+          "description": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
+          "link": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "published": "2026-10-03T02:57:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's Lula and Flávio Bolsonaro wrap up campaigns on eve of tight vote",
+          "description": "Brazilian President Luiz Inácio Lula da Silva and Flávio Bolsonaro have a final chance on Saturday to sway voters at rallies in crucial São Paulo before a tight election marked by scandals and personal attacks.",
+          "link": "https://www.euronews.com/2026/10/03/brazils-lula-and-flavio-bolsonaro-wrap-up-campaigns-on-eve-of-tight-vote",
+          "published": "2026-10-03T18:30:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why has Brazil accused the US of election interference?",
+          "description": "The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.",
+          "link": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo",
+          "published": "2026-10-03T13:52:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil is regulating AI use in elections. Here’s why it’s been a challenge.",
+          "description": "Brazil’s polarized political landscape is rife with disinformation – a challenge that can be turbocharged by artificial intelligence.",
+          "link": "https://www.csmonitor.com/World/Americas/2026/1003/ai-brazil-election-lula-bolsonaro?icid=rss",
+          "published": "2026-10-03T09:00:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What to know about Brazil’s 2026 presidential election",
+          "description": "Polls show tight race between incumbent Lula and right-wing rival Flavio Bolsonaro amid concerns over crime and economy.",
+          "link": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss",
+          "published": "2026-10-03T14:23:55.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil’s Lula gears up for ‘last dance’ with run for fourth presidential term",
+          "description": "President Luiz Inacio Lula da Silva will stand for re-election in Brazil on Sunday. At 80, the former steelworker hopes to capitalise on his popularity and economic successes to win a fourth term in office but is neck-and-neck in the polls with far-right rival Flavio Bolsonaro.",
+          "link": "https://www.france24.com/en/americas/20261002-brazil-s-lula-gears-up-for-last-dance-with-run-for-fourth-presidential-term",
+          "published": "2026-10-02T16:20:06.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil: The craze for candidate merch ahead of elections",
+          "description": "Nearly 159 million Brazilians will head to the polling booths on Sunday to vote in general elections. They will elect their new MPs, see two-thirds of the Senate change ranks and, most importantly, vote for their next president.Though the vote is held by secret ballot, people wear their support on their sleeve. Candidates and parties are brandished on flags throughout the streets of #RiodeJaneiro,",
+          "link": "https://www.france24.com/en/video/20261002-brazil-the-craze-for-candidate-merch-ahead-of-elections",
+          "published": "2026-10-02T15:17:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazil’s Lula says only he can stop rise of fascism under Bolsonaro’s son",
+          "description": "President leads huge rally in Rio before election on Sunday seen as most important for decades The Brazilian president, Luiz Inácio Lula da Silva, has claimed he is the only thing standing in the way of far-right “fascists” reclaiming power, as he led a huge rally through the streets of Rio ahead of Sunday’s crunch election. Speaking on the eve of the demonstration, the 80-year-old leftwinger said",
+          "link": "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son",
+          "published": "2026-10-02T21:12:29.000Z",
+          "categories": [
+            "Luiz Inácio Lula da Silva",
+            "Brazil",
+            "Americas",
+            "World news",
+            "The far right",
+            "Activism",
+            "Jair Bolsonaro"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+          "description": "With the first round of Brazil's presidential election taking place Sunday, Wall Street is gearing up with starkly different market predictions.",
+          "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+          "published": "2026-10-03T13:12:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
+          "description": "President Luiz Inacio Lula da Silva and rival Flavio Bolsonaro are pulling no punches in a last-ditch effort to win voters ahead of Sunday's election in Brazil, where the US and Australia suspended consular services Friday over security concerns.",
+          "link": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
+          "published": "2026-10-02T20:40:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US, Australia suspend consular services in Brazil",
+          "description": "The US and Australia have announced a halt to their consular services in Brazil beginning Friday. The news comes two days before Brazilians head to the polls to vote in the high-stakes presidential election.",
+          "link": "https://www.dw.com/en/us-australia-suspend-consular-services-in-brazil/a-79526311?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-03T02:24:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "US suspends consular services in Brazil due to security concerns",
+          "description": "The U.S. halted consular services in Brazil Friday due to rising security concerns ahead of the country’s presidential election on Sunday. “Consular Services in the U.S. Embassy and Consulates in Brazil will be suspended starting today, October 2 due to security concerns,” the U.S. Embassy in Brazil wrote in a security alert Thursday. The shutdown...",
+          "link": "https://thehill.com/policy/international/6127503-us-suspends-brazil-consular-services-friday/",
+          "published": "2026-10-03T14:29:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flavio Bolsonaro: In the name of the father, sons, and holy ideology",
+          "description": "The first round of Brazil’s presidential election on Sunday pits two well-known names in the political ring: Lula vs. Bolsonaro. But it’s not former president Jair Bolsonaro facing off against the incumbent head of state – it’s his eldest son, Flavio Bolsonaro. He’s less charismatic than his father but just as ideologically radical as the family patriarch.",
+          "link": "https://www.france24.com/en/americas/20261003-flavio-bolsonaro-in-the-name-of-the-father-sons-and-holy-ideology",
+          "published": "2026-10-03T09:48:12.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil: Who is presidential candidate Flavio Bolsonaro?",
+          "description": "He was still relatively unknown in Brazil just a few months ago. The 45-year-old senator is now neck and neck with incumbent President Lula in the polls for the upcoming presidential election. Flavio Bolsonaro's victory would add Brazil to the long list of Latin American countries that have shifted to the right or far right in recent months.",
+          "link": "https://www.france24.com/en/video/20261002-brazil-who-is-presidential-candidate-flavio-bolsonaro",
+          "published": "2026-10-02T15:06:54.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
       "id": "2026-10-03-159gsos",
       "topic": "business",
       "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
@@ -1400,195 +1601,6 @@
             "International Relations",
             "International Trade and World Market"
           ]
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-03-h3t3pq",
-      "topic": "world",
-      "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
-      "summary": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
-      "headlineSource": "Euronews",
-      "sourceCount": 10,
-      "score": 19.62,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.14,
-        "softPenalty": 0
-      },
-      "members": [
-        {
-          "sourceId": "npr",
-          "outlet": "npr",
-          "lean": "center-left",
-          "wire": true,
-          "topicHint": null,
-          "title": "Brazil's big political rematch: What to know about the Brazilian election",
-          "description": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
-          "link": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
-          "published": "2026-10-03T02:57:07.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "bbc",
-          "outlet": "bbc",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "Why has Brazil accused the US of election interference?",
-          "description": "The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.",
-          "link": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo",
-          "published": "2026-10-03T13:52:13.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "csm",
-          "outlet": "csm",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "Brazil is regulating AI use in elections. Here’s why it’s been a challenge.",
-          "description": "Brazil’s polarized political landscape is rife with disinformation – a challenge that can be turbocharged by artificial intelligence.",
-          "link": "https://www.csmonitor.com/World/Americas/2026/1003/ai-brazil-election-lula-bolsonaro?icid=rss",
-          "published": "2026-10-03T09:00:11.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "aljazeera",
-          "outlet": "aljazeera",
-          "lean": "center-left",
-          "wire": true,
-          "topicHint": null,
-          "title": "What to know about Brazil’s 2026 presidential election",
-          "description": "Polls show tight race between incumbent Lula and right-wing rival Flavio Bolsonaro amid concerns over crime and economy.",
-          "link": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss",
-          "published": "2026-10-03T14:23:55.000Z",
-          "categories": [
-            "News"
-          ]
-        },
-        {
-          "sourceId": "france24",
-          "outlet": "france24",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "Brazil’s Lula gears up for ‘last dance’ with run for fourth presidential term",
-          "description": "President Luiz Inacio Lula da Silva will stand for re-election in Brazil on Sunday. At 80, the former steelworker hopes to capitalise on his popularity and economic successes to win a fourth term in office but is neck-and-neck in the polls with far-right rival Flavio Bolsonaro.",
-          "link": "https://www.france24.com/en/americas/20261002-brazil-s-lula-gears-up-for-last-dance-with-run-for-fourth-presidential-term",
-          "published": "2026-10-02T16:20:06.000Z",
-          "categories": [
-            "Americas"
-          ]
-        },
-        {
-          "sourceId": "france24",
-          "outlet": "france24",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "Brazil: The craze for candidate merch ahead of elections",
-          "description": "Nearly 159 million Brazilians will head to the polling booths on Sunday to vote in general elections. They will elect their new MPs, see two-thirds of the Senate change ranks and, most importantly, vote for their next president.Though the vote is held by secret ballot, people wear their support on their sleeve. Candidates and parties are brandished on flags throughout the streets of #RiodeJaneiro,",
-          "link": "https://www.france24.com/en/video/20261002-brazil-the-craze-for-candidate-merch-ahead-of-elections",
-          "published": "2026-10-02T15:17:39.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "guardian",
-          "outlet": "guardian",
-          "lean": "left",
-          "wire": false,
-          "topicHint": null,
-          "title": "Brazil’s Lula says only he can stop rise of fascism under Bolsonaro’s son",
-          "description": "President leads huge rally in Rio before election on Sunday seen as most important for decades The Brazilian president, Luiz Inácio Lula da Silva, has claimed he is the only thing standing in the way of far-right “fascists” reclaiming power, as he led a huge rally through the streets of Rio ahead of Sunday’s crunch election. Speaking on the eve of the demonstration, the 80-year-old leftwinger said",
-          "link": "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son",
-          "published": "2026-10-02T21:12:29.000Z",
-          "categories": [
-            "Luiz Inácio Lula da Silva",
-            "Brazil",
-            "Americas",
-            "World news",
-            "The far right",
-            "Activism",
-            "Jair Bolsonaro"
-          ]
-        },
-        {
-          "sourceId": "cnbc",
-          "outlet": "cnbc",
-          "lean": "center",
-          "wire": false,
-          "topicHint": null,
-          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
-          "description": "With the first round of Brazil's presidential election taking place Sunday, Wall Street is gearing up with starkly different market predictions.",
-          "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
-          "published": "2026-10-03T13:12:27.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "euronews",
-          "outlet": "euronews",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
-          "description": "President Luiz Inacio Lula da Silva and rival Flavio Bolsonaro are pulling no punches in a last-ditch effort to win voters ahead of Sunday's election in Brazil, where the US and Australia suspended consular services Friday over security concerns.",
-          "link": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
-          "published": "2026-10-02T20:40:14.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "dw",
-          "outlet": "dw",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "US, Australia suspend consular services in Brazil",
-          "description": "The US and Australia have announced a halt to their consular services in Brazil beginning Friday. The news comes two days before Brazilians head to the polls to vote in the high-stakes presidential election.",
-          "link": "https://www.dw.com/en/us-australia-suspend-consular-services-in-brazil/a-79526311?maca=en-rss-en-all-1573-rdf",
-          "published": "2026-10-03T02:24:00.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "thehill",
-          "outlet": "thehill",
-          "lean": "center",
-          "wire": false,
-          "topicHint": null,
-          "title": "US suspends consular services in Brazil due to security concerns",
-          "description": "The U.S. halted consular services in Brazil Friday due to rising security concerns ahead of the country’s presidential election on Sunday. “Consular Services in the U.S. Embassy and Consulates in Brazil will be suspended starting today, October 2 due to security concerns,” the U.S. Embassy in Brazil wrote in a security alert Thursday. The shutdown...",
-          "link": "https://thehill.com/policy/international/6127503-us-suspends-brazil-consular-services-friday/",
-          "published": "2026-10-03T14:29:48.000Z",
-          "categories": []
-        },
-        {
-          "sourceId": "france24",
-          "outlet": "france24",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "Flavio Bolsonaro: In the name of the father, sons, and holy ideology",
-          "description": "The first round of Brazil’s presidential election on Sunday pits two well-known names in the political ring: Lula vs. Bolsonaro. But it’s not former president Jair Bolsonaro facing off against the incumbent head of state – it’s his eldest son, Flavio Bolsonaro. He’s less charismatic than his father but just as ideologically radical as the family patriarch.",
-          "link": "https://www.france24.com/en/americas/20261003-flavio-bolsonaro-in-the-name-of-the-father-sons-and-holy-ideology",
-          "published": "2026-10-03T09:48:12.000Z",
-          "categories": [
-            "Americas"
-          ]
-        },
-        {
-          "sourceId": "france24",
-          "outlet": "france24",
-          "lean": "center",
-          "wire": true,
-          "topicHint": null,
-          "title": "Brazil: Who is presidential candidate Flavio Bolsonaro?",
-          "description": "He was still relatively unknown in Brazil just a few months ago. The 45-year-old senator is now neck and neck with incumbent President Lula in the polls for the upcoming presidential election. Flavio Bolsonaro's victory would add Brazil to the long list of Latin American countries that have shifted to the right or far right in recent months.",
-          "link": "https://www.france24.com/en/video/20261002-brazil-who-is-presidential-candidate-flavio-bolsonaro",
-          "published": "2026-10-02T15:06:54.000Z",
-          "categories": []
         }
       ]
     },
@@ -1908,12 +1920,12 @@
       "summary": "The pair were arrested on the eve of Yom Kippur and later charged with plotting to attack Jewish targets in Manchester.",
       "headlineSource": "The Straits Times",
       "sourceCount": 7,
-      "score": 17.7,
+      "score": 17.69,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 3.9,
         "wire": 2.4,
-        "freshness": 2.4,
+        "freshness": 2.39,
         "softPenalty": 0
       },
       "members": [
@@ -2026,7 +2038,7 @@
         "breadth": 6.97,
         "diversity": 4.45,
         "wire": 0.8,
-        "freshness": 1.74,
+        "freshness": 1.73,
         "softPenalty": 0
       },
       "members": [
@@ -2145,12 +2157,12 @@
       "summary": "The internet giant is the latest technology company trying to address increasingly hostile local sentiment toward data center projects.",
       "headlineSource": "Ars Technica",
       "sourceCount": 3,
-      "score": 9.95,
+      "score": 9.94,
       "scoreComponents": {
         "breadth": 6,
         "diversity": 1.95,
         "wire": 0,
-        "freshness": 2,
+        "freshness": 1.99,
         "softPenalty": 0
       },
       "members": [
