@@ -1,0 +1,1719 @@
+{
+  "edition": "2026-10-04",
+  "generatedAt": "2026-10-04T10:24:58.599Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-04-1lacxis",
+      "topic": "world",
+      "title": "Flydubai co-pilot attempted 'terrorist attack,' UAE says",
+      "summary": "A passenger on Flydubai flight 1073 has described the actions of on-duty crew members who rushed into the cockpit to stabilise and land the plane after the co-pilot attacked the captain with a crash axe. The flight carrying 182 people en route to Israel was…",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 14,
+      "score": 23.75,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Australia investigating Flydubai co-pilot's links to country",
+          "description": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
+          "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o",
+          "published": "2026-10-04T06:19:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flydubai co-pilot attempted 'terrorist attack,' UAE says",
+          "description": "The man, who stabbed his fellow pilot on an Israel-bound Flydubai flight, was reportedly barred from flying in his native Oman over security concerns.",
+          "link": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-03T08:17:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Who are the mystery pilots who successfully landed endangered Flydubai flight 1073?",
+          "description": "A passenger on Flydubai flight 1073 has described the actions of on-duty crew members who rushed into the cockpit to stabilise and land the plane after the co-pilot attacked the captain with a crash axe. The flight carrying 182 people en route to Israel was able to make an emergency landing in Saudi Arabia after a descent so extreme that part of its rudder was torn away.",
+          "link": "https://www.france24.com/en/middle-east/20261004-who-are-the-mystery-pilots-who-successfully-landed-endangered-flydubai-flight-1073",
+          "published": "2026-10-04T09:36:47.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "FlyDubai captain describes fight for his life after attack on flight to Tel Aviv",
+          "description": "The Indian pilot who was attacked by his co-pilot during a FlyDubai flight opened up and described the attack and his fight back Saturday.",
+          "link": "https://abcnews.com/International/flydubai-captain-describes-fight-life-after-cockpit-attack/story?id=136976570",
+          "published": "2026-10-04T05:39:49.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "More details emerge about FlyDubai co-pilot who tried to crash plane",
+          "description": "Questions about the motive of the co-pilot who tried to crash a packed flight from Dubai to Israel continue to swirl.",
+          "link": "https://www.cbsnews.com/news/flydubai-plane-attempted-crash-hijacking-israel-dubai-what-to-know/",
+          "published": "2026-10-03T13:22:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "FlyDubai pilot tells his survival story in emotional call with Indian leader",
+          "description": "The FlyDubai captain attacked by his co-pilot tells his harrowing survival story to India's leader in an emotional video call from his hospital bed.",
+          "link": "https://www.cbsnews.com/news/flydubai-flight-incident-pilot-tells-india-leader-modi-his-story/",
+          "published": "2026-10-03T00:34:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "FlyDubai captain stabbed mid-flight by \"radicalized\" co-pilot speaks out",
+          "description": "Captain Smit Machchhar, who was stabbed while flying an Israel-bound plane, shared new details about the incident from his hospital bed. Imtiaz Tyab reports.",
+          "link": "https://www.cbsnews.com/video/flydubai-captain-stabbed-mid-flight-by-radicalized-co-pilot-speaks-out/",
+          "published": "2026-10-02T23:50:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flydubai pilot attacked captain with cockpit’s crash ax in attempted terrorist act, UAE official says",
+          "description": "TEL AVIV — A Flydubai pilot attacked his flight captain using a crash ax and tried to take control of the aircraft’s controls in an attempted terrorist attack, an official with the United Arab Emirates said Saturday.",
+          "link": "https://www.nbcnews.com/world/middle-east/flydubai-pilot-attacked-captain-cockpits-crash-axe-attempted-terrorist-rcna601259",
+          "published": "2026-10-03T09:25:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flydubai co-pilot’s time in Australia being investigated by security agencies after alleged cockpit attack",
+          "description": "Police confirm investigation into period the man reportedly spent in Australia before alleged attempted terrorist attack Get our breaking news email, free app or daily news podcast Australian security agencies have launched an investigation after it emerged that the flydubai co-pilot who allegedly tried to hijack an Israel-bound flight spent about two years in the country as a student. Disaster wa",
+          "link": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+          "published": "2026-10-04T01:26:39.000Z",
+          "categories": [
+            "Flydubai plane incident",
+            "Australian security and counter-terrorism",
+            "Australia news",
+            "Israel",
+            "Middle East and north Africa"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flydubai co-pilot used crash axe to attack captain, says UAE",
+          "description": "Attorney general says ‘terrorist attack’ was attempted by suspect who is said to have been barred from flying by Oman because of extremist views The co-pilot of flydubai flight FZ1073 used an axe to attempt to carry out a “terrorist attack” during the Israel-bound flight, the United ⁠Arab Emirates prosecutor general has said. Disaster was narrowly averted on Wednesday when passengers and crew inte",
+          "link": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
+          "published": "2026-10-03T11:56:46.000Z",
+          "categories": [
+            "Flydubai plane incident",
+            "United Arab Emirates",
+            "Air transport",
+            "Israel",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "How FlyDubai Passengers and Crew Averted Disaster After Pilot Was Stabbed During Flight",
+          "description": "A badly wounded Indian pilot managed to unlock the cockpit door. Four Israeli men teamed up to overwhelm an attacker and avert disaster.",
+          "link": "https://www.nytimes.com/2026/10/02/world/middleeast/flydubai-attack-timeline.html",
+          "published": "2026-10-03T14:59:12.000Z",
+          "categories": [
+            "Hijacking",
+            "Flydubai",
+            "Aviation Accidents, Safety and Disasters",
+            "Pilots",
+            "Assaults",
+            "Airlines and Airplanes",
+            "Dubai (United Arab Emirates)",
+            "Israel"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Omani Co-Pilot on FlyDubai Flight Is Said to Have Extremist Views",
+          "description": "It was unclear what background checks had been carried out before he was allowed to fly to Israel.",
+          "link": "https://www.nytimes.com/2026/10/03/world/middleeast/oman-flydubai-flight-1073-pilot-radicalized.html",
+          "published": "2026-10-04T08:31:45.000Z",
+          "categories": [
+            "Airlines and Airplanes",
+            "Hijacking",
+            "Aviation Accidents, Safety and Disasters",
+            "Pilots",
+            "Flydubai",
+            "Machchhar, Smit",
+            "Netanyahu, Benjamin",
+            "Israel",
+            "Saudi Arabia",
+            "United Arab Emirates"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "FlyDubai Co-Pilot Used Crash Ax in ‘Terrorist’ Cockpit Attack, Emirates Says",
+          "description": "The violent midair assault on a FlyDubai flight to Tel Aviv has deepened concerns about the safety of Israelis traveling abroad.",
+          "link": "https://www.nytimes.com/2026/10/03/world/middleeast/flydubai-ax-cockpit.html",
+          "published": "2026-10-03T14:52:27.000Z",
+          "categories": [
+            "Israel",
+            "United Arab Emirates",
+            "Aviation Accidents, Safety and Disasters",
+            "Flydubai"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "FlyDubai plane attack by co-pilot was an attempted 'terrorist' act, UAE says",
+          "description": "The FlyDubai co-pilot attacked the pilot inside the cockpit with a crash axe and attempted to take control of the aircraft, the UAE prosecutor general said.",
+          "link": "https://www.cnbc.com/2026/10/03/flydubai-co-pilot-attacked-pilot-with-axe-uae-says.html",
+          "published": "2026-10-03T12:34:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "'Crazy' FlyDubai landing explained by Israeli pilot, who offers steps to prevent future crises",
+          "description": "Eliran Almog, a former Israeli pilot and aviation cybersecurity CEO, explains why FlyDubai Flight 1073's emergency landing was nearly impossible.",
+          "link": "https://www.foxnews.com/world/crazy-flydubai-landing-explained-israeli-pilot-offers-steps-prevent-future-crises",
+          "published": "2026-10-03T18:13:59.000Z",
+          "categories": [
+            "98bdcb14-fb7f-5e4b-8764-7eb0ad029bf4",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/travel/general/airlines",
+            "fox-news/science/air-and-space",
+            "fox-news/tech/topics/security",
+            "fox-news/us/terror/counter-terrorism",
+            "fox-news/world/world-regions/saudi-arabia",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "FlyDubai co-pilot accused of stabbing captain identified as 29-year-old Omani national",
+          "description": "Hamam al-Hammami, the 29-year-old FlyDubai co-pilot accused of stabbing the captain on a Tel Aviv-bound flight, was previously grounded by Oman Air in 2024.",
+          "link": "https://www.foxnews.com/world/flydubai-co-pilot-accused-stabbing-captain-identified-29-year-old-omani-national",
+          "published": "2026-10-03T10:17:23.000Z",
+          "categories": [
+            "32f9e4e6-f69d-5ceb-9f23-f6d655369189",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/travel/general/airlines",
+            "fox-news/person/benjamin-netanyahu",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/world/world-regions/israel",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "FlyDubai captain said he had “one more fight left in me” and opened cockpit door",
+          "description": "FlyDubai hero captain Smit Machchhar described to Israeli prime minister Benjanim Netanyahu how the attack started and how he managed to finally open the cockpit door after nearly losing his vision under the co-pilot’s repeated blows.",
+          "link": "https://www.euronews.com/2026/10/04/flydubai-captain-said-he-had-one-more-fight-left-in-me-and-opened-cockpit-door",
+          "published": "2026-10-04T09:37:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "UAE says FlyDubai co-pilot attacked captain with axe in 'terrorist' act",
+          "description": "The FlyDubai co-pilot who nearly crashed the Tel-Aviv bound flight is an Omani national named Hamam al-Hammami. He was barred from flying by Oman amid concerns he showed signs of extremist views. The incident threw the already hard-hit regional travel industry into crisis.",
+          "link": "https://www.euronews.com/2026/10/03/uae-says-flydubai-co-pilot-attacked-captain-with-axe-in-terrorist-act",
+          "published": "2026-10-03T09:27:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "UAE investigators say Flydubai co-pilot was planning ‘terrorist act’",
+          "description": "The captain was assaulted by the co-pilot but managed to open the cockpit door, allowing others onboard to overpower the attacker.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/04/world/uae-flydubai-copilot-terrorist-act/",
+          "published": "2026-10-03T22:45:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "AP report: Ax-wielding FlyDubai co-pilot had been flagged over extremism concerns",
+          "description": "The new details raised questions about how thoroughly FlyDubai vets potential employees, and how the co-pilot's presence on a flight filled with Israeli passengers got past Israel's strict security protocols.",
+          "link": "https://www.pbs.org/newshour/world/ap-report-axe-wielding-flydubai-co-pilot-had-been-flagged-over-extremism-concerns",
+          "published": "2026-10-03T15:15:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "UAE Probe Labels FlyDubai Cockpit Ax Attack a Terrorist Act",
+          "description": "A United Arab Emirates investigation of the near-catastrophic FlyDubai flight said the co-pilot attempted “to carry out a terrorist act” as more details emerged about what happened in the cockpit.",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-03/uae-says-flydubai-co-pilot-planned-terrorist-operation",
+          "published": "2026-10-03T07:06:28.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-04-uowo4t",
+      "topic": "world",
+      "title": "Cornell president says university ‘must do better’ after rape allegations",
+      "summary": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 11,
+      "score": 22.85,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cornell president says university 'must do better' after frat house rape allegations",
+          "description": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
+          "link": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o",
+          "published": "2026-10-04T00:11:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cornell president says university ‘must do better’ after rape allegations",
+          "description": "Cornell president says university ‘must do better’ after rape allegations",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/cornell-president-says-university-must-do-better-after-rape-allegations?traffic_source=rss",
+          "published": "2026-10-04T08:33:54.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cornell president vows transparency amid outrage over fraternity rape case",
+          "description": "Michael Kotlikoff expresses deep sorrow over the case, calling it one of the most challenging periods for Cornell.",
+          "link": "https://www.aljazeera.com/news/2026/10/4/cornell-president-vows-transparency-amid-outrage-over-fraternity-rape-case?traffic_source=rss",
+          "published": "2026-10-04T01:15:58.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Cornell president speaks out, says 'defining moment' for university",
+          "description": "The Tompkins County DA's office declined to additional review material gathered by Cornell University police, documents reviewed by ABC News show.",
+          "link": "https://abcnews.com/US/tompkins-county-das-office-declined-review-additional-material/story?id=136973934",
+          "published": "2026-10-04T00:34:38.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Cornell University to take ‘serious look’ at fraternities after rape allegations",
+          "description": "Ivy League school’s president promises action after woman alleged she was drugged ⁠and raped by fraternity members Cornell University will examine the role of fraternities and sororities on campus after an outcry over the school’s handling ⁠of a student’s rape allegations, the Ivy League school’s president has said. A civil lawsuit filed last month by the woman, who ⁠alleges she was drugged ⁠and r",
+          "link": "https://www.theguardian.com/us-news/2026/oct/04/cornell-president-vows-serious-look-at-fraternities-in-wake-of-allegations",
+          "published": "2026-10-04T09:43:26.000Z",
+          "categories": [
+            "US universities",
+            "US news",
+            "New York",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Cornell allegations fuel bipartisan push for stronger sexual assault protections",
+          "description": "Lawmakers across the aisle are pushing for stronger protections for sexual violence survivors after a former Cornell University student's fraternity house gang rape allegations drew national attention last week. While the woman first accused the seven men of raping her for several hours at a fraternity house in 2024, the reports sparked a nationwide controversy...",
+          "link": "https://thehill.com/homenews/6127239-cornell-rape-allegations-spark-congressional-action/",
+          "published": "2026-10-04T10:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cornell president says he is ‘deeply disturbed’ by rape case",
+          "description": "The university has defended aspects of its handling of the cases.",
+          "link": "https://www.straitstimes.com/world/united-states/cornell-president-says-he-is-deeply-disturbed-by-rape-case",
+          "published": "2026-10-04T02:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cornell president vows 'serious look' at fraternities, sororities in wake of rape allegations",
+          "description": "Oct 3 - Cornell University will examine the role of fraternities and sororities on campus following an outcry over the school's handling of a student's rape allegations, the Ivy League school's president said on Saturday.",
+          "link": "https://www.straitstimes.com/world/cornell-president-vows-serious-look-at-fraternities-sororities-in-wake-of-rape-allegations",
+          "published": "2026-10-04T02:03:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cornell president vows review in wake of alleged student gang rape",
+          "description": "The incident has sparked outrage against the Ivy League school and prosecutors for not filing any criminal charges against the accused perpetrators.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/04/world/crime-legal/cornell-president-review-student-rape/",
+          "published": "2026-10-04T08:41:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cornell University boss breaks silence over rape case uproar",
+          "description": "Cornell University president Michael Kotlikoff said he was “deeply disturbed” by a student’s 2024 rape allegation that has drawn national outrage. “My heart aches when I think of what she experienced,” Kotlikoff said in a video message released on Saturday, saying the university must “do everything we can to prevent what happened to Jane Doe” from happening again. Lawyers for a Jane Doe last month",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3369677/cornell-university-boss-breaks-silence-over-rape-case-uproar",
+          "published": "2026-10-04T02:21:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Woman told Cornell investigators she 'felt like bait' during alleged gang rape",
+          "description": "While heavily redacted, the records offer a fuller but sometimes conflicting timeline of events and a glimpse at how the men responded to the allegations. Some disputed the woman's account and said they weren't involved in any assault.",
+          "link": "https://www.pbs.org/newshour/nation/woman-told-cornell-investigators-she-felt-like-bait-during-alleged-gang-rape",
+          "published": "2026-10-03T16:04:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "News Wrap: New York AG appointed as special prosecutor in Cornell rape case",
+          "description": "In our news wrap Friday, New York Gov. Kathy Hochul appointed the state Attorney General Letitia James as a special prosecutor to take over the Cornell University rape case, the U.S. is sending an additional aircraft carrier to the Middle East as President Trump weighs further action against Iran and this year's Kennedy Center Honors will take place at Washington, D.C.'s Capital One Arena.",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-new-york-ag-appointed-as-special-prosecutor-in-cornell-rape-case",
+          "published": "2026-10-02T22:45:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "'Jane Doe' solidarity posts flood social media after Cornell rape lawsuit",
+          "description": "A wave of solidarity has surged on social media in support of a young woman who is suing Cornell University and seven fraternity members she accuses of raping her",
+          "link": "https://www.independent.co.uk/news/world/americas/cornell-new-york-change-university-of-arizona-instagram-b3061031.html",
+          "published": "2026-10-04T10:19:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Cornell president ‘deeply disturbed’ by alleged gang rape, pledges transparency",
+          "description": "Cornell University’s president has called the alleged gang rape of a student at a fraternity house in 2024 “deeply disturbing”",
+          "link": "https://www.independent.co.uk/news/world/americas/cornell-president-rape-michael-kotlikoff-b3060996.html",
+          "published": "2026-10-04T08:35:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "DA in Cornell rape investigation declined to review some evidence, including interviews: report",
+          "description": "Prosecutors agreed not to pursue criminal charges based on Jane Doe’s six-page statement",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/cornell-rape-distict-attorney-denied-investigation-evidence-b3060873.html",
+          "published": "2026-10-03T18:24:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Cornell knew of drug arrest, overdose at Chi Phi frat before alleged gang rape: records",
+          "description": "Cornell police responded to Chi Phi at about 1:05 a.m. on Oct. 19, 2024, and made a drug-related arrest during the roughly 40-minute response.",
+          "link": "https://nypost.com/2026/10/03/us-news/cornell-knew-of-drug-arrest-overdose-at-chi-phi-frat-before-alleged-gang-rape-records/",
+          "published": "2026-10-03T23:20:56.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-04-i7vb05",
+      "topic": "world",
+      "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+      "summary": "Prison commissioner Frank Strada insisted his team followed protocol, even after two doses of anesthetic failed to kill convicted murderer Christa Pike. He is set to leave his post this month.",
+      "headlineSource": "BBC News",
+      "sourceCount": 12,
+      "score": 22.66,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 1.96,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+          "description": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections.",
+          "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo",
+          "published": "2026-10-03T17:48:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tennessee's prison chief resigns after botched execution of murderer Christa Pike",
+          "description": "Prison commissioner Frank Strada insisted his team followed protocol, even after two doses of anesthetic failed to kill convicted murderer Christa Pike. He is set to leave his post this month.",
+          "link": "https://www.dw.com/en/tennessee-s-prison-chief-resigns-after-botched-execution-of-murderer-christa-pike/a-79532481?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-03T18:41:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tennessee prison chief who oversaw botched Christa Pike execution resigns",
+          "description": "The head of Tennessee's prison system has resigned in the first major shake-up since the stunning failed execution of Christa Pike, who is in critical condition after surviving two lethal injections. Tennessee Governor Bill Lee, who previously denied Pike clemency, has halted further executions through the rest of the year while a review is conducted.",
+          "link": "https://www.france24.com/en/americas/20261003-tennessee-prison-chief-who-oversaw-botched-christa-pike-execution-resigns",
+          "published": "2026-10-03T17:24:14.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tennessee prisons chief resigns after failed execution of Christa Pike",
+          "description": "Tennessee's prisons chief has resigned after the failed execution of death row prisoner Christa Pike.",
+          "link": "https://news.sky.com/story/prisons-chief-resigns-after-failed-execution-of-christa-pike-in-tennessee-13594688",
+          "published": "2026-10-03T13:37:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tennessee’s top prison official resigning after botched execution of Christa Pike",
+          "description": "Frank Strada leaving position as state launches independent investigation into what went wrong Tennessee’s top prison official is stepping down in the aftermath of the failed execution of death row prisoner Christa Pike, the state’s governor Bill Lee announced Saturday. Frank Strada, the department of correction commissioner, will leave his position later in October as the state launches an indepe",
+          "link": "https://www.theguardian.com/us-news/2026/oct/03/tennessee-christa-pike-frank-strada",
+          "published": "2026-10-03T17:09:05.000Z",
+          "categories": [
+            "Tennessee",
+            "Capital punishment",
+            "US prisons",
+            "US news",
+            "US crime",
+            "US politics",
+            "Capital punishment"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tennessee corrections commissioner to resign after botched Christa Pike execution",
+          "description": "The head of Tennessee’s corrections department will step down following the state’s botched execution of death row inmate Christa Pike this week. Tennessee Department of Correction Commissioner Frank Strada submitted his resignation on Saturday, Gov. Bill Lee (R-Tenn.) announced. “Commissioner Strada has served with integrity, and I appreciate his willingness to put the interests of...",
+          "link": "https://thehill.com/homenews/state-watch/6127622-tennessee-corrections-commissioner-to-resign-after-botched-christa-pike-execution/",
+          "published": "2026-10-03T17:24:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ex-US Attorney will lead independent review of Christa Pike botched execution",
+          "description": "Gov. Bill Lee appointed former US Attorney Ed Stanton to review Tennessee's botched execution of Christa Pike.",
+          "link": "https://nypost.com/2026/10/04/us-news/former-us-attorney-tapped-to-lead-independent-review-of-christa-pikes-botched-execution/",
+          "published": "2026-10-04T04:08:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Who Is Frank Strada? Prison Chief Resigns After Failed Pike Execution",
+          "description": "Frank Strada has overseen multiple troubled execution attempts during his time in Tennessee and Arizona.",
+          "link": "https://www.newsweek.com/frank-strada-tennessee-prison-chief-resigns-after-christa-pike-execution-attempt-12521662",
+          "published": "2026-10-04T03:29:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US prison chief resigns after failed execution of death-row inmate Christa Pike",
+          "description": "Pike was left gravely ill from the state’s failed attempt to execute her by lethal injection.",
+          "link": "https://www.straitstimes.com/world/united-states/tennessee-prison-chief-resigns-after-failed-execution",
+          "published": "2026-10-03T17:13:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tennessee prisons chief resigning after botched execution of Christa Pike",
+          "description": "The head of Tennessee’s prison system is resigning, Governor Bill Lee announced on Saturday, the first major staff shake-up since Christa Pike’s stunning failed execution left her unconscious and on a ventilator at a hospital. Frank Strada, commissioner of the Department of Correction, will step down this month, Lee said. Some of the governor’s fellow Republicans and other elected officials had be",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3369673/tennessee-prisons-chief-resigning-after-botched-execution-christa-pike",
+          "published": "2026-10-03T16:53:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tennessee's prisons chief is resigning after the failed execution of Christa Pike",
+          "description": "Frank Strada said in a statement that resigning was \"in the best interest of Tennesseans\" while an independent review determines what happened Wednesday when the state failed to execute Pike despite administering two doses of a lethal drug.",
+          "link": "https://www.pbs.org/newshour/nation/governor-says-tennessees-prisons-chief-is-resigning-after-failed-execution-of-christa-pike",
+          "published": "2026-10-03T15:41:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Christa Pike donated her last meal to homeless before botched execution",
+          "description": "Christa Pike’s defense team warned a judge that a lethal injection was a bad idea due to her small veins and blood disorder",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-donated-last-meal-execution-b3060850.html",
+          "published": "2026-10-03T18:11:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Prison chief to resign after shock botched execution of Christa Pike",
+          "description": "Doctors were working to save Pike's ⁠life and clear the drug pentobarbital from her system",
+          "link": "https://www.independent.co.uk/news/world/americas/christa-pike-frank-strada-tennessee-b3060865.html",
+          "published": "2026-10-03T16:07:05.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-04-9m9sjn",
+      "topic": "world",
+      "title": "Germany's Merz visits Kyiv as Russia strikes bridge",
+      "summary": "Russia struck a bridge in Kyiv on Sunday soon after Germany’s chancellor arrived in Ukraine’s capital on a surprise visit to demonstrate European support in the face of an upsurge in attacks. Air raid sirens blared across Kyiv, urging residents to shelter…",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 8,
+      "score": 19.09,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "description": "Unverified video shows a drone hitting the Northern Bridge as vehicles move across it, creating a large fireball.",
+          "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo",
+          "published": "2026-10-04T10:11:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany's Merz visits Kyiv as Russia strikes bridge",
+          "description": "A Kyiv bridge was hit by a Russian drone shortly after Chancellor Merz arrived in the Ukrainian capital. During his visit, Merz is set to announce new measures to support Ukraine, including plans for drone production.",
+          "link": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-04T08:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine to step up oil attacks as Russia hits Kyiv bridges",
+          "description": "As Moscow intensifies attacks on Kyiv and other cities, Ukrainian President Volodymyr Zelenskyy has vowed to hit Russian energy infrastructure.",
+          "link": "https://www.dw.com/en/ukraine-to-step-up-oil-attacks-as-russia-hits-kyiv-bridges/a-79527753?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-03T17:16:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian strike hits Kyiv amid Chancellor Merz visit",
+          "description": "Moscow has once again bombed one of Kyiv’s bridges, despite the presence of German Chancellor Friedrich Merz in the Ukrainian capital. The visit was unplanned, but Merz says it was intended to show Germany’s support for Ukraine. France 24 correspondent Gulliver Cragg, reporting from Kyiv, says traffic has resumed on the bridge, though slowly. Video shows a large hole in the roadway. Experts say th",
+          "link": "https://www.france24.com/en/russian-strike-hits-kyiv-amid-chancellor-merz-visit",
+          "published": "2026-10-04T09:52:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany's Merz visits Kyiv as Russia steps up attacks on Ukrainian cities",
+          "description": "German Chancellor Friedrich Merz arrived in Ukraine's capital Kyiv on Sunday on an unannounced visit in a show of support for the country in its war with Russia. Merz's visit comes just a day after Russia warned foreigners and diplomats to leave the Ukrainian capital, saying that \"massive\" new airstrikes would hit the city. FRANCE 24's correspondent in Kyiv Gulliver Cragg has more.",
+          "link": "https://www.france24.com/en/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities",
+          "published": "2026-10-04T07:58:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: New Russian strikes hit Kyiv bridge as Germany's Merz visits",
+          "description": "Kyiv’s North bridge was hit in a new Russian attack on Sunday, Mayor Vitali Klitschko said, soon after German Chancellor Friedrich Merz arrived in Ukraine's capital. Merz is on a surprise visit to demonstrate European support in the face of an upsurge in Russian attacks on Ukrainian infrastructure. Follow our liveblog for all the latest developments.",
+          "link": "https://www.france24.com/en/europe/20261004-live-germany-s-merz-in-kyiv-for-talks-with-zelensky",
+          "published": "2026-10-04T07:28:07.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Friedrich Merz begins unannounced Kyiv visit as Russia continues strikes on Ukraine’s capital – Europe live",
+          "description": "German chancellor tours city with president Zelenskyy after Moscow strikes city’s North Bridge this morning amid his arrival Zelenskyy thanked Merz for visiting the Ukrainian capital describing him as “A leader of a country that consistently demonstrates leadership in protecting the lives of Ukrainians from Russian strikes. We are grateful for all the support, and today we are preparing decisions ",
+          "link": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
+          "published": "2026-10-04T10:11:57.000Z",
+          "categories": [
+            "Europe",
+            "Ukraine",
+            "Friedrich Merz",
+            "Russia",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline",
+          "description": "The bridges, used by many commuters in the Ukrainian capital, are the latest target in a broad Russian bombing campaign against infrastructure.",
+          "link": "https://www.nytimes.com/2026/10/03/world/europe/russia-ukraine-bridges-kyiv.html",
+          "published": "2026-10-03T20:17:31.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Ukraine",
+            "Russia",
+            "Kyiv (Ukraine)",
+            "Dnipro River (Ukraine)",
+            "Bridges and Tunnels",
+            "Drones (Pilotless Planes)"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia strikes hit Kyiv as Germany’s Merz visits",
+          "description": "The German chancellor arrived in Kyiv on a surprise visit to demonstrate European support.",
+          "link": "https://www.straitstimes.com/world/europe/russia-strikes-hit-kyiv-as-germanys-merz-visits",
+          "published": "2026-10-04T09:11:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany’s Merz arrives in Kyiv to finalise drone deal, release aid",
+          "description": "He is expected to press the Ukrainian government for progress on reforms requested by EU partners.",
+          "link": "https://www.straitstimes.com/world/europe/germanys-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid",
+          "published": "2026-10-04T04:58:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia strikes Kyiv bridge as Germany’s Merz visits, pledges aid",
+          "description": "Russia struck a bridge in Kyiv on Sunday soon after Germany’s chancellor arrived in Ukraine’s capital on a surprise visit to demonstrate European support in the face of an upsurge in attacks. Air raid sirens blared across Kyiv, urging residents to shelter soon after Friedrich Merz arrived under tight security, with warnings of approaching Russian attack drones. Kyiv mayor Vitali Klitschko then con",
+          "link": "https://www.scmp.com/news/world/europe/article/3369698/russia-strikes-kyiv-bridge-germanys-merz-visits-pledges-aid",
+          "published": "2026-10-04T09:55:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "German Chancellor pledges support for Ukraine as Russia intensifies strikes on Kyiv",
+          "description": "German Chancellor Friedrich Merz has arrived in Kyiv to show support as Russia intensifies attacks on Ukrainian cities",
+          "link": "https://www.independent.co.uk/news/world/europe/friedrich-merz-kyiv-germany-ukraine-b3061012.html",
+          "published": "2026-10-04T09:36:11.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-04-180qkt2",
+      "topic": "world",
+      "title": "Lula and Bolsonaro in tight race as Brazil prepares to vote",
+      "summary": "Brazilian President Luiz Inácio Lula da Silva and Flávio Bolsonaro have a final chance on Saturday to sway voters at rallies in crucial São Paulo before a tight election marked by scandals and personal attacks.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 11,
+      "score": 18.35,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+          "description": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
+          "link": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo",
+          "published": "2026-10-04T04:53:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why has Brazil accused the US of election interference?",
+          "description": "The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.",
+          "link": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo",
+          "published": "2026-10-03T13:52:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil is regulating AI use in elections. Here’s why it’s been a challenge.",
+          "description": "Brazil’s polarized political landscape is rife with disinformation – a challenge that can be turbocharged by artificial intelligence.",
+          "link": "https://www.csmonitor.com/World/Americas/2026/1003/ai-brazil-election-lula-bolsonaro?icid=rss",
+          "published": "2026-10-03T09:00:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's 2026 presidential election is kicking off with polls showing Lula and Bolsonaro nearly tied.",
+          "description": "Flavio Bolsonaro, the son of former far-right populist President Jair Bolsonaro, is taking on incumbent left-wing President Lula da Silva. Polls show the first round of voting will likely lead to a runoff.",
+          "link": "https://www.dw.com/en/brazil-s-2026-presidential-election-is-kicking-off-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-04T01:26:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil: A portrait of Flavio Bolsonaro",
+          "description": "Brazilians are voting for governors and lawmakers, but the biggest stakes are in the presidential race. Twelve candidates are on the ballot, but the contest is seen as a toss-up between President Luiz Inacio Lula da Silva and Flavio Bolsonaro. Lula is seeking a fourth and final term, warning that Brazil’s sovereignty is at stake amid pressure from Donald Trump. Bolsonaro, meanwhile, has highlighte",
+          "link": "https://www.france24.com/en/brazil-a-portrait-of-flavio-bolsonaro",
+          "published": "2026-10-04T09:49:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil polls open in a few hours",
+          "description": "Brazil's President Luiz Inacio Lula da Silva and his main challenger Flavio Bolsonaro wrapped up their campaigns on Saturday in the powerhouse state of Sao Paulo, where a fifth of the nation's vote is based, seeking to rally supporters and convince the undecided on the eve of Sunday's nail-biter election. Mareeke Reethof, lecturer in Latin American Politics at the University of Liverpool, shares f",
+          "link": "https://www.france24.com/en/brazil-polls-open-in-a-few-hours",
+          "published": "2026-10-04T08:25:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Lula and Bolsonaro make final push for votes ahead of Brazil's knife-edge election",
+          "description": "Brazil's President Luiz Inacio Lula da Silva and his main challenger Flavio Bolsonaro wrapped up their campaigns on Saturday in the powerhouse state of Sao Paulo, where a fifth of the nation's vote is based, seeking to rally supporters and convince the undecided on the eve of Sunday's nail-biter election.",
+          "link": "https://www.france24.com/en/americas/20261003-lula-and-bolsonaro-make-final-push-for-votes-ahead-of-brazil-s-knife-edge-election",
+          "published": "2026-10-03T20:16:01.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Lula and Bolsonaro in final push for votes ahead of Brazil's knife-edge election",
+          "description": "Brazil's President Luiz Inacio Lula da Silva and his main challenger Flavio Bolsonaro made their final pitch to voters Saturday with rallies in the pivotal state of Sao Paulo ahead of a nail-biter election that has been marred by scandals and mudslinging.",
+          "link": "https://www.france24.com/en/video/20261003-lula-and-bolsonaro-in-final-push-for-votes-ahead-of-brazil-s-knife-edge-election",
+          "published": "2026-10-03T20:10:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazil Election: What to Know as Lula and Bolsonaro Face Off in 2026 Presidential Race",
+          "description": "Luiz Inácio Lula da Silva, the leftist incumbent, and Flávio Bolsonaro, the right-wing challenger, face off in a race that could define the future of Latin America.",
+          "link": "https://www.nytimes.com/2026/10/04/world/americas/brazil-election-2026-president-race-lula-bolsonaro.html",
+          "published": "2026-10-04T09:02:22.000Z",
+          "categories": [
+            "United States International Relations",
+            "Politics and Government",
+            "Elections",
+            "Voting Machines",
+            "Coups D'Etat and Attempted Coups D'Etat",
+            "Democracy (Theory and Philosophy)",
+            "Bolsonaro, Flavio",
+            "Bolsonaro, Jair (1955-)",
+            "Da Silva, Luiz Inacio Lula",
+            "Trump, Donald J",
+            "Brazil",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+          "description": "With the first round of Brazil's presidential election taking place Sunday, Wall Street is gearing up with starkly different market predictions.",
+          "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+          "published": "2026-10-03T13:12:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump Ally Bolsonaro vs. Lula: Final Polls as Brazil Votes for President",
+          "description": "Brazilians will vote on Sunday in a tight presidential race between President Lula and Senator Flávio Bolsonaro.",
+          "link": "https://www.newsweek.com/trump-ally-bolsonaro-vs-lula-final-polls-as-brazil-votes-for-president-12519169",
+          "published": "2026-10-04T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's Lula, Flavio Bolsonaro wrap up campaigns ahead of first-round vote",
+          "description": "SAO PAULO/SANTA BARBARA D'OESTE, Brazil, Oct 3 - Brazilian President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro wrapped up their campaigns on Saturday ahead of Sunday's first-round presidential election, each expressing confidence of victory despite polls pointing to a likely runoff.",
+          "link": "https://www.straitstimes.com/world/brazils-lula-flavio-bolsonaro-wrap-up-campaigns-ahead-of-first-round-vote",
+          "published": "2026-10-03T20:48:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's Lula and Flávio Bolsonaro wrap up campaigns on eve of tight vote",
+          "description": "Brazilian President Luiz Inácio Lula da Silva and Flávio Bolsonaro have a final chance on Saturday to sway voters at rallies in crucial São Paulo before a tight election marked by scandals and personal attacks.",
+          "link": "https://www.euronews.com/2026/10/03/brazils-lula-and-flavio-bolsonaro-wrap-up-campaigns-on-eve-of-tight-vote",
+          "published": "2026-10-03T18:30:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Lula and Bolsonaro in tight race as Brazil prepares to vote",
+          "description": "The race will determine whether Brazil joins a regional rightward shift that has seen conservative allies of the U.S. President win in Chile, Colombia and Peru.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/04/world/politics/lula-bolsonaro-tight-race-brazil-vote/",
+          "published": "2026-10-04T02:23:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Lula, Bolsonaro in Tight Race as Brazil Prepares to Vote",
+          "description": "President Luiz Inácio Lula da Silva and right-wing challenger Flávio Bolsonaro remain locked in a tight race as Brazil prepares to vote in Sunday’s election, according to three new polls.",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-03/lula-bolsonaro-in-dead-heat-as-brazil-prepares-to-vote",
+          "published": "2026-10-03T22:35:24.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-04-125l9ay",
+      "topic": "world",
+      "title": "Trump defiant about midterm chances as he rallies for Republicans in Ohio",
+      "summary": "Ohio’s midterms is among eight US Senate races rated competitive.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 6,
+      "score": 17.73,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump defiant about midterm chances as he rallies for Republicans in Ohio",
+          "description": "US president tells a rally in Ohio that he believes there will be a 'big surprise' in the upcoming elections.",
+          "link": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
+          "published": "2026-10-04T04:10:17.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump backs data centers in Ohio amid tight Senate race",
+          "description": "President Trump defended data centers at a midterm campaign rally in Vandalia, Ohio Saturday, arguing that the U.S. will risk losing ground in the global artificial intelligence race against China without the massive facilities that have come under heightened scrutiny in recent years. “There’s so much money to be made for Ohio. You can't just...",
+          "link": "https://thehill.com/homenews/campaign/6127929-trump-defends-ohio-data-centers/",
+          "published": "2026-10-04T02:39:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump defends data centers in Ohio, warns they’ll go to China if US turns them away",
+          "description": "\"There's so much money to be made for Ohio. You can’t just turn them off. They’ll go to China,” Trump told supporters at an Ohio rally.",
+          "link": "https://nypost.com/2026/10/03/us-news/trump-defends-data-centers-in-ohio-warns-theyll-go-to-china-if-us-turns-them-away/",
+          "published": "2026-10-04T02:26:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ramaswamy Almost Drops Boy As He Picks Him Up at Rally",
+          "description": "Ohio Republican gubernatorial candidate Vivek Ramasamway nearly dropped a child at a campaign rally in Vandalia, Ohio.",
+          "link": "https://www.newsweek.com/ramaswamy-almost-drops-boy-as-he-picks-him-up-at-rally-12521797",
+          "published": "2026-10-04T07:27:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "In crude Ohio rally speech, Trump says he may not help the state if Democrats win",
+          "description": "Ohio’s midterms is among eight US Senate races rated competitive.",
+          "link": "https://www.straitstimes.com/world/united-states/in-crude-ohio-rally-speech-trump-says-he-may-not-help-the-state-if-democrats-win",
+          "published": "2026-10-04T05:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump rallies in Ohio to boost Jon Husted in a tight Senate race against Sherrod Brown",
+          "description": "Saturday's rally is just outside Dayton, Ohio, where he is stumping for key candidates in competitive races for the House, Senate and the governor's mansion in Columbus.",
+          "link": "https://www.pbs.org/newshour/politics/trump-rallies-in-ohio-to-boost-jon-husted-in-a-tight-senate-race-against-sherrod-brown",
+          "published": "2026-10-03T20:53:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "A gut punch in Ohio: Nearly 1,400 laid off at truck factory just days before Trump rally",
+          "description": "This year's election is a test for the working-class coalition that lifted Trump into the White House and gave majorities to Republicans in the House and Senate.",
+          "link": "https://www.pbs.org/newshour/politics/a-gut-punch-in-ohio-nearly-1400-laid-off-at-truck-factory-just-days-before-trump-rally",
+          "published": "2026-10-03T16:50:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump funnels millions from massive war chest into key House, Senate races: Here's where",
+          "description": "President Trump’s super PAC and affiliates have injected tens of millions of dollars into pivotal Senate and House races just one month from Election Day as the GOP looks to keep control of Congress. Trump’s MAGA Inc. and several affiliated groups — No Going Back PAC Inc. and Safety & Affordability PAC Inc. — have reported some of their...",
+          "link": "https://thehill.com/homenews/campaign/6126950-trump-funnels-millions-from-massive-war-chest-into-key-house-senate-races-heres-where/",
+          "published": "2026-10-04T10:00:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-04-1u7xaqn",
+      "topic": "world",
+      "title": "Tens of thousands protest against Spain's housing crisis",
+      "summary": "More than 50 protests took place on Saturday after the government failed to get emergency legislation through parliament.",
+      "headlineSource": "Sky News",
+      "sourceCount": 7,
+      "score": 17.09,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 2.5,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+          "description": "More than 50 protests took place on Saturday after the government failed to get emergency legislation through parliament.",
+          "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no",
+          "published": "2026-10-04T03:42:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain: Massive protests after housing bills voted down",
+          "description": "Organizers estimated that 500,000 people turned out in the streets of Madrid to demand affordable housing. Similar protests were held in around 50 other Spanish cities.",
+          "link": "https://www.dw.com/en/spain-massive-protests-after-housing-bills-voted-down/a-79532124?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-03T14:18:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Fresh protests over housing flare in Spain after lawmakers reject relief measures",
+          "description": "Tens of thousands of protesters marched in Madrid and other cities in Spain on Saturday to demand affordable housing, fuelled by anger at lawmakers who narrowly rejected measures put forward by the government of Prime Minister Pedro Sanchez to strengthen protection for tenants.",
+          "link": "https://www.france24.com/en/europe/20261003-fresh-protests-over-housing-flare-spain-after-lawmakers-reject-relief-measures",
+          "published": "2026-10-03T13:20:35.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tens of thousands protest against Spain's housing crisis",
+          "description": "Tens of thousands of people have taken to the streets of Spanish cities in protest at the country's housing crisis in the wake of the forcible eviction of 87-year-old Maricarmen Abascal.",
+          "link": "https://news.sky.com/story/tens-of-thousands-protest-against-spains-housing-crisis-following-eviction-of-87-year-old-woman-13594689",
+          "published": "2026-10-03T13:42:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘This can’t go on’: tens of thousands protest against housing crisis in Spain",
+          "description": "Demonstrators take to the streets of Madrid ⁠and other Spanish cities ⁠after ​new legislation fails to pass Tens of thousands of people have taken to the streets of Madrid ⁠and other Spanish cities as they step up demands for action to tackle ⁠a mounting housing crisis ⁠after ​government measures were struck down by the opposition. Demonstrators on Saturday waved posters calling for a general stri",
+          "link": "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest",
+          "published": "2026-10-03T14:19:46.000Z",
+          "categories": [
+            "Spain",
+            "Europe",
+            "Renting property",
+            "Housing",
+            "Protest"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tens of thousands take to Madrid streets demanding housing action",
+          "description": "Tens of thousands of protesters marched through Madrid demanding affordable housing and stronger protections for renters, a day after lawmakers rejected emergency housing measures.",
+          "link": "https://www.euronews.com/video/2026/10/03/tens-of-thousands-take-to-madrid-streets-demanding-housing-action",
+          "published": "2026-10-03T19:11:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Will Spain's housing crisis lead to a snap election?",
+          "description": "The BBC's Guy Hedgecoe is in Madrid, where a series of marches have been scheduled, after Spain's Congress rejected measures aimed at tackling the country's housing crisis.",
+          "link": "https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo",
+          "published": "2026-10-03T12:26:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Two dead in flooding in Spain's Catalonia region",
+          "description": "Oct 4 - Two people have died and another was missing after heavy rains and flooding in Spain's Catalonia region, authorities said on Sunday.",
+          "link": "https://www.straitstimes.com/world/europe/two-dead-in-flooding-in-spains-catalonia-region",
+          "published": "2026-10-04T09:13:39.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-04-11n7fjk",
+      "topic": "world",
+      "title": "Coast Guard finds debris from medical plane carrying 6 people",
+      "summary": "The plane carried four Canadian nationals and two Bermudian nationals, the US Coast Guard said.",
+      "headlineSource": "NPR",
+      "sourceCount": 6,
+      "score": 16.83,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.11,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Coast Guard finds debris from medical plane carrying 6 people",
+          "description": "Flight data shows the jet dropped at least 9,000 feet over two minutes, then leveled off for several more minutes, before disappearing.",
+          "link": "https://www.npr.org/2026/10/03/g-s1-146338/plane-missing-coast-guard-search-massachusetts",
+          "published": "2026-10-03T22:31:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
+          "description": "The plane was undertaking a medical evacuation from Bermuda with six people onboard when it lost contact The US Coast Guard said late on Saturday it had found debris from a medical transport aircraft off the shore of ⁠Massachusetts’ Nantucket Island and ⁠was searching for ​the six people who were on board. The jet lost contact with the Federal Aviation Administration (FAA) during a flight from Ber",
+          "link": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
+          "published": "2026-10-04T03:38:48.000Z",
+          "categories": [
+            "Massachusetts",
+            "Bermuda",
+            "Boston",
+            "Plane crashes",
+            "Air transport",
+            "US news",
+            "Americas",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Coast Guard Says It Stopped Ships Carrying Fuel to Cuba",
+          "description": "The Coast Guard has intercepted two small boats it says were carrying illegal fuel to Cuba as the United States enforces a fuel blockade aimed at Cuba’s Communist government.",
+          "link": "https://www.nytimes.com/2026/10/02/world/americas/coast-guard-cuba-ships-oil.html",
+          "published": "2026-10-03T14:34:08.000Z",
+          "categories": [
+            "Oil (Petroleum) and Gasoline",
+            "United States Defense and Military Forces",
+            "United States International Relations",
+            "Embargoes and Sanctions",
+            "Ships and Shipping",
+            "United States Coast Guard",
+            "Rodriguez, Bruno",
+            "Trump, Donald J",
+            "Cuba",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Coast Guard finds debris from medical plane carrying six people",
+          "description": "The plane carried four Canadian nationals and two Bermudian nationals, the US Coast Guard said.",
+          "link": "https://www.straitstimes.com/world/united-states/us-coast-guard-finds-debris-from-medical-plane-carrying-six-people",
+          "published": "2026-10-04T06:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Medical plane carrying six people missing off US east coast",
+          "description": "Vessels and aircraft are looking for the Gulfstream G100 plane off the coast of Nantucket, Massachusetts.",
+          "link": "https://www.straitstimes.com/world/united-states/medical-plane-carrying-six-people-missing-off-us-east-coast",
+          "published": "2026-10-03T16:39:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US Coast Guard finds ‘debris field’ from missing medical plane traveling from Bermuda to Boston",
+          "description": "‘Roger, you said you’re coming in blind. Is that what you said?’ a controller can be heard asking the pilot",
+          "link": "https://www.independent.co.uk/news/world/americas/medical-plane-boston-bermuda-search-b3060852.html",
+          "published": "2026-10-04T05:28:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Debris found from plane that went missing off US coast",
+          "description": "The aircraft lost communication with flight controllers after significantly dropping in altitude, according to flight data.",
+          "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo",
+          "published": "2026-10-04T03:49:06.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-04-1crqxxn",
+      "topic": "world",
+      "title": "Trump shares Senator Tom Cotton’s phone number in daylight saving time clash",
+      "summary": "US President Donald Trump shared online the supposed phone number of a Republican US senator on Saturday in an escalating dispute over making daylight saving time permanent. In a social media post, the president urged people to call a phone number he said…",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 6,
+      "score": 16.49,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 1.76,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump appears to share personal phone number of US senator in ploy to push permanent daylight savings",
+          "description": "US president urges Americans to call Tom Cotton to support bill to make daylight saving time permanent Donald Trump on Saturday put pressure on the US senator Tom Cotton of Arkansas to support a bill to make daylight saving time permanent, urging Americans to call what appeared to be the personal cellphone number of his fellow Republican and the chair of the Senate intelligence committee. The Suns",
+          "link": "https://www.theguardian.com/us-news/2026/oct/03/trump-tom-cotton-daylight-saving-time",
+          "published": "2026-10-03T22:07:01.000Z",
+          "categories": [
+            "Donald Trump",
+            "US Senate",
+            "US Congress",
+            "US politics",
+            "Arkansas",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump, Cotton tussle over daylight savings after cell phone number leak",
+          "description": "President Trump repeatedly berated Sen. Tom Cotton (R-Ark.) on Saturday over his stance on a daylight savings bill after posting the Republican Congress member's cell phone number on social media. In a morning Truth Social post, the president encouraged his supporters to call the senator and urge him to back legislation that would make daylight...",
+          "link": "https://thehill.com/homenews/administration/6127691-trump-cotton-fued-daylight-savings-posts/",
+          "published": "2026-10-03T19:53:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump shares Republican senator’s phone number in feud over time switch",
+          "description": "The president urged people to call Arkansas Republican Tom Cotton, who opposes Trump legislation that would end the twice-yearly practice of changing clocks by one hour.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/04/world/politics/trump-tom-cotton-phone-time-switch/",
+          "published": "2026-10-03T23:49:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump shares Senator Tom Cotton’s phone number in daylight saving time clash",
+          "description": "US President Donald Trump shared online the supposed phone number of a Republican US senator on Saturday in an escalating dispute over making daylight saving time permanent. In a social media post, the president urged people to call a phone number he said belonged to Senator Tom Cotton, an Arkansas Republican who opposes the Trump-backed Sunshine Protection Act. The act would end the twice-yearly ",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3369675/trump-shares-senator-tom-cottons-phone-number-daylight-saving-time-clash",
+          "published": "2026-10-04T01:21:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump urges calls to Arkansas Sen. Tom Cotton in push for permanent daylight saving time",
+          "description": "\"If Tom Cotton were putting Arkansas first, he would give them an extra hour of daylight and, more importantly, they wouldn't have to run all over their houses, farms, work places, and everywhere else, twice a year, having to change their Clocks, and often forgetting to do so,\" Trump said on social media.",
+          "link": "https://www.pbs.org/newshour/politics/trump-urges-calls-to-arkansas-sen-tom-cotton-in-push-for-permanent-daylight-saving-time",
+          "published": "2026-10-03T17:43:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump shares GOP senator's personal cell number amid Daylight Savings feud",
+          "description": "The Sunshine Protection Act passed the House in July",
+          "link": "https://www.independent.co.uk/news/world/americas/daylight-savings-time-trump-tom-cotton-b3060893.html",
+          "published": "2026-10-03T17:43:24.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-04-1h8d6gx",
+      "topic": "world",
+      "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+      "summary": "Days after US President Donald Trump signed a voluntary pact with artificial intelligence giants, a former OpenAI worker said his industry needs the same safeguards as nuclear power or aviation.",
+      "headlineSource": "Guardian Tech",
+      "sourceCount": 5,
+      "score": 15.52,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.26,
+        "softPenalty": 0
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "AI giants 'not being nearly careful enough,' warns outgoing OpenAI safety engineer",
+          "description": "Days after US President Donald Trump signed a voluntary pact with artificial intelligence giants, a former OpenAI worker said his industry needs the same safeguards as nuclear power or aviation.",
+          "link": "https://www.dw.com/en/ai-giants-not-being-nearly-careful-enough-warns-outgoing-openai-safety-engineer/a-79533080?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-03T21:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ex-OpenAI engineer says AI needs layers of safety, like nuclear plants",
+          "description": "Experts believe AI agents could conceivably wipe out humanity.",
+          "link": "https://www.straitstimes.com/world/united-states/ex-openai-engineer-says-ai-needs-layers-of-safety-like-nuclear-plants",
+          "published": "2026-10-03T20:29:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "An OpenAI safety employee has quit and is sounding the alarm",
+          "description": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous",
+          "link": "https://www.theverge.com/?p=1004408",
+          "published": "2026-10-03T14:31:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+          "description": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technology A safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not “being nearly careful enough” about developing the technology. David Robinson, who led the writing of safety reports that accompanied the ChatGPT developer’s product releases, expla",
+          "link": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "published": "2026-10-04T07:48:54.000Z",
+          "categories": [
+            "OpenAI",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Computing",
+            "Data and computer security",
+            "Ethics",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+          "description": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technology A safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not “being nearly careful enough” about developing the technology. David Robinson, who led the writing of safety reports that accompanied the ChatGPT developer’s product releases, expla",
+          "link": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "published": "2026-10-04T07:48:54.000Z",
+          "categories": [
+            "OpenAI",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Computing",
+            "Data and computer security",
+            "Ethics",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "OpenAI leader who quit says he can do more for safety from outside the company",
+          "description": "David Robinson said he hired a PR firm, Spitfire Strategies, after resigning from Open AI.",
+          "link": "https://www.businessinsider.com/david-robinson-can-do-more-for-safety-outside-open-ai-2026-10",
+          "published": "2026-10-03T19:01:53.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
