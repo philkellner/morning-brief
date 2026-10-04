@@ -125,6 +125,21 @@ const KEYWORD_CAP = 4;
 // desk contradicted by a general outlet is one newsroom's filing decision, but a
 // story that ONLY specialist desks carried needs no second opinion - there is no
 // contrary evidence to weigh.
+//
+// One further correction, from a live brief that labelled all ten stories WORLD.
+// The share was being tested per topic, so a story whose coverage was
+// overwhelmingly specialist still failed when that coverage was SPLIT across two
+// specialist topics. "OpenAI safety leader quits" ran on The Verge, Guardian
+// Tech, Guardian Business and Business Insider plus two general wires: three of
+// its five outlets were specialist desks, but the split landed tech 2/5 and
+// business 2/5, and 0.40 clears neither bar. Every large AI-company story has
+// this shape, as does every drug-approval story that the health and business
+// desks both run.
+//
+// So the bar is on the SPECIALIST UNION - is most of this story's coverage
+// specialist desks - and the choice BETWEEN topics is then made by outlet votes,
+// with keywords breaking ties. That is what the keyword comment below always
+// claimed happened, and the per-topic bar was quietly preventing.
 const MIN_SPECIALIST_OUTLETS = 2;
 const DOMINANT_SHARE = 0.5;
 const PLURAL_OUTLETS = 3;
@@ -196,26 +211,67 @@ export function classifyCluster(items) {
 
   const votes = { tech: 0, business: 0, health: 0 };
   const keywordSupport = { tech: 0, business: 0, health: 0 };
+  // Outlets whose filing was specialist in SOME topic. An outlet that ran the
+  // story on two desks - Guardian Tech and Guardian Business - counts once here
+  // and once in each topic's votes, which is the asymmetry the split bug needed.
+  let specialist = 0;
   for (const record of outlets.values()) {
+    if (record.topics.size > 0) specialist += 1;
     for (const topic of record.topics) votes[topic] += 1;
     for (const topic of Object.keys(keywordSupport)) keywordSupport[topic] += record.hits[topic];
   }
 
+  // Step 1: is there a specialist claim at all? Either the specialist desks
+  // dominate the coverage, or enough of them ran it that a sizeable minority is
+  // still convincing. A story only specialist desks carried needs no second
+  // opinion, so unanimity waives the corroboration floor.
+  const share = specialist / total;
+  const unanimous = specialist === total;
+  if (specialist < MIN_SPECIALIST_OUTLETS && !unanimous) return DEFAULT_TOPIC;
+  if (!(share >= DOMINANT_SHARE || (specialist >= PLURAL_OUTLETS && share >= PLURAL_SHARE))) {
+    return DEFAULT_TOPIC;
+  }
+
+  // Step 2: which specialist topic. Outlet votes lead; keyword support breaks
+  // ties between topics and never creates a claim, because step 1 has already
+  // decided whether there is one.
   let best = DEFAULT_TOPIC;
   let bestRank = 0;
   for (const [topic, count] of Object.entries(votes)) {
-    const share = count / total;
-    // Either the specialist desks dominate the coverage, or enough of them ran
-    // it that a sizeable minority is still convincing.
-    const unanimous = count === total;
-    if (count < MIN_SPECIALIST_OUTLETS && !unanimous) continue;
-    const qualifies = share >= DOMINANT_SHARE || (count >= PLURAL_OUTLETS && share >= PLURAL_SHARE);
-    if (!qualifies) continue;
-    // Keyword support breaks ties between topics, never creates a claim.
-    const rank = share + Math.min(keywordSupport[topic], 6) * 0.01;
+    if (count === 0) continue;
+    const rank = count + Math.min(keywordSupport[topic], 6) * 0.01;
     if (rank > bestRank) { best = topic; bestRank = rank; }
   }
   return best;
+}
+
+/**
+ * The same decision, with its working shown, for the forensic archive and the
+ * build log. Kept beside `classifyCluster` so the two cannot drift.
+ */
+export function explainCluster(items) {
+  const outlets = new Map();
+  for (const item of items) {
+    const key = item.outlet ?? item.sourceId ?? item.link ?? String(items.indexOf(item));
+    if (!outlets.has(key)) outlets.set(key, new Set());
+    for (const [topic, evidence] of Object.entries(scoreItemTopics(item))) {
+      if (evidence.provenance > 0) outlets.get(key).add(topic);
+    }
+  }
+  const total = outlets.size;
+  let specialist = 0;
+  const votes = { tech: 0, business: 0, health: 0 };
+  for (const topics of outlets.values()) {
+    if (topics.size > 0) specialist += 1;
+    for (const topic of topics) votes[topic] += 1;
+  }
+  return {
+    topic: classifyCluster(items),
+    outlets: total,
+    specialistOutlets: specialist,
+    specialistShare: total ? Number((specialist / total).toFixed(2)) : 0,
+    votes,
+  };
 }
 
 /**

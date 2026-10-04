@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener, dropDanglingCloser } from './lib/text.mjs';
 import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
-import { classifyCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
+import { classifyCluster, explainCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { looksLikeOpinion, opinionScore, OPINION_PATHS } from './lib/opinion.mjs';
 import { loadReported, runCase } from './lib/reported.mjs';
 import { buildAtom } from './lib/feed.mjs';
@@ -404,6 +404,52 @@ test('one stray keyword does not reclassify general news', () => {
     link: 'https://e.com/world/x', categories: [],
   };
   assert.equal(classifyCluster([item]), DEFAULT_TOPIC);
+});
+
+test('specialist coverage split across two topics still counts as specialist', () => {
+  // The live failure: all ten stories published as WORLD. Three of this story's
+  // five outlets were specialist desks, but the share was tested per topic, so
+  // tech 2/5 and business 2/5 each missed the 0.5 bar and it fell to world.
+  const items = [
+    { sourceId: 'dw', outlet: 'dw', topicHint: null, title: 'AI giants not being careful enough, warns outgoing safety engineer', description: 'The engineer said AI systems are being shipped too fast.', link: 'https://dw.invalid/en/ai-safety' },
+    { sourceId: 'straitstimes', outlet: 'straitstimes', topicHint: null, title: 'Ex-engineer says AI needs layers of safety', description: 'Experts believe AI agents could cause serious harm.', link: 'https://st.invalid/world/ai-safety' },
+    { sourceId: 'verge', outlet: 'verge', topicHint: 'tech', title: 'A safety employee has quit and is sounding the alarm', description: 'He used to write the safety reports.', link: 'https://verge.invalid/ai-safety' },
+    { sourceId: 'guardian_tech', outlet: 'guardian', topicHint: 'tech', title: 'Safety leader quits, warning culture is broken', description: 'He joins other insiders urging caution.', link: 'https://guardian.invalid/technology/ai-safety' },
+    { sourceId: 'guardian_biz', outlet: 'guardian', topicHint: 'business', title: 'Safety leader quits, warning culture is broken', description: 'He joins other insiders urging caution.', link: 'https://guardian.invalid/business/ai-safety' },
+    { sourceId: 'businessinsider', outlet: 'businessinsider', topicHint: 'business', title: 'Leader who quit says he can do more from outside the company', description: 'He said he hired many of the safety staff.', link: 'https://bi.invalid/ai-safety' },
+  ];
+  const gate = explainCluster(items);
+  assert.equal(gate.specialistOutlets, 3, 'guardian files on two desks but is one outlet');
+  assert.equal(gate.outlets, 5);
+  assert.deepEqual(gate.votes, { tech: 2, business: 2, health: 0 }, 'the split that used to sink it');
+  assert.equal(classifyCluster(items), 'tech', 'union clears the bar; keywords pick tech over business');
+});
+
+test('the union bar still rejects two lone specialist desks among many generalists', () => {
+  // The guard rail on the fix above: moving the bar to the union must not
+  // readmit a diplomatic story that one tech desk and one business desk filed.
+  const generalists = Array.from({ length: 10 }, (_, i) => ({
+    sourceId: `gen${i}`, outlet: `gen${i}`, topicHint: null,
+    title: 'Senate confirms new US ambassador to Japan',
+    description: 'Senators voted to confirm the nominee after months of delay.',
+    link: `https://gen${i}.invalid/world/ambassador`,
+  }));
+  const items = [
+    { sourceId: 'nyt_tech', outlet: 'nytimes', topicHint: 'tech', title: 'Senate confirms new ambassador to Japan', description: 'The vote ended a long standoff.', link: 'https://nyt.invalid/technology/ambassador' },
+    { sourceId: 'guardian_biz', outlet: 'guardian', topicHint: 'business', title: 'Senate confirms ambassador to Japan', description: 'The vote ended a long standoff.', link: 'https://guardian.invalid/business/ambassador' },
+    ...generalists,
+  ];
+  const gate = explainCluster(items);
+  assert.equal(gate.specialistOutlets, 2);
+  assert.equal(gate.specialistShare, 0.17);
+  assert.equal(classifyCluster(items), DEFAULT_TOPIC);
+});
+
+test('explainCluster never disagrees with the topic actually assigned', () => {
+  // The forensic record is only worth keeping if it reports the real decision.
+  for (const story of JSON.parse(readFileSync(resolve(ROOT, 'scripts/fixtures/reported.json'), 'utf8')).cases) {
+    assert.equal(explainCluster(story.items).topic, classifyCluster(story.items), story.id);
+  }
 });
 
 test('quotas give each topic its slots', () => {

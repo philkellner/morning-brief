@@ -13,6 +13,7 @@ import { buildStories } from './lib/rank.mjs';
 import { stripHtml } from './lib/text.mjs';
 import { isNewsworthy } from './lib/filter.mjs';
 import { buildAtom } from './lib/feed.mjs';
+import { explainCluster, DEFAULT_TOPIC } from './lib/topics.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const USER_AGENT = 'morning-brief/1.0 (+https://github.com/philkellner/morning-brief)';
@@ -148,6 +149,42 @@ async function collectItems(sources, args, log) {
   return { items, results };
 }
 
+/**
+ * Topic distribution, and the specialist clusters that nearly made it.
+ *
+ * A brief where all ten stories are WORLD is how this surfaced: the pipeline
+ * reported success, every feed responded, and the only evidence that topic
+ * classification had collapsed was the labels themselves. The quota cannot warn
+ * about it - backfilling world is its documented behaviour on a quiet day - so
+ * the build says plainly when a day produced no specialist stories at all, and
+ * lists what came closest, which is where a gate bug shows up.
+ */
+function reportTopics(clusters, stories, log) {
+  const published = {};
+  for (const s of stories) published[s.topic] = (published[s.topic] ?? 0) + 1;
+  log(`\ntopics published: ${Object.entries(published).map(([t, n]) => `${t} ${n}`).join('  ')}`);
+
+  const specialist = clusters
+    .map((c) => ({ gate: explainCluster(c.items), items: c.items }))
+    .filter((c) => c.gate.topic !== DEFAULT_TOPIC)
+    .sort((a, b) => b.gate.outlets - a.gate.outlets);
+
+  const chosen = new Set(stories.filter((s) => s.topic !== DEFAULT_TOPIC).map((s) => s.title));
+  const missed = specialist.filter((c) => !c.items.some((i) => chosen.has(i.title)));
+
+  log(`${specialist.length} clusters classified specialist, ${specialist.length - missed.length} published`);
+  if (missed.length > 0) {
+    log('nearest specialist clusters not published (too few outlets to earn a slot):');
+    for (const c of missed.slice(0, 6)) {
+      log(`  ${c.gate.topic.padEnd(8)} ${String(c.gate.outlets).padStart(2)} outlets  ${c.items[0].title.slice(0, 64)}`);
+    }
+  }
+  if (Object.keys(published).length === 1) {
+    log(`\nWARNING: every story published as ${Object.keys(published)[0]}.`
+      + ' Expected a spread across world/tech/business/health - check the topic gate.');
+  }
+}
+
 async function main() {
   const args = parseArgs(process.argv);
   const log = args.quiet ? () => {} : (...m) => console.log(...m);
@@ -193,6 +230,8 @@ async function main() {
     throw new Error(`Only ${stories.length} stories produced (minimum ${args.minStories}). Refusing to overwrite the previous digest.`);
   }
 
+  reportTopics(clusters, stories, log);
+
   const now = new Date();
   const edition = new Intl.DateTimeFormat('en-CA', {
     timeZone: CONFIG.timezone, year: 'numeric', month: '2-digit', day: '2-digit',
@@ -208,6 +247,9 @@ async function main() {
       rank: s.rank, id: s.id, topic: s.topic, title: s.title,
       summary: s.summary, headlineSource: s.headlineSource,
       sourceCount: s.sourceCount, score: s.score, scoreComponents: s.scoreComponents,
+      // Why this story got this topic. Without it, diagnosing a mislabel days
+      // later means re-deriving the gate by hand from the member list.
+      topicGate: explainCluster(s._members),
       members: s._members,
     })),
   };
