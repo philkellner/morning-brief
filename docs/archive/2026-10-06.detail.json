@@ -1,0 +1,2030 @@
+{
+  "edition": "2026-10-06",
+  "generatedAt": "2026-10-06T11:00:55.215Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-06-1m5qksg",
+      "topic": "world",
+      "title": "Clashes in French cities as students continue to protest over education funding",
+      "summary": "Tens of thousands are expected at nationwide protests against poor learning conditions for students in France.",
+      "headlineSource": "Euronews",
+      "sourceCount": 11,
+      "score": 22.85,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "outlets": 11,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: Trade unions join students in major demonstration",
+          "description": "Tens of thousands are expected at nationwide protests against poor learning conditions for students in France.",
+          "link": "https://www.dw.com/en/france-trade-unions-join-students-in-major-demonstration/a-79560273?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T08:51:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Student protests: First images from demonstrations in Paris",
+          "description": "France braced on Tuesday for a day of nationwide high-school ​blockades and trade union-led street protests in support of students demanding that President Emmanuel Macron's cash-strapped government tackle understaffed and dilapidated schools.",
+          "link": "https://www.france24.com/en/video/20261006-student-protests-first-images-from-demonstrations-in-paris",
+          "published": "2026-10-06T10:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "As students protest, how dilapidated really are France's school buildings?",
+          "description": "As France's student protest movement continues, one of the main grievances is the conditions of the country’s schools, with many buildings severely dilapidated and in some cases, facing dangerous risks. The issue became all the more apparent over the summer, when France experienced record-breaking heatwaves. Many classrooms were simply not designed to cope with such extreme temperatures. And regio",
+          "link": "https://www.france24.com/en/video/20261006-as-students-protest-how-dilapidated-really-are-france-s-school-buildings",
+          "published": "2026-10-06T09:55:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Paris students gear up for 'Black Tuesday' protests",
+          "description": "Students at the prestigious Paris high school Henri IV blockaded the building early in the morning ahead of the \"Black Tuesday\" protests which authorities say could attract up to 40,000 demonstrators in the French capital. Despite weeks of escalating protests, students \"feel like they are not being listened to\" said FRANCE 24s Luke Shrago, reporting from Paris.",
+          "link": "https://www.france24.com/en/paris-students-gear-up-for-black-tuesday-protests",
+          "published": "2026-10-06T06:45:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "US Embassy Issues France Warning Amid Fiery Protests",
+          "description": "Student protests across France have been 'overtaken by violence,' police have said.",
+          "link": "https://www.newsweek.com/us-embassy-issues-france-warning-amid-fiery-protests-12527814",
+          "published": "2026-10-06T06:51:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Students and teachers march in France on biggest day of high school protests",
+          "description": "PARIS, Oct 6 - Students, teachers and parents marched in cites across France on Tuesday and protesters blockaded hundreds of schools, in the biggest day of action in a wave of demonstrations demanding the government tackle understaffed and dilapidated classrooms.",
+          "link": "https://www.straitstimes.com/world/europe/france-braces-for-day-of-school-blockades-and-street-protests",
+          "published": "2026-10-06T07:38:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "France protests latest: Police clash with students as ‘largest day’ of violent marches begins nationwide",
+          "description": "A 15-year-old student had their hand blown off after picking up a stun grenade used by police in a violent protest this week",
+          "link": "https://www.independent.co.uk/news/world/europe/france-student-protests-paris-live-updates-b3061954.html",
+          "published": "2026-10-06T10:20:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hundreds of French schools shut, teen loses hand in protests",
+          "description": "The student protests that rocked France last week have prompted authorities to keep up to 500 schools closed on Monday. A teenage boy lost his hand, seemingly while trying to pick up a police tear gas grenade.",
+          "link": "https://www.dw.com/en/hundreds-of-french-schools-shut-teen-loses-hand-in-protests/a-79542656?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-05T05:48:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Parents, students in shock after 15-year-old loses hand in confrontation with police",
+          "description": "The school communty is in shock after a 15-year-old protester in the northern French town of Lens lost his hand in a confrontation with police on Monday. Video footage shows the teen collapsed on the ground after the incident, which police watchdogs are investigating.",
+          "link": "https://www.france24.com/en/parents-students-in-shock-after-15-year-old-loses-hand-in-confrontation-with-police",
+          "published": "2026-10-06T06:22:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Teenager loses hand picking up grenade in France school protests",
+          "description": "Nationwide protests in France over classroom conditions have disrupted lessons at hundreds of schools.",
+          "link": "https://www.cbsnews.com/news/teen-hand-police-grenade-france-school-protests/",
+          "published": "2026-10-05T16:01:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nearly 200 students injured in French schools protests as clashes with police continue – as it happened",
+          "description": "Hundreds of schools in France remain closed amid planned demonstrations across the country The conservative People’s Party is very pleased with the announcement. “At last,” they say on their X, with a slick election video – set to the EU’s anthem “Ode to Joy” – to go along with it. Spanish prime minister Pedro Sánchez has called a snap election for 29 November, just days after rightwing parties bl",
+          "link": "https://www.theguardian.com/world/live/2026/oct/05/europe-spain-pedro-sanchez-election-housing-france-school-protests-ukraine-russia-latest-news-updates",
+          "published": "2026-10-05T15:59:30.000Z",
+          "categories": [
+            "Spain",
+            "Pedro Sánchez",
+            "Europe",
+            "World news",
+            "France",
+            "Ukraine",
+            "Germany"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Demonstrators Rally Across France as School Protests Escalate",
+          "description": "The rallies are a test of the strength of the student-led protest movement that has spread across French high schools since late September.",
+          "link": "https://www.nytimes.com/2026/10/06/world/europe/france-student-strikes-protests.html",
+          "published": "2026-10-06T10:05:27.000Z",
+          "categories": [
+            "Lecornu, Sebastien",
+            "France Unbowed (Political Party)",
+            "Demonstrations, Protests and Riots",
+            "Education (Secondary)",
+            "Colleges and Universities",
+            "Police",
+            "France",
+            "Melenchon, Jean-Luc"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Teen's hand blown off by police grenade during French student protests: report",
+          "description": "A 15-year-old lost his hand after picking up a police grenade as French school protests over underfunding and teacher shortages enter their third week.",
+          "link": "https://www.foxnews.com/world/teens-hand-blown-off-police-grenade-french-student-protests-report",
+          "published": "2026-10-05T17:56:28.000Z",
+          "categories": [
+            "a68fa575-fe7e-503b-a178-07a8c266ec5a",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/france",
+            "fox-news/world/world-protests",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Clashes in French cities as students continue to protest over education funding",
+          "description": "Students in Marseille and Lille escalate protests over education funding, barricading schools and clashing with police as blockades spread across France.",
+          "link": "https://www.euronews.com/video/2026/10/05/clashes-in-french-cities-as-students-continue-to-protest-over-education-funding",
+          "published": "2026-10-05T15:09:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "French student unrest spreads nationwide as teachers walk out",
+          "description": "The protests started in the Paris region in September before unexpectedly gaining steam last week with hundreds of blockades.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/06/world/society/france-students-unrest/",
+          "published": "2026-10-06T04:49:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-06-5mbgj",
+      "topic": "world",
+      "title": "Ukraine hits Moscow with one of its largest drone attacks in two years",
+      "summary": "A massive attack involving 650 drones targeted Moscow overnight, leaving at least two dead, Russian authorities said on Tuesday. Most of the drones were destroyed by air defences at long range, including 105 intercepted as they approached the capital, Moscow…",
+      "headlineSource": "France 24",
+      "sourceCount": 10,
+      "score": 22.34,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "outlets": 10,
+        "specialistOutlets": 2,
+        "specialistShare": 0.2,
+        "votes": {
+          "tech": 1,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine says Russian drones behind Turkish ship sinking",
+          "description": "Romanian authorities did not say what caused the fire, but local media reported that the ship was carrying grain and was hit by a drone.",
+          "link": "https://www.dw.com/en/ukraine-says-russian-drones-behind-turkish-ship-sinking/a-79552387?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-05T15:49:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine hits Moscow with one of its largest drone attacks in two years",
+          "description": "Ukraine launched overnight one of its largest drone attacks on Moscow in the past two years, killing two people and injuring several people in the Russian capital, local officials said on Tuesday.",
+          "link": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say",
+          "published": "2026-10-06T06:11:43.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Fuel from South Korea being shipped to Russia as Ukraine war grinds on",
+          "description": "Exclusive: Guardian analysis finds more than 150,000 tonnes of fuel was shipped to Russian ports in July and August, some using sanctioned tankers Fuel is being shipped from South Korea to Russia via sanctioned tankers as Moscow scrambles for supplies amid the war in Ukraine, a move one expert said “undermines” Seoul’s public backing for Kyiv. Guardian analysis of port records and ship-tracking da",
+          "link": "https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war",
+          "published": "2026-10-05T23:50:12.000Z",
+          "categories": [
+            "South Korea",
+            "Russia",
+            "Ukraine",
+            "Asia Pacific",
+            "Oil",
+            "Commodities"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia may be using hidden 'lunchbox-size' drone devices to counter Ukraine defenses: expert",
+          "description": "Russia may be hiding lunchbox-sized signal repeaters inside Kyiv to help guide deadly drones past defenses, a weapons expert told Fox News Digital.",
+          "link": "https://www.foxnews.com/world/russia-may-using-hidden-lunchbox-size-drone-devices-counter-ukraine-defenses-expert",
+          "published": "2026-10-04T23:39:44.000Z",
+          "categories": [
+            "e962be87-9981-51d7-b30c-f2b976531313",
+            "fnc",
+            "Fox News",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/world",
+            "fox-news/us/military",
+            "fox-news/health/orthopedics/technology",
+            "fox-news/tech/technologies/drones",
+            "fox-news/politics/executive/national-security",
+            "fox-news/tech/topics/security",
+            "fox-news/politics/foreign-policy/geopolitics",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine Launches One of Largest Aerial Attacks on Moscow in Years",
+          "description": "At least two people were killed in the attacks on Moscow overnight, according to the regional governor.",
+          "link": "https://www.newsweek.com/ukraine-launches-one-of-largest-aerial-attacks-on-moscow-in-years-russia-war-12528013",
+          "published": "2026-10-06T08:08:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukrainian drones kill two, hit fuel hub in one of biggest attacks on Moscow region, Russian war bloggers say",
+          "description": "Oct 6 - Ukrainian drones killed two people and hit a major fuel depot overnight in one of the biggest attacks of the war on Moscow and the surrounding region, Russian military bloggers said.",
+          "link": "https://www.straitstimes.com/world/europe/ukrainian-drones-kill-two-in-moscow-region-injure-nine-more-governor-says",
+          "published": "2026-10-06T07:53:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine attacks Moscow region with 650 drones as both sides step up strikes",
+          "description": "A massive attack involving 650 drones targeted Moscow overnight, leaving at least two dead, Russian authorities said on Tuesday. Most of the drones were destroyed by air defences at long range, including 105 intercepted as they approached the capital, Moscow Mayor Sergei Sobyanin wrote on Telegram. Russian state news agency Tass reported it was the second-largest drone attack on the capital region",
+          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3369888/ukraine-attacks-moscow-region-650-drones-both-sides-step-strikes",
+          "published": "2026-10-06T06:44:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Moscow hit by largest attack in two years as Kyiv targets major oil facility",
+          "description": "One killed and six injured in Ukrainian drone attacks near Moscow",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-germany-oil-refineries-b3061868.html",
+          "published": "2026-10-06T09:04:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why India is getting serious about ending the Ukraine war",
+          "description": "India’s recent push to become more involved in helping end the Russia-Ukraine war comes as the costs of the conflict continue to mount for New Delhi, amid the threat of US tariffs on major buyers of Russian energy and a recent drone attack on an Indian-owned pharmaceutical plant in Ukraine. Sunday morning’s drone attack destroyed a large part of Kusum Group’s factory in Sumy, killing one person an",
+          "link": "https://www.scmp.com/week-asia/politics/article/3369911/why-india-getting-serious-about-ending-ukraine-war",
+          "published": "2026-10-06T09:30:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump blames war-ravaged Ukraine’s efforts to fight off Russia – for our sky-high gas prices",
+          "description": "President’s new Truth Social post attempts to deflect blame for sky-high fuel costs on Ukraine attacks on Russian refineries — as Iran war and Hormuz Strait standstill continues with no end in sight",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-gas-prices-russia-ukraine-war-oil-refineries-b3061873.html",
+          "published": "2026-10-05T18:54:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Russian drones strike Ukraine’s data centers by exploiting air defense gaps",
+          "description": "Russian attacks on Internet, phone services threaten Ukraine’s wartime economy.",
+          "link": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
+          "published": "2026-10-05T17:21:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Russians Snap Up Chinese E.V.s as Ukrainian Attacks Make Fuel Scarce",
+          "description": "As Ukraine increasingly takes the war to Russia, the effects may be most visible on the roads.",
+          "link": "https://www.nytimes.com/2026/10/04/world/europe/russia-ukraine-war-ev-sales.html",
+          "published": "2026-10-05T13:13:49.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Electric and Hybrid Vehicles",
+            "Oil (Petroleum) and Gasoline",
+            "Automobile Service and Charging Stations",
+            "Russia",
+            "China",
+            "Ukraine"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-06-6fkzxz",
+      "topic": "world",
+      "title": "Russia issues update on death of Siberian plague lab worker",
+      "summary": "The U.S. is closely monitoring a potential case of pneumonic plague in Russia after a laboratory worker who studied the disease fell ill and died. Russian authorities insist there is no cause for alarm, but officials have imposed quarantines and other…",
+      "headlineSource": "The Independent",
+      "sourceCount": 15,
+      "score": 22.14,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "outlets": 15,
+        "specialistOutlets": 3,
+        "specialistShare": 0.2,
+        "votes": {
+          "tech": 1,
+          "business": 0,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US 'watching closely' after plague researcher dies in Russia",
+          "description": "Donald Trump says the US was looking \"very strongly\" at the case of a lab technician who died at a research centre in Siberia.",
+          "link": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o",
+          "published": "2026-10-06T07:58:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia plays down reported plague lab death and says, trust us",
+          "description": "A Russian plague lab worker died of \"pneumonia of unknown origin,\" officials say, in response to initial reports that she was exposed to the deadly bacteria during a lab accident.",
+          "link": "https://www.cbsnews.com/news/russia-plague-lab-death-pneumonia-of-unknown-origin/",
+          "published": "2026-10-05T23:42:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia pushes back against reports that plague researcher died after test tube broke",
+          "description": "A Russian lab worker at an institute focused on the plague, the notorious bacterial infection tied to medieval pandemics like the Black Death, has reportedly died, which President Trump called \"a big problem for Russia.\" Ramy Inocencio has more on what we know.",
+          "link": "https://www.cbsnews.com/video/russia-pushes-back-reports-plague-researcher-died-test-tube-broke/",
+          "published": "2026-10-05T23:40:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Mystery death in Russian lab",
+          "description": "U.S. officials are closely monitoring a situation in Russia after a woman died last week. Authorities say she worked at a lab that studied the plague. NBC News’ Anne Thompson has the story.",
+          "link": "https://www.nbcnews.com/nightly-news/video/mystery-death-in-russian-lab-271080005659",
+          "published": "2026-10-05T23:10:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to know about pneumonic plague after woman in Russia dies from mysterious illness",
+          "description": "The death of a 28-year-old woman who worked in an anti-plague laboratory in Russia is raising concerns about what caused her illness.",
+          "link": "https://www.nbcnews.com/health/health-news/plague-suspected-russia-lab-pneumonic-siberia-symptoms-treatment-rcna601589",
+          "published": "2026-10-05T19:46:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk",
+          "description": "WHO said it was in contact with Russian authorities, and has offered support if needed, while assessing the risk to the general public as low based on available information.",
+          "link": "https://www.cnbc.com/2026/10/06/russia-plague-death-trump-offers-us-help.html",
+          "published": "2026-10-06T01:47:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia plague: What we know about the suspected case reportedly linked to a lab worker’s death",
+          "description": "According to local media reports, as many as 189 people have also been placed under medical observation in Irkutsk in eastern Russia.",
+          "link": "https://www.cnbc.com/2026/10/05/russia-plague-suspected-case-irkutsk.html",
+          "published": "2026-10-05T15:57:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Mystery death at Russian plague lab triggers sweeping precautions as US watches closely",
+          "description": "Darya Shipilova's death at a Siberian plague research institute triggered quarantines and mass observation, but Russia has not confirmed what killed her.",
+          "link": "https://www.foxnews.com/world/mystery-death-russian-plague-lab-triggers-sweeping-precautions-us-watches-closely",
+          "published": "2026-10-05T15:23:32.000Z",
+          "categories": [
+            "59b2e2d3-3610-5225-ba6e-b7de0dabdb46",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/russia",
+            "fox-news/health/infectious-disease",
+            "fox-news/health",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "US monitoring suspected fatal pneumonic plague case in Russia, State Department official says",
+          "description": "U.S. officials are tracking an unconfirmed report of a fatal pneumonic plague case in Russia’s Irkutsk Oblast while urging transparency from Moscow.",
+          "link": "https://www.foxnews.com/world/us-monitoring-suspected-fatal-pneumonic-plague-case-russia-state-department-official-says",
+          "published": "2026-10-05T00:05:59.000Z",
+          "categories": [
+            "c439292e-911a-5d49-bd5d-d6a815577d77",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-regions/russia",
+            "fox-news/health",
+            "fox-news/science",
+            "fox-news/science/wild-nature/viruses",
+            "fox-news/health/medical-research/rare-diseases",
+            "fox-news/news-events",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why experts fear Russia may secretly be working on a new variant of the BLACK DEATH, as high-flying young scientist who worked at Siberian 'anti-plague' institute mysteriously dies after 'lab accident'",
+          "description": "By all accounts, Daria Shipilova, 28, was a high-flying young scientist, respected by her managers and peers.",
+          "link": "https://www.dailymail.com/news/article-16185049/Why-experts-fear-Russia-secretly-working-new-variant-BLACK-DEATH-high-flying-young-scientist-worked-Siberian-anti-plague-institute-mysteriously-dies-lab-accident.html",
+          "published": "2026-10-06T07:43:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "WHO says ‘low’ risk in Russia following plague reports",
+          "description": "Lab technician Darya Shipilova reportedly died of pneumonic plague at an anti-plague institute in Siberia.",
+          "link": "https://www.straitstimes.com/world/europe/who-says-low-risk-in-russia-following-plague-reports",
+          "published": "2026-10-06T10:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Understanding pneumonic plague after Russian lab worker's death",
+          "description": "The U.S. is closely monitoring a potential case of pneumonic plague in Russia after a laboratory worker who studied the disease fell ill and died. Russian authorities insist there is no cause for alarm, but officials have imposed quarantines and other measures at several medical facilities in Siberia. Geoff Bennett discussed more with Annie Jacobsen, author of \"Biological War: A Scenario.\"",
+          "link": "https://www.pbs.org/newshour/show/what-to-know-about-pneumonic-plague-after-russian-lab-workers-death",
+          "published": "2026-10-05T22:40:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What to know about a Russian lab worker's death and speculation about pneumonic plague",
+          "description": "Local officials have confirmed the illness and death of a lab worker at an anti-plague research institute in Russia.",
+          "link": "https://www.pbs.org/newshour/world/what-to-know-about-a-russian-lab-workers-death-and-speculation-about-pneumonic-plague",
+          "published": "2026-10-05T22:25:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Suspected pneumonic plague in Siberia: What we know about the disease",
+          "description": "A worker at a plague research institute in Siberia has died, and nearly 200 of her contacts are under medical observation. Russian authorities deny a link to the bacterial infection. The US is monitoring the situation.",
+          "link": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-05T11:58:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "200 people enter medical observation after worker at Russian anti-plague lab dies",
+          "description": "The female staffer at the Irkutsk Anti-Plague Institute of Siberia and the Far East died from a “pneumonia of undetermined” origin last week, according to a regional governor.",
+          "link": "https://www.nbcnews.com/world/europe/russia-plague-suspected-lab-worker-dies-200-medical-observation-rcna601559",
+          "published": "2026-10-05T07:58:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia Moves to Tamp Down Rumors About Plague Outbreak in Siberia",
+          "description": "The country’s consumer watchdog has said only that “an employee of an anti-plague institute in the Irkutsk Region” contracted pneumonia.",
+          "link": "https://www.nytimes.com/2026/10/05/world/europe/russia-plague-siberia.html",
+          "published": "2026-10-05T21:29:00.000Z",
+          "categories": [
+            "Russia",
+            "Plague",
+            "Rumors and Misinformation",
+            "Irkutsk (Russia)",
+            "Siberia",
+            "Laboratories and Scientific Equipment"
+          ]
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump offers to help Russia after Siberia plague institute death",
+          "description": "US President Donald Trump on Monday at ​the White House told reporters that ‌the United States will help Russia after a laboratory worker died at a plague research institute ​in Siberia.",
+          "link": "https://nypost.com/2026/10/06/us-news/trump-offers-to-help-russia-after-siberia-plague-institute-death/",
+          "published": "2026-10-06T07:43:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia denies lab worker died of plague as quarantine in Siberia stays in place",
+          "description": "Rospotrebnadzor said tests found no pathogen linked to the deceased lab worker's work at the Irkutsk anti-plague institute, but more than 60 colleagues remained isolated inside the building and several hospitals stayed closed without explanation.",
+          "link": "https://www.euronews.com/2026/10/05/situation-under-control-russian-authorities-reassure-public-after-plague-reports-in-siberi",
+          "published": "2026-10-05T13:02:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia issues update on death of Siberian plague lab worker",
+          "description": "Darya Shipilova is reported to have been exposed to the pathogen while working at the Irkutsk Anti-Plague Research Institute in Siberia",
+          "link": "https://www.independent.co.uk/news/world/europe/plague-russia-outbreak-siberia-who-latest-b3062021.html",
+          "published": "2026-10-06T10:54:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump offers to help Russia after Siberia plague institute death: ‘It’s a rough disease’",
+          "description": "Trump called the suspected outbreak a ‘big problem for Russia’ as authorities monitor contacts of the victim",
+          "link": "https://www.independent.co.uk/news/world/americas/plague-russia-death-trump-outbreak-siberia-b3061945.html",
+          "published": "2026-10-06T08:24:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Mass quarantine issued in Russia after unexplained death of plague researcher",
+          "description": "Unconfirmed reports have suggested there was a laboratory accident.",
+          "link": "https://arstechnica.com/health/2026/10/researchers-death-from-undisclosed-illness-sparks-mass-quarantine-in-russia/",
+          "published": "2026-10-05T15:12:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Everything YOU need to know about pneumonic plague as Russia launches quarantines: How it spreads, the first warning signs and lifesaving treatment",
+          "description": "Infectious disease experts have revealed to the Daily Mail everything to know about a rare form of plague amid outbreak fears in Russia, including how it spreads and the lifesaving treatment.",
+          "link": "https://www.dailymail.com/health/article-16184717/pneumonic-plague-russia-quarantine-symptoms-treatment.html",
+          "published": "2026-10-06T03:30:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Should we be worried about a plague outbreak in Russia?",
+          "description": "PRESS REVIEW – Tuesday, October 6: The death of a researcher in Siberia, reportedly from the plague, sparks concern despite Russian authorities' denial. But first: French high school protesters are promising \"Act 3\" of their protest movement against learning conditions. Also, Le Monde speaks to the editor of Russian independent outlet Novaya Gazeta ahead of the 20th anniversary of the murder of in",
+          "link": "https://www.france24.com/en/tv-shows/press-review/20261006-should-we-be-worried-about-a-plague-outbreak-in-russia",
+          "published": "2026-10-06T10:30:22.000Z",
+          "categories": [
+            "Press Review"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-06-nr4tya",
+      "topic": "world",
+      "title": "Europe Today: Russia hits Kyiv as Merz visits; Bolsonaro wins Brazil's first round election",
+      "summary": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
+      "headlineSource": "Euronews",
+      "sourceCount": 10,
+      "score": 22.13,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.15,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "outlets": 10,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: How Brazil's dramatic election unfolded",
+          "description": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
+          "link": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo",
+          "published": "2026-10-05T04:51:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What Bolsonaro vs. Lula says about democracy in Brazil",
+          "description": "President Luiz Inácio Lula da Silva and Sen. Flávio Bolsonaro head to a runoff vote in Brazil’s presidential election.",
+          "link": "https://www.csmonitor.com/World/Americas/2026/1005/brazil-president-election-lula-bolsonaro?icid=rss",
+          "published": "2026-10-05T16:04:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's Flavio Bolsonaro beats polls in presidential vote, faces Lula in runoff",
+          "description": "Senator Flavio Bolsonaro wants to return a right-wing movement to power in Brazil, while leftist President Luiz Inacio Lula da Silva is seeking a fourth term.",
+          "link": "https://www.csmonitor.com/World/2026/1004/Brazil-s-Flavio-Bolsonaro-beats-polls-in-presidential-vote-faces-Lula-in-runoff?icid=rss",
+          "published": "2026-10-04T23:49:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bolsonaro and Lula to compete in Brazilian presidential run-off",
+          "description": "Brazilian Senator Flavio Bolsonaro will face President Luiz Inacio Lula da Silva in the 25 October presidential run-off, the country's electoral authority said on Sunday.",
+          "link": "https://news.sky.com/story/bolsonaro-and-lula-to-compete-in-brazilian-presidential-run-off-after-tight-vote-13595195",
+          "published": "2026-10-05T00:54:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flávio Bolsonaro poised to win Brazilian presidency after shock first-round victory",
+          "description": "Progressive voters and supporters of incumbent president Luiz Inácio Lula da Silva left reeling after far-right surge Flávio Bolsonaro is in pole position to win Brazil’s presidential election, after a far-right tsunami propelled him to a shock first-round victory over the incumbent, Luiz Inácio Lula da Silva, leaving progressive voters reeling. The 45-year-old rightwing candidate received 56.1m v",
+          "link": "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory",
+          "published": "2026-10-05T20:06:18.000Z",
+          "categories": [
+            "Flávio Bolsonaro",
+            "Luiz Inácio Lula da Silva",
+            "Brazil",
+            "The far right",
+            "Jair Bolsonaro",
+            "Americas",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Far right on the march and Lula’s failures: key drivers of Flávio Bolsonaro’s Brazil surge",
+          "description": "Experts say strength of evangelical church and stubbornness of Lula, 80, also helped propel Jair Bolsonaro’s son to first-round election win On Sunday night, as the scale of the far-right triumph in Brazil sank in, an adapted football chant rang out in one of Rio’s most leftwing areas. “Let’s turn this around, Lu-laaaaa! Let’s turn this around, Lu-laaaaa! Let’s turn this around, Lu-laaaaa!” crestf",
+          "link": "https://www.theguardian.com/world/2026/oct/05/brazil-election-bolsonaro-lula",
+          "published": "2026-10-05T18:42:23.000Z",
+          "categories": [
+            "Brazil",
+            "Jair Bolsonaro",
+            "Luiz Inácio Lula da Silva",
+            "World news",
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazil Election Could Give Bolsonaro a Key Role in Trump’s Latin America Map",
+          "description": "Flávio Bolsonaro, now the favorite to win Brazil’s presidency, would give President Trump a critical new ally in Latin America, particularly on security.",
+          "link": "https://www.nytimes.com/2026/10/05/world/americas/brazil-election-bolsonaro-trump.html",
+          "published": "2026-10-05T20:27:03.000Z",
+          "categories": [
+            "Drug Cartels",
+            "Bolsonaro, Flavio",
+            "Bolsonaro, Jair (1955-)",
+            "Da Silva, Luiz Inacio Lula",
+            "Brazil",
+            "Latin America"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "In a Major Boost for the Right, Another Bolsonaro Nears Brazil’s Presidency",
+          "description": "Flávio Bolsonaro’s first round lead leaves President Luiz Inácio Lula da Silva three weeks to find the votes to stop Brazil’s, and Latin America’s, rightward shift.",
+          "link": "https://www.nytimes.com/2026/10/05/world/americas/bolsanaro-lula-brazil-presidency-trump.html",
+          "published": "2026-10-05T21:42:19.000Z",
+          "categories": [
+            "Politics and Government",
+            "United States International Relations",
+            "Elections",
+            "Presidential Election of 2020",
+            "Supreme Federal Court (Brazil)",
+            "Bolsonaro, Flavio",
+            "Bolsonaro, Jair (1955-)",
+            "Da Silva, Luiz Inacio Lula",
+            "United States",
+            "Brazil",
+            "Latin America"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+          "description": "The moves come after the first round results of Brazil's presidential election on Sunday. Bolsonaro will face incumbent Lula da Silva in a runoff on Oct. 25.",
+          "link": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+          "published": "2026-10-05T20:41:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bolsonaro wins first round of Brazilian presidential election, as Trump-backed candidates continue red wave",
+          "description": "Flavio Bolsonaro won the first round of Brazil's presidential election and will now face off against incumbent Lula da Silva in a second round on October 25.",
+          "link": "https://www.foxnews.com/world/bolsonaro-wins-first-round-brazilian-presidential-election-trump-backed-candidates-continue-red-wave",
+          "published": "2026-10-05T00:17:42.000Z",
+          "categories": [
+            "91f64df3-a4c0-57ab-92b5-abd3b1069739",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/brazil",
+            "fox-news/travel/regions/south-america",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil ex-President Bolsonaro wins big without his name on the ballot",
+          "description": "BRASILIA Oct 6 - The biggest winner in Brazil's blockbuster weekend election did not even appear on the ballot.",
+          "link": "https://www.straitstimes.com/world/brazil-ex-president-bolsonaro-wins-big-without-his-name-on-the-ballot",
+          "published": "2026-10-06T07:03:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Europe Today: Russia hits Kyiv as Merz visits; Bolsonaro wins Brazil's first round election",
+          "description": "German Chancellor Friedrich Merz's visit to Ukraine was met with Russian missiles as he pledged €1.3 billion to Kyiv. In Iran, the country's deputy foreign minister says Washington is reviewing Tehran’s proposal to end the war. And in Brazil, Bolsonaro wins Brazil's first round election.",
+          "link": "https://www.euronews.com/2026/10/05/europe-today-russia-hits-kyiv-as-merz-visits-bolsonaro-wins-brazils-first-round-election",
+          "published": "2026-10-05T06:01:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Lula shake-ups campaign as Fl&aacute;vio Bolsonaro reaches for more support ahead of Brazil's runoff",
+          "description": "Brazil's President Luiz Inácio Lula da Silva will spend Monday trying to shake-up his campaign after losing the first round of national elections to Flávio Bolsonaro, the son of former President Jair Bolsonaro.",
+          "link": "https://www.pbs.org/newshour/world/lula-shake-ups-campaign-as-flavio-bolsonaro-reaches-for-more-support-ahead-of-brazils-runoff",
+          "published": "2026-10-05T17:43:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Keeping up with the Bolsonaros: Flávio’s surprise first-round election win heralds rise of a political dynasty",
+          "description": "Four members of disgraced ex-president Jair Bolsonaro’s family have been elected to office, most notably his wife and son Flávio, who won the first round of voting to be Brazil’s new president The weekend’s elections in Brazil not only put Jair Bolsonaro’s eldest son, Flávio Bolsonaro, in the lead in the presidential race, but also underscored how far the former president has come in building a po",
+          "link": "https://www.theguardian.com/world/2026/oct/06/keeping-up-with-the-bolsonaros-flavios-surprise-first-round-election-win-heralds-rise-of-a-political-dynasty",
+          "published": "2026-10-06T07:00:05.000Z",
+          "categories": [
+            "Brazil",
+            "Jair Bolsonaro",
+            "Flávio Bolsonaro",
+            "Americas"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-06-18tq3l2",
+      "topic": "health",
+      "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+      "summary": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 14,
+      "score": 21.31,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "outlets": 14,
+        "specialistOutlets": 9,
+        "specialistShare": 0.64,
+        "votes": {
+          "tech": 6,
+          "business": 0,
+          "health": 9
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+          "description": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
+          "link": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+          "published": "2026-10-06T10:16:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Ghost particles' from space telescope wins physics Nobel",
+          "description": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
+          "link": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo",
+          "published": "2026-10-06T10:56:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobel Physics Prize goes to Francis Halzen for neutrino work",
+          "description": "Halzen got the Nobel for his contributions to the IceCube neutrino Observatory and discovery of high-energy neutrinos. The committee described the neutrinos as \"ghostly messages from space.\"",
+          "link": "https://www.dw.com/en/nobel-physics-prize-goes-to-francis-halzen-for-neutrino-work/a-79561506?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T09:54:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Nobel Prize in Physics awarded to Francis Halzen for ice research",
+          "description": "",
+          "link": "https://www.france24.com/en/science/20261006-nobel-prize-in-physics-awarded-to-francis-halzen-for-ice-research",
+          "published": "2026-10-06T09:52:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+          "description": "STOCKHOLM, Oct 6 - Belgian-American Particle physicist Francis Halzen won the 2026 Nobel Prize in Physics for \\\"decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin\\\", the award-giving body said on Tuesday.",
+          "link": "https://www.straitstimes.com/world/europe/francis-halzen-wins-2026-nobel-prize-in-physics",
+          "published": "2026-10-06T09:59:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Francis Halzen wins 2026 Nobel Prize in physics",
+          "description": "Among past laureates are some of the most celebrated figures in science, including Albert Einstein, Marie and Pierre Curie, Max Planck and Niels Bohr.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/06/world/science-health/nobel-physics-prize-2026/",
+          "published": "2026-10-06T10:02:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+          "description": "The winner of this year’s Nobel Prize in Physics is ⁠Francis Halzen. The scientist was honoured for “decisive contributions to the IceCube Neutrino ‌Observatory and the discovery of high-energy neutrinos of astrophysical origin”, the Royal Swedish Academy of Sciences in Stockholm said on Tuesday. “Francis Halzen has led an international team of researchers and engineers who have provided us with a",
+          "link": "https://www.scmp.com/news/world/europe/article/3369925/francis-halzen-wins-2026-nobel-prize-physics",
+          "published": "2026-10-06T09:56:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobel Prize in Physics 2026: Francis Halzen awarded for work on cosmic neutrinos",
+          "description": "Francis Halzen has received the Nobel Prize in Physics 2026 for his groundbreaking research at the IceCube Neutrino Observatory. This pivotal work has led to the discovery of high-energy neutrinos from cosmic sources, enhancing our comprehension of the universe. The Royal Swedish Academy of Sciences recognizes his efforts with an award of 12 million Swedish kronor.",
+          "link": "https://timesofindia.indiatimes.com/world/europe/nobel-prize-in-physics-awarded-to-francis-halzen-for-groundbreaking-work-on-cosmic-neutrinos/articleshow/134734380.cms",
+          "published": "2026-10-06T09:59:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nobel prize in medicine awarded to scientists studying mysteries of the brain",
+          "description": "The physiology or medicine prize traditionally opens the annual Nobel announcements",
+          "link": "https://www.independent.co.uk/news/science/nobel-prize-medicine-deisseroth-hegemann-nagel-optogenetics-b3061424.html",
+          "published": "2026-10-06T08:53:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+          "description": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
+          "link": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+          "published": "2026-10-06T10:16:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
+          "description": "The Nobel Prize in medicine was awarded Monday to three scientists working on the mechanisms the brain uses to switch on, or off, the activity of individual nerve cells.",
+          "link": "https://www.npr.org/2026/10/05/g-s1-146400/nobel-medicine-prize",
+          "published": "2026-10-05T10:11:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "econ_scitech",
+          "outlet": "economist",
+          "lean": "center-right",
+          "wire": false,
+          "topicHint": "science",
+          "title": "The Nobel for medicine goes to lighting up the brain",
+          "description": "Inventors of optogenetics get the gong",
+          "link": "https://www.economist.com/science-and-technology/2026/10/05/the-nobel-for-medicine-goes-to-lighting-up-the-brain",
+          "published": "2026-10-05T15:44:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Controlling the brain with light earns a physiology Nobel",
+          "description": "The entire field of optogenetics traces back to light-seeking algae.",
+          "link": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+          "published": "2026-10-05T17:59:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "‘What took them so long?’ This year’s medicine Nobel winner is overdue",
+          "description": "Nature, Published online: 05 October 2026; doi:10.1038/d41586-026-03094-z Nature’s senior biology reporter Ewen Callaway reflects on today’s prize for optogenetics — which scientists have anticipated for years.",
+          "link": "https://www.nature.com/articles/d41586-026-03094-z",
+          "published": "2026-10-05T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Daily briefing: Medicine Nobel prize goes to optogenetics",
+          "description": "Nature, Published online: 05 October 2026; doi:10.1038/d41586-026-03185-x Three pioneers of optogenetics have won the 2026 Nobel Prize in Physiology or Medicine. Plus, the funniest nature photography and the physics behind a new science-fiction novel.",
+          "link": "https://www.nature.com/articles/d41586-026-03185-x",
+          "published": "2026-10-05T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Medicine Nobel awarded for brain ‘switch’ that controls neurons with light",
+          "description": "Nature, Published online: 05 October 2026; doi:10.1038/d41586-026-03091-2 Karl Deisseroth, Peter Hegemann and Georg Nagel win the 2026 Nobel Prize in Physiology or Medicine for their work on optogenetics, which has revolutionized neuroscience.",
+          "link": "https://www.nature.com/articles/d41586-026-03091-2",
+          "published": "2026-10-05T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_health",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Nobel Prize in Physiology or Medicine Is Awarded for Discoveries in Neuroscience",
+          "description": "Karl Deisseroth, Peter Hegemann and Georg Nagel were recognized for their work on light-gated ion channels and optogenetics, a technique that uses pulses of light to activate neurons in the brain.",
+          "link": "https://www.nytimes.com/2026/10/05/health/nobel-prize-medicine-physiology.html",
+          "published": "2026-10-05T21:09:36.000Z",
+          "categories": [
+            "Nobel Prizes",
+            "Medicine and Health",
+            "Deisseroth, Karl",
+            "Hegemann, Peter (1954-)",
+            "Nagel, Georg (1953-)",
+            "Brain",
+            "Proteins"
+          ]
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics",
+          "description": "Karl Deisseroth, Peter Hegemann, and Georg Nagel are the joint recipients of the 2026 Nobel Prize in Physiology or Medicine “for their discoveries concerning light-gated ion channels and optogenetics,\" the…",
+          "link": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/",
+          "published": "2026-10-05T10:00:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Nobel Prize awarded for revealing inner workings of the brain",
+          "description": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
+          "link": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o",
+          "published": "2026-10-05T11:04:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Switching on brain cells: the Nobel-winning science of optogenetics",
+          "description": "The Nobel medicine prize was awarded Monday to US psychiatrist and neurologist Karl Deisseroth and German scientists Peter Hegemann and Georg Nagel for their pioneering work in the neuroscience field of optogenetics. In optogenetics, scientists control neurones by stimulating them with light -- potentially unlocking breakthroughs for conditions such as dementia, depression and blindness. FRANCE 24",
+          "link": "https://www.france24.com/en/switching-on-brain-cells-the-nobel-winning-science-of-optogenetics",
+          "published": "2026-10-05T21:56:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "STAT+: Nobel-winning optogenetics research has led to experimental treatments for blindness and Alzheimer’s",
+          "description": "Optogenetics is now the foundational way through which we are able to understand how the brain works",
+          "link": "https://www.statnews.com/2026/10/05/2026-nobel-prize-winning-optogenetics-research-explained/",
+          "published": "2026-10-05T20:08:24.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-06-w8pxjy",
+      "topic": "world",
+      "title": "Saudi-backed Yemen forces claim key Red Sea strait secured",
+      "summary": "The Saudi-led coalition fighting in Yemen says it has recaptured key areas around the Bab el-Mandeb Strait from Houthi rebels.",
+      "headlineSource": "Times of India",
+      "sourceCount": 11,
+      "score": 20.28,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "outlets": 11,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemeni military says it has 'secured' Red Sea waterway",
+          "description": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait.",
+          "link": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+          "published": "2026-10-06T07:43:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi-backed Yemen forces claim key Red Sea strait secured",
+          "description": "In a bold move to counteract Houthi insurgents, Saudi-backed Yemeni military forces have initiated Operation Yemen Dawn, bolstered by a coalition of 100 Saudi fighter jets. The offensive reportedly succeeded in reclaiming significant territories, including the strategic Dhubab airport and Mokha. However, the authenticity of these claims is yet to be independently verified, while the Houthis are ch",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/bab-al-mandab-showdown-saudi-backed-yemen-forces-claim-key-red-sea-strait-secured/articleshow/134729184.cms",
+          "published": "2026-10-06T09:37:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen forces claim key gains near Bab al-Mandeb: What’s the latest?",
+          "description": "The internationally recognised government retakes territories from the Houthis as fighting rages on the western coast.",
+          "link": "https://www.aljazeera.com/news/2026/10/6/yemen-war-whats-the-latest-on-the-battlefield?traffic_source=rss",
+          "published": "2026-10-06T08:27:51.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen launches major military operation against Houthis",
+          "description": "Yemen's internationally recognized government has launched a new military offensive to retake Houthi-held territory, as the Iran-backed rebel group claims new attacks in Saudi Arabia.",
+          "link": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-05T18:36:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen's Houthis claim attack on Riyadh airport",
+          "description": "Yemen's Houthis claimed an attack on the main airport in the Saudi capital while also denying on Tuesday losing territory to government forces, as fighting intensified. After declaring a counter-offensive, government forces claimed Monday to have pushed the Houthis out of the Bab al-Mandab area, a key shipping route in the Red Sea, as well as the port city of Mocha, which was captured last month.",
+          "link": "https://www.france24.com/en/video/20261006-yemen-s-houthis-claim-attack-on-riyadh-airport",
+          "published": "2026-10-06T10:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi-backed forces recapture key areas around strait from Houthis in Yemen",
+          "description": "Government offensive launched under air cover by Saudi military coalition aims to retake all Houthi-held territory Forces of the Saudi-led coalition fighting in Yemen have recaptured several key areas around Bab al-Mandab strait from Iran-backed Houthi rebels, Yemeni officials said on Monday. The officials said forces allied with the internationally recognized government have retaken the crucial t",
+          "link": "https://www.theguardian.com/world/2026/oct/05/saudi-forces-recapture-key-areas-strait-houthis-yemen",
+          "published": "2026-10-05T19:44:01.000Z",
+          "categories": [
+            "Yemen",
+            "Houthis",
+            "Middle East and north Africa",
+            "World news",
+            "Saudi Arabia"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Air campaign against Houthis under way in Yemen, says Saudi-led coalition",
+          "description": "Operation supported by 100 fighter jets said to have secured ‘air protection’ of Bab al-Mandab strait and destroyed hundreds of targets Leaders of a Saudi-led coalition in Yemen claimed a broad air campaign involving 100 jet aircraft was under way on Monday against the Iran-backed Houthi rebels along the Red Sea coastline and farther north in the capital, Sana’a. The Saudi coalition spokesperson, ",
+          "link": "https://www.theguardian.com/world/2026/oct/05/yemen-air-campaign-houthis-saudi-led-coalition",
+          "published": "2026-10-05T15:21:54.000Z",
+          "categories": [
+            "Yemen",
+            "Houthis",
+            "Saudi Arabia",
+            "United Arab Emirates",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire",
+          "description": "A Saudi-led coalition has announced a military campaign against the Iran-backed Houthi militia in the country, reviving memories of its previous effort.",
+          "link": "https://www.nytimes.com/2026/10/05/world/middleeast/saudi-arabia-war-yemen-houthis-quagmire.html",
+          "published": "2026-10-05T15:32:44.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "United Arab Emirates",
+            "Houthis",
+            "War and Armed Conflicts",
+            "Mohammed bin Salman (1985-)",
+            "Yemen",
+            "International Relations",
+            "Civilian Casualties",
+            "Islah (United Arab Emirates)",
+            "Southern Transitional Council (Yemen)",
+            "Aden (Yemen)",
+            "Al Hudaydah (Yemen)",
+            "Sana (Yemen)",
+            "Bab al-Mandab Strait",
+            "Taiz (Yemen)",
+            "Iran"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi and Yemeni Forces Attack Houthis to Retake Control of Red Sea Coast",
+          "description": "The offensive is an effort to wrest control of the Bab al-Mandab Strait from the Houthis, a militia in Yemen backed by Iran.",
+          "link": "https://www.nytimes.com/2026/10/05/world/middleeast/saudi-arabia-yemen-houthis-bab-al-mandab-strait.html",
+          "published": "2026-10-05T21:22:29.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "Yemen",
+            "Houthis",
+            "War and Armed Conflicts",
+            "Defense and Military Forces",
+            "Bab al-Mandab Strait",
+            "Red Sea",
+            "Iran",
+            "US and Israeli Attack on Iran (2026)",
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen government forces advance on Bab el-Mandeb in offensive against Houthis",
+          "description": "Operation Yemen Dawn, backed by 100 Saudi coalition aircraft, retook the town of Dhubab just north of the strait, as the Houthis claimed they struck Riyadh's international airport, an oil refinery and military bases across Saudi Arabia, and Pakistan and Turkey agreed to deploy troops to the kingdom.",
+          "link": "https://www.euronews.com/2026/10/06/yemen-government-forces-advance-on-bab-el-mandeb-in-offensive-against-houthis",
+          "published": "2026-10-06T08:54:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi-backed coalition forces Houthis from several areas around key strait, Yemeni officials say",
+          "description": "The Saudi-led coalition fighting in Yemen says it has recaptured key areas around the Bab el-Mandeb Strait from Houthi rebels.",
+          "link": "https://www.pbs.org/newshour/world/saudi-backed-coalition-forces-houthis-from-several-areas-around-key-strait-yemeni-officials-say",
+          "published": "2026-10-05T18:28:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Battle with Iran-backed Houthis in Yemen tempers news on oil flow",
+          "description": "Brent crude hovers around $100 a barrel despite news of increased Mideast oil flows, as Iran's Houthi allies battle over control of Red Sea shipping lanes.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-prices-yemen-red-sea-houthis-bab-el-mandeb/",
+          "published": "2026-10-06T06:13:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Yemen forces reclaim key Red Sea port city from Iran-backed Houthis in major counteroffensive",
+          "description": "Oil markets remain on edge over potential Middle East supply disruptions, with Brent trading around $100 a barrel as the risk of further escalation persists.",
+          "link": "https://www.cnbc.com/2026/10/06/iran-war-yemen-saudi-arabia-mokha-oil.html",
+          "published": "2026-10-06T08:53:50.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-06-1l1iicz",
+      "topic": "world",
+      "title": "Germany arrests former spy chief over treason and espionage allegations",
+      "summary": "August Hanning was Germany's foreign intelligence chief until 2005.",
+      "headlineSource": "Times of India",
+      "sourceCount": 9,
+      "score": 19.56,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany faces a triple threat from Russia, China and domestic far-right extremists",
+          "description": "At a rare public hearing Germany's intelligence agencies identified Russia as the country's most dangerous adversary. The threat from China is also coming into focus. And the homegrown far right also poses a challenge.",
+          "link": "https://www.dw.com/en/germany-faces-a-triple-threat-from-russia-china-and-domestic-far-right-extremists/a-79560490?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T09:41:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany's ex-spy chief arrested for espionage",
+          "description": "August Hanning served as the head of Germany's BND foreign intelligence agency from 1998 to 2005. Prosecutors say he's under investigation for passing on state secrets and working as an intelligence agent.",
+          "link": "https://www.dw.com/en/germany-s-ex-spy-chief-arrested-for-espionage/a-79560278?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T08:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany news: Spy chief warns Russia conflict risk growing",
+          "description": "Moscow is already waging a \"shadow war\" against Europe, the head of Germany's foreign intelligence service says. The Left Party is taking a case over remarks by the CDU's Katherina Reiche to a top court.",
+          "link": "https://www.dw.com/en/germany-news-spy-chief-warns-russia-conflict-risk-growing/live-79542789?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-05T12:33:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Germany at risk of 'violent conflict' with Russia, warns intelligence chief",
+          "description": "Germany risks entering a \"violent conflict\" with Russia because of Moscow's increasingly aggressive stance against European nations, an intelligence chief has warned.",
+          "link": "https://news.sky.com/story/germany-at-risk-of-violent-conflict-with-russia-warns-intelligence-chief-13595339",
+          "published": "2026-10-05T11:07:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia pounds Kyiv during German chancellor’s visit in a new escalation",
+          "description": "Germany’s foreign intel chief warns it could become embroiled in a conflict with Russia as Moscow steps up its “shadow war” against European democracies.",
+          "link": "https://www.nbcnews.com/world/ukraine/russia-pounds-kyiv-german-chancellors-visit-new-escalation-rcna601562",
+          "published": "2026-10-05T11:55:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Germany arrests former domestic intelligence chief over alleged spying",
+          "description": "August Hanning served as president of Federal Intelligence Service from 1998 to 2005 Germany’s federal prosecutor’s office has said a former domestic intelligence chief was arrested on Tuesday on espionage allegations. August Hanning was president of the Federal Intelligence Service (BND) from December 1998 to November 2005.",
+          "link": "https://www.theguardian.com/world/2026/oct/06/germany-august-hanning-bnd-arrest-former-domestic-intelligence-chief",
+          "published": "2026-10-06T09:49:41.000Z",
+          "categories": [
+            "Germany",
+            "Europe",
+            "World news",
+            "Espionage"
+          ]
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany arrests former spy chief over treason and espionage allegations",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/europe/germanys-former-spy-chief-arrested-over-alleged-treason-2000-classified-documents-at-centre-of-probe/articleshow/134737257.cms",
+          "published": "2026-10-06T10:37:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Former German intelligence chief arrested over allegations of 'spying out state secrets'",
+          "description": "A former German intelligence chief has been arrested on allegations that he \"spied out state secrets\", the country's federal prosecutor's office said.",
+          "link": "https://news.sky.com/story/former-german-spy-chief-arrested-on-espionage-allegations-13595660",
+          "published": "2026-10-06T08:48:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "German Officials Arrest Former Spy Chief on Espionage Charges",
+          "description": "August Henning is accused of helping foreign governments. His arrest shook the German political world and had roots in a steakhouse-heiress kidnapping plot.",
+          "link": "https://www.nytimes.com/2026/10/06/world/europe/germany-spy-chief-henning-arrested-espionage.html",
+          "published": "2026-10-06T09:35:39.000Z",
+          "categories": [
+            "Germany",
+            "Federal Intelligence Service (Germany)",
+            "Classified Information and State Secrets",
+            "Espionage and Intelligence Services",
+            "International Relations",
+            "August Henning"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Former German spy chief detained on suspicion of espionage and treason, Bild reports",
+          "description": "August Hanning was Germany's foreign intelligence chief until 2005.",
+          "link": "https://www.straitstimes.com/world/europe/former-german-spy-chief-detained-on-suspicion-of-espionage-and-treason-bild-reports",
+          "published": "2026-10-06T08:34:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ex-German intelligence chief arrested over suspected espionage",
+          "description": "Former BND president August Hanning is accused of obtaining classified documents from his former agency, with investigators reportedly examining whether information was passed to foreign powers.",
+          "link": "https://www.euronews.com/2026/10/06/ex-german-intelligence-chief-arrested-over-suspected-espionage",
+          "published": "2026-10-06T08:38:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ex-German spy chief ‘detained on suspicion of espionage and treason’",
+          "description": "August Hanning is accused of buying secret information and intending to sell it on",
+          "link": "https://www.independent.co.uk/news/world/europe/germany-august-hanning-espionage-treason-b3062024.html",
+          "published": "2026-10-06T10:54:39.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-06-152ihc7",
+      "topic": "tech",
+      "title": "OpenAI apologizes for Australia hack amid pushback on data center project",
+      "summary": "An OpenAI prototype sought access to a government health statistics portal, sidestepping restrictions to breach a section hosting private files.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 4,
+      "score": 14.78,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.31,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "outlets": 4,
+        "specialistOutlets": 2,
+        "specialistShare": 0.5,
+        "votes": {
+          "tech": 2,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "OpenAI admits response to Australian government hacks 'not good enough'",
+          "description": "Top executive Jason Kwon tells hearing company has added \"more precautions\" to its training environments.",
+          "link": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo",
+          "published": "2026-10-06T06:53:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "OpenAI executive Jason Kwon to face grilling at parliament about AI hacking Australians’ private data",
+          "description": "Unions, employer groups, banks and industry experts will appear at the four-day hearings along with OpenAI, Anthropic, Microsoft and Google Get our new political email, free app or daily news podcast OpenAI must explain how they will stop their models from inappropriately accessing Australian data, the Labor chair of the parliament’s committee on artificial intelligence has warned, ahead of federa",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/06/openai-must-explain-action-taken-to-stop-ai-hacking-australians-private-data-chair-of-federal-inquiry-says",
+          "published": "2026-10-05T14:00:27.000Z",
+          "categories": [
+            "Australian politics",
+            "Australia news",
+            "OpenAI",
+            "AI (artificial intelligence)",
+            "David Pocock"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘A new kind of cyber incident’: OpenAI apologizes for the Australia Medicare hack.",
+          "description": "",
+          "link": "https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/a-new-kind-of-cyber-incident-openai-apologizes-for-the-australia-medicare-hack",
+          "published": "2026-10-06T02:50:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "OpenAI apologizes for Australia hack amid pushback on data center project",
+          "description": "An OpenAI prototype sought access to a government health statistics portal, sidestepping restrictions to breach a section hosting private files.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/06/asia-pacific/society/open-ai-sorry-australia/",
+          "published": "2026-10-06T05:50:00.000Z",
+          "categories": [
+            "ASIA PACIFIC"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "OpenAI Says It Changed Systems After Australia Hacking",
+          "description": "A top executive was questioned by lawmakers about the breach of a government health care data portal, as the company has faced public outrage and questions of liability.",
+          "link": "https://www.nytimes.com/2026/10/05/world/australia/australia-openai-hearing-breach.html",
+          "published": "2026-10-06T08:58:31.000Z",
+          "categories": [
+            "Australia",
+            "United States",
+            "Anthropic AI LLC",
+            "Google Inc",
+            "Microsoft Corp",
+            "New York Times",
+            "OpenAI Labs",
+            "Artificial Intelligence",
+            "Computers and the Internet"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-06-1mx7a6",
+      "topic": "tech",
+      "title": "Ofcom investigates Meta over Instagram Instants feature",
+      "summary": "The regulator said Instagram had not fully assessed risks posed by its Instants feature prior to launching it.",
+      "headlineSource": "BBC Technology",
+      "sourceCount": 3,
+      "score": 12.53,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 2,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ofcom investigates Meta over Instagram Instants safety checks",
+          "description": "Watchdog examining whether company carried out adequate risk assessment as required by Online Safety Act Mark Zuckerberg’s Meta is under investigation for a potential breach of the UK’s digital safety laws after launching a Snapchat-style feature on Instagram. The UK’s communications watchdog, Ofcom, is investigating whether the $1.9tn (£1.4tn) company infringed the Online Safety Act (OSA) by fail",
+          "link": "https://www.theguardian.com/technology/2026/oct/06/ofcom-investigates-meta-instagram-instants-safety-checks",
+          "published": "2026-10-06T10:15:31.000Z",
+          "categories": [
+            "Meta",
+            "Instagram",
+            "Ofcom",
+            "Social media",
+            "Internet safety",
+            "Media",
+            "Technology",
+            "UK news"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Britain probes Meta over risk assessment of Instagram Instants",
+          "description": "Instants allows content shared by users in social media platform Instagram to disappear after being viewed.",
+          "link": "https://www.straitstimes.com/world/europe/britain-probes-meta-over-risk-assessment-of-instagram-instants",
+          "published": "2026-10-06T09:35:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Ofcom investigates Meta over Instagram Instants safety checks",
+          "description": "Watchdog examining whether company carried out adequate risk assessment as required by Online Safety Act Mark Zuckerberg’s Meta is under investigation for a potential breach of the UK’s digital safety laws after launching a Snapchat-style feature on Instagram. The UK’s communications watchdog, Ofcom, is investigating whether the $1.9tn (£1.4tn) company infringed the Online Safety Act (OSA) by fail",
+          "link": "https://www.theguardian.com/technology/2026/oct/06/ofcom-investigates-meta-instagram-instants-safety-checks",
+          "published": "2026-10-06T10:15:31.000Z",
+          "categories": [
+            "Meta",
+            "Instagram",
+            "Ofcom",
+            "Social media",
+            "Internet safety",
+            "Media",
+            "Technology",
+            "UK news"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Ofcom investigates Meta over Instagram Instants feature",
+          "description": "The regulator said Instagram had not fully assessed risks posed by its Instants feature prior to launching it.",
+          "link": "https://www.bbc.co.uk/news/articles/cq8jzyey8e2ro",
+          "published": "2026-10-06T09:04:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Ofcom investigates Meta over Instagram Instants safety checks",
+          "description": "Watchdog examining whether company carried out adequate risk assessment as required by Online Safety Act Mark Zuckerberg’s Meta is under investigation for a potential breach of the UK’s digital safety laws after launching a Snapchat-style feature on Instagram. The UK’s communications watchdog, Ofcom, is investigating whether the $1.9tn (£1.4tn) company infringed the Online Safety Act (OSA) by fail",
+          "link": "https://www.theguardian.com/technology/2026/oct/06/ofcom-investigates-meta-instagram-instants-safety-checks",
+          "published": "2026-10-06T10:15:31.000Z",
+          "categories": [
+            "Meta",
+            "Instagram",
+            "Ofcom",
+            "Social media",
+            "Internet safety",
+            "Media",
+            "Technology",
+            "UK news"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-06-y7n79q",
+      "topic": "business",
+      "title": "Elon Musk is a trillionaire again",
+      "summary": "Elon Musk is once again a trillionaire, a title he initially held in June after SpaceX's blockbuster IPO.",
+      "headlineSource": "Business Insider",
+      "sourceCount": 3,
+      "score": 10.35,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "SpaceX stock climbs to highest since June, returning Musk to trillionaire status",
+          "description": "SpaceX shares have bounced almost 60% off their low in early August, boosted by the company's AI business and Starship progress.",
+          "link": "https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html",
+          "published": "2026-10-05T20:10:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk is a trillionaire again",
+          "description": "Elon Musk is once again a trillionaire, a title he initially held in June after SpaceX's blockbuster IPO.",
+          "link": "https://www.businessinsider.com/elon-musk-regains-trillionaire-status-spacex-stock-price-rise-2026-10",
+          "published": "2026-10-06T00:39:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk’s wealth surpasses $1 trillion — making it higher than these countries’ GDPs",
+          "description": "Is Musk wealthier than the national economy of Poland or Ireland? Find out here.",
+          "link": "https://www.marketwatch.com/story/elon-musk-is-a-trillionaire-again-heres-how-his-wealth-stacks-up-against-national-economies-e9788b29?mod=mw_rss_topstories",
+          "published": "2026-10-06T09:56:00.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
