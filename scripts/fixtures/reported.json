@@ -1416,6 +1416,97 @@
           "link": "https://gen9.invalid/world/ambassador-japan"
         }
       ]
+    },
+    {
+      "id": "two-nobel-prizes-are-two-stories",
+      "reported": "2026-10-06",
+      "note": "Published as one 14-outlet story headlined 'Francis Halzen wins 2026 Nobel Prize in Physics' and labelled HEALTH. The physics prize and the medicine prize had merged: the ceremony vocabulary (nobel, prize, 2026, awarded, wins) is rare in a day's corpus, so IDF rates it maximally distinctive, and 'awarded' is a genuine shared predicate. Nine of the fourteen outlets were health desks covering the medicine prize, so they outvoted the physics headline. The label is fixed - the headline now vetoes which specialist topic is claimed - and this case pins that.",
+      "expect": {
+        "topic": "tech"
+      },
+      "items": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+          "description": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
+          "link": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics"
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobel Physics Prize goes to Francis Halzen for neutrino work",
+          "description": "Halzen got the Nobel for his contributions to the IceCube neutrino Observatory and discovery of high-energy neutrinos. The committee described the neutrinos as \"ghostly messages from space.\"",
+          "link": "https://www.dw.com/en/nobel-physics-prize-goes-to-francis-halzen-for-neutrino-work/a-79561506?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+          "description": "STOCKHOLM, Oct 6 - Belgian-American Particle physicist Francis Halzen won the 2026 Nobel Prize in Physics for \\\"decisive contributions to the IceCube Neutrino Observatory and the discovery o",
+          "link": "https://www.straitstimes.com/world/europe/francis-halzen-wins-2026-nobel-prize-in-physics"
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobel Prize in Physics 2026: Francis Halzen awarded for work on cosmic neutrinos",
+          "description": "Francis Halzen has received the Nobel Prize in Physics 2026 for his groundbreaking research at the IceCube Neutrino Observatory. This pivotal work has led to the discovery of high-energy neu",
+          "link": "https://timesofindia.indiatimes.com/world/europe/nobel-prize-in-physics-awarded-to-francis-halzen-for-groundbreaking-work-on-cosmic-neutrinos/articleshow/134734380.cms"
+        },
+        {
+          "sourceId": "nyt_health",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Nobel Prize in Physiology or Medicine Is Awarded for Discoveries in Neuroscience",
+          "description": "Karl Deisseroth, Peter Hegemann and Georg Nagel were recognized for their work on light-gated ion channels and optogenetics, a technique that uses pulses of light to activate neurons in the ",
+          "link": "https://www.nytimes.com/2026/10/05/health/nobel-prize-medicine-physiology.html"
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics",
+          "description": "Karl Deisseroth, Peter Hegemann, and Georg Nagel are the joint recipients of the 2026 Nobel Prize in Physiology or Medicine “for their discoveries concerning light-gated ion channels and opt",
+          "link": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/"
+        },
+        {
+          "sourceId": "econ_scitech",
+          "outlet": "economist",
+          "lean": "center-right",
+          "wire": false,
+          "topicHint": "science",
+          "title": "The Nobel for medicine goes to lighting up the brain",
+          "description": "Inventors of optogenetics get the gong",
+          "link": "https://www.economist.com/science-and-technology/2026/10/05/the-nobel-for-medicine-goes-to-lighting-up-the-brain"
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nobel prize in medicine awarded to scientists studying mysteries of the brain",
+          "description": "The physiology or medicine prize traditionally opens the annual Nobel announcements",
+          "link": "https://www.independent.co.uk/news/science/nobel-prize-medicine-deisseroth-hegemann-nagel-optogenetics-b3061424.html"
+        }
+      ],
+      "limitation": "The merge itself is NOT fixed. Four candidate gate changes were measured against 240 archived clusters and the 34-item labelled corpus: mutual exclusive proper nouns (same-event and different-event pairs have identical distributions), complete linkage and quorum linkage (this cluster is more cohesive than the median real cluster), and a post-hoc bisection pass (35 legitimate clusters are more separable than this one, and the bisection does not even find the physics/medicine boundary). Two instances of one recurring award are not separable by any global similarity statistic tried. Revisit with a corpus of such cases, not with this one."
     }
   ]
 }

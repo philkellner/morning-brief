@@ -1,13 +1,13 @@
 // Run with: node --test scripts/test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener, dropDanglingCloser } from './lib/text.mjs';
 import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
-import { classifyCluster, explainCluster, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
+import { classifyCluster, explainCluster, reconcileTopic, topicVotes, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { looksLikeOpinion, opinionScore, OPINION_PATHS } from './lib/opinion.mjs';
 import { loadReported, runCase } from './lib/reported.mjs';
 import { buildAtom } from './lib/feed.mjs';
@@ -446,9 +446,30 @@ test('the union bar still rejects two lone specialist desks among many generalis
 });
 
 test('explainCluster never disagrees with the topic actually assigned', () => {
-  // The forensic record is only worth keeping if it reports the real decision.
+  // The forensic record is only worth keeping if it reports the decision the
+  // pipeline published - headline veto included, not just the coverage vote.
   for (const story of JSON.parse(readFileSync(resolve(ROOT, 'scripts/fixtures/reported.json'), 'utf8')).cases) {
-    assert.equal(explainCluster(story.items).topic, classifyCluster(story.items), story.id);
+    const headline = pickHeadline(story.items)?.title ?? null;
+    const published = reconcileTopic(classifyCluster(story.items), headline, topicVotes(story.items));
+    const gate = explainCluster(story.items, headline);
+    assert.equal(gate.topic, published, story.id);
+    assert.equal(gate.coverageTopic, classifyCluster(story.items), story.id);
+  }
+});
+
+test('no workflow restricts both day-of-month and day-of-week', () => {
+  // Cron ORs the two fields whenever both are restricted, so '0 12 1-7 * 1'
+  // means "days 1-7 of the month OR any Monday" - it fired eleven times in one
+  // October while claiming to be monthly. There is no cron syntax for "first
+  // Monday"; the schedule has to stay coarse and the job has to gate itself.
+  const dir = resolve(ROOT, '.github/workflows');
+  for (const file of readdirSync(dir)) {
+    const body = readFileSync(resolve(dir, file), 'utf8');
+    for (const [, expression] of body.matchAll(/^\s*-\s*cron:\s*'([^']+)'/gm)) {
+      const [, , dom, , dow] = expression.trim().split(/\s+/);
+      assert.ok(dom === '*' || dow === '*',
+        `${file}: cron '${expression}' restricts both day-of-month and day-of-week, which cron ORs`);
+    }
   }
 });
 

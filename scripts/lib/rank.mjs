@@ -5,7 +5,7 @@
 // significance which no single newsroom's front page can give you.
 
 import { cleanDescription, firstSentences, truncate, tokenize } from './text.mjs';
-import { classifyCluster, selectByQuota, TOPICS, DEFAULT_TOPIC } from './topics.mjs';
+import { classifyCluster, reconcileTopic, topicVotes, selectByQuota, TOPICS, DEFAULT_TOPIC } from './topics.mjs';
 import { opinionScore } from './opinion.mjs';
 
 /**
@@ -273,20 +273,31 @@ export function buildStories(clusters, {
   leanWeights, sourcesById, limit, now = Date.now(), quotas = DEFAULT_QUOTAS,
 }) {
   const ranked = clusters
-    .map((cluster) => ({
-      cluster,
-      topic: classifyCluster(cluster.items),
-      score: scoreCluster(cluster, { leanWeights, now }),
-    }))
+    .map((cluster) => {
+      const score = scoreCluster(cluster, { leanWeights, now });
+      // The headline is chosen before the topic is final, because the headline
+      // holds a veto over which specialist topic the label claims - and the
+      // quota must see the final topic, not the one the vote alone produced.
+      const headlineItem = pickHeadline(score.uniqueItems);
+      return {
+        cluster,
+        headlineItem,
+        topic: reconcileTopic(
+          classifyCluster(cluster.items),
+          headlineItem?.title ?? null,
+          topicVotes(cluster.items),
+        ),
+        score,
+      };
+    })
     .sort((a, b) => b.score.total - a.score.total);
 
   // Ranking within topic is what stops world news taking all ten slots: every
   // outlet runs a world desk, so an unsegmented list always converges there.
   const scored = selectByQuota(ranked, { quotas, limit });
 
-  return scored.map(({ cluster, score, topic }, index) => {
+  return scored.map(({ cluster, score, topic, headlineItem }, index) => {
     const items = score.uniqueItems;
-    const headlineItem = pickHeadline(items);
     const summary = pickSummary(items, headlineItem);
 
     const coverage = items

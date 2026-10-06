@@ -10,7 +10,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { isNewsworthy } from './filter.mjs';
 import { clusterItems } from './cluster.mjs';
-import { classifyCluster } from './topics.mjs';
+import { classifyCluster, reconcileTopic, topicVotes } from './topics.mjs';
 import { pickHeadline, pickSummary } from './rank.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
@@ -108,7 +108,14 @@ export function runCase(testCase) {
   }
 
   if (expect.topic) {
-    const found = classifyCluster(admitted);
+    // The published topic, not the coverage vote: the pipeline lets the chosen
+    // headline veto which specialist topic the label claims, so a case that
+    // skipped that step would be testing something the reader never sees.
+    const found = reconcileTopic(
+      classifyCluster(admitted),
+      pickHeadline(admitted)?.title ?? null,
+      topicVotes(admitted),
+    );
     if (found !== expect.topic) failures.push(`expected topic ${expect.topic}, got ${found}`);
   }
 

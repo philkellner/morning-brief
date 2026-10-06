@@ -246,10 +246,76 @@ export function classifyCluster(items) {
 }
 
 /**
+ * The label must not contradict the headline the reader is shown.
+ *
+ * Coverage votes decide the topic, and they are usually right, but they are a
+ * vote of DESKS and a cluster can carry more than one event. A brief published
+ * "Francis Halzen wins 2026 Nobel Prize in Physics" labelled HEALTH: the physics
+ * prize and the medicine prize had merged into one cluster, nine of its fourteen
+ * outlets filed on health desks, and the health desks outvoted the headline.
+ *
+ * So after the vote, the chosen headline arbitrates BETWEEN the topics the
+ * coverage actually voted for. It can never invent one. Two limits make that
+ * precise, and both were put there by a labelled case:
+ *
+ *   - It cannot promote out of `world`. Vocabulary must not create a specialist
+ *     claim; that is the invariant the keyword rules above exist to protect.
+ *   - It cannot name a topic no desk filed. "Apple names new chief executive",
+ *     carried by five tech desks and no business desk, contains the business
+ *     phrase "chief executive" - and an earlier version of this function let
+ *     that one generic phrase outrank all five desks. A topic with no coverage
+ *     votes is not a candidate, however the headline reads.
+ *
+ * What remains is the case this was built for: the coverage is split across
+ * specialist topics, both are genuinely supported, and the headline says which
+ * one the reader is actually being shown.
+ *
+ * Measured over 240 archived stories: 8 labels change, all of them to the topic
+ * the headline plainly describes - six AI stories filed BUSINESS, a
+ * congressional-dividend story filed TECH, and the physics Nobel.
+ */
+export function reconcileTopic(topic, headline, votes = null) {
+  if (topic === DEFAULT_TOPIC || !headline) return topic;
+  const evidence = scoreItemTopics({ title: headline, description: '', link: '' });
+  const hits = Object.fromEntries(Object.entries(evidence).map(([t, e]) => [t, e.hits]));
+  if ((hits[topic] ?? 0) > 0) return topic;
+
+  const candidates = Object.entries(hits)
+    // A topic the coverage never voted for is not on the ballot. With no vote
+    // record to consult, every specialist topic stays eligible.
+    .filter(([t]) => (votes ? (votes[t] ?? 0) > 0 : true))
+    .sort((a, b) => b[1] - a[1]);
+  if (candidates.length === 0) return topic;
+  const [best, bestHits] = candidates[0];
+  // A tie is no evidence: two topics claiming the headline equally says only
+  // that the headline is ambiguous, and the coverage vote is the better guide.
+  if (bestHits === 0 || candidates.filter(([, h]) => h === bestHits).length > 1) return topic;
+  return best;
+}
+
+/** Per-outlet topic votes for a cluster, which is what `reconcileTopic` weighs. */
+export function topicVotes(items) {
+  const outlets = new Map();
+  for (const item of items) {
+    const key = item.outlet ?? item.sourceId ?? item.link ?? String(items.indexOf(item));
+    if (!outlets.has(key)) outlets.set(key, new Set());
+    for (const [topic, evidence] of Object.entries(scoreItemTopics(item))) {
+      if (evidence.provenance > 0) outlets.get(key).add(topic);
+    }
+  }
+  const votes = { tech: 0, business: 0, health: 0 };
+  for (const topics of outlets.values()) for (const topic of topics) votes[topic] += 1;
+  return votes;
+}
+
+/**
  * The same decision, with its working shown, for the forensic archive and the
  * build log. Kept beside `classifyCluster` so the two cannot drift.
+ *
+ * `headline` is the headline actually published, when there is one: the record
+ * then shows both what the coverage voted for and what was published.
  */
-export function explainCluster(items) {
+export function explainCluster(items, headline = null) {
   const outlets = new Map();
   for (const item of items) {
     const key = item.outlet ?? item.sourceId ?? item.link ?? String(items.indexOf(item));
@@ -265,8 +331,14 @@ export function explainCluster(items) {
     if (topics.size > 0) specialist += 1;
     for (const topic of topics) votes[topic] += 1;
   }
+  const coverageTopic = classifyCluster(items);
+  const topic = reconcileTopic(coverageTopic, headline, votes);
   return {
-    topic: classifyCluster(items),
+    topic,
+    coverageTopic,
+    // Set when the headline overrode the coverage vote, which is a hint that the
+    // cluster may hold more than one event.
+    reconciled: topic !== coverageTopic ? `${coverageTopic} -> ${topic} by headline` : null,
     outlets: total,
     specialistOutlets: specialist,
     specialistShare: total ? Number((specialist / total).toFixed(2)) : 0,

@@ -146,6 +146,61 @@ function mergeInto(centroid, vec, weight) {
  * @param {object} opts  { threshold, strictThreshold }
  * @returns {Array<{items: Array}>} clusters, largest first
  */
+/**
+ * Vectorise a whole corpus together. Exported so a diagnostic can measure the
+ * same vectors the clusterer compares, rather than approximating them: IDF only
+ * means anything over the full day's documents.
+ */
+export function analyseCorpus(items) {
+  const analysed = items.map(termFrequencies);
+  const idf = idfWeights(analysed.map((a) => a.tf));
+  return analysed.map(({ tf, properNouns }) => ({ vec: toVector(tf, idf), properNouns }));
+}
+
+/**
+ * The heaviest proper noun in `a` that `b` has no trace of.
+ *
+ * `max`, not a sum, deliberately: a centroid accumulates the vocabulary of every
+ * member, so a sum would grow with cluster size and make large clusters
+ * progressively unjoinable regardless of what the candidate says.
+ */
+function peakExclusive(a, b) {
+  let peak = 0;
+  for (const [term, weight] of a.vec) {
+    if (b.vec.has(term)) continue;
+    const isProperNoun = term.startsWith('@') || a.properNouns.has(term);
+    if (!isProperNoun) continue;
+    if (weight > peak) peak = weight;
+  }
+  return peak;
+}
+
+/** Pairwise evidence, for diagnostics and threshold sweeps. */
+export function pairEvidence(vectors, i, j, opts = {}) {
+  const a = vectors[i];
+  const b = vectors[j];
+  const floor = opts.distinctiveFloor ?? 0.03;
+  const predicateFloor = opts.predicateFloor ?? 0.012;
+  const { shared, predicate } = distinctiveOverlap(a, b, { floor, predicateFloor });
+  let sharedWeight = 0;
+  for (const [term, weight] of a.vec) {
+    const other = b.vec.get(term);
+    if (other) sharedWeight += weight * other;
+  }
+  const exclusiveA = peakExclusive(a, b);
+  const exclusiveB = peakExclusive(b, a);
+  return {
+    cosine: cosine(a.vec, b.vec),
+    shared,
+    predicate,
+    sharedWeight,
+    exclusiveA,
+    exclusiveB,
+    contested: Math.min(exclusiveA, exclusiveB),
+    ratio: sharedWeight > 0 ? Math.min(exclusiveA, exclusiveB) / sharedWeight : Infinity,
+  };
+}
+
 export function clusterItems(items, opts = {}) {
   const threshold = opts.threshold ?? 0.20;
   // With nothing distinctive in common we demand a markedly stronger match,
@@ -161,9 +216,7 @@ export function clusterItems(items, opts = {}) {
 
   if (items.length === 0) return [];
 
-  const analysed = items.map(termFrequencies);
-  const idf = idfWeights(analysed.map((a) => a.tf));
-  const vectors = analysed.map(({ tf, properNouns }) => ({ vec: toVector(tf, idf), properNouns }));
+  const vectors = analyseCorpus(items);
 
   const clusters = [];
   for (let i = 0; i < items.length; i += 1) {

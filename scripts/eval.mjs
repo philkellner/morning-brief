@@ -20,6 +20,9 @@ for (const [index, result] of results.entries()) {
     .join(' ');
   console.log(`${result.ok ? '  ok  ' : 'FAIL  '}${result.id.padEnd(34)}${verdict}`);
   if (verbose) console.log(`        ${source.note}`);
+  // A case can fix what the reader saw while leaving a deeper cause open. Say so
+  // every run, not only in verbose mode, so it cannot quietly become settled.
+  if (source.limitation) console.log(`        STILL OPEN: ${source.limitation}`);
   for (const failure of result.failures) console.log(`        ${failure}`);
 }
 

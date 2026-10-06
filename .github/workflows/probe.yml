@@ -10,14 +10,37 @@ on:
         required: false
         default: 'sources.json'
   schedule:
-    - cron: '0 12 1-7 * 1'
+    # Every Monday, gated to the first week of the month in the job below.
+    #
+    # NOT '0 12 1-7 * 1'. Cron ORs day-of-month against day-of-week whenever
+    # both are restricted, so that expression fired on days 1-7 of every month
+    # AND every Monday - eleven runs in October, not one. There is no cron
+    # syntax for "first Monday", so the schedule stays coarse and the job
+    # decides.
+    - cron: '0 12 * * 1'
 
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
+      - name: Is this the first Monday of the month?
+        id: gate
+        run: |
+          DAY="$(date -u +%-d)"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$DAY" -le 7 ]; then
+            echo "Day $DAY - probing."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Day $DAY - not the first Monday. Skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
       - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
         with:
           node-version: '20'
-      - run: node scripts/probe-feeds.mjs --file "${{ github.event.inputs.file || 'sources.json' }}"
+      - name: Probe feeds
+        if: steps.gate.outputs.run == 'true'
+        run: node scripts/probe-feeds.mjs --file "${{ github.event.inputs.file || 'sources.json' }}"

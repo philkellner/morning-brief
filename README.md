@@ -381,6 +381,17 @@ overwriting it with junk.
 - **Actions cron drifts.** GitHub's scheduler is best-effort and has been
   observed over ten hours late. The workflow carries eight hourly triggers and
   builds on whichever fires first — see *Timing* above.
+- **Two instances of one recurring award or fixture can merge.** The physics and
+  medicine Nobels merged into a single 14-outlet story, because a day's corpus
+  makes the ceremony vocabulary (*nobel, prize, awarded*) look maximally
+  distinctive and *awarded* is a genuine shared predicate. Four candidate gate
+  changes were measured against 240 archived clusters and the labelled corpus,
+  and every statistic that separates this cluster also splits dozens of
+  legitimate ones — real clusters are routinely loose, which is what lets an
+  18-outlet story hold together at all. The published *label* is now protected
+  (the headline vetoes which specialist topic is claimed), so the visible
+  symptom is gone; the merge is not. Tracked as `two-nobel-prizes-are-two-stories`
+  in the reported corpus, where `npm run eval` prints what is still open.
 
 ## Licence
 

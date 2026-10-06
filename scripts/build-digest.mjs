@@ -14,6 +14,7 @@ import { stripHtml } from './lib/text.mjs';
 import { isNewsworthy } from './lib/filter.mjs';
 import { buildAtom } from './lib/feed.mjs';
 import { explainCluster, DEFAULT_TOPIC } from './lib/topics.mjs';
+import { pickHeadline } from './lib/rank.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const USER_AGENT = 'morning-brief/1.0 (+https://github.com/philkellner/morning-brief)';
@@ -165,7 +166,7 @@ function reportTopics(clusters, stories, log) {
   log(`\ntopics published: ${Object.entries(published).map(([t, n]) => `${t} ${n}`).join('  ')}`);
 
   const specialist = clusters
-    .map((c) => ({ gate: explainCluster(c.items), items: c.items }))
+    .map((c) => ({ gate: explainCluster(c.items, pickHeadline(c.items)?.title ?? null), items: c.items }))
     .filter((c) => c.gate.topic !== DEFAULT_TOPIC)
     .sort((a, b) => b.gate.outlets - a.gate.outlets);
 
@@ -249,7 +250,7 @@ async function main() {
       sourceCount: s.sourceCount, score: s.score, scoreComponents: s.scoreComponents,
       // Why this story got this topic. Without it, diagnosing a mislabel days
       // later means re-deriving the gate by hand from the member list.
-      topicGate: explainCluster(s._members),
+      topicGate: explainCluster(s._members, s.title),
       members: s._members,
     })),
   };
