@@ -1,0 +1,2178 @@
+{
+  "edition": "2026-10-07",
+  "generatedAt": "2026-10-07T10:51:09.470Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-07-soth1v",
+      "topic": "world",
+      "title": "France halts police use of stun grenades at student protests",
+      "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 13,
+      "score": 23.48,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France halts use of stun grenades after boy's hand blown off in student protests",
+          "description": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
+          "link": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko",
+          "published": "2026-10-07T10:23:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: Riot police clash with school protesters and use tear gas in France",
+          "description": "Hundreds of thousands of people have taken to the streets across France amid a wave of protests by high-school pupils.",
+          "link": "https://www.bbc.co.uk/news/videos/cwm26078pkepo",
+          "published": "2026-10-06T21:22:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "France halts police use of stun grenades at student protests",
+          "description": "Prime Minister Sebastien Lecornu to make public address after thousands rally to demand more funding for education.",
+          "link": "https://www.aljazeera.com/news/2026/10/7/france-halts-police-use-of-stun-grenades-at-student-protests?traffic_source=rss",
+          "published": "2026-10-07T09:41:42.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘We’re short of resources’: France’s student protesters, in their own words",
+          "description": "French students and teachers protesting school conditions spoke with Al Jazeera about their demands.",
+          "link": "https://www.aljazeera.com/news/2026/10/7/were-short-of-resources-frances-student-protesters-in-their-own-words?traffic_source=rss",
+          "published": "2026-10-07T08:32:16.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: France suspends stun grenade use in school protests after 15-year-old loses hand",
+          "description": "The French government has suspended the police use of stun grenades against protesting high school students, the interior minister announced Wednesday, after a teenager had his hand blown off up to the elbow by one fired by police. Eighteen internal probes have been launched in response to allegations of police brutality since the student movement broke out in mid-September. Follow our liveblog fo",
+          "link": "https://www.france24.com/en/france/20261007-live-france-suspends-stun-grenade-use-school-protests-after-15-year-old-loses-hand",
+          "published": "2026-10-07T07:47:49.000Z",
+          "categories": [
+            "France"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "French policeman charged after firing tear gas grenade at high school student",
+          "description": "A French policeman was charged Tuesday with violence for firing a tear gas grenade at close range at a 14-year-old student during high school protests that have shaken the country. Speaking with FRANCE 24's Mark Owen, Fanny Gallois, Head of the Freedoms Program, Amnesty International, says that \"these cases of serious injuries related to the use of so-called less-lethal weapons commonly used in Fr",
+          "link": "https://www.france24.com/en/french-policeman-charged-after-firing-tear-gas-grenade-at-high-school-student",
+          "published": "2026-10-06T21:04:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Student protests in France turn violent, leading to thousands of arrests, mostly of teens",
+          "description": "Around 250,000 people protested funding cuts in France that have left public schools with leaks, rats and not enough desks. Aiden Stretch reports on the demonstrations that have turned violent.",
+          "link": "https://www.cbsnews.com/video/student-protests-france-turn-violent-thousands-arrests-teens/",
+          "published": "2026-10-06T23:25:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "French high schools closed in biggest day of student protests in decades",
+          "description": "Nationwide protests across France continued for a third week as demonstrators rallied against poor school conditions.",
+          "link": "https://www.cbsnews.com/news/france-high-schools-closed-biggest-day-student-protests-decades/",
+          "published": "2026-10-06T14:34:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nearly 2,000 schools closed in France as students, parents protest",
+          "description": "French students, parents and teachers continued protesting into a third week, saying their schools are falling apart. Aidan Stretch reports.",
+          "link": "https://www.cbsnews.com/video/nearly-2000-schools-closed-in-france-as-students-parents-protest/",
+          "published": "2026-10-06T13:48:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "France rocked by student-led protests over school conditions",
+          "description": "Students, teachers, parents and labor unions joined demonstrations across France Tuesday, as protesters clashed with police and hundreds of schools were closed or blockaded. NBC News’ Richard Engel reports from Paris.",
+          "link": "https://www.nbcnews.com/nightly-news/video/france-rocked-by-student-led-protests-over-school-conditions-271146053852",
+          "published": "2026-10-06T22:55:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Paris students face intense police response while demanding better school conditions",
+          "description": "Tens of thousands of high school students have flooded the streets of Paris and other French cities, joined by teachers and union activists demanding better learning conditions. NBC News’ Richard Engel reports from the scene as about 6,000 people have been arrested and hundreds more injured amid the escalating demonstrations.",
+          "link": "https://www.nbcnews.com/video/paris-students-face-police-response-while-demanding-better-school-conditions-271118405853",
+          "published": "2026-10-06T15:39:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "French police suspend use of stun grenades after high-school protester loses hand",
+          "description": "Minister says use of grenades has been stopped ‘until we know what happened’ as protests across France continue How dilapidated are French schools and how bad is inequality in the education system? Europe live – latest updates France is suspending the use of stun grenades by police at high-school demonstrations, the interior minister has said, amid mounting accusations of police brutality during a",
+          "link": "https://www.theguardian.com/world/2026/oct/07/french-police-suspend-use-stun-grenades-high-school-protester-loses-hand",
+          "published": "2026-10-07T09:09:07.000Z",
+          "categories": [
+            "France",
+            "Protest",
+            "Europe",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Student Protests Expand to More Than 40 French Cities",
+          "description": "Union members, parents and teachers joined the demonstrations, broadening the student-led protest movement that has closed hundreds of French high schools since late September.",
+          "link": "https://www.nytimes.com/live/2026/10/06/world/france-protests-students-schools",
+          "published": "2026-10-07T09:50:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "France Student Protests Escalate Amid Fiscal Crisis and an Election",
+          "description": "Chaos in schools, on the streets and in the markets is rooted in France’s struggles to fund its social welfare state, with a presidential election approaching.",
+          "link": "https://www.nytimes.com/2026/10/06/world/europe/france-protests-social-welfare-election.html",
+          "published": "2026-10-06T17:37:07.000Z",
+          "categories": [
+            "France",
+            "Economic Conditions and Trends",
+            "Demonstrations, Protests and Riots",
+            "Budgets and Budgeting",
+            "Politics and Government",
+            "Oil (Petroleum) and Gasoline",
+            "National Rally (France)",
+            "Macron, Emmanuel (1977-)",
+            "Le Pen, Marine",
+            "Lecornu, Sebastien",
+            "Credit and Debt"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "The School Near Paris That Shows Why French Students Are Protesting",
+          "description": "Angered by poor classroom conditions, students at Paul Éluard High School in a suburb of the capital were among the first to blockade their campus during an ongoing round of unrest.",
+          "link": "https://www.nytimes.com/2026/10/07/world/europe/france-school-protest-paul-eluard.html",
+          "published": "2026-10-07T09:55:17.000Z",
+          "categories": [
+            "Paris (France)",
+            "St Denis (France)",
+            "Eluard, Paul",
+            "Pecresse, Valerie",
+            "Demonstrations, Protests and Riots",
+            "Education (K-12)",
+            "Poverty",
+            "Teachers and School Employees",
+            "Shortages",
+            "Education (Secondary)",
+            "France"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "French PM rejects police brutality claims after teens severely injured in protests: 'Accidents happen'",
+          "description": "French Prime Minister Sébastien Lecornu defended the police response after a teen lost his hand and another was blinded amid student protests.",
+          "link": "https://www.foxnews.com/world/french-pm-rejects-police-brutality-claims-teens-severely-injured-protests-accidents-happen",
+          "published": "2026-10-07T05:09:27.000Z",
+          "categories": [
+            "efccf36d-a482-5a78-acd0-d04f13a61bbf",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/france",
+            "fox-news/world/world-protests",
+            "fox-news/world",
+            "fox-news/person/emmanuel-macron",
+            "fox-news/controversies",
+            "fox-news/us/crime/police-and-law-enforcement",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France suspends stun grenade use at protests ahead of PM’s speech after student loses hand",
+          "description": "Demonstrations largely over complaints of poor facilities in high schools and teacher shortages.",
+          "link": "https://www.straitstimes.com/world/europe/france-suspends-stun-grenade-use-at-protests-ahead-of-pms-speech-after-student-loses-hand",
+          "published": "2026-10-07T09:48:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "French school protests draw over 250,000 as violence flares",
+          "description": "Around 256,000 people were taking part in demonstrations, including 56,000 in Paris, according to the Interior Ministry.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/07/world/france-student-protests/",
+          "published": "2026-10-07T06:00:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "French students lead massive protests against education policies",
+          "description": "More than a quarter-million people poured into the streets across France on Tuesday, a dramatic development in a student-led movement that began at a single high school. In some cities, police and protesters clashed. French officials condemned what they called \"extreme violence.\" Deema Zein reports.",
+          "link": "https://www.pbs.org/newshour/show/french-students-lead-massive-protests-demanding-more-education-funding",
+          "published": "2026-10-06T22:55:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump, Waltz link France riots to mass immigration as thousands are arrested",
+          "description": "Trump claims France's student protests are about \"Islam wanting to take over\" as Sébastien Lecornu reports the school system's heaviest toll in decades.",
+          "link": "https://www.foxnews.com/world/trump-waltz-link-france-riots-mass-immigration-thousands-arrested",
+          "published": "2026-10-06T19:21:17.000Z",
+          "categories": [
+            "4097e607-c50d-51bd-8f6d-57184dc03fff",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/france",
+            "fox-news/world/world-protests",
+            "fox-news/world",
+            "fox-news/person/donald-trump",
+            "fox-news/world/united-nations",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "France explodes again as students riot over education",
+          "description": "Video from France Tuesday shows protesters clashing with police and dodging tear gas as tens of thousands demand sweeping education reform nationwide.",
+          "link": "https://www.foxnews.com/world/france-explodes-students-riot-education",
+          "published": "2026-10-06T16:04:23.000Z",
+          "categories": [
+            "39882a59-e57e-551d-bd08-41ce6662f405",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/france",
+            "fox-news/world/world-protests",
+            "fox-news/world/world-regions/europe",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Student union warns France riots 'WILL intensify' if they are 'not listened to' despite days of violent clashes and 256,000 taking to the streets on Tuesday alone",
+          "description": "Hundreds of thousands of protestors have caused havoc on the streets of France's major cities in recent weeks over dilapidated classrooms, overloaded timetables and substandard conditions.",
+          "link": "https://www.dailymail.com/news/article-16188639/Student-union-warns-France-riots-intensify.html",
+          "published": "2026-10-07T01:27:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "One-year-old baby hospitalised after being hit by firework as school protests sweep France",
+          "description": "Hundreds of thousands of pupils have marched across the country to protest school conditions",
+          "link": "https://www.independent.co.uk/news/world/europe/france-school-protests-infant-hospital-firework-b3062587.html",
+          "published": "2026-10-07T09:15:35.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-07-uvwxux",
+      "topic": "world",
+      "title": "Israel marks three years since Hamas's October 7 attack",
+      "summary": "Israel's subsequent bombardment and ground operations have killed more than 74,000 people in Gaza.",
+      "headlineSource": "France 24",
+      "sourceCount": 10,
+      "score": 22.45,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
+          "description": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
+          "link": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o",
+          "published": "2026-10-07T05:02:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israelis pause to mark October 7 Hamas-attack anniversary",
+          "description": "Israelis gathered at memorials to mark the moment the Hamas-led attack began on October 7, 2023.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/7/israelis-pause-to-mark-october-7-hamas-attack-anniversary?traffic_source=rss",
+          "published": "2026-10-07T04:43:02.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel marks third anniversary of October 7 Hamas terror attacks with memorials",
+          "description": "Families gathered at the Nova music festival site and other attack locations in memory of those killed by Hamas on October 7, 2023.",
+          "link": "https://www.dw.com/en/israel-marks-third-anniversary-of-october-7-hamas-terror-attacks-with-memorials/a-79571380?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-07T06:51:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel marks three years since Hamas's October 7 attack",
+          "description": "Israel marks the third anniversary of Hamas's October 7, 2023 attack on Wednesday, just weeks before an election in which the deadliest day in the country's history will be front and centre. Memorial events are planned throughout the day to pay tribute to the scores of people killed by militants led by the Islamist movement during their assault from Gaza. For more, FRANCE 24's Stuart Norval is joi",
+          "link": "https://www.france24.com/en/video/20261007-israel-marks-three-years-since-hamas-s-october-7-attack",
+          "published": "2026-10-07T10:24:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Three years since Hamas October 7 attack: What did Netanyahu know?",
+          "description": "Israel marked the third anniversary of Hamas's October 7 attack on Wednesday with intense political debate, weeks before elections in which the country's deadliest day will be front and centre. Accusations that Prime Minister Benjamin Netanyahu failed to stop Hamas's October 7 attack have threatened to poison his campaign, particularly since reports emerged suggesting the United Arab Emirates and ",
+          "link": "https://www.france24.com/en/video/20261007-three-years-since-hamas-october-7-attack-what-did-netanyahu-know",
+          "published": "2026-10-07T10:23:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Israel marks three years since Hamas’s deadly October 7 attacks",
+          "description": "Israelis on Wednesday began commemorations for the victims of Hamas’s October 7, 2023 attacks, which killed 1,200 people and saw 251 hostages taken. This year – the third anniversary of the attacks – is the first time all the hostages or their remains are home. Follow our liveblog for the latest developments.",
+          "link": "https://www.france24.com/en/middle-east/20261007-middle-east-live-houthis-target-airport-in-yemen-as-israel-marks-october-7-anniversary",
+          "published": "2026-10-07T02:46:40.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel marks third anniversary of October 7 attack as election looms",
+          "description": "Israel will mark the third anniversary of the October 7, 2023 Hamas attack on Wednesday with memorial events across the country, as heightened security surrounds the commemorations and voters prepare for an election in which the deadliest day in Israel’s history is expected to remain a central issue.",
+          "link": "https://www.france24.com/en/middle-east/20261007-israel-marks-third-anniversary-of-october-7-attack-as-election-looms",
+          "published": "2026-10-07T02:14:22.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Remembering the impact on the ground three years after the October 7th attacks on Israel",
+          "description": "It's been three years since the October 7th terror attacks where 1,200 people were killed and another 251 were taken hostage into Gaza. NBC News' Raf Sanchez was in Israel covering the events that would cause a major shift in the Middle East.",
+          "link": "https://www.nbcnews.com/video/remembering-october-7th-terror-attacks-on-israel-three-years-later-271149637760",
+          "published": "2026-10-06T23:23:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘All I want to do is cry’: trauma of 7 October survivors three years after the attacks",
+          "description": "Israeli communities shattered by Hamas massacres are torn between rebuilding their lives and remembering lost friends and relatives Keith Siegel spent many of his long hours in Hamas captivity in Gaza etching everything that happened after 7 October 2023 into his memory. For 484 days, he recited to himself every place he was held, the dates he was moved and every attack or humiliation he endured o",
+          "link": "https://www.theguardian.com/world/2026/oct/06/trauma-of-7-october-israel-survivors-three-years-hamas-after-attacks",
+          "published": "2026-10-06T20:00:23.000Z",
+          "categories": [
+            "Israel",
+            "Gaza",
+            "Palestine",
+            "Benjamin Netanyahu",
+            "World news",
+            "Middle East and north Africa"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israelis mark three years since Hamas attack that set off Gaza assault",
+          "description": "Israel's subsequent bombardment and ground operations have killed more than 74,000 people in Gaza.",
+          "link": "https://www.straitstimes.com/world/middle-east/israelis-mark-three-years-since-hamas-attack-that-set-off-gaza-assault",
+          "published": "2026-10-07T09:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel pauses in moment of silence to remember those killed on 7 October",
+          "description": "A group representing the bereaved families organised tributes, including a silence at 6:29am - the minute the attack began - and a ceremony that will follow tonight in Tel Aviv.",
+          "link": "https://www.euronews.com/2026/10/07/israel-pauses-in-moment-of-silence-to-remember-those-killed-on-7-october",
+          "published": "2026-10-07T08:00:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israelis mourn Nova festival victims three years after Hamas attack",
+          "description": "Ceremonies at the Nova festival site and Kfar Aza marked three years since the Hamas-led October 7 attack that sparked the Gaza war.",
+          "link": "https://www.euronews.com/video/2026/10/07/israelis-mourn-nova-festival-victims-three-years-after-hamas-attack",
+          "published": "2026-10-07T07:00:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel marks 3 years since October 7 attack that sparked war in Gaza",
+          "description": "Israel marked the third anniversary of Hamas’ October 7 attack on Wednesday with silent tributes, new strikes on Gaza and intense political debate, weeks before elections in which the country’s deadliest day will be front and centre. At the site of the Nova music festival, where Hamas militants in trucks and paragliders opened fire around dawn on October 7, 2023, family members bowed their heads i",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3369994/israel-marks-3-years-october-7-attack-sparked-war-gaza",
+          "published": "2026-10-07T05:39:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nationalreview",
+          "outlet": "nationalreview",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "The War at Home, Three Years After October 7",
+          "description": "Activists continue to take their anti-Israel fight to American college campuses.",
+          "link": "https://www.nationalreview.com/2026/10/the-war-at-home-three-years-after-october-7/",
+          "published": "2026-10-07T10:30:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Photos: Three years of Israel’s war on Gaza as tent cities spread amid ruin",
+          "description": "Tent cities in Gaza grow as families mourn the dead, care for the injured, and endure relentless displacement.",
+          "link": "https://www.aljazeera.com/gallery/2026/10/7/photos-three-years-of-israels-war-on-gaza-as-tent-cities-spread-amid-ruin?traffic_source=rss",
+          "published": "2026-10-07T09:55:26.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Fear and a far-right lurch: How October 7 reshaped Israel",
+          "description": "Three years on, the trauma of October 7, 2023, continues to reshape Israel’s politics, wars and place in the world.",
+          "link": "https://www.aljazeera.com/news/2026/10/7/fear-and-a-far-right-lurch-how-october-7-reshaped-israel?traffic_source=rss",
+          "published": "2026-10-07T08:53:23.000Z",
+          "categories": [
+            "News"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-07-qzocpi",
+      "topic": "world",
+      "title": "Trump to speak to Putin about plague lab worker's death in Russia",
+      "summary": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.",
+      "headlineSource": "BBC News",
+      "sourceCount": 14,
+      "score": 21.85,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 14,
+        "specialistOutlets": 3,
+        "specialistShare": 0.21,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 2
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump to speak to Putin about plague lab worker's death in Russia",
+          "description": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.",
+          "link": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o",
+          "published": "2026-10-07T09:59:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What is pneumonic plague and how does it spread?",
+          "description": "The death of a worker from a Russian lab that researches plague has prompted questions about the disease.",
+          "link": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o",
+          "published": "2026-10-06T15:35:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: How Russia responded to US after plague researcher death",
+          "description": "The US and Russia have each offered to help each other tackling infectious diseases.",
+          "link": "https://www.bbc.co.uk/news/videos/c8e36y796enno",
+          "published": "2026-10-06T13:32:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Suspected pneumonic plague in Siberia: What we know about the disease",
+          "description": "After a worker at a Russian plague research institute in Siberia died October 2, 2026, nearly 200 of her contacts were under medical observation. But authorities there denied pneumonic plague had caused the death.",
+          "link": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-07T09:44:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia denies anti-plague measures after pneumonia death",
+          "description": "The death of an employee at an anti-plague institute in Irkutsk is still being looked into, the authorities said. US Secretary of State Marco Rubio called for Russia to be transparent about its findings.",
+          "link": "https://www.dw.com/en/russia-denies-anti-plague-measures-after-pneumonia-death/a-79567922?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T17:02:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Fact check: Misleading claims spark plague fears in Russia",
+          "description": "The death of a lab worker at a plague research institute in Russia has sparked claims about a lab accident, hundreds of infections and international spread. Some of these viral narratives are misleading.",
+          "link": "https://www.dw.com/en/fact-check-misleading-claims-spark-plague-fears-in-russia/a-79560752?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T11:07:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Plague risk to UK 'very low', officials say after Russian woman's death",
+          "description": "The risk to the UK from plague is very low, the UK Health Security Agency (UKHSA) has said, after the death of a laboratory worker in Russia who may have been exposed to pneumonic plague.",
+          "link": "https://news.sky.com/story/ukhsa-says-risk-of-plague-very-low-after-russian-laboratory-worker-dies-of-suspected-pneumonic-plague-13595782",
+          "published": "2026-10-06T12:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to know about plague amid reports of Russian lab worker's death",
+          "description": "Reports of a lab worker dying in Russia after allegedly being exposed to plague have raised concerns, even as the WHO says the public health risk is low.",
+          "link": "https://www.cbsnews.com/news/plague-russia-lab-worker-death-what-to-know/",
+          "published": "2026-10-06T22:22:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What we know about the death of a worker at Russian plague lab",
+          "description": "CBS News medical correspondent Dr. Céline Gounder shares what we know so far about the death of a female scientist who worked at a plague research center in Russia's far-eastern Siberia region.",
+          "link": "https://www.cbsnews.com/video/what-we-know-about-the-death-of-a-worker-at-russian-plague-lab/",
+          "published": "2026-10-06T13:30:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WHO says public health risk \"appears to be low\" after Russian plague lab worker's death",
+          "description": "Russia says one of its workers at a plague research lab died last week of pneumonia of unknown origin, sparking worldwide concern. Leigh Kiniry has more.",
+          "link": "https://www.cbsnews.com/video/who-says-public-health-risk-appears-to-be-low-russian-plague-lab-worker-death/",
+          "published": "2026-10-06T13:20:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Rubio calls on Russia to be more open about plague lab worker's death",
+          "description": "The World Health Organization says public risks are low after a plague center worker's death, but Marco Rubio says Moscow should \"share more information with the world.\"",
+          "link": "https://www.cbsnews.com/news/russia-pneumonic-plague-lab-worker-death-rubio-us-reaction/",
+          "published": "2026-10-06T12:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia plays down reported plague lab death and says, trust us",
+          "description": "A Russian plague lab worker died of \"pneumonia of unknown origin,\" officials say, in response to initial reports that she was exposed to the deadly bacteria during a lab accident.",
+          "link": "https://www.cbsnews.com/news/russia-plague-lab-death-pneumonia-of-unknown-origin/",
+          "published": "2026-10-05T23:42:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia says no plague found in contacts of Siberian lab worker who died",
+          "description": "News that a female staffer had died from a “pneumonia of undetermined” origin last week has spread fears worldwide.",
+          "link": "https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805",
+          "published": "2026-10-06T13:01:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. Formally Seeks Information From Russia About Possible Plague Death",
+          "description": "The lack of details from the Russian authorities has unnerved U.S. officials and others around the world.",
+          "link": "https://www.nytimes.com/2026/10/07/world/europe/russia-plague-us-trump-state-department.html",
+          "published": "2026-10-07T10:39:19.000Z",
+          "categories": [
+            "Deaths (Fatalities)",
+            "Plague",
+            "State Department",
+            "Russia",
+            "United States International Relations",
+            "Tests (Medical)",
+            "Medicine and Health",
+            "Pneumonia"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Plague in Russia sparks concern, COVID-19 pandemic memories: 5 things to know",
+          "description": "The death of Russian lab technician researching the plague has set off alarms abroad and at home as observers note resemblances to the conditions that some theorized preceded the COVID-19 pandemic. Reports emerged last week that a laboratory worker at the Irkutsk Anti-Plague Research Institute of Siberia and the Far East had died shortly after being hospitalized. The news...",
+          "link": "https://thehill.com/policy/healthcare/6132881-russia-lab-worker-plague-death-facts/",
+          "published": "2026-10-07T00:10:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russian lab worker's suspected plague death leaves experts puzzled",
+          "description": "Russian authorities say the situation is stable and there are no reports of secondary cases.",
+          "link": "https://www.cnbc.com/2026/10/06/plague-russia-person-died-lab-infection-pneumonic.html",
+          "published": "2026-10-06T15:23:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia plague: How great is the global risk? Maybe low, but infectious disease experts want more data",
+          "description": "Uncertainty surrounds the death of an employee at a Russian anti-plague institute. Here's what infectious disease experts say about how worried you should be.",
+          "link": "https://www.cnbc.com/make-it/2026/10/06/russia-plague-global-risk.html",
+          "published": "2026-10-06T21:13:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia says it properly informed WHO of plague institute worker's death, blasts media coverage",
+          "description": "MOSCOW, Oct 7 - Russia informed the World Health Organization about the death of a laboratory worker at a Siberian plague research institute last week in line with established procedures, Kremlin spokesman Dmitry Peskov said on Wednesday, accusing the media of providing false information about the case.",
+          "link": "https://www.straitstimes.com/world/europe/russia-says-it-properly-informed-who-of-plague-institute-workers-death-blasts-media-coverage",
+          "published": "2026-10-07T10:24:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "WHO seeks more details from Russia about reasons for plague institute worker's death",
+          "description": "Oct 7 - The World Health Organization said on Wednesday it had requested more information from Russia about what killed a plague institute worker in Siberia, saying transparency was vital to get a clear picture of potential health risks.",
+          "link": "https://www.straitstimes.com/world/europe/who-seeks-more-details-from-russia-about-reasons-for-plague-institute-workers-death",
+          "published": "2026-10-07T10:09:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia denies plague death but quarantines hundreds without explanation",
+          "description": "Rospotrebnadzor said Darya Shipilova, 28, died of \"pneumonia of unknown aetiology\" with no links to her work at the Irkutsk Anti-Plague Institute, but imposed quarantine on her contacts, confined 60 colleagues inside the facility and restricted access to hospitals including a maternity ward.",
+          "link": "https://www.euronews.com/2026/10/06/russia-denies-plague-death-but-quarantines-hundreds-without-explanation",
+          "published": "2026-10-06T14:34:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WHO to investigate reports of second plague case after death of Russian lab worker",
+          "description": "Global health officials continue to press Moscow for full transparency",
+          "link": "https://www.independent.co.uk/news/world/europe/russia-plague-second-case-lab-siberia-b3062609.html",
+          "published": "2026-10-07T10:19:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Everything we know about the suspected plague case in Russia so far",
+          "description": "Fears of a pneumonic plague outbreak follow an Irkutsk lab employee's death last week. But the World Health Organization (WHO) says the risk is low.",
+          "link": "https://www.businessinsider.com/russia-pneumonic-plague-outbreak-risk-symptoms-2026-10",
+          "published": "2026-10-07T00:33:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Everything YOU need to know about pneumonic plague as Russia launches quarantines: How it spreads, the first warning signs and lifesaving treatment",
+          "description": "Infectious disease experts have revealed to the Daily Mail everything to know about a rare form of plague amid outbreak fears in Russia, including how it spreads and the lifesaving treatment.",
+          "link": "https://www.dailymail.com/health/article-16184717/pneumonic-plague-russia-quarantine-symptoms-treatment.html",
+          "published": "2026-10-06T03:30:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "CDC is 'closely monitoring' possible plague outbreak in Russia as reports emerge of second death",
+          "description": "Officials at the CDC said they were working alongside other departments to 'assess developments' as more information becomes available.",
+          "link": "https://www.dailymail.com/health/article-16187425/cdc-monitoring-russia-suspected-plague-outbreak.html",
+          "published": "2026-10-06T17:34:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump to speak to Putin on plague as US, UN urge transparency",
+          "description": "US President Donald Trump said Tuesday he would speak very soon with Russian President Vladimir Putin over the reported plague death of a laboratory technician, as Washington and the United Nations called for transparency from Moscow. Russian authorities denied that they were imposing anti-plague measures and played down the reports of an incident at a plague research institute in Siberia's Irkuts",
+          "link": "https://www.france24.com/en/video/20261007-trump-to-speak-to-putin-on-plague-as-us-un-urge-transparency",
+          "published": "2026-10-07T10:19:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says will speak with Putin over Russia's reported plague death",
+          "description": "US President Donald Trump said Tuesday he would speak “very soon” with Russian President Vladimir Putin over the reported death from plague of a laboratory technician, as Washington and the World Health Organization pressed Moscow for greater transparency and clarity over conflicting accounts of the incident in Siberia.",
+          "link": "https://www.france24.com/en/europe/20261006-trump-says-he-will-speak-to-putin-over-reported-plague-death-in-russia",
+          "published": "2026-10-06T22:51:48.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia",
+          "description": "Trump says he will speak with Putin “very soon” over a plague incident in Russia as CDC monitor the situation.",
+          "link": "https://www.cnbc.com/2026/10/07/trump-putin-russian-plague-death-cdc-pneumonic-.html",
+          "published": "2026-10-07T04:12:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Politkovskaya 'predicted' Russia's turn under Putin, editor says on 20th anniversary of her death",
+          "description": "Assassinated Russian journalist Anna Politkovskaya \"predicted\" Moscow's trajectory under President Vladimir Putin 20 years ago, her former editor said ahead of the anniversary of her death on Wednesday. Politkovskaya had reported on the war in Chechnya and Putin's rise before she was gunned down in her Moscow apartment block on October 7, 2006.",
+          "link": "https://www.france24.com/en/europe/20261007-anna-politkovskaya-the-slain-reporter-who-predicted-russia-future",
+          "published": "2026-10-07T08:32:02.000Z",
+          "categories": [
+            "Europe"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-07-r3o71w",
+      "topic": "world",
+      "title": "What happened during Christa Pike's failed execution",
+      "summary": "A medical expert advising her legal team says the murderer of Colleen Slemmer is communicating in a \"basic way\".",
+      "headlineSource": "NPR Health",
+      "sourceCount": 11,
+      "score": 20.86,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 1,
+        "specialistShare": 0.09,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+          "description": "A medical expert advising her legal team says the murderer of Colleen Slemmer is communicating in a \"basic way\".",
+          "link": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko",
+          "published": "2026-10-07T10:12:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How did Christa Pike survive execution attempt - and what happens next?",
+          "description": "The convicted killer of Colleen Slemmer is said to be awake and speaking in hospital in Tennessee after surviving two lethal injections.",
+          "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo",
+          "published": "2026-10-07T10:01:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about Christa Pike’s ‘unprecedented' recovery after failed execution",
+          "description": "The BBC's Sarah Smith details the injuries sustained by the US death row inmate after two failed lethal injections, and what comes next.",
+          "link": "https://www.bbc.co.uk/news/videos/c5398nwe9lzlo",
+          "published": "2026-10-06T23:42:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Christa Pike is awake after surviving execution: What happens now?",
+          "description": "Tennessee death row inmate survives execution attempt, sparking legal and medical concerns.",
+          "link": "https://www.aljazeera.com/news/2026/10/7/christa-pike-is-awake-after-surviving-execution-what-happens-now?traffic_source=rss",
+          "published": "2026-10-07T10:22:11.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Christa Pike awake after failed Tennessee execution: lawyers",
+          "description": "A death row inmate who survived a botched execution last week is conscious and talking in hospital, according to her lawyers, who want to commute her death sentence to life imprisonment without parole.",
+          "link": "https://www.dw.com/en/christa-pike-awake-after-failed-tennessee-execution-lawyers/a-79569867?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T23:49:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Christa Pike regains consciousness after botched Tennessee execution attempt",
+          "description": "Convicted murderer Christa Pike regained consciousness and began speaking Tuesday after surviving a botched execution by lethal injection. Pike, the first woman the state of Tennessee has attempted to put to death in 200 years, remains hospitalised with severe injuries to both arms.",
+          "link": "https://www.france24.com/en/americas/20261006-christa-pike-regains-consciousness-after-botched-tennessee-execution-attempt",
+          "published": "2026-10-06T23:30:18.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "10/6: CBS Evening News",
+          "description": "A California couple was arrested on child abuse charges in a surrogacy scandal; Christa Pike is awake and speaking after her failed execution.",
+          "link": "https://www.cbsnews.com/video/100626-cbs-evening-news/",
+          "published": "2026-10-06T22:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tennessee governor resists calls to commute Christa Pike’s sentence after botched execution attempt leaves state in ‘uncharted territory’",
+          "description": "Tennessee governor Bill Lee has so far resisted calls to commute Christa Pike’s sentence despite repeated pleas from her lawyer – with her botched execution attempt creating questions that have \"never needed to be asked.\"",
+          "link": "https://nypost.com/2026/10/07/us-news/tennessee-governor-resists-calls-to-commute-christa-pikes-sentence-after-botched-execution-creates-questions-never-needed-to-be-asked/",
+          "published": "2026-10-07T09:33:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Christa Pike is conscious and still shackled to hospital bed after botched execution, says lawyer",
+          "description": "Pike, 50, had to be hooked up to a ventilator after the state of Tennessee failed to kill her through lethal injection on September 30.",
+          "link": "https://www.dailymail.com/news/article-16188373/christa-pike-awake-botched-execution-tennessee-death-sentence.html",
+          "published": "2026-10-07T08:07:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Christa Pike awake a week after lethal injection as her lawyers seek answers",
+          "description": "Christa Pike remains shackled to her hospital bed with burned and blistered arms, while Tennessee has suspended executions and its prison chief has resigned.",
+          "link": "https://www.euronews.com/2026/10/07/christa-pike-awake-a-week-after-lethal-injection-as-her-lawyers-seek-answers",
+          "published": "2026-10-07T06:06:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Christa Pike is conscious and speaking after failed execution attempt in Tennessee, her attorneys say",
+          "description": "Pike's survival raises further questions about her medical and legal future. Her attorneys said her prognosis remains unclear and that she faces a long recovery.",
+          "link": "https://www.pbs.org/newshour/nation/christa-pike-is-conscious-and-speaking-after-failed-execution-attempt-in-tennessee-her-attorneys-say",
+          "published": "2026-10-06T21:13:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Inside ‘Satanic panic’ teen murder that put Christa Pike on death row for 30 years",
+          "description": "Pike was 18 when she was sent to death row following a murder committed in a jealous rage. Decades later she has survived an attempted execution",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-death-row-tennessee-b3062578.html",
+          "published": "2026-10-07T10:14:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What could happen to Christa Pike now after death row killer survives two lethal injections",
+          "description": "Convicted murderer survives botched execution in Tennessee, sparking questions about how the state and her legal team plan to proceed with her case",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-lethal-injection-death-penalty-b3062577.html",
+          "published": "2026-10-07T09:43:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Christa Pike awake, speaking — and shackled to her bed days after botched execution",
+          "description": "Pike’s attorneys expressed gratitude to hospital first responders and the medical team who ‘treated Christa like a human and have provided exceptional care to her’",
+          "link": "https://www.independent.co.uk/news/world/americas/christa-pike-awake-speaking-failed-execution-b3062420.html",
+          "published": "2026-10-07T07:35:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_health",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "health",
+          "title": "What happened during Christa Pike's failed execution",
+          "description": "Catherine Sweeney was in the witness room when Tennessee attempted to execute Christa Pike on Sept. 30. An attempted execution in May had also failed. Here's what Sweeney saw and heard.",
+          "link": "https://www.npr.org/2026/10/06/nx-s1-5991669/failed-execution-christa-pike-tennessee-reporter-witness",
+          "published": "2026-10-06T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Texas set to execute man for fatally shooting convenience store clerk during 2000 robbery",
+          "description": "A Texas man who fatally shot a convenience store clerk is set to die by lethal injection on Wednesday in what would be the nation’s 30th execution this year.",
+          "link": "https://nypost.com/2026/10/07/us-news/texas-set-to-execute-jamaal-howard-first-lethal-injection-execution-since-christa-pike-botch-attempt/",
+          "published": "2026-10-07T07:46:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Texas killer set for pentobarbital execution after failed Christa Pike attempt",
+          "description": "A Texas man is set to be executed for fatally shooting a convenience store clerk in 2000 during a robbery",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/texas-jamaal-howard-execution-vickie-swartout-b3062500.html",
+          "published": "2026-10-07T05:04:31.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-07-b98gie",
+      "topic": "business",
+      "title": "Paramount wraps up mega Warner Bros merger to create Hollywood powerhouse Skydance",
+      "summary": "The new company, which will be called Skydance, combines two of the five largest Hollywood film studios.",
+      "headlineSource": "France 24",
+      "sourceCount": 9,
+      "score": 19.53,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 6,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 1,
+          "business": 5,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Paramount and Warner Bros merge into one Hollywood giant",
+          "description": "Paramount has completed an $81 billion purchase of Warner Bros. Discovery, as its owner Skydance creates a new entertainment behemoth. Billionaire David Ellison's hostile takeover bid defeated rival efforts from Netflix.",
+          "link": "https://www.dw.com/en/paramount-and-warner-bros-merge-into-one-hollywood-giant/a-79565762?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T14:18:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Paramount wraps up mega Warner Bros merger to create Hollywood powerhouse Skydance",
+          "description": "Paramount Skydance completed its blockbuster $110 billion takeover of Warner Bros Discovery on Tuesday, creating a Hollywood heavyweight that hands CEO David Ellison control of one of the world's ​largest entertainment and news businesses. The deal brings together the studios behind \"Mission: Impossible,\" \"Harry Potter\" and DC Studios alongside major television and streaming networks such as CBS, ",
+          "link": "https://www.france24.com/en/video/20261007-paramount-wraps-up-mega-warner-bros-merger-to-create-hollywood-powerhouse-skydance",
+          "published": "2026-10-07T10:26:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Paramount completes $81bn takeover of Warner Bros Discovery",
+          "description": "Skydance-owned Paramount has completed its $81bn (£61bn) takeover of Warner Bros Discovery - bringing together the two media giants under a combined company.",
+          "link": "https://news.sky.com/story/paramount-completes-81bn-takeover-of-warner-bros-discovery-13595899",
+          "published": "2026-10-06T17:56:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Paramount closes Warner merger in historic Hollywood deal",
+          "description": "The new company, which will be called Skydance, combines two of the five largest Hollywood film studios.",
+          "link": "https://www.japantimes.co.jp/business/2026/10/07/companies/paramount-warner-merger-deal/",
+          "published": "2026-10-07T04:25:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "After tumultuous fight, Paramount completes takeover of Warner Bros to become Hollywood giant Skydance",
+          "description": "The deal, which followed a tumultuous, roughly yearlong fight, further concentrates power in an industry already run by just a handful of major players.",
+          "link": "https://www.pbs.org/newshour/economy/after-tumultuous-fight-paramount-completes-takeover-of-warner-bros-to-become-hollywood-giant-skydance",
+          "published": "2026-10-06T18:05:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Paramount completes $111B Warner merger, creating “Skydance” behemoth",
+          "description": "Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.",
+          "link": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+          "published": "2026-10-06T17:33:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Paramount Closes Merger With Warner Bros. Discovery to Form Skydance",
+          "description": "After a legal battle, the two Hollywood giants have become one. But the new company is saddled with debt, and in a memo to employees, its leaders hinted at cost cuts.",
+          "link": "https://www.nytimes.com/2026/10/06/business/media/paramount-warner-bros-discovery-skydance.html",
+          "published": "2026-10-07T00:45:57.000Z",
+          "categories": [
+            "Skydance Corp",
+            "Mergers, Acquisitions and Divestitures",
+            "Movies",
+            "Media",
+            "Cable Television",
+            "News and News Media",
+            "Video Recordings, Downloads and Streaming",
+            "Antitrust Laws and Competition Issues",
+            "Layoffs and Job Reductions",
+            "Suits and Litigation (Civil)",
+            "CBS Corporation",
+            "CNN",
+            "HBO Max",
+            "Home Box Office",
+            "Netflix Inc",
+            "Paramount Pictures",
+            "Paramount Plus",
+            "Ellison, David (1983-)",
+            "Warner Bros Discovery"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Read the memo from Skydance’s product chief after Paramount and WBD joined forces",
+          "description": "The product chief at Skydance said in a memo to staff after the Paramount and WBD merger that they will \"move at a pace that matches our ambition.'",
+          "link": "https://www.businessinsider.com/skydance-product-chief-read-the-memo-paramount-wbd-merger-2026-10",
+          "published": "2026-10-07T00:25:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "David Ellison denies he has ‘politicized’ Skydance despite close Trump links",
+          "description": "Ellison admits ‘good relationship’ with administration in remarks to reporters about newly merged media company David Ellison, the chief executive of the newly formed media conglomerate Skydance, denied that he has “politicized” the company despite the close connection he has forged with Donald Trump’s White House over the 20 months of his administration. “We have a good relationship with this adm",
+          "link": "https://www.theguardian.com/media/2026/oct/06/skydance-david-ellison-trump",
+          "published": "2026-10-07T00:45:45.000Z",
+          "categories": [
+            "Media",
+            "US news",
+            "World news",
+            "CNN",
+            "Television industry",
+            "Trump administration"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-07-me17g1",
+      "topic": "tech",
+      "title": "Scientists Henri Kagan and Kenso Soai win 2026 Nobel chemistry prize",
+      "summary": "The 2026 Nobel Prize in Chemistry has been awarded to Henri B. Kagan and Kenso Soai for solving the mystery of why only one version of some molecules’ mirror-image forms appears in nature, a discovery decisive for the development of pharmaceuticals. The pair…",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 12,
+      "score": 18.74,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 6,
+        "specialistShare": 0.5,
+        "votes": {
+          "tech": 5,
+          "business": 0,
+          "health": 5
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Who will win the 2026 Nobel Prize in economics?",
+          "description": "A thinly traded prediction market offers a starting point. We explore potential winners and the big ideas that could earn them economics' biggest prize.",
+          "link": "https://www.npr.org/sections/planet-money/2026/10/07/g-s1-146828/who-will-win-the-2026-nobel-prize-in-economics",
+          "published": "2026-10-07T10:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Henri B. Kagan and Kenso Soai win Nobel Prize in chemistry",
+          "description": "Henri B. Kagan and Kenso Soai won the Nobel Prize in chemistry Wednesday for their discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.",
+          "link": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
+          "published": "2026-10-07T10:05:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobel Prize in Chemistry goes to Henri B. Kagan and Kenso Soai",
+          "description": "Henri B. Kagan and Kenso Soai won the Nobel Prize in Chemistry for their groundbreaking discoveries related to the origin of chirality and life's chemistry.",
+          "link": "https://www.dw.com/en/nobel-prize-in-chemistry-goes-to-henri-b-kagan-and-kenso-soai/a-79573924?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-07T09:51:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴Nobel Prize in chemistry awarded to France's Henri Kagan, Japan's Kenso Soai",
+          "description": "",
+          "link": "https://www.france24.com/en/europe/20261007-nobel-prize-in-chemistry-jointly-awarded-to-france-s-henri-kagan-japan-s-kenso-soai",
+          "published": "2026-10-07T09:54:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Scientists Henri Kagan and Kenso Soai win 2026 Nobel chemistry prize",
+          "description": "Their research involved molecules' mirror images, decisive for the development of pharmaceuticals.",
+          "link": "https://www.straitstimes.com/world/europe/kagan-and-soai-win-2026-nobel-chemistry-prize",
+          "published": "2026-10-07T09:59:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Japanese scientist Kenso Soai and France’s Henri B. Kagan win Nobel Prize in chemistry",
+          "description": "Japanese scientist Kenso Soai and Henri B. Kagan won \"for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.\"",
+          "link": "https://www.japantimes.co.jp/news/2026/10/07/japan/science-health/2026-nobel-prize-chemistry/",
+          "published": "2026-10-07T09:21:00.000Z",
+          "categories": [
+            "JAPAN"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kagan, Soai win Nobel Chemistry Prize for solving chemical asymmetry puzzle",
+          "description": "The 2026 Nobel Prize in Chemistry has been awarded to Henri B. Kagan and Kenso Soai for solving the mystery of why only one version of some molecules’ mirror-image forms appears in nature, a discovery decisive for the development of pharmaceuticals. The pair were honoured “for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis”, the jury said. Like hands, all ami",
+          "link": "https://www.scmp.com/news/world/europe/article/3370059/nobel-chemistry-prize-awarded-henri-b-kagan-and-kenso-soai",
+          "published": "2026-10-07T09:55:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France’s Henri Kagan, Japan’s Kenso Soai win 2026 Nobel Chemistry Prize",
+          "description": "The Nobel Prize in Chemistry is awarded annually as part of the Nobel Prizes established under the will of Swedish inventor and industrialist Alfred Nobel. Nobel, who made his fortune through inventions including dynamite, specified that prizes should be awarded to those who had made the “greatest benefit to humankind” in five fields: Physics, Chemistry, Physiology or Medicine, Literature and Peac",
+          "link": "https://timesofindia.indiatimes.com/science/frances-henri-kagan-japans-soai-win-2026-nobel-chemistry-prize-for-autocatalysis/articleshow/134762183.cms",
+          "published": "2026-10-07T09:56:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Henri B. Kagan and Kenso Soai win Nobel Prize in chemistry",
+          "description": "Henri B. Kagan and Kenso Soai won the Nobel Prize in chemistry Wednesday for their discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.",
+          "link": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
+          "published": "2026-10-07T10:05:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "2026 Nobel Prize in chemistry awarded for ‘mirror image’ molecule research, with impact on pharmacology",
+          "description": "Henri B. Kagan and Kenso Soai were awarded the 2026 Nobel Prize in chemistry on Wednesday for solving a mystery with research on \"mirror image\" molecules.",
+          "link": "https://www.statnews.com/2026/10/07/nobel-prize-chemistry-henri-kagan-kenso-soai-2026-winner/",
+          "published": "2026-10-07T10:42:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+          "description": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.",
+          "link": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o",
+          "published": "2026-10-07T10:33:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobelitis — How winning a Nobel Prize can give you delusions of grandeur",
+          "description": "After being chosen for one of the world's most prestigious awards, some Nobel laureates lose touch with reality and suddenly start spouting unscientific nonsense. They're afflicted by what some have called \"Nobelitis.\"",
+          "link": "https://www.dw.com/en/nobelitis-how-winning-a-nobel-prize-can-give-you-delusions-of-grandeur/a-79525772?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-07T08:58:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobel Literature Prize: How the winner is secretly chosen",
+          "description": "Can Xue is considered one of this year's favorites; Margaret Atwood and Salman Rushdie are other strong contenders. But what goes on behind the scenes in the selection of the Nobel Prize in Literature?",
+          "link": "https://www.dw.com/en/nobel-literature-prize-how-the-winner-is-secretly-chosen/a-79564151?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-06T13:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nobel Prize in chemistry awarded for research solving 'mirror image' mystery",
+          "description": "Henri B",
+          "link": "https://abcnews.com/Technology/wireStory/nobel-prize-chemistry-awarded-kagan-soai-research-solving-137057383",
+          "published": "2026-10-07T10:26:50.000Z",
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "The 2026 Nobel Prize in Physics has gone to a neutrino detector in Antarctica",
+          "description": "The Nobel Prize in Physics was awarded Francis Halzen of the University of Wisconsin Madison, who built an observatory under Antarctica.",
+          "link": "https://www.npr.org/2026/10/06/nx-s1-5992663/the-2026-nobel-prize-in-physics-has-gone-to-a-neutrino-detector-in-antarctica",
+          "published": "2026-10-06T21:48:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
+          "description": "The 82-year-old scientist, originally from Belgium, is affiliated with the University of Wisconsin–Madison. His research into capturing neutrinos at the South Pole dates back to the 1980s.",
+          "link": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+          "published": "2026-10-06T10:16:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Neutrino physicist wins 2026 Nobel Physics Prize",
+          "description": "Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.",
+          "link": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+          "published": "2026-10-06T16:53:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Nobel physics prize awarded for detection of cosmic neutrinos",
+          "description": "Nature, Published online: 06 October 2026; doi:10.1038/d41586-026-03092-1 Francis Halzen wins this year’s award for his work on a neutrino observatory at the South Pole that has helped to unlock mysteries of the Universe.",
+          "link": "https://www.nature.com/articles/d41586-026-03092-1",
+          "published": "2026-10-06T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Astronomy’s ‘adrenaline junkies’: Nobel prize captures the thrill of neutrino physics",
+          "description": "Nature, Published online: 06 October 2026; doi:10.1038/d41586-026-03095-y Nature reporter Davide Castelvecchi reflects on covering the fast-moving field of astronomy honoured by the Nobel physics award.",
+          "link": "https://www.nature.com/articles/d41586-026-03095-y",
+          "published": "2026-10-06T00:00:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-07-r03tlt",
+      "topic": "world",
+      "title": "Russia launches one of its biggest strikes on Ukraine, killing at least 12 civilians",
+      "summary": "Ukraine's air force says Russia launched 130 drones, 48 cruise missiles and ballistic missiles in overnight attack.",
+      "headlineSource": "France 24",
+      "sourceCount": 7,
+      "score": 18.58,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 11 killed as Russia launches ‘massive’ attack on Ukraine",
+          "description": "Ukraine's air force says Russia launched 130 drones, 48 cruise missiles and ballistic missiles in overnight attack.",
+          "link": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine?traffic_source=rss",
+          "published": "2026-10-07T06:19:26.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia launches one of its biggest strikes on Ukraine, killing at least 12 civilians",
+          "description": "Russian missiles and drones killed at least 12 people in Ukraine, including three children, in what President Volodymyr Zelensky ‌called a “massive” strike on Wednesday. Ukraine has come under increased attack in recent weeks as Russian attacks have targeted energy infrastructure and rail and road transport.",
+          "link": "https://www.france24.com/en/europe/20261007-at-least-two-killed-in-fire-caused-by-massive-strikes-on-kyiv",
+          "published": "2026-10-07T05:56:19.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia ‘pursuing strategy of terror’, EU’s von der Leyen says after deadly strikes on Ukraine – Europe live",
+          "description": "Ukraine president confirms series of attacks on Pryluky, Dnipro, Kremenchik, Zaporizhzhia and Kyiv We are getting reports of a knife attack at a vocational school in Ostrołęka, Poland, which left at least seven people injured, including two seriously, as reported by Poland’s RMF FM radio. The city mayor, Paweł Niewiadomski, confirmed in a statement that the situation has been contained. “ Henri Ka",
+          "link": "https://www.theguardian.com/world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates",
+          "published": "2026-10-07T10:27:17.000Z",
+          "categories": [
+            "Europe",
+            "Ukraine",
+            "Volodymyr Zelenskyy",
+            "Vladimir Putin",
+            "France",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia hits Ukraine with drones and missiles, killing at least eight",
+          "description": "KYIV, Oct 7 - Russia launched a barrage of drones and missiles at Ukraine on Wednesday, killing at least eight people and damaging residential buildings, industrial facilities and infrastructure, Ukrainian officials said.",
+          "link": "https://www.straitstimes.com/world/europe/russia-hits-ukraine-with-drones-and-missiles-killing-at-least-eight",
+          "published": "2026-10-07T07:09:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian strikes kill 11 across Ukraine after Zelensky warning",
+          "description": "At least 11 people were killed in Russian strikes on Wednesday, according to Ukrainian President Volodymyr Zelensky, including five when a missile destroyed a residential block in the north of the country. Emergency services picked through the rubble of the destroyed five-storey building in Pryluky, in the Chernigiv region, with fears that the death toll could rise. “There may still be people unde",
+          "link": "https://www.scmp.com/news/world/europe/article/3369997/russian-barrage-hits-kyiv-hours-after-zelensky-warns-impending-attack",
+          "published": "2026-10-07T06:04:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia launches ‘massive strike’ on Kyiv, multiple Ukrainian regions; 11 dead",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/europe/russia-says-it-launched-massive-strike-on-kyiv-multiple-ukrainian-regions/articleshow/134758857.cms",
+          "published": "2026-10-07T07:15:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russian strikes across Ukraine kill at least 15 as Putin celebrates 74th birthday",
+          "description": "Multiple explosions were heard in Kyiv, with many residents taking shelter in subways and metro stations",
+          "link": "https://www.independent.co.uk/news/world/europe/russia-ukraine-kyiv-strikes-putin-birthday-b3062713.html",
+          "published": "2026-10-07T10:37:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Huge fire off coast of Russian resort city after strike on oil tanker",
+          "description": "Multiple explosions in Kyiv as Russian Tu-95 bombers approach border",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-intelligence-drone-strikes-b3062494.html",
+          "published": "2026-10-07T09:57:47.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-07-ixb66t",
+      "topic": "business",
+      "title": "Europe’s Trade Tensions With China Are Coming to a Head",
+      "summary": "The European Union’s top trade mandarins depart for Beijing on Wednesday for two days of intensive negotiations but expectations in Brussels are measured as to what the talks will deliver. Maros Sefcovic, the EU’s trade chief, will meet his Chinese…",
+      "headlineSource": "The New York Times",
+      "sourceCount": 4,
+      "score": 15.95,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5.85,
+        "wire": 0.8,
+        "freshness": 2.34,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "EU negotiators head to China hoping to curb cheap imports of hybrid electric cars",
+          "description": "Mood in trade talks said to have changed as EU member states harden demands for protection against Chinese imports EU trade negotiators are heading to China for two days of crunch talks aimed at sealing a breakthrough deal tackling Beijing’s record £1bn-a-day trade surplus by curbing its exports of cheap hybrid electric cars into Europe. Trade commissioner Maroš Šefčovič and his team fly out on We",
+          "link": "https://www.theguardian.com/business/2026/oct/07/eu-negotiators-head-to-china-hoping-to-curb-cheap-imports-of-hybrid-electric-cars",
+          "published": "2026-10-07T04:00:34.000Z",
+          "categories": [
+            "International trade",
+            "Europe",
+            "European Union",
+            "China",
+            "Chinese economy",
+            "Asia Pacific",
+            "Global economy",
+            "Automotive industry",
+            "Tariffs",
+            "Manufacturing sector",
+            "Business",
+            "Economics"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Europe’s Trade Tensions With China Are Coming to a Head",
+          "description": "The European Union is weighing tougher trade measures as negotiators prepare to meet Chinese officials in Beijing, with surging exports from China pressuring key industries in Europe.",
+          "link": "https://www.nytimes.com/2026/10/07/business/china-europe-trade-issues.html",
+          "published": "2026-10-07T09:06:15.000Z",
+          "categories": [
+            "China",
+            "European Union",
+            "International Trade and World Market",
+            "Customs (Tariff)",
+            "International Relations",
+            "von der Leyen, Ursula",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Last chance saloon: EU presses China for a sign to prove trade talks can work",
+          "description": "The European Union’s top trade mandarins depart for Beijing on Wednesday for two days of intensive negotiations but expectations in Brussels are measured as to what the talks will deliver. Maros Sefcovic, the EU’s trade chief, will meet his Chinese counterpart, Wang Wentao, on Thursday and Friday – three months after their last encounter in Brussels, when the Europeans set an October deadline for ",
+          "link": "https://www.scmp.com/news/china/diplomacy/article/3369992/last-chance-saloon-eu-presses-china-sign-prove-trade-talks-can-work",
+          "published": "2026-10-07T05:06:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Europe’s Trade Tensions With China Are Coming to a Head",
+          "description": "The European Union is weighing tougher trade measures as negotiators prepare to meet Chinese officials in Beijing, with surging exports from China pressuring key industries in Europe.",
+          "link": "https://www.nytimes.com/2026/10/07/business/china-europe-trade-issues.html",
+          "published": "2026-10-07T09:06:15.000Z",
+          "categories": [
+            "China",
+            "European Union",
+            "International Trade and World Market",
+            "Customs (Tariff)",
+            "International Relations",
+            "von der Leyen, Ursula",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "EU negotiators head to China hoping to curb cheap imports of hybrid electric cars",
+          "description": "Mood in trade talks said to have changed as EU member states harden demands for protection against Chinese imports EU trade negotiators are heading to China for two days of crunch talks aimed at sealing a breakthrough deal tackling Beijing’s record £1bn-a-day trade surplus by curbing its exports of cheap hybrid electric cars into Europe. Trade commissioner Maroš Šefčovič and his team fly out on We",
+          "link": "https://www.theguardian.com/business/2026/oct/07/eu-negotiators-head-to-china-hoping-to-curb-cheap-imports-of-hybrid-electric-cars",
+          "published": "2026-10-07T04:00:34.000Z",
+          "categories": [
+            "International trade",
+            "Europe",
+            "European Union",
+            "China",
+            "Chinese economy",
+            "Asia Pacific",
+            "Global economy",
+            "Automotive industry",
+            "Tariffs",
+            "Manufacturing sector",
+            "Business",
+            "Economics"
+          ]
+        },
+        {
+          "sourceId": "econ_business",
+          "outlet": "economist",
+          "lean": "center-right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "China wants to get inside your head",
+          "description": "Brain-computer interfaces are the latest battleground in its tech rivalry with America",
+          "link": "https://www.economist.com/business/2026/10/06/china-wants-to-get-inside-your-head",
+          "published": "2026-10-06T17:38:06.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-07-14dnug7",
+      "topic": "tech",
+      "title": "Finland orders halt to work on two Google data centres",
+      "summary": "Finnish opposition has called for measures to prevent power shortages, soaring energy prices caused by data centres.",
+      "headlineSource": "BBC Technology",
+      "sourceCount": 5,
+      "score": 15.62,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 3,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Finland orders halt to work on Google data centre sites",
+          "description": "Finnish opposition has called for measures to prevent power shortages, soaring energy prices caused by data centres.",
+          "link": "https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns?traffic_source=rss",
+          "published": "2026-10-07T06:10:21.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
+          "description": "Finland has emerged as a key location for data centers amid the AI boom.",
+          "link": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
+          "published": "2026-10-07T09:26:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Google’s power-hungry data centers crave nuclear energy",
+          "description": "Google announced a new agreement to update six nuclear power plant sites across the US as the tech giant seeks to generate more electricity for its power-hungry data centers. Google signed the 20-year deal with Constellation, the leading nuclear power plant operator in the US. The power purchase agreement is meant to guarantee the revenue",
+          "link": "https://www.theverge.com/?p=1006082",
+          "published": "2026-10-06T20:32:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Google told to halt work on datacentres in Finland over environmental concerns",
+          "description": "Order on two construction sites comes after Google failed to carry out environmental impact assessments Google has been ordered to temporarily stop work on two datacentres in Finland after failing to do the necessary environmental impact assessments on its construction sites. The planned datacentres in Muhos and Kajanni are part of a €13bn (£11bn) project across multiple sites in northern Finland ",
+          "link": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+          "published": "2026-10-06T18:02:56.000Z",
+          "categories": [
+            "Google",
+            "Finland",
+            "Datacentres - UK",
+            "Technology",
+            "Europe",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Finland orders halt to work on two Google data centres",
+          "description": "The order affecting two planned data centres follows concerns over forest clearance.",
+          "link": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o",
+          "published": "2026-10-06T17:15:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Google told to halt work on datacentres in Finland over environmental concerns",
+          "description": "Order on two construction sites comes after Google failed to carry out environmental impact assessments Google has been ordered to temporarily stop work on two datacentres in Finland after failing to do the necessary environmental impact assessments on its construction sites. The planned datacentres in Muhos and Kajanni are part of a €13bn (£11bn) project across multiple sites in northern Finland ",
+          "link": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+          "published": "2026-10-06T18:02:56.000Z",
+          "categories": [
+            "Google",
+            "Finland",
+            "Datacentres - UK",
+            "Technology",
+            "Europe",
+            "World news"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-07-1bp7gcc",
+      "topic": "health",
+      "title": "Scientists take a radiometer for a spin in a hot-air balloon",
+      "summary": "Nature, Published online: 06 October 2026; doi:10.1038/d41586-026-02973-9 A satisfying congruence between genetics and cell-biology findings, and experiments at altitude with a rotating device that measures radiant energy, in this week’s peek at Nature’s…",
+      "headlineSource": "Nature",
+      "sourceCount": 3,
+      "score": 12.17,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.07,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 3,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 3,
+          "business": 0,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Scientists who put faith in technology less likely to take climate action",
+          "description": "‘Techno-optimism’ may lead to reliance on unproven solutions at expense of societal changes needed Scientists who believe technology will largely solve the problems caused by the climate crisis are less likely to engage in civic action on the issue, according to a study. The report from the London School of Economics found they are 23% less likelyto sign petitions or take part in protests than pee",
+          "link": "https://www.theguardian.com/environment/2026/oct/07/scientists-technology-less-likely-climate-crisis-action",
+          "published": "2026-10-07T06:00:36.000Z",
+          "categories": [
+            "Climate crisis",
+            "Climate science",
+            "UK news",
+            "Environment",
+            "Science",
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Scientists take a radiometer for a spin in a hot-air balloon",
+          "description": "Nature, Published online: 06 October 2026; doi:10.1038/d41586-026-02973-9 A satisfying congruence between genetics and cell-biology findings, and experiments at altitude with a rotating device that measures radiant energy, in this week’s peek at Nature’s archive.",
+          "link": "https://www.nature.com/articles/d41586-026-02973-9",
+          "published": "2026-10-06T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "sciencedaily",
+          "outlet": "sciencedaily",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Scientists finally see how nature moves energy so efficiently",
+          "description": "Researchers have captured key steps in a chemical reaction that helps nature transfer energy with remarkable efficiency. Ultrafast X-rays revealed how changes involving electrons and protons are closely linked to the rearrangement of surrounding water molecules. Because similar reactions drive photosynthesis and other energy-conversion processes, the technique could help scientists develop better ",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
+          "published": "2026-10-06T07:49:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Scientists who put faith in technology less likely to take climate action",
+          "description": "‘Techno-optimism’ may lead to reliance on unproven solutions at expense of societal changes needed Scientists who believe technology will largely solve the problems caused by the climate crisis are less likely to engage in civic action on the issue, according to a study. The report from the London School of Economics found they are 23% less likelyto sign petitions or take part in protests than pee",
+          "link": "https://www.theguardian.com/environment/2026/oct/07/scientists-technology-less-likely-climate-crisis-action",
+          "published": "2026-10-07T06:00:36.000Z",
+          "categories": [
+            "Climate crisis",
+            "Climate science",
+            "UK news",
+            "Environment",
+            "Science",
+            "Technology"
+          ]
+        }
+      ]
+    }
+  ]
+}
