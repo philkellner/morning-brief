@@ -6,7 +6,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { stripHtml, cleanDescription, truncate, tokenize, entities, stem, firstSentences, dropDanglingOpener, dropDanglingCloser } from './lib/text.mjs';
-import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
+import { buildMessages, zonedTimeToEpoch, nextDeliveryEpoch, isSlotPassed, deliveryPlan, DEFAULT_GRACE_MINUTES, readConfig } from './lib/ntfy.mjs';
 import { classifyCluster, explainCluster, reconcileTopic, topicVotes, selectByQuota, DEFAULT_TOPIC } from './lib/topics.mjs';
 import { looksLikeOpinion, opinionScore, OPINION_PATHS } from './lib/opinion.mjs';
 import { loadReported, runCase } from './lib/reported.mjs';
@@ -228,6 +228,47 @@ test('a stranded opening quote is dropped from a summary', () => {
   assert.equal(dropDanglingOpener('Talks collapsed. "'), 'Talks collapsed.');
   assert.equal(dropDanglingOpener('A quoted "phrase" inside stays intact.'), 'A quoted "phrase" inside stays intact.');
   assert.equal(dropDanglingOpener('Balanced (parens) are fine.'), 'Balanced (parens) are fine.');
+});
+
+test('a build that overshoots the slot by minutes still delivers today', () => {
+  // Four mornings in five lost their notification to this, by 1, 7, 9 and 10
+  // minutes. GitHub ran the job 5-7 hours behind its cron every day, which puts
+  // the first surviving firing either side of the 11:00 UTC slot.
+  const slot = { hour: 6, minute: 0, timeZone: 'America/Chicago' };
+  const plan = (iso) => deliveryPlan({ now: Date.parse(iso), ...slot });
+
+  assert.equal(plan('2026-10-09T10:30:00Z').action, 'schedule', 'in good time: use ntfy scheduling');
+  assert.equal(plan('2026-10-09T10:30:00Z').deliverAt, Date.parse('2026-10-09T11:00:00Z'));
+
+  for (const late of ['2026-10-09T11:00:01Z', '2026-10-09T11:07:03Z', '2026-10-09T11:10:29Z']) {
+    assert.equal(plan(late).action, 'now', `${late} should still deliver this morning`);
+  }
+  // Still scheduled rather than fired bare, so ten stories stay spaced out.
+  assert.ok(plan('2026-10-09T11:07:03Z').deliverAt > Date.parse('2026-10-09T11:07:03Z'));
+  assert.equal(plan('2026-10-09T11:07:03Z').lateMinutes, 7);
+});
+
+test('a build that misses the morning entirely gives up rather than queueing', () => {
+  // The original reason for the skip, which the grace window must not undo:
+  // scheduling an afternoon build would queue these stories for TOMORROW's
+  // slot, collide with tomorrow's build, and deliver yesterday's news.
+  const slot = { hour: 6, minute: 0, timeZone: 'America/Chicago' };
+  const plan = (iso) => deliveryPlan({ now: Date.parse(iso), ...slot });
+  assert.equal(plan('2026-10-09T13:59:00Z').action, 'now', 'just inside the window');
+  assert.equal(plan('2026-10-09T14:01:00Z').action, 'skip', 'just outside it');
+  assert.equal(plan('2026-10-09T18:00:00Z').action, 'skip');
+  assert.equal(plan('2026-10-09T18:00:00Z').deliverAt, null);
+  assert.equal(DEFAULT_GRACE_MINUTES, 180);
+});
+
+test('the grace window is configurable and reads an empty secret as absent', () => {
+  assert.equal(readConfig({ NTFY_TOPIC: 't' }).graceMinutes, DEFAULT_GRACE_MINUTES);
+  assert.equal(readConfig({ NTFY_TOPIC: 't', NTFY_GRACE_MINUTES: '' }).graceMinutes, DEFAULT_GRACE_MINUTES);
+  assert.equal(readConfig({ NTFY_TOPIC: 't', NTFY_GRACE_MINUTES: '30' }).graceMinutes, 30);
+  const strict = deliveryPlan({
+    now: Date.parse('2026-10-09T11:40:00Z'), hour: 6, minute: 0, timeZone: 'America/Chicago', graceMinutes: 30,
+  });
+  assert.equal(strict.action, 'skip', '40 minutes late with a 30-minute grace should skip');
 });
 
 test('local delivery time survives daylight saving', () => {

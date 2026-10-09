@@ -14,6 +14,8 @@
 //   NTFY_HOUR / NTFY_MINUTE        delivery time, local to NTFY_TIMEZONE (default 06:00)
 //   NTFY_TIMEZONE          default America/Chicago
 //   NTFY_SPACING_SECONDS   gap between stories (default 45)
+//   NTFY_GRACE_MINUTES     how late a build may be and still deliver this
+//                          morning's brief immediately (default 180)
 //   NTFY_PRIORITY          ntfy priority 1-5 (default 3)
 //   NTFY_FLAG_REPO         repo the notification's Flag button files against
 //                          (default philkellner/morning-brief; empty disables it)
@@ -21,7 +23,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildMessages, nextDeliveryEpoch, isSlotPassed, readConfig } from './lib/ntfy.mjs';
+import { buildMessages, nextDeliveryEpoch, deliveryPlan, readConfig } from './lib/ntfy.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -40,7 +42,7 @@ if (!topic) {
   process.exit(0);
 }
 
-const { server, timeZone, hour, minute, spacingSeconds, priority } = config;
+const { server, timeZone, hour, minute, spacingSeconds, priority, graceMinutes } = config;
 const limit = Number(value('--limit', config.limit)) || config.limit;
 const sendNow = has('--now');
 // --in exercises the same scheduled-delivery path production uses, on a
@@ -55,25 +57,40 @@ const now = Date.now();
 // --now skips scheduling entirely, which is what makes a test notification arrive
 // in seconds rather than tomorrow morning.
 let deliverAt;
+let lateMinutes = 0;
 if (sendNow) {
   deliverAt = null;
 } else if (Number.isFinite(inMinutes)) {
   deliverAt = now + inMinutes * 60_000;
-} else {
-  // A build can arrive hours late - GitHub's scheduler has run this job as much
-  // as 10 hours behind its cron. If today's slot is already gone, scheduling
-  // would silently queue these stories for TOMORROW's slot, where they would
-  // collide with tomorrow's build and deliver yesterday's news. Stop instead,
-  // and let the next build own the next morning.
-  const { passed, slot: todaySlot } = isSlotPassed({ now, hour, minute, timeZone });
-  if (passed && !has('--force-schedule')) {
-    const slot = new Date(todaySlot).toISOString();
-    const lateMinutes = Math.round((now - todaySlot) / 60_000);
-    console.log(`Today's ${hour}:${String(minute).padStart(2, '0')} ${timeZone} slot passed ${lateMinutes} minutes ago (${slot}).`);
-    console.log('Skipping, so tomorrow\'s build is not duplicated. Use --now to send anyway, or --force-schedule to queue for tomorrow.');
-    process.exit(0);
-  }
+} else if (has('--force-schedule')) {
   deliverAt = nextDeliveryEpoch({ now, hour, minute, timeZone });
+} else {
+  // A build can arrive hours late - GitHub's scheduler has been running this job
+  // 5-7 hours behind its cron. Scheduling past a slot that has already gone
+  // would queue these stories for TOMORROW's slot, where they would collide
+  // with tomorrow's build and deliver yesterday's news - so a late build sends
+  // immediately instead, and only a stale one gives up.
+  const plan = deliveryPlan({ now, hour, minute, timeZone, graceMinutes });
+  const slotTime = `${hour}:${String(minute).padStart(2, '0')} ${timeZone}`;
+  lateMinutes = plan.lateMinutes;
+
+  if (plan.action === 'skip') {
+    // Loud on purpose. This failed silently on four mornings out of five: the
+    // digest built, the feed published, every step reported success, and the
+    // only trace was one line in a log nobody reads. A missed brief is a failed
+    // run.
+    console.log(`::error::No notifications sent: the ${slotTime} slot passed ${plan.lateMinutes} minutes ago,`
+      + ` beyond the ${graceMinutes}-minute grace window. The digest and feed are published; only the push was lost.`);
+    console.log('Use --now to send anyway, or --force-schedule to queue for tomorrow.');
+    // A dry run is for inspecting the decision, not for failing a build over it.
+    process.exit(dryRun ? 0 : 1);
+  }
+
+  if (plan.action === 'now') {
+    console.log(`::warning::The ${slotTime} slot passed ${plan.lateMinutes} minutes ago;`
+      + ' sending this morning\'s brief now rather than losing it.');
+  }
+  deliverAt = plan.deliverAt;
 }
 
 let messages;
@@ -96,7 +113,9 @@ if (!deliverAt) {
   const when = new Date(deliverAt).toISOString();
   const basis = Number.isFinite(inMinutes)
     ? `${inMinutes} minute${inMinutes === 1 ? '' : 's'} from now`
-    : `${hour}:${String(minute).padStart(2, '0')} ${timeZone}`;
+    : (lateMinutes > 0
+      ? `${lateMinutes} minutes after the ${hour}:${String(minute).padStart(2, '0')} ${timeZone} slot`
+      : `${hour}:${String(minute).padStart(2, '0')} ${timeZone}`);
   console.log(`Scheduled from ${when} (${basis}), ${spacingSeconds}s apart`);
 }
 

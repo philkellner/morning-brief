@@ -162,6 +162,53 @@ export function isSlotPassed({ now, hour, minute = 0, timeZone }) {
   return { passed: now > slot, slot };
 }
 
+// How late a build may be and still deliver this morning's brief.
+//
+// Delivery used to be all-or-nothing: if the 06:00 slot had passed by the time
+// the build finished, the run skipped, because SCHEDULING would have queued the
+// stories for tomorrow's slot, where they would collide with tomorrow's build
+// and deliver yesterday's news. That reasoning is right and the skip is still
+// there - but it was being reached by builds that were ONE minute late.
+//
+// GitHub's scheduler has run this job 5-7 hours behind its cron every day for a
+// fortnight, which puts the first surviving firing at 09:40-11:10 UTC against an
+// 11:00 UTC slot. Four of five mornings lost their notification by a margin of
+// 1, 7, 9 and 10 minutes while every step reported success.
+//
+// So a build inside the grace window sends NOW instead: this morning's brief,
+// delivered minutes late, which is what was wanted. Only a genuinely stale build
+// - an afternoon run - still skips.
+export const DEFAULT_GRACE_MINUTES = 180;
+
+// Sent "now" still means sent through ntfy's delay path, a minute out, so the
+// ten stories stay spaced instead of arriving as one burst of ten.
+const IMMEDIATE_LEAD_MS = 60_000;
+
+/**
+ * Decide when, or whether, to deliver.
+ *
+ * @returns {{action: 'schedule'|'now'|'skip', deliverAt: number|null,
+ *            lateMinutes: number, slot: number}}
+ */
+export function deliveryPlan({
+  now, hour, minute = 0, timeZone, graceMinutes = DEFAULT_GRACE_MINUTES,
+}) {
+  const { passed, slot } = isSlotPassed({ now, hour, minute, timeZone });
+  if (!passed) {
+    return {
+      action: 'schedule',
+      deliverAt: nextDeliveryEpoch({ now, hour, minute, timeZone }),
+      lateMinutes: 0,
+      slot,
+    };
+  }
+  const lateMinutes = Math.round((now - slot) / 60_000);
+  if (lateMinutes <= graceMinutes) {
+    return { action: 'now', deliverAt: now + IMMEDIATE_LEAD_MS, lateMinutes, slot };
+  }
+  return { action: 'skip', deliverAt: null, lateMinutes, slot };
+}
+
 /**
  * Read configuration from an environment.
  *
@@ -197,5 +244,6 @@ export function readConfig(env = process.env) {
     spacingSeconds: number('NTFY_SPACING_SECONDS', 45),
     priority: number('NTFY_PRIORITY', 3),
     limit: number('NTFY_LIMIT', 10),
+    graceMinutes: number('NTFY_GRACE_MINUTES', DEFAULT_GRACE_MINUTES),
   };
 }

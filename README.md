@@ -198,6 +198,15 @@ Payloads are sent as JSON rather than through ntfy's HTTP headers, because
 headers cannot carry UTF-8 and real headlines are full of curly quotes, em
 dashes and accented names.
 
+**If the build lands after 06:00**, which it does whenever GitHub's scheduler
+drifts far enough, the stories are sent immediately rather than scheduled.
+Scheduling past a slot that has gone would queue them for *tomorrow's* slot,
+where they would collide with tomorrow's build and deliver yesterday's news —
+so the only two honest options are "now" and "not at all", and anything inside
+`NTFY_GRACE_MINUTES` (default three hours) gets "now". Past that the run fails
+loudly, because a brief nobody received is a failed run even when every step
+worked.
+
 ### Options
 
 All optional, as repository secrets or local environment variables:
@@ -211,6 +220,7 @@ All optional, as repository secrets or local environment variables:
 | `NTFY_TIMEZONE` | `America/Chicago` | Zone that time is local to. |
 | `NTFY_SPACING_SECONDS` | `45` | Gap between stories. |
 | `NTFY_PRIORITY` | `3` | ntfy priority, 1–5. |
+| `NTFY_GRACE_MINUTES` | `180` | How late a build may be and still deliver this morning. |
 
 ```bash
 npm run notify:dry     # print what would be sent, send nothing
@@ -378,9 +388,15 @@ overwriting it with junk.
 - **Health is the thinnest topic.** Specialist provenance needs two outlets
   agreeing, and there are only two right-of-centre health desks publishing a
   usable feed, so a health story occasionally falls back to the world quota.
-- **Actions cron drifts.** GitHub's scheduler is best-effort and has been
-  observed over ten hours late. The workflow carries eight hourly triggers and
-  builds on whichever fires first — see *Timing* above.
+- **Actions cron drifts, and the drift is not small.** GitHub's scheduler is
+  best-effort. Measured over a fortnight on this repository, every one of the
+  eight triggers ran 5–7 hours behind its cron, every day — which puts the first
+  surviving firing at 09:40–11:10 UTC against an 11:00 UTC delivery slot. The
+  workflow builds on whichever firing arrives first (see *Timing* above), and
+  delivery now tolerates a late build rather than losing it, but the margin is
+  real and it is GitHub's to spend. If the drift grows past three hours the
+  notification is dropped and the run goes red; the feed is unaffected, since it
+  only needs the commit.
 - **Two instances of one recurring award or fixture can merge.** The physics and
   medicine Nobels merged into a single 14-outlet story, because a day's corpus
   makes the ceremony vocabulary (*nobel, prize, awarded*) look maximally
