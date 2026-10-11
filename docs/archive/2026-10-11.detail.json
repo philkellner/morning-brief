@@ -1,0 +1,2107 @@
+{
+  "edition": "2026-10-11",
+  "generatedAt": "2026-10-11T10:36:17.739Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-11-iyfbd",
+      "topic": "world",
+      "title": "Germany sticks to Russia sanctions after Trump diesel deal",
+      "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 15,
+      "score": 24.08,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 15,
+        "specialistOutlets": 1,
+        "specialistShare": 0.07,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+          "description": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+          "link": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo",
+          "published": "2026-10-11T01:41:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump calls for Ukraine election, says Zelenskyy failed to end war",
+          "description": "Trump has called for Ukraine to hold elections, implying Zelenskyy missed opportunities to end the war with Russia.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/11/trump-calls-for-ukraine-election-says-zelenskyy-failed-to-end-war?traffic_source=rss",
+          "published": "2026-10-11T08:43:52.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany sticks to Russia sanctions after Trump diesel deal",
+          "description": "After Washington announced a sanctions pause on Russian diesel, Germany has said it remains committed to pressuring Moscow and supporting Ukraine. More on DW.",
+          "link": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-11T09:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump slams Zelenskyy, says Ukraine should elect new president",
+          "description": "President Trump has criticized Volodymyr Zelenskyy for not making a deal with Russia to end the Ukraine war. Trump also warned Kyiv against targeting Russian oil refineries that will supply the US with diesel fuel.",
+          "link": "https://www.dw.com/en/trump-slams-zelenskyy-says-ukraine-should-elect-new-president/a-79629740?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-10T17:48:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine ready to halt refinery strikes if Moscow stops energy attacks, Zelensky says",
+          "description": "Ukrainian President Volodymyr Zelensky on Sunday said Kyiv was ready halt strikes Russian oil refineries if Moscow stopped attacks on Ukrainian energy infrastructure. The announcement comes after US President Donald Trump publicly urged him to stop targeting Russian refineries.",
+          "link": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says",
+          "published": "2026-10-11T10:21:07.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump, Zelensky clash over diesel deal as Russian strikes kill 21",
+          "description": "US President Donald Trump and Ukrainian leader Volodymyr Zelensky traded barbs Saturday after Washington moved to ease sanctions on Russian diesel and Moscow's continued strikes on Ukraine killed at least 21 people, including four children.",
+          "link": "https://www.france24.com/en/video/20261011-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-kill-21",
+          "published": "2026-10-11T10:10:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump urges Zelensky replacement as diesel row rages",
+          "description": "Donald Trump called on Saturday for Ukraine to \"get a new leader\" after Volodymyr Zelensky slammed Washington's easing of Russian diesel sanctions, as the US president faces fuel price pressure weeks before midterm elections. Our correspondent Gulliver Cragg tells us more.",
+          "link": "https://www.france24.com/en/video/20261011-trump-urges-zelensky-replacement-as-diesel-row-rages",
+          "published": "2026-10-11T09:21:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Live: Trump lashes out at Zelensky, says Ukraine needs new president who will agree to end war",
+          "description": "",
+          "link": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children",
+          "published": "2026-10-10T17:39:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says Ukraine needs new president, blames Zelenskyy for diesel prices",
+          "description": "President Trump's criticism of Ukrainian President Volodymyr Zelenskyy comes after Russian strikes killed at least 20 people, including three children, in Ukraine.",
+          "link": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+          "published": "2026-10-11T01:59:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine says it won't stop attacking Russian oil resources amid diesel fuel deal with U.S.",
+          "description": "President Trump is arguing that Ukraine needs a new president as Volodymyr Zelenskyy refuses to halt strikes on Russian oil refineries despite the country's commitment to provide diesel fuel to the U.S. Kamal Afzali has the story.",
+          "link": "https://www.cbsnews.com/video/ukraine-says-it-wont-stop-attacking-russian-oil-resources-amid-diesel-fuel-deal-with-us/",
+          "published": "2026-10-11T01:14:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says Ukraine needs a new leader after diesel deal with Russia",
+          "description": "US president suggests Ukrainian president, Volodymyr Zelenskyy, has not done enough to end war Donald Trump has said Ukraine needs “a new leader”, a day after making a deal with Vladimir Putin to buy large quantities of Russian diesel. The US president suggested Volodymyr Zelenskyy has not done enough to end the war with Russia and blamed him for high diesel prices in the US.",
+          "link": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+          "published": "2026-10-10T20:42:55.000Z",
+          "categories": [
+            "Volodymyr Zelenskyy",
+            "Ukraine",
+            "Russia",
+            "Trump administration",
+            "Donald Trump",
+            "Vladimir Putin",
+            "US foreign policy",
+            "Europe",
+            "US news",
+            "World news",
+            "US politics"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+          "description": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato allies Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine. Zelenskyy reacted furiously to Trump’s announce",
+          "link": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+          "published": "2026-10-10T10:09:46.000Z",
+          "categories": [
+            "Donald Trump",
+            "Volodymyr Zelenskyy",
+            "US news",
+            "Russia",
+            "US politics",
+            "World news",
+            "Europe",
+            "Nato",
+            "Ukraine",
+            "Vladimir Putin",
+            "US foreign policy",
+            "Trump administration"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Rebuking Ukraine Over Oil Strikes, Trump Says It Should ‘Get a New President’",
+          "description": "Hours after President Trump said the United States would buy Russian diesel, the Kremlin said there would be no immediate resumption of discussions to end the war.",
+          "link": "https://www.nytimes.com/2026/10/10/world/europe/ukraine-russia-trump-diesel-talks.html",
+          "published": "2026-10-10T19:28:55.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Russia",
+            "Ukraine",
+            "United States",
+            "Trump, Donald J",
+            "Zelensky, Volodymyr",
+            "Putin, Vladimir V",
+            "Witkoff, Steven",
+            "Kushner, Jared",
+            "Lukoil"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Sunday shows preview: Trump admin's Russia deal, public execution plan spark pre-midterm backlash",
+          "description": "President Trump struck a deal to lift sanctions on Russian diesel Friday, allowing the Kremlin to supply 300,000 tons of diesel to the U.S. and the global marketplace, sparking a feud between him and Ukrainian President Volodymyr Zelensky. The deal served to remedy rising energy prices fueled by the U.S.'s ongoing military operations in Iran...",
+          "link": "https://thehill.com/homenews/sunday-talk-shows/6140761-trump-russian-deal-executions-sunday-shows/",
+          "published": "2026-10-10T20:50:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump rips Zelensky amid Russia diesel deal feud: 'I suggest they get a new leader'",
+          "description": "President Trump on Saturday pushed back on criticism from Ukrainian President Volodymyr Zelensky to the White House’s decision to lift sanctions on Russian diesel amid the Russia-Ukraine war. The president told reporters outside the White House that Zelensky “could have settled this war many times,” but “chose not to.” “He wants to make problems for...",
+          "link": "https://thehill.com/homenews/administration/6140694-trump-defends-russian-diesel-deal/",
+          "published": "2026-10-10T18:26:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Putin relayed Iran war proposal to Trump, Kremlin says",
+          "description": "Putin's reported call with Trump regarding the Iran war comes on the heels of a deal for the U.S. to buy Russian diesel amid a surge in fuel prices.",
+          "link": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html",
+          "published": "2026-10-10T13:42:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+          "description": "Ukraine President Volodymyr Zelenskyy said in a searing statement that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"",
+          "link": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
+          "published": "2026-10-10T02:09:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Republican backlash brews over Trump’s diesel deal with Russia",
+          "description": "President Donald Trump’s decision to allow Russia to supply diesel fuel to the United States and global markets triggered pushback from multiple Republican figures on Saturday. Rep. Brian Fitzpatrick (R-PA) said he will introduce bipartisan legislation “to block any and all purchases of Russian oil” after outlining his support for Ukrainian President Volodymyr Zelensky on",
+          "link": "https://www.washingtonexaminer.com/policy/energy/4762388/republican-backlash-trump-diesel-deal-russia/",
+          "published": "2026-10-11T03:22:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump tells Ukraine to 'get a new leader' as he lashes out at Zelensky over diesel 'gift' to Putin",
+          "description": "Donald Trump has reportedly told Ukraine to 'get a new leader' after he signed an oil deal with Vladimir Putin.",
+          "link": "https://www.dailymail.com/news/article-16199041/trump-threatens-zelensky-bombs-russian-oil-refineries-putin.html",
+          "published": "2026-10-11T03:27:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump announces deal with Putin for Russian diesel, but what is its most consequential element?",
+          "description": "The fuel shortages generated by Trump’s Iran war are unlikely to be alleviated by his deal with Russia.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-announces-deal-with-putin-for-russian-diesel-but-what-is-its-most-consequential-element",
+          "published": "2026-10-11T03:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Britain’s Burnham reiterates ‘complete solidarity’ with Zelensky after Trump clash",
+          "description": "Trump and Zelensky traded barbs on Oct 10 after Washington moved to ease sanctions on Russian diesel.",
+          "link": "https://www.straitstimes.com/world/europe/britains-burnham-reiterates-complete-solidarity-for-zelensky-after-trump-clash",
+          "published": "2026-10-10T20:02:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump calls to replace Zelensky as Ukraine president in tussle over diesel deal with Russia",
+          "description": "It came as Moscow’s continued strikes on Ukraine killed at least 21 people, including four children.",
+          "link": "https://www.straitstimes.com/world/europe/ukraine-needs-a-new-president-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-kill-21",
+          "published": "2026-10-10T19:30:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump calls for replacing Zelenskyy in tussle over diesel deal with Russia",
+          "description": "Zelenskyy, in some of his sharpest criticism yet of the White House, blasted Trump's deal with Putin to lift sanctions on Russian diesel.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/11/world/politics/trump-replacing-ukraine-zelenskyy/",
+          "published": "2026-10-11T03:06:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "News Wrap: Trump announces diesel deal with Russia",
+          "description": "In our news wrap Friday, Trump says he struck a deal with Russia for millions of tons of diesel in a bid to lower U.S. energy prices, Katie Zacharia will replace Karoline Leavitt as White House press secretary, the Pentagon's plans to livestream an execution has drawn strong reactions, Trump launched a new effort to fire Fed governor Lisa Cook, and NFL legend Mike Ditka died at age 86.",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-trump-announces-diesel-deal-with-russia",
+          "published": "2026-10-09T22:45:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Trump calls for Zelensky to be ousted in unhinged rant after striking diesel deal with Putin",
+          "description": "The US struck a deal with Moscow after ‘repeated’ US requests to Kyiv to stop bombing oil refineries, it has been reported",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-strikes-bus-attack-b3063864.html",
+          "published": "2026-10-11T07:37:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s new diesel deal with Russia is ‘shuffling deck chairs on the Titanic’, experts say",
+          "description": "Trump has announced a deal with Putin to increase Russian diesel supplies to the US",
+          "link": "https://www.independent.co.uk/news/world/europe/trump-russia-diesel-prices-putin-ukraine-b3064547.html",
+          "published": "2026-10-10T16:01:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: 'Time for Ukraine to get a new president', says Trump",
+          "description": "The US president's said President Volodymyr Zelensky \"wants to make problems for the world\".",
+          "link": "https://www.bbc.co.uk/news/videos/cwkg50dgpml7o",
+          "published": "2026-10-10T19:25:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump tears into Zelensky: ‘Time for Ukraine to get a new president’",
+          "description": "President further vented that Ukraine’s president ‘better damn well stop’ after being asked about his deal to buy diesel from Vladimir Putin",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-zelensky-ukraine-russia-putin-war-refineries-b3064647.html",
+          "published": "2026-10-10T18:53:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "GOP lawmakers reject U.S.-Russia diesel deal, Trump's Zelensky comments",
+          "description": "Several Republicans voiced objections to the Trump administration Russian diesel deal and President Trump's suggestion that Ukraine needed a new leader. When asked about the deal, Sen. John Kennedy (R-La.) said on Friday he supported the president’s decision but he doesn’t “support his decision to import it from Putin. Vladimir Putin is a butcher. He's a...",
+          "link": "https://thehill.com/homenews/senate/6140871-republicans-oppose-trump-russian-diesel-deal/",
+          "published": "2026-10-10T23:09:54.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-11-13z0a60",
+      "topic": "world",
+      "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
+      "summary": "The warning from the Iran-backed rebels comes a day after a missile attack on Riyadh airport killed 12 people and injured more than 300. The airport will remain closed until at least Sunday night.",
+      "headlineSource": "NPR",
+      "sourceCount": 13,
+      "score": 23.52,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
+          "description": "Saudi authorities say the latest attack on the international airport in the capital, Riyadh, has killed 12 people and injured over 300. Their statement says the dead on Saturday included four Saudi citizens as well as two Bangladeshi nationals, a Palestinian, a U.S. citizen, an Egyptian, a Jordanian, a Syrian and a Sudanese. It said some of those injured were in critical condition. The attack — th",
+          "link": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+          "published": "2026-10-10T23:44:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least twelve killed, multiple people wounded in attack on Riyadh airport",
+          "description": "At least twelve people were killed in an attack on Riyadh's King Khalid International Airport on Saturday, including an Egyptian flight attendant, according to a medical source at a local hospital. Earlier this week, another attack on the airport by the Houthis killed three people and damaged a plane, though the Iran-backed group did not announce any new attacks on Saturday.",
+          "link": "https://www.france24.com/en/middle-east/20261010-riyadh-airport-suspends-operations-after-attack-leaves-multiple-people-wounded",
+          "published": "2026-10-10T18:03:32.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 12 killed, more than 300 hurt in strike on Saudi airport, officials say",
+          "description": "At least 12 people, including one American, were killed and 309 others injured in a strike Saturday​ on Riyadh's King Khalid International Airport.",
+          "link": "https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/",
+          "published": "2026-10-11T10:34:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "After airport strike, Trump considering whether to join fight against Houthis",
+          "description": "Following the latest strike Saturday on Riyadh's King Khalid International Airport, President Trump said the U.S. \"may\" join the fight against the Iran-backed Houthis.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+          "published": "2026-10-11T00:43:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Major attack on Saudi airport kills 12 and leads Trump to weigh joining fight",
+          "description": "The deadliest attack on a Gulf Arab state since the start of the Iran war raised new questions Sunday about whether the United States might be about to join another conflict in the region.",
+          "link": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+          "published": "2026-10-11T10:09:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes",
+          "description": "The strike on Saturday was the deadliest attack in a Gulf Arab country since the U.S.-Israeli war with Iran began in February, and forced the airport to temporarily suspend operations.",
+          "link": "https://www.nytimes.com/2026/10/10/world/middleeast/riyadh-airport-attack-energy-congress.html",
+          "published": "2026-10-11T08:55:26.000Z",
+          "categories": [
+            "War and Armed Conflicts",
+            "Airlines and Airplanes",
+            "Houthis",
+            "Saudi Arabia",
+            "Riyadh (Saudi Arabia)"
+          ]
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
+          "description": "The surge in attacks, including against other Saudi airports, military facilities and oil infrastructure, has come in the week since a Saudi-led coalition launched a major military offensive against the Houthis.",
+          "link": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack",
+          "published": "2026-10-10T21:32:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
+          "description": "Trump denounces 'terrible' attack and says the US is evaluating whether to join Saudi Arabia's offensive on the Houthis.",
+          "link": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport?traffic_source=rss",
+          "published": "2026-10-11T02:12:07.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump ‘may’ join Saudi strikes on Houthis after Riyadh airport attack",
+          "description": "President Donald Trump says the US ‘may’ join Saudi strikes against Yemen’s Houthis.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-trump-weighs-joining-saudi-strikes-on-houthis-us?traffic_source=rss",
+          "published": "2026-10-11T01:59:02.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Twelve killed, more than 300 injured in Riyadh airport attack",
+          "description": "Saudi Arabia has confirmed at least 12 people were killed and more than 300 injured after Houthi fighters struck Riyadh.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/11/11-10-reported-latest-attack-on-riyadh-king-khalid-airport-houthis?traffic_source=rss",
+          "published": "2026-10-11T01:02:07.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran war live: 12 killed in Riyadh, Saudi-led coalition vows to respond",
+          "description": "As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+          "published": "2026-10-11T00:00:13.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen's Houthis warn passengers not to use Saudi airports",
+          "description": "The warning from the Iran-backed rebels comes a day after a missile attack on Riyadh airport killed 12 people and injured more than 300. The airport will remain closed until at least Sunday night.",
+          "link": "https://www.dw.com/en/yemen-s-houthis-warn-passengers-not-to-use-saudi-airports/a-79632306?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-11T09:35:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack",
+          "description": "A Saudi-led coalition has vowed a \"decisive\" response after the deadliest strike on Saudi soil in over a decade. Officials have pinned the attack on Iran-backed Houthi militia in Yemen.",
+          "link": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-10T22:07:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴Follow live: Houthis renew threats against Saudi airports as Riyadh attack prompts wave of condemnation",
+          "description": "",
+          "link": "https://www.france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport",
+          "published": "2026-10-11T08:44:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia threatens 'decisive' response after Riyadh airport strike kills at least 12",
+          "description": "Saudi Arabia vowed to retaliate against Yemen’s Houthi rebels on Sunday after a strike on Riyadh’s international airport killed a dozen people and wounded more than 300, marking the kingdom's deadliest strike in a decade.",
+          "link": "https://www.france24.com/en/middle-east/20261011-riyadh-airport-strike-kills-12-saudi-arabia-threatens-decisive-response",
+          "published": "2026-10-11T06:21:50.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Riyadh airport strike kills 12, Saudi Arabia threatens 'decisive' response",
+          "description": "Saudi Arabia vowed to retaliate against Yemen’s Houthi rebels on Sunday after a strike on Riyadh’s international airport killed a dozen people and wounded more than 300, marking the kingdom's deadliest strike in a decade.",
+          "link": "https://www.france24.com/en/video/20261011-at-least-twelve-killed-multiple-people-wounded-in-attack-on-riyadh-airport-1",
+          "published": "2026-10-11T05:16:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Houthis renew threats against Saudi airports as Riyadh attack prompts wave of condemnation",
+          "description": "Yemen’s Houthi rebels warned airlines, airport staff and travellers against using Saudi airports after a strike on Riyadh killed at least 12 people and wounded more than 300. The attack drew international condemnation as Saudi Arabia threatened retaliation. Follow our liveblog for the latest developments.",
+          "link": "https://www.france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport",
+          "published": "2026-10-11T05:04:26.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 12 killed, over 300 injured after strike on Riyadh airport, Saudi officials say",
+          "description": "At least 12 people were killed, and over 300 were injured after a strike at Riyadh's international airport in Saudi Arabia, officials said.",
+          "link": "https://www.cbsnews.com/video/at-least-12-killed-over-300-injured-after-strike-on-riyadh-airport-saudi-officials-say/",
+          "published": "2026-10-11T01:30:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
+          "description": "US president Donald Trump says he is weighing whether the US will join Saudi strikes against the Iran-backed Houthis An American citizen was among the 12 killed in the airport attack yesterday. For weeks now there’s been speculation over whether the US will join Saudi Arabia in carrying out air strikes against the Iran-backed Houthis in Yemen. When fighting recommenced last month with the Houthis,",
+          "link": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+          "published": "2026-10-11T10:19:27.000Z",
+          "categories": [
+            "Houthis",
+            "Saudi Arabia",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Twelve killed and hundreds injured in Houthi attack at Riyadh airport",
+          "description": "Donald Trump evaluating whether US should join Saudi strikes against the Iran-backed Yemeni rebels The latest attack on the international airport in Saudi Arabia’s capital of Riyadh killed 12 people and injured more than 300 others, civil aviation authorities said early on Sunday, with some in a critical condition. A Saudi-led coalition blamed Iran-backed Houthi rebels in neighbouring Yemen. A mis",
+          "link": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+          "published": "2026-10-10T23:37:27.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "Yemen",
+            "Houthis",
+            "United Nations",
+            "Middle East and north Africa",
+            "World news",
+            "Air transport"
+          ]
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "American citizen among dozen dead in latest Houthi attack on Riyadh airport, Rubio says",
+          "description": "The Iran-backed Houthis’s latest attack against Saudi Arabia left an American citizen dead and over 300 people injured on Saturday. “The United States strongly condemns the recent attacks on the Kingdom of Saudi Arabia by the terrorist Houthis,” Secretary of State Marco Rubio said Saturday night, “including today’s strike on King Khalid International Airport in",
+          "link": "https://www.washingtonexaminer.com/news/world/4762397/american-citizen-dead-houthi-attack-riyadh/",
+          "published": "2026-10-11T01:14:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack",
+          "description": "DUBAI/RIYADH, Oct 11 - Yemen's Houthis warned airlines, travellers and airport workers on Sunday to stay away from Saudi airports, a day after an attack on Riyadh's international airport killed 12 people and wounded more than 300 others.",
+          "link": "https://www.straitstimes.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack",
+          "published": "2026-10-11T10:25:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Yemen’s Houthis renew warning over Saudi airports after latest deadly Riyadh attack",
+          "description": "The Oct 10 strike was the third in a week and killed at least 12 people and wounded 309.",
+          "link": "https://www.straitstimes.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-latest-deadly-riyadh-attack",
+          "published": "2026-10-11T10:19:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthi strike on Saudi airport kills 12, worst attack on kingdom in a decade",
+          "description": "All flights were diverted from Riyadh and operations at the airport were temporarily suspended.",
+          "link": "https://www.straitstimes.com/world/middle-east/several-wounded-in-riyadh-airport-attack-operations-suspended-saudi-aviation-authority-says",
+          "published": "2026-10-10T18:17:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Everyone was running’: Panic, evacuations at Riyadh airport after Houthi strike",
+          "description": "Witnesses recall hearing an explosion and seeing shattered glass falling on those at the airport.",
+          "link": "https://www.straitstimes.com/world/middle-east/everyone-was-running-panic-evacuations-at-riyadh-airport-after-houthi-strike",
+          "published": "2026-10-10T15:41:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "12 killed and more than 300 wounded in attack on Riyadh airport",
+          "description": "Turki Al-Maliki, a spokesperson for the Saudi-led coalition forces, said that the attack had been carried out by Yemen's Houthi rebels and that it had targeted a passenger terminal.",
+          "link": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack",
+          "published": "2026-10-10T15:48:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthi strike on airport kills 12 as Saudi coalition vows ‘decisive’ response",
+          "description": "The attack has raised the specter of a wider escalation, with President Donald Trump signaling the U.S. could join action against the fighters.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/11/world/houthi-attack-saudi-airport/",
+          "published": "2026-10-10T23:41:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump may join Saudi strikes after major Houthi attack on Riyadh airport kills 12",
+          "description": "It was the third strike on the capital’s airport this week",
+          "link": "https://www.independent.co.uk/news/world/middle-east/houthi-attack-riyadh-airport-saudi-yemen-war-deaths-b3064690.html",
+          "published": "2026-10-11T08:03:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Missile attack on airport in Saudi Arabia's capital kills 12 people and injures over 300",
+          "description": "Saudi Arabia has extended the closure of the country’s main international airport a day after a missile attack on the facility killed 12 people from several countries and left more than 300 injured",
+          "link": "https://www.independent.co.uk/news/world/europe/saudi-arabia-houthis-donald-trump-iran-riyadh-b3064702.html",
+          "published": "2026-10-11T07:20:27.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-11-e0uuaw",
+      "topic": "world",
+      "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
+      "summary": "The leaders of India’s youth-led online “cockroach” movement were released on Sunday, their lawyer said, a day after they were detained to thwart a major protest against the chief election commissioner. Thousands of protesters were detained before Saturday’s…",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 13,
+      "score": 20.96,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 1,
+        "specialistShare": 0.08,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Delhi sees more protests as 'cockroach' group's leaders released",
+          "description": "Police say they will keep restricting access to the city centre after thousands of people were detained and released on Saturday.",
+          "link": "https://www.bbc.co.uk/news/articles/c84g179n2393o",
+          "published": "2026-10-11T08:50:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why have hundreds of 'cockroach' protesters been detained in Delhi",
+          "description": "Thousands of security personnel were deployed in Delhi ahead of the Gen-Z led Cockroach Janta Party protest on Saturday calling for electoral reforms.",
+          "link": "https://www.bbc.co.uk/news/videos/cqwy7p2y20gxo",
+          "published": "2026-10-10T14:13:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
+          "description": "Leaders of the youth-led protest movement demanding India's election commissioner step down say the \"fight has just begun\" after they were released from detention following a large demonstration in Delhi. More on DW.",
+          "link": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-11T05:28:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India court orders release of 'cockroach' movement leaders after detention",
+          "description": "An Indian court ordered the release of three leaders of the viral \"cockroach\" youth movement on Sunday, a day after their detention ahead of protests over alleged irregularities in voter-roll revisions. Upon his release, founder Abhijeet Dipke called Narendra Modi an \"embarassment to India\" in a social media post.",
+          "link": "https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention",
+          "published": "2026-10-11T05:45:41.000Z",
+          "categories": [
+            "Asia / Pacific"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India protests: New 'cockroach' movement leader named",
+          "description": "Indian police detained the head of the satirical \"cockroach\" online movement on Saturday, the group said, ahead of a major protest against the Election Commission that prompted strict security measures. \"They seem to have seen that coming,\" notes France 24's Andrew Hilliar. In a prerecorded video, Abhijeet Dipke, founder of the Cockroach Party, names an interim leader to take over.",
+          "link": "https://www.france24.com/en/video/20261010-india-protests-new-cockroach-movement-leader-named",
+          "published": "2026-10-10T16:14:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
+          "description": "The leaders of India's \"Cockroach\" movement have been detained by police, along with hundreds of protesters, in a major crackdown to stop a mass demonstration.",
+          "link": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121",
+          "published": "2026-10-10T06:57:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "India’s ‘Cockroach’ Leaders Released as New Delhi Braces for More Protests",
+          "description": "The leaders of the Cockroach Janta Party, an Indian youth movement, were detained by the police on Saturday before they could lead protests over voting rights.",
+          "link": "https://www.nytimes.com/2026/10/11/world/asia/india-cockroach-dipke-new-delhi-protests.html",
+          "published": "2026-10-11T09:40:47.000Z",
+          "categories": [
+            "Demonstrations, Protests and Riots",
+            "New Delhi (India)",
+            "Cockroach Janta Party (India)",
+            "Youth",
+            "Dipke, Abhijeet",
+            "Voting and Voters",
+            "India"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to Know About the Protests in India",
+          "description": "More demonstrations against sweeping revisions to India’s voter rolls are expected on Sunday in New Delhi. The police met earlier protests with an extraordinary show of force.",
+          "link": "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
+          "published": "2026-10-11T06:02:15.000Z",
+          "categories": [
+            "India",
+            "Demonstrations, Protests and Riots",
+            "Cockroach Janta Party (India)",
+            "Dipke, Abhijeet",
+            "Generation Z",
+            "Youth",
+            "New Delhi (India)",
+            "Police",
+            "Politics and Government"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Indian Police Round Up Protest Leaders and Lock Down Delhi",
+          "description": "Thousands of young people tried to gather to protest a sweeping revision of their country’s voter roll. Security forces hauled many of them away.",
+          "link": "https://www.nytimes.com/2026/10/10/world/asia/delhi-protests-india.html",
+          "published": "2026-10-10T16:50:45.000Z",
+          "categories": [
+            "Demonstrations, Protests and Riots",
+            "Bharatiya Janata Party",
+            "Cockroach Janta Party (India)",
+            "Supreme Court of India",
+            "Modi, Narendra",
+            "Gandhi, Indira",
+            "Dipke, Abhijeet",
+            "Delhi (India)",
+            "India",
+            "New Delhi (India)"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "India Cancels Trains, Floods Capital with Police to Block Protests",
+          "description": "A planned protest against a sweeping voter roll revision prompted police to order a virtual shutdown of New Delhi, the capital. The country’s highest court intervened.",
+          "link": "https://www.nytimes.com/2026/10/09/world/asia/india-cockroach-protests-delhi.html",
+          "published": "2026-10-10T03:14:33.000Z",
+          "categories": [
+            "Politics and Government",
+            "Police",
+            "Demonstrations, Protests and Riots",
+            "Youth",
+            "Transit Systems",
+            "Democracy (Theory and Philosophy)",
+            "Generation Z",
+            "Cockroach Janta Party (India)",
+            "Supreme Court of India",
+            "Dipke, Abhijeet",
+            "Modi, Narendra",
+            "Delhi (India)",
+            "India"
+          ]
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India releases ‘cockroach’ leaders as movement calls for more protests",
+          "description": "Sweeping security restrictions have underscored tensions facing Narendra Modi's government as it confronts a sustained wave of youth-led dissent.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/11/asia-pacific/politics/cockroach-members-released/",
+          "published": "2026-10-11T08:27:00.000Z",
+          "categories": [
+            "ASIA PACIFIC"
+          ]
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "India Protests Set to Continue Despite Heavy Delhi Security",
+          "description": "Parts of New Delhi remained under tight security for a second straight day as protesters pressed ahead with their demand for the resignation of India’s top election official over a contentious revision of voter rolls.",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-11/indian-cockroaches-plan-new-protest-amid-heavy-delhi-security",
+          "published": "2026-10-11T05:24:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Photos: Thousands detained in police crackdown on India’s youth protest",
+          "description": "Demonstrators intercepted and detained as authorities crack down on 'cockroach' movement rally in central New Delhi.",
+          "link": "https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest?traffic_source=rss",
+          "published": "2026-10-11T09:58:19.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "India detains thousands of \"Cockroach\" movement youth protesters in crackdown",
+          "description": "The scale of the crackdown underscored the authorities' determination to disrupt a fast-growing protest campaign that has mobilized thousands of young people.",
+          "link": "https://www.cbsnews.com/news/india-detains-youth-protesters-new-delhi/",
+          "published": "2026-10-10T15:51:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘Cockroach’ leader among thousands detained in Delhi protest crackdown",
+          "description": "Authorities impose strict lockdown in capital to try to stop rally against removal of 130m names from electoral roll Indian authorities have placed Delhi under a severe lockdown and detained tens of thousands of people, including the leader of the youth-led “Cockroach” movement, in an attempt to stop an anti-government protest. Thousands of people from across India were blocked from attending the ",
+          "link": "https://www.theguardian.com/world/2026/oct/10/cockroach-party-rally-delhi-protests-chief-election-officer-resigns",
+          "published": "2026-10-10T11:17:38.000Z",
+          "categories": [
+            "Delhi",
+            "India",
+            "Narendra Modi",
+            "South and central Asia",
+            "Protest",
+            "World news",
+            "Activism",
+            "Civil liberties - international"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Thousands detained in New Delhi as police crack down on 'cockroach' movement",
+          "description": "Police detained “cockroach movement” leader Abhijeet Dipke and two others as hundreds of protesters defied a heavy security clampdown in New Delhi.",
+          "link": "https://www.euronews.com/2026/10/10/thousands-detained-in-new-delhi-as-police-crack-down-on-cockroach-movement",
+          "published": "2026-10-10T14:06:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India’s cockroach party leaders freed as election chief protests mount",
+          "description": "The leaders of India’s youth-led online “cockroach” movement were released on Sunday, their lawyer said, a day after they were detained to thwart a major protest against the chief election commissioner. Thousands of protesters were detained before Saturday’s planned demonstration in New Delhi, according to the Cockroach Janta Party (CJP), which called on supporters to keep taking to the streets de",
+          "link": "https://www.scmp.com/news/asia/south-asia/article/3370476/indias-cockroach-party-leaders-freed-election-chief-protests-mount",
+          "published": "2026-10-11T05:19:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Delhi protest crackdown: 20 FIRs registered, assault on cops among charges",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/india/delhi-protest-crackdown-20-firs-registered-assault-on-cops-among-charges/articleshow/134868430.cms",
+          "published": "2026-10-11T09:59:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Restore internet, metro, free movement': SC on Delhi protest crackdown - top quotes",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/india/no-illegal-detentions-restore-internet-metro-services-supreme-court-after-delhi-protest-crackdown-top-quotes/articleshow/134866736.cms",
+          "published": "2026-10-11T07:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'We won't be intimidated’: CJP's team held again, vows to continue Delhi protest",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/india/detain-arrest-we-wont-be-intimidated-cjps-team-held-again-vows-to-continue-delhi-protest/articleshow/134867416.cms",
+          "published": "2026-10-11T08:43:34.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-11-1tsjy6l",
+      "topic": "world",
+      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+      "summary": "Isaias made landfall as a Category 2 hurricane in the city of Destin in the Florida Panhandle on Friday evening. It has since weakened into a post-tropical cyclone.",
+      "headlineSource": "BBC News",
+      "sourceCount": 9,
+      "score": 19.44,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 1,
+        "specialistShare": 0.11,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 2 deaths attributed to Isaias after hurricane bashes Florida and Alabama",
+          "description": "Hurricane Isaias is blamed for at least two deaths, after the storm made landfall on the Florida coast and ran through Alabama. There are numerous reports of downed trees, with hundreds of thousands of people without power.",
+          "link": "https://www.npr.org/2026/10/10/g-s1-147632/at-least-2-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama",
+          "published": "2026-10-10T17:14:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+          "description": "Roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone.",
+          "link": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o",
+          "published": "2026-10-10T23:19:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hurricane Isaias kills four, leaves 650,000 without power in Florida",
+          "description": "Hurricane Isaias has killed four people and left more than 650,000 people without power.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us?traffic_source=rss",
+          "published": "2026-10-11T04:28:51.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Storm Isaias leaves 4 dead as it moves across southern US",
+          "description": "The storm, which is now a post-tropical cyclone, had made landfall near Destin, Florida on Friday evening. The storm brings heavy rainfall and powerful winds and has caused mass power outages in Florida and Alabama.",
+          "link": "https://www.dw.com/en/storm-isaias-leaves-4-dead-as-it-moves-across-southern-us/a-79630125?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-10T23:09:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 4 dead as cyclone Isaias drenches southern US",
+          "description": "Four people died in the southeastern United States as post-tropical cyclone Isaias threatened flooding and tornado risks Saturday as it moved northward after making landfall on Florida's Gulf Coast.",
+          "link": "https://www.france24.com/en/video/20261011-at-least-4-dead-as-cyclone-isaias-drenches-southern-us",
+          "published": "2026-10-11T09:18:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hurricane Isaias updates: At least 4 dead as Isaias downgraded",
+          "description": "The Gulf Coast is bracing for dangerous conditions, extreme wind and flooding.",
+          "link": "https://abcnews.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?id=137128637",
+          "published": "2026-10-11T04:02:06.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Four dead as Isaias weakens to post-tropical cyclone after striking Florida panhandle",
+          "description": "Some of deaths came from falling trees as half a million people without power and rain and flooding still a concern At least four people were reported dead on Saturday amid Isaias after it made landfall late on Friday on Florida’s panhandle as a category 2 hurricane, according to authorities. The storm also took down trees, knocked out electricity for hundreds of thousands and flooded highways – b",
+          "link": "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+          "published": "2026-10-10T23:20:32.000Z",
+          "categories": [
+            "Hurricane Isaias",
+            "Florida",
+            "Alabama",
+            "Georgia",
+            "Hurricanes",
+            "Extreme weather",
+            "US weather",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Four dead as Isaias continues to push across the Southeast US, bringing strong winds and heavy rain",
+          "description": "Isaias made landfall as a Category 2 hurricane in the city of Destin in the Florida Panhandle on Friday evening. It has since weakened into a post-tropical cyclone.",
+          "link": "https://www.euronews.com/2026/10/11/four-dead-as-isaias-continues-to-push-across-the-southeast-us-bringing-strong-winds-and-he",
+          "published": "2026-10-11T07:14:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Life-threatening Hurricane Isaias makes landfall in Florida, bringing high winds and heavy rain",
+          "description": "The US' National Weather Service (NWS) has warned a life-threatening storm surge is expected from Dauphin Island, Alabama, to Suwannee, Florida.",
+          "link": "https://www.euronews.com/2026/10/10/life-threatening-hurricane-isaias-makes-landfall-in-florida-bringing-high-winds-and-heavy-",
+          "published": "2026-10-10T07:03:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hurricane Isaias tracker latest: Two dead and scores without power as storm makes landfall",
+          "description": "Isaias made landfall near Destin, Florida, as the first hurricane of the Atlantic season",
+          "link": "https://www.independent.co.uk/news/world/americas/hurricane-isaias-storm-tracker-path-gulf-coast-b3064554.html",
+          "published": "2026-10-10T19:05:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Four dead as Isaias weakens to post-tropical cyclone after striking Florida panhandle",
+          "description": "Some of deaths came from falling trees as half a million people without power and rain and flooding still a concern At least four people were reported dead on Saturday amid Isaias after it made landfall late on Friday on Florida’s panhandle as a category 2 hurricane, according to authorities. The storm also took down trees, knocked out electricity for hundreds of thousands and flooded highways – b",
+          "link": "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+          "published": "2026-10-10T23:20:32.000Z",
+          "categories": [
+            "Hurricane Isaias",
+            "Florida",
+            "Alabama",
+            "Georgia",
+            "Hurricanes",
+            "Extreme weather",
+            "US weather",
+            "US news",
+            "World news"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-11-1wiep5r",
+      "topic": "world",
+      "title": "Man dies after entering tiger enclosure at England wildlife park",
+      "summary": "Emergency services called to the scene after reports of a man entering the tiger enclosure at a UK wildlife park.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 7,
+      "score": 18.22,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Man dies after entering tiger enclosure at England wildlife park",
+          "description": "Emergency services called to the scene after reports of a man entering the tiger enclosure at a UK wildlife park.",
+          "link": "https://www.aljazeera.com/news/2026/10/11/man-dies-after-entering-tiger-enclosure-at-england-wildlife-park?traffic_source=rss",
+          "published": "2026-10-11T01:16:18.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Man attacked by tiger after entering enclosure at England wildlife park",
+          "description": "The tigers remained inside the enclosure and there was no danger to the public.",
+          "link": "https://abcnews.com/International/wireStory/man-attacked-tiger-after-entering-enclosure-wildlife-park-137161794",
+          "published": "2026-10-10T23:06:24.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Man attacked by tiger in England after entering enclosure at wildlife park",
+          "description": "The incident occurred at the Yorkshire Wildlife Park near the city of Doncaster, police said.",
+          "link": "https://www.cbsnews.com/news/yorkshire-wildlife-park-tiger-enclosure-attack/",
+          "published": "2026-10-10T17:35:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Man Dies in Tiger Attack at Yorkshire Wildlife Park in England",
+          "description": "The man came face to face with an Amur tiger inside the animal’s habitat at Yorkshire Wildlife Park in England. The park was evacuated and closed to the public.",
+          "link": "https://www.nytimes.com/2026/10/10/world/europe/tiger-attack-wildlife-park-man-dead.html",
+          "published": "2026-10-10T23:02:13.000Z",
+          "categories": [
+            "Endangered and Extinct Species",
+            "Tigers",
+            "Animal Attacks",
+            "Great Britain",
+            "Zoos",
+            "Parks and Other Recreation Areas",
+            "England",
+            "Yorkshire (England)"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Man mauled to death by tiger at Yorkshire zoo 'asked for photo moments before he climbed into enclosure'",
+          "description": "Families watched in horror as a man was mauled to death by a 30-stone Siberian tiger after he climbed into its enclosure at a wildlife park.",
+          "link": "https://www.dailymail.com/news/article-16199419/Man-tiger-Yorkshire-zoo-dance-enclosure-witnesses.html",
+          "published": "2026-10-11T09:14:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Man dies after tiger attack at UK zoo",
+          "description": "A man was mauled after entering the tiger enclosure at the Yorkshire Wildlife Park in Britain.",
+          "link": "https://www.straitstimes.com/world/europe/man-seriously-injured-in-tiger-attack-at-uk-zoo",
+          "published": "2026-10-10T16:28:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tiger kills man who entered big cat enclosure at UK wildlife park",
+          "description": "A man died on Saturday after he entered the tiger enclosure at a wildlife park in northern England and was attacked by one of the animals, police said. Emergency medical personnel responded to the Yorkshire Wildlife Park near the city of Doncaster after the incident was reported at about 1.35pm, but the victim died at the scene, South Yorkshire Police said in a statement. The tiger was not injured",
+          "link": "https://www.scmp.com/news/world/europe/article/3370465/tiger-kills-man-who-entered-big-cat-enclosure-uk-wildlife-park",
+          "published": "2026-10-10T23:20:01.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-11-12lbmtr",
+      "topic": "world",
+      "title": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
+      "summary": "Oct 10 - Death row inmate Christa Pike was released from a US hospital on Saturday and sent back to prison where she will continue receiving medical care following her botched execution attempt in Tennessee, her attorneys said.",
+      "headlineSource": "France 24",
+      "sourceCount": 7,
+      "score": 18.12,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.02,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Christa Pike discharged from the hospital and back in prison",
+          "description": "Pike's attorneys say she is grateful for the care of first responders and her medical team.",
+          "link": "https://www.npr.org/2026/10/10/nx-s1-5997504/christa-pike-hospital-prison-after-botched-execution",
+          "published": "2026-10-10T22:15:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
+          "description": "Pike's lawyers say she is \"grateful\" to the medical team who cared for her after she survived two lethal injections last month.",
+          "link": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o",
+          "published": "2026-10-10T17:44:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
+          "description": "Christa Pike's lawyers on Saturday said that the 50-year-old convicted murderer has been discharged from the hospital and returned to prison. Pike was transported to the hospital in critical condition on September 30 after she survived Tennessee's botched effort to execute her for murdering a classmate when she was a teenager.",
+          "link": "https://www.france24.com/en/americas/20261010-convicted-murderer-christa-pike-leaves-hospital-returns-to-prison-after-botched-execution",
+          "published": "2026-10-10T17:41:10.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Capital punishment is surging in the US – but after Christa Pike’s botched execution, what is its future?",
+          "description": "Trump has used the full might of the presidency to supercharge executions, but an avalanche of mishaps has put the system’s flaws in the spotlight It took more than an hour to establish the two intravenous lines through which Christa Pike would be injected with a giant and normally lethal dose of the sedative pentobarbital, and in that time she did everything she could to assist those who were att",
+          "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/11/executions-us-christa-pike",
+          "published": "2026-10-11T05:00:16.000Z",
+          "categories": [
+            "Christa Pike",
+            "Capital punishment",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tennessee execution survivor Christa Pike released from hospital, returned to prison",
+          "description": "Oct 10 - Death row inmate Christa Pike was released from a US hospital on Saturday and sent back to prison where she will continue receiving medical care following her botched execution attempt in Tennessee, her attorneys said.",
+          "link": "https://www.straitstimes.com/world/tennessee-execution-survivor-christa-pike-released-from-hospital-returned-to-prison",
+          "published": "2026-10-10T18:19:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US lethal injection survivor Christa Pike returns to prison",
+          "description": "Pike is said to be walking around but in a “foggy” mental state.",
+          "link": "https://www.straitstimes.com/world/united-states/us-lethal-injection-survivor-christa-pike-returns-to-prison",
+          "published": "2026-10-10T17:18:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Survivor of botched U.S. lethal injection returns to prison",
+          "description": "Pike, 50, was given two doses of the drug pentobarbital on Sept. 30 — a usually fatal dose that nevertheless failed to kill her.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/11/world/crime-legal/us-lethal-injection-survivor-returns-prison/",
+          "published": "2026-10-11T00:11:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Christa Pike discharged from hospital 10 days after botched execution in Tennessee",
+          "description": "Pike survived Tennessee’s attempt to execute her by lethal injection",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-discharge-hospital-execution-tennessee-b3064615.html",
+          "published": "2026-10-10T18:29:13.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-11-udplct",
+      "topic": "world",
+      "title": "US justice department investigates TV networks over Trump pool coverage",
+      "summary": "Department of Justice says it's investigating whether the White House press pool's decision violated antitrust laws.",
+      "headlineSource": "BBC News",
+      "sourceCount": 6,
+      "score": 18.09,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.02,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 1,
+        "specialistShare": 0.17,
+        "votes": {
+          "tech": 1,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US justice department investigates TV networks over Trump pool coverage",
+          "description": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
+          "link": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro",
+          "published": "2026-10-11T05:05:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US opens antitrust probe into TV networks for halting Trump coverage",
+          "description": "Department of Justice says it's investigating whether the White House press pool's decision violated antitrust laws.",
+          "link": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss",
+          "published": "2026-10-11T04:30:10.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US: Justice Department probes Trump's press pool boycott for antitrust violation",
+          "description": "The Department of Justice is investigating whether the five news organizations violated antitrust laws when they suspended their coverage of Trump in protest. The networks under probe are ABC, CBS, CNN, NBC and Fox News.",
+          "link": "https://www.dw.com/en/us-justice-department-probes-trump-s-press-pool-boycott-for-antitrust-violation/a-79631008?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-11T03:59:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Justice Department investigating TV networks that briefly suspended Trump press pool coverage",
+          "description": "The Justice Department is investigating whether the major TV networks violated antitrust law last month when they briefly suspended their pool coverage of President Donald Trump after he blocked multiple news outlets from fully accessing White House grounds. ABC, CBS, CNN, NBC, and Fox News were told on Friday to provide “communications and materials” related",
+          "link": "https://www.washingtonexaminer.com/news/investigations/4762404/justice-department-investigate-tv-networks-trump-pool-coverage/",
+          "published": "2026-10-11T04:37:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Justice Department is investigating TV networks over Trump pool coverage",
+          "description": "The department said it is checking whether the networks’ boycott broke antitrust laws.",
+          "link": "https://www.straitstimes.com/world/united-states/us-justice-department-probes-tv-networks-over-trump-pool-coverage-new-york-times-reports",
+          "published": "2026-10-11T00:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
+          "description": "Major TV networks were notified on Friday that the department was examining whether they violated antitrust laws when they suspended pool coverage of President Trump.",
+          "link": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html",
+          "published": "2026-10-11T02:40:52.000Z",
+          "categories": [
+            "United States Politics and Government",
+            "Television",
+            "News and News Media",
+            "Antitrust Laws and Competition Issues",
+            "ABC Inc",
+            "CBS News",
+            "CNN",
+            "Fox News Channel",
+            "Justice Department",
+            "MS NOW",
+            "Skydance Corp",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
+          "description": "Major TV networks were notified on Friday that the department was examining whether they violated antitrust laws when they suspended pool coverage of President Trump.",
+          "link": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html",
+          "published": "2026-10-11T02:40:52.000Z",
+          "categories": [
+            "United States Politics and Government",
+            "Television",
+            "News and News Media",
+            "Antitrust Laws and Competition Issues",
+            "ABC Inc",
+            "CBS News",
+            "CNN",
+            "Fox News Channel",
+            "Justice Department",
+            "MS NOW",
+            "Skydance Corp",
+            "Trump, Donald J"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-11-1o7qvig",
+      "topic": "world",
+      "title": "9 dead, including children and pregnant woman, in shooting in Erie, Pennsylvania",
+      "summary": "A man killed eight people including a pregnant woman, children and other relatives at his home in Erie, Pennsylvania, before taking his own life as well, authorities said on Saturday. Erie Police Chief Rick Lorah said the 45-year-old man was related to seven…",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 5,
+      "score": 17.9,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.14,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nine people, including children, dead after mass shooting in Pennsylvania",
+          "description": "Authorities say suspect among dead in house after standoff with police in Erie and there is no ongoing threat A man fatally shot eight people, including a pregnant woman and children, at a Pennsylvania residence on Friday before killing himself, police say. The victims have not been publicly identified, but seven relatives and a family friend died in the rampage.",
+          "link": "https://www.theguardian.com/us-news/2026/oct/10/nine-people-mass-shooting-pennsylvania",
+          "published": "2026-10-10T23:24:52.000Z",
+          "categories": [
+            "Pennsylvania",
+            "Gun crime",
+            "US crime",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "9 people, including 2 children, dead in suspected murder-suicide at Pennsylvania home",
+          "description": "Multiple people were killed – including two children and a pregnant woman – when a gunman opened fire at a Pennsylvania home on Friday night.",
+          "link": "https://nypost.com/2026/10/10/us-news/pennsylvania-mass-shooting-leaves-multiple-dead-at-erie-home/",
+          "published": "2026-10-10T22:54:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Erie, Pennsylvania shooter killed 8 people, then himself, police say",
+          "description": "Oct 10 - A 45-year-old man shot and killed eight people in Erie, Pennsylvania, including a pregnant woman and two children, then apparently shot himself to death, authorities said on Saturday at a press conference where they revealed details of the previous evening's shooting.",
+          "link": "https://www.straitstimes.com/world/nine-dead-in-erie-pennsylvania-mass-shooting",
+          "published": "2026-10-10T20:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "9 dead, including children and pregnant woman, in shooting in Erie, Pennsylvania",
+          "description": "A man killed eight people including a pregnant woman, children and other relatives at his home in Erie, Pennsylvania, before taking his own life as well, authorities said on Saturday. Erie Police Chief Rick Lorah said the 45-year-old man was related to seven of the victims in the previous day’s shooting, while the eighth was a friend of the pregnant woman. Video and audio evidence recovered by inv",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370464/9-dead-including-children-and-pregnant-woman-shooting-erie-pennsylvania",
+          "published": "2026-10-10T21:25:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pregnant Pennsylvania mom was days away from giving birth before she was among 8 killed in gunman’s shooting rampage",
+          "description": "The 45-year-old gunman, whose name has not been released, began firing off rounds at the residence on the 700 block of Perry Road in the city's East Side at approximately 4:53 p.m.",
+          "link": "https://nypost.com/2026/10/11/us-news/pennsylvania-mom-angelina-stone-was-days-away-from-giving-birth-before-she-was-among-8-killed-in-erie-mass-shooting/",
+          "published": "2026-10-11T06:35:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Gunman shoots dead 7 relatives, family friend in Pennsylvania",
+          "description": "The shooter is believed to have taken his own life after barricading himself inside the home.",
+          "link": "https://www.straitstimes.com/world/united-states/eight-killed-in-shooting-at-pennsylvania-home-us-media",
+          "published": "2026-10-10T15:54:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Gunman kills pregnant woman, 2 children and 5 others in massacre of Pennsylvania family",
+          "description": "Erie police chief said the scene was the most difficult and heartbreaking that he has encountered",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/erie-pennsylvania-kills-children-pregnant-woman-b3064662.html",
+          "published": "2026-10-10T21:20:23.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-11-1nuwhg5",
+      "topic": "world",
+      "title": "7.7-Magnitude Panama Earthquake Sets Off Series of Aftershocks",
+      "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported.",
+      "headlineSource": "The New York Times",
+      "sourceCount": 5,
+      "score": 14.63,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.17,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Panama struck by 2 powerful earthquakes, U.S. Geological Survey says",
+          "description": "Panama was struck by a powerful magnitude 7.7 earthquake followed by a 6.6 magnitude quake later in the day.",
+          "link": "https://www.cbsnews.com/news/panama-earthquake-tsunami-threat/",
+          "published": "2026-10-09T23:56:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Major earthquake shakes Panama",
+          "description": "A massive 7.7 magnitude earthquake shook Panama Friday, triggering tsunami warnings for several countries. Videos posted online show buildings crumbled and cars crushed. NBC News' Aaron Gilchrist reports.",
+          "link": "https://www.nbcnews.com/nightly-news/video/major-earthquake-shakes-panama-271369285651",
+          "published": "2026-10-09T22:48:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘It was a terrible thing’: Panama declares state of emergency as quake aftershocks rattle communities",
+          "description": "More than 100 aftershocks as high as magnitude-5.8 recorded after two quakes toppled buildings and prompted evacuations Panama’s government has declared a state of emergency on Saturday as the aftershocks of two powerful earthquakes that roiled the country shook communities for hours. Officials did not attribute any deaths to Friday’s 7.7- and 6.6-magnitude earthquakes, but reported damages in all",
+          "link": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency",
+          "published": "2026-10-11T06:56:08.000Z",
+          "categories": [
+            "Panama",
+            "Americas",
+            "Earthquakes"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "7.7-Magnitude Panama Earthquake Sets Off Series of Aftershocks",
+          "description": "The quake, which had a preliminary magnitude of 7.7, was centered in the country’s southern region.",
+          "link": "https://www.nytimes.com/2026/10/09/world/americas/panama-earthquake-tsunami.html",
+          "published": "2026-10-10T02:09:50.000Z",
+          "categories": [
+            "Earthquakes",
+            "Panama",
+            "Tidal Waves and Tsunamis",
+            "Social Media",
+            "Panama City (Panama)"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Panic in Panama as 7.7 quake hits, cathedral collapses and tsunami warnings spread",
+          "description": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported.",
+          "link": "https://www.euronews.com/video/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread",
+          "published": "2026-10-10T10:11:12.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-10-ghzt6b",
+      "topic": "tech",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+      "headlineSource": "BBC News",
+      "sourceCount": 4,
+      "score": 13.61,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 1.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 4,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 4,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+          "description": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+          "link": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
+          "published": "2026-10-10T10:06:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Philadelphia police receive false homicide tip from Anthropic AI model",
+          "description": "Anthropic’s artificial intelligence model submitted a false homicide tip to the Philadelphia Police Department in July, the company disclosed on Friday. The AI firm said its Claude Haiku 4.5 model filled out a form on a website page soliciting the public's help to gather more information about unsolved homicide on July 18. The model submitted...",
+          "link": "https://thehill.com/policy/technology/6140747-anthropic-ai-false-homicide-tip/",
+          "published": "2026-10-10T19:31:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+          "description": "The Philadelphia Police Department said the agents had also sent in a false homicide tip. The incidents led the White House to call for better disclosure of rogue A.I. behavior.",
+          "link": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+          "published": "2026-10-10T18:01:21.000Z",
+          "categories": [
+            "Anthropic AI LLC",
+            "Artificial Intelligence",
+            "Cyberattacks and Hackers",
+            "Cyberwarfare and Defense",
+            "State Department",
+            "United States Politics and Government",
+            "Computer Security",
+            "Computers and the Internet",
+            "Regulation and Deregulation of Industry"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+          "description": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+          "link": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
+          "published": "2026-10-10T10:06:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Anthropic's Claude AI fabricates eyewitness account, submits false murder tip to police website",
+          "description": "Anthropic's Claude AI submitted a false tip about an unsolved murder on a Philadelphia police website during automated testing of the Haiku 4.5 model.",
+          "link": "https://www.foxbusiness.com/technology/anthropics-claude-ai-fabricates-eyewitness-account-submits-false-murder-tip-police-website",
+          "published": "2026-10-10T02:29:35.000Z",
+          "categories": [
+            "36308b6a-0ae0-51c6-9072-0674c8a7b06f",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/technology",
+            "fox-news/fox-news-us/fox-news-us-regions/fox-news-northeast/fox-news-pennsylvania",
+            "fox-business/politics/government-and-institutions",
+            "fox-business/technology/cyber-security",
+            "fox-business/money/crime",
+            "fox-business/technology",
+            "article"
+          ]
+        }
+      ]
+    }
+  ]
+}

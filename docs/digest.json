@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-10-10",
-  "generatedAt": "2026-10-10T10:25:09.361Z",
+  "edition": "2026-10-11",
+  "generatedAt": "2026-10-11T10:36:17.739Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -18,315 +18,23 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-10-10-1sskgkm",
+      "id": "2026-10-11-iyfbd",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site",
-      "summary": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow, to combat prices before midterms. He said he struck the deal with Russian President Vladimir Putin in a phone call.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "NPR",
-      "publishedAt": "2026-10-10T09:59:43.000Z",
-      "sourceCount": 20,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 10,
-      "score": 25.24,
-      "scoreComponents": {
-        "breadth": 13.18,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno"
-        },
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Australia Says Doesn’t Need Russian Fuel After Trump Diesel Move",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/australia-says-doesn-t-need-russian-fuel-after-trump-diesel-move"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Russian strikes kill 11 in Ukraine after Trump gets diesel deal with Moscow",
-          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
-          "url": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Putin throws Trump midterm lifeline as Russian tyrant agrees to 'immediately supply US with 300,000 tons of diesel'",
-          "url": "https://www.dailymail.com/news/article-16197455/putin-trump-diesel-supply.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Trump, Putin agree on deal to release Russian diesel to US, world markets",
-          "url": "https://www.dw.com/en/trump-putin-agree-on-deal-to-release-russian-diesel-to-us-world-markets/a-79623364?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Putin offers help to end Iran war while Russia continues its own in Ukraine",
-          "url": "https://www.euronews.com/2026/10/09/putin-offers-help-to-end-iran-war-while-russia-continues-its-own-in-ukraine"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Trump says Russia has agreed to deliver millions in diesel fuel after 'highly successful discussion'",
-          "url": "https://www.foxbusiness.com/politics/trump-says-russia-agreed-deliver-millions-diesel-fuel-highly-successful-discussion"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Trump hails Russia deal to release diesel as midterms loom",
-          "url": "https://www.france24.com/en/video/20261010-trump-hails-russia-deal-to-release-diesel-as-midterms-loom"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be ‘too little, too late,’ says strategist.",
-          "url": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Trump eases Russia sanctions, says Putin will release diesel as prices spike",
-          "url": "https://www.nbcnews.com/business/energy/trump-putin-diesel-prices-rcna602566"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
-          "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Trump strikes deal with Putin for Russian diesel in sharp reversal of U.S. policy ahead of midterms",
-          "url": "https://www.pbs.org/newshour/world/trump-strikes-deal-with-putin-for-russian-diesel-in-sharp-reversal-of-u-s-policy-ahead-of-midterms"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Australia says it won’t buy Russian fuel despite Trump’s diesel agreement",
-          "url": "https://www.scmp.com/news/asia/australasia/article/3370422/australia-says-it-wont-buy-russian-fuel-despite-trumps-diesel-agreement"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
-          "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Zelensky decries US-Russia diesel deal: 'Gifts to Putin will not bring peace'",
-          "url": "https://thehill.com/policy/energy-environment/6140146-zelensky-blasts-trump-russia-diesel-deal/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Zelensky bombs Russian oil hub hours after Trump’s diesel deal with Putin",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-strikes-bus-attack-b3063864.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Trump says Russia to supply diesel to U.S. and global markets",
-          "url": "https://www.japantimes.co.jp/news/2026/10/10/world/politics/trump-russia-diesel-us-global-markets/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Ukraine’s Zelensky says letting Russia sell diesel to US is ‘investment in war’",
-          "url": "https://www.straitstimes.com/world/europe/ukraines-zelensky-says-letting-russia-sell-diesel-to-us-is-investment-in-war"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-10-10-s2unbw",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Isaias weakens after making landfall in US Gulf Coast as hurricane",
-      "summary": "More than 664,000 customers in Florida and Alabama have been left without power as Isaias downs trees, power lines.",
-      "url": "https://www.aljazeera.com/news/2026/10/10/isaias-weakens-after-making-landfall-in-us-gulf-coast-as-hurricane?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-10T09:40:49.000Z",
-      "sourceCount": 14,
+      "title": "Germany sticks to Russia sanctions after Trump diesel deal",
+      "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+      "url": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-11T10:21:07.000Z",
+      "sourceCount": 15,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 7,
-      "score": 23.75,
+      "score": 24.08,
       "scoreComponents": {
-        "breadth": 11.72,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.43,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Hurricane Isaias updates: Isaias downgraded to post-tropical cyclone",
-          "url": "https://abcnews.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?id=137128637"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Isaias weakens after making landfall in US Gulf Coast as hurricane",
-          "url": "https://www.aljazeera.com/news/2026/10/10/isaias-weakens-after-making-landfall-in-us-gulf-coast-as-hurricane?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Hurricane Isaias downgraded after making landfall in Florida",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo"
-        },
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Isaias Leaves Thousands Without Power After Striking Gulf Coast",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/isaias-leaves-thousands-without-power-after-striking-gulf-coast"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
-          "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Hurricane Isaias makes landfall in Florida",
-          "url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Life-threatening Hurricane Isaias makes landfall in Florida, bringing high winds and heavy rain",
-          "url": "https://www.euronews.com/2026/10/10/life-threatening-hurricane-isaias-makes-landfall-in-florida-bringing-high-winds-and-heavy-"
-        },
-        {
-          "source": "Guardian Environment",
-          "sourceId": "guardian_env",
-          "lean": "left",
-          "title": "Hurricane Isaias makes landfall in Florida and hammers Gulf coast",
-          "url": "https://www.theguardian.com/world/2026/oct/09/hurricane-isaias-makes-landfall"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Hurricane Isaias makes landfall in Florida Panhandle as extreme weather slams area",
-          "url": "https://nypost.com/2026/10/09/us-news/hurricane-isaias-makes-landfall-in-florida-panhandle-as-extreme-weather-slams-area/"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Videos Show Hurricane Isaias Damaging Roofs, Smashing Signs After Landfall",
-          "url": "https://www.newsweek.com/videos-show-hurricane-isaias-ripping-off-roofs-destroying-signs-after-landfall-12550371"
-        },
-        {
-          "source": "NPR Science",
-          "sourceId": "npr_science",
-          "lean": "center-left",
-          "title": "'Life-threatening' Isaias pummels the Florida Gulf Coast",
-          "url": "https://www.npr.org/2026/10/09/nx-s1-5996396/hurricane-isaias-updates"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "What to expect as Hurricane Isaias bears down on the Gulf Coast as a major storm",
-          "url": "https://www.pbs.org/newshour/show/what-to-expect-as-hurricane-isaias-bears-down-on-the-gulf-coast-as-a-major-storm"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Hurricane Isaias heads towards Gulf Coast as houses evacuated amid flood and power outage warnings",
-          "url": "https://www.independent.co.uk/news/world/americas/hurricane-isaias-path-status-how-fast-us-gulf-coast-florida-b3064457.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Isaias weakens to Category 1 hurricane after Florida landfall, NHC says",
-          "url": "https://www.straitstimes.com/world/isaias-weakens-to-category-1-hurricane-after-florida-landfall-nhc-says"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-10-10-yheo5n",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-      "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.",
-      "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-10T10:11:12.000Z",
-      "sourceCount": 12,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 5,
-      "score": 23.18,
-      "scoreComponents": {
-        "breadth": 11.1,
+        "breadth": 12,
         "diversity": 6.4,
         "wire": 3.2,
         "freshness": 2.48,
@@ -334,32 +42,752 @@
       },
       "coverage": [
         {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump calls for Ukraine election, says Zelenskyy failed to end war",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/trump-calls-for-ukraine-election-says-zelenskyy-failed-to-end-war?traffic_source=rss"
+        },
+        {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo"
+          "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+          "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo"
         },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump says Ukraine needs new president, blames Zelenskyy for diesel prices",
+          "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Putin relayed Iran war proposal to Trump, Kremlin says",
+          "url": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Trump tells Ukraine to 'get a new leader' as he lashes out at Zelensky over diesel 'gift' to Putin",
+          "url": "https://www.dailymail.com/news/article-16199041/trump-threatens-zelensky-bombs-russian-oil-refineries-putin.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Germany sticks to Russia sanctions after Trump diesel deal",
+          "url": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Ukraine ready to halt refinery strikes if Moscow stops energy attacks, Zelensky says",
+          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Trump announces diesel deal with Russia",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-trump-announces-diesel-deal-with-russia"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Trump says Ukraine needs a new leader after diesel deal with Russia",
+          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Sunday shows preview: Trump admin's Russia deal, public execution plan spark pre-midterm backlash",
+          "url": "https://thehill.com/homenews/sunday-talk-shows/6140761-trump-russian-deal-executions-sunday-shows/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Trump calls for Zelensky to be ousted in unhinged rant after striking diesel deal with Putin",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-strikes-bus-attack-b3063864.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump calls for replacing Zelenskyy in tussle over diesel deal with Russia",
+          "url": "https://www.japantimes.co.jp/news/2026/10/11/world/politics/trump-replacing-ukraine-zelenskyy/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Rebuking Ukraine Over Oil Strikes, Trump Says It Should ‘Get a New President’",
+          "url": "https://www.nytimes.com/2026/10/10/world/europe/ukraine-russia-trump-diesel-talks.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump announces deal with Putin for Russian diesel, but what is its most consequential element?",
+          "url": "https://www.straitstimes.com/world/united-states/trump-announces-deal-with-putin-for-russian-diesel-but-what-is-its-most-consequential-element"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Republican backlash brews over Trump’s diesel deal with Russia",
+          "url": "https://www.washingtonexaminer.com/policy/energy/4762388/republican-backlash-trump-diesel-deal-russia/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-11-13z0a60",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
+      "summary": "The warning from the Iran-backed rebels comes a day after a missile attack on Riyadh airport killed 12 people and injured more than 300. The airport will remain closed until at least Sunday night.",
+      "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+      "headlineSource": "NPR",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-11T10:34:42.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 23.52,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "At least 12 killed, more than 300 hurt in strike on Saudi airport, officials say",
+          "url": "https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Yemen's Houthis warn passengers not to use Saudi airports",
+          "url": "https://www.dw.com/en/yemen-s-houthis-warn-passengers-not-to-use-saudi-airports/a-79632306?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "12 killed and more than 300 wounded in attack on Riyadh airport",
+          "url": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "At least twelve killed, multiple people wounded in attack on Riyadh airport",
+          "url": "https://www.france24.com/en/middle-east/20261010-riyadh-airport-suspends-operations-after-attack-leaves-multiple-people-wounded"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Major attack on Saudi airport kills 12 and leads Trump to weigh joining fight",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
+          "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
+          "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump may join Saudi strikes after major Houthi attack on Riyadh airport kills 12",
+          "url": "https://www.independent.co.uk/news/world/middle-east/houthi-attack-riyadh-airport-saudi-yemen-war-deaths-b3064690.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Houthi strike on airport kills 12 as Saudi coalition vows ‘decisive’ response",
+          "url": "https://www.japantimes.co.jp/news/2026/10/11/world/houthi-attack-saudi-airport/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes",
+          "url": "https://www.nytimes.com/2026/10/10/world/middleeast/riyadh-airport-attack-energy-congress.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack",
+          "url": "https://www.straitstimes.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "American citizen among dozen dead in latest Houthi attack on Riyadh airport, Rubio says",
+          "url": "https://www.washingtonexaminer.com/news/world/4762397/american-citizen-dead-houthi-attack-riyadh/"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-11-e0uuaw",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
+      "summary": "The leaders of India’s youth-led online “cockroach” movement were released on Sunday, their lawyer said, a day after they were detained to thwart a major protest against the chief election commissioner. Thousands of protesters were detained before Saturday’s…",
+      "url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-10-11T09:59:52.000Z",
+      "sourceCount": 13,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 8,
+      "score": 20.96,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Photos: Thousands detained in police crackdown on India’s youth protest",
+          "url": "https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Delhi sees more protests as 'cockroach' group's leaders released",
+          "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "India Protests Set to Continue Despite Heavy Delhi Security",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-11/indian-cockroaches-plan-new-protest-amid-heavy-delhi-security"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "India detains thousands of \"Cockroach\" movement youth protesters in crackdown",
+          "url": "https://www.cbsnews.com/news/india-detains-youth-protesters-new-delhi/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
+          "url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Thousands detained in New Delhi as police crack down on 'cockroach' movement",
+          "url": "https://www.euronews.com/2026/10/10/thousands-detained-in-new-delhi-as-police-crack-down-on-cockroach-movement"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "India court orders release of 'cockroach' movement leaders after detention",
+          "url": "https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
+          "url": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "India’s cockroach party leaders freed as election chief protests mount",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3370476/indias-cockroach-party-leaders-freed-election-chief-protests-mount"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "‘Cockroach’ leader among thousands detained in Delhi protest crackdown",
+          "url": "https://www.theguardian.com/world/2026/oct/10/cockroach-party-rally-delhi-protests-chief-election-officer-resigns"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "India releases ‘cockroach’ leaders as movement calls for more protests",
+          "url": "https://www.japantimes.co.jp/news/2026/10/11/asia-pacific/politics/cockroach-members-released/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "India’s ‘Cockroach’ Leaders Released as New Delhi Braces for More Protests",
+          "url": "https://www.nytimes.com/2026/10/11/world/asia/india-cockroach-dipke-new-delhi-protests.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Delhi protest crackdown: 20 FIRs registered, assault on cops among charges",
+          "url": "https://timesofindia.indiatimes.com/india/delhi-protest-crackdown-20-firs-registered-assault-on-cops-among-charges/articleshow/134868430.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-11-1tsjy6l",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+      "summary": "Isaias made landfall as a Category 2 hurricane in the city of Destin in the Florida Panhandle on Friday evening. It has since weakened into a post-tropical cyclone.",
+      "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o",
+      "headlineSource": "BBC News",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-11T09:18:48.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 19.44,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Hurricane Isaias updates: At least 4 dead as Isaias downgraded",
+          "url": "https://abcnews.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?id=137128637"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Hurricane Isaias kills four, leaves 650,000 without power in Florida",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Storm Isaias leaves 4 dead as it moves across southern US",
+          "url": "https://www.dw.com/en/storm-isaias-leaves-4-dead-as-it-moves-across-southern-us/a-79630125?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Four dead as Isaias continues to push across the Southeast US, bringing strong winds and heavy rain",
+          "url": "https://www.euronews.com/2026/10/11/four-dead-as-isaias-continues-to-push-across-the-southeast-us-bringing-strong-winds-and-he"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "At least 4 dead as cyclone Isaias drenches southern US",
+          "url": "https://www.france24.com/en/video/20261011-at-least-4-dead-as-cyclone-isaias-drenches-southern-us"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "At least 2 deaths attributed to Isaias after hurricane bashes Florida and Alabama",
+          "url": "https://www.npr.org/2026/10/10/g-s1-147632/at-least-2-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Four dead as Isaias weakens to post-tropical cyclone after striking Florida panhandle",
+          "url": "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Hurricane Isaias tracker latest: Two dead and scores without power as storm makes landfall",
+          "url": "https://www.independent.co.uk/news/world/americas/hurricane-isaias-storm-tracker-path-gulf-coast-b3064554.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-11-1wiep5r",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Man dies after entering tiger enclosure at England wildlife park",
+      "summary": "Emergency services called to the scene after reports of a man entering the tiger enclosure at a UK wildlife park.",
+      "url": "https://www.aljazeera.com/news/2026/10/11/man-dies-after-entering-tiger-enclosure-at-england-wildlife-park?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-11T09:14:35.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 18.22,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Man attacked by tiger after entering enclosure at England wildlife park",
+          "url": "https://abcnews.com/International/wireStory/man-attacked-tiger-after-entering-enclosure-wildlife-park-137161794"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Man dies after entering tiger enclosure at England wildlife park",
+          "url": "https://www.aljazeera.com/news/2026/10/11/man-dies-after-entering-tiger-enclosure-at-england-wildlife-park?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Man attacked by tiger in England after entering enclosure at wildlife park",
+          "url": "https://www.cbsnews.com/news/yorkshire-wildlife-park-tiger-enclosure-attack/"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Man mauled to death by tiger at Yorkshire zoo 'asked for photo moments before he climbed into enclosure'",
+          "url": "https://www.dailymail.com/news/article-16199419/Man-tiger-Yorkshire-zoo-dance-enclosure-witnesses.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Tiger kills man who entered big cat enclosure at UK wildlife park",
+          "url": "https://www.scmp.com/news/world/europe/article/3370465/tiger-kills-man-who-entered-big-cat-enclosure-uk-wildlife-park"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Man Dies in Tiger Attack at Yorkshire Wildlife Park in England",
+          "url": "https://www.nytimes.com/2026/10/10/world/europe/tiger-attack-wildlife-park-man-dead.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Man dies after tiger attack at UK zoo",
+          "url": "https://www.straitstimes.com/world/europe/man-seriously-injured-in-tiger-attack-at-uk-zoo"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-11-12lbmtr",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
+      "summary": "Oct 10 - Death row inmate Christa Pike was released from a US hospital on Saturday and sent back to prison where she will continue receiving medical care following her botched execution attempt in Tennessee, her attorneys said.",
+      "url": "https://www.france24.com/en/americas/20261010-convicted-murderer-christa-pike-leaves-hospital-returns-to-prison-after-botched-execution",
+      "headlineSource": "France 24",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-11T05:00:16.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 18.12,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.02,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
+          "url": "https://www.france24.com/en/americas/20261010-convicted-murderer-christa-pike-leaves-hospital-returns-to-prison-after-botched-execution"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Christa Pike discharged from the hospital and back in prison",
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5997504/christa-pike-hospital-prison-after-botched-execution"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Capital punishment is surging in the US – but after Christa Pike’s botched execution, what is its future?",
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/11/executions-us-christa-pike"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Christa Pike discharged from hospital 10 days after botched execution in Tennessee",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-discharge-hospital-execution-tennessee-b3064615.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Survivor of botched U.S. lethal injection returns to prison",
+          "url": "https://www.japantimes.co.jp/news/2026/10/11/world/crime-legal/us-lethal-injection-survivor-returns-prison/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Tennessee execution survivor Christa Pike released from hospital, returned to prison",
+          "url": "https://www.straitstimes.com/world/tennessee-execution-survivor-christa-pike-released-from-hospital-returned-to-prison"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-11-udplct",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US justice department investigates TV networks over Trump pool coverage",
+      "summary": "Department of Justice says it's investigating whether the White House press pool's decision violated antitrust laws.",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro",
+      "headlineSource": "BBC News",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-11T05:05:43.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 18.09,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.02,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US opens antitrust probe into TV networks for halting Trump coverage",
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US justice department investigates TV networks over Trump pool coverage",
+          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US: Justice Department probes Trump's press pool boycott for antitrust violation",
+          "url": "https://www.dw.com/en/us-justice-department-probes-trump-s-press-pool-boycott-for-antitrust-violation/a-79631008?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
+          "url": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US Justice Department is investigating TV networks over Trump pool coverage",
+          "url": "https://www.straitstimes.com/world/united-states/us-justice-department-probes-tv-networks-over-trump-pool-coverage-new-york-times-reports"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Justice Department investigating TV networks that briefly suspended Trump press pool coverage",
+          "url": "https://www.washingtonexaminer.com/news/investigations/4762404/justice-department-investigate-tv-networks-trump-pool-coverage/"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-11-1o7qvig",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "9 dead, including children and pregnant woman, in shooting in Erie, Pennsylvania",
+      "summary": "A man killed eight people including a pregnant woman, children and other relatives at his home in Erie, Pennsylvania, before taking his own life as well, authorities said on Saturday. Erie Police Chief Rick Lorah said the 45-year-old man was related to seven…",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370464/9-dead-including-children-and-pregnant-woman-shooting-erie-pennsylvania",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-10-11T06:35:11.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 17.9,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.14,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "9 people, including 2 children, dead in suspected murder-suicide at Pennsylvania home",
+          "url": "https://nypost.com/2026/10/10/us-news/pennsylvania-mass-shooting-leaves-multiple-dead-at-erie-home/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "9 dead, including children and pregnant woman, in shooting in Erie, Pennsylvania",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370464/9-dead-including-children-and-pregnant-woman-shooting-erie-pennsylvania"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nine people, including children, dead after mass shooting in Pennsylvania",
+          "url": "https://www.theguardian.com/us-news/2026/oct/10/nine-people-mass-shooting-pennsylvania"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Gunman kills pregnant woman, 2 children and 5 others in massacre of Pennsylvania family",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/erie-pennsylvania-kills-children-pregnant-woman-b3064662.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Erie, Pennsylvania shooter killed 8 people, then himself, police say",
+          "url": "https://www.straitstimes.com/world/nine-dead-in-erie-pennsylvania-mass-shooting"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-11-1nuwhg5",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "7.7-Magnitude Panama Earthquake Sets Off Series of Aftershocks",
+      "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported.",
+      "url": "https://www.nytimes.com/2026/10/09/world/americas/panama-earthquake-tsunami.html",
+      "headlineSource": "The New York Times",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-11T06:56:08.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 14.63,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.17,
+        "softPenalty": 0
+      },
+      "coverage": [
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
           "title": "Panama struck by 2 powerful earthquakes, U.S. Geological Survey says",
           "url": "https://www.cbsnews.com/news/panama-earthquake-tsunami-threat/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Urgent tsunami alert after massive 7.7 earthquake topples buildings in Panama",
-          "url": "https://www.dailymail.com/sciencetech/article-16197365/panama-earthquake-tsunami-threat.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Strong earthquakes shake Panama, buildings damaged",
-          "url": "https://www.dw.com/en/strong-earthquakes-shake-panama-buildings-damaged/a-79623168?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Euronews",
@@ -369,46 +797,18 @@
           "url": "https://www.euronews.com/video/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread"
         },
         {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Massive 7.7 magnitude earthquake strikes Panama as officials investigate potential tsunami threat",
-          "url": "https://www.foxnews.com/world/massive-7-7-magnitude-earthquake-strikes-panama-officials-investigate-potential-tsunami-threat"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "🔴 Powerful 7.6 magnitude quake shakes Panama, triggering tsunami warning",
-          "url": "https://www.france24.com/en/americas/20261009-powerful-7-6-magnitude-quake-shakes-panama-triggering-tsunami-warning"
-        },
-        {
           "source": "NBC News",
           "sourceId": "nbc",
           "lean": "center-left",
-          "title": "A 7.7-magnitude earthquake rocks Panama",
-          "url": "https://www.nbcnews.com/world/panama/magnitude-77-earthquake-rocks-panama-rcna602557"
+          "title": "Major earthquake shakes Panama",
+          "url": "https://www.nbcnews.com/nightly-news/video/major-earthquake-shakes-panama-271369285651"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital",
-          "url": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Panama struck by powerful 7.7 magnitude earthquake as nine countries issued tsunami warnings",
-          "url": "https://www.independent.co.uk/news/world/americas/panama-earthquake-today-tsunami-warning-b3064418.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Major earthquake hits Panama, injures at least 27",
-          "url": "https://www.japantimes.co.jp/news/2026/10/10/world/panama-quake/"
+          "title": "‘It was a terrible thing’: Panama declares state of emergency as quake aftershocks rattle communities",
+          "url": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency"
         },
         {
           "source": "The New York Times",
@@ -420,349 +820,30 @@
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-10-10-1x51zyb",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump says Norway has ‘indelible stain’ for not awarding him Nobel Peace Prize",
-      "summary": "Each year of his presidency, Trump has expressed disappointment at his failure to win the prize.",
-      "url": "https://www.straitstimes.com/world/europe/trump-says-norway-has-indelible-stain-for-not-awarding-him-nobel-peace-prize",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-10T06:47:10.000Z",
-      "sourceCount": 12,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 5,
-      "score": 22.87,
-      "scoreComponents": {
-        "breadth": 11.1,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.17,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Trump slams Norway for not awarding him Nobel Peace Prize",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-slams-norway-for-not-awarding-him-nobel-peace-prize?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
-          "url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Nobel Peace Prize awarded to former ICC judge Navi Pillay",
-          "url": "https://www.cbsnews.com/news/nobel-peace-prize-2026-navanethem-navi-pillay-south-africa/"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "South African judge awarded Nobel Peace Prize",
-          "url": "https://www.france24.com/en/south-african-judge-awarded-nobel-peace-prize"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Navi Pillay, who led U.N. panel that found Israel committed genocide in Gaza, wins Nobel Peace Prize",
-          "url": "https://www.nbcnews.com/world/europe/nobel-peace-prize-favorites-include-yulia-navalnaya-donald-trump-downp-rcna602462"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Trump goes off on Norway for awarding Nobel Peace Prize to ‘mystery woman’ — claims he deserves ‘eight’ medals",
-          "url": "https://nypost.com/2026/10/09/us-news/trump-goes-off-on-norway-for-awarding-nobel-peace-prize-to-mystery-woman-claims-he-deserves-eight-medals/"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "And the Nobel Peace Prize goes to...",
-          "url": "https://news.sky.com/story/former-un-human-rights-chief-navi-pillay-wins-the-nobel-peace-prize-13596724"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Trump slams Norway and Nobel committee after missing out on Peace Prize",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370418/trump-slams-norway-and-nobel-committee-after-missing-out-peace-prize"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
-          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump licks his Nobel-snub wounds by sharing nasty post after Peace Prize winner’s swipe at him",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-nobel-prize-reaction-post-b3064241.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Human Rights Lawyer Navi Pillay Is Awarded Nobel Peace Prize",
-          "url": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Trump says Norway has ‘indelible stain’ for not awarding him Nobel Peace Prize",
-          "url": "https://www.straitstimes.com/world/europe/trump-says-norway-has-indelible-stain-for-not-awarding-him-nobel-peace-prize"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-10-wagyo1",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump weighs livestream execution amid bipartisan backlash",
-      "summary": "The Pentagon says it will livestream the firing squad execution of Nidal Hasan at Fort Hood, the site of his 2009 mass shooting. That would be the first public execution in the U.S. since the 1930s.",
-      "url": "https://www.dw.com/en/trump-weighs-livestream-execution-amid-bipartisan-backlash/a-79623920?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "NPR",
-      "publishedAt": "2026-10-10T10:00:00.000Z",
-      "sourceCount": 14,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 8,
-      "score": 21.28,
-      "scoreComponents": {
-        "breadth": 11.72,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Fort Hood survivors speak out on Pentagon's decision to livestream Hasan's execution",
-          "url": "https://abcnews.com/Politics/fort-hood-survivors-speak-pentagons-decision-livestream-hasans/story?id=137144236"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Public executions in the US stopped nearly a century ago - why are they resuming now?",
-          "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Only 2 other countries hold public executions as U.S. plans first in 90 years",
-          "url": "https://www.cbsnews.com/news/us-public-execution-nidal-hasan-livestreamed/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Trump weighs livestream execution amid bipartisan backlash",
-          "url": "https://www.dw.com/en/trump-weighs-livestream-execution-amid-bipartisan-backlash/a-79623920?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "US military will livestream the firing squad execution of Fort Hood shooter, 'torture' for UN",
-          "url": "https://www.euronews.com/2026/10/09/us-military-will-livestream-the-firing-squad-execution-of-fort-hood-shooter"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "The U.S. last held a public execution in the 1930s. The Pentagon wants to change that",
-          "url": "https://www.npr.org/2026/10/09/nx-s1-5996529/firing-squad-livestream-execution-fort-hood-shooter"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Legal path seems narrow to challenge livestream of Fort Hood shooter's execution, experts say",
-          "url": "https://www.pbs.org/newshour/world/legal-path-seems-narrow-to-challenge-livestream-of-fort-hood-shooters-execution-experts-say"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Trump casts doubt on Pentagon plan to live stream Fort Hood shooter’s execution",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370431/trump-casts-doubt-pentagon-plan-live-stream-fort-hood-shooters-execution"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Pete Hegseth’s plan to livestream execution puts US in dubious company",
-          "url": "https://www.theguardian.com/world/2026/oct/09/pete-hegseth-public-execution-nidal-hasan-capital-sentences"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "GOP lawmakers push back on Hegseth decision to livestream execution",
-          "url": "https://thehill.com/policy/defense/6139961-republicans-condemn-hegseth-execution-spectacle/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "JD Vance says he won’t watch Pete Hegseth’s planned Fort Hood shooter execution livestream",
-          "url": "https://www.independent.co.uk/news/world/americas/jd-vance-fort-hood-execution-live-stream-hegseth-b3064415.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Republican opposition widens to livestreamed execution; Trump still weighing it",
-          "url": "https://www.japantimes.co.jp/news/2026/10/10/world/republican-opposition-livestreamed-execution/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Republican opposition widens to live-streamed execution; Trump still weighing the matter",
-          "url": "https://www.straitstimes.com/world/united-states/republican-opposition-widens-to-livestreamed-execution-trump-still-weighing-it"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Brendan Carr says he’ll let Pete Hegseth decide whether TV networks can air the public execution",
-          "url": "https://www.theverge.com/?p=1008950"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-10-10-1ozb8j7",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "French policing under scrutiny as student protest injuries mount",
-      "summary": "Twenty-four investigations have been opened by French police watchdog IGPN into incidents linked to the ongoing high school protest movement, the interior ministry said. The police response has reignited calls to scrap rubber bullets and launcher-fired…",
-      "url": "https://www.straitstimes.com/world/europe/french-policing-under-scrutiny-as-student-protest-injuries-mount",
-      "headlineSource": "The Straits Times",
-      "summarySource": "France 24",
-      "publishedAt": "2026-10-10T10:20:54.000Z",
-      "sourceCount": 7,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 3,
-      "score": 20.29,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 6.4,
-        "wire": 2.4,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Riot police clash with students in Paris protests",
-          "url": "https://www.cbsnews.com/video/riot-police-clash-students-paris-protests/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Schools crisis in France: Investment fails to inspire confidence",
-          "url": "https://www.dw.com/en/schools-crisis-in-france-investment-fails-to-inspire-confidence/a-79621916?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "France is devouring itself as school riots reveal a crisis far bigger than broken classrooms",
-          "url": "https://www.foxnews.com/world/france-devouring-itself-school-riots-reveal-crisis-far-bigger-than-broken-classrooms"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Injuries at French student protests draw scrutiny to police tactics",
-          "url": "https://www.france24.com/en/france/20261010-injuries-french-student-protests-draw-scrutiny-to-police-tactics"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "France’s dilemma: protesters demand spending as markets require fiscal restraint",
-          "url": "https://www.theguardian.com/world/2026/oct/10/france-caught-between-bond-markets-student-worker-blockades"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Clashes erupt between French police and protesters demanding better schools",
-          "url": "https://www.nbcnews.com/nightly-news/video/clashes-erupt-between-french-police-and-protesters-demanding-better-schools-271300165710"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "French policing under scrutiny as student protest injuries mount",
-          "url": "https://www.straitstimes.com/world/europe/french-policing-under-scrutiny-as-student-protest-injuries-mount"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-10-10-jbprqz",
+      "rank": 10,
+      "id": "2026-10-10-ghzt6b",
       "topic": "tech",
       "topicLabel": "Technology & physical science",
       "topicShort": "TECH",
-      "title": "Anthropic AI model sent fake murder tip to Philadelphia police",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
       "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
-      "url": "https://www.straitstimes.com/world/united-states/anthropic-ai-model-sent-fake-murder-tip-to-philadelphia-police",
-      "headlineSource": "The Straits Times",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
+      "headlineSource": "BBC News",
       "summarySource": "BBC News",
-      "publishedAt": "2026-10-10T10:06:23.000Z",
-      "sourceCount": 6,
+      "publishedAt": "2026-10-10T19:31:19.000Z",
+      "sourceCount": 4,
       "leanCount": 3,
       "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 17.74,
+      "wireCount": 1,
+      "score": 13.61,
       "scoreComponents": {
-        "breadth": 8.42,
+        "breadth": 6.97,
         "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.47,
+        "wire": 0.8,
+        "freshness": 1.4,
         "softPenalty": 0
       },
       "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Anthropic AI model submits false homicide tip to Philadelphia police",
-          "url": "https://www.aljazeera.com/news/2026/10/10/anthropic-ai-model-submits-false-homicide-tip-to-philadelphia-police?traffic_source=rss"
-        },
         {
           "source": "BBC News",
           "sourceId": "bbc",
@@ -785,204 +866,11 @@
           "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html"
         },
         {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
+          "source": "The Hill",
+          "sourceId": "thehill",
           "lean": "center",
-          "title": "Anthropic AI model sent fake murder tip to Philadelphia police",
-          "url": "https://www.straitstimes.com/world/united-states/anthropic-ai-model-sent-fake-murder-tip-to-philadelphia-police"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-          "url": "https://www.theverge.com/?p=1009090"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-10-10-ciwqy6",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "China and EU strike deal to halve Chinese hybrid exports",
-      "summary": "It remains to be seen whether move can produce measurable reductions in China’s vast trade surpluses with the EU.",
-      "url": "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-10T05:45:00.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 3,
-      "score": 16.81,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 3.9,
-        "wire": 2.4,
-        "freshness": 2.09,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "China and Europe agree to cut Chinese hybrid vehicle exports by half",
-          "url": "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "China, EU reach deal to 'moderate' China's car exports to EU",
-          "url": "https://www.dw.com/en/china-eu-reach-deal-to-moderate-china-s-car-exports-to-eu/a-79621394?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "China agrees to ‘halve’ hybrid car exports to EU in landmark deal",
-          "url": "https://www.theguardian.com/business/2026/oct/09/china-agrees-to-curb-hybrid-car-exports-to-eu-in-landmark-deal"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "China and Europe Step Back From Trade War With Limits on Chinese Car Exports",
-          "url": "https://www.nytimes.com/2026/10/09/business/china-european-union-trade.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "China and EU strike deal to halve Chinese hybrid exports",
-          "url": "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "China agrees to cut exports of hybrid cars to Europe. Is this a rare trade win for the EU?",
-          "url": "https://www.straitstimes.com/world/china-agrees-to-cut-exports-of-hybrid-cars-to-europe-is-this-a-rare-trade-win-for-the-eu"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-10-10-3z5ze3",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Big controversy upends a contest about microscopic videos",
-      "summary": "The original winner, an optical engineer at NUS, broke a rule against the use of generative AI.",
-      "url": "https://www.straitstimes.com/world/big-controversy-upends-a-contest-about-microscopic-videos",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-10T03:20:00.000Z",
-      "sourceCount": 5,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 13.21,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 1.9,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "AI disqualification yields new Nikon Small World in Motion winner",
-          "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/"
-        },
-        {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
-          "lean": "center",
-          "title": "Prize-winning image which sparked backlash was AI-generated, Nikon rules",
-          "url": "https://www.bbc.co.uk/news/articles/cr86z33pdy9vo"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Big Controversy Upends a Contest About Microscopic Videos",
-          "url": "https://www.nytimes.com/2026/10/09/science/nikon-microscopic-videos-ai.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Big controversy upends a contest about microscopic videos",
-          "url": "https://www.straitstimes.com/world/big-controversy-upends-a-contest-about-microscopic-videos"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-          "url": "https://www.theverge.com/?p=1008930"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-10-09-1ja02tp",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
-      "summary": "SpaceX investors are finally getting some reprieve after months of being whipsawed by volatility as the Elon Musk-led company’s stock breaks above the level it’s been stuck below since July. SpaceX is closing in on a crucial swath of spectrum needed to turn…",
-      "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
-      "headlineSource": "Ars Technica",
-      "summarySource": "Bloomberg",
-      "publishedAt": "2026-10-09T21:25:57.000Z",
-      "sourceCount": 4,
-      "leanCount": 1,
-      "leanSpread": 0,
-      "wireCount": 0,
-      "score": 8.48,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 0,
-        "wire": 0,
-        "freshness": 1.52,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
-          "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/"
-        },
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "SpaceX’s Wireless Threat Rises With Spectrum Deal",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-09/spacex-s-wireless-threat-rises-with-spectrum-deal-video"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
-          "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "As AT&T, Verizon and T-Mobile shares fall, Wall Street assesses the growing SpaceX threat",
-          "url": "https://www.marketwatch.com/story/as-at-t-verizon-and-t-mobile-shares-fall-wall-street-assesses-the-growing-spacex-threat-e869ef9e?mod=mw_rss_topstories"
+          "title": "Philadelphia police receive false homicide tip from Anthropic AI model",
+          "url": "https://thehill.com/policy/technology/6140747-anthropic-ai-false-homicide-tip/"
         }
       ]
     }
