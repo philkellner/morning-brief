@@ -1,0 +1,2225 @@
+{
+  "edition": "2026-10-12",
+  "generatedAt": "2026-10-12T11:39:21.265Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-12-2nfyw9",
+      "topic": "world",
+      "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+      "summary": "Deadly Houthi attacks on Saudi airports have disrupted flights and raised fears of a wider regional conflict, as the US considers military action.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 16,
+      "score": 21.86,
+      "scoreComponents": {
+        "breadth": 12.26,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 16,
+        "specialistOutlets": 2,
+        "specialistShare": 0.13,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "description": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+          "link": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o",
+          "published": "2026-10-12T10:28:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Riyadh airport attacks another dangerous moment in already tense conflict",
+          "description": "While the physical damage from Houthi attacks can be quickly repaired, the Saudi reputation for stability is taking a battering.",
+          "link": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o",
+          "published": "2026-10-11T15:32:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Countries warn against travel to Saudi Arabia following Houthi attacks",
+          "description": "US, Australia, Canada, Japan, South Korea and New Zealand among countries urging citizens to avoid travel to the kingdom.",
+          "link": "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss",
+          "published": "2026-10-12T05:53:45.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport",
+          "description": "Sunday's strike on King Khalid International airport kills a Pakistani national.",
+          "link": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport?traffic_source=rss",
+          "published": "2026-10-12T02:11:21.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran urges Saudi Arabia to pursue diplomacy after Houthis escalate attacks",
+          "description": "Tehran offers to facilitate talks between Saudi Arabia and Yemen's Houthis following deadly strikes on the kingdom.",
+          "link": "https://www.aljazeera.com/news/2026/10/12/irans-fm-urges-diplomacy-in-call-with-saudi-counterpart?traffic_source=rss",
+          "published": "2026-10-12T00:39:08.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict",
+          "description": "Deadly Houthi attacks on Saudi airports have disrupted flights and raised fears of a wider regional conflict, as the US considers military action.",
+          "link": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-12T10:41:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia: Second strike kills at least 1 at Riyadh airport",
+          "description": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit.",
+          "link": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-11T22:59:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia: Riyadh airport struck again by Yemen's Houthis",
+          "description": "A new attack hit Riyadh's international airport on Sunday, a day after another attack on the airport killed at least 12 people and injured over 300. This was the deadliest on Saudi soil in over a decade. Fighting between the Iran-backed Houthis and Saudi-backed Yemeni government forces have been escalating for several weeks. Story by Juliette Brown and Caitlin Brown.",
+          "link": "https://www.france24.com/en/saudi-arabia-riyadh-airport-struck-again-by-yemen-s-houthis",
+          "published": "2026-10-12T09:21:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Saudi Arabia extends suspension of operations at Riyadh airport after deadly Houthi attacks",
+          "description": "Saudi Arabia's civil aviation body extended the suspension of operations at Riyadh's international airport Monday following a series of deadly attacks by Yemen's Iran-aligned Houthi rebels over the weekend. The statement announcing the decision did not specify when operations would resume. Follow our liveblog for the latest developments.",
+          "link": "https://www.france24.com/en/middle-east/20261012-live-saudi-arabia-extends-suspension-of-operations-at-riyadh-airport-after-deadly-houthi-attacks",
+          "published": "2026-10-12T08:41:12.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi airport stays shut as Houthi attacks kill 20 people in a week",
+          "description": "Trump considers joining Saudi attacks on Iran's Houthi allies in Yemen after a week of Houthi strikes kills 20 people, including an American, at Riyadh's airport.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/",
+          "published": "2026-10-12T11:11:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "One killed when Riyadh airport hit again, a day after deadly strike killed 13",
+          "description": "The strike on King Khalid International Airport, the deadliest on Saudi soil in more than a decade, marked a major escalation in the war between Yemen's Iran-backed Houthis and the kingdom.",
+          "link": "https://www.cbsnews.com/news/houthis-threat-saudi-airspace-attack-riyadh-airport/",
+          "published": "2026-10-12T10:09:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Yemen's Houthis target King Khalid airport in Saudi Arabia again",
+          "description": "Tensions flared in the Middle East following attacks by Iran-backed Houthi rebels on Saudi Arabia. Leigh Kiniry reports.",
+          "link": "https://www.cbsnews.com/video/yemens-houthis-target-king-khalid-airport-saudi-arabia-again/",
+          "published": "2026-10-12T00:15:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 12 killed, more than 300 hurt in strike on Saudi airport, officials say",
+          "description": "At least 12 people, including one American, were killed and 309 others injured in a strike Saturday​ on Riyadh's King Khalid International Airport.",
+          "link": "https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/",
+          "published": "2026-10-11T10:34:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 12 killed, over 300 injured after strike on Riyadh airport, Saudi officials say",
+          "description": "At least 12 people were killed, and over 300 were injured after a strike at Riyadh's international airport in Saudi Arabia, officials said.",
+          "link": "https://www.cbsnews.com/video/at-least-12-killed-over-300-injured-after-strike-on-riyadh-airport-saudi-officials-say/",
+          "published": "2026-10-11T01:30:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi airport struck again a day after deadly attack",
+          "description": "The Saudi-led coalition said a projectile struck a terminal at Riyadh’s airport Sunday, a day after a missile attack killed 13 people and injured 309.",
+          "link": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+          "published": "2026-10-11T10:09:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Riyadh airport hit again after deadly Houthi missile attack, Saudi authorities say",
+          "description": "Unidentified projectile strikes King Khalid airport, killing one and injuring 11, as escalating attacks threaten to draw more countries into Yemen conflict Analysis: attack will force rethink of Trump strategy A projectile hit a passenger terminal at the airport in Riyadh on Sunday, the day after a deadly missile attack on the facility carried out by Yemen’s Iran-backed Houthi rebel group killed 1",
+          "link": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+          "published": "2026-10-11T22:28:50.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "Yemen",
+            "Houthis",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Middle East crisis: Riyadh airport hit again as Houthis claim attacks, including strike that killed 12 – as it happened",
+          "description": "This live blog is now closed. You can read our latest full report here: Riyadh airport hit again after deadly Houthi missile attack, Saudi authorities say Some more Gulf reaction to Houthi’s deadly airport attack and continued threats to target Saudi airspace. In a significant message, the United Arab Emirates has issued a statement in solidarity with Saudi Arabia – expressing support for “all mea",
+          "link": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+          "published": "2026-10-11T18:03:22.000Z",
+          "categories": [
+            "Houthis",
+            "Saudi Arabia",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Houthi attack on Riyadh airport forces swift rethink of Trump’s new strategy",
+          "description": "US president’s plan to park the wars in Iran and Yemen, while blaming Ukraine for diesel prices, looks unsustainable The reckless missile attack on King Khalid international airport in Riyadh on Saturday did not just export the death and misery inside Yemen to Saudi Arabia, it also left Donald Trump forced to reconsider his diplomatic and political strategy designed to take him into the midterm el",
+          "link": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
+          "published": "2026-10-11T13:23:02.000Z",
+          "categories": [
+            "Yemen",
+            "Houthis",
+            "Saudi Arabia",
+            "Donald Trump",
+            "World news",
+            "US news",
+            "Middle East and north Africa",
+            "US foreign policy",
+            "Iran",
+            "Russia",
+            "Ukraine"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran Offers to Mediate Between Its Houthi Allies and Saudi Arabia",
+          "description": "Iran has long backed the Houthis, a Yemeni militia, and it made the offer as Saudi Arabia contends with increasingly deadly attacks from them.",
+          "link": "https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia-mediate.html",
+          "published": "2026-10-12T11:37:12.000Z",
+          "categories": [
+            "War and Armed Conflicts",
+            "Houthis",
+            "Saudi Arabia",
+            "Iran",
+            "Yemen",
+            "Araghchi, Abbas",
+            "US and Israeli Attack on Iran (2026)",
+            "International Relations",
+            "Oil (Petroleum) and Gasoline",
+            "Politics and Government",
+            "International Trade and World Market"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi and Yemeni Airports Hit in New Round of Strikes",
+          "description": "At least one person was killed in the Saudi capital, Riyadh, kingdom authorities said. The Houthis said Saudi aircraft hit the Yemeni capital’s airport.",
+          "link": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-yemen-airports-houthis.html",
+          "published": "2026-10-12T02:27:42.000Z",
+          "categories": [
+            "War and Armed Conflicts",
+            "Defense and Military Forces",
+            "Houthis",
+            "Saudi Arabia",
+            "Yemen"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes",
+          "description": "The strike on Saturday was the deadliest attack in a Gulf Arab country since the U.S.-Israeli war with Iran began in February, and forced the airport to temporarily suspend operations.",
+          "link": "https://www.nytimes.com/2026/10/10/world/middleeast/riyadh-airport-attack-energy-congress.html",
+          "published": "2026-10-11T08:55:27.000Z",
+          "categories": [
+            "Riyadh (Saudi Arabia)",
+            "War and Armed Conflicts",
+            "Airports",
+            "Civilian Casualties",
+            "Saudi Arabia",
+            "Defense and Military Forces",
+            "Houthis",
+            "Yemen",
+            "US and Israeli Attack on Iran (2026)"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Global travel warnings after Iran-backed Houthi militants strike Riyadh airport",
+          "description": "The Saudi-led coalition responding to the attacks said Monday it was dealing with more drones and missiles heading toward the Kingdom.",
+          "link": "https://www.cnbc.com/2026/10/12/us-iran-war-trump-hormuz-saudi.html",
+          "published": "2026-10-12T11:27:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Closure of Riyadh airport extended after deadly Houthi strikes",
+          "description": "Oct 12 - Saudi authorities said on Monday they were extending the suspension of operations at the international airport in the capital, Riyadh, after deadly weekend attacks by Yemen's Iran-aligned Houthis.",
+          "link": "https://www.straitstimes.com/world/europe/skies-over-saudi-capital-riyadh-largely-empty-after-deadly-houthi-strikes-on-airport",
+          "published": "2026-10-12T08:25:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "CCTV shows moment of strike at King Khalid International Airport in Riyadh",
+          "description": "CTV footage released by Saudi authorities shows the moment a missile strike hit Riyadh’s King Khalid International Airport on October 10. The attack killed at least 13 people and injured hundreds, forcing the suspension of airport operations.",
+          "link": "https://www.euronews.com/2026/10/12/cctv-shows-moment-of-strike-at-king-khalid-international-airport-in-riyadh",
+          "published": "2026-10-12T08:24:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis claim further Riyadh airport attacks as Saturday’s death toll rises to 13",
+          "description": "The Houthis claimed responsibility for the weekend attacks on Riyadh airport. Saturday’s death toll rose to 13, while a further strike on Sunday killed one person. Flights remain suspended as Trump weighs US involvement.",
+          "link": "https://www.euronews.com/2026/10/11/riyadh-airport-stays-shut-after-deadly-attack-as-trump-says-us-may-join-saudi-strikes-on-h",
+          "published": "2026-10-11T13:05:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+          "description": "The fresh attack on the airport killed one person — a Pakistani resident — and wounded 11 others, Saudi Arabia's civil aviation authority said on X.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/12/world/riyadh-airport-houthi-attack/",
+          "published": "2026-10-12T02:18:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Riyadh airport hit by projectile a day after deadly missile strike",
+          "description": "The latest strike in Riyadh came shortly after the Houthis said the airport in the rebel-held Yemeni capital of Sanaa had been struck again, and blamed the Saudis.",
+          "link": "https://www.pbs.org/newshour/world/riyadh-airport-hit-by-projectile-a-day-after-deadly-missile-strike",
+          "published": "2026-10-11T19:49:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi-Houthi war latest: International airport cancels nearly all flights after devastating Houthi attacks",
+          "description": "The Houthis claim responsibility for attacks that left more than 300 people wounded",
+          "link": "https://www.independent.co.uk/news/world/middle-east/saudi-houthi-airport-attack-live-trump-riyadh-news-b3065026.html",
+          "published": "2026-10-12T11:24:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Houthis warn airlines and passengers not to use Riyadh airport after attack kills 12 people",
+          "description": "It was the third strike on the capital’s airport this week",
+          "link": "https://www.independent.co.uk/news/world/middle-east/houthi-attack-riyadh-airport-saudi-yemen-war-deaths-b3064690.html",
+          "published": "2026-10-11T21:03:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis, Saudis exchange strikes on airports as Mideast conflict intensifies",
+          "description": "The Iran-backed Houthis in Yemen accuse Saudi Arabia of striking the rebel-held airport in Sanaa. This accusation comes amid escalating clashes between the Houthis and Saudi-backed forces.",
+          "link": "https://www.csmonitor.com/World/Middle-East/2026/1011/houthis-saudi-arabia-yemen-airport-attack-iran?icid=rss",
+          "published": "2026-10-11T14:51:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why are Yemen’s Houthis attacking Saudi Arabia and how are they breaching its air defences?",
+          "description": "Washington has largely ignored the lingering disruption created by the Houthis around the Red Sea. But a wider conflict with Saudi Arabia could force them to intervene, writes James C. Reynolds",
+          "link": "https://www.independent.co.uk/news/world/middle-east/saudi-houthis-war-trump-iran-us-b3065061.html",
+          "published": "2026-10-12T10:26:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi energy minister says attacks testing infrastructure, vows response",
+          "description": "The Houthi attacks over the weekend marked a sharp escalation in the Yemen war.",
+          "link": "https://www.straitstimes.com/world/middle-east/saudi-energy-minister-says-attacks-testing-infrastructure-vows-response",
+          "published": "2026-10-12T09:35:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Saudis Say New Missiles Intercepted After Deadly Airport Attacks",
+          "description": "US stock futures rose modestly as traders weighed the prospect of solid results in a busy week for corporate earnings against the risk of escalating tensions in the Middle East. The Saudi-led military coalition fighting the Houthis said it intercepted missiles and drones aimed at the kingdom overnight, including areas that are home to some of Saudi Arabia’s key oil and gas facilities. Over the wee",
+          "link": "https://www.bloomberg.com/news/videos/2026-10-12/the-opening-trade-10-12-2026-video",
+          "published": "2026-10-12T11:01:40.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-12-1u7hlyr",
+      "topic": "world",
+      "title": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
+      "summary": "The US president made the announcement in a social media post, which was an apparent surprise to Ukraine and Russia is yet to comment.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 15,
+      "score": 21.6,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 15,
+        "specialistOutlets": 2,
+        "specialistShare": 0.13,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says Russia and Ukraine agree to an 'energy ceasefire'",
+          "description": "President Trump said Sunday that Russia and Ukraine had agreed to an \"energy ceasefire,\" but he offered no details on it and Kyiv reported attacks by Moscow on energy sites after his statement.",
+          "link": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+          "published": "2026-10-12T06:41:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: What's behind Trump's energy ceasefire claim?",
+          "description": "The US president made the announcement in a social media post, which was an apparent surprise to Ukraine and Russia is yet to comment.",
+          "link": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o",
+          "published": "2026-10-11T20:55:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’",
+          "description": "The EU also announced that it officially added almost 1,600 new sanctions on Russia's military industrial complex.",
+          "link": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss",
+          "published": "2026-10-12T10:35:51.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
+          "description": "US President Donald Trump says both sides have agreed to stop targeting oil refineries, power plants and other energy infrastructure immediately.",
+          "link": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-11T14:47:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelensky says surprised to hear about Trump's 'energy ceasefire' between Ukraine and Russia",
+          "description": "Ukrainian power plants were hit by Russian strikes on Sunday, leading to power outages. President Volodymyr Zelensky announced the attacks and expressed his surprise at the US President's post that stated that an “energy ceasefire” had been agreed upon between Ukraine and Russia. While Zelensky said he was not aware of any deal he said he would welcome one. Moscow has yet to confirm any accord. De",
+          "link": "https://www.france24.com/en/zelensky-says-surprised-to-hear-about-trump-s-energy-ceasefire-between-ukraine-and-russia",
+          "published": "2026-10-12T10:19:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump touts surprise 'energy ceasefire' – Zelensky says he hasn't seen details, Moscow silent",
+          "description": "The US President Donald Trump sowed confusion on Sunday, announcing an \"energy ceasefire\" between Ukraine and Russia. Kyiv expressed astonishment, there was silence from Moscow. Ukrainian strikes have wreaked havoc on the Russian oil industry. Were there to be an \"energy ceasefire\" it could allow Moscow to repair refineries. For Ukraine, it could safeguard vital energy infrastructure. Story by Nic",
+          "link": "https://www.france24.com/en/video/20261012-trump-touts-surprise-energy-ceasefire-%E2%80%93-zelensky-says-he-hasn-t-seen-details-moscow-silent",
+          "published": "2026-10-12T09:19:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump announces Russia-Ukraine \"energy ceasefire\" after criticizing Zelenskyy",
+          "description": "Ukrainian President Volodymyr Zelenskyy said Russia alone is responsible for the war in Ukraine, after President Trump said he should be replaced.",
+          "link": "https://www.cbsnews.com/news/zelenskyy-trump-new-ukrainian-president/",
+          "published": "2026-10-12T00:14:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump claims Russia and Ukraine agree to energy ceasefire, but Kyiv says strikes continue",
+          "description": "President Donald Trump made a similar announcement a month ago, only for the two sides to continue their aerial attacks on each other’s energy facilities.",
+          "link": "https://www.nbcnews.com/world/ukraine/trump-russia-ukraine-agree-energy-ceasefire-zelenskyy-diesel-rcna602766",
+          "published": "2026-10-11T15:02:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Kremlin rejects 60-day truce offer and refuses to comment on Trump’s ‘energy ceasefire’ – Europe live",
+          "description": "Zelenskyy had proposed a 60-day total ceasefire to allow Ukraine to hold presidential elections Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’ Addressing the conference virtually, Ukrainian president Volodymyr Zelenskyy commented on Trump’s “sudden but very important” energy ceasefire declaration over the weekend. He said it is clear that Putin “does not re",
+          "link": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
+          "published": "2026-10-12T11:24:10.000Z",
+          "categories": [
+            "Ukraine",
+            "Europe",
+            "Russia",
+            "Donald Trump",
+            "Nato",
+            "Volodymyr Zelenskyy",
+            "Vladimir Putin",
+            "US foreign policy"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy signals surprise at Trump claim of Russia-Ukraine ‘energy ceasefire’ but would back it if Moscow does – as it happened",
+          "description": "Ukraine’s president reportedly says Kyiv would accept a deal if Moscow does after US president posts announcement with no detail on social media Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’",
+          "link": "https://www.theguardian.com/us-news/live/2026/oct/11/donald-trump-ukraine-russia-energy-ceasefire-diesel-latest-updates",
+          "published": "2026-10-11T18:36:54.000Z",
+          "categories": [
+            "Donald Trump",
+            "Ukraine",
+            "Russia",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine Shrugs Off Trump Call to Ditch Zelensky for Energy Strikes",
+          "description": "President Trump lashed out at President Volodymyr Zelensky for striking Russian oil refineries. Mr. Zelensky said he’ll stop — if Russia does too.",
+          "link": "https://www.nytimes.com/2026/10/11/world/europe/trump-zelensky-diesel-energy-russia-.html",
+          "published": "2026-10-11T17:59:30.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "United States Politics and Government",
+            "United States International Relations",
+            "Embargoes and Sanctions",
+            "Diesel Power",
+            "Putin, Vladimir V",
+            "Trump, Donald J",
+            "Zelensky, Volodymyr",
+            "Europe",
+            "Kyiv (Ukraine)",
+            "Moscow (Russia)",
+            "Odessa (Ukraine)",
+            "United States",
+            "Washington (DC)"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brent tops $105 as doubts grow over supply boost from Trump’s ‘energy ceasefire’",
+          "description": "Ukrainian President Volodymyr Zelenskyy said that \"Ukraine supports the ceasefire, and it is important that Russia support it as well.\"",
+          "link": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+          "published": "2026-10-12T11:37:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kremlin rejects Ukrainian leader's idea of a 60-day ceasefire, says it wants an overall peace deal",
+          "description": "MOSCOW, Oct 12 - The Kremlin on Monday rejected a 60-day ceasefire idea proposed by Ukrainian President Volodymyr Zelenskiy to allow his country to hold presidential elections, saying it wanted an overall peace deal instead.",
+          "link": "https://www.straitstimes.com/world/europe/kremlin-rejects-ukrainian-leaders-idea-of-a-60-day-ceasefire-says-it-wants-an-overall-peace-deal",
+          "published": "2026-10-12T10:10:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine accuses Russia of violating Trump’s energy ceasefire as EU imposes new sanctions",
+          "description": "Residents in Kyiv were sceptical that any promise of an energy ceasefire would hold.",
+          "link": "https://www.straitstimes.com/world/europe/ukraine-accuses-russia-of-violating-trumps-energy-ceasefire-as-eu-imposes-new-sanctions",
+          "published": "2026-10-12T09:55:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Europe Today: Trump claims Ukraine-Russia energy ceasefire as Baltics stay on alert",
+          "description": "Donald Trump says Russia and Ukraine have agreed an energy ceasefire. Volodymyr Zelenskyy says it was news to him. As he addresses the Warsaw Security Forum, we hear from Latvia's FM Baiba Braže, Doha after a deadly Riyadh airport attack, and France's debt fears.",
+          "link": "https://www.euronews.com/2026/10/12/europe-today-trump-claims-ukraine-russia-energy-ceasefire-as-baltics-stay-on-alert",
+          "published": "2026-10-12T06:01:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump claims Russia and Ukraine agree to 'energy ceasefire' despite continued attacks",
+          "description": "Moscow did not immediately comment. Ukrainian President Volodymyr Zelenskyy said that while his country \"welcomed\" the announcement by Trump as \"good news for everyone,\" Russia was still hitting energy infrastructure in Kyiv and in the city of Kharkiv.",
+          "link": "https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks",
+          "published": "2026-10-11T21:25:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire",
+          "description": "Ukrainian President Volodymyr Zelenskyy says Russia is still striking Ukraine's energy facilities despite U.S. President Donald Trump's claim of an energy ceasefire",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-donald-trump-russia-kyiv-vladimir-b3065170.html",
+          "published": "2026-10-12T10:39:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Russia Diesel Deal, Energy Ceasefire ‘Extremely Desperate,’ Sen Says",
+          "description": "Amrita Sen, founder and director of market intelligence at Energy Aspects, discusses what she calls “extremely desperate measures” by US President Donald Trump to increase Moscow’s diesel sales into global markets and the announcement of an “energy ceasefire” between Russia and Ukraine. She speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
+          "link": "https://www.bloomberg.com/news/videos/2026-10-12/russia-diesel-deal-energy-ceasefire-desperate-sen-video",
+          "published": "2026-10-12T11:00:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump faces growing backlash over plans to import diesel from Russia",
+          "description": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
+          "link": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo",
+          "published": "2026-10-11T23:18:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bipartisan group of senators calls on Trump to 'reverse course' on Russian diesel plan",
+          "description": "Four Republican senators and two Democratic senators signed onto the statement released Sunday in protesting the deal. They said the administration failed to consult with Congress or submit any explanation to justify its decision as required by statute.",
+          "link": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+          "published": "2026-10-11T20:18:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump under fire from his own party over deal giving Putin a ‘financial lifeline’",
+          "description": "\"Congress explicitly banned Russian energy imports in 2022 to prevent American dollars from financing (Russian President Vladimir) Putin’s brutal war against Ukraine,\" stated a joint release",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-senators-russia-diesel-deal-b3065123.html",
+          "published": "2026-10-12T09:46:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
+          "description": "Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineries Trump announces partial ceasefire but Zelenskyy says deal is ‘news to me’ Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meaningful” effect on motorists and businesses ",
+          "link": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
+          "published": "2026-10-11T15:56:25.000Z",
+          "categories": [
+            "Trump administration",
+            "US news",
+            "US politics",
+            "World news",
+            "Energy industry",
+            "Supply chain crisis",
+            "Global economy",
+            "International trade",
+            "US economy",
+            "Russia",
+            "Ukraine",
+            "Donald Trump",
+            "Volodymyr Zelenskyy",
+            "Vladimir Putin",
+            "Economics",
+            "Business",
+            "Europe",
+            "US Gas Prices",
+            "Oil",
+            "Commodities"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-12-1p6xlf2",
+      "topic": "world",
+      "title": "Pope Leo XIV to undergo lung surgery this week",
+      "summary": "It is the first health scare of the 71-year-old pontiff's tenure.",
+      "headlineSource": "NPR",
+      "sourceCount": 11,
+      "score": 20.72,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.32,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 1,
+        "specialistShare": 0.09,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo XIV to undergo lung surgery this week",
+          "description": "Pope Leo XIV said he would undergo surgery after doctors found a \"localized nodule\" in his lung.",
+          "link": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week",
+          "published": "2026-10-11T12:54:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo to have surgery after lump found on lung",
+          "description": "The 71-year-old pontiff said the nodule was identified \"at a very early stage\".",
+          "link": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo",
+          "published": "2026-10-11T13:38:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo to undergo surgery in coming days after nodule discovered on his lung",
+          "description": "Pope Leo has said he is to undergo surgery to remove a nodule on his lung.",
+          "link": "https://news.sky.com/story/pope-leo-to-undergo-surgery-in-coming-days-after-nodule-discovered-on-his-lung-13597712",
+          "published": "2026-10-11T10:25:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo to undergo surgery after nodular lesion found in lung, Vatican says",
+          "description": "The American pope has no previously known health problems and is known to be physically active",
+          "link": "https://www.cbsnews.com/news/pope-leo-surgery-nodular-lesion-lung-vatican/",
+          "published": "2026-10-12T09:24:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo announces medical update",
+          "description": "Pope Leo XIV, 71, said he will have surgery this week to remove a nodule in his lung. Chris Livesay has the latest in Rome.",
+          "link": "https://www.cbsnews.com/video/pope-leo-announces-medical-update/",
+          "published": "2026-10-12T00:08:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to know about Pope Leo’s lung surgery",
+          "description": "Pope Leo XIV said Sunday he will have surgery this week to remove an early-stage nodule on his lung.",
+          "link": "https://www.nbcnews.com/health/health-news/pope-leo-lung-surgery-nodule-what-to-know-rcna602760",
+          "published": "2026-10-11T16:47:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo says he will undergo surgery to remove a nodule on his lung",
+          "description": "The American pope, 71, said Sunday recent medical checks led to the detection of the early-stage nodule. The procedure will take place this week, the Vatican said.",
+          "link": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-undergo-surgery-remove-nodule-lung-rcna602747",
+          "published": "2026-10-11T10:34:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo Will Have Surgery to Remove Growth on Lung",
+          "description": "A recent medical examination found a small nodule, he announced, adding that doctors would remove it this week.",
+          "link": "https://www.nytimes.com/2026/10/11/world/europe/pope-leo-lung-surgery.html",
+          "published": "2026-10-11T20:15:09.000Z",
+          "categories": [
+            "Popes",
+            "Gemelli Hospital (Rome, Italy)",
+            "Leo XIV",
+            "Roman Catholic Church",
+            "Rome (Italy)"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo announces tumor on lung, surgery planned in 'next few days'",
+          "description": "Pope Leo XIV announced doctors found a lung nodule at a \"very early stage,\" with surgery scheduled in coming days.",
+          "link": "https://www.foxnews.com/world/pope-leo-announces-tumor-lung-surgery-planned-next-few-days",
+          "published": "2026-10-11T11:04:23.000Z",
+          "categories": [
+            "2e4240e8-d024-503f-8053-06199a31c980",
+            "fnc",
+            "Fox News",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/us/religion/roman-catholic",
+            "fox-news/world/religion/vatican",
+            "fox-news/world/religion",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo sticks to busy schedule before surgery to remove lung nodule",
+          "description": "VATICAN CITY, Oct 12 - Pope Leo was maintaining his regular busy schedule on Monday as he awaits surgery to remove a small growth found on one of his lungs and he held seven previously planned meetings in the morning, the Vatican said.",
+          "link": "https://www.straitstimes.com/world/europe/pope-leo-sticks-to-normal-schedule-ahead-of-surgery-to-remove-lung-nodule",
+          "published": "2026-10-12T09:40:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo says will undergo surgery for small growth on lung",
+          "description": "It is the first health scare of the 71-year-old pontiff's tenure.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/11/world/pope-lung-growth/",
+          "published": "2026-10-11T11:59:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo to undergo surgery to remove nodule on his lung",
+          "description": "The 71-year-old Leo said the nodule was found at an early stage and was \"circumscribed\" or small and well-localized. The Vatican said Leo's expected recovery time from surgery would be a week.",
+          "link": "https://www.pbs.org/newshour/world/pope-leo-to-undergo-surgery-to-remove-nodule-on-his-lung",
+          "published": "2026-10-11T18:34:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Are lung nodules cancerous? Here's what to know as Pope Leo undergoes surgery",
+          "description": "The growth was spotted during a routine check-up",
+          "link": "https://www.independent.co.uk/news/world/europe/pope-lung-nodule-cancer-surgery-b3064990.html",
+          "published": "2026-10-12T09:15:42.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-12-1qo88qc",
+      "topic": "world",
+      "title": "Americans Robert Hall and Michael Woodford win Nobel economics prize for work on stabilisation",
+      "summary": "They developed new macroeconomic models that improved our ability to implement effective stabilisation policy.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 12,
+      "score": 20.69,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 3,
+        "specialistShare": 0.25,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Two Americans win Nobel Prize in Economics for work on boom-bust cycles",
+          "description": "Two Americans have won the Nobel Prize in Economics for their work on how to smooth boom-and-bust cycles to limit unemployment and inflation.",
+          "link": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
+          "published": "2026-10-12T08:35:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nobel Prize in Economics goes to pair of US economists",
+          "description": "Robert E. Hall and Michael Woodford got the Nobel for developing economic models that help governments and central banks respond more effectively to booms and recessions.",
+          "link": "https://www.dw.com/en/nobel-prize-in-economics-goes-to-pair-of-us-economists/a-79638025?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-12T09:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Americans Robert E. Hall and Michael Woodford win Nobel Prize in Economics",
+          "description": "",
+          "link": "https://www.france24.com/en/europe/20261012-americans-robert-e-hall-and-michael-woodford-win-nobel-prize-in-economics",
+          "published": "2026-10-12T09:55:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
+          "description": "The U.S. economists were awarded for work that underpins the models used by central banks and governments to stabilize the economy.",
+          "link": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html",
+          "published": "2026-10-12T11:30:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Americans Robert Hall and Michael Woodford win Nobel economics prize for work on stabilisation",
+          "description": "They developed new macroeconomic models that improved our ability to implement effective stabilisation policy.",
+          "link": "https://www.straitstimes.com/world/americans-hall-and-woodford-win-2026-nobel-economics-prize",
+          "published": "2026-10-12T10:00:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Robert Hall and Michael Woodford win 2026 Nobel economics prize",
+          "description": "The award, formally known as the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, was the final prize to be given this year.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/12/world/nobel-economics-prize/",
+          "published": "2026-10-12T09:52:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "⁠US economists Robert ⁠Hall, Michael Woodford win 2026 Nobel economics prize",
+          "description": "American-born economists ⁠Robert ⁠Hall ⁠and Michael Woodford have won the 2026 Nobel economics prize for their work on how monetary and fiscal policy can help stabilise fluctuations in the economy. Hall is affiliated with Stanford University in California, and Woodford with Columbia University in New York. The announcement was made in Sweden’s capital Stockholm, with the winners honoured “for micr",
+          "link": "https://www.scmp.com/news/world/europe/article/3370605/robert-hall-michael-woodford-win-2026-nobel-prize-economics",
+          "published": "2026-10-12T10:05:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Economic Sciences Nobel 2026: Duo win for work on stability policy models",
+          "description": "Robert E Hall and Michael Woodford received the 2026 Nobel Prize in Economics from the Royal Swedish Academy. They were honoured for their work on macroeconomic stabilisation and developing important economic models. These models assist governments and central banks in managing economic fluctuations effectively. Their research highlighted decision-making processes of households and businesses, inf",
+          "link": "https://timesofindia.indiatimes.com/world/europe/robert-e-hall-michael-woodford-win-2026-nobel-prize-in-economics-for-macroeconomic-stabilisation-models/articleshow/134888961.cms",
+          "published": "2026-10-12T10:10:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nobel prize awarded to US economists for work in shock management",
+          "description": "The US economists awarded the prize for their research into how central banks and governments can better handle economic shocks",
+          "link": "https://www.independent.co.uk/news/world/europe/michael-woodford-robert-hall-nobel-prize-economics-2026-b3065174.html",
+          "published": "2026-10-12T11:14:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Robert E. Hall and Michael Woodford Awarded Nobel for Economics",
+          "description": "Robert E. Hall and Michael Woodford were awarded the prize for insights that helped policymakers become “better equipped to deal with shocks in the economy,” the committee said.",
+          "link": "https://www.nytimes.com/2026/10/12/business/nobel-prize-economics.html",
+          "published": "2026-10-12T11:17:52.000Z",
+          "categories": [
+            "Nobel Prizes",
+            "Economics (Theory and Philosophy)",
+            "Awards, Decorations and Honors",
+            "Swedish Academy",
+            "Howitt, Peter (Economist)"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nobel prize for economics awarded to two Americans, Hall and Woodford, for work on New Keynesian models – business live",
+          "description": "The Sveriges Riksbank Prize in Economic Sciences has been awarded to Robert Hall and Michael Woodford for developing the “microeconomic foundations of macroeconomic stabilisation” There’s some movement in the Nobel economics prize betting, with around 45 minutes to go until the announcement. Sidney Winter, the professor emeritus of management at the Wharton School, and Lawrence Katz, the Elisabeth",
+          "link": "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
+          "published": "2026-10-12T11:18:15.000Z",
+          "categories": [
+            "Business",
+            "Economics",
+            "Stock markets",
+            "FTSE",
+            "Nobel economics prize"
+          ]
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nobel Prize in Economics Shared by Hall, Woodford",
+          "description": "US-based academics Robert E. Hall and Michael Woodford will share the 2026 Nobel Prize in Economics for their work on the \"microeconomic foundations of macroeconomic stabilization,\" according to the Royal Swedish Academy of Sciences in Stockholm. (Source: Associated Press)",
+          "link": "https://www.bloomberg.com/news/videos/2026-10-12/nobel-prize-in-economics-shared-by-hall-woodford-video",
+          "published": "2026-10-12T10:01:43.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-12-11yfxp",
+      "topic": "world",
+      "title": "At least 139 dead as migrant boat from Djibouti to Yemen capsizes",
+      "summary": "At least 139 migrants, including 15 children, have died and 84 remain missing after a migrant boat capsized.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 10,
+      "score": 20.44,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+          "description": "The boat was travelling from Djibouti to Yemen with 305 people on board, when it capsized near the port town of Obock on Thursday night.",
+          "link": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o",
+          "published": "2026-10-11T15:32:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 139 dead as migrant boat from Djibouti to Yemen capsizes",
+          "description": "At least 139 migrants, including 15 children, have died and 84 remain missing after a migrant boat capsized.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/12/at-least-139-dead-as-migrant-boat-from-djibouti-to-yemen-capsizes?traffic_source=rss",
+          "published": "2026-10-12T03:09:11.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 139 migrants die in boat wreck between Djibouti and Yemen",
+          "description": "At least 139 migrants died, including 15 children and 84 went missing when an overcrowded boat sank on its way from Djibouti to Yemen on the night between October 8 and 9. The International Organization for Migration said most of the people were Ethiopian when the vessel capsized off north of the town of Obock. Details by Morgan Ayre.",
+          "link": "https://www.france24.com/en/at-least-139-migrants-die-in-boat-wreck-between-djibouti-and-yemen",
+          "published": "2026-10-12T10:24:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Children among at least 139 dead after migrant boat capsizes",
+          "description": "A boat has capsized off the coast of Djibouti leaving at least 139 migrants dead and 84 missing, a United Nations agency has reported.",
+          "link": "https://news.sky.com/story/109-dead-after-ship-sinks-off-coast-of-djibouti-un-agency-says-13597707",
+          "published": "2026-10-11T10:08:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "139 people dead, including 15 children, after migrant boat capsizes",
+          "description": "\"What is terrible is that they were buried with no names, in a common grave, like in a war situation,\" a U.N. official said.",
+          "link": "https://www.cbsnews.com/news/migrant-boat-capsizes-djibouti-over-100-dead/",
+          "published": "2026-10-12T10:45:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Over 100 Migrants Are Dead After Boat Capsizes Near Djibouti",
+          "description": "The shipwreck is among the deadliest ever recorded on the route to Yemen, the International Organization for Migration said. Dozens remain missing, and the bodies of 15 children were recovered.",
+          "link": "https://www.nytimes.com/2026/10/11/world/africa/migrant-boat-capsize-djibouti-dead-yemen.html",
+          "published": "2026-10-11T18:58:00.000Z",
+          "categories": [
+            "Maritime Accidents and Safety",
+            "Bab al-Mandab Strait",
+            "Boats and Boating",
+            "Drownings",
+            "Refugees and Displaced Persons",
+            "Illegal Immigration",
+            "Deaths (Fatalities)",
+            "Rescues",
+            "Djibouti",
+            "Yemen"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 139 migrants dead, 84 missing after overcrowded boat capsizes off Djibouti",
+          "description": "More than 80 people survived the deadly crossing from Djibouti toward Yemen, while at least 84 remained missing as authorities worked to verify additional victims.",
+          "link": "https://www.foxnews.com/world/at-least-139-migrants-dead-84-missing-overcrowded-boat-capsizes-djibouti",
+          "published": "2026-10-12T01:55:10.000Z",
+          "categories": [
+            "7607ec2b-3e7b-55cb-a73e-195e1cda0e6e",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-regions/africa",
+            "fox-news/world/disasters",
+            "fox-news/world/united-nations",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 139 migrants dead after boat capsizes off Djibouti, UN says",
+          "description": "The UN's IOM agency says tens of thousands of migrants travel from the Horn of Africa through Djibouti each year as they look to cross the Bab el-Mandeb Strait to Yemen and eventually reach the Gulf countries.",
+          "link": "https://www.euronews.com/2026/10/11/at-least-139-migrants-dead-after-boat-capsizes-off-djibouti-un-says",
+          "published": "2026-10-11T13:22:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 139 migrants dead, dozens missing after boat capsizes off Djibouti coast",
+          "description": "The boat was traveling from Djibouti to Yemen when it capsized on Thursday night or Friday morning, according to the IOM. More than 80 people survived, all of them Ethiopian nationals, it said.",
+          "link": "https://www.pbs.org/newshour/world/at-least-139-migrants-dead-dozens-missing-after-boat-capsizes-off-djibouti-coast",
+          "published": "2026-10-11T18:05:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Children among at least 139 dead after migrant boat capsizes",
+          "description": "A boat carrying 305 migrants capsized off the coast of Djibouti in east Africa",
+          "link": "https://www.independent.co.uk/news/world/africa/djibouti-migrant-boat-deaths-africa-yemen-b3065130.html",
+          "published": "2026-10-12T10:21:58.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-12-1telfv2",
+      "topic": "world",
+      "title": "Opposition leaders and journalists allege police abuses as fresh protests break out in India",
+      "summary": "Indian opposition politicians and journalists alleged that police had been heavy-handed in cracking down in protests that swept New Delhi over the weekend in response to a nationwide voter roll revision that critics say disproportionately affects Muslim and…",
+      "headlineSource": "France 24",
+      "sourceCount": 9,
+      "score": 19.38,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.31,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Indian opposition leaders march to top court to demand election chief resign",
+          "description": "The march follows a chaotic weekend in Delhi which saw thousands of protesters being detained by police.",
+          "link": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo",
+          "published": "2026-10-12T06:42:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Delhi braces for more protests against election chief amid crackdown",
+          "description": "Opposition parties joined by student groups are back on the streets, disrupting New Delhi with flash marches.",
+          "link": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown?traffic_source=rss",
+          "published": "2026-10-12T08:55:46.000Z",
+          "categories": [
+            "Features"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "India opposition plans New Delhi protest to demand election chief resign",
+          "description": "Thousands of security personnel have been deployed before a protest rally calling for the election chief's removal.",
+          "link": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign?traffic_source=rss",
+          "published": "2026-10-12T08:00:16.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "India protest live: Opposition holds ‘March for Democracy’ to Supreme Court",
+          "description": "Main opposition Congress party leads rally to the top court to demand the removal of the chief election commissioner.",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/10/12/india-protest-live-opposition-to-march-to-supreme-court-over-vote-theft?traffic_source=rss",
+          "published": "2026-10-12T06:07:44.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India news: Opposition parties march to Supreme Court",
+          "description": "Intensifying their demand for Chief Election Commissioner Gyanesh Kumar's resignation, opposition parties are holding a march to the Supreme Court. Follow DW for more.",
+          "link": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-12T09:38:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Opposition leaders and journalists allege police abuses as fresh protests break out in India",
+          "description": "Indian opposition politicians and journalists alleged that police had been heavy-handed in cracking down in protests that swept New Delhi over the weekend in response to a nationwide voter roll revision that critics say disproportionately affects Muslim and other minority voters. Opposition leader Rahul Gandhi called for a fresh march to the nation's Supreme Court Monday.",
+          "link": "https://www.france24.com/en/asia-pacific/20261012-opposition-leaders-and-journalists-allege-police-abuses-as-fresh-protests-break-out-in-india",
+          "published": "2026-10-12T04:33:41.000Z",
+          "categories": [
+            "Asia / Pacific"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Delhi police shut metro stations ahead of election protest march",
+          "description": "India’s opposition parties and supporters of the ‘cockroach’ youth movement have been demonstrating against a ⁠controversial revision of election voter ⁠lists Authorities in India’s capital closed six metro stations and warned of traffic disruptions on Monday, as opposition parties planned to march to the supreme court in protest against a ⁠controversial revision of voter ⁠lists that has sparked d",
+          "link": "https://www.theguardian.com/world/2026/oct/12/india-election-protests-delhi-police-shut-metro-stations-ahead-march",
+          "published": "2026-10-12T05:51:48.000Z",
+          "categories": [
+            "India",
+            "South and central Asia",
+            "Protest"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to Know About the Protests in India",
+          "description": "Scattered protests against sweeping revisions to India’s voter rolls broke out on Sunday in New Delhi. The police met earlier protests with an extraordinary show of force.",
+          "link": "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
+          "published": "2026-10-11T11:24:43.000Z",
+          "categories": [
+            "India",
+            "Demonstrations, Protests and Riots",
+            "Cockroach Janta Party (India)",
+            "Dipke, Abhijeet",
+            "Generation Z",
+            "Youth",
+            "New Delhi (India)",
+            "Police",
+            "Politics and Government"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "India’s Youth Protests Challenge Narendra Modi",
+          "description": "Prime Minister Narendra Modi of India has long succeeded in isolating and undermining opponents. The Gen Z protests pose a challenge unlike any he has faced before.",
+          "link": "https://www.nytimes.com/2026/10/11/world/asia/india-crackdown-narendra-modi.html",
+          "published": "2026-10-12T03:41:37.000Z",
+          "categories": [
+            "Demonstrations, Protests and Riots",
+            "Generation Z",
+            "Youth",
+            "Politics and Government",
+            "Bharatiya Janata Party",
+            "Modi, Narendra",
+            "Delhi (India)",
+            "India",
+            "Kumar, Gyanesh",
+            "Voter Fraud (Election Fraud)"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Opposition figures and journalists allege police abuses during India protests",
+          "description": "The protests were triggered by allegations of manipulating voter lists during a nationwide roll revision that critics say could benefit Prime Minister Narendra Modi's ruling Bharatiya Janata Party.",
+          "link": "https://www.euronews.com/2026/10/12/opposition-figures-and-journalists-allege-police-abuses-during-india-protests",
+          "published": "2026-10-12T07:37:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "India's \"Cockroach Party\" leaders released from detention",
+          "description": "Three leaders of India's Cockroach Janata Party, a youth movement, were released Sunday, a day after they were detained ahead of protests against a contentious revision of voter lists.",
+          "link": "https://www.cbsnews.com/news/india-cockroach-party-leaders-released-protests/",
+          "published": "2026-10-11T11:01:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "India’s ‘Cockroach’ Leaders Released as Small Protests Go On in Delhi",
+          "description": "The leaders of the Cockroach Janta Party, an Indian youth movement, had been detained by the police on Saturday before they could lead protests over voting rights.",
+          "link": "https://www.nytimes.com/2026/10/11/world/asia/india-cockroach-dipke-new-delhi-protests.html",
+          "published": "2026-10-11T16:16:44.000Z",
+          "categories": [
+            "India",
+            "Cockroach Janta Party (India)",
+            "Demonstrations, Protests and Riots",
+            "Political Prisoners",
+            "New Delhi (India)",
+            "Youth",
+            "Dipke, Abhijeet",
+            "Politics and Government",
+            "Voting Rights, Registration and Requirements"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Leaders from India's 'Cockroach' movement released from detention, pledge to hold more protests",
+          "description": "The protests were triggered after authorities removed more than 130 million voters from the list since last year. Critics say the move is politically motivated. Prime Minister Narendra Modi's ruling Bharatiya Janata Party and the Election Commission deny manipulation allegations.",
+          "link": "https://www.pbs.org/newshour/world/leaders-from-indias-cockroach-movement-released-from-detention-pledge-to-hold-more-protests",
+          "published": "2026-10-11T19:08:28.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-12-1l0h01u",
+      "topic": "world",
+      "title": "UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote",
+      "summary": "Claim marks the first time a UK prime minister has publicly acknowledged Russia's interference in the vote to leave EU.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 5,
+      "score": 18.25,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote",
+          "description": "Claim marks the first time a UK prime minister has publicly acknowledged Russia's interference in the vote to leave EU.",
+          "link": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-says-it-is-clear-russia-interfered-in-2016-brexit-vote?traffic_source=rss",
+          "published": "2026-10-12T01:12:35.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "UK's Burnham accuses Russia of meddling in Brexit vote",
+          "description": "The UK prime minister called for voters in Europe to be made fully aware of Russia's attempts to influence politics.",
+          "link": "https://www.dw.com/en/uk-s-burnham-accuses-russia-of-meddling-in-brexit-vote/a-79635264?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-11T22:18:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "UK prime minister says it's 'clear' Russia interfered in Brexit referendum",
+          "description": "Countries across Europe are facing the same threat, Burnham says.",
+          "link": "https://abcnews.com/International/wireStory/uk-prime-minister-clear-russia-interfered-2016-brexit-137180724",
+          "published": "2026-10-11T21:55:41.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "No10 admits Russia DIDN'T sway EU referendum despite Andy Burnham's claim of interference... with PM set to reignite Brexit wars in Commons",
+          "description": "Andy Burnham declared in a podcast that he had been told 'clearly' on arriving in Downing Street that Vladimir Putin had meddled in the 2016 vote.",
+          "link": "https://www.dailymail.com/news/article-16201773/Andy-Burnham-Brexit-Commons-Britain-Labour-Brussels.html",
+          "published": "2026-10-12T11:25:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Burnham a ‘liar’ over Russian interference in Brexit campaign, says Farage – UK politics live",
+          "description": "Reform UK leader claims there was no interference, saying ‘the Russia hoax has run all the way through this’ Burnham to urge MPs to embrace closer ties with EU Zia Yusuf, Reform UK’s home affairs spokesperson, is speaking now. He started his speech with an account of a 73-year-old woman dying in North Wales after having to wait 23 hours for an ambulance, and he sought to link this to immigration. ",
+          "link": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest",
+          "published": "2026-10-12T11:34:00.000Z",
+          "categories": [
+            "Politics",
+            "UK news",
+            "Andy Burnham",
+            "Labour",
+            "Brexit",
+            "European Union",
+            "Nigel Farage",
+            "Reform UK",
+            "Immigration and asylum",
+            "Ed Davey",
+            "Russia",
+            "Kemi Badenoch"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-12-3n3g3r",
+      "topic": "world",
+      "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+      "summary": "A senior Iranian official says Tehran finds the latest U.S. response to a proposal to end the war \"insufficient\" and warns of attacks on regional data centers and cables if fighting intensifies again. Meanwhile, Israel's former attorney general took the…",
+      "headlineSource": "Fox News",
+      "sourceCount": 6,
+      "score": 16.11,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 1,
+        "specialistShare": 0.17,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran calls U.S. response \"insufficient\" amid stalled talks to end the war",
+          "description": "After Saudi Arabia said Iran's Houthi allies carried out another strike at Riyadh's airport, Iran called the U.S. effort to negotiate toward ending the war \"insufficient.\"",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+          "published": "2026-10-11T19:07:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s Iran gambit failed. Vance just found the only way out",
+          "description": "Lost in the cacophony of commentary on the U.S. war on Iran is a brilliant opening gambit that Vice President JD Vance recently proffered as an off-ramp for the U.S. war on Iran: Washington would have no objection to a peaceful Iran nuclear energy program that included domestic uranium enrichment levels that were below the",
+          "link": "https://www.washingtonexaminer.com/op-eds/4762078/jd-vance-iran-war-off-ramp-nuclear-enrichment/",
+          "published": "2026-10-12T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran calls latest U.S. proposal to end war 'insufficient' as Netanyahu's corruption trial resumes",
+          "description": "A senior Iranian official says Tehran finds the latest U.S. response to a proposal to end the war \"insufficient\" and warns of attacks on regional data centers and cables if fighting intensifies again. Meanwhile, Israel's former attorney general took the witness stand in corruption cases against Benjamin Netanyahu, as the political future of the country's longest-serving prime minister hangs in the",
+          "link": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes",
+          "published": "2026-10-11T21:43:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia Has Few Options as Houthis Aim at Heart of Its Ambitions",
+          "description": "Three deadly attacks by the Iran-backed Houthis in Yemen on an airport in the Saudi capital underscored the asymmetrical nature of their conflict with the kingdom.",
+          "link": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
+          "published": "2026-10-11T19:57:48.000Z",
+          "categories": [
+            "War and Armed Conflicts",
+            "US and Israeli Attack on Iran (2026)",
+            "International Relations",
+            "Oil (Petroleum) and Gasoline",
+            "Civilian Casualties",
+            "Defense and Military Forces",
+            "Ships and Shipping",
+            "Drones (Pilotless Planes)",
+            "Iran-Israel War (2025-)",
+            "Houthis",
+            "Mohammed bin Salman (1985-)",
+            "Iran",
+            "Middle East",
+            "Red Sea",
+            "Riyadh (Saudi Arabia)",
+            "Saudi Arabia",
+            "Strait of Hormuz",
+            "Yemen",
+            "Bab al-Mandab Strait",
+            "Airlines and Airplanes"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
+          "description": "U.S. military involvement in the fight against the Houthis would stretch resources in the Middle East already committed to fighting Iran, analysts said.",
+          "link": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html",
+          "published": "2026-10-11T21:30:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+          "description": "Iran-backed Houthis struck Saudi Arabian airports in Riyadh and Dammam, killing at least 14 and injuring over 300 as experts warn of wider war.",
+          "link": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war",
+          "published": "2026-10-12T00:34:53.000Z",
+          "categories": [
+            "9b29a182-665c-5b1c-9150-b565496f193f",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-regions/saudi-arabia",
+            "fox-news/world/conflicts/iran",
+            "fox-news/world/terrorism",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/politics/executive/national-security",
+            "fox-news/politics/foreign-policy",
+            "fox-news/us/terror/bombings",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "World’s Energy Order Tested Again as Iran War’s Reach Extends Further",
+          "description": "“We are entering an age of prolonged insecurity,” one former U.S. energy official said of what have become chronic threats on the Middle East’s energy core.",
+          "link": "https://www.nytimes.com/2026/10/12/business/middle-east-oil-exports-houthi-saudi.html",
+          "published": "2026-10-12T09:03:18.000Z",
+          "categories": [
+            "Oil (Petroleum) and Gasoline",
+            "US and Israeli Attack on Iran (2026)",
+            "Houthis",
+            "Saudi Aramco",
+            "Ships and Shipping",
+            "International Trade and World Market",
+            "Middle East",
+            "Iran",
+            "Saudi Arabia"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-12-3ki22s",
+      "topic": "world",
+      "title": "Trump says Ukraine needs new president, blames Zelenskyy for diesel prices",
+      "summary": "Tensions between the two leaders have come and gone since Trump returned to the White House with a pledge to quickly end the war in Ukraine.",
+      "headlineSource": "CBS News",
+      "sourceCount": 6,
+      "score": 15.53,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy: 'We will stop' strikes on Russian diesel if Russia pauses attacks",
+          "description": "President Volodymyr Zelenskyy exclusively joined ABC's \"This Week\" Sunday to respond to President Trump's latest criticism of the Ukrainian leader.",
+          "link": "https://abcnews.com/Politics/president-zelenskyy-defends-attacks-russian-oil-refineries-ukrainians/story?id=137171763",
+          "published": "2026-10-11T15:42:13.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says Ukraine needs new president, blames Zelenskyy for diesel prices",
+          "description": "President Trump's criticism of Ukrainian President Volodymyr Zelenskyy comes after Russian strikes killed at least 20 people, including three children, in Ukraine.",
+          "link": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+          "published": "2026-10-11T01:59:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine says it won't stop attacking Russian oil resources amid diesel fuel deal with U.S.",
+          "description": "President Trump is arguing that Ukraine needs a new president as Volodymyr Zelenskyy refuses to halt strikes on Russian oil refineries despite the country's commitment to provide diesel fuel to the U.S. Kamal Afzali has the story.",
+          "link": "https://www.cbsnews.com/video/ukraine-says-it-wont-stop-attacking-russian-oil-resources-amid-diesel-fuel-deal-with-us/",
+          "published": "2026-10-11T01:14:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy vows to retaliate if Russian strikes on Ukraine’s power grid continue",
+          "description": "Ukrainian leader says he was surprised by Trump’s ‘energy ceasefire’ announcement, which was posted as Russian drones hit Kyiv Europe live – latest updates Volodymyr Zelenskyy has vowed to respond to Russia’s continuing attacks on the Ukrainian power grid as European leaders rally around Kyiv amid a feud with Donald Trump over Ukraine’s strikes on oil refineries. Speaking to a gathering of Europea",
+          "link": "https://www.theguardian.com/world/2026/oct/12/zelenskyy-vows-retaliate-russia-strikes-ukraine-power-grid",
+          "published": "2026-10-12T10:41:55.000Z",
+          "categories": [
+            "Ukraine",
+            "Volodymyr Zelenskyy",
+            "Russia",
+            "Europe",
+            "World news",
+            "Donald Trump",
+            "Trump administration",
+            "US news",
+            "US politics"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump turns to Russian diesel ahead of midterms, but analysts see little price relief",
+          "description": "President Donald Trump's latest effort to ease a diesel supply crunch ahead of November's midterm elections is unlikely to make a dent on prices.",
+          "link": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-diesel-prices.html",
+          "published": "2026-10-12T09:31:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelenskyy risks rupture with Trump as midterms pressure mounts",
+          "description": "Tensions between the two leaders have come and gone since Trump returned to the White House with a pledge to quickly end the war in Ukraine.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/12/world/zelenskyy-trump-midterms-pressure/",
+          "published": "2026-10-12T02:29:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump tears into Zelensky: ‘Time for Ukraine to get a new president’",
+          "description": "President further vented that Ukraine’s president ‘better damn well stop’ after being asked about his deal to buy diesel from Vladimir Putin",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-zelensky-putin-russia-ukraine-oil-refineries-b3065186.html",
+          "published": "2026-10-11T11:06:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Zelensky demands Trump pressure on Putin after ‘energy ceasefire breached’",
+          "description": "Trump is reportedly threatening to block a procurement system that ​provides weapons to Ukraine if it continues strikes on Russian energy infrastructure",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-energy-ceasefire-b3064958.html",
+          "published": "2026-10-12T08:52:49.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-12-129vhra",
+      "topic": "business",
+      "title": "China’s $7.5 billion EU hybrid boom faces new curbs under deal with bloc",
+      "summary": "The Paris Motor Show opens its doors today, and with it come mounting economic and diplomatic issues. The European Union has just announced that it has secured a commitment from China to moderate the flow of hybrid vehicles into the block's market.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 5,
+      "score": 15.13,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Are European automakers capable of withstanding Chinese competition?",
+          "description": "The Paris Motor Show opens its doors today, and with it come mounting economic and diplomatic issues. The European Union has just announced that it has secured a commitment from China to moderate the flow of hybrid vehicles into the block's market. It opens the prospect of cutting China's export by more than a half and could prevent millions of Chinese cars from being shipped to Europe. Are Europe",
+          "link": "https://www.france24.com/en/are-european-automakers-capable-of-withstanding-chinese-competition",
+          "published": "2026-10-12T10:26:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "description": "Brussels uses WTO rules to quickly impose quota, which will halve Chinese market share to 3% Business live – latest updates VW boss backs EU plan to bolster domestic industry The EU is to limit the number of hybrid electric vehicles imported from China to 350,000 cars a year, the European Commission has confirmed. Imports have been soaring in the past two years; about 800,000 battery and plug-in h",
+          "link": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+          "published": "2026-10-12T11:23:55.000Z",
+          "categories": [
+            "Electric, hybrid and low-emission cars",
+            "Automotive industry",
+            "Business",
+            "International trade",
+            "European Union",
+            "Europe",
+            "China",
+            "World Trade Organization",
+            "Tariffs",
+            "Asia Pacific",
+            "Global economy",
+            "Economics"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Stellantis CEO urges incentives for carmakers who build in Europe as Chinese rivals gain ground",
+          "description": "Stellantis' CEO urged European regulators to create incentives for carmakers to manufacture vehicles in the region amid competition from Chinese rivals.",
+          "link": "https://www.cnbc.com/2026/10/12/stellantis-europe-cars-chinese-rivals-evs.html",
+          "published": "2026-10-12T08:41:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "China’s $7.5 billion EU hybrid boom faces new curbs under deal with bloc",
+          "description": "Since the EU imposed additional tariffs on Chinese-made EVs in 2024, Chinese automakers have increasingly turned to plug-in hybrids.",
+          "link": "https://www.japantimes.co.jp/business/2026/10/12/china-hybrid-eu-curbs/",
+          "published": "2026-10-12T06:59:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How China and the EU pressed pause on trade war – and what it took to get there",
+          "description": "Weeks of high-wire negotiations between China and the EU culminated in a surprise trade deal that will, among other measures, impose strict quotas on Chinese hybrid car exports to the bloc and slash Chinese tariffs on a variety of European goods. The deal, unveiled on Friday, takes some of the heat out of searing bilateral trade tensions and temporarily averts the prospect of a bruising trade war.",
+          "link": "https://www.scmp.com/economy/global-economy/article/3370613/how-china-and-eu-pressed-pause-trade-war-and-what-it-took-get-there",
+          "published": "2026-10-12T10:33:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "China-EU car deal eases trade tensions for now at least",
+          "description": "China agreed to cut millions of hybrid car exports to the European Union over the next four years, easing simmering trade tensions ahead of a key meeting of European leaders later this week. The deal will slow exports to half or less the pace currently predicted by the EU, the bloc’s trade chief, Maros Sefcovic, told a press conference in Beijing on Friday after two days of negotiations. Next year",
+          "link": "https://www.scmp.com/plus/economy/china-economy/article/3370591/china-eu-car-deal-eases-trade-tensions-now-least",
+          "published": "2026-10-12T09:12:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "description": "Brussels uses WTO rules to quickly impose quota, which will halve Chinese market share to 3% Business live – latest updates VW boss backs EU plan to bolster domestic industry The EU is to limit the number of hybrid electric vehicles imported from China to 350,000 cars a year, the European Commission has confirmed. Imports have been soaring in the past two years; about 800,000 battery and plug-in h",
+          "link": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+          "published": "2026-10-12T11:23:55.000Z",
+          "categories": [
+            "Electric, hybrid and low-emission cars",
+            "Automotive industry",
+            "Business",
+            "International trade",
+            "European Union",
+            "Europe",
+            "China",
+            "World Trade Organization",
+            "Tariffs",
+            "Asia Pacific",
+            "Global economy",
+            "Economics"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Volkswagen boss backs EU plan to bolster domestic European industry",
+          "description": "Oliver Blume says ‘Made in Europe’ rules to counter rapid rise of lower-price Chinese brands ‘must reward real value creation’ The boss of Volkswagen has backed EU proposals to boost its domestic industry, arguing European carmakers need to be able to “compete under comparable conditions” with Chinese rivals. Oliver Blume said “Made in Europe” rules from the EU “must reward real value creation in ",
+          "link": "https://www.theguardian.com/business/2026/oct/11/volkswagen-boss-backs-eu-plan-to-boost-domestic-european-industry",
+          "published": "2026-10-11T16:53:01.000Z",
+          "categories": [
+            "Volkswagen (VW)",
+            "Automotive industry",
+            "Business",
+            "Chinese economy",
+            "European Union",
+            "China",
+            "Asia Pacific",
+            "Europe",
+            "Manufacturing sector",
+            "World news"
+          ]
+        }
+      ]
+    }
+  ]
+}

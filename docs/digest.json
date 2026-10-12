@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-10-11",
-  "generatedAt": "2026-10-11T10:36:17.739Z",
+  "edition": "2026-10-12",
+  "generatedAt": "2026-10-12T11:39:21.265Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -18,26 +18,26 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-10-11-iyfbd",
+      "id": "2026-10-12-2nfyw9",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Germany sticks to Russia sanctions after Trump diesel deal",
-      "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
-      "url": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-11T10:21:07.000Z",
-      "sourceCount": 15,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 7,
-      "score": 24.08,
+      "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+      "summary": "Deadly Houthi attacks on Saudi airports have disrupted flights and raised fears of a wider regional conflict, as the US considers military action.",
+      "url": "https://www.japantimes.co.jp/news/2026/10/12/world/riyadh-airport-houthi-attack/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-12T11:37:12.000Z",
+      "sourceCount": 16,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 9,
+      "score": 21.86,
       "scoreComponents": {
-        "breadth": 12,
-        "diversity": 6.4,
+        "breadth": 12.26,
+        "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.48,
+        "freshness": 2.5,
         "softPenalty": 0
       },
       "coverage": [
@@ -45,15 +45,812 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Trump calls for Ukraine election, says Zelenskyy failed to end war",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/trump-calls-for-ukraine-election-says-zelenskyy-failed-to-end-war?traffic_source=rss"
+          "title": "Countries warn against travel to Saudi Arabia following Houthi attacks",
+          "url": "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-          "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo"
+          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Saudis Say New Missiles Intercepted After Deadly Airport Attacks",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/the-opening-trade-10-12-2026-video"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Saudi airport stays shut as Houthi attacks kill 20 people in a week",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Houthis, Saudis exchange strikes on airports as Mideast conflict intensifies",
+          "url": "https://www.csmonitor.com/World/Middle-East/2026/1011/houthis-saudi-arabia-yemen-airport-attack-iran?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Global travel warnings after Iran-backed Houthi militants strike Riyadh airport",
+          "url": "https://www.cnbc.com/2026/10/12/us-iran-war-trump-hormuz-saudi.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict",
+          "url": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "CCTV shows moment of strike at King Khalid International Airport in Riyadh",
+          "url": "https://www.euronews.com/2026/10/12/cctv-shows-moment-of-strike-at-king-khalid-international-airport-in-riyadh"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Saudi Arabia: Riyadh airport struck again by Yemen's Houthis",
+          "url": "https://www.france24.com/en/saudi-arabia-riyadh-airport-struck-again-by-yemen-s-houthis"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Saudi airport struck again a day after deadly attack",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Riyadh airport hit by projectile a day after deadly missile strike",
+          "url": "https://www.pbs.org/newshour/world/riyadh-airport-hit-by-projectile-a-day-after-deadly-missile-strike"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Riyadh airport hit again after deadly Houthi missile attack, Saudi authorities say",
+          "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Saudi-Houthi war latest: International airport cancels nearly all flights after devastating Houthi attacks",
+          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-houthi-airport-attack-live-trump-riyadh-news-b3065026.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+          "url": "https://www.japantimes.co.jp/news/2026/10/12/world/riyadh-airport-houthi-attack/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Iran Offers to Mediate Between Its Houthi Allies and Saudi Arabia",
+          "url": "https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia-mediate.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Closure of Riyadh airport extended after deadly Houthi strikes",
+          "url": "https://www.straitstimes.com/world/europe/skies-over-saudi-capital-riyadh-largely-empty-after-deadly-houthi-strikes-on-airport"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-12-1u7hlyr",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
+      "summary": "The US president made the announcement in a social media post, which was an apparent surprise to Ukraine and Russia is yet to comment.",
+      "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-12T11:37:31.000Z",
+      "sourceCount": 15,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 8,
+      "score": 21.6,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’",
+          "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Watch: What's behind Trump's energy ceasefire claim?",
+          "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Russia Diesel Deal, Energy Ceasefire ‘Extremely Desperate,’ Sen Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/russia-diesel-deal-energy-ceasefire-desperate-sen-video"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump announces Russia-Ukraine \"energy ceasefire\" after criticizing Zelenskyy",
+          "url": "https://www.cbsnews.com/news/zelenskyy-trump-new-ukrainian-president/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Brent tops $105 as doubts grow over supply boost from Trump’s ‘energy ceasefire’",
+          "url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
+          "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Europe Today: Trump claims Ukraine-Russia energy ceasefire as Baltics stay on alert",
+          "url": "https://www.euronews.com/2026/10/12/europe-today-trump-claims-ukraine-russia-energy-ceasefire-as-baltics-stay-on-alert"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Zelensky says surprised to hear about Trump's 'energy ceasefire' between Ukraine and Russia",
+          "url": "https://www.france24.com/en/zelensky-says-surprised-to-hear-about-trump-s-energy-ceasefire-between-ukraine-and-russia"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump claims Russia and Ukraine agree to energy ceasefire, but Kyiv says strikes continue",
+          "url": "https://www.nbcnews.com/world/ukraine/trump-russia-ukraine-agree-energy-ceasefire-zelenskyy-diesel-rcna602766"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump says Russia and Ukraine agree to an 'energy ceasefire'",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump claims Russia and Ukraine agree to 'energy ceasefire' despite continued attacks",
+          "url": "https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Kremlin rejects 60-day truce offer and refuses to comment on Trump’s ‘energy ceasefire’ – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Zelenskyy says Russia strikes energy facilities despite Trump claim of an energy ceasefire",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-donald-trump-russia-kyiv-vladimir-b3065170.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Ukraine Shrugs Off Trump Call to Ditch Zelensky for Energy Strikes",
+          "url": "https://www.nytimes.com/2026/10/11/world/europe/trump-zelensky-diesel-energy-russia-.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Kremlin rejects Ukrainian leader's idea of a 60-day ceasefire, says it wants an overall peace deal",
+          "url": "https://www.straitstimes.com/world/europe/kremlin-rejects-ukrainian-leaders-idea-of-a-60-day-ceasefire-says-it-wants-an-overall-peace-deal"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-12-1p6xlf2",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Pope Leo XIV to undergo lung surgery this week",
+      "summary": "It is the first health scare of the 71-year-old pontiff's tenure.",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week",
+      "headlineSource": "NPR",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-10-12T09:40:52.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 20.72,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.32,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Pope Leo to have surgery after lump found on lung",
+          "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Pope Leo to undergo surgery after nodular lesion found in lung, Vatican says",
+          "url": "https://www.cbsnews.com/news/pope-leo-surgery-nodular-lesion-lung-vatican/"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Pope Leo announces tumor on lung, surgery planned in 'next few days'",
+          "url": "https://www.foxnews.com/world/pope-leo-announces-tumor-lung-surgery-planned-next-few-days"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "What to know about Pope Leo’s lung surgery",
+          "url": "https://www.nbcnews.com/health/health-news/pope-leo-lung-surgery-nodule-what-to-know-rcna602760"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Pope Leo XIV to undergo lung surgery this week",
+          "url": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Pope Leo to undergo surgery to remove nodule on his lung",
+          "url": "https://www.pbs.org/newshour/world/pope-leo-to-undergo-surgery-to-remove-nodule-on-his-lung"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Pope Leo to undergo surgery in coming days after nodule discovered on his lung",
+          "url": "https://news.sky.com/story/pope-leo-to-undergo-surgery-in-coming-days-after-nodule-discovered-on-his-lung-13597712"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Are lung nodules cancerous? Here's what to know as Pope Leo undergoes surgery",
+          "url": "https://www.independent.co.uk/news/world/europe/pope-lung-nodule-cancer-surgery-b3064990.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Pope Leo says will undergo surgery for small growth on lung",
+          "url": "https://www.japantimes.co.jp/news/2026/10/11/world/pope-lung-growth/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Pope Leo Will Have Surgery to Remove Growth on Lung",
+          "url": "https://www.nytimes.com/2026/10/11/world/europe/pope-leo-lung-surgery.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Pope Leo sticks to busy schedule before surgery to remove lung nodule",
+          "url": "https://www.straitstimes.com/world/europe/pope-leo-sticks-to-normal-schedule-ahead-of-surgery-to-remove-lung-nodule"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-12-1qo88qc",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Americans Robert Hall and Michael Woodford win Nobel economics prize for work on stabilisation",
+      "summary": "They developed new macroeconomic models that improved our ability to implement effective stabilisation policy.",
+      "url": "https://www.straitstimes.com/world/americans-hall-and-woodford-win-2026-nobel-economics-prize",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-12T11:30:46.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 20.69,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Nobel Prize in Economics Shared by Hall, Woodford",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/nobel-prize-in-economics-shared-by-hall-woodford-video"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
+          "url": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Nobel Prize in Economics goes to pair of US economists",
+          "url": "https://www.dw.com/en/nobel-prize-in-economics-goes-to-pair-of-us-economists/a-79638025?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "🔴 Americans Robert E. Hall and Michael Woodford win Nobel Prize in Economics",
+          "url": "https://www.france24.com/en/europe/20261012-americans-robert-e-hall-and-michael-woodford-win-nobel-prize-in-economics"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Nobel prize for economics awarded to two Americans, Hall and Woodford, for work on New Keynesian models – business live",
+          "url": "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Two Americans win Nobel Prize in Economics for work on boom-bust cycles",
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Robert E. Hall and Michael Woodford Awarded Nobel for Economics",
+          "url": "https://www.nytimes.com/2026/10/12/business/nobel-prize-economics.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "⁠US economists Robert ⁠Hall, Michael Woodford win 2026 Nobel economics prize",
+          "url": "https://www.scmp.com/news/world/europe/article/3370605/robert-hall-michael-woodford-win-2026-nobel-prize-economics"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Nobel prize awarded to US economists for work in shock management",
+          "url": "https://www.independent.co.uk/news/world/europe/michael-woodford-robert-hall-nobel-prize-economics-2026-b3065174.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Robert Hall and Michael Woodford win 2026 Nobel economics prize",
+          "url": "https://www.japantimes.co.jp/news/2026/10/12/world/nobel-economics-prize/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Americans Robert Hall and Michael Woodford win Nobel economics prize for work on stabilisation",
+          "url": "https://www.straitstimes.com/world/americans-hall-and-woodford-win-2026-nobel-economics-prize"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Economic Sciences Nobel 2026: Duo win for work on stability policy models",
+          "url": "https://timesofindia.indiatimes.com/world/europe/robert-e-hall-michael-woodford-win-2026-nobel-prize-in-economics-for-macroeconomic-stabilisation-models/articleshow/134888961.cms"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-12-11yfxp",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "At least 139 dead as migrant boat from Djibouti to Yemen capsizes",
+      "summary": "At least 139 migrants, including 15 children, have died and 84 remain missing after a migrant boat capsized.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/at-least-139-dead-as-migrant-boat-from-djibouti-to-yemen-capsizes?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-12T10:45:43.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 20.44,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "At least 139 dead as migrant boat from Djibouti to Yemen capsizes",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/at-least-139-dead-as-migrant-boat-from-djibouti-to-yemen-capsizes?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+          "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "139 people dead, including 15 children, after migrant boat capsizes",
+          "url": "https://www.cbsnews.com/news/migrant-boat-capsizes-djibouti-over-100-dead/"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "At least 139 migrants dead after boat capsizes off Djibouti, UN says",
+          "url": "https://www.euronews.com/2026/10/11/at-least-139-migrants-dead-after-boat-capsizes-off-djibouti-un-says"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "At least 139 migrants dead, 84 missing after overcrowded boat capsizes off Djibouti",
+          "url": "https://www.foxnews.com/world/at-least-139-migrants-dead-84-missing-overcrowded-boat-capsizes-djibouti"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "At least 139 migrants die in boat wreck between Djibouti and Yemen",
+          "url": "https://www.france24.com/en/at-least-139-migrants-die-in-boat-wreck-between-djibouti-and-yemen"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "At least 139 migrants dead, dozens missing after boat capsizes off Djibouti coast",
+          "url": "https://www.pbs.org/newshour/world/at-least-139-migrants-dead-dozens-missing-after-boat-capsizes-off-djibouti-coast"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Children among at least 139 dead after migrant boat capsizes",
+          "url": "https://news.sky.com/story/109-dead-after-ship-sinks-off-coast-of-djibouti-un-agency-says-13597707"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Children among at least 139 dead after migrant boat capsizes",
+          "url": "https://www.independent.co.uk/news/world/africa/djibouti-migrant-boat-deaths-africa-yemen-b3065130.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Over 100 Migrants Are Dead After Boat Capsizes Near Djibouti",
+          "url": "https://www.nytimes.com/2026/10/11/world/africa/migrant-boat-capsize-djibouti-dead-yemen.html"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-12-1telfv2",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Opposition leaders and journalists allege police abuses as fresh protests break out in India",
+      "summary": "Indian opposition politicians and journalists alleged that police had been heavy-handed in cracking down in protests that swept New Delhi over the weekend in response to a nationwide voter roll revision that critics say disproportionately affects Muslim and…",
+      "url": "https://www.france24.com/en/asia-pacific/20261012-opposition-leaders-and-journalists-allege-police-abuses-as-fresh-protests-break-out-in-india",
+      "headlineSource": "France 24",
+      "summarySource": "France 24",
+      "publishedAt": "2026-10-12T09:38:00.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 19.38,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.31,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Delhi braces for more protests against election chief amid crackdown",
+          "url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Indian opposition leaders march to top court to demand election chief resign",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "India's \"Cockroach Party\" leaders released from detention",
+          "url": "https://www.cbsnews.com/news/india-cockroach-party-leaders-released-protests/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "India news: Opposition parties march to Supreme Court",
+          "url": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Opposition figures and journalists allege police abuses during India protests",
+          "url": "https://www.euronews.com/2026/10/12/opposition-figures-and-journalists-allege-police-abuses-during-india-protests"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Opposition leaders and journalists allege police abuses as fresh protests break out in India",
+          "url": "https://www.france24.com/en/asia-pacific/20261012-opposition-leaders-and-journalists-allege-police-abuses-as-fresh-protests-break-out-in-india"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Leaders from India's 'Cockroach' movement released from detention, pledge to hold more protests",
+          "url": "https://www.pbs.org/newshour/world/leaders-from-indias-cockroach-movement-released-from-detention-pledge-to-hold-more-protests"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Delhi police shut metro stations ahead of election protest march",
+          "url": "https://www.theguardian.com/world/2026/oct/12/india-election-protests-delhi-police-shut-metro-stations-ahead-march"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "What to Know About the Protests in India",
+          "url": "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-12-1l0h01u",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote",
+      "summary": "Claim marks the first time a UK prime minister has publicly acknowledged Russia's interference in the vote to leave EU.",
+      "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-says-it-is-clear-russia-interfered-in-2016-brexit-vote?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-12T11:34:00.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 18.25,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "UK prime minister says it's 'clear' Russia interfered in Brexit referendum",
+          "url": "https://abcnews.com/International/wireStory/uk-prime-minister-clear-russia-interfered-2016-brexit-137180724"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote",
+          "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-says-it-is-clear-russia-interfered-in-2016-brexit-vote?traffic_source=rss"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "No10 admits Russia DIDN'T sway EU referendum despite Andy Burnham's claim of interference... with PM set to reignite Brexit wars in Commons",
+          "url": "https://www.dailymail.com/news/article-16201773/Andy-Burnham-Brexit-Commons-Britain-Labour-Brussels.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "UK's Burnham accuses Russia of meddling in Brexit vote",
+          "url": "https://www.dw.com/en/uk-s-burnham-accuses-russia-of-meddling-in-brexit-vote/a-79635264?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Burnham a ‘liar’ over Russian interference in Brexit campaign, says Farage – UK politics live",
+          "url": "https://www.theguardian.com/politics/live/2026/oct/12/uk-politics-live-tories-andy-burnham-russian-interference-brexit-eu-latest"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-12-3n3g3r",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+      "summary": "A senior Iranian official says Tehran finds the latest U.S. response to a proposal to end the war \"insufficient\" and warns of attacks on regional data centers and cables if fighting intensifies again. Meanwhile, Israel's former attorney general took the…",
+      "url": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war",
+      "headlineSource": "Fox News",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-10-12T11:00:00.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 16.11,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran calls U.S. response \"insufficient\" amid stalled talks to end the war",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
+          "url": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+          "url": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Iran calls latest U.S. proposal to end war 'insufficient' as Netanyahu's corruption trial resumes",
+          "url": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Saudi Arabia Has Few Options as Houthis Aim at Heart of Its Ambitions",
+          "url": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump’s Iran gambit failed. Vance just found the only way out",
+          "url": "https://www.washingtonexaminer.com/op-eds/4762078/jd-vance-iran-war-off-ramp-nuclear-enrichment/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-12-3ki22s",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump says Ukraine needs new president, blames Zelenskyy for diesel prices",
+      "summary": "Tensions between the two leaders have come and gone since Trump returned to the White House with a pledge to quickly end the war in Ukraine.",
+      "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
+      "headlineSource": "CBS News",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-10-12T10:41:55.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 15.53,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Zelenskyy: 'We will stop' strikes on Russian diesel if Russia pauses attacks",
+          "url": "https://abcnews.com/Politics/president-zelenskyy-defends-attacks-russian-oil-refineries-ukrainians/story?id=137171763"
         },
         {
           "source": "CBS News",
@@ -66,811 +863,91 @@
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Putin relayed Iran war proposal to Trump, Kremlin says",
-          "url": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Trump tells Ukraine to 'get a new leader' as he lashes out at Zelensky over diesel 'gift' to Putin",
-          "url": "https://www.dailymail.com/news/article-16199041/trump-threatens-zelensky-bombs-russian-oil-refineries-putin.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Germany sticks to Russia sanctions after Trump diesel deal",
-          "url": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Ukraine ready to halt refinery strikes if Moscow stops energy attacks, Zelensky says",
-          "url": "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "News Wrap: Trump announces diesel deal with Russia",
-          "url": "https://www.pbs.org/newshour/show/news-wrap-trump-announces-diesel-deal-with-russia"
+          "title": "Trump turns to Russian diesel ahead of midterms, but analysts see little price relief",
+          "url": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-diesel-prices.html"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Trump says Ukraine needs a new leader after diesel deal with Russia",
-          "url": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Sunday shows preview: Trump admin's Russia deal, public execution plan spark pre-midterm backlash",
-          "url": "https://thehill.com/homenews/sunday-talk-shows/6140761-trump-russian-deal-executions-sunday-shows/"
+          "title": "Zelenskyy vows to retaliate if Russian strikes on Ukraine’s power grid continue",
+          "url": "https://www.theguardian.com/world/2026/oct/12/zelenskyy-vows-retaliate-russia-strikes-ukraine-power-grid"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Trump calls for Zelensky to be ousted in unhinged rant after striking diesel deal with Putin",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-strikes-bus-attack-b3063864.html"
+          "title": "Trump tears into Zelensky: ‘Time for Ukraine to get a new president’",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-zelensky-putin-russia-ukraine-oil-refineries-b3065186.html"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "Trump calls for replacing Zelenskyy in tussle over diesel deal with Russia",
-          "url": "https://www.japantimes.co.jp/news/2026/10/11/world/politics/trump-replacing-ukraine-zelenskyy/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Rebuking Ukraine Over Oil Strikes, Trump Says It Should ‘Get a New President’",
-          "url": "https://www.nytimes.com/2026/10/10/world/europe/ukraine-russia-trump-diesel-talks.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Trump announces deal with Putin for Russian diesel, but what is its most consequential element?",
-          "url": "https://www.straitstimes.com/world/united-states/trump-announces-deal-with-putin-for-russian-diesel-but-what-is-its-most-consequential-element"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Republican backlash brews over Trump’s diesel deal with Russia",
-          "url": "https://www.washingtonexaminer.com/policy/energy/4762388/republican-backlash-trump-diesel-deal-russia/"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-10-11-13z0a60",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
-      "summary": "The warning from the Iran-backed rebels comes a day after a missile attack on Riyadh airport killed 12 people and injured more than 300. The airport will remain closed until at least Sunday night.",
-      "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
-      "headlineSource": "NPR",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-10-11T10:34:42.000Z",
-      "sourceCount": 13,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 7,
-      "score": 23.52,
-      "scoreComponents": {
-        "breadth": 11.42,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.5,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
-          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport?traffic_source=rss"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "At least 12 killed, more than 300 hurt in strike on Saudi airport, officials say",
-          "url": "https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Yemen's Houthis warn passengers not to use Saudi airports",
-          "url": "https://www.dw.com/en/yemen-s-houthis-warn-passengers-not-to-use-saudi-airports/a-79632306?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "12 killed and more than 300 wounded in attack on Riyadh airport",
-          "url": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "At least twelve killed, multiple people wounded in attack on Riyadh airport",
-          "url": "https://www.france24.com/en/middle-east/20261010-riyadh-airport-suspends-operations-after-attack-leaves-multiple-people-wounded"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Major attack on Saudi airport kills 12 and leads Trump to weigh joining fight",
-          "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
-          "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Middle East crisis live: Houthis warn passengers against using Saudi airport after deadly attack on Riyadh",
-          "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump may join Saudi strikes after major Houthi attack on Riyadh airport kills 12",
-          "url": "https://www.independent.co.uk/news/world/middle-east/houthi-attack-riyadh-airport-saudi-yemen-war-deaths-b3064690.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Houthi strike on airport kills 12 as Saudi coalition vows ‘decisive’ response",
-          "url": "https://www.japantimes.co.jp/news/2026/10/11/world/houthi-attack-saudi-airport/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Saudi Arabia’s Riyadh Airport Attacked Again, After Days of Houthi Strikes",
-          "url": "https://www.nytimes.com/2026/10/10/world/middleeast/riyadh-airport-attack-energy-congress.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Yemen's Houthis renew warning over Saudi airports after deadly Riyadh attack",
-          "url": "https://www.straitstimes.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "American citizen among dozen dead in latest Houthi attack on Riyadh airport, Rubio says",
-          "url": "https://www.washingtonexaminer.com/news/world/4762397/american-citizen-dead-houthi-attack-riyadh/"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-10-11-e0uuaw",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
-      "summary": "The leaders of India’s youth-led online “cockroach” movement were released on Sunday, their lawyer said, a day after they were detained to thwart a major protest against the chief election commissioner. Thousands of protesters were detained before Saturday’s…",
-      "url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "South China Morning Post",
-      "publishedAt": "2026-10-11T09:59:52.000Z",
-      "sourceCount": 13,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 8,
-      "score": 20.96,
-      "scoreComponents": {
-        "breadth": 11.42,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.44,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Photos: Thousands detained in police crackdown on India’s youth protest",
-          "url": "https://www.aljazeera.com/gallery/2026/10/11/photos-thousands-detained-as-new-delhi-cracks-down-on-youth-protest?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Delhi sees more protests as 'cockroach' group's leaders released",
-          "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o"
-        },
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "India Protests Set to Continue Despite Heavy Delhi Security",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-11/indian-cockroaches-plan-new-protest-amid-heavy-delhi-security"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "India detains thousands of \"Cockroach\" movement youth protesters in crackdown",
-          "url": "https://www.cbsnews.com/news/india-detains-youth-protesters-new-delhi/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
-          "url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Thousands detained in New Delhi as police crack down on 'cockroach' movement",
-          "url": "https://www.euronews.com/2026/10/10/thousands-detained-in-new-delhi-as-police-crack-down-on-cockroach-movement"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "India court orders release of 'cockroach' movement leaders after detention",
-          "url": "https://www.france24.com/en/asia-pacific/20261011-india-court-orders-release-of-cockroach-movement-leaders-after-detention"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
-          "url": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "India’s cockroach party leaders freed as election chief protests mount",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3370476/indias-cockroach-party-leaders-freed-election-chief-protests-mount"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "‘Cockroach’ leader among thousands detained in Delhi protest crackdown",
-          "url": "https://www.theguardian.com/world/2026/oct/10/cockroach-party-rally-delhi-protests-chief-election-officer-resigns"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "India releases ‘cockroach’ leaders as movement calls for more protests",
-          "url": "https://www.japantimes.co.jp/news/2026/10/11/asia-pacific/politics/cockroach-members-released/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "India’s ‘Cockroach’ Leaders Released as New Delhi Braces for More Protests",
-          "url": "https://www.nytimes.com/2026/10/11/world/asia/india-cockroach-dipke-new-delhi-protests.html"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Delhi protest crackdown: 20 FIRs registered, assault on cops among charges",
-          "url": "https://timesofindia.indiatimes.com/india/delhi-protest-crackdown-20-firs-registered-assault-on-cops-among-charges/articleshow/134868430.cms"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-10-11-1tsjy6l",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-      "summary": "Isaias made landfall as a Category 2 hurricane in the city of Destin in the Florida Panhandle on Friday evening. It has since weakened into a post-tropical cyclone.",
-      "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o",
-      "headlineSource": "BBC News",
-      "summarySource": "Euronews",
-      "publishedAt": "2026-10-11T09:18:48.000Z",
-      "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 6,
-      "score": 19.44,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.38,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Hurricane Isaias updates: At least 4 dead as Isaias downgraded",
-          "url": "https://abcnews.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?id=137128637"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Hurricane Isaias kills four, leaves 650,000 without power in Florida",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Storm Isaias leaves 4 dead as it moves across southern US",
-          "url": "https://www.dw.com/en/storm-isaias-leaves-4-dead-as-it-moves-across-southern-us/a-79630125?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Four dead as Isaias continues to push across the Southeast US, bringing strong winds and heavy rain",
-          "url": "https://www.euronews.com/2026/10/11/four-dead-as-isaias-continues-to-push-across-the-southeast-us-bringing-strong-winds-and-he"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "At least 4 dead as cyclone Isaias drenches southern US",
-          "url": "https://www.france24.com/en/video/20261011-at-least-4-dead-as-cyclone-isaias-drenches-southern-us"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "At least 2 deaths attributed to Isaias after hurricane bashes Florida and Alabama",
-          "url": "https://www.npr.org/2026/10/10/g-s1-147632/at-least-2-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Four dead as Isaias weakens to post-tropical cyclone after striking Florida panhandle",
-          "url": "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Hurricane Isaias tracker latest: Two dead and scores without power as storm makes landfall",
-          "url": "https://www.independent.co.uk/news/world/americas/hurricane-isaias-storm-tracker-path-gulf-coast-b3064554.html"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-11-1wiep5r",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Man dies after entering tiger enclosure at England wildlife park",
-      "summary": "Emergency services called to the scene after reports of a man entering the tiger enclosure at a UK wildlife park.",
-      "url": "https://www.aljazeera.com/news/2026/10/11/man-dies-after-entering-tiger-enclosure-at-england-wildlife-park?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-11T09:14:35.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 18.22,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.37,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Man attacked by tiger after entering enclosure at England wildlife park",
-          "url": "https://abcnews.com/International/wireStory/man-attacked-tiger-after-entering-enclosure-wildlife-park-137161794"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Man dies after entering tiger enclosure at England wildlife park",
-          "url": "https://www.aljazeera.com/news/2026/10/11/man-dies-after-entering-tiger-enclosure-at-england-wildlife-park?traffic_source=rss"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Man attacked by tiger in England after entering enclosure at wildlife park",
-          "url": "https://www.cbsnews.com/news/yorkshire-wildlife-park-tiger-enclosure-attack/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Man mauled to death by tiger at Yorkshire zoo 'asked for photo moments before he climbed into enclosure'",
-          "url": "https://www.dailymail.com/news/article-16199419/Man-tiger-Yorkshire-zoo-dance-enclosure-witnesses.html"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Tiger kills man who entered big cat enclosure at UK wildlife park",
-          "url": "https://www.scmp.com/news/world/europe/article/3370465/tiger-kills-man-who-entered-big-cat-enclosure-uk-wildlife-park"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Man Dies in Tiger Attack at Yorkshire Wildlife Park in England",
-          "url": "https://www.nytimes.com/2026/10/10/world/europe/tiger-attack-wildlife-park-man-dead.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Man dies after tiger attack at UK zoo",
-          "url": "https://www.straitstimes.com/world/europe/man-seriously-injured-in-tiger-attack-at-uk-zoo"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-10-11-12lbmtr",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
-      "summary": "Oct 10 - Death row inmate Christa Pike was released from a US hospital on Saturday and sent back to prison where she will continue receiving medical care following her botched execution attempt in Tennessee, her attorneys said.",
-      "url": "https://www.france24.com/en/americas/20261010-convicted-murderer-christa-pike-leaves-hospital-returns-to-prison-after-botched-execution",
-      "headlineSource": "France 24",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-11T05:00:16.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 5,
-      "score": 18.12,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.02,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
-          "url": "https://www.france24.com/en/americas/20261010-convicted-murderer-christa-pike-leaves-hospital-returns-to-prison-after-botched-execution"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Christa Pike discharged from the hospital and back in prison",
-          "url": "https://www.npr.org/2026/10/10/nx-s1-5997504/christa-pike-hospital-prison-after-botched-execution"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Capital punishment is surging in the US – but after Christa Pike’s botched execution, what is its future?",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/11/executions-us-christa-pike"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Christa Pike discharged from hospital 10 days after botched execution in Tennessee",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-discharge-hospital-execution-tennessee-b3064615.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Survivor of botched U.S. lethal injection returns to prison",
-          "url": "https://www.japantimes.co.jp/news/2026/10/11/world/crime-legal/us-lethal-injection-survivor-returns-prison/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Tennessee execution survivor Christa Pike released from hospital, returned to prison",
-          "url": "https://www.straitstimes.com/world/tennessee-execution-survivor-christa-pike-released-from-hospital-returned-to-prison"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-10-11-udplct",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "US justice department investigates TV networks over Trump pool coverage",
-      "summary": "Department of Justice says it's investigating whether the White House press pool's decision violated antitrust laws.",
-      "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro",
-      "headlineSource": "BBC News",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-11T05:05:43.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 4,
-      "score": 18.09,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.02,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "US opens antitrust probe into TV networks for halting Trump coverage",
-          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "US justice department investigates TV networks over Trump pool coverage",
-          "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "US: Justice Department probes Trump's press pool boycott for antitrust violation",
-          "url": "https://www.dw.com/en/us-justice-department-probes-trump-s-press-pool-boycott-for-antitrust-violation/a-79631008?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "Justice Dept. Is Investigating TV Networks Over Trump Pool Coverage",
-          "url": "https://www.nytimes.com/2026/10/10/business/media/trump-justice-department-tv-networks.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US Justice Department is investigating TV networks over Trump pool coverage",
-          "url": "https://www.straitstimes.com/world/united-states/us-justice-department-probes-tv-networks-over-trump-pool-coverage-new-york-times-reports"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Justice Department investigating TV networks that briefly suspended Trump press pool coverage",
-          "url": "https://www.washingtonexaminer.com/news/investigations/4762404/justice-department-investigate-tv-networks-trump-pool-coverage/"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-10-11-1o7qvig",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "9 dead, including children and pregnant woman, in shooting in Erie, Pennsylvania",
-      "summary": "A man killed eight people including a pregnant woman, children and other relatives at his home in Erie, Pennsylvania, before taking his own life as well, authorities said on Saturday. Erie Police Chief Rick Lorah said the 45-year-old man was related to seven…",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370464/9-dead-including-children-and-pregnant-woman-shooting-erie-pennsylvania",
-      "headlineSource": "South China Morning Post",
-      "summarySource": "South China Morning Post",
-      "publishedAt": "2026-10-11T06:35:11.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 17.9,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 1.6,
-        "freshness": 2.14,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "9 people, including 2 children, dead in suspected murder-suicide at Pennsylvania home",
-          "url": "https://nypost.com/2026/10/10/us-news/pennsylvania-mass-shooting-leaves-multiple-dead-at-erie-home/"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "9 dead, including children and pregnant woman, in shooting in Erie, Pennsylvania",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3370464/9-dead-including-children-and-pregnant-woman-shooting-erie-pennsylvania"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Nine people, including children, dead after mass shooting in Pennsylvania",
-          "url": "https://www.theguardian.com/us-news/2026/oct/10/nine-people-mass-shooting-pennsylvania"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Gunman kills pregnant woman, 2 children and 5 others in massacre of Pennsylvania family",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/erie-pennsylvania-kills-children-pregnant-woman-b3064662.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Erie, Pennsylvania shooter killed 8 people, then himself, police say",
-          "url": "https://www.straitstimes.com/world/nine-dead-in-erie-pennsylvania-mass-shooting"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-10-11-1nuwhg5",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "7.7-Magnitude Panama Earthquake Sets Off Series of Aftershocks",
-      "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported.",
-      "url": "https://www.nytimes.com/2026/10/09/world/americas/panama-earthquake-tsunami.html",
-      "headlineSource": "The New York Times",
-      "summarySource": "Euronews",
-      "publishedAt": "2026-10-11T06:56:08.000Z",
-      "sourceCount": 5,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 14.63,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 3.9,
-        "wire": 0.8,
-        "freshness": 2.17,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Panama struck by 2 powerful earthquakes, U.S. Geological Survey says",
-          "url": "https://www.cbsnews.com/news/panama-earthquake-tsunami-threat/"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Panic in Panama as 7.7 quake hits, cathedral collapses and tsunami warnings spread",
-          "url": "https://www.euronews.com/video/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Major earthquake shakes Panama",
-          "url": "https://www.nbcnews.com/nightly-news/video/major-earthquake-shakes-panama-271369285651"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "‘It was a terrible thing’: Panama declares state of emergency as quake aftershocks rattle communities",
-          "url": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "7.7-Magnitude Panama Earthquake Sets Off Series of Aftershocks",
-          "url": "https://www.nytimes.com/2026/10/09/world/americas/panama-earthquake-tsunami.html"
+          "title": "Zelenskyy risks rupture with Trump as midterms pressure mounts",
+          "url": "https://www.japantimes.co.jp/news/2026/10/12/world/zelenskyy-trump-midterms-pressure/"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-10-10-ghzt6b",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-      "summary": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
-      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-10T19:31:19.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 1,
-      "score": 13.61,
+      "id": "2026-10-12-129vhra",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "China’s $7.5 billion EU hybrid boom faces new curbs under deal with bloc",
+      "summary": "The Paris Motor Show opens its doors today, and with it come mounting economic and diplomatic issues. The European Union has just announced that it has secured a commitment from China to moderate the flow of hybrid vehicles into the block's market.",
+      "url": "https://www.japantimes.co.jp/business/2026/10/12/china-hybrid-eu-curbs/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "France 24",
+      "publishedAt": "2026-10-12T11:23:55.000Z",
+      "sourceCount": 5,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 15.13,
       "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 4.45,
-        "wire": 0.8,
-        "freshness": 1.4,
+        "breadth": 7.75,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 2.48,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "BBC News",
-          "sourceId": "bbc",
+          "source": "CNBC",
+          "sourceId": "cnbc",
           "lean": "center",
-          "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-          "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo"
+          "title": "Stellantis CEO urges incentives for carmakers who build in Europe as Chinese rivals gain ground",
+          "url": "https://www.cnbc.com/2026/10/12/stellantis-europe-cars-chinese-rivals-evs.html"
         },
         {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Anthropic's Claude AI fabricates eyewitness account, submits false murder tip to police website",
-          "url": "https://www.foxbusiness.com/technology/anthropics-claude-ai-fabricates-eyewitness-account-submits-false-murder-tip-police-website"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-          "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
+          "source": "France 24",
+          "sourceId": "france24",
           "lean": "center",
-          "title": "Philadelphia police receive false homicide tip from Anthropic AI model",
-          "url": "https://thehill.com/policy/technology/6140747-anthropic-ai-false-homicide-tip/"
+          "title": "Are European automakers capable of withstanding Chinese competition?",
+          "url": "https://www.france24.com/en/are-european-automakers-capable-of-withstanding-chinese-competition"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "How China and the EU pressed pause on trade war – and what it took to get there",
+          "url": "https://www.scmp.com/economy/global-economy/article/3370613/how-china-and-eu-pressed-pause-trade-war-and-what-it-took-get-there"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "China’s $7.5 billion EU hybrid boom faces new curbs under deal with bloc",
+          "url": "https://www.japantimes.co.jp/business/2026/10/12/china-hybrid-eu-curbs/"
         }
       ]
     }
