@@ -1,0 +1,864 @@
+{
+  "version": 1,
+  "edition": "2026-10-13",
+  "generatedAt": "2026-10-13T11:24:45.839Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-13-1rw4yrp",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe",
+      "summary": "President Trump blames high energy prices on Ukraine, not his war in the Middle East, and made a surprise decision to suspend sanctions against Russia on Friday. William Brangham discusses the latest developments in the Ukraine-Russia war with Andrew Weiss.",
+      "url": "https://www.dw.com/en/germany-news-merz-says-trump-s-russia-diesel-deal-out-of-question-for-europe/live-79636427?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-10-13T11:14:06.000Z",
+      "sourceCount": 20,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 8,
+      "score": 25.26,
+      "scoreComponents": {
+        "breadth": 13.18,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump stands by Russia diesel plan despite backlash: 'I made the right choice'",
+          "url": "https://abcnews.com/Politics/trump-stands-russia-diesel-plan-despite-backlash-made/story?id=137193699"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Zelenskyy says Russia isn't honoring Trump's energy ceasefire",
+          "url": "https://www.cbsnews.com/news/ukraine-zelenskyy-russia-unwilling-energy-ceasefire/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'",
+          "url": "https://www.cnbc.com/2026/10/12/trump-russia-diesel-putin.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe",
+          "url": "https://www.dw.com/en/germany-news-merz-says-trump-s-russia-diesel-deal-out-of-question-for-europe/live-79636427?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Europe Today: Trump claims Ukraine-Russia energy ceasefire as Baltics stay on alert",
+          "url": "https://www.euronews.com/2026/10/12/europe-today-trump-claims-ukraine-russia-energy-ceasefire-as-baltics-stay-on-alert"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Zelenskyy accuses Putin of defying Trump's ceasefire push, sends pointed message to White House",
+          "url": "https://www.foxnews.com/world/zelenskyy-blasts-putin-defying-trumps-ceasefire-push-sends-pointed-message-white-house"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Russia says Europe bought $320 billion in hydrocarbons since 2022",
+          "url": "https://www.france24.com/en/europe/20261013-russia-says-europe-bought-320-billion-in-hydrocarbons-since-2022"
+        },
+        {
+          "source": "National Review",
+          "sourceId": "nationalreview",
+          "lean": "right",
+          "title": "Trump’s Diesel Deal with Putin Is a Gross Abuse of Power",
+          "url": "https://www.nationalreview.com/2026/10/trumps-diesel-deal-with-putin-is-a-gross-abuse-of-power/"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine",
+          "url": "https://www.nbcnews.com/business/energy/oil-prices-trump-energy-ceasefire-fails-rcna603031"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Trump’s Diesel Deal Is Already Paying Off for Putin",
+          "url": "https://www.newsweek.com/trumps-diesel-deal-already-paying-off-putin-12560008"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Ukraine disputes Trump's claim of energy ceasefire as Russian diesel deal draws fire",
+          "url": "https://www.pbs.org/newshour/show/ukraine-disputes-trumps-claim-of-energy-ceasefire-as-russian-diesel-deal-draws-fire"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "India to gain? Trump’s Russian diesel deal offers New Delhi leverage",
+          "url": "https://www.scmp.com/week-asia/economics/article/3370749/india-gain-trumps-russian-diesel-deal-offers-delhi-leverage"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Zelenskyy says Russia ‘did not heed’ Trump’s call for energy ceasefire and had ‘no early warning’ before strikes on Kyiv – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/13/ships-hit-sunk-drones-bulgaria-black-sea-ukraine-russia-war-france-spains-sweden-pope-leo-europe-latest-news-updates"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump picks fight with GOP senators over Russia diesel deal",
+          "url": "https://thehill.com/homenews/senate/6144186-trump-russia-diesel-deal/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump accuses Europe of hypocrisy after diesel deal with Russia",
+          "url": "https://www.independent.co.uk/news/world/europe/trump-russia-diesel-deal-europe-b3065641.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump’s diesel deal irks allies and is unlikely to reduce prices",
+          "url": "https://www.japantimes.co.jp/news/2026/10/13/world/politics/trump-diesel-deal-allies/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "U.K. and Europe Recoil From Trump’s Diesel Deal With Putin",
+          "url": "https://www.nytimes.com/2026/10/13/world/europe/trump-putin-diesel-uk-europe-gift.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Russia hits no energy targets in Ukraine for first time since Trump's 'truce'",
+          "url": "https://www.straitstimes.com/world/europe/russia-hits-no-energy-targets-in-ukraine-for-first-time-since-trumps-truce"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump’s dud of a diesel deal",
+          "url": "https://www.washingtonexaminer.com/op-eds/4763088/trumps-diesel-deal-russia-dud/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-13-z47cs0",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "summary": "CTV footage released by Saudi authorities shows the moment a missile strike hit Riyadh’s King Khalid International Airport on October 10. The attack killed at least 13 people and injured hundreds, forcing the suspension of airport operations.",
+      "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o",
+      "headlineSource": "BBC News",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-13T11:16:58.000Z",
+      "sourceCount": 12,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 23.19,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Houthis threaten \"painful\" response if U.S. joins Saudi offensive",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Delta delays debut of Saudi Arabia service until March after Riyadh airport attacks",
+          "url": "https://www.cnbc.com/2026/10/12/delta-riyadh-nonstop-service-delay.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "CCTV shows moment of strike at King Khalid International Airport in Riyadh",
+          "url": "https://www.euronews.com/2026/10/12/cctv-shows-moment-of-strike-at-king-khalid-international-airport-in-riyadh"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+          "url": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Airlines suspend flights to Riyadh amid security fears",
+          "url": "https://www.france24.com/en/airlines-suspend-flights-to-riyadh-amid-security-fears"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "CCTV from inside Riyadh airport shows moment of deadly airstrike – video",
+          "url": "https://www.theguardian.com/world/video/2026/oct/12/cctv-riyadh-airport-footage-deadly-airstrike-saudi-arabia-video"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Deadly Saudi airport strikes mark major Mideast escalation",
+          "url": "https://www.nbcnews.com/world/middle-east/deadly-saudi-airport-strikes-mark-major-mideast-escalation-rcna602922"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Riyadh airport closed after Houthi strikes that killed at least 13",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-riyadh-airport-closed-after-houthi-strikes-that-killed-at-least-13"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Houthi official warns US against entering war in Yemen as Saudis weather attacks",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3370729/houthi-official-warns-us-against-entering-war-yemen-saudis-weather-attacks"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Saudis investigate why defense systems failed to stop deadly Houthi attack on Riyadh airport",
+          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-riyadh-airport-flights-houthis-air-defense-b3065699.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes",
+          "url": "https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia.html"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-13-1ewe819",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US federal agents search home of Trump critic Ilhan Omar",
+      "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
+      "url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-13T11:10:50.000Z",
+      "sourceCount": 12,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 23.18,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Rep. Ilhan Omar’s residence searched as part of ongoing criminal investigation: DOJ",
+          "url": "https://abcnews.com/US/rep-ilhan-omars-residence-searched-part-ongoing-criminal/story?id=137192001"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Immigration agents search congresswoman Ilhan Omar's home",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
+          "url": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US federal agents search home of Trump critic Ilhan Omar",
+          "url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US immigration authorities raid home of Democratic Trump critic Ilhan Omar",
+          "url": "https://www.france24.com/en/us-immigration-authorities-raid-home-of-democratic-trump-critic-ilhan-omar"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+          "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Rep. Omar accuses Trump of political intimidation after agents search her home",
+          "url": "https://www.pbs.org/newshour/show/rep-omar-accuses-trump-of-political-intimidation-after-agents-search-her-home"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Congresswoman insists she will not be 'silenced' after federal agents raid her home",
+          "url": "https://news.sky.com/story/congresswoman-insists-she-will-not-be-silenced-after-federal-agents-raid-her-home-13598219"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Trump targets Ilhan Omar at rally following raid on her home – US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/oct/13/donald-trump-ilhan-omar-katie-zacharia-alaska-midterms-latest-news-updates"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "4 takeaways from the pre-election raid on Omar's home",
+          "url": "https://thehill.com/newsletters/morning-report/6144650-4-takeaways-ilhan-omar-raid-washington-trump-administration/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "‘An attempt to target political enemies’: Fury as US agents search anti-Trump lawmaker’s home",
+          "url": "https://www.straitstimes.com/world/united-states/an-attempt-to-target-political-enemies-fury-as-us-agents-search-anti-trump-lawmakers-home"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Ilhan Omar immigration history: Scrutiny surrounds family’s refugee claims",
+          "url": "https://www.washingtonexaminer.com/policy/immigration/4763594/ilhan-omar-immigration-history-scrutiny-family-refugee-claims/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-13-1clkjeb",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Emergency call about Christa Pike’s botched execution released",
+      "summary": "Tennessee has had two botched executions in 2026, including Pike’s.",
+      "url": "https://www.euronews.com/2026/10/13/emergency-call-about-christa-pikes-botched-execution-released",
+      "headlineSource": "Euronews",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-13T11:22:38.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 20.11,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Newly released 911 calls capture confusion after Christa Pike's botched execution",
+          "url": "https://abcnews.com/US/911-calls-released-christa-pikes-botched-execution-person/story?id=137206702"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US emergency call records reveal confusion after failed execution of Christa Pike",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exg6qjdz3o"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Emergency call about Christa Pike’s botched execution released",
+          "url": "https://www.euronews.com/2026/10/13/emergency-call-about-christa-pikes-botched-execution-released"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "911 dispatcher assumed call that Christa Pike had survived her execution was a ‘prank’",
+          "url": "https://nypost.com/2026/10/13/us-news/911-dispatcher-assumed-call-that-christa-pike-had-survived-her-execution-was-a-prank/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Emergency help for Christa Pike was delayed by confusion after failed execution, 911 calls reveal",
+          "url": "https://www.pbs.org/newshour/nation/emergency-help-for-christa-pike-was-delayed-by-confusion-after-failed-execution-911-calls-reveal"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "Opinion: Lethal injection will never be the same after Christa Pike’s botched execution",
+          "url": "https://www.statnews.com/2026/10/13/christa-pike-botched-execution-bioethics-end-of-lethal-injection/"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Attorneys warned of difficulty accessing Christa Pike’s veins: Report",
+          "url": "https://thehill.com/homenews/state-watch/6144163-christa-pike-tennessee-execution-difficult-veins/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Newly-released 911 calls from Christa Pike’s botched execution exposes confusion among prison officials",
+          "url": "https://www.independent.co.uk/news/world/americas/christa-pike-911-call-delay-failed-execution-b3065536.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Calls show how confusion delayed emergency response for death row inmate Christa Pike",
+          "url": "https://www.straitstimes.com/world/united-states/calls-show-how-confusion-delayed-emergency-response-for-death-row-inmate-christa-pike"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-13-13bgbfz",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+      "summary": "Major French supermarket chains on Monday said they were hit by a cyberattack that caused their refrigerators to shoot up in temperature in hundreds of stores, forcing spoiled food to be thrown away and raising concerns about food security.",
+      "url": "https://www.france24.com/en/video/20261013-hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food",
+      "headlineSource": "France 24",
+      "summarySource": "France 24",
+      "publishedAt": "2026-10-13T11:13:14.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 19.09,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Hackers heat up refrigerators at hundreds of supermarkets",
+          "url": "https://www.cbsnews.com/news/cyberattack-supermarkets-refrigerators-france-fires-food-losses/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+          "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Hundreds of French supermarkets hit by a cyberattack that defrosted refrigeration systems",
+          "url": "https://www.dw.com/en/hundreds-of-french-supermarkets-hit-by-a-cyberattack-that-defrosted-refrigeration-systems/a-79646097?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+          "url": "https://www.france24.com/en/video/20261013-hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "French supermarket director apologises after cyber-attack spoils fresh and frozen food - video",
+          "url": "https://www.theguardian.com/technology/video/2026/oct/13/french-supermarket-director-apologises-after-cyber-attack-spoils-fresh-and-frozen-food-video"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "French supermarket fridges heated to 50C in cyber attack - causing fires and food losses",
+          "url": "https://news.sky.com/story/hackers-heat-french-supermarket-fridges-to-50c-in-large-scale-cyber-attack-13598252"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Fridges heated to 50°C, food destroyed: Hundreds of shops in France hit by cyberattack",
+          "url": "https://timesofindia.indiatimes.com/world/europe/unprecedented-cyberattack-hits-hundreds-of-france-shops-forces-fridges-to-defrost/articleshow/134913802.cms"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-13-1qbiqya",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+      "summary": "The International Monetary Fund (IMF) forecasts that global economic output will slow to 3.1% this year in spite of geopolitical disruptions, but warns that high inflation and AI share valuations could be risks for financial stability. Also in this edition…",
+      "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+      "headlineSource": "CNBC",
+      "summarySource": "France 24",
+      "publishedAt": "2026-10-13T09:32:37.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 16.68,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 5,
+        "wire": 1.6,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+          "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "AI cyberattack could bring global financial system to a screeching halt, warns IMF",
+          "url": "https://www.dailymail.com/money/markets/article-16203379/AI-cyberattack-bring-global-financial-screeching-halt-warns-IMF.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "IMF global economic forecast shows 'resilience under strain'",
+          "url": "https://www.france24.com/en/tv-shows/business/20261013-imf-global-economic-forecast-shows-resilience-under-strain"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "IMF warns global economy ‘could soon test the limits of resilience’",
+          "url": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "AI investment props up global growth, but war and debt threaten outlook, IMF says",
+          "url": "https://www.japantimes.co.jp/business/2026/10/13/economy/ai-investment-global-growth-imf/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-13-jy9jsl",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+      "summary": "Two American economists, Robert E. Hall of Stanford University and Michael Woodford of Columbia University, have won the Nobel Memorial Prize in Economic Sciences for their work on economic stabilisation. Their research helps policymakers and central banks…",
+      "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+      "headlineSource": "Guardian Business",
+      "summarySource": "France 24",
+      "publishedAt": "2026-10-13T10:30:00.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 16.47,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US economists win Nobel for research helping policymakers navigate crises",
+          "url": "https://www.france24.com/en/us-economists-win-nobel-for-research-helping-policymakers-navigate-crises"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+          "url": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models"
+        },
+        {
+          "source": "Nature",
+          "sourceId": "nature",
+          "lean": "center",
+          "title": "Economics Nobel awarded for work on stabilizing economies in crisis",
+          "url": "https://www.nature.com/articles/d41586-026-03251-4"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "What ice cream has to do with this year's Nobel Prize in economics",
+          "url": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Robert E. Hall and Michael Woodford Awarded Nobel for Economics",
+          "url": "https://www.nytimes.com/2026/10/12/business/nobel-prize-economics.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-13-u8ly3p",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "AI is less regulated than milk, says Microsoft president",
+      "summary": "Brad Smith said there should also be a legal requirement for companies to write \"incident reports\".",
+      "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
+      "headlineSource": "BBC Technology",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-13T07:45:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 15.74,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5,
+        "wire": 1.6,
+        "freshness": 2.17,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "AI is less regulated than milk, says Microsoft president",
+          "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Microsoft president says AI faces fewer safety rules than milk in call for global regulation",
+          "url": "https://www.foxbusiness.com/technology/microsoft-president-says-ai-faces-fewer-safety-rules-than-milk-call-global-regulation"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+          "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Microsoft president says milk faces more regulation than AI",
+          "url": "https://www.straitstimes.com/world/europe/microsoft-president-says-milk-faces-more-regulation-than-ai"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-13-18f8osl",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "As import curbs loom, Chinese carmakers make a stand at Paris Motor Show",
+      "summary": "No Chinese carmakers were represented at a dinner on Sunday attended by French President Emmanuel Macron and around 60 European automotive industry players, but they were hard to miss when he visited the Paris Motor Show the next day. Allianz Trade said in a…",
+      "url": "https://www.scmp.com/economy/china-economy/article/3370746/import-curbs-loom-chinese-carmakers-make-stand-paris-motor-show",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-10-13T11:00:12.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 14.93,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Europeans Have a Love-Hate Relationship With Chinese Cars",
+          "url": "https://www.nytimes.com/2026/10/12/business/europe-china-evs-hybrids.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "As import curbs loom, Chinese carmakers make a stand at Paris Motor Show",
+          "url": "https://www.scmp.com/economy/china-economy/article/3370746/import-curbs-loom-chinese-carmakers-make-stand-paris-motor-show"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "url": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Chinese woman buys 200 parking spaces, doubles rent and wins legal battle",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/chinese-woman-buys-around-200-parking-spaces-in-bulk-charges-double-the-original-rent-and-wins-legal-battle-with-neighbours/articleshow/134913130.cms"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-13-dfyg4v",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Pennsylvania reports its sixth measles death this year. RFK Jr’s CDC still says it’s two",
+      "summary": "A woman in Pennsylvania has died after contracting measles, marking the state's sixth death from the virus this year.",
+      "url": "https://www.independent.co.uk/news/health/measles-death-pennsylvania-outbreak-b3065444.html",
+      "headlineSource": "The Independent",
+      "summarySource": "Daily Mail Health",
+      "publishedAt": "2026-10-13T01:51:39.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 12.18,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 1.73,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
+          "url": "https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Sixth measles-associated death recorded in America as outbreak spirals... and death toll hits worst tally in 35 years",
+          "url": "https://www.dailymail.com/health/article-16203199/measles-death-pennsylvania-america-outbreak.html"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Pennsylvania reports its sixth measles death this year. RFK Jr’s CDC still says it’s two",
+          "url": "https://www.independent.co.uk/news/health/measles-death-pennsylvania-outbreak-b3065444.html"
+        }
+      ]
+    }
+  ]
+}

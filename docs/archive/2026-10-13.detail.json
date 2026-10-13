@@ -1,0 +1,1949 @@
+{
+  "edition": "2026-10-13",
+  "generatedAt": "2026-10-13T11:24:45.839Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-13-1rw4yrp",
+      "topic": "world",
+      "title": "Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe",
+      "summary": "President Trump blames high energy prices on Ukraine, not his war in the Middle East, and made a surprise decision to suspend sanctions against Russia on Friday. William Brangham discusses the latest developments in the Ukraine-Russia war with Andrew Weiss.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 20,
+      "score": 25.26,
+      "scoreComponents": {
+        "breadth": 13.18,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 20,
+        "specialistOutlets": 3,
+        "specialistShare": 0.15,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+          "description": "Despite the US president announcing energy infrastructure would not be targeted strikes have continued, Ukraine says.",
+          "link": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo",
+          "published": "2026-10-12T21:20:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+          "description": "While Ukraine's Volodymyr Zelensky suggests he would sign up to a ceasefire on energy infrastructure, Russia has said little.",
+          "link": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo",
+          "published": "2026-10-12T20:17:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: What could Trump's energy ceasefire mean for Ukraine?",
+          "description": "The BBC's Dan Johnson reports from Kyiv, where Ukrainians face another winter with electricity outages.",
+          "link": "https://www.bbc.co.uk/news/videos/crd9321ygqw8o",
+          "published": "2026-10-12T15:51:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy says Russia isn't honoring Trump's energy ceasefire",
+          "description": "Within a day of President Trump announcing an \"energy ceasefire,\" Ukraine said Russia had struck a power plant and other energy facilities across the country.",
+          "link": "https://www.cbsnews.com/news/ukraine-zelenskyy-russia-unwilling-energy-ceasefire/",
+          "published": "2026-10-12T23:03:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump announces Russia-Ukraine \"energy ceasefire\" after criticizing Zelenskyy",
+          "description": "Ukrainian President Volodymyr Zelenskyy said Russia alone is responsible for the war in Ukraine, after President Trump said he should be replaced.",
+          "link": "https://www.cbsnews.com/news/zelenskyy-trump-new-ukrainian-president/",
+          "published": "2026-10-12T00:14:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Energy prices rise after Trump’s ‘energy ceasefire’ fails to move Russia or Ukraine",
+          "description": "Oil and gas prices rose Monday after an “energy ceasefire” announced by President Donald Trump on Sunday failed to gain traction.",
+          "link": "https://www.nbcnews.com/business/energy/oil-prices-trump-energy-ceasefire-fails-rcna603031",
+          "published": "2026-10-12T19:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy says Russia ‘did not heed’ Trump’s call for energy ceasefire and had ‘no early warning’ before strikes on Kyiv – Europe live",
+          "description": "Ukraine’s president says his country has halted strikes on Russian oil refineries for two days after Trump’s ceasefire announcement On frozen Russian assets, Poland’s Sikorski says the use of frozen Russian assets is “a complicated issue,” but takes a very clear stance in response to any suggestion of releasing them back to Russia. “We are working on it, but there is also some rumours that some pe",
+          "link": "https://www.theguardian.com/world/live/2026/oct/13/ships-hit-sunk-drones-bulgaria-black-sea-ukraine-russia-war-france-spains-sweden-pope-leo-europe-latest-news-updates",
+          "published": "2026-10-13T11:14:06.000Z",
+          "categories": [
+            "Europe",
+            "Bulgaria",
+            "Russia",
+            "Ukraine",
+            "France",
+            "Spain",
+            "Sweden",
+            "Pope Leo XIV",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy accuses Putin of defying Trump's ceasefire push, sends pointed message to White House",
+          "description": "Volodymyr Zelenskyy accuses Vladimir Putin of attacking Ukraine's gas infrastructure hours after Trump announced an immediate energy ceasefire.",
+          "link": "https://www.foxnews.com/world/zelenskyy-blasts-putin-defying-trumps-ceasefire-push-sends-pointed-message-white-house",
+          "published": "2026-10-12T14:36:46.000Z",
+          "categories": [
+            "c411ba3e-2497-5d59-a633-19b5f808e551",
+            "fnc",
+            "Fox News",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/world/world-regions/russia",
+            "fox-news/world/volodymyr-zelenskyy",
+            "fox-news/world/personalities/vladimir-putin",
+            "fox-news/politics/executive/national-security",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia hits no energy targets in Ukraine for first time since Trump's 'truce'",
+          "description": "KYIV, Oct 13 - Russia hit no Ukrainian energy targets on Tuesday for the first time since US President Donald Trump's weekend announcement of an \\\"energy ceasefire\\\", while hammering cities' transport and logistics overnight with ballistic missiles and drones.",
+          "link": "https://www.straitstimes.com/world/europe/russia-hits-no-energy-targets-in-ukraine-for-first-time-since-trumps-truce",
+          "published": "2026-10-13T10:45:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia says it hit ship delivering military cargo to Ukraine's Mykolaiv",
+          "description": "MOSCOW, Oct 13 - Russian forces hit a ship delivering military and dual-use cargo to Ukraine's port city of Mykolaiv, the Russian defence ministry said on Tuesday, without mentioning any energy facilities following Donald Trump's announcement on Sunday of an energy ceasefire.",
+          "link": "https://www.straitstimes.com/world/europe/russia-says-it-hit-ship-delivering-military-cargo-to-ukraines-mykolaiv",
+          "published": "2026-10-13T07:30:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Europe Today: Trump claims Ukraine-Russia energy ceasefire as Baltics stay on alert",
+          "description": "Donald Trump says Russia and Ukraine have agreed an energy ceasefire. Volodymyr Zelenskyy says it was news to him. As he addresses the Warsaw Security Forum, we hear from Latvia's FM Baiba Braže, Doha after a deadly Riyadh airport attack, and France's debt fears.",
+          "link": "https://www.euronews.com/2026/10/12/europe-today-trump-claims-ukraine-russia-energy-ceasefire-as-baltics-stay-on-alert",
+          "published": "2026-10-12T06:01:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine disputes Trump's claim of energy ceasefire as Russian diesel deal draws fire",
+          "description": "President Trump blames high energy prices on Ukraine, not his war in the Middle East, and made a surprise decision to suspend sanctions against Russia on Friday. William Brangham discusses the latest developments in the Ukraine-Russia war with Andrew Weiss. He's a former State Department official and is now with the Carnegie Endowment for International Peace.",
+          "link": "https://www.pbs.org/newshour/show/ukraine-disputes-trumps-claim-of-energy-ceasefire-as-russian-diesel-deal-draws-fire",
+          "published": "2026-10-12T22:45:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump rewards Putin and betrays Ukraine with Russia diesel deal - The Latest",
+          "description": "Donald Trump’s deal to buy Russian diesel has been met with fury from Volodymyr Zelenskyy, who said it was ‘a weak decision’ and would generate ‘billions’ in extra revenue for Putin’s war effort. The Ukrainian president has also rejected US calls for an ‘energy ceasefire’, which would require Kyiv to stop striking oil refineries, saying Moscow must first end its attacks on energy infrastructure. L",
+          "link": "https://www.theguardian.com/news/video/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest",
+          "published": "2026-10-12T17:14:59.000Z",
+          "categories": [
+            "Volodymyr Zelenskyy",
+            "US foreign policy",
+            "Ukraine",
+            "Europe",
+            "Donald Trump",
+            "Vladimir Putin",
+            "Russia",
+            "Trump administration"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe",
+          "description": "Chancellor Friedrich Merz has said that Donald Trump's diesel deal with Russia would be \"out of the question\" for Germany and the EU. Meanwhile, the ruling coalition has been rocked by a major resignation.",
+          "link": "https://www.dw.com/en/germany-news-merz-says-trump-s-russia-diesel-deal-out-of-question-for-europe/live-79636427?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-12T16:01:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia says Europe bought $320 billion in hydrocarbons since 2022",
+          "description": "Russia said on Monday that European Union countries had bought $320.7 billion worth of its energy resources since 2022, despite sanctions over the war in Ukraine. The figure fuelled tensions as European officials criticised a US deal to import Russian diesel, while Stockholm called for the bloc to use frozen Russian assets to boost support for Kyiv.",
+          "link": "https://www.france24.com/en/europe/20261013-russia-says-europe-bought-320-billion-in-hydrocarbons-since-2022",
+          "published": "2026-10-13T03:10:12.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump stands by Russia diesel plan despite backlash: 'I made the right choice'",
+          "description": "A group of senators, including some Republicans, have pushed back on the agreement.",
+          "link": "https://abcnews.com/Politics/trump-stands-russia-diesel-plan-despite-backlash-made/story?id=137193699",
+          "published": "2026-10-13T07:38:02.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump picks fight with GOP senators over Russia diesel deal",
+          "description": "President Trump is picking a fight with Senate Republicans right before the midterm elections with his surprise deal to allow Russia to export diesel to the United States. Four Republican senators — Sens. Susan Collins (Maine), Lisa Murkowski (Alaska), John Curtis (Utah) and Thom Tillis (N.C.) — have already spoken out against the controversial deal...",
+          "link": "https://thehill.com/homenews/senate/6144186-trump-russia-diesel-deal/",
+          "published": "2026-10-13T10:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'",
+          "description": "Ukraine President Volodymyr Zelenskyy said that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"",
+          "link": "https://www.cnbc.com/2026/10/12/trump-russia-diesel-putin.html",
+          "published": "2026-10-12T18:32:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump accuses Europe of hypocrisy after diesel deal with Russia",
+          "description": "‘I made the right choice for the American people,’ the US leader said as he doubled down amid criticism",
+          "link": "https://www.independent.co.uk/news/world/europe/trump-russia-diesel-deal-europe-b3065641.html",
+          "published": "2026-10-13T07:08:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.K. and Europe Recoil From Trump’s Diesel Deal With Putin",
+          "description": "Shocked by the U.S. agreement with Russia, which Ukraine has called “a gift” to President Putin, officials in Europe have coalesced around a cautious diplomatic message.",
+          "link": "https://www.nytimes.com/2026/10/13/world/europe/trump-putin-diesel-uk-europe-gift.html",
+          "published": "2026-10-13T09:03:47.000Z",
+          "categories": [
+            "United States International Relations",
+            "International Relations",
+            "Oil (Petroleum) and Gasoline",
+            "International Trade and World Market",
+            "European Union",
+            "Kallas, Kaja (1977-)",
+            "Merz, Friedrich",
+            "Putin, Vladimir V",
+            "Trump, Donald J",
+            "Tusk, Donald",
+            "Zelensky, Volodymyr",
+            "Europe",
+            "Great Britain",
+            "Germany",
+            "France",
+            "Luxembourg",
+            "Russia",
+            "Ukraine",
+            "Warsaw (Poland)",
+            "Washington (DC)",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump Gives Putin a Hand in Russia’s Economic War With Ukraine",
+          "description": "President Trump is moving to buy Russian diesel while also pressuring Ukraine to halt attacks on refineries, a lifeblood of Moscow’s war machine.",
+          "link": "https://www.nytimes.com/2026/10/12/world/europe/russia-diesel-trump.html",
+          "published": "2026-10-12T17:20:15.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "United States International Relations",
+            "Oil (Petroleum) and Gasoline",
+            "Ports",
+            "Refineries",
+            "Putin, Vladimir V",
+            "Trump, Donald J",
+            "Zelensky, Volodymyr",
+            "Russia",
+            "Ukraine",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "After Russian Diesel Deal, Trump Faces New Crisis Over Ukraine",
+          "description": "President Trump’s surprise decision to suspend sanctions on Russian diesel fuel stunned Ukrainian and European officials, who were meeting with U.S. envoys at an exclusive golf club near Miami.",
+          "link": "https://www.nytimes.com/2026/10/12/world/europe/russia-ukraine-war-us-diesel-deal-negotiations.html",
+          "published": "2026-10-12T22:12:38.000Z",
+          "categories": [
+            "Ukraine",
+            "Russian Invasion of Ukraine (2022)",
+            "Russia",
+            "Witkoff, Steven",
+            "Kushner, Jared"
+          ]
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s Diesel Deal Is Already Paying Off for Putin",
+          "description": "Moscow is yet to receive money from Donald Trump’s diesel deal, but Putin is already enjoying a different kind of profit.",
+          "link": "https://www.newsweek.com/trumps-diesel-deal-already-paying-off-putin-12560008",
+          "published": "2026-10-13T10:50:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s dud of a diesel deal",
+          "description": "Last week, President Donald Trump and Russian President Vladimir Putin reached an agreement for Russia to supply a few million tons of diesel fuel to the United States and global markets to help lower soaring fuel prices. The agreement involves an immediate supply of over 300,000 tons of diesel, followed by an additional 3 to",
+          "link": "https://www.washingtonexaminer.com/op-eds/4763088/trumps-diesel-deal-russia-dud/",
+          "published": "2026-10-13T10:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "NATO military chief’s tough talk fails to allay Europe’s fears over Trump and Putin",
+          "description": "Grynkewich’s intervention came as President Trump has yet again struck a deal with Vladimir Putin.",
+          "link": "https://www.straitstimes.com/world/europe/nato-military-chiefs-tough-talk-fails-to-allay-europes-fears-over-trump-and-putin",
+          "published": "2026-10-13T10:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump’s diesel deal irks allies and is unlikely to reduce prices",
+          "description": "Under the agreement announced last week, Russian President Vladimir Putin would begin releasing diesel supplies into global markets.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/13/world/politics/trump-diesel-deal-allies/",
+          "published": "2026-10-13T02:34:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India to gain? Trump’s Russian diesel deal offers New Delhi leverage",
+          "description": "US President Donald Trump’s decision to ease sanctions on Russian diesel exports and allow fresh supplies to reach global markets could give India greater leverage in its own dispute with Washington over discounted crude purchases, analysts said. Beyond the energy dispute, they said the move could also open up diplomatic opportunities for New Delhi, from pressing for more consistent treatment by W",
+          "link": "https://www.scmp.com/week-asia/economics/article/3370749/india-gain-trumps-russian-diesel-deal-offers-delhi-leverage",
+          "published": "2026-10-13T11:00:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nationalreview",
+          "outlet": "nationalreview",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s Diesel Deal with Putin Is a Gross Abuse of Power",
+          "description": "While it portends no economic benefits for the U.S., it is an absolute coup for Putin.",
+          "link": "https://www.nationalreview.com/2026/10/trumps-diesel-deal-with-putin-is-a-gross-abuse-of-power/",
+          "published": "2026-10-12T16:42:10.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-13-z47cs0",
+      "topic": "world",
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "summary": "CTV footage released by Saudi authorities shows the moment a missile strike hit Riyadh’s King Khalid International Airport on October 10. The attack killed at least 13 people and injured hundreds, forcing the suspension of airport operations.",
+      "headlineSource": "BBC News",
+      "sourceCount": 12,
+      "score": 23.19,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 2,
+        "specialistShare": 0.17,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "description": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+          "link": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o",
+          "published": "2026-10-13T04:30:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Houthis threaten \"painful\" response if U.S. joins Saudi offensive",
+          "description": "As Trump mulls joining Saudi Arabia in attacking the Houthis, the Iran-backed group is threatening a \"painful\" response.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/",
+          "published": "2026-10-13T10:01:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump considering strikes against Houthis in Yemen after attacks on Saudi Arabia",
+          "description": "President Trump is considering launching U.S. military strikes against the Iran-backed Houthis in Yemen, following a wave of attacks on Saudi Arabia. Holly Williams reports.",
+          "link": "https://www.cbsnews.com/video/trump-considering-strikes-against-houthis-in-yemen-after-attacks-on-saudi-arabia/",
+          "published": "2026-10-12T23:56:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iranian-backed Houthi rebels in Yemen claim deadly attacks on Saudi airport",
+          "description": "Riyadh's airport was hit twice over the weekend with deadly strikes that killed at least a dozen people, including one American, officials say. Iranian-backed Houthi rebels in Yemen claimed the attacks. Holly Williams reports.",
+          "link": "https://www.cbsnews.com/video/iranian-backed-houthi-rebels-in-yemen-claim-deadly-attacks-on-saudi-airport/",
+          "published": "2026-10-12T13:17:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi airport hit again, a day after deadly strike killed 13",
+          "description": "The strike on King Khalid International Airport, the deadliest on Saudi soil in more than a decade, marked a major escalation in the war between Yemen's Iran-backed Houthis and the kingdom.",
+          "link": "https://www.cbsnews.com/news/houthis-threat-saudi-airspace-attack-riyadh-airport/",
+          "published": "2026-10-12T10:09:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Yemen's Houthis target King Khalid airport in Saudi Arabia again",
+          "description": "Tensions flared in the Middle East following attacks by Iran-backed Houthi rebels on Saudi Arabia. Leigh Kiniry reports.",
+          "link": "https://www.cbsnews.com/video/yemens-houthis-target-king-khalid-airport-saudi-arabia-again/",
+          "published": "2026-10-12T00:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Deadly Saudi airport strikes mark major Mideast escalation",
+          "description": "An attack by Yemen’s Iran-backed Houthis over the weekend appeared to be the deadliest on the kingdom in more than a decade.",
+          "link": "https://www.nbcnews.com/world/middle-east/deadly-saudi-airport-strikes-mark-major-mideast-escalation-rcna602922",
+          "published": "2026-10-12T13:34:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia Faces More Attacks as It Reels From Airport Strikes",
+          "description": "The Saudi authorities said they were fending off drone and missile attacks after a weekend of confrontation with the Houthi militia in Yemen, whose patrons Iran offered to mediate.",
+          "link": "https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia.html",
+          "published": "2026-10-13T08:54:51.000Z",
+          "categories": [
+            "War and Armed Conflicts",
+            "Houthis",
+            "Saudi Arabia",
+            "Iran",
+            "Yemen",
+            "Araghchi, Abbas",
+            "US and Israeli Attack on Iran (2026)",
+            "International Relations",
+            "Oil (Petroleum) and Gasoline",
+            "Politics and Government",
+            "International Trade and World Market"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi and Yemeni Airports Hit in New Round of Strikes",
+          "description": "At least one person was killed in the Saudi capital, Riyadh, kingdom authorities said. The Houthis said Saudi aircraft hit the Yemeni capital’s airport.",
+          "link": "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-yemen-airports-houthis.html",
+          "published": "2026-10-12T02:27:42.000Z",
+          "categories": [
+            "War and Armed Conflicts",
+            "Defense and Military Forces",
+            "Houthis",
+            "Saudi Arabia",
+            "Yemen"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthi official warns US against entering war in Yemen as Saudis weather attacks",
+          "description": "A Houthi official has warned the US it would receive a “painful response” if it entered the war in Yemen, where Saudi Arabia has reportedly requested Washington’s help in dealing with the group as it weathers repeated attacks. Yemen’s civil war - in which a Saudi-led military coalition supports the government against the Iran-backed Houthis - reignited in July, months into the wider regional confl",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3370729/houthi-official-warns-us-against-entering-war-yemen-saudis-weather-attacks",
+          "published": "2026-10-13T09:00:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "News Wrap: Riyadh airport closed after Houthi strikes that killed at least 13",
+          "description": "In our news wrap Monday, Houthi strikes on Riyadh's airport killed at least 13 people and injured hundreds more, a federal judge says she is 'furious' with Justice Department lawyers after hundreds of trees were removed from a local golf course and a fire destroyed the oldest covered food market in Paris.",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-riyadh-airport-closed-after-houthi-strikes-that-killed-at-least-13",
+          "published": "2026-10-12T22:50:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
+          "description": "Footage from inside the airport shows the moment the strike hit on Saturday.",
+          "link": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o",
+          "published": "2026-10-12T09:38:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "CCTV shows moment of strike at King Khalid International Airport in Riyadh",
+          "description": "CTV footage released by Saudi authorities shows the moment a missile strike hit Riyadh’s King Khalid International Airport on October 10. The attack killed at least 13 people and injured hundreds, forcing the suspension of airport operations.",
+          "link": "https://www.euronews.com/2026/10/12/cctv-shows-moment-of-strike-at-king-khalid-international-airport-in-riyadh",
+          "published": "2026-10-12T08:24:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "CCTV from inside Riyadh airport shows moment of deadly airstrike – video",
+          "description": "CCTV released by Saudi Arabia shows the moment of an attack on King Khalid international airport that killed 13 people and wounded more than 300 on 10 October. Footage shows passengers queueing, making their way through a security gate and sitting in a waiting area moments before the blast, after which people can be seen scrambling to find cover. The missile struck the part of the airport housing ",
+          "link": "https://www.theguardian.com/world/video/2026/oct/12/cctv-riyadh-airport-footage-deadly-airstrike-saudi-arabia-video",
+          "published": "2026-10-12T09:11:20.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "Yemen",
+            "Houthis",
+            "Middle East and north Africa"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Airlines suspend flights to Riyadh amid security fears",
+          "description": "Flights to and from Riyadh have been suspended following deadly Houthi attacks, with several international airlines extending cancellations through October 19. The disruption threatens Saudi Arabia’s ambitions to become a major global aviation hub, while Delta has postponed its first direct US flights to the Kingdom until March 2027.",
+          "link": "https://www.france24.com/en/airlines-suspend-flights-to-riyadh-amid-security-fears",
+          "published": "2026-10-13T09:19:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia further suspends flights after latest deadly Houthi attack on airport",
+          "description": "Energy minister says ‘fear has no place in the Saudi lexicon’ as paramilitary group again breaches stretched defences Why are the Houthis attacking Saudi airports and how are the missiles getting through? Saudi Arabia has been forced to suspend all flights to and from its main international airport in Riyadh until next Saturday after a further round of Houthi missile attacks caused more damage and",
+          "link": "https://www.theguardian.com/world/2026/oct/12/saudi-arabia-suspends-flights-latest-deadly-houthi-attack-airport",
+          "published": "2026-10-12T15:42:37.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "Houthis",
+            "Volodymyr Zelenskyy",
+            "Ukraine",
+            "World news",
+            "Yemen",
+            "Middle East and north Africa",
+            "Donald Trump"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nuremberg Airport in Germany Suspends Flights Over ‘Aviation Emergency’",
+          "description": "It was not immediately clear what had prompted the alert, which halted flights at the Albrecht Dürer Airport.",
+          "link": "https://www.nytimes.com/2026/10/13/world/europe/germany-flight-nuremberg.html",
+          "published": "2026-10-13T11:16:58.000Z",
+          "categories": [
+            "Airports",
+            "Germany",
+            "Nuremberg (Germany)"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Delta delays debut of Saudi Arabia service until March after Riyadh airport attacks",
+          "description": "Delta planned to begin the route on Oct. 23, in what would have marked the first nonstop commercial flight between the U.S. and Saudi Arabia.",
+          "link": "https://www.cnbc.com/2026/10/12/delta-riyadh-nonstop-service-delay.html",
+          "published": "2026-10-12T15:48:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+          "description": "Iran-backed Houthis struck Saudi Arabian airports in Riyadh and Dammam, killing at least 14 and injuring over 300 as experts warn of wider war.",
+          "link": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war",
+          "published": "2026-10-12T00:34:53.000Z",
+          "categories": [
+            "9b29a182-665c-5b1c-9150-b565496f193f",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-regions/saudi-arabia",
+            "fox-news/world/conflicts/iran",
+            "fox-news/world/terrorism",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/politics/executive/national-security",
+            "fox-news/politics/foreign-policy",
+            "fox-news/us/terror/bombings",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "UAE calls for stronger Gulf defence as allies back Saudi Arabia after Riyadh airport attacks",
+          "description": "Deadly attacks on Riyadh’s airport have brought fresh calls for joint Gulf defence, as Qatar warned the wider conflict was damaging global energy supplies.",
+          "link": "https://www.euronews.com/2026/10/12/uae-calls-for-stronger-gulf-defence-as-allies-back-saudi-arabia-after-riyadh-airport-attac",
+          "published": "2026-10-12T12:19:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudis investigate why defense systems failed to stop deadly Houthi attack on Riyadh airport",
+          "description": "The incident has exposed vulnerabilities in Saudi Arabia's defense system and signaled a dangerous inflection point in an expanding Mideast conflict",
+          "link": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-riyadh-airport-flights-houthis-air-defense-b3065699.html",
+          "published": "2026-10-12T20:59:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why are Yemen’s Houthis attacking Saudi Arabia and how are they breaching its air defences?",
+          "description": "Washington has largely ignored the lingering disruption created by the Houthis around the Red Sea. But a wider conflict with Saudi Arabia could force them to intervene, writes James C. Reynolds",
+          "link": "https://www.independent.co.uk/news/world/middle-east/saudi-houthis-riyadh-attacks-why-trump-iran-yemen-b3065698.html",
+          "published": "2026-10-13T08:13:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Strikes Put Saudi Arabia’s Economy Under Pressure",
+          "description": "Deadly attacks on the main Saudi airport add to the challenges facing the country, as it seeks to maintain energy production and keep major events on track.",
+          "link": "https://www.nytimes.com/2026/10/12/business/dealbook/saudi-arabia-strikes-energy-airport.html",
+          "published": "2026-10-12T12:44:16.000Z",
+          "categories": [
+            "internal-storyline-no",
+            "International Relations",
+            "Saudi Arabia",
+            "Oil (Petroleum) and Gasoline",
+            "International Trade and World Market",
+            "War and Armed Conflicts",
+            "Abdulaziz bin Salman, Prince of Saudi Arabia",
+            "Mohammed bin Salman (1985-)"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Why are the Houthis attacking Saudi airports and how are the missiles getting through?",
+          "description": "Attacks by Iran-backed group come amid counteroffensive by Yemeni government supported by Riyadh",
+          "link": "https://www.theguardian.com/world/2026/oct/12/why-are-the-houthis-attacking-saudi-airports-riyadh-yemen",
+          "published": "2026-10-12T13:41:17.000Z",
+          "categories": [
+            "Yemen",
+            "Saudi Arabia",
+            "Houthis",
+            "Iran",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-13-1ewe819",
+      "topic": "world",
+      "title": "US federal agents search home of Trump critic Ilhan Omar",
+      "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 12,
+      "score": 23.18,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+          "description": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
+          "link": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+          "published": "2026-10-13T11:08:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Morning news brief",
+          "description": "Trump will headline a rally in Alaska Tuesday, federal agents searched Rep. Ilhan Omar's D.C. home Monday, Trump's diesel deal with Russia frustrates European leaders.",
+          "link": "https://www.npr.org/2026/10/13/nx-s1-5998694/morning-news-brief",
+          "published": "2026-10-13T08:46:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Immigration agents search congresswoman Ilhan Omar's home",
+          "description": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
+          "link": "https://www.bbc.co.uk/news/articles/cvp8glg97393o",
+          "published": "2026-10-13T10:37:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US federal agents search home of Trump critic Ilhan Omar",
+          "description": "Justice Department officials said the Washington residence of Democratic Congresswoman Ilhan Omar, an outspoken opponent of President Trump, was raided as \"part of an ongoing federal investigation.\"",
+          "link": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-12T15:12:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US immigration authorities raid home of Democratic Trump critic Ilhan Omar",
+          "description": "US authorities raided the Washington home of Democratic Representative Ilhan Omar on Monday as part of an ongoing investigation into alleged immigration fraud, according to reports. The probe reportedly includes immigration paperwork completed by her late father when she was a child. Omar accused the Trump administration of using government institutions to target political opponents, describing th",
+          "link": "https://www.france24.com/en/us-immigration-authorities-raid-home-of-democratic-trump-critic-ilhan-omar",
+          "published": "2026-10-13T09:57:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Congresswoman insists she will not be 'silenced' after federal agents raid her home",
+          "description": "Congresswoman Ilhan Omar said she will \"not be silenced\" after her home was raided by federal agents, calling it the \"latest escalation\" in President Donald Trump's \"intimidation\" campaign.",
+          "link": "https://news.sky.com/story/congresswoman-insists-she-will-not-be-silenced-after-federal-agents-raid-her-home-13598219",
+          "published": "2026-10-12T14:11:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Rep. Ilhan Omar’s residence searched as part of ongoing criminal investigation: DOJ",
+          "description": "A Department of Justice spokesperson said the search was part of an ongoing criminal investigation.",
+          "link": "https://abcnews.com/US/rep-ilhan-omars-residence-searched-part-ongoing-criminal/story?id=137192001",
+          "published": "2026-10-12T19:53:26.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump targets Ilhan Omar at rally following raid on her home – US politics live",
+          "description": "President says Somalia, birthplace of the Minnesota Democratic congresswoman, is ‘one of the worst countries on the planet’",
+          "link": "https://www.theguardian.com/us-news/live/2026/oct/13/donald-trump-ilhan-omar-katie-zacharia-alaska-midterms-latest-news-updates",
+          "published": "2026-10-13T11:10:50.000Z",
+          "categories": [
+            "Donald Trump",
+            "US news",
+            "Trump administration",
+            "US politics",
+            "Alaska",
+            "Texas",
+            "Maine"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "First Thing: Democratic leaders condemn federal raid on Ilhan Omar as she vows not to be silenced",
+          "description": "Minnesota congresswoman criticized raid as attempt by Trump administration ‘to target political enemies and weaponize law enforcement’. Plus what is to be done about the world record in the women’s marathon? Good morning. Ilhan Omar has said she will not be silenced after federal agents raided her home. In a social media post, the Minnesota congresswoman criticized the raid as an attempt by the Tr",
+          "link": "https://www.theguardian.com/us-news/2026/oct/13/first-thing-democratic-leaders-condemn-federal-raid-ilhan-omar",
+          "published": "2026-10-13T10:55:22.000Z",
+          "categories": [
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "4 takeaways from the pre-election raid on Omar's home",
+          "description": "In today's issue: ▪ Agents search Ilhan Omar’s home ▪ Zelensky leads backlash to diesel deal ▪ Judge slams DOJ over tree cutting ▪ Iran likely responsible for air base incident Federal agents searched the Washington-area home of Rep. Ilhan Omar (D-Minn.) before dawn Monday in a major escalation of the Trump administration’s probe of...",
+          "link": "https://thehill.com/newsletters/morning-report/6144650-4-takeaways-ilhan-omar-raid-washington-trump-administration/",
+          "published": "2026-10-13T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
+          "description": "The Minnesota Democrat, a Muslim who was born in Somalia, has been targeted for criticism in the past by President Donald Trump.",
+          "link": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html",
+          "published": "2026-10-12T18:29:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ilhan Omar immigration history: Scrutiny surrounds family’s refugee claims",
+          "description": "A raid of the home of Rep. Ilhan Omar (D-MN) on Monday morning by federal agents, reportedly as part of an immigration fraud probe, is raising fresh questions about the circumstances of her family’s arrival in the United States more than 30 years ago. Sources told Fox News that the early-morning search of Omar’s residence",
+          "link": "https://www.washingtonexaminer.com/policy/immigration/4763594/ilhan-omar-immigration-history-scrutiny-family-refugee-claims/",
+          "published": "2026-10-13T10:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘An attempt to target political enemies’: Fury as US agents search anti-Trump lawmaker’s home",
+          "description": "Ilhan Omar accused the administration of targeting opponents before her November re-election.",
+          "link": "https://www.straitstimes.com/world/united-states/an-attempt-to-target-political-enemies-fury-as-us-agents-search-anti-trump-lawmakers-home",
+          "published": "2026-10-13T02:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rep. Omar accuses Trump of political intimidation after agents search her home",
+          "description": "Federal agents searched the Washington, D.C., home of Minnesota Democratic Congresswoman Ilhan Omar early Monday. Agents with Homeland Security Investigations were seen carrying boxes from the home. Rep. Omar accused the Trump administration of political intimidation. Geoff Bennett discussed more with Devlin Barrett, a New York Times reporter and author of \"The Department of Revenge.\"",
+          "link": "https://www.pbs.org/newshour/show/rep-omar-accuses-trump-of-political-intimidation-after-agents-search-her-home",
+          "published": "2026-10-12T22:55:20.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-13-1clkjeb",
+      "topic": "world",
+      "title": "Emergency call about Christa Pike’s botched execution released",
+      "summary": "Tennessee has had two botched executions in 2026, including Pike’s.",
+      "headlineSource": "Euronews",
+      "sourceCount": 9,
+      "score": 20.11,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 1,
+        "specialistShare": 0.11,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US emergency call records reveal confusion after failed execution of Christa Pike",
+          "description": "The killer of Colleen Slemmer was ultimately taken to hospital after two doses of lethal injection did not kill her.",
+          "link": "https://www.bbc.co.uk/news/articles/ck1exg6qjdz3o",
+          "published": "2026-10-13T09:11:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Newly released 911 calls capture confusion after Christa Pike's botched execution",
+          "description": "One of Pike's attorneys also called 911 to report that Pike is \"still alive and breathing, and needs immediate life-saving care,\" according to audio of the call.",
+          "link": "https://abcnews.com/US/911-calls-released-christa-pikes-botched-execution-person/story?id=137206702",
+          "published": "2026-10-13T02:12:39.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Attorneys warned of difficulty accessing Christa Pike’s veins: Report",
+          "description": "Christa Pike regained consciousness and was speaking days after receiving two doses of execution drugs.",
+          "link": "https://thehill.com/homenews/state-watch/6144163-christa-pike-tennessee-execution-difficult-veins/",
+          "published": "2026-10-13T11:09:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "911 dispatcher assumed call that Christa Pike had survived her execution was a ‘prank’",
+          "description": "Authorities were baffled when they received a 911 call from Tennessee prison officials requesting medical help for convicted killer Christa Pike after she survived her botched execution — with one dispatcher believing it was someone “prank calling” them, according to new audio.",
+          "link": "https://nypost.com/2026/10/13/us-news/911-dispatcher-assumed-call-that-christa-pike-had-survived-her-execution-was-a-prank/",
+          "published": "2026-10-13T11:22:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Calls show how confusion delayed emergency response for death row inmate Christa Pike",
+          "description": "Tennessee has had two botched executions in 2026, including Pike’s.",
+          "link": "https://www.straitstimes.com/world/united-states/calls-show-how-confusion-delayed-emergency-response-for-death-row-inmate-christa-pike",
+          "published": "2026-10-13T02:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Emergency call about Christa Pike’s botched execution released",
+          "description": "A newly released emergency call recording reveals confusion among Tennessee prison officials and dispatchers after Christa Pike survived a lethal injection attempt.",
+          "link": "https://www.euronews.com/2026/10/13/emergency-call-about-christa-pikes-botched-execution-released",
+          "published": "2026-10-13T11:05:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Emergency help for Christa Pike was delayed by confusion after failed execution, 911 calls reveal",
+          "description": "The recordings show that precious minutes elapsed as officials and responders tried to figure out whether a request for emergency help in the execution chamber was legitimate.",
+          "link": "https://www.pbs.org/newshour/nation/emergency-help-for-christa-pike-was-delayed-by-confusion-after-failed-execution-911-calls-reveal",
+          "published": "2026-10-12T21:42:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Newly-released 911 calls from Christa Pike’s botched execution exposes confusion among prison officials",
+          "description": "Pike was discharged from the hospital and is back at the women’s prison where she was housed for 30 years",
+          "link": "https://www.independent.co.uk/news/world/americas/christa-pike-911-call-delay-failed-execution-b3065536.html",
+          "published": "2026-10-13T08:41:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Opinion: Lethal injection will never be the same after Christa Pike’s botched execution",
+          "description": "“The legal and medical issues in the Christa Pike case are on a collision course,” writes bioethicist M. Sara Rosenthal.",
+          "link": "https://www.statnews.com/2026/10/13/christa-pike-botched-execution-bioethics-end-of-lethal-injection/",
+          "published": "2026-10-13T08:30:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-13-13bgbfz",
+      "topic": "world",
+      "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+      "summary": "Major French supermarket chains on Monday said they were hit by a cyberattack that caused their refrigerators to shoot up in temperature in hundreds of stores, forcing spoiled food to be thrown away and raising concerns about food security.",
+      "headlineSource": "France 24",
+      "sourceCount": 8,
+      "score": 19.09,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 1,
+        "specialistShare": 0.13,
+        "votes": {
+          "tech": 1,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "description": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
+          "link": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo",
+          "published": "2026-10-12T18:31:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hundreds of French supermarkets hit by a cyberattack that defrosted refrigeration systems",
+          "description": "Hundreds of French supermarkets saw their refrigeration systems defrosted, spoiling tons of frozen food. The unprecedented attack has raised serious questions about food security across Europe.",
+          "link": "https://www.dw.com/en/hundreds-of-french-supermarkets-hit-by-a-cyberattack-that-defrosted-refrigeration-systems/a-79646097?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-12T18:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+          "description": "Major French supermarket chains on Monday said they were hit by a cyberattack that caused their refrigerators to shoot up in temperature in hundreds of stores, forcing spoiled food to be thrown away and raising concerns about food security.",
+          "link": "https://www.france24.com/en/video/20261013-hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food",
+          "published": "2026-10-13T11:13:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Cyberattack hits hundreds of French supermarkets, spoiling millions of euros in food",
+          "description": "Hundreds of supermarkets across France have been targeted in an unprecedented cyberattack that remotely altered the temperatures of fridges and freezers, causing large quantities of fresh and frozen food to spoil. Major retailers, including Carrefour, Monoprix, E.Leclerc and Coopérative U, were affected, with the Les Mousquetaires group reporting around 300 impacted stores. Losses could reach seve",
+          "link": "https://www.france24.com/en/cyberattack-hits-hundreds-of-french-supermarkets-spoiling-millions-of-euros-in-food",
+          "published": "2026-10-13T09:15:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "French supermarkets suffer refrigerator shutdown after 'unprecedented' cyberattack",
+          "description": "Major French supermarket chains on Monday said they were hit by a cyberattack that caused their refrigerators to shoot up in temperature in hundreds of stores, forcing spoiled food to be thrown away and raising concerns about food security. FRANCE 24's Selina Sykes reports.",
+          "link": "https://www.france24.com/en/french-supermarkets-suffer-refrigerator-shutdown-after-unprecedented-cyberattack",
+          "published": "2026-10-12T21:27:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "French supermarket fridges heated to 50C in cyber attack - causing fires and food losses",
+          "description": "Hackers carried out a cyber attack on hundreds of French supermarkets overnight - pushing temperatures in fridges up to 50C and sparking fires.",
+          "link": "https://news.sky.com/story/hackers-heat-french-supermarket-fridges-to-50c-in-large-scale-cyber-attack-13598252",
+          "published": "2026-10-12T15:56:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hackers heat up refrigerators at hundreds of supermarkets",
+          "description": "The cyberattack caused refrigerators to shoot up in temperature in hundreds of stores, sparking fires and forcing spoiled food to be thrown away.",
+          "link": "https://www.cbsnews.com/news/cyberattack-supermarkets-refrigerators-france-fires-food-losses/",
+          "published": "2026-10-12T17:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+          "description": "Hackers targeted hundreds of French supermarkets in a large-scale cyberattack, causing refrigerators to overheat, spoiling food, and sparking fires.",
+          "link": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+          "published": "2026-10-13T09:03:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Fridges heated to 50°C, food destroyed: Hundreds of shops in France hit by cyberattack",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/europe/unprecedented-cyberattack-hits-hundreds-of-france-shops-forces-fridges-to-defrost/articleshow/134913802.cms",
+          "published": "2026-10-13T09:43:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "French supermarket director apologises after cyber-attack spoils fresh and frozen food - video",
+          "description": "A cyber-attack caused refrigeration temperatures to soar to 50C overnight on Monday across several hundred French supermarkets, with widespread food losses reported. At Intermarché La Haye, the attack caused fridge temperatures to reach 27C (80F), spoiling fresh and frozen food, according to store director Julien Freret. 'Today, we have a total loss of fresh and frozen,' Freret said, apologising t",
+          "link": "https://www.theguardian.com/technology/video/2026/oct/13/french-supermarket-director-apologises-after-cyber-attack-spoils-fresh-and-frozen-food-video",
+          "published": "2026-10-13T02:57:06.000Z",
+          "categories": [
+            "Cybercrime",
+            "Europe",
+            "France"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "French supermarket director apologises after cyber-attack spoils fresh and frozen food - video",
+          "description": "A cyber-attack caused refrigeration temperatures to soar to 50C overnight on Monday across several hundred French supermarkets, with widespread food losses reported. At Intermarché La Haye, the attack caused fridge temperatures to reach 27C (80F), spoiling fresh and frozen food, according to store director Julien Freret. 'Today, we have a total loss of fresh and frozen,' Freret said, apologising t",
+          "link": "https://www.theguardian.com/technology/video/2026/oct/13/french-supermarket-director-apologises-after-cyber-attack-spoils-fresh-and-frozen-food-video",
+          "published": "2026-10-13T02:57:06.000Z",
+          "categories": [
+            "Cybercrime",
+            "Europe",
+            "France"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-13-1qbiqya",
+      "topic": "tech",
+      "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+      "summary": "The International Monetary Fund (IMF) forecasts that global economic output will slow to 3.1% this year in spite of geopolitical disruptions, but warns that high inflation and AI share valuations could be risks for financial stability. Also in this edition…",
+      "headlineSource": "CNBC",
+      "sourceCount": 5,
+      "score": 16.68,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 5,
+        "wire": 1.6,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "business",
+        "reconciled": "business -> tech by headline",
+        "outlets": 5,
+        "specialistOutlets": 4,
+        "specialistShare": 0.8,
+        "votes": {
+          "tech": 1,
+          "business": 4,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "IMF global economic forecast shows 'resilience under strain'",
+          "description": "The International Monetary Fund (IMF) forecasts that global economic output will slow to 3.1% this year in spite of geopolitical disruptions, but warns that high inflation and AI share valuations could be risks for financial stability. Also in this edition: Russia says it has exported $320 billion worth of oil and gas to European countries since the start of the full-scale invasion of Ukraine in 2",
+          "link": "https://www.france24.com/en/tv-shows/business/20261013-imf-global-economic-forecast-shows-resilience-under-strain",
+          "published": "2026-10-13T09:32:37.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "IMF upgrades 2026 global growth forecast but war and debt threaten outlook",
+          "description": "The IMF has raised its 2026 global growth forecast slightly to 3.1%, citing the resilience of advanced economies despite rising energy prices caused by the Iran war. But it warned that poorer countries that are not benefiting from the AI boom remain particularly vulnerable to energy shocks, economic uncertainty and mounting debt.",
+          "link": "https://www.france24.com/en/business/20261013-imf-upgrades-2026-global-growth-forecast-but-war-and-debt-threaten-outlook",
+          "published": "2026-10-13T03:57:42.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "IMF warns global economy ‘could soon test the limits of resilience’",
+          "description": "World Economic Outlook says states’ oil stocks are low and budgets are overstretched, as it upgrades UK GDP growth forecast for 2026 Threat of AI share crash puts world financial stability at risk, says IMF The global economy “could soon test the limits of resilience”, as emergency oil stocks run low and government budgets become overstretched, the International Monetary Fund has warned. In its tw",
+          "link": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026",
+          "published": "2026-10-13T02:00:11.000Z",
+          "categories": [
+            "International Monetary Fund (IMF)",
+            "World Bank",
+            "Business",
+            "Economics",
+            "Global economy",
+            "World news",
+            "Oil",
+            "Commodities",
+            "Inflation",
+            "Energy",
+            "Energy industry",
+            "Middle East and north Africa",
+            "Kristalina Georgieva",
+            "Environment",
+            "AI (artificial intelligence)",
+            "Stock markets",
+            "US-Israel war on Iran",
+            "Computing",
+            "Technology sector",
+            "Iran"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+          "description": "The IMF raised its 2026 global growth forecast to 3.1%, warning that resilience is tested by energy constraints and looming fiscal risks.",
+          "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+          "published": "2026-10-13T04:10:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "AI cyberattack could bring global financial system to a screeching halt, warns IMF",
+          "description": "The global financial system must be on the alert for an AI driven cyberattack that could bring it to a screeching halt, the IMF has warned.",
+          "link": "https://www.dailymail.com/money/markets/article-16203379/AI-cyberattack-bring-global-financial-screeching-halt-warns-IMF.html",
+          "published": "2026-10-13T03:15:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "AI investment props up global growth, but war and debt threaten outlook, IMF says",
+          "description": "The International Monetary Fund noted a growing divergence between countries benefiting from artificial intelligence and those bypassed by it.",
+          "link": "https://www.japantimes.co.jp/business/2026/10/13/economy/ai-investment-global-growth-imf/",
+          "published": "2026-10-13T04:04:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "description": "High valuations and debt put sector in danger, while fund also warns on government borrowing and cyber-attacks IMF warns global economy ‘could soon test the limits of resilience’ The threat of an AI share price crash rippling out across global markets is putting world financial stability at risk, the International Monetary fund has warned. In its twice-yearly Global Financial Stability Report, the",
+          "link": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "published": "2026-10-13T03:15:12.000Z",
+          "categories": [
+            "Economics",
+            "Stock markets",
+            "Technology sector",
+            "International Monetary Fund (IMF)",
+            "Business",
+            "AI (artificial intelligence)",
+            "Technology",
+            "UK news",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "IMF warns global economy ‘could soon test the limits of resilience’",
+          "description": "World Economic Outlook says states’ oil stocks are low and budgets are overstretched, as it upgrades UK GDP growth forecast for 2026 Threat of AI share crash puts world financial stability at risk, says IMF The global economy “could soon test the limits of resilience”, as emergency oil stocks run low and government budgets become overstretched, the International Monetary Fund has warned. In its tw",
+          "link": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026",
+          "published": "2026-10-13T02:00:11.000Z",
+          "categories": [
+            "International Monetary Fund (IMF)",
+            "World Bank",
+            "Business",
+            "Economics",
+            "Global economy",
+            "World news",
+            "Oil",
+            "Commodities",
+            "Inflation",
+            "Energy",
+            "Energy industry",
+            "Middle East and north Africa",
+            "Kristalina Georgieva",
+            "Environment",
+            "AI (artificial intelligence)",
+            "Stock markets",
+            "US-Israel war on Iran",
+            "Computing",
+            "Technology sector",
+            "Iran"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-13-jy9jsl",
+      "topic": "business",
+      "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+      "summary": "Two American economists, Robert E. Hall of Stanford University and Michael Woodford of Columbia University, have won the Nobel Memorial Prize in Economic Sciences for their work on economic stabilisation. Their research helps policymakers and central banks…",
+      "headlineSource": "Guardian Business",
+      "sourceCount": 5,
+      "score": 16.47,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What ice cream has to do with this year's Nobel Prize in economics",
+          "description": "Prices can get sticky. That helps explain why recessions hurt so much — and what policymakers can do about them.",
+          "link": "https://www.npr.org/sections/planet-money/2026/10/13/g-s1-147816/what-ice-cream-has-to-do-with-this-years-nobel-prize-in-economics",
+          "published": "2026-10-13T10:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US economists win Nobel for research helping policymakers navigate crises",
+          "description": "Two American economists, Robert E. Hall of Stanford University and Michael Woodford of Columbia University, have won the Nobel Memorial Prize in Economic Sciences for their work on economic stabilisation. Their research helps policymakers and central banks better understand economic fluctuations, manage recessions and inflation, and account for public expectations when shaping economic policy. The",
+          "link": "https://www.france24.com/en/us-economists-win-nobel-for-research-helping-policymakers-navigate-crises",
+          "published": "2026-10-13T10:04:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Robert E. Hall and Michael Woodford Awarded Nobel for Economics",
+          "description": "Robert E. Hall and Michael Woodford were awarded the prize for insights that helped policymakers become “better equipped to deal with shocks in the economy,” the committee said.",
+          "link": "https://www.nytimes.com/2026/10/12/business/nobel-prize-economics.html",
+          "published": "2026-10-12T19:01:19.000Z",
+          "categories": [
+            "Nobel Prizes",
+            "Economics (Theory and Philosophy)",
+            "Woodford, Michael D (Economist)",
+            "Hall, Robert E (Economist)"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nobel Prize for economics awarded to Hall and Woodford for work on ‘smoothing’ crises",
+          "description": "US economists developed models that help central bankers and finance ministers to stabilise their economies Business live – latest updates Two US economists have won the 2026 Nobel economics prize for their work developing models that help central bankers and finance ministers to stabilise their countries, avoiding long recessions and runaway inflation. Robert Hall of Stanford University, Californ",
+          "link": "https://www.theguardian.com/world/2026/oct/12/nobel-prize-for-economics-hall-woodford-new-keynesian-models",
+          "published": "2026-10-12T14:20:53.000Z",
+          "categories": [
+            "Nobel economics prize",
+            "Economics",
+            "Business",
+            "UK news",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nature",
+          "outlet": "nature",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "science",
+          "title": "Economics Nobel awarded for work on stabilizing economies in crisis",
+          "description": "Nature, Published online: 12 October 2026; doi:10.1038/d41586-026-03251-4 Laureates share award that builds on the theories that contributed to governments intervening during the COVID-19 pandemic.",
+          "link": "https://www.nature.com/articles/d41586-026-03251-4",
+          "published": "2026-10-12T00:00:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-13-u8ly3p",
+      "topic": "tech",
+      "title": "AI is less regulated than milk, says Microsoft president",
+      "summary": "Brad Smith said there should also be a legal requirement for companies to write \"incident reports\".",
+      "headlineSource": "BBC Technology",
+      "sourceCount": 4,
+      "score": 15.74,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5,
+        "wire": 1.6,
+        "freshness": 2.17,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 3,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Microsoft president says milk faces more regulation than AI",
+          "description": "Brad Smith said there should also be a legal requirement for companies to write \"incident reports\".",
+          "link": "https://www.straitstimes.com/world/europe/microsoft-president-says-milk-faces-more-regulation-than-ai",
+          "published": "2026-10-13T07:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+          "description": "Brad Smith adds to calls for tougher rules for AI, including ‘kill switches’ and legal obligation to victims of rogue agents Business live – latest updates Artificial intelligence is less regulated than milk and washing machines, the president of Microsoft has said, as the tech industry warns over the safety of AI. Brad Smith said there should be more safety rules to govern the technology includin",
+          "link": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+          "published": "2026-10-12T07:52:46.000Z",
+          "categories": [
+            "AI (artificial intelligence)",
+            "Technology sector",
+            "Computing",
+            "Microsoft",
+            "Business",
+            "Technology policy"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "AI is less regulated than milk, says Microsoft president",
+          "description": "Brad Smith calls for global rules on AI, and says the UK is in the \"best position\" to lead the charge.",
+          "link": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
+          "published": "2026-10-12T07:47:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Microsoft president says AI faces fewer safety rules than milk in call for global regulation",
+          "description": "Brad Smith says AI faces fewer safety rules than milk or washing machines, calling for global regulation with emergency brakes and incident reports.",
+          "link": "https://www.foxbusiness.com/technology/microsoft-president-says-ai-faces-fewer-safety-rules-than-milk-call-global-regulation",
+          "published": "2026-10-12T21:55:52.000Z",
+          "categories": [
+            "02902652-ff89-5f44-9973-cf1ce58384b4",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/technology",
+            "fox-business/organization/microsoft",
+            "fox-business/magnificent-7-stocks",
+            "fox-business/technology",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-13-18f8osl",
+      "topic": "business",
+      "title": "As import curbs loom, Chinese carmakers make a stand at Paris Motor Show",
+      "summary": "No Chinese carmakers were represented at a dinner on Sunday attended by French President Emmanuel Macron and around 60 European automotive industry players, but they were hard to miss when he visited the Paris Motor Show the next day. Allianz Trade said in a…",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 4,
+      "score": 14.93,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "description": "Brussels uses WTO rules to quickly impose quota, which will halve Chinese market share to 3% Business live – latest updates VW boss backs EU plan to bolster domestic industry The EU is to limit the number of hybrid electric vehicles imported from China to 350,000 cars a year, the European Commission has confirmed. Imports have been soaring in the past two years; about 800,000 battery and plug-in h",
+          "link": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+          "published": "2026-10-12T11:23:55.000Z",
+          "categories": [
+            "Electric, hybrid and low-emission cars",
+            "Automotive industry",
+            "Business",
+            "International trade",
+            "European Union",
+            "Europe",
+            "China",
+            "World Trade Organization",
+            "Tariffs",
+            "Asia Pacific",
+            "Global economy",
+            "Economics"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "As import curbs loom, Chinese carmakers make a stand at Paris Motor Show",
+          "description": "No Chinese carmakers were represented at a dinner on Sunday attended by French President Emmanuel Macron and around 60 European automotive industry players, but they were hard to miss when he visited the Paris Motor Show the next day. Allianz Trade said in a report that Chinese marques comprised half the exhibitors at this year’s show, even as they dealt with the fallout from a China-EU agreement ",
+          "link": "https://www.scmp.com/economy/china-economy/article/3370746/import-curbs-loom-chinese-carmakers-make-stand-paris-motor-show",
+          "published": "2026-10-13T11:00:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Europeans Have a Love-Hate Relationship With Chinese Cars",
+          "description": "Consumers across the continent increasingly want to buy low-cost Chinese vehicles. Policymakers are seeking to slow them down.",
+          "link": "https://www.nytimes.com/2026/10/12/business/europe-china-evs-hybrids.html",
+          "published": "2026-10-12T16:26:06.000Z",
+          "categories": [
+            "Electric and Hybrid Vehicles",
+            "Automobiles",
+            "International Trade and World Market",
+            "Customs (Tariff)",
+            "Bayerische Motorenwerke AG",
+            "BYD Co Ltd",
+            "European Union",
+            "Xiaomi Tech",
+            "Zhejiang Leapmotor Technology Co Ltd",
+            "Europe",
+            "China"
+          ]
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "EU to limit Chinese hybrid vehicle imports to 350,000 a year",
+          "description": "Brussels uses WTO rules to quickly impose quota, which will halve Chinese market share to 3% Business live – latest updates VW boss backs EU plan to bolster domestic industry The EU is to limit the number of hybrid electric vehicles imported from China to 350,000 cars a year, the European Commission has confirmed. Imports have been soaring in the past two years; about 800,000 battery and plug-in h",
+          "link": "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles",
+          "published": "2026-10-12T11:23:55.000Z",
+          "categories": [
+            "Electric, hybrid and low-emission cars",
+            "Automotive industry",
+            "Business",
+            "International trade",
+            "European Union",
+            "Europe",
+            "China",
+            "World Trade Organization",
+            "Tariffs",
+            "Asia Pacific",
+            "Global economy",
+            "Economics"
+          ]
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Chinese woman buys 200 parking spaces, doubles rent and wins legal battle",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/rest-of-world/chinese-woman-buys-around-200-parking-spaces-in-bulk-charges-double-the-original-rent-and-wins-legal-battle-with-neighbours/articleshow/134913130.cms",
+          "published": "2026-10-13T09:10:31.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-13-dfyg4v",
+      "topic": "health",
+      "title": "Pennsylvania reports its sixth measles death this year. RFK Jr’s CDC still says it’s two",
+      "summary": "A woman in Pennsylvania has died after contracting measles, marking the state's sixth death from the virus this year.",
+      "headlineSource": "The Independent",
+      "sourceCount": 3,
+      "score": 12.18,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 1.73,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 3,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 1,
+          "business": 0,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pennsylvania reports its sixth measles death this year. RFK Jr’s CDC still says it’s two",
+          "description": "More than 4,000 measles cases have been confirmed nationwide this year",
+          "link": "https://www.independent.co.uk/news/health/measles-death-pennsylvania-outbreak-b3065444.html",
+          "published": "2026-10-13T01:51:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
+          "description": "As of Friday, state health officials reported 1,136 cases across 41 counties.",
+          "link": "https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/",
+          "published": "2026-10-12T21:54:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Sixth measles-associated death recorded in America as outbreak spirals... and death toll hits worst tally in 35 years",
+          "description": "A woman in Pennsylvania has died after contracting measles, marking the state's sixth death from the virus this year.",
+          "link": "https://www.dailymail.com/health/article-16203199/measles-death-pennsylvania-america-outbreak.html",
+          "published": "2026-10-12T19:42:05.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
