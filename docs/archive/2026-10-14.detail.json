@@ -1,0 +1,1845 @@
+{
+  "edition": "2026-10-14",
+  "generatedAt": "2026-10-14T09:17:11.426Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-14-19sd1s2",
+      "topic": "tech",
+      "title": "Saudi employee charged with planting recording device in OpenAI office",
+      "summary": "A Saudi national employed by the artificial intelligence lab has been arrested after a listening device was planted in a company conference room.",
+      "headlineSource": "BBC News",
+      "sourceCount": 11,
+      "score": 22.67,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.31,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 5,
+        "specialistShare": 0.45,
+        "votes": {
+          "tech": 4,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi employee charged with planting recording device in OpenAI office",
+          "description": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+          "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
+          "published": "2026-10-13T21:42:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi-born engineer for OpenAI arrested for planting listening bug",
+          "description": "OpenAI says it discovered a hidden recording device in one of its offices, wrapped in toilet paper behind a television.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
+          "published": "2026-10-14T04:16:13.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "OpenAI says employee caught planting listening device",
+          "description": "A Saudi national employed by the artificial intelligence lab has been arrested after a listening device was planted in a company conference room.",
+          "link": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-13T21:24:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "FBI arrests Saudi OpenAI employee for allegedly bugging San Francisco office",
+          "description": "The FBI said on Wednesday it has arrested a Saudi national employed as an engineer at OpenAI on suspicions that he had bugged a conference room at the company's San Francisco office with a \"sophisticated recording device\".",
+          "link": "https://www.france24.com/en/americas/20261013-fbi-arrests-saudi-openai-employee-for-allegedly-bugging-san-francisco-office",
+          "published": "2026-10-13T23:49:41.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+          "description": "The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.",
+          "link": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+          "published": "2026-10-14T00:13:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi engineer accused of planting secret listening device inside OpenAI HQ",
+          "description": "An engineer at OpenAI has been charged with secretly installing a recording device inside a conference room in what officials say was an effort to capture sensitive conversations about the company’s technology",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/openai-engineer-abdulrahman-alfozan-device-b3066385.html",
+          "published": "2026-10-14T07:14:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+          "description": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department",
+          "link": "https://www.theverge.com/?p=1010642",
+          "published": "2026-10-13T20:45:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Saudi OpenAI employee arrested after recording device found in headquarters",
+          "description": "Discovery of ‘sophisticated’ gadget adds to company’s list of privacy concerns after hackings by rogue agents OpenAI said it has found a hidden recording device in one of its offices and has referred the matter to the FBI. One of its employees has been arrested. In a statement on Tuesday, the San Francisco-based AI company said it discovered the “sophisticated recording device” and used one of its",
+          "link": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+          "published": "2026-10-13T22:59:55.000Z",
+          "categories": [
+            "OpenAI",
+            "AI (artificial intelligence)",
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "F.B.I. Arrests OpenAI Employee Accused of Planting Bug in Office",
+          "description": "OpenAI said that the employee had placed a device built to evade detection and that he had planned to secretly record meetings in other sensitive spaces.",
+          "link": "https://www.nytimes.com/2026/10/13/technology/openai-worker-arrested-bugging.html",
+          "published": "2026-10-14T01:33:22.000Z",
+          "categories": [
+            "OpenAI Labs",
+            "Altman, Samuel H",
+            "Federal Bureau of Investigation",
+            "Artificial Intelligence",
+            "Science and Technology"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "OpenAI says it found a 'hidden' recording device planted in its office",
+          "description": "OpenAI said a \"sophisticated recording device\" was found in one of its offices and that the company's own models identified the person who planted it.",
+          "link": "https://www.businessinsider.com/openai-security-threats-hidden-recording-device-planted-offices-2026-10",
+          "published": "2026-10-14T00:46:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Saudi national accused of planting recording device in OpenAI executive conference room",
+          "description": "Federal prosecutors allege the device was planted in a conference room used for confidential discussions about OpenAI's proprietary research, product plans and business opportunities.",
+          "link": "https://www.foxbusiness.com/technology/saudi-national-accused-planting-recording-device-openai-executive-conference-room",
+          "published": "2026-10-13T22:48:46.000Z",
+          "categories": [
+            "5819585d-f824-59d5-99ff-24b697914876",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology",
+            "fox-business/topic/artificial-intelligence",
+            "fox-news/fox-news-tech/fox-news-companies",
+            "fox-business/money/crime",
+            "fox-news/fox-news-travel/fox-news-vacation-destinations/fox-news-san-francisco",
+            "fox-news/fox-news-tech/fox-news-topics/fox-news-fbi",
+            "fox-business/technology",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-14-baah3e",
+      "topic": "world",
+      "title": "Vatican confirms Pope Leo underwent surgery for lung cancer",
+      "summary": "Pope Leo XIV had surgery on Tuesday to remove a cancerous growth in his lung, the Vatican announced.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 12,
+      "score": 21.21,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 1,
+        "specialistShare": 0.08,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo has lung cancer, the Vatican says",
+          "description": "Pope Leo XIV had surgery on Tuesday to remove a cancerous growth in his lung, the Vatican announced.",
+          "link": "https://www.npr.org/2026/10/14/nx-s1-6000650/pope-leo-has-lung-cancer-the-vatican-says",
+          "published": "2026-10-14T08:43:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo has lung cancer, the Vatican announces after surgery",
+          "description": "Pope Leo XIV had surgery on Tuesday to remove a cancerous growth in his lung, the Vatican announced.",
+          "link": "https://www.npr.org/2026/10/13/g-s1-147968/pope-leo-has-lung-cancer-vatican-announces",
+          "published": "2026-10-13T22:29:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+          "description": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
+          "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o",
+          "published": "2026-10-14T08:53:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Vatican confirms Pope Leo underwent surgery for lung cancer",
+          "description": "The pope has had part of his lung removed and is recovering after surgery. Leo has been unusually candid for a pontiff about his health issues, disclosing the surgery to thousands of people in St. Peter's Square.",
+          "link": "https://www.dw.com/en/vatican-confirms-pope-leo-underwent-surgery-for-lung-cancer/a-79647264?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-13T19:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about Pope Leo XIV's lung cancer diagnosis",
+          "description": "Pope Leo underwent surgery on Tuesday to remove a cancerours tumour from his right lung after saying that a nodule had been \"detected at a very early stage\". Following a \"successful\" operation, the Vatican said the 71-year-old pontiff would undergo additional testing.",
+          "link": "https://www.france24.com/en/europe/20261014-what-we-know-about-pope-leo-xiv-s-lung-cancer-operation",
+          "published": "2026-10-14T03:35:41.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo has cancerous growth removed in lung operation",
+          "description": "Pope Leo XIV had a cancerous growth removed from his right lung in a 90-minute operation on Tuesday and \"woke up normally\" after the procedure, the Vatican said. A Vatican source said further tests were being carried out to determine if the cancer had spread. \"To ensure the procedure was radical, the lower lobe of the right lung was removed,\" the Vatican said in a statement. FRANCE 24's Seema Gupt",
+          "link": "https://www.france24.com/en/pope-leo-has-cancerous-growth-removed-in-lung-operation",
+          "published": "2026-10-13T21:23:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Surgery on Pope Leo's cancerous lung nodule went well, Vatican says",
+          "description": "",
+          "link": "https://www.france24.com/en/europe/20261012-what-we-know-about-pope-leo-xiv-planned-lung-operation-this-week",
+          "published": "2026-10-13T20:44:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Cancer found after Pope had part of his lung removed during 'successful' surgery",
+          "description": "The Pope has undergone surgery to treat lung cancer.",
+          "link": "https://news.sky.com/story/popes-lung-surgery-was-successful-and-went-as-planned-vatican-says-13598965",
+          "published": "2026-10-13T18:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo diagnosed with lung cancer after undergoing surgery",
+          "description": "Tests confirmed a diagnosis of lung cancer for Pope Leo XIV, the Vatican said in a medical update after he underwent surgery.",
+          "link": "https://www.cbsnews.com/news/pope-leo-diagnosed-lung-cancer-surgery/",
+          "published": "2026-10-13T23:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Details on Pope Leo XIV's lung cancer diagnosis, surgery",
+          "description": "Pope Leo XIV, the first American pope, has been diagnosed with lung cancer after surgeons removed the lower lobe of his right lung, according to the Vatican. Chris Livesay reports and Dr. David Jones, chief of thoracic surgery at the Memorial Sloan Kettering Cancer Center, has medical analysis.",
+          "link": "https://www.cbsnews.com/video/details-pope-leo-xiv-lung-cancer-diagnosis-surgery/",
+          "published": "2026-10-13T23:17:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "10/13: CBS Evening News",
+          "description": "Pope Leo was diagnosed with lung cancer, the Vatican said; Six Flags shut down 10 rides across the U.S. after a fatal fall.",
+          "link": "https://www.cbsnews.com/video/101326-cbs-evening-news/",
+          "published": "2026-10-13T22:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo's lung nodule surgery completed successfully, Vatican says",
+          "description": "Pope Leo XIV underwent a successful surgery Tuesday to remove a lung nodule, according to the Vatican.",
+          "link": "https://www.cbsnews.com/news/pope-leo-lung-nodule-surgery-successful/",
+          "published": "2026-10-13T20:22:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo set for surgery",
+          "description": "Pope Leo XIV arrived at a hospital in Rome on Tuesday for surgery to remove a nodule on his lung. Chris Livesay reports.",
+          "link": "https://www.cbsnews.com/video/pope-leo-set-for-surgery/",
+          "published": "2026-10-13T13:24:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo to be admitted to hospital Tuesday ahead of lung surgery",
+          "description": "Catholics around the world are praying for the health of Pope Leo, who revealed over the weekend that he needs to undergo lung surgery. Chris Livesay has the latest from Rome.",
+          "link": "https://www.cbsnews.com/video/pope-leo-to-be-admitted-to-hospital-tuesday-ahead-of-lung-surgery/",
+          "published": "2026-10-13T00:00:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo heads to hospital Tuesday for lung nodule surgery",
+          "description": "Pope Leo XIV​ revealed the discovery of a lung nodule during his Sunday noon prayer and said he was following doctors' advice to have it removed.",
+          "link": "https://www.cbsnews.com/news/pope-leo-hospital-lung-nodule-surgery/",
+          "published": "2026-10-13T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo diagnosed with lung cancer",
+          "description": "The Vatican says surgery to remove a nodule from Pope Leo’s lung was successful. The 71-year-old leader of the Catholic Church was found to have what is the most common form of lung cancer. NBC News’ Anne Thompson reports.",
+          "link": "https://www.nbcnews.com/nightly-news/video/pope-leo-diagnosed-with-lung-cancer-271527493650",
+          "published": "2026-10-13T23:21:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Doctor says Pope Leo has 'one of the more treatable' cancers",
+          "description": "The Vatican announced that Pope Leo has been diagnosed with lung cancer following surgery to remove a lung nodule, during which doctors removed the lower lobe of his right lung. NBC News medical contributor Dr. John Torres says that the type of cancer, ​lung adenocarcinoma, is \"one of the more treatable\" types of cancers, and a treatment course will be prescribed following more testing by the pont",
+          "link": "https://www.nbcnews.com/video/doctor-says-pope-leo-has-one-of-the-more-treatable-cancers-271520325920",
+          "published": "2026-10-13T21:39:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo Has Lung Cancer, Vatican Says",
+          "description": "The surgeons removed the lower lobe of the pope’s right lung after finding a cancerous nodule.",
+          "link": "https://www.nytimes.com/2026/10/13/world/europe/pope-leo-lung-surgery.html",
+          "published": "2026-10-14T07:27:25.000Z",
+          "categories": [
+            "Leo XIV",
+            "Cancer",
+            "Surgery and Surgeons",
+            "Gemelli Hospital (Rome, Italy)",
+            "Roman Catholic Church"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Leo XIV’s Lung Cancer Diagnosis Tests a Papacy Still Taking Shape",
+          "description": "For a pope who appeared to have time on his side, cancer has raised questions about his longevity and brought a new urgency to his plans for the Church.",
+          "link": "https://www.nytimes.com/2026/10/13/world/europe/pope-leo-health-cancer.html",
+          "published": "2026-10-14T02:42:27.000Z",
+          "categories": [
+            "Popes",
+            "Cancer",
+            "Lung Cancer",
+            "Christians and Christianity",
+            "Roman Catholic Church",
+            "Leo XIV"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo diagnosed with lung cancer after surgeons remove part of right lung, Vatican says",
+          "description": "Pope Leo XIV arrived at Gemelli Hospital in Rome for lung nodule removal after doctors said the growth was identified at a \"very early stage.\" Doctors later confirmed he had a form of lung cancer.",
+          "link": "https://www.foxnews.com/world/pope-leo-diagnosed-lung-cancer-after-surgeons-remove-part-of-right-lung-vatican",
+          "published": "2026-10-13T13:24:55.000Z",
+          "categories": [
+            "82b47749-1438-56a7-bcef-9ec8829dd658",
+            "fnc",
+            "Fox News",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/us/religion/roman-catholic",
+            "fox-news/world/religion/vatican",
+            "fox-news/us/religion",
+            "fox-news/christianity",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo had peaceful night in hospital after lung cancer surgery",
+          "description": "Further information about his condition would be released later in the day.",
+          "link": "https://www.straitstimes.com/world/europe/pope-leo-spent-peaceful-night-in-hospital-after-surgery-vatican-says",
+          "published": "2026-10-14T07:20:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about Pope Leo’s lung cancer operation",
+          "description": "He had a cancerous tumour surgically removed from his right lung.",
+          "link": "https://www.straitstimes.com/world/europe/what-we-know-about-pope-leos-lung-cancer-operation",
+          "published": "2026-10-14T04:03:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about Pope Leo's lung cancer and prognosis",
+          "description": "The Vatican says Pope Leo has lung cancer and that doctors removed the lower lobe of his right lung in a surgery that lasted roughly 90 minutes. In a statement, the Vatican called the operation \"successful\" and said there were \"no complications.\" For more on the Pope's prognosis, Geoff Bennett spoke with Dr. Omer Awan, a physician and senior public health contributor at Forbes.",
+          "link": "https://www.pbs.org/newshour/show/what-we-know-about-pope-leos-lung-cancer-and-prognosis",
+          "published": "2026-10-13T22:43:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lung adenocarcinoma: Symptoms, risk factors and prognosis after Pope Leo's diagnosis",
+          "description": "The 71-year-old pontiff was diagnosed with the most common form of lung cancer after doctors discovered a growth during a routine health check",
+          "link": "https://www.independent.co.uk/news/world/europe/pope-lung-adenocarcinoma-cancer-symptoms-prognosis-b3066425.html",
+          "published": "2026-10-14T07:50:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Vatican issues update on Pope Leo's condition after cancer surgery",
+          "description": "The 71-year-old had part of his right lung removed",
+          "link": "https://www.independent.co.uk/news/world/europe/pope-leo-lung-surgery-update-b3066384.html",
+          "published": "2026-10-14T07:27:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo diagnosed with cancer after surgery to remove lower lobe of lung",
+          "description": "Pontiff, 71, underwent a 90-minute operation on Tuesday and was subsequently diagnosed with lung adenocarcinoma",
+          "link": "https://www.independent.co.uk/news/world/europe/pope-leo-cancer-lung-adenocarcinoma-surgery-update-b3066201.html",
+          "published": "2026-10-13T23:52:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What is a lung nodule? Pope Leo undergoes surgery after cancer diagnosis",
+          "description": "The growth was spotted during a routine check-up",
+          "link": "https://www.independent.co.uk/news/world/europe/pope-leo-lung-nodule-cancer-surgery-b3066222.html",
+          "published": "2026-10-13T20:54:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_health",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "health",
+          "title": "What to know about Pope Leo's lung cancer diagnosis",
+          "description": "NPR's Steve Inskeep speaks to Dr. Otis Brawley, an oncologist at Johns Hopkins University, about the Pope's lung cancer diagnosis.",
+          "link": "https://www.npr.org/2026/10/14/nx-s1-6000696/what-to-know-about-pope-leos-lung-cancer-diagnosis",
+          "published": "2026-10-14T08:41:12.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-14-2yf8ui",
+      "topic": "world",
+      "title": "Houthis launch fresh wave of missiles across Saudi Arabia",
+      "summary": "The US leader warned he “will never forget” their attacks on Saudi Arabia.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 13,
+      "score": 20.91,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+          "description": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
+          "link": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o",
+          "published": "2026-10-14T04:20:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Blasts rock Riyadh as Houthis vow to continue striking Saudi airports, oil facilities",
+          "description": "Yemen's Iran-backed Houthis said on Wednesday they had targeted facilities belonging to Saudi oil giant Aramco as well as Riyadh airport after loud blasts rattled the Saudi capital. The Saudi-led coalition fighting the Houthis earlier said it had intercepted a missile fired towards Riyadh. Follow our liveblog for the latest updates.",
+          "link": "https://www.france24.com/en/middle-east/20261014-live-saudi-arabia-reports-aramco-building-hit-and-four-wounded-in-houthi-missile-attacks",
+          "published": "2026-10-14T03:39:11.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says Houthis trying to push up oil prices before US election",
+          "description": "The US leader warned he “will never forget” their attacks on Saudi Arabia.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-says-houthis-trying-to-push-up-oil-prices-before-us-election",
+          "published": "2026-10-14T02:35:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump blasts 'not nice' Houthis as attack hits Saudi Aramco facility",
+          "description": "An Aramco building in Dhahran caught fire, and four people were wounded by intercepted missile debris in Riyadh, as Houthi attacks continued after a strike on the capital’s airport killed 13 people in the worst attack on Saudi soil since 2015.",
+          "link": "https://www.euronews.com/2026/10/14/trump-blasts-not-nice-houthis-as-attack-hits-saudi-aramco-facility",
+          "published": "2026-10-14T08:07:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi conflict with Houthis escalates with new strikes",
+          "description": "The threat of a widening war on the Arabian Peninsula is accelerating. Houthi rebels in Yemen are again targeting Saudi infrastructure and military sites, escalating a conflict which may yet draw in other regional powers. The Saudi-led coalition launched new airstrikes on oil facilities across Houthi-controlled Yemen in response to deadly airport attacks in Riyadh. Ali Rogin reports.",
+          "link": "https://www.pbs.org/newshour/show/saudi-conflict-with-houthis-escalates-with-new-strikes",
+          "published": "2026-10-13T22:50:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "As Houthi attacks undermine Saudi security, a cautious kingdom recalibrates",
+          "description": "Weekend attacks by Yemen’s Houthi militia have largely cut Saudi Arabia off from the world. The normally cautious kingdom is accepting defensive assistance from its allies as it intensifies strikes against the Houthis.",
+          "link": "https://www.csmonitor.com/World/Middle-East/2026/1013/saudi-security-houthi-airport-attacks-iran-yemen?icid=rss",
+          "published": "2026-10-13T22:16:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthi missiles intercepted over Saudi Arabia as battles intensify",
+          "description": "Saudi Arabia says it intercepted missiles targeting Riyadh and Dhahran, with falling debris injuring people.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
+          "published": "2026-10-14T03:09:46.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis launch fresh wave of missiles across Saudi Arabia",
+          "description": "Both the Houthis and the Saudi-led coalition carried out strikes targeting energy infrastructure. Four people were injured as a result of debris of intercepted missiles in Riyadh. DW has the latest.",
+          "link": "https://www.dw.com/en/houthis-launch-fresh-wave-of-missiles-across-saudi-arabia/live-79655805?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-14T00:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia's military struggle against Houthi attacks",
+          "description": "Houthi attacks on airports and energy facilities are putting Saudi Arabia under pressure. Could a Saudi-led international military offensive succeed against the Iran-aligned Houthi militia in Yemen?",
+          "link": "https://www.dw.com/en/saudi-arabia-s-military-struggle-against-houthi-attacks/a-79650857?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-13T16:11:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump considering strikes against Houthis in Yemen after attacks on Saudi Arabia",
+          "description": "President Trump is considering launching U.S. military strikes against the Iran-backed Houthis in Yemen, following a wave of attacks on Saudi Arabia. Holly Williams reports.",
+          "link": "https://www.cbsnews.com/video/trump-considering-strikes-against-houthis-in-yemen-after-attacks-on-saudi-arabia/",
+          "published": "2026-10-12T23:56:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why advanced U.S. weapons aren’t stopping Houthi attacks in Saudi Arabia",
+          "description": "Saudi Arabia has one of the world’s most expensive and sophisticated arsenals, filled with American warplanes, missile defenses and other cutting-edge technology.",
+          "link": "https://www.nbcnews.com/world/middle-east/saudi-arabia-struggle-defend-houthis-attacks-rcna603219",
+          "published": "2026-10-13T17:55:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+          "description": "Civilians warned to leave target area near Sana’a before attacks as conflict between Riyadh and Houthi forces escalates Saudi Arabia has launched a series of strikes on a strategic oil depot on the outskirts of Yemen’s capital, Sana’a, while later on Tuesday it said it had intercepted missiles launched toward Dharan, location of the headquarters of the huge national energy company Saudi Aramco. Th",
+          "link": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+          "published": "2026-10-13T17:26:08.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "Yemen",
+            "Middle East and north Africa",
+            "Houthis",
+            "Donald Trump",
+            "Mohammed bin Salman",
+            "Iran"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Energy Giant Struck as War Spikes Between Houthis and Saudi Arabia",
+          "description": "The attack came after the Yemeni militia warned it would attack the headquarters of Aramco. The Saudi-led coalition said it was targeting Houthi capabilities.",
+          "link": "https://www.nytimes.com/2026/10/13/world/middleeast/saudi-arabia-yemen-houthis-aramco-threat.html",
+          "published": "2026-10-14T00:56:54.000Z",
+          "categories": [
+            "Houthis",
+            "Saudi Aramco",
+            "Saudi Arabia",
+            "Yemen",
+            "Riyadh (Saudi Arabia)"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why Saudi Arabia has struggled to defend its airport against recent Houthi attacks",
+          "description": "The attacks have struck Saudi airports, killed at least 14 people and forced schoolchildren and businesspeople to stay indoors",
+          "link": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-strikes-houthis-attack-airport-yemen-b3066418.html",
+          "published": "2026-10-14T08:02:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Former U.S. ambassador on Saudi Arabia's struggle to defend against Houthi attacks",
+          "description": "To discuss the escalating war between the Houthis in Yemen and Saudi Arabia, Amna Nawaz spoke with Michael Ratney. He served as U.S. ambassador to Saudi Arabia during the Biden administration and is now a senior adviser at the Center for Strategic and International Studies.",
+          "link": "https://www.pbs.org/newshour/show/former-u-s-ambassador-on-saudi-arabias-struggle-to-defend-against-houthi-attacks",
+          "published": "2026-10-13T22:45:27.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-14-1cd7djf",
+      "topic": "world",
+      "title": "Trump's Alaska Rally Takeaways as He Backs Bernadette Wilson For Governor",
+      "summary": "President Donald Trump is making an unusual campaign trip with the midterm elections looming.",
+      "headlineSource": "Newsweek",
+      "sourceCount": 8,
+      "score": 19.98,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "In Kansas, a newly-competitive Senate race tests limit of Trump's unpopular policies",
+          "description": "Kansas voters could send a Democrat to the Senate for the first time in nearly a century — and flip the governor's office back to Republican control, even in what could be a tough year for the GOP.",
+          "link": "https://www.npr.org/2026/10/14/nx-s1-5995633/kansas-senate-race-hamilton-marshall-tossup",
+          "published": "2026-10-14T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nationalreview",
+          "outlet": "nationalreview",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "The Senate Is Breaking Closer",
+          "description": "The headline Senate races have tightened, and the battlefield has widened. That means there is hope — and even more peril — for Republicans.",
+          "link": "https://www.nationalreview.com/2026/10/the-senate-is-breaking-closer/",
+          "published": "2026-10-13T10:30:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump repeats false claim about Iran’s nuclear weapons program at Alaska rally – as it happened",
+          "description": "This blog has now closed. Read the latest here",
+          "link": "https://www.theguardian.com/us-news/live/2026/oct/13/donald-trump-ilhan-omar-katie-zacharia-alaska-midterms-latest-news-updates",
+          "published": "2026-10-14T02:01:48.000Z",
+          "categories": [
+            "Trump administration",
+            "Donald Trump",
+            "US news",
+            "US politics",
+            "Alaska",
+            "Texas",
+            "Maine",
+            "US midterm elections 2026"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump heads to Alaska in a sign of how close its Senate race may be",
+          "description": "President Donald Trump is making an unusual campaign trip with the midterm elections looming.",
+          "link": "https://www.pbs.org/newshour/politics/trump-heads-to-alaska-in-a-sign-of-how-close-its-senate-race-may-be",
+          "published": "2026-10-13T20:42:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump pardons diesel mechanics for Clean Air Act violations at Alaska rally",
+          "description": "President Trump issued pardons at a campaign rally in Alaska on Tuesday for two diesel mechanics who were previously charged with and plead guilty to violating the Clean Air Act. The president signed the pardons for Zachary Czubak and Patrick Fleming on stage at the campaign event in Wasilla after he invited then up on...",
+          "link": "https://thehill.com/homenews/campaign/6147032-trump-pardons-alaska-diesel-mechanics/",
+          "published": "2026-10-14T02:12:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump pardons diesel mechanics ‘wrongfully charged’ during Biden admin at Alaska rally",
+          "description": "Trump signed the pardons for Zachary Czubak and Patrick Fleming, who both pleaded guilty in 2022 to one count of conspiracy to violate the Clean Air Act, midway through his midterm election rally.",
+          "link": "https://nypost.com/2026/10/13/us-news/trump-pardons-diesel-mechanics-wrongfully-charged-during-biden-admin-at-alaska-rally/",
+          "published": "2026-10-14T03:32:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump's Alaska Rally Takeaways as He Backs Bernadette Wilson For Governor",
+          "description": "President Donald Trump made a rare trip to Alaska 21 days before the midterms to rally support for GOP candidates.",
+          "link": "https://www.newsweek.com/trumps-alaska-rally-takeaways-as-he-issues-pardons-on-stage-12564970",
+          "published": "2026-10-14T03:49:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump pardons two truckers at Alaska rally: ‘Clean as a newborn baby’s a**’",
+          "description": "President Donald Trump pardoned two truckers Tuesday night during a campaign rally backing Sen. Dan Sullivan (R-AK) and other down-ballot Republicans in Alaska. According to the president, the two truckers in question had been “wrongly charged” by the Biden administration for fixing the engines on their trucks in ways that “violated the Democrats’ green new",
+          "link": "https://www.washingtonexaminer.com/news/white-house/4765065/trump-pardons-truckers-alaska-rally/",
+          "published": "2026-10-14T01:38:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump heads to the Last Frontier to stump for ‘the real Dan Sullivan’",
+          "description": "President Donald Trump held a rally for Sen. Dan Sullivan (R-AK) and other down-ballot Republicans in Wasilla, Alaska, Tuesday night, the first stop on a three-leg western campaign tour that will also take the president to Arizona and Montana. Democrats have circled Alaska, a typically reliable Republican state, as a winnable seat in their bid",
+          "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4765016/trump-alaska-stump-for-real-dan-sullivan/",
+          "published": "2026-10-14T02:21:04.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-14-91wz8f",
+      "topic": "world",
+      "title": "US theme park operator Six Flags shuts nine roller coasters after man dies",
+      "summary": "Police are investigating after TV footage showed riders being evacuated from the 60-metre high Goliath ride.",
+      "headlineSource": "Euronews",
+      "sourceCount": 8,
+      "score": 19.98,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 1,
+        "specialistShare": 0.13,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Horrified witnesses recount fatal rollercoaster incident at Six Flags",
+          "description": "Police say preliminary information suggests the man who died at the Georgia amusement park fell from a ride.",
+          "link": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o",
+          "published": "2026-10-13T17:10:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about the man who died falling from a Six Flags rollercoaster",
+          "description": "Hassan Jihad Ibn Kariem died on Monday after police say he was ejected from a ride at a Six Flags amusement park in Georgia.",
+          "link": "https://www.bbc.co.uk/news/articles/cke8r4nmy36qo",
+          "published": "2026-10-14T00:59:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: Witnesses describe 'traumatic' moment man fell out of Six Flags rollercoaster",
+          "description": "One person has died and others were injured after an incident at a US amusement park.",
+          "link": "https://www.bbc.co.uk/news/videos/cqy8le2mrd0po",
+          "published": "2026-10-13T23:42:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Man who died in Six Flags rollercoaster fall in Georgia was a father and educator",
+          "description": "Hassan Jihad Ibn Kariem was a father of 10-year-old daughter, and overcame two bouts of cancer, his family says Police on Tuesday identified the victim of the fatal accident at Six Flags Over Georgia as 42-year-old Hassan Jihad Ibn Kariem of Atlanta. Kariem fell to his death after being ejected from his seat and several others were injured in an incident involving a rollercoaster at the theme park",
+          "link": "https://www.theguardian.com/us-news/2026/oct/13/six-flags-rollercoaster-death",
+          "published": "2026-10-13T22:46:08.000Z",
+          "categories": [
+            "Georgia",
+            "US news",
+            "Theme parks",
+            "Atlanta"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Six Flags shares decline following deadly roller coaster incident",
+          "description": "One person died and several others were injured in an incident involving the Goliath roller coaster at Six Flags Over Georgia, according to reports.",
+          "link": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+          "published": "2026-10-13T21:18:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Six Flags ‘Goliath’ rider who fell to his death was member of roller coaster enthusiasts Facebook group",
+          "description": "The Atlanta teacher who was killed after falling from the “Goliath” Six Flags ride was a member of a roller coaster enthusiasts Facebook group. Hassan Kariem, 42, joined the public Facebook group “Roller Coaster Enthusiasts Club” on March 15 – seven months before his death at the Six Flags Over Georgia theme park. The group,...",
+          "link": "https://nypost.com/2026/10/14/us-news/hassan-kariem-the-six-flags-goliath-rider-who-fell-to-his-death-was-member-of-roller-coaster-enthusiasts-facebook-group/",
+          "published": "2026-10-14T08:48:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Six Flags’ ‘Goliath’ coaster rider who fell to his death had beaten cancer, survived a car fire a month ago: sister",
+          "description": "“He’s an amazing person,” Clark said through tears of her brother, a 42-year-old teacher from the Atlanta area. “The coolest part about me was him.\"",
+          "link": "https://nypost.com/2026/10/13/us-news/six-flags-goliath-coaster-rider-who-fell-to-his-death-had-beaten-cancer-survived-a-car-fire-a-month-ago-sister/",
+          "published": "2026-10-14T02:17:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "The Most Dangerous Roller Coaster Is the Drive There",
+          "description": "A death on Goliath at Six Flags Over Georgia led to the temporary shutdown of nine more rides. But how unsafe are roller coasters?",
+          "link": "https://www.newsweek.com/roller-coaster-deaths-safety-flying-driving-12565045",
+          "published": "2026-10-14T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US theme park operator Six Flags shuts nine roller coasters after man dies",
+          "description": "Police are investigating after TV footage showed riders being evacuated from the 60-metre high Goliath ride.",
+          "link": "https://www.euronews.com/2026/10/13/us-theme-park-operator-six-flags-shuts-nine-roller-coasters-after-man-dies",
+          "published": "2026-10-13T05:59:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Terrifying safety loophole exposed after man is thrown to his death from roller coaster",
+          "description": "A man's death on a Six Flags roller coaster in Georgia has raised questions about ride safety and regulation",
+          "link": "https://www.independent.co.uk/news/world/americas/georgia-six-flags-goliath-coaster-safety-b3066413.html",
+          "published": "2026-10-14T07:38:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Six Flags’ stock slumps near 17-year low after fatal incident",
+          "description": "A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator tumbling.",
+          "link": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
+          "published": "2026-10-13T20:41:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-14-jvcwol",
+      "topic": "world",
+      "title": "US judge extends White House access for CNN, MS NOW, Politico amid legal fight",
+      "summary": "Trump has been accused of unconstitutional retaliation over unfavourable coverage.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 10,
+      "score": 19.91,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 3,
+        "specialistShare": 0.3,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "CNN, MS NOW and Politico prevail against White House — for now",
+          "description": "A federal judge ruled late Tuesday that President Trump cannot ban news organizations from covering him at the White House because he does not like the nature of their coverage - at least, not until the matter goes to a formal trial.",
+          "link": "https://www.npr.org/2026/10/14/nx-s1-6001398/white-house-media-ban",
+          "published": "2026-10-14T07:16:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US judge extends media outlets' White House access",
+          "description": "A federal judge extended an order that blocks the Trump administration from banning media outlets from the White House. The outlets have reasonable grounds to think they'll win the case, the judge said.",
+          "link": "https://www.dw.com/en/us-judge-extends-media-outlets-white-house-access/a-79656346?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-14T03:46:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+          "description": "District court judge Timothy Kelly was ruling after the Trump administration blocked access to the three outlets in September A federal judge ordered the White House on Tuesday to continue allowing journalists from CNN, MS Now and Politico to access the building as the media coalition’s lawsuit against the Trump administration plays out. Timothy Kelly, a district court judge, had on 24 September g",
+          "link": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
+          "published": "2026-10-14T04:34:29.000Z",
+          "categories": [
+            "Trump administration",
+            "Media",
+            "Business",
+            "CNN",
+            "MS Now",
+            "US news",
+            "Donald Trump",
+            "US politics",
+            "US television industry",
+            "US press and publishing",
+            "Press freedom",
+            "Freedom of speech"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge extends order allowing CNN, Politico, MS NOW White House press access",
+          "description": "A federal judge on Tuesday issued a longer block on President Trump’s ban of three major news organizations from the White House, finding that the revocation of the outlets’ hard badges likely violated their constitutional rights. U.S. District Judge Timothy Kelly wrote in a late-night ruling that the preliminary injunction was meant to preserve the...",
+          "link": "https://thehill.com/regulation/court-battles/6147113-judge-extends-block-trump-media-ban/",
+          "published": "2026-10-14T03:50:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge extends block on Trump White House ban of MS NOW, CNN and Politico",
+          "description": "President Donald Trump had sought to ban media outlets MS NOW, CNN and Politico from reporting from the White House.",
+          "link": "https://www.cnbc.com/2026/10/14/trump-white-house-msnow-cnn-politico-media-ban.html",
+          "published": "2026-10-14T05:19:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump-Appointed Judge Halts White House Media Ban Indefinitely",
+          "description": "A judge grants a preliminary injunction blocking the White House from enforcing a ban on CNN, MS NOW and Politico journalists.",
+          "link": "https://www.newsweek.com/white-house-media-ban-blocked-12564976",
+          "published": "2026-10-14T04:05:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US judge extends White House access for CNN, MS NOW, Politico amid legal fight",
+          "description": "Trump has been accused of unconstitutional retaliation over unfavourable coverage.",
+          "link": "https://www.straitstimes.com/world/united-states/us-judge-extends-white-house-access-for-cnn-ms-now-politico-amid-legal-fight",
+          "published": "2026-10-14T04:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US judge allows CNN, MS NOW and Politico reporters to keep White House access",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/us/us-judge-allows-cnn-ms-now-and-politico-reporters-to-keep-white-house-access-cites-first-amendment/articleshow/134936891.cms",
+          "published": "2026-10-14T08:34:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Federal Judge Again Blocks Trump’s Ban on CNN, MS NOW and Politico",
+          "description": "The ruling will allow the outlets to enter the White House grounds while they sue to overturn the ban. But it doesn’t resolve all of their access problems.",
+          "link": "https://www.nytimes.com/2026/10/13/business/media/cnn-ms-now-and-politico-ban-ruling.html",
+          "published": "2026-10-14T05:33:02.000Z",
+          "categories": [
+            "Decisions and Verdicts",
+            "United States Politics and Government",
+            "Federal Courts (US)",
+            "News and News Media",
+            "Television",
+            "Courts and the Judiciary",
+            "White House Building (Washington, DC)",
+            "Suits and Litigation (Civil)",
+            "CNN",
+            "MS NOW",
+            "Politico, The",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Federal judge grants preliminary injunction continuing to block Trump's media ban",
+          "description": "The same judge issued a temporary restraining order last month.",
+          "link": "https://abcnews.com/Politics/federal-judge-grants-preliminary-injunction-continuing-block-trumps/story?id=137247889",
+          "published": "2026-10-14T05:19:49.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "'Furious' judge extends order to bar Trump admin from cutting trees at DC golf course",
+          "description": "Federal judge extends order barring Trump administration from carrying out further tree removals at D.C.'s East Potomac Golf Course until at least Oct. 26.",
+          "link": "https://abcnews.com/Politics/judge-explodes-trump-admin-lawyers-after-hundreds-trees/story?id=137204023",
+          "published": "2026-10-13T19:10:43.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge Invokes The Lorax As She Blocks Trump From Cutting Down Trees",
+          "description": "Judge Ana C. Reyes has issued a temporary restraining order blocking the removal of trees from the East Potomac Golf Course.",
+          "link": "https://www.newsweek.com/judge-invokes-lorax-blocks-trump-cutting-down-trees-east-potomac-golf-course-washington-dc-12565149",
+          "published": "2026-10-14T08:19:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "A judge blocks the government's tree-clearing spree at a municipal D.C. golf course",
+          "description": "Locals and preservationists have long opposed Trump's plan to redevelop a municipal D.C. golf course. That legal fight escalated after the government cleared hundreds of trees on short notice.",
+          "link": "https://www.npr.org/2026/10/13/nx-s1-6000055/east-potomac-golf-course-tree-clearing-judge",
+          "published": "2026-10-13T19:38:18.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-14-7tkesk",
+      "topic": "world",
+      "title": "Trump says ‘massive’ oil, gas, mineral exploration to begin in Greenland",
+      "summary": "The US president also praises the security advantages of last month's deal with Denmark and Greenland.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 7,
+      "score": 18.24,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 1,
+        "specialistShare": 0.14,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says oil, gas and mineral exploration to begin in Greenland",
+          "description": "The US president also praises the security advantages of last month's deal with Denmark and Greenland.",
+          "link": "https://www.aljazeera.com/news/2026/10/14/trump-says-oil-gas-and-mineral-exploration-to-begin-in-greenland?traffic_source=rss",
+          "published": "2026-10-14T08:08:42.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says 'massive' oil, gas and mineral exploration to begin in Greenland",
+          "description": "US President Donald Trump said on Wednesday that a \"massive\" oil, gas and mineral exploration was slated to begin in Greenland. The US, Denmark and Greenland last month signed a security agreement after Trump's repeated threats to seize control of the island.",
+          "link": "https://www.france24.com/en/europe/20261014-trump-says-massive-oil-gas-and-mineral-exploration-to-begin-in-greenland",
+          "published": "2026-10-14T06:41:15.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says 'massive' oil, gas and mineral exploration will begin in Greenland",
+          "description": "Donald Trump says that preparations are underway to launch a \"massive\" oil, gas ‌and mineral exploration in Greenland.",
+          "link": "https://news.sky.com/story/trump-announces-that-massive-oil-gas-and-mineral-exploration-will-begin-in-greenland-13599119",
+          "published": "2026-10-14T06:33:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says Greenland oil, gas and mineral exploration \"getting ready to begin\"",
+          "description": "The announcement comes four weeks after the U.S. signed a deal with Greenland and Denmark to bolster American military presence on the island.",
+          "link": "https://www.cbsnews.com/news/greenland-trump-oil-minerals-gas-exploration/",
+          "published": "2026-10-14T05:33:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says ‘massive’ oil, gas, mineral exploration to begin in Greenland",
+          "description": "US President Donald Trump said on Wednesday that \"massive\" oil, gas and mineral exploration is getting ready to begin in Greenland.",
+          "link": "https://nypost.com/2026/10/14/business/trump-says-massive-oil-gas-mineral-exploration-to-begin-in-greenland/",
+          "published": "2026-10-14T07:06:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump Refers To ‘Our’ Greenland As He Touts Oil Drilling",
+          "description": "President Trump has teased oil, gas and mineral exploration in Greenland, just weeks after a new security agreement was signed.",
+          "link": "https://www.newsweek.com/donald-trump-refers-to-our-greenland-as-he-touts-oil-drilling-12565142",
+          "published": "2026-10-14T07:43:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says ‘massive’ oil, gas, mineral exploration to begin in Greenland",
+          "description": "He hailed the Arctic island’s position for US and European security.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-says-massive-oil-gas-mineral-exploration-to-begin-in-greenland",
+          "published": "2026-10-14T07:01:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-14-19laqoj",
+      "topic": "tech",
+      "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+      "summary": "Apple unveiled the device as it continues its foray into artificial intelligence and tries to prove it can still innovate.",
+      "headlineSource": "Guardian Tech",
+      "sourceCount": 5,
+      "score": 16.64,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 5,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 5,
+          "business": 1,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Apple HomeView hands-on: SHIVALI BEST is one of the first people to test the £299 home device - so, should you buy one for your family?",
+          "description": "Unveiled at an event in New York, the gadget won't go on sale until November 13. However, the Daily Mail's Science & Technology Editor, Shivali Best, was among the first to get her hands on it.",
+          "link": "https://www.dailymail.com/sciencetech/article-16206947/Apple-HomeView-hands-SHIVALI-BEST.html",
+          "published": "2026-10-14T09:06:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple’s HomeView ad is confusing to everyone except parents",
+          "description": "Apple's ad introducing its new HomeView smart display is a little unusual. It's fast-paced and unruly, depicting a family of five as they rush through the morning routine. There's yelling and mess, misplaced keys and discarded eggshells. Apple's typical vibe is clean, simple, orderly; this commercial is chaos. But the spot has parents - those",
+          "link": "https://www.theverge.com/?p=1010561",
+          "published": "2026-10-13T22:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+          "description": "New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgets Apple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub for other smart home devices. The HomeView device starts at $299 and will begin shipping next month.",
+          "link": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+          "published": "2026-10-13T16:25:22.000Z",
+          "categories": [
+            "Apple",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple Introduces HomeView, a $299 Tablet for the Home",
+          "description": "Apple unveiled the device as it continues its foray into artificial intelligence and tries to prove it can still innovate.",
+          "link": "https://www.nytimes.com/2026/10/13/technology/apple-homeview-tablet.html",
+          "published": "2026-10-13T17:23:29.000Z",
+          "categories": [
+            "Computers and the Internet",
+            "Artificial Intelligence",
+            "Home Automation and Smart Homes",
+            "Home Appliances",
+            "Tablet Computers",
+            "Apple Inc",
+            "Ternus, John"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple’s first smart display is the 7-inch HomeView for $299",
+          "description": "It can recognize up to six users with its camera.",
+          "link": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+          "published": "2026-10-13T15:29:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
+          "description": "New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgets Apple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub for other smart home devices. The HomeView device starts at $299 and will begin shipping next month.",
+          "link": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
+          "published": "2026-10-13T16:25:22.000Z",
+          "categories": [
+            "Apple",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Business"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-14-19nzg4q",
+      "topic": "business",
+      "title": "Pressured at home, EU leaders weigh China trade steps",
+      "summary": "Germany has long resisted tougher action against China, fearing retaliation. But rising pressure on key industries has pushed Berlin to seek stronger EU trade-defense powers to protect its industrial base.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 5,
+      "score": 16.48,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 1,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany's China calculation shifts as import pressures eclipse export benefits",
+          "description": "Germany has long resisted tougher action against China, fearing retaliation. But rising pressure on key industries has pushed Berlin to seek stronger EU trade-defense powers to protect its industrial base.",
+          "link": "https://www.dw.com/en/germany-s-china-calculation-shifts-as-import-pressures-eclipse-export-benefits/a-79571852?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-13T08:47:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "UK resists EU pressure to hit China with tariffs",
+          "description": "Exclusive: Business secretary says he will not change trade rules due to EU pressure and denies UK will become a ‘back door’ for cheap imports The business secretary has hit back at European demands for British tariffs on Chinese imports, saying the government will not change its trade rules because of pressure from Brussels. Jonathan Reynolds warned that the government would not bow to calls from",
+          "link": "https://www.theguardian.com/politics/2026/oct/14/uk-will-not-put-tariffs-on-chinese-vehicles-says-jonathan-reynolds",
+          "published": "2026-10-14T05:00:45.000Z",
+          "categories": [
+            "Trade policy",
+            "Automotive industry",
+            "China",
+            "Jonathan Reynolds",
+            "European Union",
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "China’s Exports Soar, Putting Its Trade Surplus on Track for a Record",
+          "description": "China’s exports grew last month at the fastest pace in almost any month since the end of the global financial crisis.",
+          "link": "https://www.nytimes.com/2026/10/14/business/china-exports-trade-surplus.html",
+          "published": "2026-10-14T04:50:55.000Z",
+          "categories": [
+            "International Trade and World Market",
+            "Automobiles",
+            "Customs (Tariff)",
+            "Prices (Fares, Fees and Rates)",
+            "Factories and Manufacturing",
+            "China",
+            "Europe",
+            "Renminbi (Currency)"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pressured at home, EU leaders weigh China trade steps",
+          "description": "BRUSSELS, Oct 14 - European leaders gather in Brussels on Thursday to weigh up the future of trading ties with China, whose surging exports of cars and other manufactured goods are threatening to harm local industry and cause mass layoffs across Europe.",
+          "link": "https://www.straitstimes.com/world/europe/pressured-at-home-eu-leaders-weigh-china-trade-steps",
+          "published": "2026-10-14T06:20:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "China chip exports jump 136% to US$45b as AI frenzy jacks up prices",
+          "description": "China’s integrated circuit (IC) exports surged 136 per cent year on year in September to US$45 billion, exceeding the 108 per cent growth rate in the first nine months of the year in a sign of the country’s rising influence in the global semiconductor supply chain. In September, China exported 32.7 billion units of ICs, according to customs data released on Wednesday, a 1 per cent year-on-year inc",
+          "link": "https://www.scmp.com/tech/tech-trends/article/3370858/china-chip-exports-jump-136-us45b-ai-frenzy-jacks-prices",
+          "published": "2026-10-14T08:30:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "China’s EV industry faces double blow from EU export quota, VAT rebate cut",
+          "description": "China’s electric vehicle (EV) makers have been hit with a double blow as both Beijing and Brussels introduce measures that will affect their exports, leading analysts to revise down their earnings forecasts for the industry. The twin measures – combined with a sales decline in China’s domestic market – could create a “do-or-die moment” for some of the country’s 50-odd EV makers, ramping up financi",
+          "link": "https://www.scmp.com/business/china-business/article/3370851/chinas-ev-industry-faces-double-blow-eu-export-quota-vat-rebate-cut",
+          "published": "2026-10-14T08:00:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "China’s Exports Soar, Putting Its Trade Surplus on Track for a Record",
+          "description": "China’s exports grew last month at the fastest pace in almost any month since the end of the global financial crisis.",
+          "link": "https://www.nytimes.com/2026/10/14/business/china-exports-trade-surplus.html",
+          "published": "2026-10-14T04:50:55.000Z",
+          "categories": [
+            "International Trade and World Market",
+            "Automobiles",
+            "Customs (Tariff)",
+            "Prices (Fares, Fees and Rates)",
+            "Factories and Manufacturing",
+            "China",
+            "Europe",
+            "Renminbi (Currency)"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-13-16669f8",
+      "topic": "business",
+      "title": "Elon Musk becomes biggest donor of US midterms cycle with $366m spent",
+      "summary": "{beacon} Technology Technology The Big Story Musk jumps back into Trump's orbit ahead of midterms Elon Musk is jumping back into the political fray, reviving his role as a massive election spender and technology leader with a seat at the table again in…",
+      "headlineSource": "Guardian Business",
+      "sourceCount": 4,
+      "score": 15.03,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 1.66,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 4,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 2,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Musk jumps back into Trump's orbit ahead of midterms",
+          "description": "{beacon} Technology Technology The Big Story Musk jumps back into Trump's orbit ahead of midterms Elon Musk is jumping back into the political fray, reviving his role as a massive election spender and technology leader with a seat at the table again in Washington. © Alex Brandon, Associated Press Following a brief break from...",
+          "link": "https://thehill.com/newsletters/technology/6146820-musk-jumps-back-into-trumps-orbit-ahead-of-midterms/",
+          "published": "2026-10-13T22:40:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk becomes biggest donor of US midterms cycle with $366m spent",
+          "description": "Musk’s midterm donations, mostly for rightwing candidates and causes, surpass his contributions to Trump in 2024 Send us your questions on how the US economy is shaping the midterm elections Elon Musk has become the biggest political donor of the 2026 US midterm elections cycle, funneling about $366m into political groups and campaigns as he backs conservative candidates and rightwing causes. The ",
+          "link": "https://www.theguardian.com/us-news/2026/oct/13/elon-musk-political-donor-midterm-elections",
+          "published": "2026-10-13T17:13:50.000Z",
+          "categories": [
+            "US midterm elections 2026",
+            "Elon Musk",
+            "US politics",
+            "Technology",
+            "US news",
+            "US Congress",
+            "Republicans",
+            "Money",
+            "US political financing",
+            "Super Pacs",
+            "US Senate",
+            "The super-rich"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Judge says Elon Musk engaged in 'little more than state sanctioned intimidation' when he accused a DHS official of a crime",
+          "description": "A federal magistrate judge took issue with a tweet Elon Musk made in Feburary 2025 that accused a former FEMA official of \"criminal action.\"",
+          "link": "https://www.businessinsider.com/judge-ruling-elon-musk-doge-fema-mary-comans-2026-10",
+          "published": "2026-10-13T20:01:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk calls Waymo cars ‘pet destroyers’ as robotaxi rivals clash over safety",
+          "description": "Tesla robotaxi expansion plans include screening for dangerous railroad crossings as Elon Musk takes aim at Waymo's animal collision record.",
+          "link": "https://www.foxbusiness.com/fox-news-tech/elon-musk-calls-waymo-cars-pet-destroyers-robotaxi-rivals-clash-over-safety",
+          "published": "2026-10-13T02:02:56.000Z",
+          "categories": [
+            "745c8117-ff68-578f-bf77-29f70b31a0b5",
+            "fbn",
+            "Fox Business",
+            "fox-business/business-leaders/elon-musk",
+            "fox-news/fox-news-lifestyle/fox-news-pets",
+            "fox-business/industries/auto",
+            "fox-business/industries/transportation",
+            "fox-business/technology",
+            "fox-business/technology/tesla",
+            "fox-news/fox-news-tech",
+            "article"
+          ]
+        }
+      ]
+    }
+  ]
+}
