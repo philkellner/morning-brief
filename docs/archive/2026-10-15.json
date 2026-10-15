@@ -1,0 +1,871 @@
+{
+  "version": 1,
+  "edition": "2026-10-15",
+  "generatedAt": "2026-10-15T08:51:07.369Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-15-imltc1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine says Musk's SpaceX limits Kyiv's Starlink access",
+      "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+      "url": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-15T08:40:04.000Z",
+      "sourceCount": 16,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 8,
+      "score": 21.84,
+      "scoreComponents": {
+        "breadth": 12.26,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Ukraine blindsided by Starlink throttling restrictions and intelligence gaps",
+          "url": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Ukraine says a sudden Starlink speed limit disrupted its most important drone missions",
+          "url": "https://www.businessinsider.com/ukraine-starlink-access-slowed-down-affecting-military-operations-elon-musk-2026-10"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S. may have withheld warnings to Ukraine on deadly Kyiv strikes",
+          "url": "https://www.cbsnews.com/news/us-ukraine-intelligence-russia-war-missile-strikes-kyiv-power-outages/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire'",
+          "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine says Musk's SpaceX limits Kyiv's Starlink access",
+          "url": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+          "url": "https://www.euronews.com/2026/10/14/one-person-killed-and-20-others-injured-in-overnight-russian-attacks-on-kyiv"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "What is Starshield, SpaceX's military version of Starlink?",
+          "url": "https://www.france24.com/en/europe/20261014-what-is-starshield-spacex-s-military-version-of-starlink"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Ukraine says military operations disrupted from new Starlink restrictions",
+          "url": "https://www.nbcnews.com/now/video/ukraine-says-military-operations-disrupted-from-new-starlink-restrictions-271574085973"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "What Is Starshield, SpaceX’s Military-Grade Satellite Internet Service Ukraine Relies On?",
+          "url": "https://www.nytimes.com/2026/10/14/business/starshield-spacex-ukraine-starlink-satellites-musk.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "‘We’re done’: Ukraine resumes Russian refinery strikes as Zelensky defies Trump",
+          "url": "https://www.scmp.com/news/world/europe/article/3370993/were-done-ukraine-resumes-russian-refinery-strikes-zelensky-defies-trump"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Elon Musk suggests US government was behind Starlink restrictions in Ukraine – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Musk hits out at Trump over Starlink access after Zelensky ‘betrayed’",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-musk-starlink-b3067112.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "What is Starshield, SpaceX’s military version of Starlink?",
+          "url": "https://www.japantimes.co.jp/news/2026/10/15/world/starshield-explainer/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "What is Starshield, SpaceX’s military version of Starlink?",
+          "url": "https://www.straitstimes.com/world/united-states/what-is-starshield-spacexs-military-version-of-starlink"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Ukraine destroyed six Russian Su-34M jets in missile strike on airfield",
+          "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-destroyed-six-russian-jets-in-missile-strike-on-airfield-report/articleshow/134962052.cms"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-15-9eqyp1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
+      "summary": "Roman Catholics across South America responded to news of Pope Leo XIV's lung cancer diagnosis with an outpouring of prayers and support, along with concerns about whether the first American pope would go ahead with his highly anticipated and physically…",
+      "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
+      "headlineSource": "NPR",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-10-15T07:36:34.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 21.13,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Pope Leo 'slept well' as his recovery continues, Vatican says",
+          "url": "https://abcnews.com/International/pope-leo-slept-recovery-continues-vatican/story?id=137278462"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+          "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Pope's cancer prognosis may depend on these factors, doctors say",
+          "url": "https://www.cbsnews.com/news/pope-leo-lung-cancer-prognosis-doctors/"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Inside the rise of lung cancer in non-smokers... and why a diagnosis is not the death sentence it once was if you spot the subtle symptoms early enough",
+          "url": "https://www.dailymail.com/health/article-16207921/lung-cancer-rising-young-women-symptoms.html"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Trump wishes Pope Leo speedy recovery after lung cancer diagnosis, speaks highly of pontiff's brother",
+          "url": "https://www.foxnews.com/world/trump-wishes-pope-leo-speedy-recovery-after-lung-cancer-diagnosis-speaks-highly-pontiffs-brother"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Pope Leo slept well after cancer surgery, but recovery could take ‘longer than expected’",
+          "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-cancer-surgery-hospital-diagnosis-treatment-rcna603413"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
+          "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech"
+        },
+        {
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
+          "lean": "center-left",
+          "title": "A New World of Lung Cancer Therapy Awaits Pope Leo",
+          "url": "https://www.nytimes.com/2026/10/14/science/pope-leo-lung-cancer-therapies-genetic-mutations.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "South Americans pray for Pope Leo's recovery as uncertainty hangs over his visit",
+          "url": "https://www.pbs.org/newshour/world/south-americans-pray-for-pope-leos-recovery-as-uncertainty-hangs-over-his-visit"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Pope thanks well-wishers for prayers after cancer operation",
+          "url": "https://news.sky.com/story/pope-thanks-wellwishers-for-prayers-after-cancer-operation-13599253"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Shape of Pope Leo’s papacy more uncertain after cancer diagnosis",
+          "url": "https://www.japantimes.co.jp/news/2026/10/15/world/pope-leo-papacy-shape-uncertain/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Pope Leo had a good night in hospital as he recovers from lung cancer surgery",
+          "url": "https://www.straitstimes.com/world/europe/pope-leo-had-a-good-night-in-hospital-vatican-says"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-15-cp9ut2",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Saudi OpenAI employee arrested after recording device found in headquarters",
+      "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+      "headlineSource": "Guardian Tech",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-15T02:27:52.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 19.46,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 1.95,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+          "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+          "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "A gifted engineer. A love for Saudi Arabia. A bugging device wrapped in toilet paper.",
+          "url": "https://www.businessinsider.com/openai-engineer-accused-of-bugging-office-saudi-arabia-silicon-valley-2026-10"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Saudi national accused of planting recording device in OpenAI executive conference room",
+          "url": "https://www.foxbusiness.com/technology/saudi-national-accused-planting-recording-device-openai-executive-conference-room"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Saudi OpenAI employee arrested after recording device found in headquarters",
+          "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis",
+          "url": "https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "OpenAI vows not to use trade secrets allegedly taken from Apple",
+          "url": "https://www.straitstimes.com/world/united-states/openai-vows-not-to-use-trade-secrets-allegedly-taken-from-apple"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "The best feature of Apple’s HomeView might be its simplicity",
+          "url": "https://www.theverge.com/?p=1011431"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-15-m36mvm",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Attorney for banned outlets on legal fight over White House press access",
+      "summary": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
+      "url": "https://www.pbs.org/newshour/show/attorney-for-banned-outlets-on-legal-fight-over-white-house-press-access",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-15T08:41:04.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 18.04,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Judge grants preliminary injunction continuing to block Trump's White House media ban",
+          "url": "https://abcnews.com/Politics/federal-judge-grants-preliminary-injunction-continuing-block-trumps/story?id=137247889"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "White House defends new press secretary amid questions about her legal credentials",
+          "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Prediction market users are already betting on how long Trump's new press secretary will last",
+          "url": "https://www.businessinsider.com/prediction-markets-betting-katie-zacharia-trump-press-secretary-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump to appeal order blocking White House from banning MS NOW, CNN and Politico",
+          "url": "https://www.cnbc.com/2026/10/14/trump-appeals-white-house-ban-judge.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "White House economic chief reveals why Americans aren't feeling optimistic about economy",
+          "url": "https://www.foxbusiness.com/media/why-americans-arent-feeling-better-about-economy"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Federal Judge Again Blocks Trump’s Ban on CNN, MS NOW and Politico",
+          "url": "https://www.nytimes.com/2026/10/13/business/media/cnn-ms-now-and-politico-ban-ruling.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Attorney for banned outlets on legal fight over White House press access",
+          "url": "https://www.pbs.org/newshour/show/attorney-for-banned-outlets-on-legal-fight-over-white-house-press-access"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump press secretary Katie Zacharia may have violated California law by calling herself an attorney, group says",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/katie-zacharia-press-secretary-attorney-bar-complaint-b3066917.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-14-1e5t6mi",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+      "summary": "This year's increase is 3.6%, based on inflation data, amounting to a little more than $900 next year.",
+      "url": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits",
+      "headlineSource": "NPR",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-10-14T22:31:37.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 18.04,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 1.68,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Social Security Administration says cost-of-living adjustment will rise 3.6% in 2027",
+          "url": "https://abcnews.com/Business/social-security-administration-cost-living-adjustment-rise-36/story?id=137234823"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US inflation rises more than expected - here's what is happening with prices",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Here's the inflation breakdown for September 2026 — in one chart",
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Social Security announces cost-of-living adjustment for 2027",
+          "url": "https://www.foxbusiness.com/economy/social-security-announces-cost-of-living-adjustment-2027"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+          "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+          "url": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Social Security COLA for 2027 Will Be 3.6%",
+          "url": "https://www.nytimes.com/2026/10/14/business/social-security-cola-retirees.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "The Social Security COLA for 2027 is set. Here's what experts say you need to know",
+          "url": "https://www.pbs.org/newshour/economy/what-is-the-social-security-cola-for-2027-heres-how-it-could-affect-you"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-15-18cyeke",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "School roof collapse kills teacher and at least 27 children in northwest Pakistan",
+      "summary": "Building collapses are common in Pakistan, where construction standards are often poorly enforced.",
+      "url": "https://www.euronews.com/2026/10/15/school-roof-collapse-kills-teacher-and-at-least-17-children-in-northwest-pakistan",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-15T08:30:41.000Z",
+      "sourceCount": 9,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 7,
+      "score": 17.58,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "School roof collapses in northwestern Pakistan, killing at least 29 people",
+          "url": "https://www.aljazeera.com/news/2026/10/15/school-roof-collapses-in-northwestern-pakistan-killing-at-least-29-people?traffic_source=rss"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "School roof collapse in Pakistan's Peshawar kills at least 27 students, one teacher",
+          "url": "https://www.dw.com/en/school-roof-collapse-in-pakistan-s-peshawar-kills-at-least-27-students-one-teacher/a-79666091?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "School roof collapse kills teacher and at least 27 children in northwest Pakistan",
+          "url": "https://www.euronews.com/2026/10/15/school-roof-collapse-kills-teacher-and-at-least-17-children-in-northwest-pakistan"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Pakistan school roof collapse kills dozens of pupils, teacher in Peshawar",
+          "url": "https://www.france24.com/en/asia-pacific/20261015-pakistan-school-roof-collapse-kills-dozens-of-pupils-teacher-in-peshawar"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "School roof collapse kills at least 29, injures more than 3 dozen in Pakistan",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "At least 28 children killed in Pakistan school collapse",
+          "url": "https://news.sky.com/story/at-least-17-children-killed-in-pakistan-school-collapse-13599466"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "28 dead, mostly pupils, in Pakistan after school roof collapses",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3370995/28-dead-mostly-pupils-pakistan-after-school-roof-collapses"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "At Least 20 Children Dead After School Roof Collapses in Pakistan",
+          "url": "https://www.nytimes.com/2026/10/15/world/asia/pakistan-school-collapse.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "28 children, teacher killed as school roof collapses in Pakistan’s Peshawar",
+          "url": "https://timesofindia.indiatimes.com/world/pakistan/18-killed-as-school-roof-collapses-in-pakistans-peshawar/articleshow/134959547.cms"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-15-sphnin",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+      "summary": "Albania's capital, Tirana, saw violent clashes between student protesters and police on Tuesday, 13 October, as demonstrations continued overnight into Wednesday.",
+      "url": "https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-15T03:30:42.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 17.56,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.04,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Albanian Ministry of Justice on fire as education protesters riot",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/albanian-ministry-of-justice-on-fire-as-education-protesters-riot?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Student protesters attack government buildings in Albania",
+          "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Albania: Fire at Education Ministry as students protest",
+          "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
+          "url": "https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Albania protests turn violent as protestors demand PM Rama's resignation",
+          "url": "https://www.france24.com/en/europe/20261014-albania-protests-protestors-demand-pm-rama-resignation"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Student protests in Albania turn violent as demonstrators clash with police",
+          "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-15-hw9ol",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+      "summary": "All 21 sailors on the Singapore-flagged GFS Pride were evacuated safely after it was hit by an projectile on Tuesday, maritime authorities say.",
+      "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-15T08:06:06.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.15,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Containers and debris captured floating around the Strait of Hormuz",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/containers-and-debris-captured-floating-around-the-strait-of-hormuz?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+          "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
+          "url": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Iran says cargo ship sank after hitting a mine in Strait of Hormuz",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-iran-says-cargo-ship-sank-after-hitting-a-mine-in-strait-of-hormuz"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+          "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ship carrying 2,500 containers sinks after hitting mine in Strait of Hormuz, claim Iran’s Guards",
+          "url": "https://www.independent.co.uk/news/world/middle-east/strait-hormuz-ship-sinks-iran-b3066513.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-15-67jai2",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Eight US states sue OpenAI, claiming ChatGPT harms children",
+      "summary": "The lawsuits accuse the company of violating state consumer protection laws by misleading users about the safety of ChatGPT.",
+      "url": "https://www.straitstimes.com/world/united-states/eight-us-states-sue-openai-claiming-chatgpt-harms-children",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-15T01:48:59.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 15.03,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 1.91,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "8 states are suing OpenAI, saying ChatGPT harms kids. Here are their demands, from data deletion to halting AI testing.",
+          "url": "https://www.businessinsider.com/eight-states-sue-openai-saying-chatgpt-harms-children-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "OpenAI sued by 8 states over ChatGPT safety concerns",
+          "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
+          "url": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Coalition of states sues OpenAI, alleging it misled users on safety",
+          "url": "https://thehill.com/policy/technology/6149365-states-sue-openai-safety/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Eight US states sue OpenAI, claiming ChatGPT harms children",
+          "url": "https://www.straitstimes.com/world/united-states/eight-us-states-sue-openai-claiming-chatgpt-harms-children"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+          "url": "https://www.theverge.com/?p=1011500"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-14-67yf5u",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Walmart to offer free GLP-1 drugs, more than 250 medications as it expands employee health benefits",
+      "summary": "Walmart is expanding employee health benefits with free GLP-1 medications for Type 2 diabetes, no-cost prescriptions, specialist care and neonatal intensive care leave.",
+      "url": "https://www.foxbusiness.com/retail/walmart-free-glp-1-drugs-employee-health-benefits",
+      "headlineSource": "Fox Business",
+      "summarySource": "Fox Business",
+      "publishedAt": "2026-10-14T19:46:01.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 12.93,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 1.51,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Measles, GLP-1s and anti-aging: How to protect your health",
+          "url": "https://abcnews.com/video/137268225/"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "A dietitian says GLP-1s aren't 'a free lunch' — you need a plan when you stop taking them. Here are her 3 best tips.",
+          "url": "https://www.businessinsider.com/dietitian-weight-maintenance-loss-stopping-glp-1-ozempic-wegovy-2026-10"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Walmart to offer free GLP-1 drugs, more than 250 medications as it expands employee health benefits",
+          "url": "https://www.foxbusiness.com/retail/walmart-free-glp-1-drugs-employee-health-benefits"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
+          "url": "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/"
+        }
+      ]
+    }
+  ]
+}
