@@ -1,0 +1,932 @@
+{
+  "version": 1,
+  "edition": "2026-10-17",
+  "generatedAt": "2026-10-17T08:15:33.672Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-17-mem07e",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump waives new Russia sanctions as Ukraine ties slump",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "url": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/trump-waives-russia-sanctions/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-17T07:41:01.000Z",
+      "sourceCount": 18,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 9,
+      "score": 22.84,
+      "scoreComponents": {
+        "breadth": 12.74,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump signs order waiving Graham Act sanctions on Russia",
+          "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump waives Russia sanctions as rift with Zelenskyy widens",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "US intel pause, Starlink outages leave Ukraine vulnerable to Russian attack",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1015/ukraine-starlink-russia-energy-truce-trump-drone-interceptors?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump's Russia diesel deal may offer Putin more than money — and spell trouble for Ukraine",
+          "url": "https://www.cnbc.com/2026/10/17/trump-diesel-russia-ukraine-war.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump puts new Russia sanctions on hold",
+          "url": "https://www.dw.com/en/trump-puts-new-russia-sanctions-on-hold/a-79685002?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump signs executive order waiving new Russia sanctions package",
+          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Trump waives many Russian sanctions, tariffs under new law backed by Lindsey Graham",
+          "url": "https://www.foxbusiness.com/politics/trump-waives-many-russian-sanctions-under-new-law-backed-lindsey-graham"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Zelensky turns to Europe for backing as ties with Trump deteriorate",
+          "url": "https://www.france24.com/en/europe/20261016-zelensky-turns-to-europe-for-backing-as-ties-with-trump-deteriorate"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’",
+          "url": "https://www.nbcnews.com/world/ukraine/trump-ukraine-strikes-russian-oil-disgrace-zelenskyy-starlink-rcna603848"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump puts Russia sanctions package on hold, says pause is in national interest",
+          "url": "https://nypost.com/2026/10/16/us-news/trump-puts-russia-sanctions-package-passed-by-congress-on-hold-says-waiver-is-in-us-national-interest/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Trump pauses Russian sanctions package after striking diesel deal with Putin",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3371222/trump-pauses-russian-sanctions-package-after-striking-diesel-deal-putin"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump waives Russian sanctions outlined in Graham Act before they take effect",
+          "url": "https://thehill.com/homenews/administration/6155621-trump-waives-russian-sanctions-act-tariffs/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Trump orders last-minute stay on Russian sanctions and refuses to blame Putin for war",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-starlink-b3068450.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump waives new Russia sanctions as Ukraine ties slump",
+          "url": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/trump-waives-russia-sanctions/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Trump’s Deal With Russia Inflames Ukraine War He Vowed to End",
+          "url": "https://www.nytimes.com/2026/10/15/us/politics/trump-russia-ukraine.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
+          "url": "https://www.straitstimes.com/world/united-states/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-to-take-effect-under-new-law"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump waives Russia sanctions ordered by law named for Lindsey Graham",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4769595/trump-waives-russia-sanctions-ordered-law-named-lindsey-graham/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-17-1l9l2lc",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Candlelight vigil honours victims of Oregon school shooting",
+      "summary": "The tragedy has heightened community concerns, some neighbours said.",
+      "url": "https://www.euronews.com/2026/10/16/candlelight-vigil-honours-victims-of-oregon-school-shooting",
+      "headlineSource": "Euronews",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-17T06:49:48.000Z",
+      "sourceCount": 11,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 22.72,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Bend, Oregon, shooting: Suspect ID'd, had attended elementary school, police say",
+          "url": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Oregon school shooter was former special needs student, police say",
+          "url": "https://www.aljazeera.com/news/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+          "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Teen gunman, 16, kills three children aged 5, 8 and 11 and a teacher in Oregon elementary school after shooting locked doors to get inside",
+          "url": "https://www.dailymail.com/news/article-16213137/Active-shooter-Bend-Oregon-elementary-school.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
+          "url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Candlelight vigil honours victims of Oregon school shooting",
+          "url": "https://www.euronews.com/2026/10/16/candlelight-vigil-honours-victims-of-oregon-school-shooting"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Oregon school shooter attacked special education classroom, police say",
+          "url": "https://www.pbs.org/newshour/show/oregon-school-shooter-attacked-special-education-classroom-police-say"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Oregon teen gunman was tackled by ‘heroic’ teacher then shot by students’ father",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3371216/oregon-teen-gunman-was-tackled-heroic-teacher-then-shot-parent-students"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Shooter in fatal Bend, Oregon, school shooting was former student there",
+          "url": "https://www.theguardian.com/us-news/2026/oct/16/oregon-school-shooting-latest"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Oregon school shooter named as he used mom’s shotgun to carry out his rampage",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/bend-oregon-school-shooting-gunman-identity-updates-b3067805.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Suspected gunman in Oregon school shooting was ‘withdrawn’, neighbours say",
+          "url": "https://www.straitstimes.com/world/united-states/suspected-gunman-in-oregon-school-shooting-was-withdrawn-neighbours-say"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-17-18uo7tu",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Katie Zacharia is out as press secretary, White House says",
+      "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
+      "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+      "headlineSource": "NPR",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-17T05:20:40.000Z",
+      "sourceCount": 15,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 8,
+      "score": 21.88,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.23,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "White House press secretary Katie Zacharia says she did not pass bar exam",
+          "url": "https://abcnews.com/Politics/white-house-press-secretary-katie-zacharia-pass-bar/story?id=137299415"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Katie Zacharia leaving White House role less than five days into job",
+          "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Katie Zacharia had the shortest tenure as press secretary in history. Here are the others who didn't last long.",
+          "url": "https://www.businessinsider.com/katie-zacharia-shortest-serving-press-secretary-who-are-others-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Katie Zacharia out as Trump's White House press secretary",
+          "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Katie Zacharia throws Trump under the bus in stunning response about her legal qualifications amid fake 'attorney' outrage",
+          "url": "https://www.dailymail.com/news/article-16214785/katie-zacharia-trump-response-legal-qualifications.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "White House press secretary Zacharia exiting role after short tenure",
+          "url": "https://www.dw.com/en/white-house-press-secretary-zacharia-exiting-role-after-short-tenure/a-79684341?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump's new press secretary leaves after less than a week following controversy",
+          "url": "https://www.euronews.com/2026/10/16/trumps-new-press-secretary-leaves-after-less-than-a-week-following-controversy"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Embattled new White House Press Secretary Zacharia 'let go' from her role",
+          "url": "https://www.france24.com/en/americas/20261016-embattled-new-white-house-press-secretary-zacharia-let-go-from-her-role"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Katie Zacharia is out as press secretary, White House says",
+          "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Zacharia out as White House press secretary after less than a week on the job",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-zacharia-out-as-white-house-press-secretary-after-less-than-a-week-on-the-job"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Zacharia speaks out after White House press secretary exit: 'It was an honor'",
+          "url": "https://thehill.com/homenews/administration/6155603-katie-zacharia-press-secretary-exit-statement/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Katie Zacharia mocked for only lasting a week with Trump: ‘At least she has her career as a lawyer to fall back on’",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/katie-zacharia-trump-fired-reaction-b3068374.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump’s new press secretary out after less than a week",
+          "url": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/white-house-press-secretary-ousted/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump’s new press secretary Katie Zacharia out after less than a week",
+          "url": "https://www.straitstimes.com/world/united-states/trumps-new-press-secretary-katie-zacharia-out-after-less-than-week-in-the-role"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Who might be the next White House press secretary after Katie Zacharia’s exit",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4769428/who-next-white-house-press-secretary-after-zacharia/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-17-34h510",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Elon Musk unveils flying car: Crowd screams as new Tesla with rocket thrusters takes off and flips mid-air",
+      "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
+      "url": "https://www.dailymail.com/news/article-16213711/Elon-Musk-unveils-flying-car-Tesla.html",
+      "headlineSource": "Daily Mail",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-17T07:32:42.000Z",
+      "sourceCount": 10,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 20.81,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Elon Musk unveils Tesla's new Roadster, and it can fly",
+          "url": "https://abcnews.com/video/137312932/"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "11-year old flying car company mocks Tesla Roadster",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/11-year-old-flying-car-company-mocks-tesla-roadster?traffic_source=rss"
+        },
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
+          "url": "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Watch: Did Tesla really just unveil a flying car?",
+          "url": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "The world reacts to Elon Musk’s flying car",
+          "url": "https://www.businessinsider.com/reactions-elon-musk-roadster-flying-car-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+          "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Elon Musk unveils flying car: Crowd screams as new Tesla with rocket thrusters takes off and flips mid-air",
+          "url": "https://www.dailymail.com/news/article-16213711/Elon-Musk-unveils-flying-car-Tesla.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Tesla’s new Roadster makes a flying debut, hitting 60 MPH in under a second",
+          "url": "https://www.foxbusiness.com/technology/teslas-new-roadster-makes-flying-debut-hitting-60-mph-under-second"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Elon Musk reveals ‘world’s first flying car’ at Tesla event",
+          "url": "https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Tesla Debuts 2026 Roadster ‘Flying’ Electric Sports Car",
+          "url": "https://www.nytimes.com/2026/10/15/business/tesla-roadster-2026-ev-sports-car.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-17-1msq536",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US journalist injured during Israeli settler attack on West Bank olive harvest",
+      "summary": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
+      "url": "https://www.france24.com/en/middle-east/20261016-us-journalist-injured-during-israeli-settler-attack-on-west-bank-olive-harvest",
+      "headlineSource": "France 24",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-17T06:07:47.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.78,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.3,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "American journalist injured in West Bank clashes",
+          "url": "https://www.cbsnews.com/news/us-journalist-heidi-levine-injured-west-bank-clashes-settlers/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "West Bank: US journalist injured by Israeli settlers",
+          "url": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US journalist injured during Israeli settler attack on West Bank olive harvest",
+          "url": "https://www.france24.com/en/middle-east/20261016-us-journalist-injured-during-israeli-settler-attack-on-west-bank-olive-harvest"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Israeli settlers burn olive trees, injure journalist in West Bank attack",
+          "url": "https://www.nbcnews.com/video/israeli-settlers-burn-olive-trees-injure-journalist-in-west-bank-attack-271694917817"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
+          "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Israeli settlers attack Palestinians during West Bank olive harvest and beat U.S. photojournalist",
+          "url": "https://www.pbs.org/newshour/world/israeli-settlers-attack-palestinians-during-west-bank-olive-harvest-and-beat-u-s-photojournalist"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Israeli settlers attack olive farmers and Washington Post journalist in West Bank",
+          "url": "https://www.theguardian.com/world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Washington Post hits back at Netanyahu’s account of attack on journalist",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-journalist-washington-post-heidi-levine-west-bank-attack-netanyahu-b3068447.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Israeli Settlers Attack Palestinians and Washington Post Journalist in West Bank",
+          "url": "https://www.nytimes.com/2026/10/16/world/middleeast/israeli-settlers-washington-post-palestinians.html"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-17-1r4zcth",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Vatican releases first photos of Pope Leo XIV after lung tumour surgery",
+      "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
+      "url": "https://www.euronews.com/2026/10/16/vatican-releases-first-photos-of-pope-leo-xiv-after-lung-tumour-surgery",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC Health",
+      "publishedAt": "2026-10-17T04:01:20.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 19.74,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.12,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Health",
+          "sourceId": "bbc_health",
+          "lean": "center",
+          "title": "Pope pictured for first time since surgery and cancer diagnosis",
+          "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Photos show pope celebrating Mass at hospital after cancer surgery",
+          "url": "https://www.cbsnews.com/news/photos-pope-leo-mass-hospital-recovery-surgery/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Pope Leo recovering from surgery, will deliver Sunday prayer",
+          "url": "https://www.dw.com/en/pope-leo-recovering-from-surgery-will-deliver-sunday-prayer/a-79682540?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Vatican releases first photos of Pope Leo XIV after lung tumour surgery",
+          "url": "https://www.euronews.com/2026/10/16/vatican-releases-first-photos-of-pope-leo-xiv-after-lung-tumour-surgery"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Recovering from lung surgery, Pope Leo urges Putin to agree to ceasefire in Russian-held Ukraine city",
+          "url": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Pope Leo XIV celebrates mass in hospital while recovering from lung cancer operation",
+          "url": "https://www.france24.com/en/europe/20261016-pope-leo-xiv-celebrates-mass-in-hospital-while-recovering-from-lung-cancer-operation"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "What the Pope said to Putin in call days after lung cancer surgery",
+          "url": "https://news.sky.com/story/pope-leo-pictured-for-first-time-since-cancer-surgery-as-he-holds-mass-from-hospital-13599944"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Uncertainty Over Pope’s Health Fuels Familiar Debate Over Vatican’s Candor",
+          "url": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-vatican-transparency-cancer.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Putin agrees to cooperate with Pope Leo's plea for aid for Ukrainian town",
+          "url": "https://www.straitstimes.com/world/europe/putin-agrees-to-cooperate-with-pope-leos-plea-for-aid-for-ukrainian-town"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-17-1rdffvl",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "3 Mexican men jailed for over 158 years for Australian, US surfer murders",
+      "summary": "A Mexican judge sentenced the three men for the 2024 murders a week after they were found guilty.",
+      "url": "https://www.scmp.com/news/world/americas/article/3371227/3-mexican-men-jailed-over-158-years-australian-us-surfer-murders",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-17T07:10:36.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 17.92,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers",
+          "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+          "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "3 Mexican men jailed for over 158 years for Australian, US surfer murders",
+          "url": "https://www.scmp.com/news/world/americas/article/3371227/3-mexican-men-jailed-over-158-years-australian-us-surfer-murders"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Three men jailed for 158 years each over murders of Australian and US surfers in Baja California",
+          "url": "https://www.independent.co.uk/news/world/americas/jake-callum-robinson-mexico-murder-trial-sentence-b3068452.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers",
+          "url": "https://www.straitstimes.com/world/three-sentenced-to-158-years-in-mexico-for-murder-of-australian-us-surfers"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-16-ks2y3s",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "What to read before you go see that new documentary on Elizabeth Holmes",
+      "summary": "The high-concept documentary from Nathan Fielder and Lance Oppenheim offers surprising generosity to a Big Tech villain without fully excusing her crimes.",
+      "url": "https://www.statnews.com/2026/10/16/health-news-what-to-read-before-elizabeth-holmes-you-can-see-everything/",
+      "headlineSource": "STAT News",
+      "summarySource": "Reason",
+      "publishedAt": "2026-10-16T19:28:48.000Z",
+      "sourceCount": 4,
+      "leanCount": 4,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 14.34,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5.85,
+        "wire": 0,
+        "freshness": 1.53,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Why No One Can Look Away From Elizabeth Holmes",
+          "url": "https://www.nytimes.com/2026/10/16/podcasts/hardfork-elizabeth-holmes.html"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "The Elizabeth Holmes Documentary You Can See Everything Is an Act of Radical Empathy",
+          "url": "https://reason.com/2026/10/16/the-elizabeth-holmes-documentary-you-can-see-everything-is-an-act-of-radical-empathy/"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "What to read before you go see that new documentary on Elizabeth Holmes",
+          "url": "https://www.statnews.com/2026/10/16/health-news-what-to-read-before-elizabeth-holmes-you-can-see-everything/"
+        },
+        {
+          "source": "Washington Free Beacon",
+          "sourceId": "freebeacon",
+          "lean": "right",
+          "title": "REVIEW: ‘You Can See Everything’",
+          "url": "https://freebeacon.com/issues/review-you-can-see-everything/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-17-gwtz6h",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+      "summary": "Hong Kong police have received more than 100 reports of unauthorised credit card transactions related to pre-orders of Apple’s latest iPhone model, the South China Morning Post has learned. Apple began its online pre-orders for its foldable iPhone Duo on…",
+      "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+      "headlineSource": "CNBC",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-10-17T07:31:50.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 1,
+      "score": 12.15,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Want Apple's folding iPhone? 'Duo' you have patience?",
+          "url": "https://www.businessinsider.com/apple-iphone-duo-expected-shipping-times-slip-2027-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+          "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Police receive over 100 reports about credit card charges for iPhone Duo pre-orders",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3371245/police-receive-over-100-reports-about-credit-card-charges-iphone-duo-pre-orders"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "All the news about the iPhone Duo",
+          "url": "https://www.theverge.com/?post_type=vm_stream&p=1010131"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-17-1hykexf",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Tech Stocks Drop Further Amid Doubts Over AI Spending",
+      "summary": "Tech stocks shed more than $1 trillion in value Friday, as the price of oil soared to its highest levels in five months.",
+      "url": "https://www.nytimes.com/2026/10/15/business/chip-stocks-technology.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "NBC News",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 0,
+      "score": 10.73,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 1.82,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Chinese Stocks Turn Biggest Losers as Global AI Trade Stumbles",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/chinese-stocks-turn-biggest-losers-as-global-ai-trade-stumbles"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+          "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Tech stocks erase $1 trillion of wealth as oil surges to $110 for the first time since May",
+          "url": "https://www.nbcnews.com/business/energy/oil-prices-hormuz-iran-ukraine-rcna603919"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Tech Stocks Drop Further Amid Doubts Over AI Spending",
+          "url": "https://www.nytimes.com/2026/10/15/business/chip-stocks-technology.html"
+        }
+      ]
+    }
+  ]
+}

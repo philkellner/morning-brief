@@ -1,0 +1,2077 @@
+{
+  "edition": "2026-10-17",
+  "generatedAt": "2026-10-17T08:15:33.672Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-17-mem07e",
+      "topic": "world",
+      "title": "Trump waives new Russia sanctions as Ukraine ties slump",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 18,
+      "score": 22.84,
+      "scoreComponents": {
+        "breadth": 12.74,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 18,
+        "specialistOutlets": 1,
+        "specialistShare": 0.06,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "description": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+          "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
+          "published": "2026-10-17T07:41:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump waives Russia sanctions as rift with Zelenskyy widens",
+          "description": "US President Donald Trump has waived more sanctions on Russia in a bid to ease energy prices.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
+          "published": "2026-10-17T04:58:32.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump puts on hold new Russia sanctions he signed into law",
+          "description": "US president's executive order comes two days before sanctions deadline and a week after diesel deal with Putin.",
+          "link": "https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law?traffic_source=rss",
+          "published": "2026-10-17T04:45:03.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump puts new Russia sanctions on hold",
+          "description": "The US president cited national interests for his decision to sign a waiver on sanctions Congress voted to place on Russia.",
+          "link": "https://www.dw.com/en/trump-puts-new-russia-sanctions-on-hold/a-79685002?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T02:09:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelensky turns to Europe for backing as ties with Trump deteriorate",
+          "description": "Ukrainian President Volodymyr Zelensky turned to his European allies on Friday, asking Brussels for an additional €70 billion to fund the war against Russia next year. Zelensky's relationship with US President Donald Trump deteriorated after the US eased sanctions on Moscow as part of a diesel-supply deal.",
+          "link": "https://www.france24.com/en/europe/20261016-zelensky-turns-to-europe-for-backing-as-ties-with-trump-deteriorate",
+          "published": "2026-10-16T20:25:46.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelensky hails \"real leaders\" in Europe, blasts Trump's diesel deal with Russia",
+          "description": "Ukrainian ​President Volodymyr Zelensky took aim on Friday at US President Donald Trump's diesel deal with Russia and welcomed the prospect of European allies stepping up their role in talks, calling Moscow's stance a \"parody\" of peace negotiations. At a European Union summit in Brussels, Zelenskiy said Russia did not want peace. He added that Ukraine was still experiencing disruptions to the Spac",
+          "link": "https://www.france24.com/en/video/20261016-zelensky-hails-real-leaders-in-europe-blasts-trump-s-diesel-deal-with-russia",
+          "published": "2026-10-16T15:40:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump signs order waiving Graham Act sanctions on Russia",
+          "description": "The new sanctions and tariffs were set to take effect in two days.",
+          "link": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529",
+          "published": "2026-10-17T05:28:22.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump waives Russian sanctions outlined in Graham Act before they take effect",
+          "description": "President Trump signed an executive order Friday evening to waive sanctions against Russia set to take effect soon under a recently signed legislative package. The president officially signed the sanctions package into law last month, which was posthumously dedicated to the late Sen. Lindsay Graham (R-S.C.). The legislation sought to put pressure on the Kremlin...",
+          "link": "https://thehill.com/homenews/administration/6155621-trump-waives-russian-sanctions-act-tariffs/",
+          "published": "2026-10-17T02:46:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump puts Russia sanctions package on hold, says pause is in national interest",
+          "description": "President Trump paused a congressional Russia sanctions package in the national interest, shortly after announcing a deal for Russian diesel.",
+          "link": "https://nypost.com/2026/10/16/us-news/trump-puts-russia-sanctions-package-passed-by-congress-on-hold-says-waiver-is-in-us-national-interest/",
+          "published": "2026-10-17T02:25:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump waives Russia sanctions ordered by law named for Lindsey Graham",
+          "description": "President Donald Trump signed an executive order on Friday that waived the sweeping Russian sanctions and tariffs enacted by the bill championed by the late Sen. Lindsey Graham. Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act into law last month, but he decided to put the legislation on hold indefinitely, saying that",
+          "link": "https://www.washingtonexaminer.com/news/white-house/4769595/trump-waives-russia-sanctions-ordered-law-named-lindsey-graham/",
+          "published": "2026-10-17T03:09:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
+          "description": "Trump’s executive order comes as he has been warming towards Russia.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-to-take-effect-under-new-law",
+          "published": "2026-10-17T01:20:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump signs executive order waiving new Russia sanctions package",
+          "description": "The move to put the sanctions on hold comes amid increasing criticism from Trump of Ukrainian President Volodymyr Zelenskyy and follows the US' diesel deal with Russia.",
+          "link": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+          "published": "2026-10-17T06:37:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump waives new Russia sanctions as Ukraine ties slump",
+          "description": "The move came as Ukrainian President Volodymyr Zelenskyy urged EU leaders to keep financing Kyiv's fight with nearly $80 billion more next year.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/trump-waives-russia-sanctions/",
+          "published": "2026-10-17T04:40:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump pauses Russian sanctions package after striking diesel deal with Putin",
+          "description": "US President Donald Trump on Friday signed an executive order that puts on hold a sweeping new sanctions package targeting the Russian economy, telling Congress the pause was in the national interest. Named after late South Carolina senator Lindsey Graham, the measure had sought to clamp down more quickly on the flow of financial resources fuelling the war against Ukraine. The move comes a week af",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3371222/trump-pauses-russian-sanctions-package-after-striking-diesel-deal-putin",
+          "published": "2026-10-17T02:26:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Trump orders last-minute stay on Russian sanctions and refuses to blame Putin for war",
+          "description": "Trump had himself approved the sanctions law only last month. The bipartisan bill was designed to quickly hit Russia's financial resources for its war on Ukraine",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-starlink-b3068450.html",
+          "published": "2026-10-17T07:10:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump waives many Russian sanctions, tariffs under new law backed by Lindsey Graham",
+          "description": "President Donald Trump on Friday said he was waiving many Russian-related sanctions and tariffs under a new law backed by late South Carolina Sen. Lindsey Graham.",
+          "link": "https://www.foxbusiness.com/politics/trump-waives-many-russian-sanctions-under-new-law-backed-lindsey-graham",
+          "published": "2026-10-17T02:00:12.000Z",
+          "categories": [
+            "76aae4ee-15ed-5f29-9ca1-6d680a78147f",
+            "fbn",
+            "Fox Business",
+            "fox-business/person/donald-trump",
+            "fox-news/fox-news-world/fox-news-personalities/fox-news-vladimir-putin",
+            "fox-news/fox-news-world",
+            "fox-business/markets/oil",
+            "fox-business/politics",
+            "fox-business/politics",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump denies limiting Ukraine access to Starlink network",
+          "description": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night.",
+          "link": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o",
+          "published": "2026-10-16T19:33:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US intel pause, Starlink outages leave Ukraine vulnerable to Russian attack",
+          "description": "When U.S. warnings and Starlink support shut off this week, Ukraine was left exposed to Russian drones. Kyiv has few alternatives available.",
+          "link": "https://www.csmonitor.com/World/Europe/2026/1015/ukraine-starlink-russia-energy-truce-trump-drone-interceptors?icid=rss",
+          "published": "2026-10-15T21:01:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian attacks in Ukraine kill at least 8, cut power to 1 million",
+          "description": "Russia strikes Kharkiv, Kramatorsk, Volyn and Rivne as Moscow presses its campaign against Ukraine's power grid.",
+          "link": "https://www.aljazeera.com/news/2026/10/17/russian-attacks-in-ukraine-kill-at-least-8-cut-power-to-1-million?traffic_source=rss",
+          "published": "2026-10-17T05:19:19.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says Ukraine resuming strikes on Russian oil sites is a ‘disgrace’",
+          "description": "President Donald Trump has labeled Ukraine’s resumption of strikes on Russian oil refineries a “disgrace,” the latest salvo in his campaign to pressure the U.S. ally over rising gas prices that could cost Republicans in next month’s midterm elections.",
+          "link": "https://www.nbcnews.com/world/ukraine/trump-ukraine-strikes-russian-oil-disgrace-zelenskyy-starlink-rcna603848",
+          "published": "2026-10-16T09:37:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine resumes strikes on Russian refineries",
+          "description": "Ukraine said it will resume strikes on Russian refineries after Russia never stopped its attacks on Ukraine. President Trump had called on both sides to support an energy ceasefire. NBC News’ Gabe Gutierrez reports.",
+          "link": "https://www.nbcnews.com/nightly-news/video/ukraine-resumes-strikes-on-russian-refineries-271659589622",
+          "published": "2026-10-15T22:56:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s Deal With Russia Inflames Ukraine War He Vowed to End",
+          "description": "The Ukrainian president’s defiant decision to continue attacking Russian refineries underscores President Trump’s inability to end a war he had promised to resolve.",
+          "link": "https://www.nytimes.com/2026/10/15/us/politics/trump-russia-ukraine.html",
+          "published": "2026-10-16T01:02:09.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Ukraine",
+            "Zelensky, Volodymyr",
+            "Russia",
+            "Putin, Vladimir V",
+            "Defense and Military Forces",
+            "Oil (Petroleum) and Gasoline",
+            "Refineries",
+            "Diesel Power",
+            "Prices (Fares, Fees and Rates)",
+            "Embargoes and Sanctions",
+            "International Trade and World Market",
+            "United States International Relations",
+            "Trump, Donald J",
+            "Midterm Elections (2026)",
+            "Polls and Public Opinion",
+            "US and Israeli Attack on Iran (2026)"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump",
+          "description": "President Volodymyr Zelensky expressed overt frustration with the United States in an interview with The Financial Times. He had paused the strikes to comply with a demand from the United States.",
+          "link": "https://www.nytimes.com/2026/10/15/world/europe/ukraine-russia-oil-strikes-zelensky-us-intelligence.html",
+          "published": "2026-10-16T16:07:37.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Ukraine",
+            "Zelensky, Volodymyr",
+            "Defense and Military Forces",
+            "Refineries",
+            "Oil (Petroleum) and Gasoline",
+            "Russia",
+            "United States International Relations",
+            "Trump, Donald J",
+            "internal-open-access-from-nl",
+            "internal-eafs"
+          ]
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine drone strikes and Iran war split blame on skyrocketing diesel prices",
+          "description": "Following President Donald Trump’s deal with Russia to export diesel fuel into the global market, the administration and its critics have fought over what impact Ukrainian drone and missile strikes on Russian refineries have had on global diesel prices. On Friday, American Enterprise Institute senior fellow Marc Thiessen published a graph provided to him by",
+          "link": "https://www.washingtonexaminer.com/policy/energy-and-environment/4769370/ukraine-strikes-iran-war-split-blame-diesel-prices/",
+          "published": "2026-10-16T21:32:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "The Rupturing Trump-Zelensky Relationship Stands to Hurt Ukraine and Its European Allies",
+          "description": "Where the two presidents’ war of words will end is anybody’s guess. But if it continues, it could threaten the crucial operational help that Ukraine still gets from the United States.",
+          "link": "https://www.nytimes.com/2026/10/16/world/europe/trump-zelensky-ukraine-war.html",
+          "published": "2026-10-16T19:12:25.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "United States Defense and Military Forces",
+            "Defense and Military Forces",
+            "Trump, Donald J",
+            "Zelensky, Volodymyr",
+            "Ukraine",
+            "United States",
+            "United States Politics and Government",
+            "United States International Relations"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump's Russia diesel deal may offer Putin more than money — and spell trouble for Ukraine",
+          "description": "Trump's diesel deal may do little for Russia's finances, but it raises bigger questions about Ukraine's leverage, U.S. support and Putin's next moves.",
+          "link": "https://www.cnbc.com/2026/10/17/trump-diesel-russia-ukraine-war.html",
+          "published": "2026-10-17T05:46:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelensky’s despair as Trump turns towards Russia",
+          "description": "Zelensky warned Trump’s diesel deal puts money in ‘Putin’s pocket’ and can never offset the impact of the closure of the Strait of Hormuz",
+          "link": "https://www.independent.co.uk/news/world/europe/zelensky-trump-kyiv-russia-ukraine-putin-b3068179.html",
+          "published": "2026-10-16T17:31:24.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-17-1l9l2lc",
+      "topic": "world",
+      "title": "Candlelight vigil honours victims of Oregon school shooting",
+      "summary": "The tragedy has heightened community concerns, some neighbours said.",
+      "headlineSource": "Euronews",
+      "sourceCount": 11,
+      "score": 22.72,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+          "description": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
+          "link": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o",
+          "published": "2026-10-17T06:49:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+          "description": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+          "link": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o",
+          "published": "2026-10-16T08:27:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oregon school shooter was former special needs student, police say",
+          "description": "A teacher fought teenage shooter and a parent shot him dead, police say on Friday, a day after four people were killed.",
+          "link": "https://www.aljazeera.com/news/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say?traffic_source=rss",
+          "published": "2026-10-17T00:25:22.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
+          "description": "US police have praised the actions of three people who cut short a deadly shooting at a school in the state of Oregon. Three children and a teacher were killed in the attack, carried out by a former pupil at the school.",
+          "link": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T06:04:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bend, Oregon, shooting: Suspect ID'd, had attended elementary school, police say",
+          "description": "Three children and one teacher are dead after a shooter forced his way into a Bend, Oregon, elementary school and opened fire, authorities said.",
+          "link": "https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119",
+          "published": "2026-10-17T03:33:14.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WATCH: Hero who stopped Oregon elementary school shooting suspect identified",
+          "description": "ABC News contributor Don Mihalek discusses the bystander credited with stopping the suspected gunman and ongoing investigations.",
+          "link": "https://abcnews.com/video/137332472/",
+          "published": "2026-10-16T22:18:23.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Shooter in fatal Bend, Oregon, school shooting was former student there",
+          "description": "One teacher and three children killed after Griffin J John II, 16, barged into elementary school and began shooting Oregon elementary school shooting: what we know so far The 16-year-old who barged into an elementary school in Bend, Oregon, and unleashed a barrage of gunfire that killed a teacher and three children was a former student at Silver Rail elementary, officials confirmed in a Friday pre",
+          "link": "https://www.theguardian.com/us-news/2026/oct/16/oregon-school-shooting-latest",
+          "published": "2026-10-16T23:03:42.000Z",
+          "categories": [
+            "Oregon",
+            "US school shootings",
+            "US news",
+            "West Coast",
+            "World news",
+            "US gun control"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Teen gunman, 16, kills three children aged 5, 8 and 11 and a teacher in Oregon elementary school after shooting locked doors to get inside",
+          "description": "A 16-year-old gunman killed three children and a teacher when he opened fire at Silver Rail Elementary School in Bend, Oregon on Thursday afternoon.",
+          "link": "https://www.dailymail.com/news/article-16213137/Active-shooter-Bend-Oregon-elementary-school.html",
+          "published": "2026-10-16T12:54:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Suspected gunman in Oregon school shooting was ‘withdrawn’, neighbours say",
+          "description": "The tragedy has heightened community concerns, some neighbours said.",
+          "link": "https://www.straitstimes.com/world/united-states/suspected-gunman-in-oregon-school-shooting-was-withdrawn-neighbours-say",
+          "published": "2026-10-16T23:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Great hero’ praised for saving lives in Oregon school shooting",
+          "description": "'Thank goodness for a man that had a gun and knew how to use it,' Trump told journalists.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-says-armed-bystander-who-killed-oregon-school-shooter-a-great-hero",
+          "published": "2026-10-16T16:55:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Candlelight vigil honours victims of Oregon school shooting",
+          "description": "People gather in Bend, Oregon, to mourn three children and a teacher killed in an elementary school shooting.",
+          "link": "https://www.euronews.com/2026/10/16/candlelight-vigil-honours-victims-of-oregon-school-shooting",
+          "published": "2026-10-16T05:47:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Three children and one teacher killed in Oregon elementary school shooting",
+          "description": "Between 400 and 450 children attend Silver Rail Elementary, where more than 40 staff work, a police spokesperson had said earlier.",
+          "link": "https://www.euronews.com/2026/10/16/four-killed-in-oregon-elementary-school-shooting-including-three-children-aged-5-to-11",
+          "published": "2026-10-16T03:23:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oregon school shooter attacked special education classroom, police say",
+          "description": "Police in Bend, Oregon, are still investigating the motive behind the deadly shooting at Silver Rail Elementary School. Four people were killed, including three young children and a teacher. Police identified the shooter as a 16-year-old who previously attended the school. They said he attacked a special education classroom before being killed at the scene. William Brangham reports.",
+          "link": "https://www.pbs.org/newshour/show/oregon-school-shooter-attacked-special-education-classroom-police-say",
+          "published": "2026-10-16T22:55:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What makes the Oregon school shooting different – and what can be learned",
+          "description": "There are many more questions to be answered about the deadly elementary school shooting in Bend, Oregon. To explore some of them, Amna Nawaz spoke with James Densley, professor and chair of criminology and criminal justice at Metro State University. He is best known for co-creating the Violence Prevention Project, a database of mass shooters in the United States.",
+          "link": "https://www.pbs.org/newshour/show/what-makes-the-oregon-school-shooting-different-and-what-can-be-learned",
+          "published": "2026-10-16T22:52:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Oregon school shooter named as he used mom’s shotgun to carry out his rampage",
+          "description": "Three children, ages 5, 8 and 11, and one teacher were killed in the shooting",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/bend-oregon-school-shooting-gunman-identity-updates-b3067805.html",
+          "published": "2026-10-16T21:41:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hero dad ID’ed after stopping teenage gunman armed with mom’s shotgun at Oregon school from killing more",
+          "description": "The 16-year-old shooter and one victim have also been identified",
+          "link": "https://www.independent.co.uk/news/world/americas/crime/oregon-school-shooting-bend-father-b3068237.html",
+          "published": "2026-10-16T17:08:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Teacher and armed parent teamed up to stop Oregon school shooter, police say",
+          "description": "BEND, Oregon, Oct 16 - A 16-year-old boy who shot and killed a teacher and three children in an Oregon special-needs classroom was stopped by another teacher who tackled him and an armed father who fatally shot him, officials said on Friday.",
+          "link": "https://www.straitstimes.com/world/teacher-tackled-and-fought-oregon-school-shooter",
+          "published": "2026-10-16T22:20:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oregon teen gunman was tackled by ‘heroic’ teacher then shot by students’ father",
+          "description": "A teacher threw her phone at the teenage gunman who killed four people at an Oregon junior school, then tackled and fought with him – probably saving lives before he was shot by a father who followed him into the building, police said Friday. Bend Police Chief Mike Krantz called the teacher’s actions “heroic” during a news conference and said she was not injured. He identified the attacker as 16-y",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3371216/oregon-teen-gunman-was-tackled-heroic-teacher-then-shot-parent-students",
+          "published": "2026-10-16T22:22:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Man who stopped the Oregon elementary school shooter has 2 daughters at the school, his mom says",
+          "description": "Kenda Freeman said her son, Kaylub Giamanco, intervened in Thursday's attack at Silver Rail Elementary School in Bend and shot the teenage shooter.",
+          "link": "https://www.pbs.org/newshour/nation/man-who-stopped-the-oregon-elementary-school-shooter-has-2-daughters-at-the-school-his-mom-says",
+          "published": "2026-10-16T19:01:02.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-17-18uo7tu",
+      "topic": "world",
+      "title": "Katie Zacharia is out as press secretary, White House says",
+      "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
+      "headlineSource": "NPR",
+      "sourceCount": 15,
+      "score": 21.88,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.23,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 15,
+        "specialistOutlets": 1,
+        "specialistShare": 0.07,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Katie Zacharia is out as press secretary, White House says",
+          "description": "Katie Zacharia is \"transitioning out\" of her role as press secretary, according to a White House official not authorized to speak on the record, marking a stunning turn of events for the spokeswoman.",
+          "link": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+          "published": "2026-10-16T20:29:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
+          "description": "Katie Zacharia's first official day was on Monday.",
+          "link": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
+          "published": "2026-10-16T18:08:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Katie Zacharia leaving White House role less than five days into job",
+          "description": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
+          "link": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o",
+          "published": "2026-10-17T05:20:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "White House press secretary Zacharia exiting role after short tenure",
+          "description": "Zacharia, having served only five days in the role, is now the shortest-serving press secretary in White House history. Her departure follows a rocky debut at the podium and controversy surrounding her background.",
+          "link": "https://www.dw.com/en/white-house-press-secretary-zacharia-exiting-role-after-short-tenure/a-79684341?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-16T19:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Embattled new White House Press Secretary Zacharia 'let go' from her role",
+          "description": "A White House Press official said Friday that Secretary ​Katie Zacharia was \"let go\" from her role after US President Donald Trump signaled she was on her way out, a week after he picked her for the post. Zacharia's credentials as an attorney had come under scrutiny and she admitted to not having passed the bar in an interview with Fox News on Thursday.",
+          "link": "https://www.france24.com/en/americas/20261016-embattled-new-white-house-press-secretary-zacharia-let-go-from-her-role",
+          "published": "2026-10-16T15:57:24.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "White House press secretary Katie Zacharia says she did not pass bar exam",
+          "description": "Zacharia has described herself as a lawyer; Trump called her \"an attorney.\"",
+          "link": "https://abcnews.com/Politics/white-house-press-secretary-katie-zacharia-pass-bar/story?id=137299415",
+          "published": "2026-10-16T11:59:02.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zacharia speaks out after White House press secretary exit: 'It was an honor'",
+          "description": "Katie Zacharia issued her first public statement Friday night after a White House official announced she'd be \"transitioning out\" of the press secretary post after just five days in the role. In a post on the social media platform X, Zacharia praised President Trump’s leadership, saying, “It was an honor to work for him.” “President...",
+          "link": "https://thehill.com/homenews/administration/6155603-katie-zacharia-press-secretary-exit-statement/",
+          "published": "2026-10-17T02:29:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "5 days of Katie Zacharia: The rapid fall of Trump's 'lawyer' press secretary",
+          "description": "Katie Zacharia won’t be remembered as one of the “all-time greats” in the White House press room, as one of her colleagues predicted this week, but she will go down in the annals of presidential press secretary history. Her tenure of five days in the role easily beats the previous record held by Anthony Scaramucci,...",
+          "link": "https://thehill.com/homenews/administration/6155287-katie-zacharia-white-house-exit-five-days/",
+          "published": "2026-10-16T22:38:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Press secretary under Clinton says Zacharia was 'set up to fail'",
+          "description": "Katie Zacharia was set up to fail by the White House and President Trump, who made her White House press secretary without preparing her, former Clinton-era White House press secretary Joe Lockhart said Friday. “I don’t mean this to sound partisan or overly critical of the president, but she is, in fact a victim here,”...",
+          "link": "https://thehill.com/homenews/administration/6155047-trump-press-secretary-controversy/",
+          "published": "2026-10-16T21:35:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Katie Zacharia out as Trump's White House press secretary",
+          "description": "Zacharia was on shaky ground from her first White House press conference and over questions about her claims of being a lawyer despite not passing a bar exam.",
+          "link": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+          "published": "2026-10-16T21:26:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Who might be the next White House press secretary after Katie Zacharia’s exit",
+          "description": "A pile of candidates is already being tossed around as possible replacements for Katie Zacharia, hours after she was ousted as White House press secretary. The White House announced Zacharia would “transition” out of the job on Friday, less than one week after she stepped into the role as Karoline Leavitt’s replacement. Zacharia’s departure from",
+          "link": "https://www.washingtonexaminer.com/news/white-house/4769428/who-next-white-house-press-secretary-after-zacharia/",
+          "published": "2026-10-16T22:23:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Katie Zacharia throws Trump under the bus in stunning response about her legal qualifications amid fake 'attorney' outrage",
+          "description": "White House Press Secretary Katie Zacharia has dodged questions about her claiming to be a lawyer and argued President Donald Trump never asked her about her legal training.",
+          "link": "https://www.dailymail.com/news/article-16214785/katie-zacharia-trump-response-legal-qualifications.html",
+          "published": "2026-10-16T16:48:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump’s new press secretary Katie Zacharia out after less than a week",
+          "description": "Zacharia was pushed out after a series of blunders that added to distractions for her embattled boss.",
+          "link": "https://www.straitstimes.com/world/united-states/trumps-new-press-secretary-katie-zacharia-out-after-less-than-week-in-the-role",
+          "published": "2026-10-16T18:31:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump's new press secretary leaves after less than a week following controversy",
+          "description": "Zacharia has long described herself as a lawyer while working as a commentator for conservative outlets such as Fox News and Newsmax.",
+          "link": "https://www.euronews.com/2026/10/16/trumps-new-press-secretary-leaves-after-less-than-a-week-following-controversy",
+          "published": "2026-10-16T19:29:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump’s new press secretary out after less than a week",
+          "description": "A series of blunders that added to distractions for her embattled boss led to her dismissal.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/white-house-press-secretary-ousted/",
+          "published": "2026-10-17T02:37:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "News Wrap: Zacharia out as White House press secretary after less than a week on the job",
+          "description": "In our news wrap Friday, White House Press Secretary Katie Zacharia is \"transitioning out\" of her role after less than a week on the job, three large brush fires in Southern California are forcing people to flee their homes and dozens of Israeli settlers set cars and trees ablaze across the West Bank and attacked Palestinians as they gathered for their autumn olive harvest.",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-zacharia-out-as-white-house-press-secretary-after-less-than-a-week-on-the-job",
+          "published": "2026-10-16T22:50:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Katie Zacharia mocked for only lasting a week with Trump: ‘At least she has her career as a lawyer to fall back on’",
+          "description": "Everyone was making the same jokes about Katie Zacharia, while MAGA pundits defended her",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/katie-zacharia-trump-fired-reaction-b3068374.html",
+          "published": "2026-10-16T20:32:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump admits mistake and fires Katie Zacharia after less than one week as press secretary — breaking record",
+          "description": "Minutes before making it official, Trump said he told Zacharia to 'reconsider' her role after disastrous first week, adding: 'Maybe it's not for her'",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-katie-zacharia-job-press-secretary-b3068318.html",
+          "published": "2026-10-16T18:49:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump gets thrown under the bus by Katie Zacharia about not passing the bar: ‘Those questions weren’t asked’",
+          "description": "Zacharia has been doing damage control on Fox News, but even seemed to dig herself deeper into a hole when served probing questions by the Trump-friendly hosts",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/katie-zacharia-trump-bar-exam-b3068174.html",
+          "published": "2026-10-16T15:56:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Katie Zacharia had the shortest tenure as press secretary in history. Here are the others who didn't last long.",
+          "description": "Katie Zacharia, former White House press secretary, served a five-day stint. She's among three others who held the position for under two months.",
+          "link": "https://www.businessinsider.com/katie-zacharia-shortest-serving-press-secretary-who-are-others-2026-10",
+          "published": "2026-10-16T23:55:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "10 things that lasted longer than Katie Zacharia’s time as White House press secretary",
+          "description": "From space missions to a hard-boiled egg, here are 10 things that lasted longer than Katie Zacharia's tenure as White House press secretary.",
+          "link": "https://www.businessinsider.com/katie-zacharia-white-house-press-secretary-10-things-lasted-longer-2026-10",
+          "published": "2026-10-16T22:20:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Katie Zacharia is out as White House press secretary. Meet the 6 Trump has had over both his terms.",
+          "description": "Katie Zacharia was the new White House press secretary, taking over for Karoline Leavitt. She is now \"transitioning out\" after five days.",
+          "link": "https://www.businessinsider.com/white-house-press-secretaries-trump-2026-10",
+          "published": "2026-10-16T18:52:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "HALF A MOOCH: Katie Zacharia is out after 5 days as White House press secretary",
+          "description": "Katie Zacharia made her White House press briefing debut on Tuesday and quickly came under intense scrutiny over her legal credentials.",
+          "link": "https://www.businessinsider.com/katie-zacharia-fired-white-house-press-secretary-job-trump-statement-2026-10",
+          "published": "2026-10-16T18:11:41.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-17-34h510",
+      "topic": "tech",
+      "title": "Elon Musk unveils flying car: Crowd screams as new Tesla with rocket thrusters takes off and flips mid-air",
+      "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
+      "headlineSource": "Daily Mail",
+      "sourceCount": 10,
+      "score": 20.81,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 6,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 5,
+          "business": 4,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: Did Tesla really just unveil a flying car?",
+          "description": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
+          "link": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o",
+          "published": "2026-10-16T12:32:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "11-year old flying car company mocks Tesla Roadster",
+          "description": "California-based Alef Aeronautics mocked Tesla, releasing a video of its flying car soaring over a Tesla Roadster.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/11-year-old-flying-car-company-mocks-tesla-roadster?traffic_source=rss",
+          "published": "2026-10-17T07:32:42.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WATCH: Elon Musk unveils Tesla's new Roadster, and it can fly",
+          "description": "Using SpaceX rocket technology, the sports car climbed a curved ramp and hurled itself to a controlled landing.",
+          "link": "https://abcnews.com/video/137312932/",
+          "published": "2026-10-16T11:30:38.000Z",
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+          "description": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
+          "link": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+          "published": "2026-10-16T15:52:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Elon Musk unveils flying car: Crowd screams as new Tesla with rocket thrusters takes off and flips mid-air",
+          "description": "Elon Musk appeared to unveil his first flying car last night, as he launched the new Tesla Roadster with a spectacular demonstration of its apparent flying abilities.",
+          "link": "https://www.dailymail.com/news/article-16213711/Elon-Musk-unveils-flying-car-Tesla.html",
+          "published": "2026-10-16T16:13:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Elon Musk reveals ‘world’s first flying car’ at Tesla event",
+          "description": "The Tesla Roadster 2 drove up a curved ramp before using SpaceX rocket thrusters to fly, flip and land Elon Musk has revealed Tesla’s latest model, which he claims will be the world’s first flying car, using technology from his aerospace company SpaceX to “basically fly like a rocket”. The billionaire, who hosted a demonstration of the Tesla Roadster 2 at the SpaceX rocket development and testing ",
+          "link": "https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex",
+          "published": "2026-10-16T11:53:04.000Z",
+          "categories": [
+            "Tesla",
+            "Automotive industry",
+            "Elon Musk",
+            "SpaceX",
+            "Business",
+            "Technology sector",
+            "Aeronautics",
+            "Motoring",
+            "Electric, hybrid and low-emission cars",
+            "Science",
+            "Technology",
+            "World news",
+            "Aerospace industry"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Tesla Debuts 2026 Roadster ‘Flying’ Electric Sports Car",
+          "description": "Elon Musk’s company and other automakers, like Jaguar and Bentley, are trying to sell very expensive electric cars to people who usually prefer gasoline-fueled luxury and performance.",
+          "link": "https://www.nytimes.com/2026/10/15/business/tesla-roadster-2026-ev-sports-car.html",
+          "published": "2026-10-16T09:04:12.000Z",
+          "categories": [
+            "Electric and Hybrid Vehicles",
+            "Automobiles",
+            "Luxury Goods and Services",
+            "Jaguar Land Rover",
+            "Tata Motors Ltd",
+            "Tata Motors",
+            "Tesla Motors Inc"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
+          "description": "If you want to make a car spin in the air, compressed gas is a good way to do it.",
+          "link": "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/",
+          "published": "2026-10-16T14:03:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tesla Debuts 2026 Roadster ‘Flying’ Electric Sports Car",
+          "description": "Elon Musk’s company and other automakers, like Jaguar and Bentley, are trying to sell very expensive electric cars to people who usually prefer gasoline-fueled luxury and performance.",
+          "link": "https://www.nytimes.com/2026/10/15/business/tesla-roadster-2026-ev-sports-car.html",
+          "published": "2026-10-16T09:04:12.000Z",
+          "categories": [
+            "Electric and Hybrid Vehicles",
+            "Automobiles",
+            "Luxury Goods and Services",
+            "Jaguar Land Rover",
+            "Tata Motors Ltd",
+            "Tata Motors",
+            "Tesla Motors Inc"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk reveals ‘world’s first flying car’ at Tesla event",
+          "description": "The Tesla Roadster 2 drove up a curved ramp before using SpaceX rocket thrusters to fly, flip and land Elon Musk has revealed Tesla’s latest model, which he claims will be the world’s first flying car, using technology from his aerospace company SpaceX to “basically fly like a rocket”. The billionaire, who hosted a demonstration of the Tesla Roadster 2 at the SpaceX rocket development and testing ",
+          "link": "https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex",
+          "published": "2026-10-16T11:53:04.000Z",
+          "categories": [
+            "Tesla",
+            "Automotive industry",
+            "Elon Musk",
+            "SpaceX",
+            "Business",
+            "Technology sector",
+            "Aeronautics",
+            "Motoring",
+            "Electric, hybrid and low-emission cars",
+            "Science",
+            "Technology",
+            "World news",
+            "Aerospace industry"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "The world reacts to Elon Musk’s flying car",
+          "description": "Tesla's long-delayed Roadster finally made an entrance — by flying off a ramp.",
+          "link": "https://www.businessinsider.com/reactions-elon-musk-roadster-flying-car-2026-10",
+          "published": "2026-10-16T16:57:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tesla's vision for the future: Manually driving your own car will be a luxury for the rich",
+          "description": "At the Roadster launch, Elon Musk said it will be the \"only manually driven car that Tesla makes.\" We don't know the price, but it's not cheap.",
+          "link": "https://www.businessinsider.com/tesla-roadster-only-manually-driven-car-future-luxury-sport-2026-10",
+          "published": "2026-10-16T15:54:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tesla’s new Roadster makes a flying debut, hitting 60 MPH in under a second",
+          "description": "Tesla unveiled its long-anticipated Roadster on Thursday during a dramatic event in which the vehicle used compressed-air thrusters to fly off a ramp and perform a midair maneuver.",
+          "link": "https://www.foxbusiness.com/technology/teslas-new-roadster-makes-flying-debut-hitting-60-mph-under-second",
+          "published": "2026-10-16T02:02:39.000Z",
+          "categories": [
+            "a385c9ce-ac42-543c-af46-69bcce0a56c6",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology/tesla",
+            "fox-business/technology/spacex",
+            "fox-business/business-leaders/elon-musk",
+            "fox-business/tech",
+            "fox-business/industries/auto",
+            "fox-business/magnificent-7-stocks",
+            "fox-business/technology",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-17-1msq536",
+      "topic": "world",
+      "title": "US journalist injured during Israeli settler attack on West Bank olive harvest",
+      "summary": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
+      "headlineSource": "France 24",
+      "sourceCount": 10,
+      "score": 19.78,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.3,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
+          "description": "Masked Israeli settlers attacked Palestinians as they were harvesting olives in the occupied West Bank on Friday, injuring several people including a photojournalist working for The Washington Post.",
+          "link": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+          "published": "2026-10-16T15:57:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+          "description": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
+          "link": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo",
+          "published": "2026-10-16T14:31:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers attack Palestinians in West Bank during olive harvest",
+          "description": "Israeli settlers were seen attacking Palestinian farmers and setting fire to olive trees in the West Bank.",
+          "link": "https://www.bbc.co.uk/news/videos/cqn06zx2r15jo",
+          "published": "2026-10-16T11:40:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "West Bank: US journalist injured by Israeli settlers",
+          "description": "Washington Post journalist Heidi Levine said she was beaten by Israeli settlers in the occupied West Bank. Reporters Without Borders slammed the attack as \"brazen violence.\"",
+          "link": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-16T19:32:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US journalist injured during Israeli settler attack on West Bank olive harvest",
+          "description": "About 80 Israeli settlers set fire to olive trees and threw stones at Palestinians in a West Bank village Friday, injuring at least two people, including a US photojournalist with The Washington Post. The coordinated attack came as violence by settlers is on the rise during the olive harvest in the occupied Palestinian territory.",
+          "link": "https://www.france24.com/en/middle-east/20261016-us-journalist-injured-during-israeli-settler-attack-on-west-bank-olive-harvest",
+          "published": "2026-10-16T15:01:40.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "American journalist injured in West Bank clashes",
+          "description": "Among the injured was Heidi Levine, a veteran American photojournalist working with the Washington Post.",
+          "link": "https://www.cbsnews.com/news/us-journalist-heidi-levine-injured-west-bank-clashes-settlers/",
+          "published": "2026-10-16T15:18:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israeli settlers burn olive trees, injure journalist in West Bank attack",
+          "description": "Dozens of militant Israeli settlers burned olive trees and threw rocks at Palestinians in a coordinated attack on an occupied West Bank village’s annual harvest that injured at least two people including a journalist.",
+          "link": "https://www.nbcnews.com/video/israeli-settlers-burn-olive-trees-injure-journalist-in-west-bank-attack-271694917817",
+          "published": "2026-10-16T15:33:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israeli settlers attack olive farmers and Washington Post journalist in West Bank",
+          "description": "Settlers hurl rocks at Palestinians and beat photographer Heidi Levine as part of yearly attacks to disrupt harvest Israeli settlers have attacked Palestinians across the occupied West Bank in a coordinated movement to disrupt the annual olive harvest, burning cars and trees and injuring Palestinians and a Washington Post photographer. Masked settlers wielding clubs and other weapons attacked peop",
+          "link": "https://www.theguardian.com/world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine",
+          "published": "2026-10-16T16:34:58.000Z",
+          "categories": [
+            "West Bank",
+            "Palestine",
+            "Israel",
+            "Washington Post",
+            "Journalist safety",
+            "Middle East and north Africa",
+            "World news",
+            "Media"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israeli Settlers Attack Palestinians and Washington Post Journalist in West Bank",
+          "description": "In the latest surge of violence, settlers targeted Palestinians during the olive harvest, a cultural touchstone and economic lifeline in the Israeli-occupied area.",
+          "link": "https://www.nytimes.com/2026/10/16/world/middleeast/israeli-settlers-washington-post-palestinians.html",
+          "published": "2026-10-16T19:31:34.000Z",
+          "categories": [
+            "Defense and Military Forces",
+            "Palestinians",
+            "Demonstrations, Protests and Riots",
+            "News and News Media",
+            "Israeli Settlements",
+            "Hamas",
+            "Washington Post",
+            "International Federation of Red Cross and Red Crescent Societies",
+            "Netanyahu, Benjamin",
+            "Israel",
+            "West Bank"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers attack Palestinians during West Bank olive harvest and beat U.S. photojournalist",
+          "description": "Israeli settlers attacked Palestinian villages across the occupied West Bank on Friday, setting fire to cars and trees and beating residents and a Washington Post photographer, in the latest violence to disrupt the territory's annual olive harvest this month.",
+          "link": "https://www.pbs.org/newshour/world/israeli-settlers-attack-palestinians-during-west-bank-olive-harvest-and-beat-u-s-photojournalist",
+          "published": "2026-10-16T23:46:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Washington Post hits back at Netanyahu’s account of attack on journalist",
+          "description": "‘To be clear: Some facts are neither in dispute nor unclear,’ writes executive editor Matt Murray",
+          "link": "https://www.independent.co.uk/news/world/middle-east/israel-journalist-washington-post-heidi-levine-west-bank-attack-netanyahu-b3068447.html",
+          "published": "2026-10-17T06:07:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Masked settlers target Washington Post journalist in latest attack in occupied West Bank",
+          "description": "Deadly settler violence against Palestinians is at a record high in the occupied West Bank, with more than 230 attacks against the olive harvest since September alone",
+          "link": "https://www.independent.co.uk/news/world/middle-east/israel-settler-west-bank-washington-post-b3068307.html",
+          "published": "2026-10-16T17:10:37.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-17-1r4zcth",
+      "topic": "world",
+      "title": "Vatican releases first photos of Pope Leo XIV after lung tumour surgery",
+      "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
+      "headlineSource": "Euronews",
+      "sourceCount": 9,
+      "score": 19.74,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.12,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 2,
+        "specialistShare": 0.22,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 2
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo recovering from surgery, will deliver Sunday prayer",
+          "description": "The Vatican has said that Pope Leo XIV is recovering from lung surgery. Photos released on Friday showed the pontiff celebrating Mass at Rome's Gemelli Hospital unaided.",
+          "link": "https://www.dw.com/en/pope-leo-recovering-from-surgery-will-deliver-sunday-prayer/a-79682540?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-16T15:04:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo XIV celebrates mass in hospital while recovering from lung cancer operation",
+          "description": "Pope Leo XIV celebrated a mass at Rome's Gemelli hospital Friday after undergoing surgery to remove a cancerous tumour from his right lung, photos released by the Vatican showed. Doctors said his recovery was progressing normally but that further tests would show whether the cancer had spread.",
+          "link": "https://www.france24.com/en/europe/20261016-pope-leo-xiv-celebrates-mass-in-hospital-while-recovering-from-lung-cancer-operation",
+          "published": "2026-10-16T12:57:23.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "What the Pope said to Putin in call days after lung cancer surgery",
+          "description": "The Pope spoke to Russian President Vladimir Putin on Friday and urged a truce with Ukraine as he continued his recovery from lung cancer surgery, the Vatican said.",
+          "link": "https://news.sky.com/story/pope-leo-pictured-for-first-time-since-cancer-surgery-as-he-holds-mass-from-hospital-13599944",
+          "published": "2026-10-16T12:22:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Photos show pope celebrating Mass at hospital after cancer surgery",
+          "description": "The Vatican also released photos of some get-well notes that had been sent to Pope Leo from patients in the hospital's pediatric oncology ward.",
+          "link": "https://www.cbsnews.com/news/photos-pope-leo-mass-hospital-recovery-surgery/",
+          "published": "2026-10-17T00:04:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "First images of Pope Leo after lung surgery give insight into his health, recovery",
+          "description": "Pope Leo began resuming his duties Friday after undergoing lung cancer surgery in Rome earlier this week. Chris Livesay has more.",
+          "link": "https://www.cbsnews.com/video/first-images-of-pope-leo-after-lung-surgery-give-insight-into-his-health-recovery/",
+          "published": "2026-10-16T23:58:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Uncertainty Over Pope’s Health Fuels Familiar Debate Over Vatican’s Candor",
+          "description": "By announcing his lung condition himself, Leo has been more forthcoming than many popes. But mysteries remain, prompting scrutiny of papal statements for hidden meaning.",
+          "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-vatican-transparency-cancer.html",
+          "published": "2026-10-17T04:01:20.000Z",
+          "categories": [
+            "Leo XIV",
+            "Parolin, Pietro",
+            "Prevost, Louis (1951-)",
+            "Roman Catholic Church",
+            "Navarro-Valls, Joaquin",
+            "John Paul II",
+            "Popes",
+            "Rumors and Misinformation",
+            "Cancer",
+            "Pilgrimages"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Asks Putin for a Cease-Fire for a Ukrainian City Under Siege",
+          "description": "Recovering from lung cancer surgery, Pope Leo XIV spoke with Vladimir V. Putin to make a plea for Oleshky, where mines and drones have trapped some 2,000 people who are at risk of starvation.",
+          "link": "https://www.nytimes.com/2026/10/16/world/europe/pope-leo-putin-ukraine-cease-fire.html",
+          "published": "2026-10-16T19:04:56.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Humanitarian Aid",
+            "Evacuations and Evacuees",
+            "Leo XIV",
+            "Putin, Vladimir V",
+            "Lung Cancer",
+            "Roman Catholic Church",
+            "Oleshky (Ukraine)"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Recovering from lung surgery, Pope Leo urges Putin to agree to ceasefire in Russian-held Ukraine city",
+          "description": "Pope Leo called Vladimir Putin from his hospital bed to urge a ceasefire in Oleshky, Ukraine, where food deliveries have been blocked since May.",
+          "link": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city",
+          "published": "2026-10-16T23:10:21.000Z",
+          "categories": [
+            "43deff1e-0943-5423-b665-836c474c4bc5",
+            "fnc",
+            "Fox News",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/world/personalities/vladimir-putin",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/world/world-regions/russia",
+            "fox-news/world/religion/vatican",
+            "fox-news/politics/defense/wars",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Putin agrees to cooperate with Pope Leo's plea for aid for Ukrainian town",
+          "description": "VATICAN CITY, Oct 16 - President Vladimir Putin told Pope Leo he had agreed to cooperate after the pontiff asked him on Friday to help get vital supplies into the Russian-controlled Ukrainian town of Oleshky, the Kremlin said.",
+          "link": "https://www.straitstimes.com/world/europe/putin-agrees-to-cooperate-with-pope-leos-plea-for-aid-for-ukrainian-town",
+          "published": "2026-10-16T17:40:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Vatican releases first photos of Pope Leo XIV after lung tumour surgery",
+          "description": "The Vatican has released the first images of Pope Leo XIV since he underwent surgery to remove a cancerous tumour from his right lung.",
+          "link": "https://www.euronews.com/2026/10/16/vatican-releases-first-photos-of-pope-leo-xiv-after-lung-tumour-surgery",
+          "published": "2026-10-16T13:54:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "fox_health",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Pope Leo XIV seen for first time since lung cancer surgery amid major recovery milestone",
+          "description": "The Vatican released first photos of Pope Leo XIV celebrating mass at Gemelli Hospital, days after surgeons removed a lung lobe due to adenocarcinoma.",
+          "link": "https://www.foxnews.com/health/pope-leo-xiv-seen-first-time-since-lung-cancer-surgery-amid-major-recovery-milestone",
+          "published": "2026-10-16T18:32:56.000Z",
+          "categories": [
+            "f6c62413-b475-5da9-9a8f-2a395003dac4",
+            "fnc",
+            "Fox News",
+            "fox-news/health",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/health/cancer",
+            "fox-news/world/religion/vatican",
+            "fox-news/us/religion",
+            "fox-news/health/cancer/lung-cancer",
+            "fox-news/lifestyle",
+            "fox-news/health",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "fox_health",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Pope Leo's lung tumor raises questions about cancer risk for nonsmokers",
+          "description": "An oncologist says Pope Leo XIV has a roughly 90% chance of cure if the lung cancer is stage 1, but pathology results will determine next steps.",
+          "link": "https://www.foxnews.com/health/pope-leo-lung-tumor-raises-questions-cancer-risk-nonsmokers",
+          "published": "2026-10-16T11:00:11.000Z",
+          "categories": [
+            "5df1b40c-df9f-543a-9b35-418fcd30df4f",
+            "fnc",
+            "Fox News",
+            "fox-news/health",
+            "fox-news/health/cancer",
+            "fox-news/health/cancer/lung-cancer",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/lifestyle",
+            "fox-news/health/respiratory-health",
+            "fox-news/health/respiratory-health/stop-smoking",
+            "fox-news/health",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Pope pictured for first time since surgery and cancer diagnosis",
+          "description": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
+          "link": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o",
+          "published": "2026-10-16T23:20:37.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-17-1rdffvl",
+      "topic": "world",
+      "title": "3 Mexican men jailed for over 158 years for Australian, US surfer murders",
+      "summary": "A Mexican judge sentenced the three men for the 2024 murders a week after they were found guilty.",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 6,
+      "score": 17.92,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+          "description": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
+          "link": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo",
+          "published": "2026-10-17T03:11:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers",
+          "description": "A Mexican judge sentenced the three men for the 2024 murders a week after they were found guilty.",
+          "link": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
+          "published": "2026-10-17T05:01:14.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
+          "description": "Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend Carter Rhoad, were killed while on a surf trip in Baja California in 2024 Get our breaking news email, free app or daily news podcast A Mexican ⁠judge ⁠has sentenced ​three men to 158 years ⁠and nine months in prison each for ⁠the murder of ​two Australian ‌brothers ‌and their American friend during ‌a 2024 surf trip to th",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
+          "published": "2026-10-17T02:52:59.000Z",
+          "categories": [
+            "Mexico",
+            "Australia news",
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers",
+          "description": "The charges were homicide, aggravated robbery, robbery with violence and vehicle theft with violence.",
+          "link": "https://www.straitstimes.com/world/three-sentenced-to-158-years-in-mexico-for-murder-of-australian-us-surfers",
+          "published": "2026-10-17T04:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "3 Mexican men jailed for over 158 years for Australian, US surfer murders",
+          "description": "A judge has sentenced three Mexican men to more than 158 years in prison each for the 2024 murders of two Australian brothers and their American friend, a case that tarnished Mexico’s image by exposing the risks foreigners face when visiting the tourism-dependent country. Friday’s sentencing, which came a week after the men were found guilty, marked the end of a lengthy legal process over the kill",
+          "link": "https://www.scmp.com/news/world/americas/article/3371227/3-mexican-men-jailed-over-158-years-australian-us-surfer-murders",
+          "published": "2026-10-17T03:39:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Three men jailed for 158 years each over murders of Australian and US surfers in Baja California",
+          "description": "Two Australians and one American victim were shot dead in 2024 in a botched robbery",
+          "link": "https://www.independent.co.uk/news/world/americas/jake-callum-robinson-mexico-murder-trial-sentence-b3068452.html",
+          "published": "2026-10-17T07:10:36.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-16-ks2y3s",
+      "topic": "tech",
+      "title": "What to read before you go see that new documentary on Elizabeth Holmes",
+      "summary": "The high-concept documentary from Nathan Fielder and Lance Oppenheim offers surprising generosity to a Big Tech villain without fully excusing her crimes.",
+      "headlineSource": "STAT News",
+      "sourceCount": 4,
+      "score": 14.34,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5.85,
+        "wire": 0,
+        "freshness": 1.53,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 2,
+        "specialistShare": 0.5,
+        "votes": {
+          "tech": 1,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "reason",
+          "outlet": "reason",
+          "lean": "center-right",
+          "wire": false,
+          "topicHint": null,
+          "title": "The Elizabeth Holmes Documentary You Can See Everything Is an Act of Radical Empathy",
+          "description": "The high-concept documentary from Nathan Fielder and Lance Oppenheim offers surprising generosity to a Big Tech villain without fully excusing her crimes.",
+          "link": "https://reason.com/2026/10/16/the-elizabeth-holmes-documentary-you-can-see-everything-is-an-act-of-radical-empathy/",
+          "published": "2026-10-16T13:49:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Why No One Can Look Away From Elizabeth Holmes",
+          "description": "“I felt like there were some moments in the film where she was just brazenly lying.”",
+          "link": "https://www.nytimes.com/2026/10/16/podcasts/hardfork-elizabeth-holmes.html",
+          "published": "2026-10-16T19:28:48.000Z",
+          "categories": [
+            "Holmes, Elizabeth (1984-)",
+            "You Can See Everything (Movie)",
+            "Theranos Inc",
+            "Documentary Films and Programs",
+            "Fielder, Nathan (1983-)",
+            "Tests (Medical)",
+            "Frauds and Swindling",
+            "Evans, William (Billy)",
+            "Balwani, Ramesh",
+            "Computers and the Internet",
+            "internal-open-access-audio"
+          ]
+        },
+        {
+          "sourceId": "freebeacon",
+          "outlet": "freebeacon",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "REVIEW: ‘You Can See Everything’",
+          "description": "You Can See Everything is nominally a documentary about the medical-tech fraudster Elizabeth Holmes and the 34 days she spends with her family before she is finally compelled to begin her 11-year prison sentence in 2023. The post REVIEW: ‘You Can See Everything’",
+          "link": "https://freebeacon.com/issues/review-you-can-see-everything/",
+          "published": "2026-10-16T16:45:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "What to read before you go see that new documentary on Elizabeth Holmes",
+          "description": "Ahead of \"You Can See Everything\" hitting theaters, let's rewind the last decade and review some of the most significant news tied to Elizabeth Holmes, who was convicted in 2022…",
+          "link": "https://www.statnews.com/2026/10/16/health-news-what-to-read-before-elizabeth-holmes-you-can-see-everything/",
+          "published": "2026-10-16T12:34:03.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-17-gwtz6h",
+      "topic": "business",
+      "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+      "summary": "Hong Kong police have received more than 100 reports of unauthorised credit card transactions related to pre-orders of Apple’s latest iPhone model, the South China Morning Post has learned. Apple began its online pre-orders for its foldable iPhone Duo on…",
+      "headlineSource": "CNBC",
+      "sourceCount": 4,
+      "score": 12.15,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 2,
+        "specialistShare": 0.5,
+        "votes": {
+          "tech": 1,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+          "description": "Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.",
+          "link": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+          "published": "2026-10-16T22:31:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Police receive over 100 reports about credit card charges for iPhone Duo pre-orders",
+          "description": "Hong Kong police have received more than 100 reports of unauthorised credit card transactions related to pre-orders of Apple’s latest iPhone model, the South China Morning Post has learned. Apple began its online pre-orders for its foldable iPhone Duo on Friday at 8pm, and complaints about suspicious transactions began to appear on social media overnight. Some credit card users claimed duplicate o",
+          "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3371245/police-receive-over-100-reports-about-credit-card-charges-iphone-duo-pre-orders",
+          "published": "2026-10-17T07:31:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "All the news about the iPhone Duo",
+          "description": "Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID, it uses Touch ID on the power button. It has two cameras, a main lens and",
+          "link": "https://www.theverge.com/?post_type=vm_stream&p=1010131",
+          "published": "2026-10-16T23:36:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Want Apple's folding iPhone? 'Duo' you have patience?",
+          "description": "Expected ship dates for Apple's iPhone Duo, the company's first foldable phone, have already slipped from October to January 2027.",
+          "link": "https://www.businessinsider.com/apple-iphone-duo-expected-shipping-times-slip-2027-2026-10",
+          "published": "2026-10-16T17:09:39.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-17-1hykexf",
+      "topic": "business",
+      "title": "Tech Stocks Drop Further Amid Doubts Over AI Spending",
+      "summary": "Tech stocks shed more than $1 trillion in value Friday, as the price of oil soared to its highest levels in five months.",
+      "headlineSource": "NYT Business",
+      "sourceCount": 4,
+      "score": 10.73,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 1.82,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 4,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 0,
+          "business": 4,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tech stocks erase $1 trillion of wealth as oil surges to $110 for the first time since May",
+          "description": "Tech stocks shed more than $1 trillion in value Friday, as the price of oil soared to its highest levels in five months.",
+          "link": "https://www.nbcnews.com/business/energy/oil-prices-hormuz-iran-ukraine-rcna603919",
+          "published": "2026-10-16T17:55:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tech Stocks Drop Further Amid Doubts Over AI Spending",
+          "description": "Tech stocks plunged before reversing course, as concerns over soaring A.I. spending and stubborn inflation fueled a sell-off.",
+          "link": "https://www.nytimes.com/2026/10/15/business/chip-stocks-technology.html",
+          "published": "2026-10-15T20:22:43.000Z",
+          "categories": [
+            "US and Israeli Attack on Iran (2026)",
+            "Oil (Petroleum) and Gasoline",
+            "Prices (Fares, Fees and Rates)",
+            "Stocks and Bonds",
+            "Standard & Poor's 500-Stock Index",
+            "Iran"
+          ]
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Chinese Stocks Turn Biggest Losers as Global AI Trade Stumbles",
+          "description": "Chinese firms have emerged as the biggest losers of the faltering global AI trade, a setback for Beijing’s efforts to use stock markets to supercharge its ambition of technological supremacy.",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-17/chinese-stocks-turn-biggest-losers-as-global-ai-trade-stumbles",
+          "published": "2026-10-17T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+          "description": "The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the market.",
+          "link": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
+          "published": "2026-10-16T21:59:00.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
