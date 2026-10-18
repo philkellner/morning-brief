@@ -1,0 +1,2065 @@
+{
+  "edition": "2026-10-18",
+  "generatedAt": "2026-10-18T08:32:37.204Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-18-dyqd98",
+      "topic": "world",
+      "title": "Canada says people killed after incident and fire at Alberta military base",
+      "summary": "Defence Minister David McGuinty says people were killed and injured after an incident caused a major fire in Alberta.",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 15,
+      "score": 24.09,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 15,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Major fire breaks out in Alberta after deadly incident at military base",
+          "description": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+          "link": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
+          "published": "2026-10-18T07:56:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Several dead or injured in major fire at Canada military base",
+          "description": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
+          "link": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo",
+          "published": "2026-10-18T08:05:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Serious incident’ at Canada military base causes deaths, injuries",
+          "description": "Defence Minister David McGuinty says people were killed and injured after an incident caused a major fire in Alberta.",
+          "link": "https://www.aljazeera.com/news/2026/10/18/deaths-injuries-after-fire-at-alberta-military-base-canada-minister?traffic_source=rss",
+          "published": "2026-10-18T04:59:29.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Canada: Major fire reported at military base in Alberta",
+          "description": "Canadian Prime Minister Mark Carney has said a \"serious incident\" sparked a major fire at a military base in Alberta. He did not provide details on the cause of the fire.",
+          "link": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-18T02:08:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Major fire breaks out in Alberta after deadly incident at military base",
+          "description": "Canada’s defense minister says that people have been killed and injured in an incident at a military base in Alberta that caused a major fire, while reports said that large numbers of injured people were being transported to hospitals",
+          "link": "https://abcnews.com/International/wireStory/major-fire-breaks-alberta-after-deadly-incident-military-137354452",
+          "published": "2026-10-18T07:06:13.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Fire breaks out after deadly incident at Canadian military base, officials say",
+          "description": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+          "link": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/",
+          "published": "2026-10-18T06:55:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+          "description": "Patients being taken to hospitals in Edmonton as Wainwright ‘completely overwhelmed’ by number of injuries, local doctor says People have been killed and injured after an incident at one of Canada’s busiest military training bases in Alberta caused a large fire, Canada’s defence minister said Saturday. “I’m saddened to share that there have been both fatalities and injuries as a result of an incid",
+          "link": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+          "published": "2026-10-18T02:50:29.000Z",
+          "categories": [
+            "Canada",
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Deadly ‘Incident’ at Canadian Forces Base Wainwright Sparks Fire",
+          "description": "The defense minister said people were killed and injured at the base in Alberta, but officials did not offer details on the cause.",
+          "link": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html",
+          "published": "2026-10-18T07:46:18.000Z",
+          "categories": [
+            "Fires and Firefighters",
+            "Military Bases and Installations",
+            "Canadian Armed Forces",
+            "Carney, Mark J",
+            "Smith, Danielle (1971-)",
+            "Deaths (Fatalities)",
+            "David McGuinty"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Fatalities, injuries reported at Canadian Forces Base Wainwright in Alberta after 'incident' that sparked fire",
+          "description": "Defense Minister David McGuinty confirmed fatalities and injuries after a major fire broke out at CFB Wainwright in Alberta, one of the country's busiest military bases.",
+          "link": "https://www.foxnews.com/world/fatalities-injuries-reported-canadian-forces-base-wainwright-alberta-after-incident-sparked-fire",
+          "published": "2026-10-18T05:41:10.000Z",
+          "categories": [
+            "2590c93e-ba34-5d9f-b69b-19ddd7b34188",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-regions/canada",
+            "fox-news/fires",
+            "fox-news/us/disasters",
+            "fox-news/us/military",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Major Canadian Military Base Hit by 'Tragic' Fire",
+          "description": "The deadly fire broke out after an incident occurred at CFB Wainwright military base in Alberta.",
+          "link": "https://www.newsweek.com/major-canadian-military-base-hit-by-tragic-fire-12584825",
+          "published": "2026-10-18T03:17:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least seven dead and dozens injured after explosion at Canadian military base as minister warns situation is 'very, very active and delicate'",
+          "description": "Multiple people have died and others left injured after an explosion at a Canadian military base. The incident happened on Saturday inside the Canadian Forces Base Wainwright in Alberta.",
+          "link": "https://www.dailymail.com/news/article-16218011/Multiple-dead-explosion-Canadian-military-base.html",
+          "published": "2026-10-18T08:26:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Deaths, injuries reported after fire at Canada military base",
+          "description": "The incident took place at at Canadian Forces Base Wainwright, about 210km east of Edmonton.",
+          "link": "https://www.straitstimes.com/world/serious-incident-at-canada-military-base-in-alberta-causes-major-fire-carney-says",
+          "published": "2026-10-18T02:15:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Canada reports 'fatalities and injuries' following incident at military base",
+          "description": "Canadian Prime Minister Mark Carney said a \"serious incident creating a major fire\" had occurred at Canadian Forces Base Wainwright in Alberta.",
+          "link": "https://www.euronews.com/2026/10/18/canada-reports-fatalities-and-injuries-following-incident-at-military-base",
+          "published": "2026-10-18T07:01:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Canada says people killed after incident and fire at Alberta military base",
+          "description": "Canada’s defence minister said on Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire, while reports said that large numbers of injured people were being transported to hospitals. Fire crews scrambled late into the night as fierce winds whipped flames beyond Canadian Forces Base Wainwright and into the surrounding rural area. It was no",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3371281/fatalities-feared-fire-erupts-canadian-military-base-alberta",
+          "published": "2026-10-18T02:19:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Canada military base fire live: Multiple deaths and injuries after explosion sparks disaster in Alberta",
+          "description": "Defence minister David McGuinty describes the situation as ‘very, very active and delicate’",
+          "link": "https://www.independent.co.uk/news/world/americas/canada-fire-military-base-alberta-wainwright-deaths-b3068697.html",
+          "published": "2026-10-18T07:52:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Many deaths and injuries as ‘very active’ incident sparks fire at Canadian military base",
+          "description": "‘I cannot recall an incident like this in recent memory,’ says Canadian defence minister",
+          "link": "https://www.independent.co.uk/news/world/americas/canada-military-base-alberta-fire-b3068690.html",
+          "published": "2026-10-18T06:56:57.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-18-1adwj6v",
+      "topic": "world",
+      "title": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
+      "summary": "Demonstrators across France converged with students Saturday to protest rising living costs, as the country's fiscal crisis deepens.",
+      "headlineSource": "BBC News",
+      "sourceCount": 12,
+      "score": 23.19,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 1,
+        "specialistShare": 0.08,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Scuffles and fires break out as protesters rally across France, joining students",
+          "description": "Demonstrators across France converged with students Saturday to protest rising living costs, as the country's fiscal crisis deepens.",
+          "link": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "published": "2026-10-17T15:57:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
+          "description": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
+          "link": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+          "published": "2026-10-18T05:56:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How day of protests unfolded as disorder breaks out across France",
+          "description": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
+          "link": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo",
+          "published": "2026-10-17T21:33:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
+          "description": "Unrest broke out in parts of France as students, trade unionists and Yellow Vest activists took to the streets to protest high prices and inequality. Police arrested over 1,000 people amid chaotic scenes.",
+          "link": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T08:02:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Protests in France: \"Two fires broke out in Place de la République\"",
+          "description": "Police and protesters clashed in Paris and other French cities on Saturday, with smoke from fires and tear gas filling the air at demonstrations nationwide against high prices, ahead of elections to replace President Emmanuel Macron. \"Two fires broke out in Place de la République,\" reports France 24's Antonia Kerrigan from the ground.",
+          "link": "https://www.france24.com/en/video/20261017-protests-in-france-two-fires-broke-out-in-place-de-la-r%C3%A9publique",
+          "published": "2026-10-17T15:53:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: \"We've seen extremely high tensions between protesters and law enforcement\"",
+          "description": "Protesters across France called for street demonstrations on Saturday against rising living costs. France 24's Antonia Kerrigan reports from Paris. \"The march from here to Place de Clichy isn't set to start for another hour. However, we've seen it kicking off extremely early doors. It seems that what's happened is that police attempted to block the protesters from reaching Place de la République, ",
+          "link": "https://www.france24.com/en/video/20261017-france-we-ve-seen-extremely-high-tensions-between-protesters-and-law-enforcement",
+          "published": "2026-10-17T14:46:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Fires and clashes rock France amid massive nationwide protests",
+          "description": "Protesters clashed with police in Paris and other French cities on Saturday as hundreds of thousands took to the streets to protest higher living costs and the declining conditions in schools and other public services. Several town halls were broken into – and in at least one instance set on fire – and many shops were vandalised and ransacked. One protester had his hand torn off by what appeared t",
+          "link": "https://www.france24.com/en/france/20261017-looting-fires-and-clashes-rock-france-amid-massive-nationwide-protests",
+          "published": "2026-10-17T12:31:24.000Z",
+          "categories": [
+            "France"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Live: Tens of thousands join protests across France, clashes reported in several cities",
+          "description": "",
+          "link": "https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests",
+          "published": "2026-10-17T12:30:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "New nationwide protests rock France as buildings looted, burned",
+          "description": "A new wave of nationwide protests is hitting France as grievances expand beyond student concerns to encompass inequality and affordability.",
+          "link": "https://www.cbsnews.com/video/new-nationwide-protests-rock-france-as-buildings-looted-burned/",
+          "published": "2026-10-18T02:41:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Whole streets in Paris ‘devastated’ by protests, says mayor, as France demonstrations continue – Europe live",
+          "description": "France’s worst protests in years saw buildings set ablaze across the country and record numbers of people arrested In case you are still catching up with the news from yesterday, my colleagues Kim Willsher and William Christou have this report. More than 1,200 people were arrested in France on Saturday after protesters supporting high school students clashed with police, with some demonstrations l",
+          "link": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+          "published": "2026-10-18T08:18:27.000Z",
+          "categories": [
+            "France",
+            "Europe",
+            "World news",
+            "Protest",
+            "Paris",
+            "Cost of living crisis"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Buildings set ablaze and more than 1,200 arrested as police clash with protesters across France",
+          "description": "Police fire teargas in Paris and Limoges town hall ‘largely lost’ to fire – with officials blaming violence on ‘ultra-left’ More than 1,200 people were arrested in France on Saturday after protesters supporting high school students clashed with police, with some demonstrations later spiralling out of control as buildings were set ablaze and shops looted. Police fired teargas in confrontations with",
+          "link": "https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes",
+          "published": "2026-10-18T00:01:12.000Z",
+          "categories": [
+            "France",
+            "Protest",
+            "Europe",
+            "Paris"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Protesters storm town hall and clash with police in France’s Marseille",
+          "description": "Protesters broke into Marseille town hall and clashed with police during nationwide demonstrations over rising prices in France.",
+          "link": "https://www.euronews.com/2026/10/17/protesters-storm-town-hall-and-clash-with-police-in-frances-marseille",
+          "published": "2026-10-17T16:29:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "More than 1,200 arrested as protesters clash with police across France over rising living costs",
+          "description": "Violent clashes are ongoing between police and protesters over high prices and weak public spending",
+          "link": "https://www.independent.co.uk/news/world/europe/france-protests-paris-riots-police-arrests-students-b3068502.html",
+          "published": "2026-10-18T07:54:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "France is aflame as peaceful protests over the cost of living devolve into chaos and looting",
+          "description": "Saturday's chaos was an escalation in violence after weeks of demonstrations in the country over the cost of living and funding for education.",
+          "link": "https://www.businessinsider.com/france-looting-paris-stores-supermarkets-protests-cost-of-living-2026-10",
+          "published": "2026-10-18T03:54:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: What's different about today's protests?",
+          "description": "In France, protests are under way across the country this Saturday. Demonstrators are protesting against the high cost of living, as well as poor working and studying conditions. We discuss this with France 24's Jamie Smith-Maillet.",
+          "link": "https://www.france24.com/en/video/20261017-france-what-s-different-about-today-s-protests",
+          "published": "2026-10-17T15:07:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France faces day of cost-of-living protests",
+          "description": "French authorities detained dozens on Saturday at the start of nationwide protests against the cost of living, in what is likely to be a key indicator of the social climate heading toward elections to replace President Emmanuel Macron. France 24's Antonia Kerrigan tells us more.",
+          "link": "https://www.france24.com/en/video/20261017-france-faces-day-of-cost-of-living-protests",
+          "published": "2026-10-17T11:47:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Violence erupts at France protests as Macron warns unrest is being exploited",
+          "description": "French President Emmanuel Macron called for calm as tear gas, water cannons and over 8,000 arrests mark weeks of violent clashes across the country.",
+          "link": "https://www.foxnews.com/world/violence-erupts-france-protests-macron-warns-unrest-being-exploited",
+          "published": "2026-10-17T16:03:16.000Z",
+          "categories": [
+            "8a25fe3f-41a4-50c8-87f6-8764d4a8bb6c",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/france",
+            "fox-news/person/emmanuel-macron",
+            "fox-news/world/world-protests",
+            "fox-news/world/world-regions/europe",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Macron says violent rioters will be ‘prosecuted and punished’ as buildings burn in France",
+          "description": "French President Emmanuel Macron released a statement on Saturday afternoon denouncing violent rioters who defaced national landmarks and attacked law enforcement officers in an escalation of protests that began last month. “No room for violence in our Republic,” he said, referencing the increasingly hostile clashes between protesters and police that began largely as student-led protests",
+          "link": "https://www.washingtonexaminer.com/news/world/4769935/macron-violent-rioters-prosecuted-punished/",
+          "published": "2026-10-17T21:18:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Moment distraught woman begs French rioters not to loot shop as thugs attack man defending his store - while 143-year-old town hall is incinerated and violent protests spread across Europe",
+          "description": "The heartbreaking moment was caught on video, as the woman pleaded with a crowd of young male rioters not to loot her shop - a plea they ignored.",
+          "link": "https://www.dailymail.com/news/article-16216559/Macron-Celine-Dion-concert-France-burns-rioters.html",
+          "published": "2026-10-18T08:27:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "French town hall that survived both world wars is incinerated after standing for 143 years as bloody riots spread across Europe",
+          "description": "The cherished building, built in 1883, came tumbling down after it was torched by rioters. More than 1,200 people were arrested across France in the unrest.",
+          "link": "https://www.dailymail.com/news/article-16218151/French-town-hall-survived-world-wars-incinerated-standing-143-years-bloody-riots-spread-Europe.html",
+          "published": "2026-10-18T05:20:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What sparked the fiery protests in France – and how they could spread across Europe",
+          "description": "Here’s everything you need to know about the nationwide movement",
+          "link": "https://www.independent.co.uk/news/world/europe/france-riots-protests-reason-schools-macron-b3068596.html",
+          "published": "2026-10-17T19:45:43.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-18-yf720r",
+      "topic": "world",
+      "title": "Trump signs executive order waiving new Russia sanctions package",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "headlineSource": "Euronews",
+      "sourceCount": 14,
+      "score": 21.36,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 1.99,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 14,
+        "specialistOutlets": 2,
+        "specialistShare": 0.14,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+          "description": "Zelenskyy described the move as unfortunate, adding it would encourage Russia to continue its assault. Trump told Congress that the pause was in the national interest but gave no further details.",
+          "link": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia",
+          "published": "2026-10-17T14:25:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "description": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+          "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o",
+          "published": "2026-10-18T01:10:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
+          "description": "Ukrainian President Zelenskyy says Russia is trying to cut electricity and heating to civilians ahead of winter. He also called the US president's waiver of new sanctions on Moscow a boost for Vladimir Putin.",
+          "link": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T11:34:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump puts new Russia sanctions on hold",
+          "description": "The US president cited national interests for his decision to sign a waiver on sanctions Congress voted to place on Russia.",
+          "link": "https://www.dw.com/en/trump-puts-new-russia-sanctions-on-hold/a-79685002?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T02:09:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rubio says Trump to 'analyze' global impact of Russia sanctions during pause",
+          "description": "US Secretary of State Marco Rubio said Saturday that US President Donald Trump’s decision to waive sanctions and tariffs on Russia would last 60 days, as the move drew bipartisan criticism and raised fears in Ukraine that Washington could ease further restrictions on Moscow.",
+          "link": "https://www.france24.com/en/americas/20261018-rubio-says-trump-russia-sanctions-waiver-designed-to-analyze-global-impact",
+          "published": "2026-10-18T02:39:29.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump waives Graham Act sanctions on Russia, drawing backlash from some lawmakers",
+          "description": "The new sanctions and tariffs were set to take effect in two days.",
+          "link": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529",
+          "published": "2026-10-17T19:28:02.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Zelenskyy says Trump's decision to waive new sanctions on Russia \"seems wrong\"",
+          "description": "President Trump waived virtually all new Russia sanctions he had signed as strikes against Ukraine continue, drawing backlash. Ramy Inocencio has more.",
+          "link": "https://www.cbsnews.com/video/zelenskyy-says-trumps-decision-to-waive-new-sanctions-on-russia-seems-wrong/",
+          "published": "2026-10-18T02:38:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Sen. Graham on Trump waiving Russia sanctions: ‘I look forward to talking to him’",
+          "description": "Sen. Darline Graham (R-S.C.) said Saturday that she would prefer to keep sanctions pressure on Russia after President Trump waived sanctions on the country that were enacted through a bill Graham championed. Trump signed an executive order Friday waiving sanctions on Russian energy, passed under the Lindsey O. Graham Sanctioning Russia and Iran Act. The...",
+          "link": "https://thehill.com/homenews/senate/6156233-darline-graham-opposes-trump-russia-waiver/",
+          "published": "2026-10-18T00:18:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
+          "description": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
+          "link": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+          "published": "2026-10-17T19:35:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Massie offers rare praise for Trump on waiving Lindsey Graham’s Russia sanctions",
+          "description": "Rep. Thomas Massie (R-KY) on Saturday issued rare approval of President Donald Trump, commending the White House for lifting sanctions on Russia. The White House waived the sanctions on Friday, after the late Sen. Lindsey Graham (R-SC) championed the penalties as a measure designed to support Ukraine in its war against Moscow. The sanctions relief",
+          "link": "https://www.washingtonexaminer.com/news/house/4769896/massie-praise-trump-waive-russia-sanction/",
+          "published": "2026-10-17T18:32:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelensky criticises Trump’s waiver of sanctions on Russia as ‘wrong’",
+          "description": "An executive order issued by Donald Trump on Oct 16 waived key Russia-related US sanctions and tariffs.",
+          "link": "https://www.straitstimes.com/world/united-states/zelenskiy-criticizes-trumps-waiver-of-sanctions-on-russia-as-wrong",
+          "published": "2026-10-18T00:39:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump signs executive order waiving new Russia sanctions package",
+          "description": "Russian presidential envoy Kirill Dmitriev has called the decision to put the sanctions on hold a \"significant and truly historic moment.\"",
+          "link": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
+          "published": "2026-10-17T06:37:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump's decision to waive Russian sanctions outrages Congress, but no quick counter seen",
+          "description": "Lawmakers from both parties blasted the executive order late Friday, the latest in a series of steps that the Republican president has taken drawing the United States closer to Russia's Vladimir Putin.",
+          "link": "https://www.pbs.org/newshour/politics/trumps-decision-to-waive-russian-sanctions-outrages-congress-but-no-quick-counter-seen",
+          "published": "2026-10-17T15:57:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump Offers Putin Economic Relief in Hopes That Russia Will Return the Favor",
+          "description": "The Trump administration is ignoring the will of Congress and waiving new Russia sanctions amid fears that high energy prices will cost Republicans in next month’s elections.",
+          "link": "https://www.nytimes.com/2026/10/17/business/trump-russia-sanctions-congress.html",
+          "published": "2026-10-17T23:46:16.000Z",
+          "categories": [
+            "United States Politics and Government",
+            "United States International Relations",
+            "Law and Legislation",
+            "Embargoes and Sanctions",
+            "Midterm Elections (2026)",
+            "Presidential Power (US)",
+            "Graham, Lindsey",
+            "Putin, Vladimir V",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump waives many Russian sanctions, tariffs under new law backed by Lindsey Graham",
+          "description": "President Donald Trump on Friday said he was waiving many Russian-related sanctions and tariffs under a new law backed by late South Carolina Sen. Lindsey Graham.",
+          "link": "https://www.foxbusiness.com/politics/trump-waives-many-russian-sanctions-under-new-law-backed-lindsey-graham",
+          "published": "2026-10-17T02:00:12.000Z",
+          "categories": [
+            "76aae4ee-15ed-5f29-9ca1-6d680a78147f",
+            "fbn",
+            "Fox Business",
+            "fox-business/person/donald-trump",
+            "fox-news/fox-news-world/fox-news-personalities/fox-news-vladimir-putin",
+            "fox-news/fox-news-world",
+            "fox-business/markets/oil",
+            "fox-business/politics",
+            "fox-business/politics",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-18-f1v564",
+      "topic": "world",
+      "title": "European diplomats attacked by Israeli settlers in West Bank",
+      "summary": "Masked Israeli settlers attacked European diplomats, a French mayor and Palestinians in the occupied West Bank.",
+      "headlineSource": "BBC News",
+      "sourceCount": 13,
+      "score": 20.96,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "European diplomats attacked by Israeli settlers in West Bank",
+          "description": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+          "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo",
+          "published": "2026-10-17T23:52:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers attack European diplomats in the occupied West Bank",
+          "description": "Masked Israeli settlers attacked European diplomats, a French mayor and Palestinians in the occupied West Bank.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
+          "published": "2026-10-18T01:02:37.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "West Bank: Israeli settlers attack EU diplomats, French mayor",
+          "description": "A group of Israeli settlers attacked vehicles carrying European diplomats in the West Bank, a day after an American photographer was beaten. Belgium and France have condemned the attack.",
+          "link": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T16:29:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Israeli settlers beat French mayor, attack European diplomatic cars in West Bank",
+          "description": "",
+          "link": "https://www.france24.com/en/middle-east/20261017-israeli-settlers-attack-european-delegation-convoy-in-west-bank-beat-french-mayor",
+          "published": "2026-10-17T14:58:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers attack European delegation convoy in West Bank, beat French mayor",
+          "description": "Israeli settlers on Saturday attacked a convoy carrying a European delegation in the occupied West Bank, beating up a 78-year-old French mayor. While Israel's Prime Minister Benjamin Netanyahu – who is just days from a crucial election – described the incident as a \"smear\" campaign against Israeli settlers, France's top diplomat urged Israel to \"urgently halt criminal violence\".",
+          "link": "https://www.france24.com/en/middle-east/20261017-israeli-settlers-attack-european-delegation-convoy-in-west-bank-beat-french-mayor",
+          "published": "2026-10-17T14:58:07.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israeli settlers attack European diplomats and French mayor in West Bank, Belgium says",
+          "description": "Israeli settlers have allegedly attacked Palestinian civilians, European diplomats and a French mayor in the West Bank, sparking international condemnation.",
+          "link": "https://news.sky.com/story/israeli-settlers-attack-european-diplomats-and-french-mayor-in-west-bank-belgium-says-13600419",
+          "published": "2026-10-17T17:38:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "EU diplomats say they were attacked by settlers in West Bank",
+          "description": "Footage circulating online appears to show several diplomats being attacked in the vicinity of the village of Taybeh, Israeli police said.",
+          "link": "https://www.cbsnews.com/news/european-diplomats-attacked-west-bank/",
+          "published": "2026-10-17T21:02:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israeli settlers attack European diplomats in West Bank",
+          "description": "French mayor and archbishop also attacked during violent attempt to stop Palestinians harvesting olives Israeli settler militants have attacked European diplomats, a French mayor and the archbishop of Cambrai in Taybeh, in the occupied West Bank, injuring three people and damaging a car, in the latest violent attempt to prevent Palestinians from harvesting olives on their own land. Bernard Baudoux",
+          "link": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank",
+          "published": "2026-10-17T18:57:56.000Z",
+          "categories": [
+            "West Bank",
+            "World news",
+            "Israel",
+            "Palestine",
+            "Middle East and north Africa"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israeli Settlers Attack Palestinians and European Officials in West Bank",
+          "description": "Extremists assaulted residents and broke a European diplomatic vehicle’s window, witnesses said, as settler violence surges in the territory during the olive harvest.",
+          "link": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
+          "published": "2026-10-18T07:36:55.000Z",
+          "categories": [
+            "Israel-Gaza War (2023-)",
+            "Israeli Settlements",
+            "Palestinians",
+            "Human Rights and Human Rights Violations",
+            "Vandalism",
+            "Yesh Din",
+            "Washington Post",
+            "Netanyahu, Benjamin",
+            "Belgium",
+            "France",
+            "Israel",
+            "Poland",
+            "West Bank"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Huckabee condemns Israeli settlers' attack on Washington Post photojournalist",
+          "description": "Mike Huckabee, the U.S. Ambassador to Israel, condemned what he called a “vicious” and “cowardly” attack on a Washington Post photojournalist in the West Bank. The U.S. envoy shared a statement to the social platform X, calling for a full investigation into an attack by a group of Israeli settlers on Palestinians in Israel’s West...",
+          "link": "https://thehill.com/homenews/administration/6156177-huckabee-condemns-israel-photographer-attack/",
+          "published": "2026-10-17T22:35:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers attack European diplomats, beat French mayor",
+          "description": "US Secretary of State Marco Rubio warned against a brewing “crisis” in the territory.",
+          "link": "https://www.straitstimes.com/world/middle-east/israeli-settlers-attack-european-diplomats-beat-french-mayor",
+          "published": "2026-10-18T07:51:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers attack European diplomats, beat up French mayor in West Bank",
+          "description": "Israeli settlers attacked a convoy of European diplomats in the West Bank and beat up a visiting French mayor on Saturday, witnesses said, while US Secretary of State Marco Rubio warned against a brewing “crisis” in the territory a day after an American photojournalist was injured in a brutal attack. The 78-year-old mayor said masked settlers yelled defamatory comments about France, kicked him and",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3371275/israeli-settlers-attack-european-diplomats-beat-french-mayor-west-bank",
+          "published": "2026-10-17T18:33:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Kicked me for 10 mins': Trump 'disturbed' by West Bank attack on US photojournalist",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/kicked-me-for-10-minutes-trump-disturbed-by-images-of-attack-on-us-photojournalist-heidi-levine-who-undergoes-surgery/articleshow/135023634.cms",
+          "published": "2026-10-18T03:56:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Masked settlers attack European diplomats in the occupied West Bank",
+          "description": "In Saturday's attack in the village of Taybeh, settlers targeted Belgium's consul general, French and Polish diplomats and Catholic representatives, Belgian Foreign Minister Maxime Prevot said.",
+          "link": "https://www.pbs.org/newshour/world/masked-settlers-attack-european-diplomats-in-the-occupied-west-bank",
+          "published": "2026-10-17T16:28:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli settlers attack Palestinians during West Bank olive harvest and beat U.S. photojournalist",
+          "description": "Israeli settlers attacked Palestinian villages across the occupied West Bank on Friday, setting fire to cars and trees and beating residents and a Washington Post photographer, in the latest violence to disrupt the territory's annual olive harvest this month.",
+          "link": "https://www.pbs.org/newshour/world/israeli-settlers-attack-palestinians-during-west-bank-olive-harvest-and-beat-u-s-photojournalist",
+          "published": "2026-10-16T23:46:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rubio wants ‘crackdown’ on settler violence after US journalist attack",
+          "description": "Rubio wants ‘crackdown’ on settler violence after US journalist attack",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/rubio-wants-crackdown-on-settler-violence-after-us-journalist-attack?traffic_source=rss",
+          "published": "2026-10-18T03:44:25.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US ambassador urges Israel to prosecute attackers of American journalist",
+          "description": "US Secretary of State Rubio separately urges Israel to ‘crack down’ on settler violence after attack on photographer.",
+          "link": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
+          "published": "2026-10-17T23:40:59.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US wants Israel to ‘crack down’ on settler violence in West Bank, says Rubio",
+          "description": "Israeli settlers in the West Bank have been involved in at least 170 attacks on Palestinians since Sept 27.",
+          "link": "https://www.straitstimes.com/world/middle-east/us-wants-israel-to-crack-down-on-settler-violence-in-west-bank-rubio-says",
+          "published": "2026-10-17T23:50:42.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-18-2alhuk",
+      "topic": "world",
+      "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
+      "summary": "Four days after undergoing surgery for lung cancer, Pope Leo left the hospital in Rome. His doctors said he was well enough to return home.",
+      "headlineSource": "NPR",
+      "sourceCount": 10,
+      "score": 20.03,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 1,
+        "specialistShare": 0.1,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
+          "description": "The Pope left Rome's Gemelli Hospital Saturday, days after surgery for lung cancer removed the lower lobe of his right lung. He is currently scheduled to travel to Latin America in November.",
+          "link": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
+          "published": "2026-10-17T15:10:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope discharged from hospital days after lung cancer surgery",
+          "description": "The pontiff will give the traditional Angelus prayer and blessing in St Peter's Square on Sunday.",
+          "link": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko",
+          "published": "2026-10-17T13:51:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo leaves hospital after cancer surgery",
+          "description": "Four days after undergoing surgery for lung cancer, Pope Leo left the hospital in Rome. His doctors said he was well enough to return home.",
+          "link": "https://www.dw.com/en/pope-leo-leaves-hospital-after-cancer-surgery/a-79688162?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T13:59:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo leaves hospital after lung cancer surgery, the Vatican says",
+          "description": "Pope Leo has left hospital, four days after his lung cancer surgery.",
+          "link": "https://news.sky.com/story/pope-leo-to-leave-hospital-today-after-lung-cancer-surgery-the-vatican-says-13600129",
+          "published": "2026-10-17T09:40:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope's surgeon details operating on \"ideal patient\"",
+          "description": "Pope Leo XIV was undergoing an examination for another reason when doctors discovered a tumor on his right lung, his doctor said.",
+          "link": "https://www.cbsnews.com/news/pope-leo-surgeon-details-operation-lung-cancer/",
+          "published": "2026-10-18T02:47:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo discharged from Rome hospital ahead of schedule after successful lung surgery",
+          "description": "Pope Leo was discharged from a Rome hospital ahead of schedule on Saturday following the lung surgery that led to a cancer diagnosis. Chris Livesay has the story.",
+          "link": "https://www.cbsnews.com/video/pope-leo-discharged-from-rome-hospital-ahead-of-schedule-after-successful-lung-surgery/",
+          "published": "2026-10-18T02:35:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo discharged from hospital 4 days after lung cancer surgery",
+          "description": "The 71-year-old pope had a portion of his right lung removed and received a diagnosis of lung cancer earlier this week.",
+          "link": "https://www.cbsnews.com/news/pope-leo-hospital-released-discharged-saturday-appearance/",
+          "published": "2026-10-17T16:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "10/17: CBS Saturday Morning",
+          "description": "Pope Leo is cleared to leave the hospital after lung surgery, plus Albertans speak on the vote to potentially leave Canada. All this and more.",
+          "link": "https://www.cbsnews.com/video/101726-cbs-saturday-morning/",
+          "published": "2026-10-17T13:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Photos show pope celebrating Mass at hospital after cancer surgery",
+          "description": "The Vatican also released photos of some get-well notes that had been sent to Pope Leo from patients in the hospital's pediatric oncology ward.",
+          "link": "https://www.cbsnews.com/news/photos-pope-leo-mass-hospital-recovery-surgery/",
+          "published": "2026-10-17T00:04:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "First images of Pope Leo after lung surgery give insight into his health, recovery",
+          "description": "Pope Leo began resuming his duties Friday after undergoing lung cancer surgery in Rome earlier this week. Chris Livesay has more.",
+          "link": "https://www.cbsnews.com/video/first-images-of-pope-leo-after-lung-surgery-give-insight-into-his-health-recovery/",
+          "published": "2026-10-16T23:58:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo set to speak at Vatican after cancer surgery",
+          "description": "Pope Leo was released from the hospital Saturday, days lung cancer surgery. The Pope is set to give a prayer and blessing at the Vatican on Sunday. NBC News’ Anne Thompson reports.",
+          "link": "https://www.nbcnews.com/nightly-news/video/pope-leo-set-to-speak-at-vatican-after-cancer-surgery-271759941822",
+          "published": "2026-10-17T23:06:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo discharged from hospital after lung cancer surgery",
+          "description": "Pope Leo XIV was discharged from the hospital on Saturday after undergoing surgery for lung cancer, with his surgeon saying he could be fully recovered in about 10 days.",
+          "link": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-discharged-hospital-lung-cancer-surgery-rcna604005",
+          "published": "2026-10-17T10:30:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo Leaves Hospital, Days After Lung Cancer Surgery",
+          "description": "Leo XIV had been treated for lung cancer at Gemelli Hospital in Rome.",
+          "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
+          "published": "2026-10-17T16:17:00.000Z",
+          "categories": [
+            "Leo XIV",
+            "Roman Catholic Church",
+            "Gemelli Hospital (Rome, Italy)",
+            "Popes",
+            "Lungs",
+            "Lung Cancer",
+            "Hospitals"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Uncertainty Over Pope’s Health Fuels Familiar Debate Over Vatican’s Candor",
+          "description": "By announcing his lung condition himself, Leo has been more forthcoming than many popes. But mysteries remain, prompting scrutiny of papal statements for hidden meaning.",
+          "link": "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-vatican-transparency-cancer.html",
+          "published": "2026-10-17T16:52:48.000Z",
+          "categories": [
+            "Leo XIV",
+            "Roman Catholic Church",
+            "Popes"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo XIV discharged from hospital, will return to Vatican after surgery to remove lung cancer",
+          "description": "Pope Leo XIV received blood tests and a chest X-ray at Gemelli Hospital, confirming he is well enough to return to the Vatican after surgery.",
+          "link": "https://www.foxnews.com/world/pope-leo-xiv-discharged-hospital-return-vatican-surgery-remove-lung-cancer",
+          "published": "2026-10-17T11:19:52.000Z",
+          "categories": [
+            "e264c90c-198d-54a7-b894-e408141e63be",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/world/religion/vatican",
+            "fox-news/health",
+            "fox-news/health/cancer",
+            "fox-news/us/religion/roman-catholic",
+            "fox-news/world/world-regions/italy",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Recovering from lung surgery, Pope Leo urges Putin to agree to ceasefire in Russian-held Ukraine city",
+          "description": "Pope Leo called Vladimir Putin from his hospital bed to urge a ceasefire in Oleshky, Ukraine, where food deliveries have been blocked since May.",
+          "link": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city",
+          "published": "2026-10-16T23:10:21.000Z",
+          "categories": [
+            "43deff1e-0943-5423-b665-836c474c4bc5",
+            "fnc",
+            "Fox News",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/world/personalities/vladimir-putin",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/world/world-regions/russia",
+            "fox-news/world/religion/vatican",
+            "fox-news/politics/defense/wars",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour",
+          "description": "The Vatican had initially estimated a weeklong hospital stay and canceled his audiences through Tuesday. Experts said patients could be discharged earlier depending on their recovery.",
+          "link": "https://www.pbs.org/newshour/world/pope-leo-returns-to-the-vatican-4-days-after-lung-cancer-surgery",
+          "published": "2026-10-17T15:27:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo discharged from hospital days after lung cancer surgery",
+          "description": "The 71-year-old had the lower lobe of his right lung removed after doctors detected a suspected cancerous nodule",
+          "link": "https://www.independent.co.uk/news/world/europe/pope-leo-lung-surgery-cancer-b3068498.html",
+          "published": "2026-10-17T14:03:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Pope discharged from hospital days after lung cancer surgery",
+          "description": "The pontiff will give the traditional Angelus prayer and blessing in St Peter's Square on Sunday.",
+          "link": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko",
+          "published": "2026-10-17T13:51:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Pope pictured for first time since surgery and cancer diagnosis",
+          "description": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
+          "link": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o",
+          "published": "2026-10-16T23:20:37.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-17-a2mj6d",
+      "topic": "world",
+      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+      "summary": "Three Mexican men were found guilty last week of murdering foreign surfers in 2024. The case had drawn global condemnation, particularly in Australia, where two of the victims were from.",
+      "headlineSource": "BBC News",
+      "sourceCount": 8,
+      "score": 19.05,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 1.54,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+          "description": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
+          "link": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo",
+          "published": "2026-10-17T03:11:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Mexico sentences killers of US, Australian surfers to 158 years each in prison",
+          "description": "Three Mexican men were found guilty last week of murdering foreign surfers in 2024. The case had drawn global condemnation, particularly in Australia, where two of the victims were from.",
+          "link": "https://www.dw.com/en/mexico-sentences-killers-of-us-australian-surfers-to-158-years-each-in-prison/a-79685975?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-17T08:19:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Three men sentenced to more than 158 years in jail for murders of surfers​",
+          "description": "Three men have been sentenced to 158 years and nine months each for the murders of two Australian brothers and their American friend.",
+          "link": "https://news.sky.com/story/three-men-sentenced-to-more-than-158-years-in-prison-for-murders-of-australian-and-us-surfers-13600108",
+          "published": "2026-10-17T07:23:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Killers of U.S., Australian surf trio sentenced to 158 years",
+          "description": "Brothers Jake and Callum Robinson and Carter Rhoad were on a surfing trip to Mexico's Baja California when they were killed during an attempted robbery.",
+          "link": "https://www.cbsnews.com/news/australian-us-surfers-mexico-murder-sentence-prison/",
+          "published": "2026-10-17T12:08:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
+          "description": "Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend Carter Rhoad, were killed while on a surf trip in Baja California in 2024 Get our breaking news email, free app or daily news podcast A Mexican ⁠judge ⁠has sentenced ​three men to 158 years ⁠and nine months in prison each for ⁠the murder of ​two Australian ‌brothers ‌and their American friend during ‌a 2024 surf trip to th",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
+          "published": "2026-10-17T02:52:59.000Z",
+          "categories": [
+            "Mexico",
+            "Australia news",
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Mexican Judge Sentences 3 Men to 159 Years Each in Surfer Killings",
+          "description": "The men were charged in the murders of two Australians and an American who were on a camping and surf vacation in Mexico.",
+          "link": "https://www.nytimes.com/2026/10/17/world/americas/mexican-judge-sentences-3-men-to-159-years-each-in-surfer-killings.html",
+          "published": "2026-10-17T19:58:23.000Z",
+          "categories": [
+            "Murders, Attempted Murders and Homicides",
+            "Robberies and Thefts",
+            "Surfing",
+            "Baja California (Mexico)"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Three men get 158 years each for murdering American and Australian surfers, dumping bodies in Mexican well",
+          "description": "Three men were sentenced to 158 years each in Ensenada, Baja California, for the murders of surfers Callum and Jake Robinson and Carter Redd Rhoad.",
+          "link": "https://www.foxnews.com/world/three-men-158-years-murdering-american-australian-surfers-dumping-bodies-mexican-well",
+          "published": "2026-10-17T17:38:52.000Z",
+          "categories": [
+            "e4b4e0d0-352d-5ba2-96dd-cad9493ae845",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/crime",
+            "fox-news/world/world-regions/location-mexico",
+            "fox-news/us/crime/homicide",
+            "fox-news/world/world-regions/americas",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Three men jailed for 158 years each over murders of Australian and US surfers in Baja California",
+          "description": "Two Australians and one American victim were shot dead in 2024 in a botched robbery",
+          "link": "https://www.independent.co.uk/news/world/americas/jake-callum-robinson-mexico-murder-trial-sentence-b3068452.html",
+          "published": "2026-10-17T12:45:40.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-18-878lbi",
+      "topic": "world",
+      "title": "Two killed, including 6-year-old, when truck drives through youth soccer game in US, police say",
+      "summary": "A 34-year-old woman driving the truck has been cooperating with investigators, the police said.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 6,
+      "score": 17.8,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.18,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "2 dead, 11 injured after Kansas mother drives onto soccer field during game: Police",
+          "description": "A child and an adult were killed after a vehicle drove through a soccer game in Wichita, Kansas Saturday afternoon, police said.",
+          "link": "https://abcnews.com/US/2-dead-after-truck-drives-soccer-game-wichita/story?id=137352588",
+          "published": "2026-10-18T04:59:43.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Two people, including child, killed after person drives through soccer game in Kansas",
+          "description": "The driver of the vehicle is in custody, and two juveniles were in the vehicle, according to Wichita police department Two people, including a child, were killed during a soccer game in Wichita, Kansas, when a person drove a vehicle through the field at Stryker soccer complex, police have confirmed. Multiple other people were injured. The driver of the vehicle is in custody, Aaron Moses of the Wic",
+          "link": "https://www.theguardian.com/us-news/2026/oct/17/kansas-soccer-game-killings",
+          "published": "2026-10-17T23:22:06.000Z",
+          "categories": [
+            "Kansas",
+            "US crime",
+            "Children",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Two killed, including 6-year-old, when truck drives through youth soccer game in US, police say",
+          "description": "A 34-year-old woman driving the truck has been cooperating with investigators, the police said.",
+          "link": "https://www.straitstimes.com/world/united-states/vehicle-drives-through-kansas-soccer-game-killing-two-including-a-child-police-say",
+          "published": "2026-10-18T01:25:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Two dead including child after man drives car onto Wichita soccer field during game: police",
+          "description": "A child and an adult were killed at the scene, and police said multiple other injured victims have been transported to area hospitals",
+          "link": "https://www.independent.co.uk/news/world/americas/wichita-kansas-two-dead-soccer-field-man-arrested-b3068667.html",
+          "published": "2026-10-17T22:55:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Mom plows pickup through youth soccer game killing two, including 5-year-old boy, while 11 others are hospitalized: cops",
+          "description": "A vehicle described as a black pickup truck struck at least two people, including a child, and sent several others to the hospital.",
+          "link": "https://nypost.com/2026/10/17/us-news/driver-plows-through-youth-soccer-field-at-kansas-sports-complex-killing-at-least-2/",
+          "published": "2026-10-17T23:16:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Children among two dead and ten critically injured after mom 'crashed pickup into soccer field while her kids were in the back'",
+          "description": "A black pickup truck reportedly plowed through youth soccer fields at Wichita's Stryker Sports Complex, striking multiple people. Witnesses have described horrifying scenes.",
+          "link": "https://www.dailymail.com/news/article-16217689/people-injured-pickup-truck-drives-youth-soccer-field-Kansas.html",
+          "published": "2026-10-18T03:08:07.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-18-5870vh",
+      "topic": "world",
+      "title": "At least 19 dead in stampede at Kolkata Hindu festival",
+      "summary": "At least 19 people were killed and two dozen more injured on Saturday in eastern India after a stampede that occurred during sudden rainfall at a Hindu religious gathering, officials and Indian media said. West Bengal’s Chief Minister Suvendhu Adhikari told…",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 9,
+      "score": 17.58,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 1,
+        "specialistShare": 0.11,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 17 dead in crush at Hindu festival event in India",
+          "description": "Many more have been injured at an event in the Indian city of Kolkata to mark a Hindu festival.",
+          "link": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko",
+          "published": "2026-10-17T19:19:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 19 dead in stampede at Kolkata Hindu festival",
+          "description": "A seven-year-old girl was among at least 19 people killed in a stampede during a Hindu festival in Kolkata, India.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss",
+          "published": "2026-10-18T04:21:46.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India news: Kolkata stampede dampens Durga Puja festivities",
+          "description": "Authorities have detained several people over a deadly stampede in India's eastern city of Kolkata, after the state vowed strict action. Meanwhile, 'Cockroach' leader Dipke is out of detention. DW has more.",
+          "link": "https://www.dw.com/en/india-news-kolkata-stampede-dampens-durga-puja-festivities/live-79685143?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-18T04:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Crush at religious festival kills at least 17 and injures dozens in India",
+          "description": "At least 17 people have died and dozens more are injured after a crush at a religious festival in India, local media reports.",
+          "link": "https://news.sky.com/story/crush-at-religious-festival-kills-at-least-17-and-injures-dozens-in-india-13600451",
+          "published": "2026-10-17T19:37:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "17 Dead and Dozens Injured After Stampede at Indian Religious Event",
+          "description": "Such deadly crowd events are relatively common in India, and it was unclear what caused this one. The authorities detained the event’s organizer and others involved.",
+          "link": "https://www.nytimes.com/2026/10/17/world/asia/india-deadly-stampede-kolkata.html",
+          "published": "2026-10-18T08:12:20.000Z",
+          "categories": [
+            "Kolkata (India)",
+            "Stampedes",
+            "Deaths (Fatalities)",
+            "Hinduism",
+            "West Bengal (India)",
+            "India"
+          ]
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 19 dead and 25 hurt in stampede at India religious gathering",
+          "description": "Deadly crowd incidents are a frequent occurrence at Indian mass events, such as religious festivals, due to poor management and safety lapses.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/18/asia-pacific/stampede-india-religious-gathering/",
+          "published": "2026-10-18T00:05:00.000Z",
+          "categories": [
+            "ASIA PACIFIC"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "19 dead, 25 hurt in stampede at India religious festival",
+          "description": "At least 19 people were killed and two dozen more injured on Saturday in eastern India after a stampede that occurred during sudden rainfall at a Hindu religious gathering, officials and Indian media said. West Bengal’s Chief Minister Suvendhu Adhikari told reporters the fatalities included a seven-year-old girl, adding that 25 other people were injured outside a pavilion “in a stampede” at the Hi",
+          "link": "https://www.scmp.com/news/asia/south-asia/article/3371278/19-dead-25-hurt-stampede-india-religious-festival",
+          "published": "2026-10-17T23:31:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Kolkata Stampede Leaves At Least 19 Dead, Dozens Injured",
+          "description": "A stampede on Saturday night during the popular Hindu festival in the eastern Indian city of Kolkata has left at least 19 dead and 25 injured.",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-18/kolkata-stampede-leaves-at-least-19-dead-dozens-injured",
+          "published": "2026-10-18T05:23:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Pandal will collapse’: Announcement that may have triggered Kolkata stampede; watch",
+          "description": "A stampede occurred at the Chorbagan Durga Puja pandal, leading to 19 fatalities and multiple injuries. Panic ensued after a warning announced the potential collapse of the pandal, contributing to the chaos. Police investigations revealed issues with crowd management and inadequate announcements during the event. The government has promised compensation for the victims' families and is reviewing s",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/please-leave-pandal-will-collapse-video-captures-misleading-announcement-before-kolkata-stampede-that-killed-19/articleshow/135024424.cms",
+          "published": "2026-10-18T05:59:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Amit Shah visits injured after deadly stampede at Kolkata Durga Puja pandal",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/india/amit-shah-visits-injured-after-deadly-stampede-at-kolkata-durga-puja-pandal/articleshow/135023786.cms",
+          "published": "2026-10-18T04:24:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kolkata: Video shows crowd breaching barricades, tussling with cops day before stampede",
+          "description": "A crowd surge at Chorbagan Durga Puja pandal in Kolkata led to a tragic stampede on Saturday evening. The incident occurred when heavy rain caused a rush of people seeking shelter inside the pandal. Eyewitnesses described a chaotic scene with limited crowd management and dark conditions. Following the tragedy, investigations are underway and several organisers have been detained for questioning.",
+          "link": "https://timesofindia.indiatimes.com/city/kolkata/kolkata-stampede-video-shows-crowd-breaching-barricades-tussling-with-cops-at-chorbagan-pandal-day-before-tragedy/articleshow/135023324.cms",
+          "published": "2026-10-18T03:41:38.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-18-19yjem9",
+      "topic": "world",
+      "title": "Across the US, ‘No Kings’ events seek to boost early voting for midterms",
+      "summary": "Organizers of the \"No Kings\" protests, known for their anti-Trump sentiment, are urging Americans to vote early in the November 3 midterm elections, as Republicans face tough races to retain control of Congress.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 9,
+      "score": 17.05,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 1.93,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 1,
+        "specialistShare": 0.11,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Photos: No Kings rallies in US urge midterm voters to cast ballots early",
+          "description": "Thousands gathered at events throughout the country on Saturday, building on two years of No Kings marches.",
+          "link": "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss",
+          "published": "2026-10-17T21:08:10.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'No Kings' rallies push early voting ahead of US midterm elections",
+          "description": "Organizers of the \"No Kings\" protests, known for their anti-Trump sentiment, are urging Americans to vote early in the November 3 midterm elections, as Republicans face tough races to retain control of Congress.",
+          "link": "https://www.dw.com/en/no-kings-rallies-push-early-voting-ahead-of-us-midterm-elections/a-79690502?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-18T00:51:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Standing up for democracy’: Atlanta ‘No Kings’ rally draws Trump critics ahead of midterms",
+          "description": "“No Kings, Vote Now” was the theme of a rally in Atlanta, one of many organised across the US on Saturday. While many demonstrators denounced President Donald Trump’s policies, organisers said the rally was aimed at getting out the vote in the November 3 midterm elections and protecting democracy in America.",
+          "link": "https://www.france24.com/en/americas/20261018-standing-up-for-democracy-atlanta-no-kings-rally-draws-trump-critics-ahead-of-us-midterms",
+          "published": "2026-10-18T01:50:29.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Thousands of No Kings protests held for nationwide early voting 'day of action'",
+          "description": "Thousands of “No Kings” protests are being held across the country on Saturday for a “nationwide day of action” amid the start of the early voting period in many states. Previous country-wide protest days led by the No Kings Coalition have been aimed at denouncing President Trump and his administration’s policies. The Oct. 17 day...",
+          "link": "https://thehill.com/homenews/state-watch/6155983-no-kings-coalition-action-protests/",
+          "published": "2026-10-17T17:38:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Across the US, ‘No Kings’ events seek to boost early voting for midterms",
+          "description": "Rather than holding massive marches, the latest 'No Kings' events varied across the country.",
+          "link": "https://www.straitstimes.com/world/united-states/across-the-us-no-kings-events-seek-to-boost-early-voting-for-midterms",
+          "published": "2026-10-18T00:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Across U.S., ‘No Kings’ events seek to boost early voting",
+          "description": "Rather than holding massive marches, the latest \"No Kings\" protests varied — with honking convoys, concerts and neighborhood gatherings.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/18/world/politics/us-no-kings-early-voting/",
+          "published": "2026-10-18T00:05:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Across US, ‘No Kings’ events seek to boost early voting and thwart Trump",
+          "description": "Carrying an umbrella painted with the words “vote, power, people”, retired teacher Sabine Carlson said the lesson plan for Saturday’s “No King” marches was clear. “It’s great to voice your anger, and we have long lists of complaints, but the most important thing of all is to go and vote,” the 66-year-old Democrat from Washington’s suburbs said. At the demonstration near the country’s Capitol, Carl",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3371279/across-us-no-kings-events-seek-boost-early-voting",
+          "published": "2026-10-17T23:56:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "No Kings rallies across U.S. urge voters to cast ballots early ahead of midterms",
+          "description": "The hundreds of planned events were being billed as nonpartisan, though they sought to build on nearly two years' worth of No Kings marches and demonstrations by people upset with Trump's presidency.",
+          "link": "https://www.pbs.org/newshour/nation/no-kings-rallies-across-u-s-urge-voters-to-cast-ballots-early-ahead-of-midterms",
+          "published": "2026-10-17T18:26:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Meta says suspending No Kings account on day of action was done 'in error'",
+          "description": "Meta blamed an automatic trigger for the suspension that made the No Kings account go dark.",
+          "link": "https://www.businessinsider.com/meta-says-suspending-no-kings-account-was-done-in-error-2026-10",
+          "published": "2026-10-18T00:38:16.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-18-1sva190",
+      "topic": "tech",
+      "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+      "summary": "Elon Musk is giving reams of cash to Republicans, and most of it's going to Ken Paxton in Texas.",
+      "headlineSource": "CNBC",
+      "sourceCount": 5,
+      "score": 16.06,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 1.91,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 2,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+          "description": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
+          "link": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+          "published": "2026-10-16T21:49:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Democrats take edge on mail-in ballots in key midterm races",
+          "description": "Democrats are once again availing themselves of early voting and mail ballots to build up a pre-election edge, which Republicans will try to beat back through Election Day voting.",
+          "link": "https://nypost.com/2026/10/17/us-news/democrats-midterm-elections-mail-in-votes-give-early-leads/",
+          "published": "2026-10-18T01:32:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Elon Musk settles lawsuits over $1 million voter giveaway",
+          "description": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That prompted legal challenges, raised questions about its legality, and drew lawsuits from two Arizona residents claiming the lottery was a fraud. Musk has now agreed to settle the two lawsuits filed in",
+          "link": "https://www.theverge.com/?p=1013431",
+          "published": "2026-10-17T16:39:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk agrees to settle lawsuits over 2024 election lottery",
+          "description": "Trump-boosting billionaire was sued over promise to give away $1m per day to random signatories of petition Elon Musk and his ⁠America Pac political action committee said recently that they agreed to settle two ⁠proposed class ⁠actions ​alleging the billionaire entrepreneur defrauded residents in closely contested states before the ⁠2024 US election by promising voters a lottery-style daily $1m gi",
+          "link": "https://www.theguardian.com/technology/2026/oct/17/elon-musk-2024-million-dollar-promise-lawsuit",
+          "published": "2026-10-17T14:42:11.000Z",
+          "categories": [
+            "Elon Musk",
+            "Arizona",
+            "US elections 2024",
+            "US politics",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk is pouring money into the midterms. Here's where he's giving the most.",
+          "description": "Elon Musk is giving reams of cash to Republicans, and most of it's going to Ken Paxton in Texas.",
+          "link": "https://www.businessinsider.com/elon-musk-spending-midterm-election-texas-paxton-2026-10",
+          "published": "2026-10-17T16:31:38.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
