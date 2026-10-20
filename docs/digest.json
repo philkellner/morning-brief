@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-10-19",
-  "generatedAt": "2026-10-19T09:35:38.689Z",
+  "edition": "2026-10-20",
+  "generatedAt": "2026-10-20T09:06:44.525Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -18,366 +18,26 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-10-19-1n9koia",
+      "id": "2026-10-20-urn0zl",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "‘How can French people do this to France?’: Macron denounces violence as France hit by new clashes",
-      "summary": "The French president vowed to take an 'uncompromising' stance towards those who had rioted.",
-      "url": "https://www.straitstimes.com/world/europe/macron-condemns-shocking-scenes-of-violence-across-france",
+      "title": "France calm under night curfews as government awaits new weekend protests",
+      "summary": "French Prime Minister Sébastien Lecornu said further curfews would be imposed \"where necessary\" on Tuesday evening after targeted curfews in parts of Paris and other cities \"helped keep the peace overnight\" following a weekend of unrest and looting. Police…",
+      "url": "https://www.straitstimes.com/world/europe/france-calm-under-night-curfews-as-government-awaits-new-weekend-protests",
       "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-19T09:07:09.000Z",
-      "sourceCount": 11,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 5,
-      "score": 22.81,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.45,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "France’s Macron declines minister’s resignation after violent protests",
-          "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss"
-        },
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "France’s Bonds Drop as Rioting Heaps Pressure on Government",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "French business leaders call for order after riots and looting: 'The Republic must protect its shopkeepers!'",
-          "url": "https://www.businessinsider.com/france-paris-looting-riots-business-leaders-respond-2026-10"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
-          "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Trump blames mass migration for French riots... as Macron vows looters and agitators will pay for seeking 'to bring down the Republic'",
-          "url": "https://www.dailymail.com/news/article-16219217/Trump-blames-migration-French-riots-Macron-looters-consequences.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Emmanuel Macron slams 'failures' over protest unrest in France but refuses his interior minister's resignation",
-          "url": "https://www.dw.com/en/emmanuel-macron-slams-failures-over-protest-unrest-in-france-but-refuses-his-interior-minister-s-resignation/a-79695496?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Where's Macron? French leader blasted for attending concert as riots escalated",
-          "url": "https://www.foxnews.com/world/wheres-macron-french-leader-blasted-attending-concert-riots-escalated"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "🔴 Live: Macron rejects French interior minister's resignation after weekend of unrest",
-          "url": "https://www.france24.com/en/europe/20261019-live-france-macron-slams-unbridled-violence-protests-weekend-unrest"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Macron condemns those who 'sought to bring down the Republic' after rioting mars nationwide protests",
-          "url": "https://www.pbs.org/newshour/world/frances-macron-vows-to-hold-accountable-those-who-sought-to-bring-down-the-republic"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Monday briefing: What you need to know about a weekend of ‘chaos’ in France",
-          "url": "https://www.theguardian.com/world/2026/oct/19/monday-briefing-what-you-need-to-know-about-a-weekend-of-chaos-in-france"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "‘How can French people do this to France?’: Macron denounces violence as France hit by new clashes",
-          "url": "https://www.straitstimes.com/world/europe/macron-condemns-shocking-scenes-of-violence-across-france"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-10-19-fktsix",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "West Bank: Israel arrests 10 suspects over settler attacks on US journalist, European diplomats",
-      "summary": "Israeli police made the arrests following attacks on a US journalist and European diplomats in the occupied West Bank. Israeli human rights group Yesh Din has reported at least 170 settler attacks since September 27.",
-      "url": "https://www.dw.com/en/west-bank-israel-arrests-10-suspects-over-settler-attacks-on-us-journalist-european-diplomats/a-79696514?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-10-19T08:33:00.000Z",
-      "sourceCount": 10,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 22.38,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.4,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Huckabee calls for prosecution of journalist's West Bank attackers",
-          "url": "https://www.cbsnews.com/news/israel-west-bank-heidi-levine-journalist-attack/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "US condemns Israeli settlers for 'cowardly' attack on journalist - as European diplomat 'is beaten'",
-          "url": "https://www.dailymail.com/news/article-16219209/US-condemns-Israeli-settlers-attack-journalist.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "West Bank: Israel arrests 10 suspects over settler attacks on US journalist, European diplomats",
-          "url": "https://www.dw.com/en/west-bank-israel-arrests-10-suspects-over-settler-attacks-on-us-journalist-european-diplomats/a-79696514?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Israeli settlers attack European diplomats, beat French mayor",
-          "url": "https://www.france24.com/en/video/20261018-israeli-settlers-attack-european-diplomats-beat-french-mayor"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Photographer attacked by settlers in the West Bank feels insulted by Netanyahu",
-          "url": "https://www.pbs.org/newshour/world/photographer-attacked-by-settlers-in-the-west-bank-feels-insulted-by-netanyahu"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Arrests over Israeli settler attacks on US photojournalist and European diplomats in West Bank",
-          "url": "https://news.sky.com/story/arrests-over-israeli-settler-attacks-on-us-photojournalist-and-european-diplomats-in-west-bank-13600842"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Guardian reporter filmed masked militants seconds before West Bank attack on French mayor",
-          "url": "https://www.theguardian.com/world/2026/oct/18/guardian-reporter-filmed-masked-militants-seconds-before-west-bank-attack-on-french-mayor"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Israeli police arrest 10 people over settler attacks on US journalist and European diplomats",
-          "url": "https://www.independent.co.uk/news/world/middle-east/settler-attacks-arrests-heidi-levine-b3069014.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "U.S. Officials Condemn West Bank Attacks as Netanyahu Casts Doubt on Them",
-          "url": "https://www.nytimes.com/2026/10/18/world/middleeast/netanyahu-settler-attacks-west-bank-palestinians.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Israel police arrest suspects over settler attacks on US journalist, European diplomats",
-          "url": "https://www.straitstimes.com/world/middle-east/israel-police-arrest-suspects-over-settler-attacks-on-us-journalist-european-diplomats"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-10-19-ujykoa",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-      "summary": "Trump and Zelensky have clashed as the US leader blocked new sanctions on Russia and struck a diesel deal with Moscow.",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo",
-      "headlineSource": "BBC News",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-19T08:12:05.000Z",
-      "sourceCount": 16,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 5,
-      "score": 22.28,
-      "scoreComponents": {
-        "breadth": 12.26,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.37,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
-          "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Trump's decision to import Russian diesel is an 'incentive to end the war,' energy secretary says",
-          "url": "https://www.businessinsider.com/trump-russia-sanctions-diesel-imports-ukraine-war-2026-10"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Trump says Zelenskyy doesn't want to end Russia's war on Ukraine",
-          "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Trump's Russia diesel deal may offer Putin more than money — and spell trouble for Ukraine",
-          "url": "https://www.cnbc.com/2026/10/17/trump-diesel-russia-ukraine-war.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Trump reveals peace deal in progress between Ukraine and Russia as he slams Zelensky for hurting oil markets",
-          "url": "https://www.dailymail.com/news/article-16219191/Trump-peace-deal-progress-Ukraine-Russia-slams-Zelensky-diesel-refineries.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war'",
-          "url": "https://www.dw.com/en/trump-defends-russia-sanctions-waivers-accuses-zelenskyy-of-prolonging-war/a-79694674?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Trump faces bipartisan backlash over Russia sanctions waiver, causing top Republicans to break ranks",
-          "url": "https://www.foxbusiness.com/politics/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver-causing-top-republicans-break-ranks"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Zelensky holds US talks as Trump accuses him of not wanting peace",
-          "url": "https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "U.S. taking Putin’s side would be a ‘historic mistake,’ says Zelenskyy",
-          "url": "https://www.nbcnews.com/politics/trump-administration/us-taking-putins-side-historic-mistake-says-zelenskyy-rcna604111"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Trump Offers Putin Economic Relief in Hopes That Russia Will Return the Favor",
-          "url": "https://www.nytimes.com/2026/10/17/business/trump-russia-sanctions-congress.html"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Zelenskyy says US taking Putin's side would be 'historic mistake' - as Russian oil sites attacked",
-          "url": "https://news.sky.com/story/zelenskyy-says-us-taking-putins-side-would-be-historic-mistake-as-russian-oil-sites-attacked-13600632"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Bessent says there was no sanctions relief for Russia after U.S. diesel deal",
-          "url": "https://thehill.com/homenews/administration/6156573-bessent-refutes-sanctions-relief/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Kyiv launches 1,000-drone attack after Trump accuses Zelensky of prolonging war",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-zelensky-st-petersburg-oil-terminals-b3068923.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Zelensky speaks to US envoys as Trump lashes out",
-          "url": "https://www.straitstimes.com/world/trump-bashes-zelensky-defends-waiving-sanctions-on-russia"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Trump says Zelensky ‘doesn’t want to end this war’ and defends Russia strategy",
-          "url": "https://www.washingtonexaminer.com/news/world/4770252/trump-zelensky-russia-doesnt-want-end-war/"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-10-19-6gpeyi",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Four Canadian service members killed, dozens injured in fire at Alberta military base",
-      "summary": "Four Canadian service members were killed and 39 people hospitalised after a fire broke out during military training at a base in Alberta on Saturday, officials said. Premier Danielle Smith said Sunday that at least 19 patients were in critical condition…",
-      "url": "https://www.euronews.com/2026/10/18/canada-reports-fatalities-and-injuries-following-incident-at-military-base",
-      "headlineSource": "Euronews",
       "summarySource": "France 24",
-      "publishedAt": "2026-10-19T03:07:16.000Z",
-      "sourceCount": 10,
+      "publishedAt": "2026-10-20T09:01:52.000Z",
+      "sourceCount": 19,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 6,
-      "score": 21.93,
+      "wireCount": 10,
+      "score": 25.06,
       "scoreComponents": {
-        "breadth": 10.38,
+        "breadth": 12.97,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 1.95,
+        "freshness": 2.49,
         "softPenalty": 0
       },
       "coverage": [
@@ -385,324 +45,159 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Fast-moving grass fire caused Canada’s military base tragedy",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/fast-moving-grass-fire-caused-canadas-military-base-tragedy?traffic_source=rss"
+          "title": "French protests: Is it game over for Macron’s centrists before elections?",
+          "url": "https://www.aljazeera.com/news/2026/10/20/french-protests-is-it-game-over-for-macrons-centrists-before-elections?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Major fire at Canada military base leaves four dead, dozens injured",
-          "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o"
+          "title": "Clean up begins after French riots but police remain",
+          "url": "https://www.bbc.co.uk/news/videos/cwr7y0e57r50o"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "4 dead after large fire breaks out at Canadian military base, officials say",
-          "url": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/"
+          "title": "France vows to crack down after protests spiral out of control",
+          "url": "https://www.cbsnews.com/news/france-riots-protests-macron-vows-order-pm-urges-curfews/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "After violent weekend, France reckons with its frustrated, fractured public",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1019/france-paris-riots-protests-students-macron-looting?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "France curfews calm unrest as Macron faces criticism over Gulf trip",
+          "url": "https://www.cnbc.com/2026/10/20/france-protests-curfews-macron-gulf-trip.html"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition",
-          "url": "https://www.dw.com/en/canada-fire-at-alberta-military-base-kills-four-leaves-19-in-critical-condition/a-79690515?maca=en-rss-en-all-1573-rdf"
+          "title": "French authorities impose partial curfews in Paris, Nice",
+          "url": "https://www.dw.com/en/french-authorities-impose-partial-curfews-in-paris-nice/live-79707186?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Euronews",
           "sourceId": "euronews",
           "lean": "center",
-          "title": "Four Canadian service members killed, dozens injured in fire at Alberta military base",
-          "url": "https://www.euronews.com/2026/10/18/canada-reports-fatalities-and-injuries-following-incident-at-military-base"
+          "title": "Police patrol Paris streets under overnight curfew",
+          "url": "https://www.euronews.com/video/2026/10/20/police-patrol-paris-streets-under-overnight-curfew"
         },
         {
           "source": "Fox News",
           "sourceId": "foxnews",
           "lean": "right",
-          "title": "4 Canadian soldiers killed, dozens injured after fast-moving fire erupts at military base",
-          "url": "https://www.foxnews.com/world/4-canadian-soldiers-killed-dozens-injured-fast-moving-fire-erupts-military-base"
+          "title": "Hungary and Poland defend tough migration policies as France reels from violent unrest",
+          "url": "https://www.foxnews.com/world/hungary-poland-defend-tough-migration-policies-france-reels-from-violent-unrest"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Canadian military base fire kills at least four, injures dozens",
-          "url": "https://www.france24.com/en/americas/20261018-canada-military-base-fire-four-dead-39-hospitalised"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
-          "url": "https://www.pbs.org/newshour/world/major-fire-breaks-out-in-alberta-after-deadly-incident-at-canadian-military-base"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
-          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Carney Says Fire at Canadian Forces Base Wainwright in Alberta Killed 4 and Injured Dozens",
-          "url": "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-19-1bvslvh",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Pope Leo says he will gradually resume duties after cancer surgery",
-      "summary": "Pope Leo pledges a gradual return to duties in an address to the Catholic faithful in St Peter's Square at the Vatican.",
-      "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
-      "headlineSource": "NPR",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-19T04:42:13.000Z",
-      "sourceCount": 10,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 5,
-      "score": 20.1,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.07,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Pope greeted by crowds in first major appearance since lung cancer surgery",
-          "url": "https://www.aljazeera.com/news/2026/10/19/pope-greeted-by-crowds-in-first-major-appearance-since-lung-cancer-surgery?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
-          "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Pope Leo says he will resume activities after cancer surgery",
-          "url": "https://www.cbsnews.com/news/pope-leo-cancer-surgery-resume-activities-vatican/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Pope appears in public for first time since surgery",
-          "url": "https://www.dw.com/en/pope-appears-in-public-for-first-time-since-surgery/a-79692583?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Pope Leo welcomed back as he delivers Angelus prayer days after lung cancer surgery",
-          "url": "https://www.foxnews.com/world/pope-leo-welcomed-back-delivers-angelus-prayer-days-after-lung-cancer-surgery"
+          "title": "Live: France to impose more curfews as government seeks to regain control after riots and looting",
+          "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting"
         },
         {
           "source": "NBC News",
           "sourceId": "nbc",
           "lean": "center-left",
-          "title": "Pope Leo set to speak at Vatican after cancer surgery",
-          "url": "https://www.nbcnews.com/nightly-news/video/pope-leo-set-to-speak-at-vatican-after-cancer-surgery-271759941822"
+          "title": "France moves to impose curfews as it reels from worst violence in years",
+          "url": "https://www.nbcnews.com/world/europe/france-violence-riots-looting-paris-limoges-curfews-macron-protests-rcna604292"
         },
         {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Pope Leo says he will gradually resume duties after cancer surgery",
-          "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery"
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump says voters should ‘look at France’ to see ‘what’s at stake’ in midterm elections",
+          "url": "https://nypost.com/2026/10/19/us-news/trump-says-voters-should-look-at-france-to-see-whats-at-stake-in-midterm-elections/"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Trump Says America Could Mirror France if Republicans Lose Midterms",
+          "url": "https://www.newsweek.com/trump-says-america-could-mirror-france-if-republicans-lose-midterms-12591198"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
-          "url": "https://www.pbs.org/newshour/world/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Pope addresses faithful after cancer surgery",
-          "url": "https://news.sky.com/story/pope-makes-public-appearance-a-day-after-being-discharged-from-hospital-following-lung-cancer-surgery-13598963"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Pope Leo Addresses the Faithful a Day After Leaving the Hospital",
-          "url": "https://www.nytimes.com/2026/10/18/world/europe/pope-leo-mass-lung-cancer.html"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-10-19-heyfq0",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "The French City of Limoges Wasn’t Known for Unrest. Then Rioters Set Fire to Its City Hall.",
-      "summary": "Residents in Limoges, France, are expressing shock and anger after protests saw their 140-year-old town hall set ablaze.",
-      "url": "https://www.nytimes.com/2026/10/18/world/france-limoges-fire-arson-protests.html",
-      "headlineSource": "The New York Times",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-19T07:51:02.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 4,
-      "score": 18.41,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.34,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "‘It broke my heart’: Limoges residents reel after town hall fire",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/it-broke-my-heart-limoges-residents-reel-after-town-hall-fire?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
-          "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Drone footage reveals scale of damage to Limoges town hall after protests",
-          "url": "https://www.euronews.com/video/2026/10/19/drone-footage-reveals-scale-of-damage-to-limoges-town-hall-after-protests"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest",
-          "url": "https://www.foxnews.com/world/limoges-town-hall-largely-lost-after-far-left-rioters-set-historic-building-fire-amid-french-unrest"
+          "title": "From France to Albania, how social unrest is fueling protests across Europe",
+          "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "French protests over declining school standards amid China catch-up ambitions turn violent",
-          "url": "https://www.scmp.com/economy/article/3371360/french-protests-over-declining-school-standards-amid-china-catch-ambitions-turn-violent"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "The French City of Limoges Wasn’t Known for Unrest. Then Rioters Set Fire to Its City Hall.",
-          "url": "https://www.nytimes.com/2026/10/18/world/france-limoges-fire-arson-protests.html"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-10-19-2jp0k6",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Oil-rich Alberta votes on Canada break-up",
-      "summary": "Polls indicate less than a quarter of people in the western Canadian province support independence.",
-      "url": "https://www.straitstimes.com/world/europe/oil-rich-alberta-votes-on-canada-breakup",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-19T08:46:28.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 18.18,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 1.6,
-        "freshness": 2.42,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Albertans vote on path to independence as Carney fights to keep Canada united",
-          "url": "https://www.euronews.com/2026/10/19/albertans-vote-on-path-to-independence-as-carney-fights-to-keep-canada-united"
+          "title": "From Paris to Tirana, why protests and riots are sweeping across Europe",
+          "url": "https://www.scmp.com/news/world/europe/article/3371458/paris-tirana-why-protests-and-riots-are-sweeping-across-europe"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "‘This is not poker’: Alberta goes to polls in referendum that has exposed divisions, not least among separatists",
-          "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada"
+          "title": "French cities ‘calm overnight’ after targeted curfews, prime minister says – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/20/france-protests-paris-curfews-italy-europe-ukraine-latest-news-updates"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Canada’s future hangs over Alberta independence vote as Trump threats fuel national unity fears",
-          "url": "https://www.independent.co.uk/news/world/americas/alberta-secession-referendum-mark-carney-b3069043.html"
+          "title": "Trump claims France riots shows what’s at stake in the midterms: ‘A once great nation burned to the ground’",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-france-protests-immigrants-truth-social-b3069705.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "France Imposes Curfews in Parts of Paris and Other Cities After Nationwide Rioting",
+          "url": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Oil-rich Alberta votes on Canada break-up",
-          "url": "https://www.straitstimes.com/world/europe/oil-rich-alberta-votes-on-canada-breakup"
+          "title": "France calm under night curfews as government awaits new weekend protests",
+          "url": "https://www.straitstimes.com/world/europe/france-calm-under-night-curfews-as-government-awaits-new-weekend-protests"
         },
         {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "What to know about the Alberta referendum on leaving Canada",
-          "url": "https://www.washingtonexaminer.com/news/world/4770169/what-to-know-alberta-referendum-canada/"
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Watch: Calm couple, unfazed jogger defy chaos on streets of France",
+          "url": "https://timesofindia.indiatimes.com/world/europe/watch-calm-couple-unfazed-jogger-defy-chaos-on-streets-of-france/articleshow/135049194.cms"
         }
       ]
     },
     {
-      "rank": 8,
-      "id": "2026-10-19-1r0vp9o",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "AI giant Anthropic commits 5% of shares to ‘public benefit’ fund",
-      "summary": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
-      "url": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-19T08:31:32.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 17.67,
+      "rank": 2,
+      "id": "2026-10-20-c486ui",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Alberta voters reject separation from Canada as Carney triumphs",
+      "summary": "With more than one million votes counted, about 77 percent supported remaining in Canada.",
+      "url": "https://www.japantimes.co.jp/news/2026/10/20/world/politics/alberta-referendum-vote/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-20T09:02:43.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 23.52,
       "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.4,
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
         "softPenalty": 0
       },
       "coverage": [
@@ -710,22 +205,403 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "AI giant Anthropic commits 5% of shares to ‘public benefit’ fund",
-          "url": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund?traffic_source=rss"
+          "title": "Alberta voters reject separation from Canada, early results show",
+          "url": "https://www.aljazeera.com/news/2026/10/20/alberta-voters-reject-separation-from-canada-early-results-show?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Voters reject separation of Alberta from Canada in referendum",
+          "url": "https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Canada: Alberta rejects separation bid, CBC projects",
+          "url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "‘Albertans chose Canada’: Carney hails vote to reject referendum",
+          "url": "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Alberta holds non-binding separation vote as independence fight grips Canada",
+          "url": "https://www.foxnews.com/world/alberta-holds-non-binding-separation-vote-independence-fight-grips-canada"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Alberta Rejects Independence From Canada",
+          "url": "https://www.newsweek.com/alberta-rejects-independence-from-canada-referendum-mark-carney-12591526"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Oil-rich Alberta votes to remain part of Canada in historic referendum",
+          "url": "https://news.sky.com/story/alberta-votes-to-remain-part-of-canada-13601218"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Alberta voters choose Canada over independence in boost for Carney",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3371435/alberta-votes-path-independence-carney-fights-keep-canada-united"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Alberta voters reject plan for referendum to leave Canada",
+          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Alberta voters reject separation from Canada as Carney triumphs",
+          "url": "https://www.japantimes.co.jp/news/2026/10/20/world/politics/alberta-referendum-vote/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Voters in Oil-Rich Alberta Reject Leaving Canada",
+          "url": "https://www.nytimes.com/2026/10/19/world/canada/alberta-secession-canada-referendum.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Alberta separatists lose vote on leaving Canada",
+          "url": "https://www.straitstimes.com/world/canada-awaits-result-in-alberta-independence-vote"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-20-11hovie",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Australian lawmaker Helen Haines hurt in car attack loses leg, media say",
+      "summary": "In the wake of the apparent attack on Helen Haines, MPs have described locking their office doors, and scanning every crowd for potential threats.",
+      "url": "https://www.euronews.com/2026/10/20/australian-prime-minister-says-lawmaker-critically-injured-by-car-is-no-accident",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-20T08:52:45.000Z",
+      "sourceCount": 10,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 22.46,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "‘Deliberate’ car ramming of Australian MP an isolated incident, police say",
+          "url": "https://www.aljazeera.com/news/2026/10/20/deliberate-car-ramming-of-australian-mp-an-isolated-incident-police-say?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko"
+          "title": "'Our worst nightmare': Threats to Australian politicians were rising before MP hit by car",
+          "url": "https://www.bbc.co.uk/news/articles/cq398rk4p3exo"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Man, 43, arrested over Australian MP car 'attack' is identified as radical anti-Israel climate campaigner - as Helen Haines remains fighting for her life after losing a leg",
+          "url": "https://www.dailymail.com/news/article-16222273/Man-arrested-Australian-car-attack-identified.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Australian MP seriously hurt in suspected car attack",
+          "url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Australian lawmaker Helen Haines hurt in car attack loses leg, media say",
+          "url": "https://www.euronews.com/2026/10/20/australian-prime-minister-says-lawmaker-critically-injured-by-car-is-no-accident"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Australian MP loses leg after car 'reversed to hit her a second time'",
+          "url": "https://news.sky.com/story/australian-mp-loses-leg-after-car-reversed-to-hit-her-a-second-time-13601198"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Heroic barber recalls tackling car attacker of Australian MP Helen Haines",
+          "url": "https://www.scmp.com/news/asia/australasia/article/3371447/heroic-barber-recalls-tackling-car-attacker-australian-mp-helen-haines"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Brendan Nugent charged over alleged attack on Helen Haines",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/20/helen-haines-alleged-attacker-brendan-nugent-charged-ntwnfb"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Who is Brendan Nugent? Suspect in attack on Australian MP Helen Haines as parents say they are ‘family friends’",
+          "url": "https://www.independent.co.uk/news/world/australasia/brendan-nugent-helen-haines-car-attack-b3069654.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Attack on Australian Lawmaker Prompts Calls to Dial Down Political Tensions",
+          "url": "https://www.nytimes.com/2026/10/20/world/asia/helen-haines-mp-attacked-wangaratta-australia.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-20-ienlkm",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Japan launches historic mission to bring back Mars moon samples",
+      "summary": "Japan has launched a five-year uncrewed mission to collect samples from Phobos, one of Mars’ two moons.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/japan-launches-historic-mission-to-bring-back-mars-moon-samples?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-20T07:16:00.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 6,
+      "score": 20.36,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Japan launches historic mission to bring back Mars moon samples",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/japan-launches-historic-mission-to-bring-back-mars-moon-samples?traffic_source=rss"
+        },
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
+          "url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Mission blasts off for Mars to grab a piece of its moon",
+          "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Japan launches ambitious robotic mission to Martian moon Phobos",
+          "url": "https://www.cbsnews.com/news/japan-launches-ambitious-robotic-mission-to-land-on-martian-moon-phobos-return-samples-to-earth/"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Mission to Mars! Japanese spacecraft begins epic five-year quest to bring Martian moon samples back to Earth for the first time",
+          "url": "https://www.dailymail.com/sciencetech/article-16221013/Mission-Mars-Japanese-spacecraft-moon-samples.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Japan probe sets course for Mars moon",
+          "url": "https://www.dw.com/en/japan-probe-sets-course-for-mars-moon/a-79708491?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Japan launches mission to explore Mars' moons and bring back samples",
+          "url": "https://www.france24.com/en/technology/20261020-japan-launches-mission-to-explore-mars-moons-and-bring-back-samples"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Japan launches spacecraft to Mars' moon in mission to bring back soil samples",
+          "url": "https://www.pbs.org/newshour/science/japan-launches-spacecraft-to-mars-moon-in-mission-to-bring-back-soil-samples"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Japan launches mission to Mars to bring back samples from its moon",
+          "url": "https://news.sky.com/story/japan-launches-mission-to-mars-to-bring-back-samples-from-one-of-its-moons-13601139"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Japan launches probe in historic bid to collect sample from Mars moon",
+          "url": "https://www.japantimes.co.jp/news/2026/10/20/japan/science-health/japan-mars-moon-probe-launch/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-20-bqxfyn",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Saudi Arabia postpones ‘Davos in the Desert’ summit to 2027 after deadly attacks",
+      "summary": "Riyadh postpones flagship investment conference until 2027, orders government staff to work from home.",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3371441/saudi-arabia-postpones-davos-desert-summit-2027-after-deadly-attacks",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-20T01:57:11.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 18.26,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 1.9,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+          "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
+          "url": "https://www.bbc.co.uk/news/articles/cmde83w13p00o"
         },
         {
           "source": "Business Insider",
           "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "Anthropic commits billions to a 'public benefit fund'",
-          "url": "https://www.businessinsider.com/anthropic-public-benefit-fund-2026-10"
+          "title": "Saudi Arabia postpones major investment conference as Iran war fallout expands",
+          "url": "https://www.businessinsider.com/saudi-arabia-future-investment-initiative-postponed-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Saudi Arabia on edge: Iconic Kingdom Centre sends workers home amid Houthi attacks",
+          "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Saudi Arabia Postpones Its FII Investment Event After Houthi Attacks",
+          "url": "https://www.nytimes.com/2026/10/19/business/saudi-investment-fii-houthis.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Saudi Arabia postpones ‘Davos in the Desert’ summit to 2027 after deadly attacks",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3371441/saudi-arabia-postpones-davos-desert-summit-2027-after-deadly-attacks"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Saudis postpone investment conference until 2027 amid fighting with Houthis",
+          "url": "https://thehill.com/policy/international/6159092-saudi-arabia-postpones-investment-conference/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-19-1yo0r7j",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Musk and Anthropic pledge public share giveaways",
+      "summary": "Musk's announcement comes after Anthropic pledged to create a public benefit fund ahead of its blockbuster stock market listing.",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko",
+      "headlineSource": "BBC Technology",
+      "summarySource": "BBC Technology",
+      "publishedAt": "2026-10-19T22:30:42.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 17.28,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 1.66,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Musk and Anthropic pledge public share giveaways",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko"
         },
         {
           "source": "CNBC",
@@ -735,149 +611,259 @@
           "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html"
         },
         {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Elon Musk to Dario Amodei: I do not agree with your donation of Anthropic shares",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-to-dario-amodei-i-do-not-agree-with-your-donation-of-anthropic-shares-i-recommend-/articleshow/135038972.cms"
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Anthropic silent on whether it will distribute shares to Americans following Musk SpaceX pledge",
+          "url": "https://www.foxbusiness.com/technology/anthropic-silent-whether-distribute-shares-americans-following-musk-spacex-pledge"
         },
         {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Anthropic says it will commit small percentage of stock to ‘public benefit’ fund",
-          "url": "https://www.washingtonexaminer.com/policy/technology/4770274/anthropic-will-commit-small-percentage-stock-public-benefit-fund/"
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
+          "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Elon Musk Says He Will Give a SpaceX Share to ‘Every Kid in America’",
+          "url": "https://www.nytimes.com/2026/10/19/technology/elon-musk-spacex-stock-anthropic-giveaway.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Elon Musk’s proposed SpaceX stock giveaway would go into ‘Trump Accounts’",
+          "url": "https://www.theverge.com/?p=1014115"
         }
       ]
     },
     {
-      "rank": 9,
-      "id": "2026-10-19-16pufjx",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "China's growth accelerates as AI boom helps boost exports",
-      "summary": "The official growth figure from the July-September quarter beat expectations and picked up from 4.3% in April-June, the slowest pace in more than three years.",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo",
-      "headlineSource": "BBC Technology",
-      "summarySource": "Euronews",
-      "publishedAt": "2026-10-19T09:00:09.000Z",
+      "rank": 7,
+      "id": "2026-10-20-7eryro",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Ex-OpenAI worker accused of bugging conference room planned to fly to Saudi Arabia, prosecutors say",
+      "summary": "Abdulrahman Alfozan, who is accused of planting a recording device, has been denied bail.",
+      "url": "https://www.pbs.org/newshour/world/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-20T02:27:46.000Z",
       "sourceCount": 7,
       "leanCount": 2,
       "leanSpread": 0.25,
-      "wireCount": 5,
-      "score": 16.59,
+      "wireCount": 3,
+      "score": 15.29,
       "scoreComponents": {
         "breadth": 9,
         "diversity": 1.95,
-        "wire": 3.2,
-        "freshness": 2.44,
+        "wire": 2.4,
+        "freshness": 1.94,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "China’s economy grows 4.5 percent in Q3, beating forecasts",
-          "url": "https://www.aljazeera.com/economy/2026/10/19/chinas-economy-grows-4-5-percent-in-q3-beating-forecasts?traffic_source=rss"
-        },
-        {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
           "lean": "center",
-          "title": "China's growth accelerates as AI boom helps boost exports",
-          "url": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo"
+          "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/"
         },
         {
-          "source": "CNBC",
-          "sourceId": "cnbc",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
-          "url": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "China’s economy grows 4.5% on robust exports as domestic weakness persists",
-          "url": "https://www.euronews.com/2026/10/19/chinas-economy-grows-45-on-robust-exports-as-domestic-weakness-persists"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Strong Exports Stabilize China’s Economic Growth in Official Statistics",
-          "url": "https://www.nytimes.com/2026/10/18/business/china-economy-gdp.html"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Rebound in China’s GDP growth keeps 2026 target in sight",
-          "url": "https://www.scmp.com/plus/economy/china-economy/article/3371375/rebound-chinas-gdp-growth-keeps-2026-target-sight"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "China’s growth rebound tops forecasts to close in on annual goal",
-          "url": "https://www.japantimes.co.jp/business/2026/10/19/china-economy-growth-rebound/"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-10-19-1ecr0y5",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Trump’s approval rating hits record new low as midterms loom",
-      "summary": "Just 33 percent approve of Trump’s handling of his presidency, a poll says",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-approval-rating-elections-b3068983.html",
-      "headlineSource": "The Independent",
-      "summarySource": "ABC News",
-      "publishedAt": "2026-10-19T09:17:01.000Z",
-      "sourceCount": 4,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 11.39,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 1.95,
-        "wire": 0,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Dems lead GOP in House vote choice as Trump's approval rating hits record low: Poll",
-          "url": "https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849"
+          "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo"
         },
         {
           "source": "Business Insider",
           "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "Small business owners: We want to hear your AI stories",
-          "url": "https://www.businessinsider.com/small-business-ai-survey-2026-10"
+          "title": "Prosecutors say ex-OpenAI employee accused of planting recording device received 'what appears to be considerable support' from the Saudi government",
+          "url": "https://www.businessinsider.com/saudi-government-support-openai-abdulrahman-alfozan-recording-device-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay",
+          "url": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Saudis Aided Family of Engineer Accused of Bugging OpenAI, Prosecutors Say",
+          "url": "https://www.nytimes.com/2026/10/19/technology/saudis-aided-family-openai-engineer.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Ex-OpenAI worker accused of bugging conference room planned to fly to Saudi Arabia, prosecutors say",
+          "url": "https://www.pbs.org/newshour/world/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US judge orders Saudi engineer held in OpenAI case",
+          "url": "https://www.straitstimes.com/world/united-states/us-judge-orders-saudi-engineer-held-in-openai-case"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-20-kxibbn",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Resale websites including Vinted are flooded with 'stolen' goods in the wake of French looting",
+      "summary": "The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".",
+      "url": "https://www.businessinsider.com/vinted-suspected-stolen-goods-listings-french-looting-2026-10",
+      "headlineSource": "Business Insider",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-20T06:00:19.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 14.68,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.22,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Vinted blocks French looters listing stolen goods for sale",
+          "url": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Resale websites including Vinted are flooded with 'stolen' goods in the wake of French looting",
+          "url": "https://www.businessinsider.com/vinted-suspected-stolen-goods-listings-french-looting-2026-10"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "France tells online marketplaces to crack down on resale of looted items",
+          "url": "https://www.france24.com/en/tv-shows/business/20261019-france-tells-online-marketplaces-to-crack-down-on-resale-of-looted-items"
         },
         {
           "source": "Guardian Business",
           "sourceId": "guardian_biz",
           "lean": "left",
-          "title": "Small business owners are doing OK – but will that help Trump overcome his low approval ratings?",
-          "url": "https://www.theguardian.com/business/2026/oct/18/small-business-owners-trump-economy"
+          "title": "‘No real sense of appeal’: Vinted sellers complain of unfair account ‘bans’",
+          "url": "https://www.theguardian.com/money/2026/oct/20/vinted-sellers-banned-sales"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-19-19gpxru",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "AI tool predicts cancer survival chances with single face photo, study finds",
+      "summary": "The algorithm focused mostly on the nose bridge and area just under the eyes to make its assessment.",
+      "url": "https://www.straitstimes.com/world/united-states/ai-tool-predicts-cancer-survival-chances-with-single-face-photo-study-finds",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-19T23:50:00.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 13.55,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 5,
+        "wire": 0.8,
+        "freshness": 1.75,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Could a SELFIE predict whether you'll survive cancer? Scientists develop AI tool that can spot patients at greatest risk of dying simply by looking at their faces",
+          "url": "https://www.dailymail.com/health/article-16220829/selfie-cancer-prediction-aging-AI.html"
         },
         {
-          "source": "The Independent",
-          "sourceId": "independent",
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+          "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "AI tool predicts cancer survival chances with single face photo, study finds",
+          "url": "https://www.straitstimes.com/world/united-states/ai-tool-predicts-cancer-survival-chances-with-single-face-photo-study-finds"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-20-10i0yer",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Trump establishes new women's health divisions",
+      "summary": "Presented by {beacon} Healthcare Healthcare PRESENTED BY The Big Story Trump establishes new women's health divisions President Trump on Monday signed an executive order creating new executive offices dedicated to bolster research into women's health…",
+      "url": "https://thehill.com/newsletters/healthcare/6159244-trump-establishes-new-womens-health-divisions/",
+      "headlineSource": "The Hill",
+      "summarySource": "STAT News",
+      "publishedAt": "2026-10-20T01:10:09.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 0,
+      "score": 9.79,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 1.84,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
           "lean": "center-left",
-          "title": "Trump’s approval rating hits record new low as midterms loom",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-approval-rating-elections-b3068983.html"
+          "title": "Melania Trump Announces White House Women’s Health Initiative",
+          "url": "https://www.nytimes.com/2026/10/19/us/politics/melania-trump-women-health.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "Trump orders creation of NIH division, task force on women’s health",
+          "url": "https://www.statnews.com/2026/10/19/executive-order-melania-trump-nih-division-on-womens-health/"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump establishes new women's health divisions",
+          "url": "https://thehill.com/newsletters/healthcare/6159244-trump-establishes-new-womens-health-divisions/"
         }
       ]
     }
