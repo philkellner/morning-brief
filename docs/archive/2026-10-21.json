@@ -1,0 +1,780 @@
+{
+  "version": 1,
+  "edition": "2026-10-21",
+  "generatedAt": "2026-10-21T09:07:05.684Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-21-19t0ox2",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
+      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+      "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-21T08:52:33.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 23.5,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
+          "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss"
+        },
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+          "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Smile, Elon, you're on camera: SpaceX made its earnings call must-see TV for Musk fans",
+          "url": "https://www.businessinsider.com/elon-musk-spacex-earnings-call-live-video-stream-2026-10"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Musk chose to restrict Ukraine's access to SpaceX network, sources say",
+          "url": "https://www.cbsnews.com/news/elon-musk-ukraine-spacex-starshield-trump-administration/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "SpaceX up 10% in premarket after earnings beat and Musk hints at Tesla tie-up",
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Musk says SpaceX-Tesla merger 'good idea' as companies explore union",
+          "url": "https://www.dw.com/en/musk-says-spacex-tesla-merger-good-idea-as-companies-explore-union/a-79719220?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Elon Musk says Tesla-SpaceX merger would be 'a good idea' as companies form special committees",
+          "url": "https://www.foxbusiness.com/technology/elon-musk-says-tesla-spacex-merger-would-a-good-idea-companies-form-special-committees"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Tesla and SpaceX explore merger as Elon Musk gives backing",
+          "url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+          "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Elon Musk reportedly ordered slowing down of Starlink access for Ukrainian army",
+          "url": "https://www.independent.co.uk/news/world/europe/elon-musk-ukraine-starlink-russia-war-b3070387.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Starlink access in Ukraine a decision for Musk, not White House, Rubio says",
+          "url": "https://www.straitstimes.com/world/europe/starlink-access-in-ukraine-a-decision-for-musk-not-white-house-rubio-says"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
+          "url": "https://www.theverge.com/?p=1014984"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-21-85jrer",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Australian MP Helen Haines has both legs amputated after car attack",
+      "summary": "Doctors have amputated both of Helen Haines legs after the Australian lawmaker was hit in an apparent deliberate attack. The suspected driver involved in the attack has appeared in court.",
+      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/australian-mp-helen-haines-has-both-legs-amputated-after-car-attack/articleshow/135086259.cms",
+      "headlineSource": "Times of India",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-21T08:34:37.000Z",
+      "sourceCount": 12,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 23.15,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Australian politician who was hit by car has lost both legs",
+          "url": "https://abcnews.com/International/wireStory/australian-politician-hit-car-lost-legs-137438270"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Australian MP loses both legs in vehicle attack as suspect appears in court",
+          "url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Australian MP loses both legs after alleged car attack, husband says",
+          "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Man charged in \"targeted\" attack on Australian lawmaker Helen Haines",
+          "url": "https://www.cbsnews.com/news/australian-man-charged-targeted-attack-lawmaker-helen-haines-who-reportedly-lost-leg/"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "MP Helen Haines has second leg amputated after car ramming 'attack' her husband confirms as he gives update from hospital",
+          "url": "https://www.dailymail.com/news/article-16224739/Helen-Haines-wangaratta-brendan-nugent-updates.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
+          "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Lawmaker reportedly loses leg as car ramming stuns Australia",
+          "url": "https://www.nbcnews.com/world/asia/australia-lawmaker-car-ramming-attack-helen-haines-leg-driver-charged-rcna604526"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Australian MP hit by car has both legs amputated as suspect appears in court",
+          "url": "https://news.sky.com/story/australian-mp-hit-by-a-car-has-both-legs-amputated-13601191"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Helen Haines’s second leg amputated but she is stable and ‘a fighter’, husband says – as it happened",
+          "url": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Who is Brendan Nugent? Suspect charged over attack on Australian MP Helen Haines",
+          "url": "https://www.independent.co.uk/news/world/australasia/brendan-nugent-helen-haines-amputation-attack-b3070442.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Australian Lawmaker Helen Haines Remains in Critical Condition After Car Attack",
+          "url": "https://www.nytimes.com/2026/10/20/world/asia/helen-haines-mp-attacked-wangaratta-australia.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Australian MP Helen Haines has both legs amputated after car attack",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/australian-mp-helen-haines-has-both-legs-amputated-after-car-attack/articleshow/135086259.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-21-1bdpu0v",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
+      "summary": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
+      "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
+      "headlineSource": "France 24",
+      "summarySource": "NPR",
+      "publishedAt": "2026-10-21T01:01:48.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 21.4,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 1.83,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Is Ebola under control in Kenya after nine cases confirmed?",
+          "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "CDC issues new travel notice as record Ebola outbreak spreads to another country",
+          "url": "https://www.dailymail.com/health/article-16223713/cdc-ebola-outbreak-congo-uganda-kenya.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Nigeria records its first Ebola case, in capital Abuja",
+          "url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
+          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Nigeria confirms Ebola case in its capital as woman who arrived from Uganda tests positive",
+          "url": "https://www.pbs.org/newshour/world/nigeria-confirms-ebola-case-in-its-capital-as-woman-who-arrived-from-uganda-tests-positive"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Uganda reacts angrily as Nigeria confirms its first Ebola case",
+          "url": "https://news.sky.com/story/nigeria-confirms-ebola-case-as-outbreak-continues-to-spread-13601748"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Nigeria Announces First Case of Ebola in Current Outbreak",
+          "url": "https://www.nytimes.com/2026/10/20/world/africa/nigeria-ebola-outbreak.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-21-1fzupjo",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "France plans 'massive' weekend police surge amid protests",
+      "summary": "Government advisories urge citizens to avoid protest areas and exercise caution due to civil unrest.",
+      "url": "https://www.dw.com/en/france-plans-massive-weekend-police-surge-amid-protests/live-79707186?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-21T09:01:44.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 6,
+      "score": 20.52,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
+          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "France vows to crack down after protests spiral out of control",
+          "url": "https://www.cbsnews.com/news/france-riots-protests-macron-vows-order-pm-urges-curfews/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "After violent weekend, France reckons with its frustrated, fractured public",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1019/france-paris-riots-protests-students-macron-looting?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "France to deploy military as it braces for fresh unrest this weekend",
+          "url": "https://www.cnbc.com/2026/10/20/france-protests-curfews-macron-gulf-trip.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "France plans 'massive' weekend police surge amid protests",
+          "url": "https://www.dw.com/en/france-plans-massive-weekend-police-surge-amid-protests/live-79707186?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Reporter's Notebook: France braces for more unrest after parts of Paris spun out of control",
+          "url": "https://www.foxnews.com/world/reporters-notebook-france-braces-more-unrest-after-parts-paris-spun-out-control"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "French PM vows stronger security as country prepares for more protests",
+          "url": "https://www.france24.com/en/french-pm-vows-stronger-security-as-country-prepares-for-more-protests"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Curfews in effect after violent protests engulf France",
+          "url": "https://www.nbcnews.com/nightly-news/video/curfews-in-effect-after-violent-protests-engulf-france-271848517800"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "French government to deploy troops and admits to failures over weekend unrest",
+          "url": "https://www.japantimes.co.jp/news/2026/10/21/world/politics/france-troops-unrest/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Heading to France? Amid recent unrest, here’s what to know",
+          "url": "https://www.straitstimes.com/world/europe/heading-to-france-amid-recent-unrest-heres-what-to-know"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-21-qk6350",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US envoy in Russia for Putin talks after 'positive' Zelenskyy meeting",
+      "summary": "Secretary of State Marco Rubio described Witkoff's talks with Zelenskyy as 'positive', as efforts to end war intensify.",
+      "url": "https://www.euronews.com/2026/10/21/us-envoy-in-russia-for-putin-talks-after-positive-zelenskyy-meeting",
+      "headlineSource": "Euronews",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-21T08:32:33.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 20.3,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Witkoff arrives in St. Petersburg for Putin talks, Kremlin aide says",
+          "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Witkoff in Russia for Putin meeting after ‘positive’ talks with Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Zelenskyy says if Trump can't stop Putin, help Ukraine do it",
+          "url": "https://www.cbsnews.com/news/ukraine-war-trump-zelenskyy-putin-us-interceptor-missiles-star/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US envoy to meet Putin after 'positive' talks with Zelenskyy",
+          "url": "https://www.dw.com/en/us-envoy-to-meet-putin-after-positive-talks-with-zelenskyy/a-79719452?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "US envoy in Russia for Putin talks after 'positive' Zelenskyy meeting",
+          "url": "https://www.euronews.com/2026/10/21/us-envoy-in-russia-for-putin-talks-after-positive-zelenskyy-meeting"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US envoy Witkoff meets Putin in Russia after 'positive' talks with Zelensky",
+          "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Zelenskyy meets with Trump envoys as U.S. blasts ‘scandalous’ accusations on withdrawn support",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-us-support-rubio-scandalous-zelenskyy-meeting-trump-oslo-rcna604530"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Zelenskyy seeks to mend ties with Trump ahead of Witkoff-Putin meeting",
+          "url": "https://www.pbs.org/newshour/show/zelenskyy-seeks-to-mend-ties-with-trump-ahead-of-witkoff-putin-meeting"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US envoy Witkoff lands in Russia for talks with Vladimir Putin about Ukraine – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Trump envoy to meet Putin today after clear-the-air talks with Zelensky",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-zelensky-putin-starlink-oslo-peace-talks-b3070403.html"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-21-15btw97",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
+      "summary": "The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company.",
+      "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
+      "headlineSource": "Guardian Tech",
+      "summarySource": "The New York Times",
+      "publishedAt": "2026-10-21T05:03:27.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 12.84,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.14,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "US bans use of China’s DeepSeek AI tools by government agencies",
+          "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
+          "url": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "China Criticizes U.S. Ban on DeepSeek A.I. in Government Systems",
+          "url": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-20-312meh",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+      "summary": "A simple selfie could soon be used to predict a patient's chance of surviving cancer, an intriguing study has suggested.",
+      "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
+      "headlineSource": "Guardian Tech",
+      "summarySource": "Daily Mail Health",
+      "publishedAt": "2026-10-20T04:21:35.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 12.63,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 5,
+        "wire": 0.8,
+        "freshness": 0.83,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Could a SELFIE predict whether you'll survive cancer? Scientists develop AI tool that can spot patients at greatest risk of dying simply by looking at their faces",
+          "url": "https://www.dailymail.com/health/article-16220829/selfie-cancer-prediction-aging-AI.html"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
+          "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
+        },
+        {
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "lean": "center",
+          "title": "Scientists discover a surprising link between vitamin C and cancer survival",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093437.htm"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-20-zxgi8l",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "summary": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
+      "url": "https://www.theverge.com/?p=1014976",
+      "headlineSource": "The Verge",
+      "summarySource": "BBC Technology",
+      "publishedAt": "2026-10-20T23:04:19.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 12.4,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 1.7,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
+          "url": "https://www.bbc.co.uk/news/articles/c94g1502el58o"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
+          "url": "https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+          "url": "https://www.theverge.com/?p=1014976"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-21-1okw5j8",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Britain Approves Long-Stalled Gas Drilling Project in the North Sea",
+      "summary": "Plus, the UK approves drilling at a contentious North Sea gas field",
+      "url": "https://www.nytimes.com/2026/10/21/business/uk-jackdaw-gas-drilling.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "Bloomberg",
+      "publishedAt": "2026-10-21T09:03:38.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 12.39,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "UK Inflation at 11-Month High Pressures BOE to Hike",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/uk-inflation-at-11-month-high-pressures-boe-to-hike"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Britain Approves Long-Stalled Gas Drilling Project in the North Sea",
+          "url": "https://www.nytimes.com/2026/10/21/business/uk-jackdaw-gas-drilling.html"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Labour accused of ‘climate vandalism’ by Green leader Polanski after Jackdaw gasfield approved – UK politics live",
+          "url": "https://www.theguardian.com/politics/live/2026/oct/21/jackdaw-gasfield-labour-andy-burnham-zack-polanski-uk-politics-latest-news"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-21-11o0vab",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Actor Christina Applegate says she was misdiagnosed with multiple sclerosis",
+      "summary": "Christina Applegate was misdiagnosed with MS for years. Researchers say about 15% of MS patients don't actually have MS.",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6009382/actor-christina-applegate-says-she-was-misdiagnosed-with-multiple-sclerosis",
+      "headlineSource": "NPR Health",
+      "summarySource": "Business Insider",
+      "publishedAt": "2026-10-21T08:42:30.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 12.31,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.05,
+        "wire": 0.8,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Christina Applegate thought she had MS for 5 years. Now she's learned she was misdiagnosed — and her symptoms remain unexplained.",
+          "url": "https://www.businessinsider.com/how-christina-applegate-misdiagnosed-ms-multiple-scerlosis-2026-10"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Christina Applegate tearfully announces she does not have MS and was 'misdiagnosed' for years",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16223501/Christina-Applegate-MS-misdiagnosed-messy-podcast.html"
+        },
+        {
+          "source": "NPR Health",
+          "sourceId": "npr_health",
+          "lean": "center-left",
+          "title": "Actor Christina Applegate says she was misdiagnosed with multiple sclerosis",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009382/actor-christina-applegate-says-she-was-misdiagnosed-with-multiple-sclerosis"
+        }
+      ]
+    }
+  ]
+}
