@@ -1,0 +1,1995 @@
+{
+  "edition": "2026-10-22",
+  "generatedAt": "2026-10-22T09:09:36.026Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-22-xl3uhd",
+      "topic": "world",
+      "title": "Ukraine, Russia trade strikes after Witkoff talks",
+      "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 14,
+      "score": 23.74,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 14,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "description": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+          "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o",
+          "published": "2026-10-21T21:27:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push",
+          "description": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
+          "link": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo",
+          "published": "2026-10-21T19:58:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
+          "description": "Ukraine says 'appeasement' will not end war as Russian attacks kill 1, injure 22 in its capital.",
+          "link": "https://www.aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin?traffic_source=rss",
+          "published": "2026-10-22T08:18:39.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine, Russia trade strikes after Witkoff talks",
+          "description": "Soon after Putin and Zelenskyy expressed willingness to resume US-mediated talks, Russia and Ukraine traded major attacks on each other's capitals.",
+          "link": "https://www.dw.com/en/ukraine-russia-trade-strikes-after-witkoff-talks/a-79727542?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-22T04:57:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+          "description": "Russia and Ukraine traded major drone and missile strikes on each other's capitals overnight, hours after Moscow signalled readiness to resume US-mediated peace talks. President Donald Trump said negotiations were closer than ever to ending the war, though the Kremlin expressed doubts over Ukrainian and European proposals.",
+          "link": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+          "published": "2026-10-22T01:51:03.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Putin agrees to resume three-way talks with Kyiv and Washington",
+          "description": "President ⁠Volodymyr Zelenskiy ​said on Wednesday ​that Ukraine supported a US proposal for ​three-way talks ‌with Russia ⁠and the United ‌States at the level ⁠of negotiators to be held as soon ​as possible, preferably ‌no later than early November. Speaking with FRANCE 24's Mark Owen, Grégoire Roos, Director of the Europe, Russia and Eurasia Programme at Chatham House, says that \"it's not clear w",
+          "link": "https://www.france24.com/en/putin-agrees-to-resume-three-way-talks-with-kyiv-and-washington",
+          "published": "2026-10-21T19:32:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia says Ukraine must make \"necessary decisions\" to end the war",
+          "description": "U.S. envoy Steve Witkoff, meeting with Vladimir Putin in Russia, voiced hope for new trilateral talks involving Ukraine, and Moscow indicated the talks could resume in November.",
+          "link": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/",
+          "published": "2026-10-21T17:15:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia, Ukraine exchange strikes as US envoy leaves after talks",
+          "description": "KYIV, Oct 22 - Missiles struck Kyiv in the early hours of Thursday, a Reuters witness said, and Ukraine sent hundreds of drones towards Moscow overnight, as the two sides kept up a barrage of attacks despite the latest US mediation attempts to end the war.",
+          "link": "https://www.straitstimes.com/world/europe/russia-ukraine-exchange-strikes-as-us-envoy-leaves-after-talks",
+          "published": "2026-10-22T03:36:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kremlin open to new Ukraine peace talks as Russia frees US teacher Stephen Hubbard",
+          "description": "Moscow says Putin, Trump and Xi will meet in Shenzhen next month after \"constructive\" talks with US envoy Steve Witkoff, while a US diesel deal easing sanctions on Russia has angered Kyiv and European capitals.",
+          "link": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
+          "published": "2026-10-21T11:45:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia and Ukraine trade major attacks as Trump touts progress",
+          "description": "Russia and Ukraine traded attacks overnight, with seven killed on the Ukrainian side, authorities said on Thursday, shortly after US President Donald Trump’s envoy held talks with Russian leader Vladimir Putin in St Petersburg. Trump sought to strike an optimistic tone after US envoy Steve Witkoff’s meeting with Putin on Wednesday, saying negotiators were “maybe now the closest we’ve been” to endi",
+          "link": "https://www.scmp.com/news/world/europe/article/3371739/russia-and-ukraine-trade-major-attacks-trump-touts-progress",
+          "published": "2026-10-22T05:04:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump faces fresh questions over ties to 'humanitarian' Putin",
+          "description": "US President Donald Trump's pivot away from Ukraine has triggered fresh questions about his attachment to Russian leader Vladimir Putin, the man a top American envoy flattered on Wednesday as a \"humanitarian. Trump has cast his dealings with Putin as part of a mega-deal that has secured the release of American detainee Stephen Hubbard -- and which Trump says will end Russia's war on Ukraine. FRANC",
+          "link": "https://www.france24.com/en/trump-faces-fresh-questions-over-ties-to-humanitarian-putin",
+          "published": "2026-10-21T18:53:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WATCH: Trump says what Russia is doing to Ukraine is 'fine'",
+          "description": "Former U.S. Ambassador to Ukraine Bill Taylor reacts to the latest comments from President Donald Trump on Russia as questions grow over America's support of Ukraine.",
+          "link": "https://abcnews.com/video/137418640/",
+          "published": "2026-10-20T21:33:23.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump hopes to flatter Putin into negotiating on Ukraine",
+          "description": "A Trump diplomat called Putin “a humanitarian,” another in a recent flurry of overtures to the Russian leader. But it’s unclear whether blandishments will entice him to strike a deal.",
+          "link": "https://www.nbcnews.com/politics/donald-trump/trump-hopes-flatter-putin-negotiating-ukraine-experts-say-rcna604770",
+          "published": "2026-10-22T00:34:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+          "description": "Russia frees Stephen Hubbard after US request while Steve Witkoff praises Putin, wanted by ICC as war criminal, as a ‘humanitarian’ Vladimir Putin ordered the release of an American man from a Russian jail as he met Donald Trump’s envoy Steve Witkoff in St Petersburg on Wednesday for fresh talks on ending the war in Ukraine, amid increasingly close relations between Moscow and Washington. Trump ha",
+          "link": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release",
+          "published": "2026-10-22T01:16:20.000Z",
+          "categories": [
+            "Russia",
+            "Ukraine",
+            "Vladimir Putin",
+            "US foreign policy",
+            "Trump administration",
+            "US news",
+            "Donald Trump",
+            "Europe",
+            "World news",
+            "US politics"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia releases American teacher imprisoned on Ukraine mercenary charges after Trump pressed Putin",
+          "description": "American Stephen Hubbard has been released from Russian custody after Trump urged Putin to free the retired teacher imprisoned on Ukraine mercenary charges.",
+          "link": "https://www.foxnews.com/world/stephen-hubbard-russia-american-prisoner-release",
+          "published": "2026-10-21T09:43:13.000Z",
+          "categories": [
+            "7e852b86-3d00-5f47-a83d-b5e541a76edb",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/russia",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/world",
+            "fox-news/politics",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian strikes kill 7 in Ukraine after US envoy meets Putin",
+          "description": "Ukraine's air force posted a warning in the early hours of \"more ballistic missiles towards Kyiv\" and instructed residents to stay in shelters.",
+          "link": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit",
+          "published": "2026-10-22T06:28:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian drone attack kills two in Kyiv as residents survey damage",
+          "description": "Two people were killed after a Russian drone attack sparked a fire in a residential building in Kyiv. Residents returned to damaged homes as debris and destroyed cars littered the area.",
+          "link": "https://www.euronews.com/video/2026/10/21/russian-drone-attack-kills-two-in-kyiv-as-residents-survey-damage",
+          "published": "2026-10-21T04:47:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "When Starshield Cut Out, Ukrainian Drones Fell From the Skies",
+          "description": "Ukraine says it still doesn’t know why the military satellite internet service, a sister to Starlink, was abruptly throttled, leaving troops vulnerable to Russian attacks.",
+          "link": "https://www.nytimes.com/2026/10/21/world/europe/starshield-starlink-ukraine.html",
+          "published": "2026-10-21T17:11:32.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Starlink Satellite Constellation (SpaceX)",
+            "Satellites",
+            "Drones (Pilotless Planes)",
+            "United States Politics and Government",
+            "Defense and Military Forces",
+            "Musk, Elon",
+            "Rubio, Marco",
+            "Trump, Donald J",
+            "Zelensky, Volodymyr",
+            "Ukraine",
+            "United States",
+            "Russia"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier",
+          "description": "President Donald Trump has blamed Ukraine for surging diesel prices that are hurting Republicans' election chances with the midterms just two weeks away.",
+          "link": "https://www.cnbc.com/2026/10/21/ukraine-russia-drone-diesel-refinery-trump-putin-zelenskyy.html",
+          "published": "2026-10-21T17:27:34.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-22-jez99x",
+      "topic": "tech",
+      "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+      "headlineSource": "BBC News",
+      "sourceCount": 11,
+      "score": 22.84,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 6,
+        "specialistShare": 0.55,
+        "votes": {
+          "tech": 5,
+          "business": 4,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Morning news brief",
+          "description": "President Trump and former President Obama are on the campaign trail for the midterms, U.S. and Israel are planning for a possible post-midterms attack on Iran, Musk says SpaceX and Tesla could merge.",
+          "link": "https://www.npr.org/2026/10/22/nx-s1-6003503/morning-news-brief",
+          "published": "2026-10-22T08:57:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "description": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+          "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o",
+          "published": "2026-10-21T08:42:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "description": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+          "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do",
+          "published": "2026-10-21T23:04:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
+          "description": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further informa",
+          "link": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
+          "published": "2026-10-21T23:03:16.000Z",
+          "categories": [
+            "Tesla",
+            "Quarterly results",
+            "Elon Musk",
+            "SpaceX",
+            "Technology",
+            "Science",
+            "Business",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+          "description": "SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.",
+          "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+          "published": "2026-10-21T16:08:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+          "description": "A big rally in SpaceX after earnings is giving hope to Meta and Tesla bulls ahead of their reports due Wednesday afternoon.",
+          "link": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+          "published": "2026-10-21T16:35:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
+          "description": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further informa",
+          "link": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
+          "published": "2026-10-21T23:03:16.000Z",
+          "categories": [
+            "Tesla",
+            "Quarterly results",
+            "Elon Musk",
+            "SpaceX",
+            "Technology",
+            "Science",
+            "Business",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+          "description": "\"I do think there's a lot of merit to combining the companies.\"",
+          "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
+          "published": "2026-10-20T22:04:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "description": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+          "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do",
+          "published": "2026-10-21T23:04:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "description": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+          "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o",
+          "published": "2026-10-21T08:42:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tesla Profit Slumps as Elon Musk’s Car Company Considers Merging With SpaceX",
+          "description": "The carmaker, which is controlled by Elon Musk and is considering merging with another of his companies, SpaceX, spent heavily on artificial intelligence and other new technologies.",
+          "link": "https://www.nytimes.com/2026/10/21/business/tesla-earnings-ai-robots.html",
+          "published": "2026-10-21T23:06:24.000Z",
+          "categories": [
+            "Electric and Hybrid Vehicles",
+            "Automobiles",
+            "Tesla Motors Inc",
+            "General Motors",
+            "Musk, Elon",
+            "Artificial Intelligence",
+            "Company Reports",
+            "Robots and Robotics",
+            "Driverless and Semiautonomous Vehicles",
+            "Space Exploration Technologies Corp"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk Says SpaceX and Tesla Are Exploring a Merger",
+          "description": "A deal would consolidate Elon Musk’s holdings in rockets, cars and artificial intelligence into a company worth well over $3 trillion.",
+          "link": "https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html",
+          "published": "2026-10-21T20:57:22.000Z",
+          "categories": [
+            "Musk, Elon",
+            "Tesla Motors Inc",
+            "Space Exploration Technologies Corp",
+            "Texas",
+            "Mergers, Acquisitions and Divestitures",
+            "Electric and Hybrid Vehicles",
+            "Private Spaceflight",
+            "Artificial Intelligence",
+            "X.ai Inc",
+            "Antitrust Laws and Competition Issues",
+            "Satellites",
+            "Starlink Satellite Constellation (SpaceX)"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
+          "description": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further informa",
+          "link": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex",
+          "published": "2026-10-21T23:03:16.000Z",
+          "categories": [
+            "Tesla",
+            "Quarterly results",
+            "Elon Musk",
+            "SpaceX",
+            "Technology",
+            "Science",
+            "Business",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk says he will retaliate against Democrats who investigate him",
+          "description": "Elon Musk vowed to fight back after reports that Democratic lawmakers are weighing investigations into Tesla, SpaceX and his DOGE involvement.",
+          "link": "https://www.foxbusiness.com/politics/musk-warns-democrats-he-retaliate-use-congressional-power-investigate-him",
+          "published": "2026-10-21T22:10:06.000Z",
+          "categories": [
+            "f187473a-9a86-5b2c-8a85-efbf72a9cf91",
+            "fbn",
+            "Fox Business",
+            "fox-business/business-leaders/elon-musk",
+            "fox-business/politics",
+            "fox-business/money/government-spending/doge",
+            "fox-news/fox-news-politics/fox-news-senate/fox-news-democrats",
+            "fox-business/technology/tesla",
+            "fox-business/technology/spacex",
+            "fox-business/politics",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk says Tesla-SpaceX merger would be 'a good idea' as companies form special committees",
+          "description": "Both Tesla and SpaceX have formed special committees to explore a potential merger, with Elon Musk citing overlap in robotics and chip design.",
+          "link": "https://www.foxbusiness.com/technology/elon-musk-says-tesla-spacex-merger-would-a-good-idea-companies-form-special-committees",
+          "published": "2026-10-21T02:20:07.000Z",
+          "categories": [
+            "e1ec0110-415c-588f-bcec-196a36d2f894",
+            "fbn",
+            "Fox Business",
+            "fox-business/business-leaders/elon-musk",
+            "fox-business/technology/tesla",
+            "fox-business/technology/spacex",
+            "fox-business/technology",
+            "fox-business/magnificent-7-stocks",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+          "description": "SpaceX merger commentary is arguably the biggest thing on the minds of Tesla investors right now — and Musk had nothing new to offer on Wednesday.",
+          "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
+          "published": "2026-10-22T08:46:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
+          "description": "US secretary of state says White House not to blame for reported speed limits on internet services in Ukraine.",
+          "link": "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says?traffic_source=rss",
+          "published": "2026-10-22T05:54:12.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Musk chose to restrict Ukraine's access to SpaceX network, sources say",
+          "description": "A decision by Elon Musk led to restrictions on Ukraine's use of SpaceX's satellite communications network, people familiar with the matter told CBS News.",
+          "link": "https://www.cbsnews.com/news/elon-musk-ukraine-spacex-starshield-trump-administration/",
+          "published": "2026-10-21T18:20:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Elon Musk's Starlink and Starshield, and what they mean to Ukraine",
+          "description": "Here's what to know about Starlink and Starshield, the technologies Ukraine is relying on in the war against Russia.",
+          "link": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia/",
+          "published": "2026-10-22T04:52:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did",
+          "description": "Asked if Elon Musk ordered the slowdown, Trump said, \"I don't know who did it, but I was not involved.\"",
+          "link": "https://www.cnbc.com/2026/10/21/trump-starlink-ukraine-elon-musk.html",
+          "published": "2026-10-21T21:48:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "How Elon Musk gained so much power over U.S. security interests",
+          "description": "According to reports, Elon Musk ordered the slowdown of Ukraine's Starshield defense systems. Nick Schifrin reports, and Amna Nawaz discusses how the world's richest man gained such power over U.S. security interests with Charles Galbreath, a retired Air Force colonel who focused on space operations during his 30-year military career and is now at the Air Force Association's Mitchell Institute.",
+          "link": "https://www.pbs.org/newshour/show/how-elon-musk-gained-so-much-power-over-u-s-security-interests",
+          "published": "2026-10-21T22:50:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump",
+          "description": "Musk and Trump both denied ordering Starlink slowdown. WSJ reports it was Musk.",
+          "link": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+          "published": "2026-10-21T18:35:38.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-22-1raq5po",
+      "topic": "world",
+      "title": "Macron Says Trump Does Not Like France and Distorts Its Troubles",
+      "summary": "The US president has turned his attention to France, but his comments were dismissed by French leader Macron.",
+      "headlineSource": "The New York Times",
+      "sourceCount": 11,
+      "score": 22.26,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 5.85,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 2,
+        "specialistShare": 0.18,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Macron accuses foreign leaders of exploiting French riots",
+          "description": "The comment is an apparent swipe at Benjamin Netanyahu and Donald Trump, who both face elections in coming weeks.",
+          "link": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo",
+          "published": "2026-10-21T14:04:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France bans protests in parts of Paris as Macron slams Trump",
+          "description": "French President Emmanuel Macron railed against \"stupid\" comments made by foreign leaders for their political purposes. Plus, Paris police are set to extend restrictions on gatherings in parts of the city on Thursday.",
+          "link": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-21T22:32:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Macron meets with French intelligence services ahead of new wave of protests",
+          "description": "French President Emmanuel Macron met with France’s intelligence services Thursday as authorities braced for a fresh wave of demonstrations Saturday. The government has said it will put armed troops in the street after rioting and looting broke out on the fringes of mass peaceful demonstrations over the weekend. Follow our liveblog for the latest updates.",
+          "link": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+          "published": "2026-10-22T02:28:48.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump exploits France riots to push false immigration claims ahead of midterms",
+          "description": "Donald Trump and his inner circle are using unrest in France to push unsubstantiated claims blaming the riots on immigration, even showing French protest footage at midterm rallies. But there is no evidence linking immigration to the unrest, and it's prompted French President Emmanuel Macron to accuse world leaders of making “stupid comments” at France’s expense. Trump’s focus comes as Republicans",
+          "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20261021-trump-uses-france-riots-to-push-false-immigration-claims-ahead-of-midterms",
+          "published": "2026-10-21T19:28:54.000Z",
+          "categories": [
+            "Truth or Fake"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Macron blasts ‘stupid’ claims by Trump, others blaming Muslims migrants for riots",
+          "description": "French President Emmanuel Macron has criticized foreign leaders, including U.S. President Donald Trump, saying they exploit unrest in France for political gain",
+          "link": "https://abcnews.com/International/wireStory/macron-blasts-stupid-claims-trump-blaming-muslims-migrants-137441867",
+          "published": "2026-10-21T12:42:30.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "French government extends curfews after riots sweep across the country",
+          "description": "French authorities are extending curfews and increasing the police presence in public spaces as President Emmanuel Macron's government tries to regain control after rioters torched buildings and looted thousands of businesses this weekend.",
+          "link": "https://www.cbsnews.com/news/france-extends-curfews-riots-sweep-country/",
+          "published": "2026-10-20T22:33:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Macron accuses Trump and other foreign leaders of ‘stupid comments’ about France unrest",
+          "description": "Leaders criticised for spreading misleading information as France prepares for further protests this weekend Emmanuel Macron has accused Donald Trump and other foreign leaders of making “stupid comments” about France’s street unrest for political gain, as the country prepared for more protests this weekend. Speaking during a visit to Qatar, the French president did not name names but said “manipul",
+          "link": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+          "published": "2026-10-21T23:06:36.000Z",
+          "categories": [
+            "France",
+            "Protest",
+            "Gilets jaunes protests",
+            "Emmanuel Macron",
+            "Donald Trump",
+            "Europe",
+            "World news",
+            "Cost of living crisis",
+            "Activism"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Macron Says Trump Does Not Like France and Distorts Its Troubles",
+          "description": "Speaking in Qatar, President Emmanuel Macron railed against foreign leaders who he said had made false claims about unrest in France for their own political ends.",
+          "link": "https://www.nytimes.com/2026/10/21/world/europe/macron-trump-france-protests.html",
+          "published": "2026-10-21T19:16:14.000Z",
+          "categories": [
+            "Demonstrations, Protests and Riots",
+            "United States International Relations",
+            "Right-Wing Extremism and Alt-Right",
+            "National Rally (France)",
+            "France Unbowed (Political Party)",
+            "Macron, Emmanuel (1977-)",
+            "Trump, Donald J",
+            "France",
+            "Qatar"
+          ]
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
+          "description": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
+          "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o",
+          "published": "2026-10-21T06:50:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
+          "description": "The US president has turned his attention to France, but his comments were dismissed by French leader Macron.",
+          "link": "https://www.aljazeera.com/news/2026/10/22/stupid-talk-france-rejects-trumps-attempt-to-blame-unrest-on-migration?traffic_source=rss",
+          "published": "2026-10-22T05:58:52.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why Chinese pundits say France’s riots could reshape European politics",
+          "description": "The social unrest roiling France is being closely watched for a possible spillover effect beyond the country’s borders that could reshape European politics, Chinese analysts said. The crisis is a major stress test for French politicians as they navigate deep-seated economic and societal tensions in the run-up to the country’s presidential election in April next year, according to the analysts. A c",
+          "link": "https://www.scmp.com/news/china/diplomacy/article/3371674/why-chinese-pundits-say-frances-riots-could-reshape-european-politics",
+          "published": "2026-10-22T04:00:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "French bond yields hit 24-year high after unrest",
+          "description": "French bond yields have topped 5 percent, their highest level since 2002, after widespread protests and violence over the weekend. It's a sign that investors are losing confidence in France's finances, as the government grapples with budget and debt problems. Also in the show: chipmaker Nvidia says it's invested $10 billion in European tech firms to boost the \"AI economy\", and the UK approves a co",
+          "link": "https://www.france24.com/en/french-bond-yields-hit-24-year-high-after-unrest",
+          "published": "2026-10-21T20:43:53.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "French borrowing costs overtake US amid budget turmoil",
+          "description": "France’s bond market hit by another bout of selling as country recovers from weekend protests Business live – latest updates French borrowing costs continued to rise on Thursday, as investors fret that France’s government is struggling to pass a federal budget after public protests gripped the country. France’s bond market was hit with another bout of selling, with the difference between French an",
+          "link": "https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
+          "published": "2026-10-22T08:40:36.000Z",
+          "categories": [
+            "France",
+            "Bonds",
+            "Business",
+            "Government borrowing",
+            "Economics",
+            "Europe",
+            "European Union",
+            "World news",
+            "Protest",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "reason",
+          "outlet": "reason",
+          "lean": "center-right",
+          "wire": false,
+          "topicHint": null,
+          "title": "France's Protests Descend Into Looting and Property Destruction",
+          "description": "Robby Soave and Amber Duke discuss political unrest among French youth as France's protests turn violent.",
+          "link": "https://reason.com/video/2026/10/21/frances-protests-descend-into-looting-and-property-destruction/",
+          "published": "2026-10-21T21:35:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "France Hits Back at ICE Protest Post With Gun Crime Stats",
+          "description": "The French Ministry of Foreign Affairs hit back after an ICE post about riots in France and following comments by Donald Trump.",
+          "link": "https://www.newsweek.com/france-hits-back-ice-protest-post-gun-crime-stats-12603179",
+          "published": "2026-10-22T07:27:14.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-21-ahna6z",
+      "topic": "tech",
+      "title": "Meta ordered to pay $25 billion in Cambridge Analytica case",
+      "summary": "he penalty was one of the largest financial penalties against a corporation in US history.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 10,
+      "score": 21.71,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 1.73,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 5,
+        "specialistShare": 0.5,
+        "votes": {
+          "tech": 5,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Meta fined $25bn for 'lies' over user data privacy",
+          "description": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+          "link": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo",
+          "published": "2026-10-21T21:49:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Meta ordered to pay $25 billion in Cambridge Analytica case",
+          "description": "A New Mexico judge ordered Facebook's parent company, Meta, to pay $25 billion for misleading users over the Cambridge Analytica breach, which took place during Donald Trump's first presidential campaign.",
+          "link": "https://www.dw.com/en/meta-ordered-to-pay-25-billion-in-cambridge-analytica-case/a-79726486?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-21T19:27:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Meta fined $25 billion in New Mexico over Cambridge Analytica scandal",
+          "description": "A New Mexico judge ordered Meta to pay $25 billion after a jury found the company deceived users in a case linked to the Cambridge Analytica scandal, media reported Wednesday. The ruling follows an $18 billion settlement with 48 other states over similar claims. Meta called the penalty “a tax on speech\".",
+          "link": "https://www.france24.com/en/technology/20261021-meta-fined-25-billion-new-mexico-cambridge-analytica-scandal",
+          "published": "2026-10-21T21:21:41.000Z",
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case",
+          "description": "Meta to pay $25 billion in penalties related to Cambridge Analytica scandal in New Mexico.",
+          "link": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+          "published": "2026-10-21T20:04:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Meta ordered to pay historic US$25b penalty to New Mexico for misleading consumers on data privacy",
+          "description": "he penalty was one of the largest financial penalties against a corporation in US history.",
+          "link": "https://www.straitstimes.com/world/united-states/meta-ordered-to-pay-us25b-to-new-mexico-after-jury-finds-company-misled-consumers-about-data-privacy",
+          "published": "2026-10-21T22:18:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Meta must pay New Mexico $25 billion, its biggest fine ever, for deceiving users about Facebook privacy",
+          "description": "The verdict should be seen as a warning for tech companies that New Mexico will hold them accountable, state Attorney General Raúl Torrez said at a news conference.",
+          "link": "https://www.pbs.org/newshour/nation/meta-must-pay-new-mexico-25-billion-its-biggest-fine-ever-for-deceiving-users-about-facebook-privacy",
+          "published": "2026-10-21T19:49:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Meta says it would’ve made over $22 billion if it didn’t have to pay a child safety settlement",
+          "description": "Meta had to shell out $9.89 billion to pay for a chunk of the child safety settlement it reached with US attorneys general. That's according to the company's third-quarter earnings report released on Wednesday, which says Meta's income from operations would have been $22.89 billion without the settlement. In August, Meta agreed to pay $17.1",
+          "link": "https://www.theverge.com/?p=1015877",
+          "published": "2026-10-21T20:46:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Meta ordered to pay $25bn to New Mexico in Cambridge Analytica data-privacy case",
+          "description": "Jury had found Meta misled consumers after Trump’s 2016 presidential campaign obtained user data without consent A judge in New Mexico ordered Meta Platforms to pay $25bn on ⁠Wednesday after a jury found the company had misled consumers in a case arising from allegations that a political consulting firm involved in Donald Trump’s 2016 presidential campaign obtained data from millions of Facebook u",
+          "link": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+          "published": "2026-10-21T23:33:34.000Z",
+          "categories": [
+            "Meta",
+            "US elections 2016",
+            "Donald Trump",
+            "Facebook",
+            "Cambridge Analytica",
+            "Privacy",
+            "Social networking",
+            "Technology",
+            "Law (US)",
+            "US politics",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Meta Ordered to Pay $25 Billion Over Cambridge Analytica Privacy Violations",
+          "description": "The penalty, one of the largest levied against a tech giant, stemmed from a lawsuit by New Mexico claiming the social media company had misled users about their data privacy.",
+          "link": "https://www.nytimes.com/2026/10/21/technology/meta-penalty-new-mexico.html",
+          "published": "2026-10-21T22:57:53.000Z",
+          "categories": [
+            "Meta Platforms Inc",
+            "Decisions and Verdicts",
+            "Social Media",
+            "Privacy",
+            "Suits and Litigation (Civil)",
+            "Data-Mining and Database Marketing",
+            "Consumer Protection",
+            "Fines (Penalties)",
+            "States (US)",
+            "Mathew, Francis J",
+            "Cambridge Analytica",
+            "Facebook Inc",
+            "Instagram Inc",
+            "WhatsApp Inc",
+            "New Mexico"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Meta ordered to pay $25bn to New Mexico in Cambridge Analytica data-privacy case",
+          "description": "Jury had found Meta misled consumers after Trump’s 2016 presidential campaign obtained user data without consent A judge in New Mexico ordered Meta Platforms to pay $25bn on ⁠Wednesday after a jury found the company had misled consumers in a case arising from allegations that a political consulting firm involved in Donald Trump’s 2016 presidential campaign obtained data from millions of Facebook u",
+          "link": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+          "published": "2026-10-21T23:33:34.000Z",
+          "categories": [
+            "Meta",
+            "US elections 2016",
+            "Donald Trump",
+            "Facebook",
+            "Cambridge Analytica",
+            "Privacy",
+            "Social networking",
+            "Technology",
+            "Law (US)",
+            "US politics",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Meta ordered to pay $25B after jury finds it misled users on data privacy",
+          "description": "The $25 billion penalty comes after jurors found Meta committed more than 43 million violations of New Mexico's consumer protection laws.",
+          "link": "https://www.foxbusiness.com/technology/meta-ordered-pay-25b-jury-finds-misled-facebook-users",
+          "published": "2026-10-21T21:09:16.000Z",
+          "categories": [
+            "f67f2706-745a-5949-aa8f-9469e628623d",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology",
+            "fox-business/money/legal",
+            "fox-news/fox-news-us/fox-news-us-regions/fox-news-southwest/fox-news-new-mexico",
+            "fox-news/fox-news-tech/fox-news-companies",
+            "fox-news/fox-news-newsedge/fox-news-consumer",
+            "fox-business/technology/social-media",
+            "fox-business/technology/facebook",
+            "fox-business/magnificent-7-stocks",
+            "fox-business/technology",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-22-1iurc93",
+      "topic": "world",
+      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+      "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+      "headlineSource": "BBC News",
+      "sourceCount": 10,
+      "score": 21.6,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 1,
+        "specialistShare": 0.1,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+          "description": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+          "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o",
+          "published": "2026-10-22T01:07:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US orders some diplomats to leave Saudi Arabia amid Houthi threat",
+          "description": "The US State Department has asked some US diplomats to leave Saudi Arabia because of the threat of Houthi attacks on the Gulf kingdom.",
+          "link": "https://www.dw.com/en/us-orders-some-diplomats-to-leave-saudi-arabia-amid-houthi-threat/a-79727353?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-22T01:48:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+          "description": "The UK is sending military support to Saudi Arabia as Iran-aligned Houthi rebels launch repeated attacks on the kingdom.",
+          "link": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-21T01:23:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why can't Saudi Arabia stop the Houthis' deadly attacks?",
+          "description": "Experts tell CBS News geography, interceptor shortages and evolving Houthi tactics are helping the Iranian proxy menace Saudi Arabia, and global energy supplies.",
+          "link": "https://www.cbsnews.com/news/why-saudi-arabia-cant-stop-houthi-attacks-iran-war-yemen-oil-prices/",
+          "published": "2026-10-21T17:46:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+          "description": "Reports emerge of similar withdrawals in UAE, Jordan, Qatar and Bahrain amid concerns about a return to conflict with Iran after US midterm elections The US state department has ordered some diplomats and the families of US government employees to leave Saudi Arabia, as the gulf kingdom faces a barrage of near-daily attacks, with at least three people killed at an airport and oilfield on Wednesday",
+          "link": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+          "published": "2026-10-22T00:26:50.000Z",
+          "categories": [
+            "Saudi Arabia",
+            "Middle East and north Africa",
+            "US military",
+            "US foreign policy",
+            "Yemen",
+            "Houthis",
+            "Trump administration",
+            "Iran",
+            "US-Israel war on Iran"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "1 killed, 8 wounded in Saudi Arabia airport attack",
+          "description": "An attack on an airport in Saudi Arabia by the Iranian-backed Houthis killed one person and injured eight others, officials confirmed Wednesday. Saudi Arabia’s General Authority of Civil Aviation said in a statement that the rebel group targeted the King Fahd International Airport in the eastern city of Dammam on Wednesday evening. Eight people were...",
+          "link": "https://thehill.com/policy/international/6164397-houthi-attacked-king-fahd-airport/",
+          "published": "2026-10-22T00:05:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms",
+          "description": "The U.S. ordered non-emergency staff out of Saudi Arabia after Houthi strikes on an airport and an oil field, reviving fears of a widening regional conflict.",
+          "link": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html",
+          "published": "2026-10-22T04:35:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "US pulls government employees from Saudi Arabia as kingdom comes under Houthi fire",
+          "description": "President Trump is weighing direct military action against the Iran-backed group.",
+          "link": "https://nypost.com/2026/10/22/us-news/us-pulls-government-employees-from-saudi-arabia-as-kingdom-comes-under-houthi-fire/",
+          "published": "2026-10-22T08:05:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oil rises as deadly attacks in Saudi Arabia fan Middle East supply fears",
+          "description": "A strike on a Saudi Aramco facility killed two people while an attack on the King Fahd International Airport in Dammam, Saudi Arabia, killed one.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/22/world/oil-saudi-attacks/",
+          "published": "2026-10-22T06:38:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. reducing troop footprint in Middle East, sources say",
+          "description": "The U.S. military has quietly reduced its footprint at posts in the Middle East due to ongoing threats from Iran and its Houthis allies in Yemen, sources tell CBS News.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/",
+          "published": "2026-10-22T08:20:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. ordering some government staff to depart Saudi Arabia",
+          "description": "The U.S. military has also been quietly reducing its footprint at posts in the Middle East due to regional threats from the Houthis and direct threats from Iran, CBS News has learned.",
+          "link": "https://www.cbsnews.com/news/us-saudi-arabia-ordered-departure-houthis/",
+          "published": "2026-10-21T23:28:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump orders diplomats to leave embassies in Middle East over fears US could join strikes on Houthis",
+          "description": "Houthi attacks in Saudi Arabia killed at least two people at an airport in Damman on Wednesday",
+          "link": "https://www.independent.co.uk/news/world/middle-east/trump-houthi-strikes-diplomats-withdrawal-saudi-b3071213.html",
+          "published": "2026-10-22T07:59:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Gold Falls as Higher Oil Fuels Inflation Fears Ahead of Fed Meet",
+          "description": "Gold declined as escalating Middle East hostilities raised inflation risks ahead of a Federal Reserve policy meeting, while a selloff in equities added to broader market volatility.",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-21/gold-edges-lower-as-traders-weigh-mideast-signals-fed-rate-path",
+          "published": "2026-10-21T23:56:16.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-21-xdlah1",
+      "topic": "world",
+      "title": "Pope Leo's tests show he needs no further treatment for lung cancer, his doctors say",
+      "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 11,
+      "score": 20.15,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 1.74,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 1,
+        "specialistShare": 0.09,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope does not need further treatment after lung cancer surgery",
+          "description": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+          "link": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo",
+          "published": "2026-10-21T20:09:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo will not need further cancer treatment — Vatican",
+          "description": "Pope Leo's lung cancer surgery last week was a success, the Vatican said. The pope broke with traditions of secrecy around papal health issues after announcing he needed surgery to remove a nodule on his lung.",
+          "link": "https://www.dw.com/en/pope-leo-will-not-need-further-cancer-treatment-vatican/a-79727154?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-21T23:47:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
+          "description": "Pope Leo XIV, 71, will require no further treatment for lung cancer after tests confirmed the disease was localised, the Vatican said Wednesday. The pontiff underwent surgery last week to remove part of his right lung after being diagnosed with adenocarcinoma. He was discharged Saturday and will gradually resume activities.",
+          "link": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer",
+          "published": "2026-10-21T21:41:19.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo's doctors say tests show he needs no further treatment for lung cancer",
+          "description": "Pope Leo's doctors say final tissue and molecular tests have confirmed his lung cancer was localised, and no further treatment is needed, the Vatican said in a statement.",
+          "link": "https://news.sky.com/story/pope-leos-doctors-say-tests-show-he-needs-no-further-treatment-for-lung-cancer-13602031",
+          "published": "2026-10-21T19:34:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WATCH: Pope Leo makes 1st public appearance since surgery",
+          "description": "The pontiff made his way through St. Peter's Square in the Popemobile one week after undergoing lung cancer surgery.",
+          "link": "https://abcnews.com/video/137445403/",
+          "published": "2026-10-21T13:56:36.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo won't need more treatment after cancer surgery, doctors say",
+          "description": "Pope Leo XIV will not need any further treatment after having lung cancer surgery, his doctors said in a statement.",
+          "link": "https://www.cbsnews.com/news/pope-leo-further-treatment-lung-cancer-surgery/",
+          "published": "2026-10-21T21:45:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo won’t require further treatment after lung surgery, doctors say",
+          "description": "The pope’s doctors said he had pulmonary adenocarcinoma, which was localized.",
+          "link": "https://www.nbcnews.com/world/pope-leo-xiv/pope-treatment-lung-cancer-rcna604869",
+          "published": "2026-10-21T19:44:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo needs no further cancer treatment after lung surgery",
+          "description": "Tests show the cancer was confined to the portion of the pope’s right lung that was removed, his doctors say. NBC News’ Anne Thompson reports.",
+          "link": "https://www.nbcnews.com/nightly-news/video/pope-leo-needs-no-further-cancer-treatment-after-lung-surgery-272002630002",
+          "published": "2026-10-21T22:42:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo's doctors say he no longer needs cancer treatment after surgery",
+          "description": "Pope Leo XIV will not need further treatment following lung cancer surgery, his doctors said. The pontiff suffered pulmonary adenocarcinoma, which was localized and removed. NBC News' Akshay Syal discusses how the pope's medical team will continue surveillance.",
+          "link": "https://www.nbcnews.com/video/pope-leo-s-doctors-say-he-no-longer-needs-cancer-treatment-after-surgery-272001093618",
+          "published": "2026-10-21T21:48:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Needs No Further Treatment for Lung Cancer, Doctors Say",
+          "description": "Test results after the operation showed that the cancer was localized.",
+          "link": "https://www.nytimes.com/2026/10/21/world/europe/pope-leo-cancer.html",
+          "published": "2026-10-21T22:18:16.000Z",
+          "categories": [
+            "Leo XIV",
+            "Vatican City",
+            "Popes",
+            "Tests (Medical)",
+            "Lung Cancer",
+            "Surgery and Surgeons",
+            "Roman Catholic Church",
+            "South America",
+            "Peru",
+            "Uruguay"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo XIV needs no further cancer treatment after lung tumor removed, doctors say",
+          "description": "Pope Leo XIV's doctors say the lung adenocarcinoma tumor removed Oct. 13 was localized, and a cancer assessment found no further treatment needed.",
+          "link": "https://www.foxnews.com/world/pope-leo-xiv-needs-no-further-cancer-treatment-after-lung-tumor-removed-doctors-say",
+          "published": "2026-10-21T19:39:56.000Z",
+          "categories": [
+            "730aac6e-9f15-5283-81b4-bad93e45f6d3",
+            "fnc",
+            "Fox News",
+            "fox-news/person/pope-leo-xiv",
+            "fox-news/health",
+            "fox-news/health/cancer",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo's tests show he needs no further treatment for lung cancer, his doctors say",
+          "description": "Pope Leo XIV needs no further treatment for lung cancer after follow-up tests confirmed the disease was localized, the Vatican said in a statement Wednesday.",
+          "link": "https://www.pbs.org/newshour/politics/pope-leos-tests-show-he-needs-no-further-treatment-for-lung-cancer-his-doctors-say",
+          "published": "2026-10-21T20:44:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo's doctors issue health update after lung cancer surgery",
+          "description": "Pope Leo underwent lung cancer surgery last week",
+          "link": "https://www.independent.co.uk/news/world/europe/pope-leo-health-update-lung-cancer-surgery-b3071010.html",
+          "published": "2026-10-21T19:28:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Pope does not need further treatment after lung cancer surgery",
+          "description": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+          "link": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo",
+          "published": "2026-10-21T20:09:10.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-22-1txm1so",
+      "topic": "business",
+      "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+      "summary": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November.",
+      "headlineSource": "BBC News",
+      "sourceCount": 4,
+      "score": 16.32,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.15,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+          "description": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November.",
+          "link": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o",
+          "published": "2026-10-21T22:54:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Airbnb guests freed from chores involving ‘significant effort’ under new global rules",
+          "description": "Accommodation platform acts after long-standing guest complaints over doing dishes, taking out rubbish and stripping beds Airbnb hosts will no longer be able to ask guests to strip beds or wash dishes under the accommodation platform’s new rules. The changes, which apply to Airbnb reservations covered by the platform’s global policy, including bookings in Australia, will come into effect on 20 Nov",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/22/airbnb-guests-freed-from-chores-involving-significant-effort-under-new-global-rules",
+          "published": "2026-10-22T05:17:11.000Z",
+          "categories": [
+            "Australia news",
+            "Airbnb",
+            "Tourism (Australia)"
+          ]
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Airbnb bans making guests do dishes and take out the trash",
+          "description": "Checking out of your next Airbnb might be less of a hassle now that the company is banning hosts from including time-consuming chores in their house rules. Airbnb's updated house rules policy, which starts with reservations booked on or after November 20th, says hosts can't ask guests to \"complete tasks that require significant effort or",
+          "link": "https://www.theverge.com/?p=1015844",
+          "published": "2026-10-21T19:54:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Airbnb guests freed from chores involving ‘significant effort’ under new global rules",
+          "description": "Accommodation platform acts after long-standing guest complaints over doing dishes, taking out rubbish and stripping beds Airbnb hosts will no longer be able to ask guests to strip beds or wash dishes under the accommodation platform’s new rules. The changes, which apply to Airbnb reservations covered by the platform’s global policy, including bookings in Australia, will come into effect on 20 Nov",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/22/airbnb-guests-freed-from-chores-involving-significant-effort-under-new-global-rules",
+          "published": "2026-10-22T05:17:11.000Z",
+          "categories": [
+            "Australia news",
+            "Airbnb",
+            "Tourism (Australia)"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Airbnb cracks down on checkout chore lists as hosts face new limits",
+          "description": "Airbnb's new checkout rules bar hosts from asking guests to strip beds, wash dishes or do laundry, but some reasonable requests are still allowed.",
+          "link": "https://www.foxbusiness.com/fox-news-travel/airbnb-cracks-down-checkout-chore-lists-hosts-face-new-limits",
+          "published": "2026-10-22T01:54:03.000Z",
+          "categories": [
+            "f6eb58d5-2e1f-5a0b-97ca-82781ccead7a",
+            "fbn",
+            "Fox Business",
+            "fox-news/fox-news-house-and-home",
+            "fox-business/lifestyle/travel",
+            "fox-business",
+            "fox-news/fox-news-travel",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-22-1mwaz1m",
+      "topic": "business",
+      "title": "Meta agrees to let Mark Zuckerberg remain in California amid proposed billionaire wealth tax",
+      "summary": "The billionaire told Meta’s board that he planned to list his Silicon Valley home for sale. The company remade its stock structure to help him pay the tax if voters pass it.",
+      "headlineSource": "Fox Business",
+      "sourceCount": 4,
+      "score": 13.73,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.31,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 4,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 1,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "How Mark Zuckerberg Pushed Meta to Shield Him From California’s Proposed Wealth Tax",
+          "description": "The billionaire told Meta’s board that he planned to list his Silicon Valley home for sale. The company remade its stock structure to help him pay the tax if voters pass it.",
+          "link": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html",
+          "published": "2026-10-22T01:21:13.000Z",
+          "categories": [
+            "Taxation",
+            "High Net Worth Individuals",
+            "Social Media",
+            "Computers and the Internet",
+            "Artificial Intelligence",
+            "Midterm Elections (2026)",
+            "Meta Platforms Inc",
+            "Zuckerberg, Mark E",
+            "California",
+            "Silicon Valley (Calif)",
+            "Boards of Directors",
+            "Stocks and Bonds",
+            "Brin, Sergey",
+            "Collison, Patrick"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Mark Zuckerberg considered leaving California over the billionaire tax",
+          "description": "Meta CEO Mark Zuckerberg considered leaving California. He's staying on after Meta offered him a new class of shares.",
+          "link": "https://www.businessinsider.com/meta-mark-zuckerberg-weighed-leaving-california-over-billionaire-tax-2026-10",
+          "published": "2026-10-21T23:13:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Meta creates a new stock class to keep Zuckerberg in control",
+          "description": "Meta established a new Class C of stock to ensure Mark Zuckerberg stayed as CEO. Zuckerberg has led the company's AI push.",
+          "link": "https://www.businessinsider.com/meta-stock-split-keep-mark-zuckerberg-2026-10",
+          "published": "2026-10-21T21:58:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Meta agrees to let Mark Zuckerberg remain in California amid proposed billionaire wealth tax",
+          "description": "Mark Zuckerberg struck a deal with Meta involving non-voting shares to cover a potential Proposition 40 wealth tax bill while staying in California.",
+          "link": "https://www.foxbusiness.com/business-leaders/meta-agrees-let-mark-zuckerberg-remain-california-amid-proposed-billionaire-wealth-tax",
+          "published": "2026-10-22T07:08:14.000Z",
+          "categories": [
+            "1337e68f-8664-5f33-a497-bedd1bc21dd8",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology/facebook",
+            "fox-business/business-leaders/mark-zuckerberg",
+            "fox-business/business-leaders",
+            "fox-business/taxes",
+            "fox-business/business-leaders",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "This wonky maneuver kept Mark Zuckerberg from fleeing a California billionaire tax",
+          "description": "Facing a potentially giant tax bill that could threaten his voting power, Zuckerberg was days away from listing his Palo Alto home when Meta agreed to create a new class of stock.",
+          "link": "https://www.marketwatch.com/story/this-wonky-maneuver-kept-mark-zuckerberg-from-fleeing-a-california-billionaire-tax-1de34562?mod=mw_rss_topstories",
+          "published": "2026-10-22T00:48:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-21-11o0vab",
+      "topic": "health",
+      "title": "Actor Christina Applegate says she was misdiagnosed with multiple sclerosis",
+      "summary": "Christina Applegate thought she was living with multiple sclerosis (MS) for five years, until recently discovering she had been given a wrong diagnosis.",
+      "headlineSource": "NPR Health",
+      "sourceCount": 3,
+      "score": 13.42,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 1.37,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 3,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr_health",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Actor Christina Applegate says she was misdiagnosed with multiple sclerosis",
+          "description": "Actor Christina Applegate revealed she was misdiagnosed with multiple sclerosis. NPR's A Martínez speaks with neurologist Michael Kornberg about how MS can be misdiagnosed.",
+          "link": "https://www.npr.org/2026/10/21/nx-s1-6009382/actor-christina-applegate-says-she-was-misdiagnosed-with-multiple-sclerosis",
+          "published": "2026-10-21T08:42:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Terrifying truth about America's multiple sclerosis surge: Fears that 1 in 5 patients actually DON'T have it... experts reveal the three conditions often missed by doctors, amid Christina Applegate misdiagnosis",
+          "description": "Christina Applegate has revealed that she was misdiagnosed with MS. Her experience is far from unusual, doctors have told the Daily Mail.",
+          "link": "https://www.dailymail.com/health/article-16223641/multiple-sclerosis-misdiagnosis-christina-applegate.html",
+          "published": "2026-10-21T17:27:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Christina Applegate says she was wrongly diagnosed with MS",
+          "description": "Christina Applegate thought she was living with multiple sclerosis (MS) for five years, until recently discovering she had been given a wrong diagnosis.",
+          "link": "https://www.bbc.co.uk/news/videos/cmewe41n5kdlo",
+          "published": "2026-10-21T09:56:41.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-22-1yrzuvq",
+      "topic": "health",
+      "title": "High health costs squeeze workers, even if you have good insurance through a job",
+      "summary": "About 157 million Americans get their health insurance through work. A survey of employers shows a moderate price uptick this year, but workers still say health costs are a top concern.",
+      "headlineSource": "NPR",
+      "sourceCount": 3,
+      "score": 11.24,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 3,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "High health costs squeeze workers, even if you have good insurance through a job",
+          "description": "About 157 million Americans get their health insurance through work. A survey of employers shows a moderate price uptick this year, but workers still say health costs are a top concern.",
+          "link": "https://www.npr.org/2026/10/22/nx-s1-6008153/health-insurance-costs-kff-commonwealth",
+          "published": "2026-10-22T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Employers Shift Rising Health Care Costs Onto Millions of Workers",
+          "description": "New surveys show that increases in premiums and deductibles are forcing people to forgo treatments or doctor’s visits while budgets are strained by higher food and gas prices.",
+          "link": "https://www.nytimes.com/2026/10/22/business/health-insurance-costs-workers-premiums-deductibles.html",
+          "published": "2026-10-22T09:03:14.000Z",
+          "categories": [
+            "Health Insurance and Managed Care",
+            "Prices (Fares, Fees and Rates)",
+            "Insurance",
+            "Medicine and Health",
+            "United States Politics and Government",
+            "Medicaid",
+            "Patient Protection and Affordable Care Act (2010)",
+            "Drugs (Pharmaceuticals)",
+            "Credit and Debt",
+            "Two Thousand Twenty Six",
+            "Midterm Elections (2026)",
+            "Commonwealth Fund",
+            "KFF (Nonprofit)",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "npr_health",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "health",
+          "title": "High health costs squeeze workers, even if you have good insurance through a job",
+          "description": "About 157 million Americans get their health insurance through work. A survey of employers shows a moderate price uptick this year, but workers still say health costs are a top concern.",
+          "link": "https://www.npr.org/2026/10/22/nx-s1-6008153/health-insurance-costs-kff-commonwealth",
+          "published": "2026-10-22T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_health",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Employers Shift Rising Health Care Costs Onto Millions of Workers",
+          "description": "New surveys show that increases in premiums and deductibles are forcing people to forgo treatments or doctor’s visits while budgets are strained by higher food and gas prices.",
+          "link": "https://www.nytimes.com/2026/10/22/business/health-insurance-costs-workers-premiums-deductibles.html",
+          "published": "2026-10-22T09:03:14.000Z",
+          "categories": [
+            "Health Insurance and Managed Care",
+            "Prices (Fares, Fees and Rates)",
+            "Insurance",
+            "Medicine and Health",
+            "United States Politics and Government",
+            "Medicaid",
+            "Patient Protection and Affordable Care Act (2010)",
+            "Drugs (Pharmaceuticals)",
+            "Credit and Debt",
+            "Two Thousand Twenty Six",
+            "Midterm Elections (2026)",
+            "Commonwealth Fund",
+            "KFF (Nonprofit)",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "STAT+: Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
+          "description": "A KFF survey finds that rising healthcare costs are squeezing both employers and workers.",
+          "link": "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/",
+          "published": "2026-10-22T09:00:00.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}

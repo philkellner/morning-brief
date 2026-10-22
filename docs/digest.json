@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-10-21",
-  "generatedAt": "2026-10-21T09:07:05.684Z",
+  "edition": "2026-10-22",
+  "generatedAt": "2026-10-22T09:09:36.026Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -18,23 +18,148 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-10-21-19t0ox2",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
-      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-      "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
+      "id": "2026-10-22-xl3uhd",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine, Russia trade strikes after Witkoff talks",
+      "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+      "url": "https://www.dw.com/en/ukraine-russia-trade-strikes-after-witkoff-talks/a-79727542?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
       "summarySource": "BBC News",
-      "publishedAt": "2026-10-21T08:52:33.000Z",
-      "sourceCount": 13,
+      "publishedAt": "2026-10-22T08:18:39.000Z",
+      "sourceCount": 14,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 23.74,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Trump says what Russia is doing to Ukraine is 'fine'",
+          "url": "https://abcnews.com/video/137418640/"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Russian strikes hit Kyiv after Witkoff meets Putin",
+          "url": "https://www.aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Russia says Ukraine must make \"necessary decisions\" to end the war",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier",
+          "url": "https://www.cnbc.com/2026/10/21/ukraine-russia-drone-diesel-refinery-trump-putin-zelenskyy.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine, Russia trade strikes after Witkoff talks",
+          "url": "https://www.dw.com/en/ukraine-russia-trade-strikes-after-witkoff-talks/a-79727542?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Kremlin open to new Ukraine peace talks as Russia frees US teacher Stephen Hubbard",
+          "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Russia releases American teacher imprisoned on Ukraine mercenary charges after Trump pressed Putin",
+          "url": "https://www.foxnews.com/world/stephen-hubbard-russia-american-prisoner-release"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump hopes to flatter Putin into negotiating on Ukraine",
+          "url": "https://www.nbcnews.com/politics/donald-trump/trump-hopes-flatter-putin-negotiating-ukraine-experts-say-rcna604770"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Russia and Ukraine trade major attacks as Trump touts progress",
+          "url": "https://www.scmp.com/news/world/europe/article/3371739/russia-and-ukraine-trade-major-attacks-trump-touts-progress"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Putin orders release of jailed American as he meets Trump envoy for Ukraine talks",
+          "url": "https://www.theguardian.com/world/2026/oct/21/putin-witkoff-russia-ukraine-trump-stephen-hubbard-release"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "When Starshield Cut Out, Ukrainian Drones Fell From the Skies",
+          "url": "https://www.nytimes.com/2026/10/21/world/europe/starshield-starlink-ukraine.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Russia, Ukraine exchange strikes as US envoy leaves after talks",
+          "url": "https://www.straitstimes.com/world/europe/russia-ukraine-exchange-strikes-as-us-envoy-leaves-after-talks"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-22-jez99x",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+      "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-22T08:57:46.000Z",
+      "sourceCount": 11,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 4,
-      "score": 23.5,
+      "score": 22.84,
       "scoreComponents": {
-        "breadth": 11.42,
+        "breadth": 10.75,
         "diversity": 6.4,
         "wire": 3.2,
         "freshness": 2.48,
@@ -45,8 +170,8 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
-          "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss"
+          "title": "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
+          "url": "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says?traffic_source=rss"
         },
         {
           "source": "Ars Technica",
@@ -63,13 +188,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o"
         },
         {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Smile, Elon, you're on camera: SpaceX made its earnings call must-see TV for Musk fans",
-          "url": "https://www.businessinsider.com/elon-musk-spacex-earnings-call-live-video-stream-2026-10"
-        },
-        {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
@@ -80,378 +198,73 @@
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "SpaceX up 10% in premarket after earnings beat and Musk hints at Tesla tie-up",
+          "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
           "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Musk says SpaceX-Tesla merger 'good idea' as companies explore union",
-          "url": "https://www.dw.com/en/musk-says-spacex-tesla-merger-good-idea-as-companies-explore-union/a-79719220?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Fox Business",
           "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Elon Musk says Tesla-SpaceX merger would be 'a good idea' as companies form special committees",
-          "url": "https://www.foxbusiness.com/technology/elon-musk-says-tesla-spacex-merger-would-a-good-idea-companies-form-special-committees"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "Tesla and SpaceX explore merger as Elon Musk gives backing",
-          "url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report"
+          "title": "Elon Musk says he will retaliate against Democrats who investigate him",
+          "url": "https://www.foxbusiness.com/politics/musk-warns-democrats-he-retaliate-use-congressional-power-investigate-him"
         },
         {
           "source": "MarketWatch",
           "sourceId": "marketwatch",
           "lean": "center",
-          "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-          "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Elon Musk reportedly ordered slowing down of Starlink access for Ukrainian army",
-          "url": "https://www.independent.co.uk/news/world/europe/elon-musk-ukraine-starlink-russia-war-b3070387.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Starlink access in Ukraine a decision for Musk, not White House, Rubio says",
-          "url": "https://www.straitstimes.com/world/europe/starlink-access-in-ukraine-a-decision-for-musk-not-white-house-rubio-says"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
-          "url": "https://www.theverge.com/?p=1014984"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-10-21-85jrer",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Australian MP Helen Haines has both legs amputated after car attack",
-      "summary": "Doctors have amputated both of Helen Haines legs after the Australian lawmaker was hit in an apparent deliberate attack. The suspected driver involved in the attack has appeared in court.",
-      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/australian-mp-helen-haines-has-both-legs-amputated-after-car-attack/articleshow/135086259.cms",
-      "headlineSource": "Times of India",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-10-21T08:34:37.000Z",
-      "sourceCount": 12,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 23.15,
-      "scoreComponents": {
-        "breadth": 11.1,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.45,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Australian politician who was hit by car has lost both legs",
-          "url": "https://abcnews.com/International/wireStory/australian-politician-hit-car-lost-legs-137438270"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Australian MP loses both legs in vehicle attack as suspect appears in court",
-          "url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Australian MP loses both legs after alleged car attack, husband says",
-          "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Man charged in \"targeted\" attack on Australian lawmaker Helen Haines",
-          "url": "https://www.cbsnews.com/news/australian-man-charged-targeted-attack-lawmaker-helen-haines-who-reportedly-lost-leg/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "MP Helen Haines has second leg amputated after car ramming 'attack' her husband confirms as he gives update from hospital",
-          "url": "https://www.dailymail.com/news/article-16224739/Helen-Haines-wangaratta-brendan-nugent-updates.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
-          "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Lawmaker reportedly loses leg as car ramming stuns Australia",
-          "url": "https://www.nbcnews.com/world/asia/australia-lawmaker-car-ramming-attack-helen-haines-leg-driver-charged-rcna604526"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Australian MP hit by car has both legs amputated as suspect appears in court",
-          "url": "https://news.sky.com/story/australian-mp-hit-by-a-car-has-both-legs-amputated-13601191"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Helen Haines’s second leg amputated but she is stable and ‘a fighter’, husband says – as it happened",
-          "url": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Who is Brendan Nugent? Suspect charged over attack on Australian MP Helen Haines",
-          "url": "https://www.independent.co.uk/news/world/australasia/brendan-nugent-helen-haines-amputation-attack-b3070442.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Australian Lawmaker Helen Haines Remains in Critical Condition After Car Attack",
-          "url": "https://www.nytimes.com/2026/10/20/world/asia/helen-haines-mp-attacked-wangaratta-australia.html"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Australian MP Helen Haines has both legs amputated after car attack",
-          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/australian-mp-helen-haines-has-both-legs-amputated-after-car-attack/articleshow/135086259.cms"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-10-21-1bdpu0v",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
-      "summary": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
-      "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
-      "headlineSource": "France 24",
-      "summarySource": "NPR",
-      "publishedAt": "2026-10-21T01:01:48.000Z",
-      "sourceCount": 9,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 5,
-      "score": 21.4,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 1.83,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Is Ebola under control in Kenya after nine cases confirmed?",
-          "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo"
-        },
-        {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "CDC issues new travel notice as record Ebola outbreak spreads to another country",
-          "url": "https://www.dailymail.com/health/article-16223713/cdc-ebola-outbreak-congo-uganda-kenya.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Nigeria records its first Ebola case, in capital Abuja",
-          "url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
-          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa"
+          "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+          "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories"
         },
         {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
-          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case"
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6003503/morning-news-brief"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Tesla Profit Slumps as Elon Musk’s Car Company Considers Merging With SpaceX",
+          "url": "https://www.nytimes.com/2026/10/21/business/tesla-earnings-ai-robots.html"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Nigeria confirms Ebola case in its capital as woman who arrived from Uganda tests positive",
-          "url": "https://www.pbs.org/newshour/world/nigeria-confirms-ebola-case-in-its-capital-as-woman-who-arrived-from-uganda-tests-positive"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Uganda reacts angrily as Nigeria confirms its first Ebola case",
-          "url": "https://news.sky.com/story/nigeria-confirms-ebola-case-as-outbreak-continues-to-spread-13601748"
+          "title": "How Elon Musk gained so much power over U.S. security interests",
+          "url": "https://www.pbs.org/newshour/show/how-elon-musk-gained-so-much-power-over-u-s-security-interests"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
-          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Nigeria Announces First Case of Ebola in Current Outbreak",
-          "url": "https://www.nytimes.com/2026/10/20/world/africa/nigeria-ebola-outbreak.html"
+          "title": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
+          "url": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-10-21-1fzupjo",
+      "rank": 3,
+      "id": "2026-10-22-1raq5po",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "France plans 'massive' weekend police surge amid protests",
-      "summary": "Government advisories urge citizens to avoid protest areas and exercise caution due to civil unrest.",
-      "url": "https://www.dw.com/en/france-plans-massive-weekend-police-surge-amid-protests/live-79707186?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-21T09:01:44.000Z",
-      "sourceCount": 10,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 6,
-      "score": 20.52,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "France vows to crack down after protests spiral out of control",
-          "url": "https://www.cbsnews.com/news/france-riots-protests-macron-vows-order-pm-urges-curfews/"
-        },
-        {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
-          "lean": "center",
-          "title": "After violent weekend, France reckons with its frustrated, fractured public",
-          "url": "https://www.csmonitor.com/World/Europe/2026/1019/france-paris-riots-protests-students-macron-looting?icid=rss"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "France to deploy military as it braces for fresh unrest this weekend",
-          "url": "https://www.cnbc.com/2026/10/20/france-protests-curfews-macron-gulf-trip.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "France plans 'massive' weekend police surge amid protests",
-          "url": "https://www.dw.com/en/france-plans-massive-weekend-police-surge-amid-protests/live-79707186?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Reporter's Notebook: France braces for more unrest after parts of Paris spun out of control",
-          "url": "https://www.foxnews.com/world/reporters-notebook-france-braces-more-unrest-after-parts-paris-spun-out-control"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "French PM vows stronger security as country prepares for more protests",
-          "url": "https://www.france24.com/en/french-pm-vows-stronger-security-as-country-prepares-for-more-protests"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Curfews in effect after violent protests engulf France",
-          "url": "https://www.nbcnews.com/nightly-news/video/curfews-in-effect-after-violent-protests-engulf-france-271848517800"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "French government to deploy troops and admits to failures over weekend unrest",
-          "url": "https://www.japantimes.co.jp/news/2026/10/21/world/politics/france-troops-unrest/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Heading to France? Amid recent unrest, here’s what to know",
-          "url": "https://www.straitstimes.com/world/europe/heading-to-france-amid-recent-unrest-heres-what-to-know"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-21-qk6350",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "US envoy in Russia for Putin talks after 'positive' Zelenskyy meeting",
-      "summary": "Secretary of State Marco Rubio described Witkoff's talks with Zelenskyy as 'positive', as efforts to end war intensify.",
-      "url": "https://www.euronews.com/2026/10/21/us-envoy-in-russia-for-putin-talks-after-positive-zelenskyy-meeting",
-      "headlineSource": "Euronews",
+      "title": "Macron Says Trump Does Not Like France and Distorts Its Troubles",
+      "summary": "The US president has turned his attention to France, but his comments were dismissed by French leader Macron.",
+      "url": "https://www.nytimes.com/2026/10/21/world/europe/macron-trump-france-protests.html",
+      "headlineSource": "The New York Times",
       "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-21T08:32:33.000Z",
+      "publishedAt": "2026-10-22T08:40:36.000Z",
       "sourceCount": 11,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 6,
-      "score": 20.3,
+      "leanCount": 4,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 22.26,
       "scoreComponents": {
         "breadth": 10.75,
-        "diversity": 3.9,
+        "diversity": 5.85,
         "wire": 3.2,
         "freshness": 2.45,
         "softPenalty": 0
@@ -461,295 +274,456 @@
           "source": "ABC News",
           "sourceId": "abc",
           "lean": "center-left",
-          "title": "Witkoff arrives in St. Petersburg for Putin talks, Kremlin aide says",
-          "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106"
+          "title": "Macron blasts ‘stupid’ claims by Trump, others blaming Muslims migrants for riots",
+          "url": "https://abcnews.com/International/wireStory/macron-blasts-stupid-claims-trump-blaming-muslims-migrants-137441867"
         },
         {
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Witkoff in Russia for Putin meeting after ‘positive’ talks with Zelenskyy",
-          "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy?traffic_source=rss"
+          "title": "‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
+          "url": "https://www.aljazeera.com/news/2026/10/22/stupid-talk-france-rejects-trumps-attempt-to-blame-unrest-on-migration?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o"
+          "title": "Macron accuses foreign leaders of exploiting French riots",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Zelenskyy says if Trump can't stop Putin, help Ukraine do it",
-          "url": "https://www.cbsnews.com/news/ukraine-war-trump-zelenskyy-putin-us-interceptor-missiles-star/"
+          "title": "French government extends curfews after riots sweep across the country",
+          "url": "https://www.cbsnews.com/news/france-extends-curfews-riots-sweep-country/"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "US envoy to meet Putin after 'positive' talks with Zelenskyy",
-          "url": "https://www.dw.com/en/us-envoy-to-meet-putin-after-positive-talks-with-zelenskyy/a-79719452?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "US envoy in Russia for Putin talks after 'positive' Zelenskyy meeting",
-          "url": "https://www.euronews.com/2026/10/21/us-envoy-in-russia-for-putin-talks-after-positive-zelenskyy-meeting"
+          "title": "France bans protests in parts of Paris as Macron slams Trump",
+          "url": "https://www.dw.com/en/france-bans-protests-in-parts-of-paris-as-macron-slams-trump/a-79727141?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "US envoy Witkoff meets Putin in Russia after 'positive' talks with Zelensky",
-          "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky"
+          "title": "Live: Macron meets with French intelligence services ahead of new wave of protests",
+          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump"
         },
         {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Zelenskyy meets with Trump envoys as U.S. blasts ‘scandalous’ accusations on withdrawn support",
-          "url": "https://www.nbcnews.com/world/ukraine/ukraine-us-support-rubio-scandalous-zelenskyy-meeting-trump-oslo-rcna604530"
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "France Hits Back at ICE Protest Post With Gun Crime Stats",
+          "url": "https://www.newsweek.com/france-hits-back-ice-protest-post-gun-crime-stats-12603179"
         },
         {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Zelenskyy seeks to mend ties with Trump ahead of Witkoff-Putin meeting",
-          "url": "https://www.pbs.org/newshour/show/zelenskyy-seeks-to-mend-ties-with-trump-ahead-of-witkoff-putin-meeting"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "US envoy Witkoff lands in Russia for talks with Vladimir Putin about Ukraine – Europe live",
-          "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Trump envoy to meet Putin today after clear-the-air talks with Zelensky",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-zelensky-putin-starlink-oslo-peace-talks-b3070403.html"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-10-21-15btw97",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
-      "summary": "The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company.",
-      "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
-      "headlineSource": "Guardian Tech",
-      "summarySource": "The New York Times",
-      "publishedAt": "2026-10-21T05:03:27.000Z",
-      "sourceCount": 3,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 12.84,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 3.9,
-        "wire": 0.8,
-        "freshness": 2.14,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "US bans use of China’s DeepSeek AI tools by government agencies",
-          "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies"
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "France's Protests Descend Into Looting and Property Destruction",
+          "url": "https://reason.com/video/2026/10/21/frances-protests-descend-into-looting-and-property-destruction/"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
-          "url": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "China Criticizes U.S. Ban on DeepSeek A.I. in Government Systems",
-          "url": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-10-20-312meh",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
-      "summary": "A simple selfie could soon be used to predict a patient's chance of surviving cancer, an intriguing study has suggested.",
-      "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie",
-      "headlineSource": "Guardian Tech",
-      "summarySource": "Daily Mail Health",
-      "publishedAt": "2026-10-20T04:21:35.000Z",
-      "sourceCount": 3,
-      "leanCount": 3,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 12.63,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 5,
-        "wire": 0.8,
-        "freshness": 0.83,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "Could a SELFIE predict whether you'll survive cancer? Scientists develop AI tool that can spot patients at greatest risk of dying simply by looking at their faces",
-          "url": "https://www.dailymail.com/health/article-16220829/selfie-cancer-prediction-aging-AI.html"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "New AI tool can predict cancer survival by a single patient selfie, study suggests",
-          "url": "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
-        },
-        {
-          "source": "ScienceDaily",
-          "sourceId": "sciencedaily",
-          "lean": "center",
-          "title": "Scientists discover a surprising link between vitamin C and cancer survival",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261019093437.htm"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-10-20-zxgi8l",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "summary": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
-      "url": "https://www.theverge.com/?p=1014976",
-      "headlineSource": "The Verge",
-      "summarySource": "BBC Technology",
-      "publishedAt": "2026-10-20T23:04:19.000Z",
-      "sourceCount": 3,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 12.4,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 3.9,
-        "wire": 0.8,
-        "freshness": 1.7,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
-          "lean": "center",
-          "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
-          "url": "https://www.bbc.co.uk/news/articles/c94g1502el58o"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
-          "url": "https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-          "url": "https://www.theverge.com/?p=1014976"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-10-21-1okw5j8",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Britain Approves Long-Stalled Gas Drilling Project in the North Sea",
-      "summary": "Plus, the UK approves drilling at a contentious North Sea gas field",
-      "url": "https://www.nytimes.com/2026/10/21/business/uk-jackdaw-gas-drilling.html",
-      "headlineSource": "NYT Business",
-      "summarySource": "Bloomberg",
-      "publishedAt": "2026-10-21T09:03:38.000Z",
-      "sourceCount": 3,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 0,
-      "score": 12.39,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 3.9,
-        "wire": 0,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "UK Inflation at 11-Month High Pressures BOE to Hike",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/uk-inflation-at-11-month-high-pressures-boe-to-hike"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Britain Approves Long-Stalled Gas Drilling Project in the North Sea",
-          "url": "https://www.nytimes.com/2026/10/21/business/uk-jackdaw-gas-drilling.html"
+          "title": "Why Chinese pundits say France’s riots could reshape European politics",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3371674/why-chinese-pundits-say-frances-riots-could-reshape-european-politics"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Labour accused of ‘climate vandalism’ by Green leader Polanski after Jackdaw gasfield approved – UK politics live",
-          "url": "https://www.theguardian.com/politics/live/2026/oct/21/jackdaw-gasfield-labour-andy-burnham-zack-polanski-uk-politics-latest-news"
+          "title": "Macron accuses Trump and other foreign leaders of ‘stupid comments’ about France unrest",
+          "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Macron Says Trump Does Not Like France and Distorts Its Troubles",
+          "url": "https://www.nytimes.com/2026/10/21/world/europe/macron-trump-france-protests.html"
         }
       ]
     },
     {
-      "rank": 10,
-      "id": "2026-10-21-11o0vab",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Actor Christina Applegate says she was misdiagnosed with multiple sclerosis",
-      "summary": "Christina Applegate was misdiagnosed with MS for years. Researchers say about 15% of MS patients don't actually have MS.",
-      "url": "https://www.npr.org/2026/10/21/nx-s1-6009382/actor-christina-applegate-says-she-was-misdiagnosed-with-multiple-sclerosis",
-      "headlineSource": "NPR Health",
-      "summarySource": "Business Insider",
-      "publishedAt": "2026-10-21T08:42:30.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.75,
-      "wireCount": 1,
-      "score": 12.31,
+      "rank": 4,
+      "id": "2026-10-21-ahna6z",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Meta ordered to pay $25 billion in Cambridge Analytica case",
+      "summary": "he penalty was one of the largest financial penalties against a corporation in US history.",
+      "url": "https://www.dw.com/en/meta-ordered-to-pay-25-billion-in-cambridge-analytica-case/a-79726486?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-21T23:33:34.000Z",
+      "sourceCount": 10,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 21.71,
       "scoreComponents": {
-        "breadth": 6,
-        "diversity": 3.05,
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 1.73,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Meta fined $25bn for 'lies' over user data privacy",
+          "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case",
+          "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Meta ordered to pay $25 billion in Cambridge Analytica case",
+          "url": "https://www.dw.com/en/meta-ordered-to-pay-25-billion-in-cambridge-analytica-case/a-79726486?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Meta ordered to pay $25B after jury finds it misled users on data privacy",
+          "url": "https://www.foxbusiness.com/technology/meta-ordered-pay-25b-jury-finds-misled-facebook-users"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Meta fined $25 billion in New Mexico over Cambridge Analytica scandal",
+          "url": "https://www.france24.com/en/technology/20261021-meta-fined-25-billion-new-mexico-cambridge-analytica-scandal"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Meta ordered to pay $25bn to New Mexico in Cambridge Analytica data-privacy case",
+          "url": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Meta Ordered to Pay $25 Billion Over Cambridge Analytica Privacy Violations",
+          "url": "https://www.nytimes.com/2026/10/21/technology/meta-penalty-new-mexico.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Meta must pay New Mexico $25 billion, its biggest fine ever, for deceiving users about Facebook privacy",
+          "url": "https://www.pbs.org/newshour/nation/meta-must-pay-new-mexico-25-billion-its-biggest-fine-ever-for-deceiving-users-about-facebook-privacy"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Meta ordered to pay historic US$25b penalty to New Mexico for misleading consumers on data privacy",
+          "url": "https://www.straitstimes.com/world/united-states/meta-ordered-to-pay-us25b-to-new-mexico-after-jury-finds-company-misled-consumers-about-data-privacy"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Meta says it would’ve made over $22 billion if it didn’t have to pay a child safety settlement",
+          "url": "https://www.theverge.com/?p=1015877"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-22-1iurc93",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+      "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-22T08:20:30.000Z",
+      "sourceCount": 10,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 21.6,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Gold Falls as Higher Oil Fuels Inflation Fears Ahead of Fed Meet",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/gold-edges-lower-as-traders-weigh-mideast-signals-fed-rate-path"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Why can't Saudi Arabia stop the Houthis' deadly attacks?",
+          "url": "https://www.cbsnews.com/news/why-saudi-arabia-cant-stop-houthi-attacks-iran-war-yemen-oil-prices/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms",
+          "url": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US orders some diplomats to leave Saudi Arabia amid Houthi threat",
+          "url": "https://www.dw.com/en/us-orders-some-diplomats-to-leave-saudi-arabia-amid-houthi-threat/a-79727353?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "US pulls government employees from Saudi Arabia as kingdom comes under Houthi fire",
+          "url": "https://nypost.com/2026/10/22/us-news/us-pulls-government-employees-from-saudi-arabia-as-kingdom-comes-under-houthi-fire/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+          "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "1 killed, 8 wounded in Saudi Arabia airport attack",
+          "url": "https://thehill.com/policy/international/6164397-houthi-attacked-king-fahd-airport/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump orders diplomats to leave embassies in Middle East over fears US could join strikes on Houthis",
+          "url": "https://www.independent.co.uk/news/world/middle-east/trump-houthi-strikes-diplomats-withdrawal-saudi-b3071213.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Oil rises as deadly attacks in Saudi Arabia fan Middle East supply fears",
+          "url": "https://www.japantimes.co.jp/news/2026/10/22/world/oil-saudi-attacks/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-21-xdlah1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Pope Leo's tests show he needs no further treatment for lung cancer, his doctors say",
+      "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+      "url": "https://www.pbs.org/newshour/politics/pope-leos-tests-show-he-needs-no-further-treatment-for-lung-cancer-his-doctors-say",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-21T23:47:00.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 20.15,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 1.74,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Pope Leo makes 1st public appearance since surgery",
+          "url": "https://abcnews.com/video/137445403/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Pope does not need further treatment after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Pope Leo won't need more treatment after cancer surgery, doctors say",
+          "url": "https://www.cbsnews.com/news/pope-leo-further-treatment-lung-cancer-surgery/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Pope Leo will not need further cancer treatment — Vatican",
+          "url": "https://www.dw.com/en/pope-leo-will-not-need-further-cancer-treatment-vatican/a-79727154?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Pope Leo XIV needs no further cancer treatment after lung tumor removed, doctors say",
+          "url": "https://www.foxnews.com/world/pope-leo-xiv-needs-no-further-cancer-treatment-after-lung-tumor-removed-doctors-say"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
+          "url": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Pope Leo won’t require further treatment after lung surgery, doctors say",
+          "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-treatment-lung-cancer-rcna604869"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Pope Leo's tests show he needs no further treatment for lung cancer, his doctors say",
+          "url": "https://www.pbs.org/newshour/politics/pope-leos-tests-show-he-needs-no-further-treatment-for-lung-cancer-his-doctors-say"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Pope Leo's doctors say tests show he needs no further treatment for lung cancer",
+          "url": "https://news.sky.com/story/pope-leos-doctors-say-tests-show-he-needs-no-further-treatment-for-lung-cancer-13602031"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Pope Leo's doctors issue health update after lung cancer surgery",
+          "url": "https://www.independent.co.uk/news/world/europe/pope-leo-health-update-lung-cancer-surgery-b3071010.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Pope Needs No Further Treatment for Lung Cancer, Doctors Say",
+          "url": "https://www.nytimes.com/2026/10/21/world/europe/pope-leo-cancer.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-22-1txm1so",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+      "summary": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November.",
+      "url": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-22T05:17:11.000Z",
+      "sourceCount": 4,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 16.32,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
         "wire": 0.8,
-        "freshness": 2.46,
+        "freshness": 2.15,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+          "url": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Airbnb cracks down on checkout chore lists as hosts face new limits",
+          "url": "https://www.foxbusiness.com/fox-news-travel/airbnb-cracks-down-checkout-chore-lists-hosts-face-new-limits"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Airbnb guests freed from chores involving ‘significant effort’ under new global rules",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/22/airbnb-guests-freed-from-chores-involving-significant-effort-under-new-global-rules"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Airbnb bans making guests do dishes and take out the trash",
+          "url": "https://www.theverge.com/?p=1015844"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-22-1mwaz1m",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Meta agrees to let Mark Zuckerberg remain in California amid proposed billionaire wealth tax",
+      "summary": "The billionaire told Meta’s board that he planned to list his Silicon Valley home for sale. The company remade its stock structure to help him pay the tax if voters pass it.",
+      "url": "https://www.foxbusiness.com/business-leaders/meta-agrees-let-mark-zuckerberg-remain-california-amid-proposed-billionaire-wealth-tax",
+      "headlineSource": "Fox Business",
+      "summarySource": "NYT Technology",
+      "publishedAt": "2026-10-22T07:08:14.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 13.73,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.31,
         "softPenalty": 0
       },
       "coverage": [
@@ -757,15 +731,70 @@
           "source": "Business Insider",
           "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "Christina Applegate thought she had MS for 5 years. Now she's learned she was misdiagnosed — and her symptoms remain unexplained.",
-          "url": "https://www.businessinsider.com/how-christina-applegate-misdiagnosed-ms-multiple-scerlosis-2026-10"
+          "title": "Mark Zuckerberg considered leaving California over the billionaire tax",
+          "url": "https://www.businessinsider.com/meta-mark-zuckerberg-weighed-leaving-california-over-billionaire-tax-2026-10"
         },
         {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Christina Applegate tearfully announces she does not have MS and was 'misdiagnosed' for years",
-          "url": "https://www.dailymail.com/tvshowbiz/article-16223501/Christina-Applegate-MS-misdiagnosed-messy-podcast.html"
+          "title": "Meta agrees to let Mark Zuckerberg remain in California amid proposed billionaire wealth tax",
+          "url": "https://www.foxbusiness.com/business-leaders/meta-agrees-let-mark-zuckerberg-remain-california-amid-proposed-billionaire-wealth-tax"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "This wonky maneuver kept Mark Zuckerberg from fleeing a California billionaire tax",
+          "url": "https://www.marketwatch.com/story/this-wonky-maneuver-kept-mark-zuckerberg-from-fleeing-a-california-billionaire-tax-1de34562?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "How Mark Zuckerberg Pushed Meta to Shield Him From California’s Proposed Wealth Tax",
+          "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-21-11o0vab",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Actor Christina Applegate says she was misdiagnosed with multiple sclerosis",
+      "summary": "Christina Applegate thought she was living with multiple sclerosis (MS) for five years, until recently discovering she had been given a wrong diagnosis.",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6009382/actor-christina-applegate-says-she-was-misdiagnosed-with-multiple-sclerosis",
+      "headlineSource": "NPR Health",
+      "summarySource": "BBC Health",
+      "publishedAt": "2026-10-21T17:27:00.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 13.42,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 1.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Health",
+          "sourceId": "bbc_health",
+          "lean": "center",
+          "title": "Christina Applegate says she was wrongly diagnosed with MS",
+          "url": "https://www.bbc.co.uk/news/videos/cmewe41n5kdlo"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Terrifying truth about America's multiple sclerosis surge: Fears that 1 in 5 patients actually DON'T have it... experts reveal the three conditions often missed by doctors, amid…",
+          "url": "https://www.dailymail.com/health/article-16223641/multiple-sclerosis-misdiagnosis-christina-applegate.html"
         },
         {
           "source": "NPR Health",
@@ -773,6 +802,54 @@
           "lean": "center-left",
           "title": "Actor Christina Applegate says she was misdiagnosed with multiple sclerosis",
           "url": "https://www.npr.org/2026/10/21/nx-s1-6009382/actor-christina-applegate-says-she-was-misdiagnosed-with-multiple-sclerosis"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-22-1yrzuvq",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "High health costs squeeze workers, even if you have good insurance through a job",
+      "summary": "About 157 million Americans get their health insurance through work. A survey of employers shows a moderate price uptick this year, but workers still say health costs are a top concern.",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6008153/health-insurance-costs-kff-commonwealth",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-10-22T09:03:14.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 1,
+      "score": 11.24,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "High health costs squeeze workers, even if you have good insurance through a job",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6008153/health-insurance-costs-kff-commonwealth"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Employers Shift Rising Health Care Costs Onto Millions of Workers",
+          "url": "https://www.nytimes.com/2026/10/22/business/health-insurance-costs-workers-premiums-deductibles.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "STAT+: Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
+          "url": "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/"
         }
       ]
     }
