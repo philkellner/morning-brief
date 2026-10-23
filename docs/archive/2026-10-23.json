@@ -1,0 +1,794 @@
+{
+  "version": 1,
+  "edition": "2026-10-23",
+  "generatedAt": "2026-10-23T09:06:07.454Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-23-8ls0e4",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Major protests in France: French shop owners brace for more unrest",
+      "summary": "French President Emmanuel Macron vowed to ban unauthorized protests after France was rocked by violence and looting. As anger over public services and the cost of living grows, authorities are bracing for more protests.",
+      "url": "https://www.france24.com/en/major-protests-in-france-french-shop-owners-brace-for-more-unrest",
+      "headlineSource": "France 24",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-23T08:50:23.000Z",
+      "sourceCount": 12,
+      "leanCount": 4,
+      "leanSpread": 0.75,
+      "wireCount": 6,
+      "score": 22.63,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 5.85,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Macron to meet student groups: Where are France’s protests heading?",
+          "url": "https://www.aljazeera.com/news/2026/10/23/we-want-promises-backed-by-results?traffic_source=rss"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "French Authorities Brace for Weekend Protests",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/french-authorities-brace-for-weekend-protests-video"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "France's Macron says 'illegitimate' protests will be banned in coming days",
+          "url": "https://www.dw.com/en/france-s-macron-says-illegitimate-protests-will-be-banned-in-coming-days/a-79735137?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "France's Macron blames protests on 'ultra-left groups whose aim is to bring down the Republic'",
+          "url": "https://www.foxnews.com/world/frances-macron-blames-protests-ultra-left-groups-aim-bring-down-republic"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Major protests in France: French shop owners brace for more unrest",
+          "url": "https://www.france24.com/en/major-protests-in-france-french-shop-owners-brace-for-more-unrest"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "France’s Emmanuel Macron says ‘illegitimate’ protests will be banned as cities block demonstrations",
+          "url": "https://www.nbcnews.com/world/france/france-emmanuel-macron-illegitimate-protests-banned-cities-rcna604952"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "France's Protests Descend Into Looting and Property Destruction",
+          "url": "https://reason.com/video/2026/10/21/frances-protests-descend-into-looting-and-property-destruction/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "What do the protests in France look like from China? Internet users weigh in",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3371813/what-do-protests-france-look-china-internet-users-weigh"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "France protests latest: Shopkeepers stock up on weapons as Paris braces for another weekend of chaos",
+          "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-live-updates-b3071957.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "French authorities seek to ban or curb fresh protests",
+          "url": "https://www.japantimes.co.jp/news/2026/10/23/world/crime-legal/france-protest-curbs/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "In the Wake of Riots, the French Authorities Ban Some Protests",
+          "url": "https://www.nytimes.com/2026/10/22/world/europe/france-protests-macron.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "French businesses, events to close with more weekend protests expected",
+          "url": "https://www.straitstimes.com/world/europe/french-businesses-events-to-close-with-more-weekend-protests-expected"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-23-1zve57",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Tesla Profit Slumps as Elon Musk’s Car Company Considers Merging With SpaceX",
+      "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+      "url": "https://www.nytimes.com/2026/10/21/business/tesla-earnings-ai-robots.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "BBC Technology",
+      "publishedAt": "2026-10-23T03:43:00.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 20.8,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.03,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say",
+          "url": "https://abcnews.com/Politics/us-israel-drawing-plans-resume-attacks-iran-post/story?id=137479897"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
+          "url": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Elon Musk says he will retaliate against Democrats who investigate him",
+          "url": "https://www.foxbusiness.com/politics/musk-warns-democrats-he-retaliate-use-congressional-power-investigate-him"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Elon Musk reportedly invests $1bn in David Ellison’s Skydance",
+          "url": "https://www.theguardian.com/technology/2026/oct/22/elon-musk-david-ellison-skydance-investment"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
+          "url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Tesla Profit Slumps as Elon Musk’s Car Company Considers Merging With SpaceX",
+          "url": "https://www.nytimes.com/2026/10/21/business/tesla-earnings-ai-robots.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Musk wants to merge SpaceX and Tesla: Here’s what to know",
+          "url": "https://www.japantimes.co.jp/business/2026/10/23/companies/why-merge-spacex-tesla/"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+          "url": "https://www.theverge.com/?p=1016879"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-23-9e93wo",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Netanyahu orders army to prepare for full West Bank closure after attack",
+      "summary": "The office of Israeli Prime Minister Benjamin Netanyahu ordered the army to prepare for a full closure of the occupied West Bank Friday after Israeli soldiers shot and killed two men who the military said had launched a \"terror attack\" near the city of…",
+      "url": "https://www.france24.com/en/middle-east/20261023-netanyahu-orders-army-to-prepare-for-full-west-bank-closure-after-attack",
+      "headlineSource": "France 24",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-23T08:47:16.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 20.09,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Israel preparing full lockdown of occupied West Bank after Hebron gun fight",
+          "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Israel preparing 'full closure' of West Bank, Netanyahu says",
+          "url": "https://www.dw.com/en/israel-preparing-full-closure-of-west-bank-netanyahu-says/a-79739292?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Two suspected gunmen killed after shooting wounds 5 Israelis in West Bank",
+          "url": "https://www.foxnews.com/world/two-suspected-gunmen-killed-shooting-wounds-5-israelis-west-bank"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Netanyahu orders army to prepare for full West Bank closure after attack",
+          "url": "https://www.france24.com/en/middle-east/20261023-netanyahu-orders-army-to-prepare-for-full-west-bank-closure-after-attack"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Israel orders ‘full lockdown’ of West Bank after military kills 2 accused of attack",
+          "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Israel orders army to prepare to fully close West Bank after 'thwarting terror attack'",
+          "url": "https://news.sky.com/story/israel-orders-army-to-prepare-to-fully-close-west-bank-after-attack-13602577"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Netanyahu orders West Bank closure after deadly checkpoint shoot-out",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3371912/netanyahu-orders-west-bank-closure-after-deadly-checkpoint-shoot-out"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Israel orders army to prepare for full closure of West Bank after attack",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-west-bank-hebron-attack-b3072022.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Palestinians Hope Israeli Election Will Oust Netanyahu",
+          "url": "https://www.nytimes.com/2026/10/21/world/middleeast/stakes-for-palestinians-of-israel-election.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-23-196280n",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Tibet earthquake kills at least 16 people, injures dozens: state media",
+      "summary": "It was the most powerful earthquake to strike the region in five years, according to Chinese media.",
+      "url": "https://www.dw.com/en/tibet-earthquake-kills-at-least-16-people-injures-dozens-state-media/a-79738117?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-23T07:53:58.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 19.87,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Tibet rocked by 7.0-magnitude earthquake",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "At least 16 people killed by powerful earthquake in Tibet",
+          "url": "https://www.cbsnews.com/news/powerful-earthquake-tibet-china/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Tibet earthquake kills at least 16 people, injures dozens: state media",
+          "url": "https://www.dw.com/en/tibet-earthquake-kills-at-least-16-people-injures-dozens-state-media/a-79738117?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes",
+          "url": "https://www.euronews.com/2026/10/23/magnitude-7-earthquake-strikes-tibet-killing-at-least-16-people-and-destroying-hundreds-of"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Strong earthquake strikes China’s remote Tibet region",
+          "url": "https://www.france24.com/en/asia-pacific/20261022-many-dead-massive-earthquake-strikes-china-s-remote-tibet-region-magnitude-seven"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "China’s Xi Jinping orders urgent relief after Tibet earthquake leaves 16 dead",
+          "url": "https://www.scmp.com/news/china/politics/article/3371850/chinas-xi-jinping-orders-urgent-relief-after-tibet-earthquake-leaves-16-dead"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+          "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "China orders ‘all-out’ rescue after Tibet quake kills 16",
+          "url": "https://www.japantimes.co.jp/news/2026/10/23/asia-pacific/tibet-magnitude-7-quake/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Powerful Earthquake in Tibet Kills at Least 16",
+          "url": "https://www.nytimes.com/2026/10/22/world/asia/earthquake-tibet-china.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-23-1ietjbz",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Iran war could worsen after US midterms",
+      "summary": "Iran will want more than it asked for in June, said Iran expert Vali Nasr.",
+      "url": "https://www.straitstimes.com/world/iran-war-could-worsen-after-u-s-midterms",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-23T09:00:00.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 19.71,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump says Iran is making up strikes on ships to drive up oil prices",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Is Iran ready for another major US attack after midterm elections?",
+          "url": "https://www.dw.com/en/is-iran-ready-for-another-major-us-attack-after-midterm-elections/a-79734082?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "NYT reports plans for fresh strikes on Iran after the US midterm elections",
+          "url": "https://www.france24.com/en/nyt-reports-plans-for-fresh-strikes-on-iran-after-the-us-midterm-elections"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Too little, too late: Trump takes on gas prices as fuel costs hamper his midterm hopes",
+          "url": "https://www.theguardian.com/us-news/2026/oct/22/trump-high-gas-prices-midterms-cycle"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Iran war could worsen after US midterms",
+          "url": "https://www.straitstimes.com/world/iran-war-could-worsen-after-u-s-midterms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "GOP tax cut sales pitch to voters undercut by Iran and gas prices",
+          "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4776586/gop-tax-cut-sales-pitch-overshadowed-voters-iran-gas-prices-strategy/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-23-m9chdd",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+      "summary": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
+      "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-23T06:58:27.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 17.93,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.3,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes",
+          "url": "https://abcnews.com/Technology/wireStory/zuckerberg-makes-deal-meta-pay-billionaire-tax-passes-137488685"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+          "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Meta’s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
+          "url": "https://www.cnbc.com/2026/10/22/meta-mark-zuckerberg-california-billionaire-tax.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Meta agrees to let Mark Zuckerberg remain in California amid proposed billionaire wealth tax",
+          "url": "https://www.foxbusiness.com/business-leaders/meta-agrees-let-mark-zuckerberg-remain-california-amid-proposed-billionaire-wealth-tax"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Meta strikes deal with Mark Zuckerberg to help him foot billionaire tax bill",
+          "url": "https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "How Mark Zuckerberg Pushed Meta to Shield Him From California’s Proposed Wealth Tax",
+          "url": "https://www.nytimes.com/2026/10/21/technology/mark-zuckerberg-meta-california-wealth-tax.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-23-vcrmy0",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "mRNA cancer vaccine slashes melanoma death or recurrence risk by 42%",
+      "summary": "The scientists involved say the results could mark a turning point in cancer treatment, bringing personalised medicine a step closer.",
+      "url": "https://www.independent.co.uk/news/world/americas/mrna-cancer-vaccine-moderna-merck-b3071828.html",
+      "headlineSource": "The Independent",
+      "summarySource": "BBC Health",
+      "publishedAt": "2026-10-23T09:00:38.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 16.74,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+          "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
+        },
+        {
+          "source": "BBC Health",
+          "sourceId": "bbc_health",
+          "lean": "center",
+          "title": "First personalised cancer vaccine cuts risk of disease returning in major trial",
+          "url": "https://www.bbc.co.uk/news/articles/cq0ld9g9e913o"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+          "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "World-first cancer vaccine slashes death risk in stunning findings led by Aussie scientist",
+          "url": "https://www.dailymail.com/news/article-16231693/cancer-vaccine-trial-australia-georgina-long.html"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Melanoma Vaccine Ushers in New Hope for Cancer Patients",
+          "url": "https://www.nytimes.com/2026/10/23/well/first-of-its-kind-vaccine-ushers-in-new-hope-for-cancer-patients.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "One family’s story of a life-extending medicine for pancreatic cancer",
+          "url": "https://www.statnews.com/2026/10/23/patient-story-pancreatic-cancer-drug-daraxonrasib-rasonque/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "mRNA cancer vaccine slashes melanoma death or recurrence risk by 42%",
+          "url": "https://www.independent.co.uk/news/world/americas/mrna-cancer-vaccine-moderna-merck-b3071828.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-22-i3x552",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "PHP Security Flaw Sets Off Global Rush to Patch, Leaving Websites Offline",
+      "summary": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
+      "url": "https://www.nytimes.com/2026/10/22/world/php-vulnerability-websites-cybersecurity-ai.html",
+      "headlineSource": "The New York Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-22T21:31:29.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 14.86,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 1.6,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Race to update services' computer systems after cyber-security flaw found",
+          "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Here's how to protect your information from the PHP flaw, according to cybersecurity pros",
+          "url": "https://www.businessinsider.com/how-to-protect-information-php-issue-hackers-cybersecurity-2026-10"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Websites go dark after AI exposes major programming language security flaw",
+          "url": "https://www.euronews.com/2026/10/22/websites-go-dark-after-ai-exposes-major-programming-language-security-flaw"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Websites across world hit by millions of attempts to exploit PHP code flaw",
+          "url": "https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "PHP Security Flaw Sets Off Global Rush to Patch, Leaving Websites Offline",
+          "url": "https://www.nytimes.com/2026/10/22/world/php-vulnerability-websites-cybersecurity-ai.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-22-139r6eu",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "1 million older Americans could soon lose health insurance - here is who is at risk",
+      "summary": "About 157 million Americans get their health insurance through work. A survey of employers shows a moderate price uptick this year, but workers still say health costs are a top concern.",
+      "url": "https://www.independent.co.uk/news/world/americas/healthcare-risk-insurance-americans-b3071788.html",
+      "headlineSource": "The Independent",
+      "summarySource": "NPR Health",
+      "publishedAt": "2026-10-22T20:11:07.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 14.53,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 1.52,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Families are paying nearly $7,500 a year for health insurance. The next price hike is already looming.",
+          "url": "https://www.businessinsider.com/workers-paying-thousands-health-insurance-premiums-costs-going-up-2026-10"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "Marijuana use rises sharply among one group of Americans, new study finds",
+          "url": "https://www.foxnews.com/health/marijuana-use-rises-sharply-among-one-group-americans-new-study-finds"
+        },
+        {
+          "source": "NPR Health",
+          "sourceId": "npr_health",
+          "lean": "center-left",
+          "title": "High health costs squeeze workers, even if you have good insurance through a job",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6008153/health-insurance-costs-kff-commonwealth"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "Health insurance premiums jump 9%, and more Americans don’t have access to coverage",
+          "url": "https://www.statnews.com/2026/10/22/health-news-insurance-premiums-jump-more-americans-lose-coverage/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "1 million older Americans could soon lose health insurance - here is who is at risk",
+          "url": "https://www.independent.co.uk/news/world/americas/healthcare-risk-insurance-americans-b3071788.html"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-23-1m1oxi4",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Britain could run out of gas this winter, Ofgem warns",
+      "summary": "Official forecasts show country will meet energy demand by paying high prices to secure imports Great Britain is expected to pay some of the highest energy costs in Europe this winter as its reliance on imports to ensure a steady supply is forecast to deepen…",
+      "url": "https://www.dailymail.com/news/article-16231607/Outrage-Ofgem-admits-Britain-run-gas.html",
+      "headlineSource": "Daily Mail",
+      "summarySource": "Guardian Business",
+      "publishedAt": "2026-10-23T05:00:03.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 11.73,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.6,
+        "wire": 0,
+        "freshness": 2.13,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Britain could run out of gas this winter, Ofgem warns",
+          "url": "https://www.dailymail.com/news/article-16231607/Outrage-Ofgem-admits-Britain-run-gas.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "UK makes major energy move with North Sea project, and new gas supplies could arrive this winter",
+          "url": "https://www.foxbusiness.com/media/uk-makes-major-energy-move-new-gas-supplies-could-arrive-winter"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Some of Europe’s highest energy costs expected in Britain this winter",
+          "url": "https://www.theguardian.com/business/2026/oct/23/europe-highest-energy-costs-great-britain-this-winter"
+        }
+      ]
+    }
+  ]
+}
