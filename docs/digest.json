@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-10-24",
-  "generatedAt": "2026-10-24T08:38:58.195Z",
+  "edition": "2026-10-25",
+  "generatedAt": "2026-10-25T08:56:48.544Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,48 +12,81 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 63,
-    "failed": []
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-10-24-2lleoi",
+      "id": "2026-10-25-1e90fmi",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "France’s luxury stores board up windows ahead of fresh protests",
-      "summary": "France is deploying some 70,000 police as fresh nationwide protests are set to begin. A deadly shooting near Paris has additionally fueled tensions.",
-      "url": "https://www.straitstimes.com/world/europe/frances-luxury-stores-board-up-windows-ahead-of-fresh-protests",
-      "headlineSource": "The Straits Times",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-10-24T08:15:30.000Z",
-      "sourceCount": 14,
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "summary": "Police clashed with demonstrators in France, Italy and Spain over rising living costs and cuts to public services.",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+      "headlineSource": "BBC News",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-25T08:06:11.000Z",
+      "sourceCount": 17,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 7,
-      "score": 23.78,
+      "wireCount": 9,
+      "score": 24.53,
       "scoreComponents": {
-        "breadth": 11.72,
+        "breadth": 12.51,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.42,
         "softPenalty": 0
       },
       "coverage": [
         {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Violence breaks out across Europe after another day of protests",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss"
+        },
+        {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "France prepares for day of protest a week after nationwide riots",
-          "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo"
+          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "French Protesters Dispersed with Gas as Tensions Rise",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Storefronts close as police in Paris fire tear gas and water cannons on protesters",
+          "url": "https://www.businessinsider.com/france-protests-photos-businesses-shops-preparing-paris-2026-10"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Paris museums close, shops build barricades ahead of more protests",
+          "title": "More than 1,000 arrested in France as protesters and police clash",
           "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Police and protesters clash in Paris as demonstrations break out across Europe",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1024/Police-and-protesters-clash-in-Paris-as-demonstrations-break-out-across-Europe?icid=rss"
         },
         {
           "source": "CNBC",
@@ -63,210 +96,99 @@
           "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html"
         },
         {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "France braced for more riots as half a million set to protest",
-          "url": "https://www.dailymail.com/news/article-16234675/France-braced-riots-half-million-set-protest.html"
-        },
-        {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "France protests: More violence feared amid renewed demonstrations",
-          "url": "https://www.dw.com/en/france-protests-more-violence-feared-amid-renewed-demonstrations/live-79748223?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "France: shops barricaded in Lyon and Orléans for possible unrest",
-          "url": "https://www.euronews.com/video/2026/10/23/france-shops-barricaded-in-lyon-and-orleans-for-possible-unrest-as-protests-loom"
+          "title": "France: Clashes break out as protests go nationwide",
+          "url": "https://www.dw.com/en/france-clashes-break-out-as-protests-go-nationwide/live-79748223?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Fox News",
           "sourceId": "foxnews",
           "lean": "right",
-          "title": "France on edge with 70,000 police deployed for unrest as authorities probe suspected terror attack near Paris",
-          "url": "https://www.foxnews.com/world/france-edge-70000-police-deployed-unrest-authorities-probe-suspected-terror-attack-near-paris"
+          "title": "Nearly 1,000 arrested across France as police find potential weapons on protesters: officials",
+          "url": "https://www.foxnews.com/world/nearly-1000-arrested-across-france-police-find-potential-weapons-protestors"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
-          "url": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests"
+          "title": "Italy hit by new cost of living protests",
+          "url": "https://www.france24.com/en/italy-hit-by-new-cost-of-living-protests"
         },
         {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Chinese students in Paris hunker down as city braces for more mass protests",
-          "url": "https://www.scmp.com/economy/global-economy/article/3371981/chinese-students-paris-hunker-down-city-braces-more-mass-protests"
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Mass protests challenge Macron as French police use tear gas and water cannons",
+          "url": "https://www.nbcnews.com/world/france/paris-shuts-louvre-museums-police-deploy-big-numbers-new-protests-fran-rcna605174"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
+          "url": "https://www.pbs.org/newshour/world/more-than-400000-protest-across-france-challenging-macron-as-paris-clashes-erupt"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Hundreds of protests expected across France, with shops, businesses and tourist sites closed – Europe live",
+          "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened",
           "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "The European cities facing more protests from Paris to Milan as cost of living crisis bites",
-          "url": "https://www.independent.co.uk/news/world/europe/protests-france-italy-portugal-spain-albania-serbia-students-latest-b3072235.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "France Plans to Bolster Police Presence, Expecting New Protests",
-          "url": "https://www.nytimes.com/2026/10/23/world/europe/france-police-protests.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "France’s luxury stores board up windows ahead of fresh protests",
-          "url": "https://www.straitstimes.com/world/europe/frances-luxury-stores-board-up-windows-ahead-of-fresh-protests"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Watch: Paris shops increase security, board up windows, as France braces for protests",
-          "url": "https://timesofindia.indiatimes.com/world/europe/watch-paris-shops-increase-security-board-up-windows-as-france-braces-for-weekend-protests/articleshow/135162163.cms"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-10-24-1vxjxkt",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Israel launches major West Bank operation after soldiers killed",
-      "summary": "The operation comes after gunmen killed two soldiers days ahead of Israeli elections in which security has been a key focus.",
-      "url": "https://www.japantimes.co.jp/news/2026/10/24/world/israel-west-bank-operation/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-10-24T07:00:20.000Z",
-      "sourceCount": 11,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 5,
-      "score": 22.7,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.35,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Israel raids towns, detains dozens of Palestinians in occupied West Bank",
-          "url": "https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Netanyahu announces Israel will lock down part of West Bank after shooting",
-          "url": "https://www.cbsnews.com/video/netanyahu-announces-israel-will-lock-down-part-of-west-bank-after-shooting/"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Two suspected gunmen dead, two IDF soldiers killed in West Bank shooting",
-          "url": "https://www.foxnews.com/world/two-suspected-gunmen-dead-two-idf-soldiers-killed-west-bank-shooting"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "How Israeli settlers wearing keffiyehs are attacking West Bank olive groves",
-          "url": "https://www.france24.com/en/middle-east/20261023-how-israeli-settlers-wearing-keffiyehs-are-attacking-west-bank-olive-groves"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Israel orders ‘full lockdown’ of occupied West Bank",
-          "url": "https://www.nbcnews.com/world/middle-east/israel-orders-west-bank-lockdown-hebron-shooting-attack-rcna605176"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Israel orders army to prepare to fully close West Bank after two soldiers killed in shooting",
-          "url": "https://news.sky.com/story/israel-orders-army-to-prepare-to-fully-close-west-bank-after-attack-13602577"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Israel launches major operation in West Bank after soldiers killed",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Israel launches collective punishment campaign in Hebron after two soldiers killed",
-          "url": "https://www.theguardian.com/world/2026/oct/23/netanyahu-orders-very-extensive-operation-west-bank-two-israeli-soldiers-killed"
+          "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
+          "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "Israel launches major West Bank operation after soldiers killed",
-          "url": "https://www.japantimes.co.jp/news/2026/10/24/world/israel-west-bank-operation/"
+          "title": "Clashes break out in Paris and other French cities amid fresh protests",
+          "url": "https://www.japantimes.co.jp/news/2026/10/25/world/clashes-paris-france-protests/"
         },
         {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Palestinian Gunmen Open Fire on Israelis in the West Bank, Officials Say",
-          "url": "https://www.nytimes.com/2026/10/23/world/middleeast/west-bank-shooting-israel.html"
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Violence flares in Paris after largely peaceful protests across France over living costs, inequality",
+          "url": "https://www.straitstimes.com/world/europe/violence-flares-in-paris-after-largely-peaceful-protests-across-france-over-living-costs-inequality"
         }
       ]
     },
     {
-      "rank": 3,
-      "id": "2026-10-24-uvbcr0",
+      "rank": 2,
+      "id": "2026-10-25-mv6dwm",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
-      "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3371984/gunmen-kill-7-jordan-church-king-vows-retaliation",
+      "title": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
+      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
       "headlineSource": "South China Morning Post",
       "summarySource": "BBC News",
-      "publishedAt": "2026-10-24T06:21:51.000Z",
-      "sourceCount": 11,
+      "publishedAt": "2026-10-25T08:54:34.000Z",
+      "sourceCount": 15,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 6,
-      "score": 22.64,
+      "score": 24.1,
       "scoreComponents": {
-        "breadth": 10.75,
+        "breadth": 12,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.29,
+        "freshness": 2.5,
         "softPenalty": 0
       },
       "coverage": [
@@ -274,103 +196,131 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o"
+          "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+          "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Zelenskyy says Starlink is working again in Ukraine and thanks Americans who 'took this seriously'",
+          "url": "https://www.businessinsider.com/starlink-ukraine-zelenskyy-elon-musk-trump-2026-10"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Gunmen kill at least 7 in attack on Jordan church, authorities say",
-          "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/"
+          "title": "SpaceX satellite system back up to full speed in Ukraine, officials say",
+          "url": "https://www.cbsnews.com/video/spacex-satellite-system-back-up-to-full-speed-in-ukraine-officials-say/"
         },
         {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
+          "source": "CNBC",
+          "sourceId": "cnbc",
           "lean": "center",
-          "title": "Church is attacked in Jordan in region known for interfaith coexistence",
-          "url": "https://www.csmonitor.com/World/Middle-East/2026/1023/jordan-christian-church-attacked-abdullah-interfaith?icid=rss"
+          "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
+          "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-          "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-all-1573-rdf"
+          "title": "Ukraine: Starlink satellite speeds restored to normal",
+          "url": "https://www.dw.com/en/ukraine-starlink-satellite-speeds-restored-to-normal/a-79752155?maca=en-rss-en-all-1573-rdf"
         },
         {
-          "source": "Fox News",
-          "sourceId": "foxnews",
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
-          "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism"
+          "title": "Ukraine regains critical Starlink service after restrictions disrupt drone operations",
+          "url": "https://www.foxbusiness.com/politics/ukraine-regains-critical-starlink-service-after-restrictions-disrupt-drone-operations"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Several killed, dozens wounded in Jordan church shooting",
-          "url": "https://www.france24.com/en/middle-east/20261023-several-killed-dozens-wounded-in-jordan-church-shooting"
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Ukraine says Starlink is back to normal after disruptions",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Musk says he was behind Starlink speed restriction after service in Ukraine is restored",
+          "url": "https://www.pbs.org/newshour/world/ukraines-starlink-satellite-speeds-restored-after-a-week-of-front-line-disruption"
         },
         {
           "source": "Sky News",
           "sourceId": "skynews",
           "lean": "center",
-          "title": "Seven dead and 34 injured after shooting at church in Jordan",
-          "url": "https://news.sky.com/story/at-least-seven-dead-after-shooting-at-church-in-jordan-reports-13602679"
+          "title": "Starlink back to 'the level ⁠we need' in Ukraine, Zelenskyy says",
+          "url": "https://news.sky.com/story/starlink-back-to-the-level-we-need-in-ukraine-president-zelenskyy-says-13603095"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "Gunmen kill 7 at Jordan church, king vows retaliation",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3371984/gunmen-kill-7-jordan-church-king-vows-retaliation"
+          "title": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Seven killed and 40 injured after gunmen open fire at church funeral in Jordan",
-          "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan"
+          "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
+          "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Musk says he was behind Starlink's slowdown in Ukraine",
+          "url": "https://thehill.com/policy/international/6170415-musk-starlink-ukraine-slowdown/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Elon Musk accuses Kyiv of breaching Starlink rules in scathing rant over ‘drone attacks’",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-oleshky-melania-trump-ceasefire-starlink-b3072649.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Ukraine says Starshield back to normal; Musk says Kyiv violated terms",
+          "url": "https://www.japantimes.co.jp/news/2026/10/25/world/musk-starlink-ukraine-us-trump/"
         },
         {
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Gunmen Open Fire at Church in Jordan, Killing at Least Seven",
-          "url": "https://www.nytimes.com/2026/10/23/world/middleeast/jordan-church-shooting.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Jordan tightens security after deadly church attack kills eight",
-          "url": "https://www.straitstimes.com/world/middle-east/us-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack"
+          "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
+          "url": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-10-24-1m1rrhj",
+      "rank": 3,
+      "id": "2026-10-25-1nr0r6v",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
-      "summary": "Secretary of State Marco Rubio has urged Cubans to secretly work with the CIA to topple their government.",
-      "url": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
-      "headlineSource": "Euronews",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-24T07:28:46.000Z",
-      "sourceCount": 8,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 21.5,
+      "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues",
+      "summary": "Around 2,000 Hebron residents evicted after militants kill 2 Israeli soldiers in occupied territory.",
+      "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-25T08:49:00.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 19.55,
       "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 6.4,
+        "breadth": 9.97,
+        "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.39,
+        "freshness": 2.49,
         "softPenalty": 0
       },
       "coverage": [
@@ -378,82 +328,255 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Marco Rubio urges Cubans to collaborate with CIA to topple gov’t",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/10-24-rubi0-cuba-cia?traffic_source=rss"
+          "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues",
+          "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o"
         },
         {
           "source": "Euronews",
           "sourceId": "euronews",
           "lean": "center",
-          "title": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
-          "url": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia"
+          "title": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
+          "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier"
         },
         {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Rubio urges Cubans to work with CIA to bring political change to communist-run island",
-          "url": "https://www.foxnews.com/world/rubio-urges-cubans-work-cia-bring-political-change-communist-run-island"
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Israel begins demolitions in West Bank",
+          "url": "https://www.france24.com/en/israel-begins-demolitions-in-west-bank"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Bulldozers tear down home as Israel cracks down in the West Bank",
+          "url": "https://www.nbcnews.com/world/israel/bulldozers-tear-home-israel-cracks-west-bank-rcna605365"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Israel widens West Bank crackdown, displacing Hebron families after attack",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3372058/israel-widens-west-bank-crackdown-displacing-hebron-families-after-attack"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Rubio tells Cubans ‘now is the time’ to act to see political change",
-          "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump"
+          "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
+          "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes"
         },
         {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Rubio floats CIA 'partnership' to Cubans tired of 'failed promises, corruption'",
-          "url": "https://thehill.com/homenews/administration/6169754-rubio-offers-cia-cuban-partnership/"
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Israel Cracks Down in West Bank City After Deadly Attack",
+          "url": "https://www.nytimes.com/2026/10/24/world/middleeast/israel-military-hebron-west-bank.html"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Marco Rubio calls on those seeking change in Cuba to partner with CIA",
-          "url": "https://www.straitstimes.com/world/middle-east/marco-rubio-calls-on-those-seeking-change-in-cuba-to-partner-with-cia"
+          "title": "Israel to close all land crossings with West Bank on Oct 27 election day",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-to-close-all-land-crossings-with-west-bank-on-oct-27-election-day"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-25-jtzxqq",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
+      "summary": "Flávio Bolsonaro, the son of Brazil's imprisoned former president, is presenting a strong challenge to Lula, 80, who is seeking a fourth term in office.",
+      "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-25T08:00:58.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.48,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
+          "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss"
         },
         {
-          "source": "Times of India",
-          "sourceId": "toi",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "'Now is the time': Rubio warns Cuba next after Iran, asks Cubans to join hands",
-          "url": "https://timesofindia.indiatimes.com/world/us/now-is-the-time-rubio-warns-cuba-next-after-iran-asks-cubans-to-join-hands-with-cia/articleshow/135162027.cms"
+          "title": "Voters in Brazil to choose between Lula and Bolsonaro's son",
+          "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o"
         },
         {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Rubio calls for Cubans to partner with CIA",
-          "url": "https://www.washingtonexaminer.com/policy/foreign-policy/4778294/rubio-cubans-partner-with-cia/"
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Brazil Election: Lula Rallies Supporters for One Last Comeback",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Rallies, opinion polls and a final debate - Brazil gets ready for Sunday's knife-edge presidential election",
+          "url": "https://www.euronews.com/2026/10/24/rallies-opinion-polls-and-a-final-debate-brazil-gets-ready-for-sundays-knife-edge-presiden"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "What to know as Brazilians choose between Lula and Bolsonaro in tense presidential runoff",
+          "url": "https://www.france24.com/en/americas/20261025-what-to-know-as-brazilians-choose-between-lula-and-bolsonaro-in-tense-presidential-runoff"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
+          "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "The heir to Jair: Flavio Bolsonaro battles to reclaim father’s rule of Brazil in razor-tight election",
+          "url": "https://www.independent.co.uk/news/world/americas/who-is-flavio-bolsonaro-lula-brazil-elections-b3071434.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "The Other Bolsonaro Who Could Become Brazil’s Next President",
+          "url": "https://www.nytimes.com/2026/10/24/world/americas/flavio-bolsonaro-brazil-election-president.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Brazil heads to polls in runoff between leftist Lula and Bolsonaro Jr",
+          "url": "https://www.straitstimes.com/world/brazil-heads-to-polls-in-runoff-between-leftist-lula-and-bolsonaro-jr"
         }
       ]
     },
     {
       "rank": 5,
-      "id": "2026-10-24-ucltpx",
+      "id": "2026-10-25-1qm428r",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
-      "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo",
+      "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+      "summary": "Obama said the election was \"the last best chance to at least rein in some of the foolishness of this administration\".",
+      "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
       "headlineSource": "BBC News",
       "summarySource": "BBC News",
-      "publishedAt": "2026-10-24T08:00:34.000Z",
-      "sourceCount": 9,
+      "publishedAt": "2026-10-25T06:10:43.000Z",
+      "sourceCount": 7,
       "leanCount": 3,
       "leanSpread": 0.75,
       "wireCount": 4,
-      "score": 20.05,
+      "score": 18.9,
       "scoreComponents": {
-        "breadth": 9.97,
+        "breadth": 9,
         "diversity": 4.45,
         "wire": 3.2,
-        "freshness": 2.44,
+        "freshness": 2.25,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Obama, Trump hit the campaign trail ahead of critical midterm elections",
+          "url": "https://abcnews.com/video/137540917/"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats",
+          "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+          "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Clash of the presidents: Obama and Trump lock horns in explosive midterm showdown as savage barbs fly and campaign battle reaches fever pitch",
+          "url": "https://www.dailymail.com/news/article-16236391/Barack-Obama-tears-Trump-fiery-campaign-trail-attack-former-president-takes-Ohio-midterm-elections.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Obama blasts Trump’s ‘chaos and cruelty’ while campaigning for Democrats",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372042/obama-blasts-trumps-chaos-and-cruelty-while-campaigning-democrats"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Obama unloads on Trump over the Iran war and mocks the president’s diplomatic strategy",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/obama-ohio-rally-trump-iran-war-b3072832.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Obama unloads on Trump while stumping for Democrats ahead of midterms",
+          "url": "https://www.straitstimes.com/world/obama-unloads-on-trump-while-stumping-for-democrats-ahead-of-midterms"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-25-tgtbtp",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
+      "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "url": "https://www.euronews.com/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-25T01:20:25.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 18.47,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 1.87,
         "softPenalty": 0
       },
       "coverage": [
@@ -461,179 +584,296 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo"
+          "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+          "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Deadly shooting in Paris suburb investigated as terrorism, officials say",
-          "url": "https://www.cbsnews.com/news/gunman-terrorist-attack-paris-suburb/"
+          "title": "1 arrested after fire at Hitler's Eagle's Nest mountain retreat",
+          "url": "https://www.cbsnews.com/news/hitler-eagles-nest-mountain-retreat-fire-nazi/"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "France: 1 killed, 4 wounded after shooting near Paris",
-          "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf"
+          "title": "Germany news: Merz calls for unity at CSU party conference",
+          "url": "https://www.dw.com/en/germany-news-merz-calls-for-unity-at-csu-party-conference/live-79749353?maca=en-rss-en-all-1573-rdf"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
+          "source": "Euronews",
+          "sourceId": "euronews",
           "lean": "center",
-          "title": "🔴 Live: France’s Macron arrives in Trappes after ‘racist terrorist attack’",
-          "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "One person killed and 4 injured in suspected Islamophobic shooting near Paris",
-          "url": "https://www.nbcnews.com/world/france/one-person-killed-shooting-paris-french-prime-minister-says-rcna605183"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Terrorist shooting in Paris suburb marks 'turning point for France', Macron says",
-          "url": "https://news.sky.com/story/one-dead-and-several-wounded-after-shooting-in-paris-suburb-13602320"
+          "title": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
+          "url": "https://www.euronews.com/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-          "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris"
+          "title": "German man detained after fire wrecks Hitler’s ‘Eagle’s Nest’ mountain retreat",
+          "url": "https://www.scmp.com/news/world/europe/article/3372039/german-man-detained-after-fire-wrecks-hitlers-eagles-nest-mountain-retreat"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Suspect arrested over fire at Hitler’s ‘Eagle’s Nest’ retreat in Bavaria",
+          "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Macron condemns ‘racist terrorist attack’ after one killed and five injured in Paris shootings",
-          "url": "https://www.independent.co.uk/news/world/europe/france-shootings-macron-racist-terror-attack-b3072518.html"
+          "title": "Person in custody after fire engulfs Hitler's retreat Eagle's Nest in Bavarian Alps",
+          "url": "https://www.independent.co.uk/news/world/europe/eagles-nest-germany-hitler-fire-b3072653.html"
         },
         {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Deadly Paris shooting suspected to be ‘racist terrorist attack’",
-          "url": "https://www.washingtonexaminer.com/news/world/4778114/paris-shooting-racist-terrorist-attack/"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-10-23-ysx32v",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
-      "summary": "Nature, Published online: 23 October 2026; doi:10.1038/d41586-026-03417-0 Long-awaited results from phase III trial show huge benefits for treatment-resistant melanoma.",
-      "url": "https://www.nature.com/articles/d41586-026-03417-0",
-      "headlineSource": "Nature",
-      "summarySource": "Nature",
-      "publishedAt": "2026-10-23T21:06:00.000Z",
-      "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 17.62,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 4.45,
-        "wire": 1.6,
-        "freshness": 1.6,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
-          "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
-        },
-        {
-          "source": "BBC Health",
-          "sourceId": "bbc_health",
-          "lean": "center",
-          "title": "First personalised cancer vaccine cuts risk of disease returning in major trial",
-          "url": "https://www.bbc.co.uk/news/articles/cq0ld9g9e913o"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Doctors call Moderna, Merck cancer vaccine data a major advancement — despite Wall Street reaction",
-          "url": "https://www.cnbc.com/2026/10/23/moderna-merck-cancer-vaccine-data.html"
-        },
-        {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "World-first skin cancer vaccine halves deaths from deadly skin cancer: 'It's taken a long time to get here', scientists say",
-          "url": "https://www.dailymail.com/health/article-16232717/skin-cancer-vaccine-world-first.html"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
-          "url": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories"
-        },
-        {
-          "source": "Nature",
-          "sourceId": "nature",
-          "lean": "center",
-          "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
-          "url": "https://www.nature.com/articles/d41586-026-03417-0"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
+          "source": "The New York Times",
+          "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Personalized mRNA vaccine for melanoma cut risk of cancer’s return in late-stage trial",
-          "url": "https://www.nbcnews.com/health/cancer/personalized-mrna-vaccine-melanoma-cut-risk-cancers-return-late-stage-rcna605208"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Melanoma Vaccine Ushers in New Hope for Cancer Patients",
-          "url": "https://www.nytimes.com/2026/10/23/well/cancer-vaccine-melanoma-study.html"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
-          "lean": "center",
-          "title": "STAT+: Highly anticipated Moderna-Merck melanoma cancer vaccine data arrived early",
-          "url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/"
+          "title": "‘Eagle’s Nest,’ Nazi-Era Guesthouse in German Alps, Is Gutted by Fire",
+          "url": "https://www.nytimes.com/2026/10/24/world/europe/eagles-nest-fire-nazi-germany.html"
         }
       ]
     },
     {
       "rank": 7,
-      "id": "2026-10-23-1ugb71i",
+      "id": "2026-10-24-l3z2g8",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+      "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-24T23:08:16.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 17.56,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 1.71,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Melania Trump secures \"temporary ceasefire\" in Ukrainian city",
+          "url": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "First Lady Melania Trump secures ceasefire for Ukrainian city",
+          "url": "https://www.nbcnews.com/nightly-news/video/first-lady-melania-trump-secures-ceasefire-for-ukrainian-city-272143941767"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Melania Trump hints she could go to Ukraine to see her cease-fire in action, thanks Pope for his ‘support’",
+          "url": "https://nypost.com/2026/10/24/us-news/melania-trump-hints-she-could-go-to-ukraine-to-see-her-cease-fire-in-action/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: White House says Melania Trump brokered localized ceasefire deal in Oleshky",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-white-house-says-melania-trump-brokered-localized-ceasefire-deal-in-oleshky"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Melania accused of hogging all the credit and ignoring Pope Leo’s role in securing Ukraine ceasefire",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/melania-trump-pope-leo-ukraine-ceasefire-b3072693.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-24-7ey5rk",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Iran has ramped up efforts to target U.S. personnel, intelligence memo warns",
+      "summary": "The alert from Director of National Intelligence Jay Clayton came after Washington scaled back staffing at its mission in Saudi Arabia last week.",
+      "url": "https://www.japantimes.co.jp/news/2026/10/25/world/iran-target-us-personnel/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-10-24T22:59:00.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 17.26,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 1.7,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran has \"increased efforts to target U.S. personnel,\" intel chief warns",
+          "url": "https://www.cbsnews.com/news/iran-target-u-s-personnel/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+          "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel warns",
+          "url": "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-us-officials-middle-east-reached-advanced-stages-in-rcna605360"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. is reducing staffing at 4 Middle East embassies over increased threats from Iran",
+          "url": "https://www.pbs.org/newshour/politics/u-s-is-reducing-staffing-at-4-middle-east-embassies-over-increased-threats-from-iran"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Iran’s lethal plots against US officials abroad reach ‘advanced stages,’ memo reveals",
+          "url": "https://www.independent.co.uk/news/world/americas/iran-middle-east-us-threats-personnel-b3072772.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Iran has ramped up efforts to target U.S. personnel, intelligence memo warns",
+          "url": "https://www.japantimes.co.jp/news/2026/10/25/world/iran-target-us-personnel/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say",
+          "url": "https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Intelligence chief Jay Clayton warns Rubio of rising Iranian threats",
+          "url": "https://www.washingtonexaminer.com/policy/national-security/4778652/jay-clayton-warns-rubio-of-rising-iranian-threats/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-25-jplbw2",
       "topic": "business",
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
-      "title": "Data Centers Face Downgrade Risk Amid Local Pushback, S&P Says",
-      "summary": "The president joins a long list of politicians who think the government knows best when it comes to data centers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
-      "headlineSource": "Bloomberg",
-      "summarySource": "Reason",
-      "publishedAt": "2026-10-23T21:56:15.000Z",
+      "title": "Trump hails tariffs for new US$4.2 billion Audi plant in Georgia",
+      "summary": "The Audi announcement marks a political win for Trump, who has been on the defensive about the domestic effects of his tariffs.",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372051/trump-hails-tariffs-new-us42-billion-audi-plant-georgia",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-10-25T04:44:54.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 3,
+      "score": 13.44,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 2.4,
+        "freshness": 2.13,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump announces Audi will build $4 billion factory in US",
+          "url": "https://www.dw.com/en/trump-announces-audi-will-build-4-billion-factory-in-us/a-79753479?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Audi to Build Factory in Georgia, Trump Says",
+          "url": "https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Trump hails tariffs for new US$4.2 billion Audi plant in Georgia",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372051/trump-hails-tariffs-new-us42-billion-audi-plant-georgia"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump defends tariffs at rally as he says Audi to build U.S. plant",
+          "url": "https://www.japantimes.co.jp/business/2026/10/25/economy/trump-tariffs-audi-factory-election/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-24-1wrq345",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "The AI data center boom has a ghost problem",
+      "summary": "Data centers are a big issue across the country. As midterms approach, many look to the swing state of Wisconsin for lessons for how that issue could play out nationally.",
+      "url": "https://www.businessinsider.com/ai-data-center-boom-ghost-projects-bragawatts",
+      "headlineSource": "Business Insider",
+      "summarySource": "NPR",
+      "publishedAt": "2026-10-24T21:20:53.000Z",
       "sourceCount": 4,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 0,
-      "score": 12.52,
+      "wireCount": 1,
+      "score": 13.27,
       "scoreComponents": {
         "breadth": 6.97,
         "diversity": 3.9,
-        "wire": 0,
-        "freshness": 1.65,
+        "wire": 0.8,
+        "freshness": 1.6,
         "softPenalty": 0
       },
       "coverage": [
@@ -641,22 +881,22 @@
           "source": "Bloomberg",
           "sourceId": "bloomberg",
           "lean": "center",
-          "title": "Data Centers Face Downgrade Risk Amid Local Pushback, S&P Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says"
+          "title": "How This County Made the Data Center Boom Pay Off",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-24/how-this-county-made-the-data-center-boom-pay-off-video"
         },
         {
           "source": "Business Insider",
           "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "AI is driving a data-center power boom. These are some of the biggest US projects being built.",
-          "url": "https://www.businessinsider.com/these-largest-planned-us-ai-data-centers-ranked-by-power-2026-9"
+          "title": "The AI data center boom has a ghost problem",
+          "url": "https://www.businessinsider.com/ai-data-center-boom-ghost-projects-bragawatts"
         },
         {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
+          "source": "NPR",
+          "sourceId": "npr",
           "lean": "center-left",
-          "title": "Why Anger About Data Centers and Energy Prices May Not Swing Votes",
-          "url": "https://www.nytimes.com/2026/10/23/business/energy-environment/ohio-election-gas-prices.html"
+          "title": "How data centers became a bipartisan political issue in Wisconsin",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin"
         },
         {
           "source": "Reason",
@@ -664,150 +904,6 @@
           "lean": "center-right",
           "title": "Trump Wants To Force Data Centers To 'Make Their Own Electricity.' Deregulation Would Work Better.",
           "url": "https://reason.com/2026/10/23/trump-wants-to-force-data-centers-to-make-their-own-electricity-deregulation-would-work-better/"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-10-24-km08bh",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Japan to simulate cyberattacks as PHP flaws roil global internet",
-      "summary": "Websites across the world went offline this week after the disclosure of critical vulnerabilities in the widely used programming language.",
-      "url": "https://www.japantimes.co.jp/news/2026/10/24/japan/japan-cyberattack-simulation/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-10-24T01:05:00.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 11.42,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 1.87,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
-          "lean": "center",
-          "title": "What is PHP and why did it spark a global cyber-security scramble?",
-          "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Japan to simulate cyberattacks as PHP flaws roil global internet",
-          "url": "https://www.japantimes.co.jp/news/2026/10/24/japan/japan-cyberattack-simulation/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "What Is PHP? Why Are Government and Business Websites Going Offline?",
-          "url": "https://www.nytimes.com/2026/10/22/technology/what-is-php-vulnerability-risks.html"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-10-24-7zlm6d",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "summary": "OpenAI had paused training after one of its research models gained limited access to the internet.",
-      "url": "https://www.theverge.com/?p=1018021",
-      "headlineSource": "The Verge",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-24T08:11:01.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 1,
-      "score": 11.21,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 0.8,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Here's how Canva's new image generation tool compares to models by OpenAI, Google, and Meta",
-          "url": "https://www.businessinsider.com/canva-craft-new-ai-image-generation-tool-2026-10"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
-          "url": "https://www.straitstimes.com/world/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "OpenAI now trains its frontier AI models with no internet access",
-          "url": "https://www.theverge.com/?p=1018021"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-10-23-1jeffo8",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Elizabeth Holmes film enthralls — but her legacy haunts science",
-      "summary": "Nature, Published online: 23 October 2026; doi:10.1038/d41586-026-03383-7 You Can See Everything brings blood-testing start-ups back into the public eye. They persevere in Theranos’s shadow.",
-      "url": "https://www.nature.com/articles/d41586-026-03383-7",
-      "headlineSource": "Nature",
-      "summarySource": "Nature",
-      "publishedAt": "2026-10-23T17:21:12.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 1,
-      "score": 10.14,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 0.8,
-        "freshness": 1.39,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "The Elizabeth Holmes bump is real",
-          "url": "https://www.businessinsider.com/elizabeth-holmes-you-can-see-everything-bump-spotify-dropout-book-2026-10"
-        },
-        {
-          "source": "Nature",
-          "sourceId": "nature",
-          "lean": "center",
-          "title": "Elizabeth Holmes film enthralls — but her legacy haunts science",
-          "url": "https://www.nature.com/articles/d41586-026-03383-7"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
-          "lean": "center",
-          "title": "STAT reporters react to the new Elizabeth Holmes documentary",
-          "url": "https://www.statnews.com/2026/10/23/explain-appeal-elizabeth-holmes-doc-status-report/"
         }
       ]
     }
