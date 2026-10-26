@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-10-25",
-  "generatedAt": "2026-10-25T08:56:48.544Z",
+  "edition": "2026-10-26",
+  "generatedAt": "2026-10-26T09:42:07.400Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,37 +12,324 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 62,
-    "failed": [
-      {
-        "id": "newsweek",
-        "error": "HTTP 404"
-      }
-    ]
+    "succeeded": 63,
+    "failed": []
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-10-25-1e90fmi",
+      "id": "2026-10-26-55dlea",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-      "summary": "Police clashed with demonstrators in France, Italy and Spain over rising living costs and cuts to public services.",
-      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
-      "headlineSource": "BBC News",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-10-25T08:06:11.000Z",
-      "sourceCount": 17,
+      "title": "Lula secures surprise win to retain Brazil presidency",
+      "summary": "Lula won Brazil’s presidency with 51.8% of the vote, beating Flavio Bolsonaro on 48.2%.",
+      "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3372167/lula-secures-surprise-win-retain-brazil-presidency",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-26T09:31:08.000Z",
+      "sourceCount": 21,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 9,
-      "score": 24.53,
+      "wireCount": 10,
+      "score": 25.46,
       "scoreComponents": {
-        "breadth": 12.51,
+        "breadth": 13.38,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.42,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump critic Lula wins reelection in Brazil, securing fourth presidential term",
+          "url": "https://abcnews.com/Business/wireStory/brazil-faces-tense-lula-bolsonaro-runoff-us-influence-137548341"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Flavio Bolsonaro ‘will not give up’ after Brazil election results",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/flavio-bolsonaro-will-not-give-up-after-brazil-election-results?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
+          "url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Brazil Markets Set to Plunge on Lula’s Improbable Election Win",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Lula wins 4th term as Brazil's president, but Bolsonaro rejects results",
+          "url": "https://www.cbsnews.com/news/brazil-presidential-runoff-lula-flavio-bolsonaro/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
+          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Leftist Lula wins historic fourth term as Brazil's president - but his opponent Bolsonaro refuses to accept result",
+          "url": "https://www.dailymail.com/news/article-16238239/Brazil-Lula-80-elected-fourth-term-son-jailed-former-president-Jair-Bolsonaro.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Brazilian leftist President Lula wins reelection against conservative challenger Flavio Bolsonaro",
+          "url": "https://www.dw.com/en/brazilian-leftist-president-lula-wins-reelection-against-conservative-challenger-flavio-bolsonaro/live-79755630?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Brazil: long queues and river journeys mark decisive presidential vote",
+          "url": "https://www.euronews.com/video/2026/10/25/brazil-long-queues-and-river-journeys-mark-decisive-presidential-vote"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Conservative wave hits roadblock in Brazil as Lula holds off Bolsonaro challenge",
+          "url": "https://www.foxnews.com/world/conservative-wave-hits-roadblock-brazil-lula-holds-off-bolsonaro-challenge"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "What challenges await Brazil's Lula in his fourth term as president?",
+          "url": "https://www.france24.com/en/americas/20261026-what-challenges-await-brazil-s-lula-in-his-fourth-term-as-president"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/10/26/nx-s1-6012093/morning-news-brief"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Lula beats Bolsonaro in Brazil runoff, securing fourth presidential term",
+          "url": "https://www.pbs.org/newshour/world/brazil-votes-in-a-tense-lula-vs-bolsonaro-runoff-with-u-s-influence-over-latin-america-at-stake"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Defeated Brazilian election candidate refuses to accept result",
+          "url": "https://news.sky.com/story/lula-re-elected-president-in-brazil-electoral-authority-says-13603818"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Lula secures surprise win to retain Brazil presidency",
+          "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3372167/lula-secures-surprise-win-retain-brazil-presidency"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Lula wins historic fourth term as Brazilian president in defeat of far-right Flávio Bolsonaro",
+          "url": "https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Brazilian election: Lula da Silva wins historic fourth term in dramatic comeback",
+          "url": "https://www.independent.co.uk/news/world/americas/brazil-election-lula-winner-b3072303.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Brazil’s Lula wins record fourth term in a shock comeback",
+          "url": "https://www.japantimes.co.jp/news/2026/10/26/world/politics/brazil-lula-election-victory/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Lula Wins Re-election as Bolsonaro Rejects Result",
+          "url": "https://www.nytimes.com/live/2026/10/25/world/brazil-election"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "‘I feel so happy!’: Ecstasy, relief among Brazil’s Lula supporters",
+          "url": "https://www.straitstimes.com/world/i-feel-so-happy-ecstasy-relief-among-brazils-lula-supporters"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Lula is declared winner of Brazil’s election as Bolsonaro rejects results",
+          "url": "https://www.washingtonexaminer.com/news/world/4779377/lula-declared-winner-brazil-elections-bolsonaro-rejects/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-26-3otdh",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Venezuela's opposition leader Machado returns after months in exile",
+      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "url": "https://www.pbs.org/newshour/world/venezuelas-opposition-leader-machado-returns-after-months-in-exile",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-26T09:31:12.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 23.5,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Venezuelan opposition leader María Machado returns after months in exile",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Venezuela opposition leader María Corina Machado returns to country",
+          "url": "https://www.cbsnews.com/news/venezuela-opposition-maria-corina-machado-return/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Venezuela’s Machado returns from exile, as doubts over democracy deepen",
+          "url": "https://www.csmonitor.com/World/Americas/2026/1025/venezuela-machado-exile-maduro-rodriguez?icid=rss"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Venezuela: Opposition leader Machado returns from exile, received by thousands of supporters in Caracas",
+          "url": "https://www.dw.com/en/venezuela-opposition-leader-machado-returns-from-exile-received-by-thousands-of-supporters-in-caracas/a-79759187?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "María Corina Machado back in Venezuela after 10 months in exile",
+          "url": "https://www.euronews.com/2026/10/25/maria-corina-machado-back-in-venezuela-after-nearly-10-months-in-exile"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Venezuelan opposition leader María Corina Machado makes surprise return home after nearly a year abroad",
+          "url": "https://www.foxnews.com/world/venezuelan-opposition-leader-maria-corina-machado-surprise-return-home-after-nearly-year-abroad"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Opposition leader Machado returns to Venezuela after 10 months in exile",
+          "url": "https://www.france24.com/en/americas/20261025-opposition-leader-machado-returns-to-venezuela-after-10-months-in-exile"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Venezuela’s opposition leader Machado returns after months in exile",
+          "url": "https://www.nbcnews.com/video/venezuela-s-opposition-leader-machado-returns-after-months-in-exile-272198725649"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Venezuela's opposition leader Machado returns after months in exile",
+          "url": "https://www.pbs.org/newshour/world/venezuelas-opposition-leader-machado-returns-after-months-in-exile"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Exiled opposition leader announces shock return to Venezuela",
+          "url": "https://news.sky.com/story/exiled-venezuelan-opposition-leader-announces-shock-return-to-the-country-13603692"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Exiled opposition leader María Corina Machado returns to rapturous reception in Venezuela",
+          "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Venezuelan opposition leader María Corina Machado returns after 10-month exile",
+          "url": "https://www.independent.co.uk/news/world/americas/venezuelan-opposition-leader-maria-machado-returns-b3073063.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "María Corina Machado Returns to Venezuela",
+          "url": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-26-1ubqiyg",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Serbia's strongman leader Vucic concedes defeat to student-led movement in seismic political shift",
+      "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections.",
+      "url": "https://www.pbs.org/newshour/world/serbias-strongman-leader-vucic-concedes-defeat-to-student-led-movement-in-seismic-political-shift",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-26T09:32:12.000Z",
+      "sourceCount": 14,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 21.3,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
         "softPenalty": 0
       },
       "coverage": [
@@ -50,29 +337,133 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Violence breaks out across Europe after another day of protests",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss"
+          "title": "Photos: Serbia celebrates as ruling party loses grip on power",
+          "url": "https://www.aljazeera.com/gallery/2026/10/26/photos-serbia-celebrates-as-ruling-party-loses-grip-on-power?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo"
+          "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo"
         },
         {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "French Protesters Dispersed with Gas as Tensions Rise",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
+          "source": "CBS News",
+          "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Storefronts close as police in Paris fire tear gas and water cannons on protesters",
-          "url": "https://www.businessinsider.com/france-protests-photos-businesses-shops-preparing-paris-2026-10"
+          "title": "Putin-backed strongman Vucic concedes defeat in Serbia elections",
+          "url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Serbia election: Vucic concedes defeat to student-led movement",
+          "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Serbia: crowds celebrate in Belgrade after Vučić admits defeat",
+          "url": "https://www.euronews.com/video/2026/10/25/serbia-crowds-celebrate-in-belgrade-after-vucic-admits-defeat"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Serbia's Vucic concedes defeat in historic snap election with record turnout",
+          "url": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Serbians celebrate as Vucic concedes defeat to student-led movement",
+          "url": "https://www.nbcnews.com/video/serbians-celebrate-as-vucic-concedes-defeat-to-student-led-movement-272205381718"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Pro-Trump Serbia Leader Blames 'American Deep State' After Election Defeat",
+          "url": "https://www.newsweek.com/pro-trump-serbia-leader-blames-american-deep-state-after-election-defeat-12617864"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Serbia's strongman leader Vucic concedes defeat to student-led movement in seismic political shift",
+          "url": "https://www.pbs.org/newshour/world/serbias-strongman-leader-vucic-concedes-defeat-to-student-led-movement-in-seismic-political-shift"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Serbia's pro-Russian leader urges supporters to avoid 'killings' after defeat",
+          "url": "https://news.sky.com/story/student-protest-movement-aims-to-defeat-ex-serbian-leader-in-parliamentary-election-13603462"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Serbia wakes up to new reality after student-led movement ousts Vučić – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/oct/26/serbia-vucic-elections-students-bulgaria-france-urkaine-russia-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Aleksandar Vucic defeated in Serbia election as student protest movement claims historic win",
+          "url": "https://www.independent.co.uk/news/world/europe/serbia-election-result-student-list-aleksandar-vucic-b3073238.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+          "url": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "‘Tonight we celebrate’: Serbia’s students jubilant after poll win",
+          "url": "https://www.straitstimes.com/world/europe/tonight-we-celebrate-serbias-students-jubilant-after-poll-win"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-26-1vo7o23",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "France: Hundreds arrested after nationwide protests",
+      "summary": "The French government says more than 1,000 people were arrested following nationwide protests on Saturday. Police and elite security forces were out in force across the country as clashes broke out.",
+      "url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-26T05:56:04.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 20.93,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.16,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "The French government is hiding behind a ‘riots’ narrative",
+          "url": "https://www.aljazeera.com/opinions/2026/10/26/the-french-government-is-hiding-behind-a-riots-narrative?traffic_source=rss"
         },
         {
           "source": "CBS News",
@@ -80,13 +471,6 @@
           "lean": "center-left",
           "title": "More than 1,000 arrested in France as protesters and police clash",
           "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/"
-        },
-        {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
-          "lean": "center",
-          "title": "Police and protesters clash in Paris as demonstrations break out across Europe",
-          "url": "https://www.csmonitor.com/World/Europe/2026/1024/Police-and-protesters-clash-in-Paris-as-demonstrations-break-out-across-Europe?icid=rss"
         },
         {
           "source": "CNBC",
@@ -99,96 +483,275 @@
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "France: Clashes break out as protests go nationwide",
-          "url": "https://www.dw.com/en/france-clashes-break-out-as-protests-go-nationwide/live-79748223?maca=en-rss-en-all-1573-rdf"
+          "title": "France: Hundreds arrested after nationwide protests",
+          "url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Fox News",
           "sourceId": "foxnews",
           "lean": "right",
-          "title": "Nearly 1,000 arrested across France as police find potential weapons on protesters: officials",
-          "url": "https://www.foxnews.com/world/nearly-1000-arrested-across-france-police-find-potential-weapons-protestors"
+          "title": "From arrests to crackdowns, how Europe’s leaders are responding as protests rock the continent",
+          "url": "https://www.foxnews.com/world/arrests-crackdowns-how-europes-leaders-responding-protests-rock-continent"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Italy hit by new cost of living protests",
-          "url": "https://www.france24.com/en/italy-hit-by-new-cost-of-living-protests"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Mass protests challenge Macron as French police use tear gas and water cannons",
-          "url": "https://www.nbcnews.com/world/france/paris-shuts-louvre-museums-police-deploy-big-numbers-new-protests-fran-rcna605174"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
-          "url": "https://www.pbs.org/newshour/world/more-than-400000-protest-across-france-challenging-macron-as-paris-clashes-erupt"
+          "title": "France: 1.314 arrested during protests across the country",
+          "url": "https://www.france24.com/en/france-1-314-arrested-during-protests-across-the-country"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened",
-          "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news"
+          "title": "Macron accused of putting France’s right to protest at risk with ‘vandal’s law’",
+          "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "More than 1000 arrested as protesters clash with police in Paris as demonstrations turn hostile across France",
-          "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html"
+          "title": "French TV channels scramble to apologize after airing Albanian protests as Paris and Lyon",
+          "url": "https://www.independent.co.uk/news/world/europe/tirana-paris-french-jeanluc-melenchon-police-b3073043.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "A Day After Renewed Street Clashes in France, Relief and Anxiety Mix",
+          "url": "https://www.nytimes.com/2026/10/25/world/europe/france-protests-macron-lepen.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-26-422pia",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
+      "summary": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
+      "url": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "NPR",
+      "publishedAt": "2026-10-26T09:22:36.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 18.54,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
+          "url": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Trump vows to make Abdul El- Sayed go through metal detectors in Senate if he wins",
+          "url": "https://www.dailymail.com/news/article-16237749/Trump-Muslim-jihadist-Abdul-El-Sayed-metal-detector-Senate.html"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
+          "url": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump escalates rhetoric against El-Sayed as he tries to undermine Democrat in Michigan Senate race",
+          "url": "https://www.pbs.org/newshour/politics/trump-escalates-rhetoric-against-el-sayed-as-he-tries-to-undermine-democrat-in-michigan-senate-race"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "El-Sayed: Trump has as much regard for Constitution as ‘a piece of toilet paper’",
+          "url": "https://thehill.com/homenews/campaign/6171437-el-sayed-trump-has-as-much-regard-for-constitution-as-a-piece-of-toilet-paper/"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Can the man Trump called a 'jihadist' become America's first Muslim senator?",
+          "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/can-the-man-trump-called-a-jihadist-become-americas-first-muslim-senator/articleshow/135206904.cms"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-26-rud3io",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "AI cloud computing firms face ‘guppy-level death’, Elon Musk warns; French bonds rally after avoiding downgrade – business live",
+      "summary": "The SpaceX CEO said many neoclouds will face \"guppy-level death\" because they lack alternative streams of revenue.",
+      "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+      "headlineSource": "Guardian Business",
+      "summarySource": "Business Insider",
+      "publishedAt": "2026-10-26T09:28:24.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 16.63,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Elon Musk says neoclouds are cooked, and SpaceX won't be buying them",
+          "url": "https://www.businessinsider.com/elon-musk-neoclouds-doomed-spacex-not-buying-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
+          "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "SpaceX secures $40B in financing for GPUs as Elon Musk warns of AI cloud industry consolidation",
+          "url": "https://www.foxbusiness.com/technology/spacex-secures-40b-financing-gpus-elon-musk-warns-ai-cloud-industry-consolidation"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "AI cloud computing firms face ‘guppy-level death’, Elon Musk warns; French bonds rally after avoiding downgrade – business live",
+          "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+          "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-26-12d2p22",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Saudi-led forces strike Houthi missile facilities after Riyadh airport attack",
+      "summary": "The Saudi-led military coalition fighting Yemen’s Houthis struck several of the group’s missile launchers and storage facilities, a spokesman said on Monday, while the Iran-backed group claimed a new attack on Riyadh’s international airport. The coalition’s…",
+      "url": "https://www.japantimes.co.jp/news/2026/10/26/world/politics/houthi-saudi-arabia-riyadh-airport/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-10-26T06:24:00.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 16.35,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.2,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+          "url": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure",
+          "url": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemen-s-houthis-up-pressure/a-79735138?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Saudi-led coalition hits Houthi missile sites after Riyadh targeted again",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3372131/saudi-coalition-intercepts-missile-houthis-claim-new-attack-riyadh-airport"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Saudi Arabia executes man for crime committed when he was 14",
+          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-childhood-executions-b3072067.html"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "Clashes break out in Paris and other French cities amid fresh protests",
-          "url": "https://www.japantimes.co.jp/news/2026/10/25/world/clashes-paris-france-protests/"
+          "title": "Saudi-led forces strike Houthi missile facilities after Riyadh airport attack",
+          "url": "https://www.japantimes.co.jp/news/2026/10/26/world/politics/houthi-saudi-arabia-riyadh-airport/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+          "url": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Violence flares in Paris after largely peaceful protests across France over living costs, inequality",
-          "url": "https://www.straitstimes.com/world/europe/violence-flares-in-paris-after-largely-peaceful-protests-across-france-over-living-costs-inequality"
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "url": "https://www.straitstimes.com/world/middle-east/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies"
         }
       ]
     },
     {
-      "rank": 2,
-      "id": "2026-10-25-mv6dwm",
+      "rank": 8,
+      "id": "2026-10-26-15jhtsk",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
+      "title": "Ukraine disputes Elon Musk's claim that its military violated Starlink's terms of service",
       "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
-      "headlineSource": "South China Morning Post",
+      "url": "https://www.pbs.org/newshour/world/ukraine-disputes-elon-musks-claim-that-its-military-violated-starlinks-terms-of-service",
+      "headlineSource": "PBS NewsHour",
       "summarySource": "BBC News",
-      "publishedAt": "2026-10-25T08:54:34.000Z",
-      "sourceCount": 15,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 6,
-      "score": 24.1,
+      "publishedAt": "2026-10-26T08:17:39.000Z",
+      "sourceCount": 8,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 15.43,
       "scoreComponents": {
-        "breadth": 12,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.5,
+        "breadth": 9.51,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 2.37,
         "softPenalty": 0
       },
       "coverage": [
@@ -203,8 +766,8 @@
           "source": "Business Insider",
           "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "Zelenskyy says Starlink is working again in Ukraine and thanks Americans who 'took this seriously'",
-          "url": "https://www.businessinsider.com/starlink-ukraine-zelenskyy-elon-musk-trump-2026-10"
+          "title": "Elon Musk’s dust-up with Ukraine on Starlink isn't over yet",
+          "url": "https://www.businessinsider.com/elon-musk-dust-up-starlink-ukraine-civilian-starshield-violate-terms-2026-10"
         },
         {
           "source": "CBS News",
@@ -217,78 +780,29 @@
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
-          "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html"
+          "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
+          "url": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html"
         },
         {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Ukraine: Starlink satellite speeds restored to normal",
-          "url": "https://www.dw.com/en/ukraine-starlink-satellite-speeds-restored-to-normal/a-79752155?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Ukraine regains critical Starlink service after restrictions disrupt drone operations",
-          "url": "https://www.foxbusiness.com/politics/ukraine-regains-critical-starlink-service-after-restrictions-disrupt-drone-operations"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
+          "source": "NBC News",
+          "sourceId": "nbc",
           "lean": "center-left",
-          "title": "Ukraine says Starlink is back to normal after disruptions",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions"
+          "title": "Elon Musk says SpaceX closed Ukraine Starlink ‘loophole,’ while Kyiv denies breaching terms",
+          "url": "https://www.nbcnews.com/world/ukraine/elon-musk-spacex-closed-ukraine-starlink-loophole-limits-hit-drone-rcna605494"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Musk says he was behind Starlink speed restriction after service in Ukraine is restored",
-          "url": "https://www.pbs.org/newshour/world/ukraines-starlink-satellite-speeds-restored-after-a-week-of-front-line-disruption"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Starlink back to 'the level ⁠we need' in Ukraine, Zelenskyy says",
-          "url": "https://news.sky.com/story/starlink-back-to-the-level-we-need-in-ukraine-president-zelenskyy-says-13603095"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
-          "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Musk says he was behind Starlink's slowdown in Ukraine",
-          "url": "https://thehill.com/policy/international/6170415-musk-starlink-ukraine-slowdown/"
+          "title": "Ukraine disputes Elon Musk's claim that its military violated Starlink's terms of service",
+          "url": "https://www.pbs.org/newshour/world/ukraine-disputes-elon-musks-claim-that-its-military-violated-starlinks-terms-of-service"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Elon Musk accuses Kyiv of breaching Starlink rules in scathing rant over ‘drone attacks’",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-oleshky-melania-trump-ceasefire-starlink-b3072649.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Ukraine says Starshield back to normal; Musk says Kyiv violated terms",
-          "url": "https://www.japantimes.co.jp/news/2026/10/25/world/musk-starlink-ukraine-us-trump/"
+          "title": "Ukraine-Russia war latest: Kyiv questions Elon Musk’s ‘physically impossible’ Starlink claims",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-zelensky-musk-starlink-b3073168.html"
         },
         {
           "source": "The New York Times",
@@ -300,610 +814,112 @@
       ]
     },
     {
-      "rank": 3,
-      "id": "2026-10-25-1nr0r6v",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues",
-      "summary": "Around 2,000 Hebron residents evicted after militants kill 2 Israeli soldiers in occupied territory.",
-      "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-10-25T08:49:00.000Z",
-      "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 6,
-      "score": 19.55,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues",
-          "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
-          "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Israel begins demolitions in West Bank",
-          "url": "https://www.france24.com/en/israel-begins-demolitions-in-west-bank"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Bulldozers tear down home as Israel cracks down in the West Bank",
-          "url": "https://www.nbcnews.com/world/israel/bulldozers-tear-home-israel-cracks-west-bank-rcna605365"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Israel widens West Bank crackdown, displacing Hebron families after attack",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3372058/israel-widens-west-bank-crackdown-displacing-hebron-families-after-attack"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
-          "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Israel Cracks Down in West Bank City After Deadly Attack",
-          "url": "https://www.nytimes.com/2026/10/24/world/middleeast/israel-military-hebron-west-bank.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Israel to close all land crossings with West Bank on Oct 27 election day",
-          "url": "https://www.straitstimes.com/world/middle-east/israel-to-close-all-land-crossings-with-west-bank-on-oct-27-election-day"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-10-25-jtzxqq",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
-      "summary": "Flávio Bolsonaro, the son of Brazil's imprisoned former president, is presenting a strong challenge to Lula, 80, who is seeking a fourth term in office.",
-      "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-25T08:00:58.000Z",
-      "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 5,
-      "score": 19.48,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.41,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
-          "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Voters in Brazil to choose between Lula and Bolsonaro's son",
-          "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o"
-        },
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Brazil Election: Lula Rallies Supporters for One Last Comeback",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Rallies, opinion polls and a final debate - Brazil gets ready for Sunday's knife-edge presidential election",
-          "url": "https://www.euronews.com/2026/10/24/rallies-opinion-polls-and-a-final-debate-brazil-gets-ready-for-sundays-knife-edge-presiden"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "What to know as Brazilians choose between Lula and Bolsonaro in tense presidential runoff",
-          "url": "https://www.france24.com/en/americas/20261025-what-to-know-as-brazilians-choose-between-lula-and-bolsonaro-in-tense-presidential-runoff"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
-          "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "The heir to Jair: Flavio Bolsonaro battles to reclaim father’s rule of Brazil in razor-tight election",
-          "url": "https://www.independent.co.uk/news/world/americas/who-is-flavio-bolsonaro-lula-brazil-elections-b3071434.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "The Other Bolsonaro Who Could Become Brazil’s Next President",
-          "url": "https://www.nytimes.com/2026/10/24/world/americas/flavio-bolsonaro-brazil-election-president.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Brazil heads to polls in runoff between leftist Lula and Bolsonaro Jr",
-          "url": "https://www.straitstimes.com/world/brazil-heads-to-polls-in-runoff-between-leftist-lula-and-bolsonaro-jr"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-25-1qm428r",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-      "summary": "Obama said the election was \"the last best chance to at least rein in some of the foolishness of this administration\".",
-      "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-25T06:10:43.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 4,
-      "score": 18.9,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.25,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "WATCH: Obama, Trump hit the campaign trail ahead of critical midterm elections",
-          "url": "https://abcnews.com/video/137540917/"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Obama slams Trump’s ‘cruelty and corruption’ as he rallies Democrats",
-          "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-          "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Clash of the presidents: Obama and Trump lock horns in explosive midterm showdown as savage barbs fly and campaign battle reaches fever pitch",
-          "url": "https://www.dailymail.com/news/article-16236391/Barack-Obama-tears-Trump-fiery-campaign-trail-attack-former-president-takes-Ohio-midterm-elections.html"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Obama blasts Trump’s ‘chaos and cruelty’ while campaigning for Democrats",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372042/obama-blasts-trumps-chaos-and-cruelty-while-campaigning-democrats"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Obama unloads on Trump over the Iran war and mocks the president’s diplomatic strategy",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/obama-ohio-rally-trump-iran-war-b3072832.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Obama unloads on Trump while stumping for Democrats ahead of midterms",
-          "url": "https://www.straitstimes.com/world/obama-unloads-on-trump-while-stumping-for-democrats-ahead-of-midterms"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-10-25-tgtbtp",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
-      "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
-      "url": "https://www.euronews.com/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
-      "headlineSource": "Euronews",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-25T01:20:25.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 4,
-      "score": 18.47,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 1.87,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
-          "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "1 arrested after fire at Hitler's Eagle's Nest mountain retreat",
-          "url": "https://www.cbsnews.com/news/hitler-eagles-nest-mountain-retreat-fire-nazi/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Germany news: Merz calls for unity at CSU party conference",
-          "url": "https://www.dw.com/en/germany-news-merz-calls-for-unity-at-csu-party-conference/live-79749353?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
-          "url": "https://www.euronews.com/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "German man detained after fire wrecks Hitler’s ‘Eagle’s Nest’ mountain retreat",
-          "url": "https://www.scmp.com/news/world/europe/article/3372039/german-man-detained-after-fire-wrecks-hitlers-eagles-nest-mountain-retreat"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Suspect arrested over fire at Hitler’s ‘Eagle’s Nest’ retreat in Bavaria",
-          "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Person in custody after fire engulfs Hitler's retreat Eagle's Nest in Bavarian Alps",
-          "url": "https://www.independent.co.uk/news/world/europe/eagles-nest-germany-hitler-fire-b3072653.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "‘Eagle’s Nest,’ Nazi-Era Guesthouse in German Alps, Is Gutted by Fire",
-          "url": "https://www.nytimes.com/2026/10/24/world/europe/eagles-nest-fire-nazi-germany.html"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-10-24-l3z2g8",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
-      "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-24T23:08:16.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 17.56,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 1.71,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Melania Trump secures \"temporary ceasefire\" in Ukrainian city",
-          "url": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "First Lady Melania Trump secures ceasefire for Ukrainian city",
-          "url": "https://www.nbcnews.com/nightly-news/video/first-lady-melania-trump-secures-ceasefire-for-ukrainian-city-272143941767"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Melania Trump hints she could go to Ukraine to see her cease-fire in action, thanks Pope for his ‘support’",
-          "url": "https://nypost.com/2026/10/24/us-news/melania-trump-hints-she-could-go-to-ukraine-to-see-her-cease-fire-in-action/"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "News Wrap: White House says Melania Trump brokered localized ceasefire deal in Oleshky",
-          "url": "https://www.pbs.org/newshour/show/news-wrap-white-house-says-melania-trump-brokered-localized-ceasefire-deal-in-oleshky"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Melania accused of hogging all the credit and ignoring Pope Leo’s role in securing Ukraine ceasefire",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/melania-trump-pope-leo-ukraine-ceasefire-b3072693.html"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-10-24-7ey5rk",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Iran has ramped up efforts to target U.S. personnel, intelligence memo warns",
-      "summary": "The alert from Director of National Intelligence Jay Clayton came after Washington scaled back staffing at its mission in Saudi Arabia last week.",
-      "url": "https://www.japantimes.co.jp/news/2026/10/25/world/iran-target-us-personnel/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-10-24T22:59:00.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 17.26,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 4.45,
-        "wire": 1.6,
-        "freshness": 1.7,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Iran has \"increased efforts to target U.S. personnel,\" intel chief warns",
-          "url": "https://www.cbsnews.com/news/iran-target-u-s-personnel/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
-          "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel warns",
-          "url": "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-us-officials-middle-east-reached-advanced-stages-in-rcna605360"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "U.S. is reducing staffing at 4 Middle East embassies over increased threats from Iran",
-          "url": "https://www.pbs.org/newshour/politics/u-s-is-reducing-staffing-at-4-middle-east-embassies-over-increased-threats-from-iran"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Iran’s lethal plots against US officials abroad reach ‘advanced stages,’ memo reveals",
-          "url": "https://www.independent.co.uk/news/world/americas/iran-middle-east-us-threats-personnel-b3072772.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Iran has ramped up efforts to target U.S. personnel, intelligence memo warns",
-          "url": "https://www.japantimes.co.jp/news/2026/10/25/world/iran-target-us-personnel/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say",
-          "url": "https://www.nytimes.com/2026/10/23/us/politics/security-warnings-iran-threats.html"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Intelligence chief Jay Clayton warns Rubio of rising Iranian threats",
-          "url": "https://www.washingtonexaminer.com/policy/national-security/4778652/jay-clayton-warns-rubio-of-rising-iranian-threats/"
-        }
-      ]
-    },
-    {
       "rank": 9,
-      "id": "2026-10-25-jplbw2",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Trump hails tariffs for new US$4.2 billion Audi plant in Georgia",
-      "summary": "The Audi announcement marks a political win for Trump, who has been on the defensive about the domestic effects of his tariffs.",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372051/trump-hails-tariffs-new-us42-billion-audi-plant-georgia",
-      "headlineSource": "South China Morning Post",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-10-25T04:44:54.000Z",
-      "sourceCount": 4,
+      "id": "2026-10-26-1y4awsr",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
+      "summary": "Donald Trump made sexually explicit remarks about musician Nicki Minaj who was speaking at a rally in Michigan.",
+      "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo",
+      "headlineSource": "BBC News",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-26T08:32:19.000Z",
+      "sourceCount": 5,
       "leanCount": 2,
       "leanSpread": 0.25,
-      "wireCount": 3,
-      "score": 13.44,
+      "wireCount": 4,
+      "score": 15.3,
       "scoreComponents": {
-        "breadth": 6.97,
+        "breadth": 7.75,
         "diversity": 1.95,
-        "wire": 2.4,
-        "freshness": 2.13,
+        "wire": 3.2,
+        "freshness": 2.39,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Trump announces Audi will build $4 billion factory in US",
-          "url": "https://www.dw.com/en/trump-announces-audi-will-build-4-billion-factory-in-us/a-79753479?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Audi to Build Factory in Georgia, Trump Says",
-          "url": "https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html"
+          "title": "Trump makes explicit remarks about Nicki Minaj at Michigan midterm rally",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-makes-explicit-remarks-about-nicki-minaj-at-michigan-midterm-rally?traffic_source=rss"
         },
         {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "Trump hails tariffs for new US$4.2 billion Audi plant in Georgia",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372051/trump-hails-tariffs-new-us42-billion-audi-plant-georgia"
+          "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
+          "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo"
         },
         {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
+          "source": "Euronews",
+          "sourceId": "euronews",
           "lean": "center",
-          "title": "Trump defends tariffs at rally as he says Audi to build U.S. plant",
-          "url": "https://www.japantimes.co.jp/business/2026/10/25/economy/trump-tariffs-audi-factory-election/"
+          "title": "US: Nicki Minaj endorses Trump at Michigan Republican rally",
+          "url": "https://www.euronews.com/video/2026/10/26/us-nicki-minaj-endorses-trump-at-michigan-republican-rally"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump focuses on Nicki Minaj’s ‘beautiful’ rear, AOC and owning Greenland in marathon rally speech",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-michigan-rally-nicki-minaj-aoc-greenland-b3073110.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump says Canada tariff deal coming ‘soon’ at Michigan border rally",
+          "url": "https://www.straitstimes.com/world/united-states/trump-says-canada-tariff-deal-coming-soon-at-michigan-border-rally"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-10-24-1wrq345",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "The AI data center boom has a ghost problem",
-      "summary": "Data centers are a big issue across the country. As midterms approach, many look to the swing state of Wisconsin for lessons for how that issue could play out nationally.",
-      "url": "https://www.businessinsider.com/ai-data-center-boom-ghost-projects-bragawatts",
-      "headlineSource": "Business Insider",
-      "summarySource": "NPR",
-      "publishedAt": "2026-10-24T21:20:53.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
+      "id": "2026-10-26-1hwmuaz",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Anthropic’s Claude accessed Georgia state vote count data behind paywall",
+      "summary": "Claude bypassed a paywall and accessed publicly available US state of Georgia aggregate voter counts.",
+      "url": "https://www.straitstimes.com/world/united-states/anthropics-claude-accessed-georgia-state-vote-count-data-behind-paywall",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-10-26T06:45:14.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
       "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 13.27,
+      "wireCount": 2,
+      "score": 12.33,
       "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 3.9,
-        "wire": 0.8,
-        "freshness": 1.6,
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.23,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Claude AI accessed publicly available Georgia voter data, Anthropic confirms",
+          "url": "https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
           "lean": "center",
-          "title": "How This County Made the Data Center Boom Pay Off",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-24/how-this-county-made-the-data-center-boom-pay-off-video"
+          "title": "Anthropic’s Claude accessed Georgia state vote count data behind paywall",
+          "url": "https://www.straitstimes.com/world/united-states/anthropics-claude-accessed-georgia-state-vote-count-data-behind-paywall"
         },
         {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "The AI data center boom has a ghost problem",
-          "url": "https://www.businessinsider.com/ai-data-center-boom-ghost-projects-bragawatts"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "How data centers became a bipartisan political issue in Wisconsin",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "Trump Wants To Force Data Centers To 'Make Their Own Electricity.' Deregulation Would Work Better.",
-          "url": "https://reason.com/2026/10/23/trump-wants-to-force-data-centers-to-make-their-own-electricity-deregulation-would-work-better/"
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Anthropic's Claude accessed Georgia's public vote counts without human authorisation",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/anthropics-claude-accessed-georgias-public-vote-counts-behind-a-paywall-without-human-authorisation-the-ai-company-says-no-individual-voter-records-were-retrieved-or-altered-and-it-has-added-safeguards/articleshow/135205036.cms"
         }
       ]
     }

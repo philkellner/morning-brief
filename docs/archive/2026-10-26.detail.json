@@ -1,0 +1,2111 @@
+{
+  "edition": "2026-10-26",
+  "generatedAt": "2026-10-26T09:42:07.400Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-26-55dlea",
+      "topic": "world",
+      "title": "Lula secures surprise win to retain Brazil presidency",
+      "summary": "Lula won Brazil’s presidency with 51.8% of the vote, beating Flavio Bolsonaro on 48.2%.",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 21,
+      "score": 25.46,
+      "scoreComponents": {
+        "breadth": 13.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 21,
+        "specialistOutlets": 2,
+        "specialistShare": 0.1,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Morning news brief",
+          "description": "Republicans' gerrymandering efforts have led to expensive and competitive races, Brazil's President Lula elected for fourth term, protests sweep parts of Europe.",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-6012093/morning-news-brief",
+          "published": "2026-10-26T08:42:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's left-wing President Lula elected for fourth term",
+          "description": "Brazil's 80-year-old left-wing leader President Lula defeats Flávio Bolsonaro in a bitterly contested runoff.",
+          "link": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+          "published": "2026-10-26T00:35:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
+          "description": "Brazil's left-wing President has been elected for a fourth term after narrowly beating right-wing Flávio Bolsonaro in a knife-edge vote.",
+          "link": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo",
+          "published": "2026-10-26T02:53:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What challenges await Brazil's Lula in his fourth term as president?",
+          "description": "President Luiz Inacio Lula da Silva will have to wrestle with a divided Brazil, an unfriendly Congress, feeble public finances and a Donald Trump-shaped menace during his unprecedented fourth term.",
+          "link": "https://www.france24.com/en/americas/20261026-what-challenges-await-brazil-s-lula-in-his-fourth-term-as-president",
+          "published": "2026-10-26T00:52:54.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's Lula beats odds and seals re-election, rival Bolsonaro demands annulment",
+          "description": "Brazilian President Luiz Inacio Lula da Silva, nearly 81 years old, clinched a fourth term in a tight runoff against Flavio Bolsonaro on Sunday. The leftist leader won 51.7% of the vote, compared to 48.2% for the son of former president Jair Bolsonaro, official results showed. Bolsonaro has refused to accept the loss and said he would seek to annul the vote.",
+          "link": "https://www.france24.com/en/americas/20261026-brazil-s-president-lula-da-silva-beats-flavio-bolsonaro-to-win-re-election",
+          "published": "2026-10-26T00:23:59.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Live: Brazil's President Lula da Silva beats Flavio Bolsonaro in run-off to win re-election",
+          "description": "",
+          "link": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
+          "published": "2026-10-26T00:12:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lula wins 4th term as Brazil's president, but Bolsonaro rejects results",
+          "description": "With 100% of the vote counted, Brazil's electoral court announced that the soon-to-be 81-year-old Luiz Inácio Lula da Silva held an insurmountable lead, but Flávio Bolsonaro rejected the results.",
+          "link": "https://www.cbsnews.com/news/brazil-presidential-runoff-lula-flavio-bolsonaro/",
+          "published": "2026-10-26T05:36:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lula Wins Re-election as Bolsonaro Rejects Result",
+          "description": "President Luiz Inácio Lula da Silva’s win ended a string of conservative victories in Latin America. His opponent, Flávio Bolsonaro, called for the election to be annulled.",
+          "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election",
+          "published": "2026-10-26T07:07:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to Know About Brazil’s Election as Bolsonaro Faces Off With Lula",
+          "description": "President Luiz Inácio Lula da Silva triumphed over Flávio Bolsonaro, the eldest son of the right-wing leader he defeated four years ago.",
+          "link": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-president-lula-bolsonaro.html",
+          "published": "2026-10-26T07:07:26.000Z",
+          "categories": [
+            "United States International Relations",
+            "Politics and Government",
+            "Corruption (Institutional)",
+            "Elections",
+            "Social Media",
+            "Organized Crime",
+            "Gangs",
+            "Democracy (Theory and Philosophy)",
+            "WhatsApp Inc",
+            "Bolsonaro, Flavio",
+            "Bolsonaro, Jair (1955-)",
+            "Da Silva, Luiz Inacio Lula",
+            "Brazil",
+            "Latin America",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Could Lula Be on the Brink of Defeat in Brazil’s Election?",
+          "description": "Brazil’s President Luiz Inácio Lula da Silva, a leftist, staged a remarkable comeback on Sunday, winning re-election and stopping a right-wing wave.",
+          "link": "https://www.nytimes.com/2026/10/24/world/americas/lula-brazil-election-president.html",
+          "published": "2026-10-26T04:45:47.000Z",
+          "categories": [
+            "Brazil",
+            "Elections",
+            "Da Silva, Luiz Inacio Lula",
+            "Politics and Government",
+            "Content Type: Personal Profile",
+            "Bolsonaro, Flavio",
+            "Bolsonaro, Jair (1955-)",
+            "United States International Relations",
+            "Trump, Donald J",
+            "live-detached"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Conservative wave hits roadblock in Brazil as Lula holds off Bolsonaro challenge",
+          "description": "In a tight election, incumbent President Lula da Silva bested Senator Flávio Bolsonaro in Brazil.",
+          "link": "https://www.foxnews.com/world/conservative-wave-hits-roadblock-brazil-lula-holds-off-bolsonaro-challenge",
+          "published": "2026-10-26T00:27:54.000Z",
+          "categories": [
+            "ecdf242f-972f-5c17-a565-b5e5f0c40173",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-elections",
+            "fox-news/world/world-regions/brazil",
+            "fox-news/travel/regions/south-america",
+            "fox-news/world/world-regions/latin-america",
+            "fox-news/person/donald-trump",
+            "fox-news/person/jair-bolsonaro",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lula is declared winner of Brazil’s election as Bolsonaro rejects results",
+          "description": "RIO DE JANEIRO Brazil’s President Luiz Inácio Lula da Silva, a vocal critic of U.S. President Donald Trump, was reelected Sunday in a result that provides relief to critics of widening U.S. influence in Latin America. With 100% of the vote counted, Brazil’s electoral court announced that the soon to be 81-year-old Lula",
+          "link": "https://www.washingtonexaminer.com/news/world/4779377/lula-declared-winner-brazil-elections-bolsonaro-rejects/",
+          "published": "2026-10-26T04:24:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘I feel so happy!’: Ecstasy, relief among Brazil’s Lula supporters",
+          "description": "Lula won Brazil’s presidency with 51.8% of the vote, beating Flavio Bolsonaro on 48.2%.",
+          "link": "https://www.straitstimes.com/world/i-feel-so-happy-ecstasy-relief-among-brazils-lula-supporters",
+          "published": "2026-10-26T04:40:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil election: Lula, Brazil’s political titan, defies the passage of time",
+          "description": "In his third term, Lula is credited with restoring social programmes eroded by his predecessor.",
+          "link": "https://www.straitstimes.com/world/lula-brazils-political-titan-defies-the-passage-of-time",
+          "published": "2026-10-26T01:40:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil’s Lula wins record fourth term in a shock comeback",
+          "description": "Brazilian President Luiz Inacio Lula da Silva's victory was eked out in the 11th-hour after voters from his heartland rallied to the rescue.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/26/world/politics/brazil-lula-election-victory/",
+          "published": "2026-10-26T05:34:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Lula secures surprise win to retain Brazil presidency",
+          "description": "Brazilian leader Luiz Inacio Lula da Silva staged a surprise comeback to secure a fourth term in office, extending a presidency that has overseen deepening ties with China and sporadic clashes with the United States. With almost all of the ballots in Sunday’s presidential run-off counted, Lula led with 51.8 per cent of the votes to 48.2 per cent for Senator Flavio Bolsonaro. The 80-year-old left-w",
+          "link": "https://www.scmp.com/plus/news/china/diplomacy/article/3372167/lula-secures-surprise-win-retain-brazil-presidency",
+          "published": "2026-10-26T09:07:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazilian election: Lula da Silva wins historic fourth term in dramatic comeback",
+          "description": "Polls had put the two party leaders neck and neck in the run up to the vote",
+          "link": "https://www.independent.co.uk/news/world/americas/brazil-election-lula-winner-b3072303.html",
+          "published": "2026-10-26T07:06:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Brazil Markets Set to Plunge on Lula’s Improbable Election Win",
+          "description": "Brazilian markets are heading for a major rout when local trading begins after President Luiz Inácio Lula da Silva pulled off a stunning comeback to defeat Flávio Bolsonaro, the right-wing candidate that many investors preferred.",
+          "link": "https://www.bloomberg.com/news/articles/2026-10-26/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win",
+          "published": "2026-10-26T01:21:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flavio Bolsonaro ‘will not give up’ after Brazil election results",
+          "description": "Flavio Bolsonaro is refusing to concede to Lula da Silva who won a historic 4th term in Sunday's election.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/flavio-bolsonaro-will-not-give-up-after-brazil-election-results?traffic_source=rss",
+          "published": "2026-10-26T09:15:21.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bolsonaro calls for Brazil election result to be annulled",
+          "description": "Brazil’s right-wing Senator Flavio Bolsonaro has called for the presidential election result to be ‘annulled’.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/bolsonaro-calls-for-brazil-election-result-to-be-annulled?traffic_source=rss",
+          "published": "2026-10-26T04:36:46.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazilian leftist President Lula wins reelection against conservative challenger Flavio Bolsonaro",
+          "description": "Leftist President Lula has defeated right-wing challenger Flavio Bolsonaro to win a historic fourth term in office. Bolsonaro has refused to concede and called for the results to be annulled. DW has the latest.",
+          "link": "https://www.dw.com/en/brazilian-leftist-president-lula-wins-reelection-against-conservative-challenger-flavio-bolsonaro/live-79755630?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-26T03:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+          "description": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
+          "link": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-25T11:16:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Live: Bolsonaro refuses to recognise Brazil election results",
+          "description": "",
+          "link": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
+          "published": "2026-10-26T02:01:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Defeated Brazilian election candidate refuses to accept result",
+          "description": "Luiz Inácio Lula da Silva has been re-elected president of Brazil, the electoral authority has said, in a result that defied poll predictions - but his opponent has refused to accept the result.",
+          "link": "https://news.sky.com/story/lula-re-elected-president-in-brazil-electoral-authority-says-13603818",
+          "published": "2026-10-25T22:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lula wins historic fourth term as Brazilian president in defeat of far-right Flávio Bolsonaro",
+          "description": "Leftist incumbent Lula says unprecedented comeback was a ‘defeat for denialism’ as Bolsonaro refuses to accept election result Lula wins election in stunning comeback – live updates Luiz Inácio Lula da Silva, the Brazilian president, has staged a dramatic election fightback, defeating his far-right opponent, Flávio Bolsonaro, to claim a historic fourth term in power. With 100% of votes counted the",
+          "link": "https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election",
+          "published": "2026-10-26T00:19:05.000Z",
+          "categories": [
+            "Luiz Inácio Lula da Silva",
+            "Brazil",
+            "Flávio Bolsonaro",
+            "Americas",
+            "World news",
+            "Jair Bolsonaro",
+            "The far right"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazil election 2026: Full second round results as Lula wins comeback against Flávio Bolsonaro",
+          "description": "After a shock defeat in the first round, the incumbent Brazilian president, Luiz Inácio Lula da Silva, has turned the election around to win the runoff. Live blog: latest analysis and reaction Brazil’s president is elected purely by the popular vote. A winning candidate needs one more vote than 50% of votes cast; there is no role for the parliament and no electoral college.",
+          "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+          "published": "2026-10-26T00:15:36.000Z",
+          "categories": [
+            "Brazil",
+            "Americas",
+            "World news",
+            "Flávio Bolsonaro",
+            "Luiz Inácio Lula da Silva"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
+          "description": "It's the first time since Brazil returned to direct elections in 1989 that a candidate has won the final runoff after losing in the first round.",
+          "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+          "published": "2026-10-26T08:05:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Leftist Lula wins historic fourth term as Brazil's president - but his opponent Bolsonaro refuses to accept result",
+          "description": "The Leftist leader won 51.7 percent of the vote, compared to 48.2 percent for the son of former president Jair Bolsonaro, official results showed.",
+          "link": "https://www.dailymail.com/news/article-16238239/Brazil-Lula-80-elected-fourth-term-son-jailed-former-president-Jair-Bolsonaro.html",
+          "published": "2026-10-26T08:53:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil heads back to the future as Flavio Bolsonaro refuses to recognize Lula win",
+          "description": "SAO PAULO, Oct 26 - Brazilian right-wing Senator Flavio Bolsonaro has followed his imprisoned father's lead by refusing to concede defeat to leftist President Luiz Inacio Lula da Silva, who won a historic fourth term in Sunday's presidential election.",
+          "link": "https://www.straitstimes.com/world/brazil-heads-back-to-the-future-as-flavio-bolsonaro-refuses-to-recognize-lula-win",
+          "published": "2026-10-26T07:10:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Global leaders congratulate Brazil President Lula on reelection",
+          "description": "SAO PAULO, Oct 25 - World leaders hailed the victory of Brazil's leftist President Luiz Inacio Lula da Silva in Sunday's presidential election runoff, as he defeated right-wing Senator Flavio Bolsonaro to secure a fourth non-consecutive term.",
+          "link": "https://www.straitstimes.com/world/global-leaders-react-to-brazil-president-lulas-reelection",
+          "published": "2026-10-26T01:15:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil election: Lula wins historic fourth term, Bolsonaro refuses to concede",
+          "description": "His competitor, Senator Flavio Bolsonaro, said he will ask for the result to be annulled.",
+          "link": "https://www.straitstimes.com/world/lula-brazils-iconic-working-class-president-wins-historic-fourth-term-in-dramatic-comeback",
+          "published": "2026-10-26T00:36:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Lula beats Bolsonaro in Brazil runoff, securing fourth presidential term",
+          "description": "With 100% of the vote counted, Brazil's electoral court announced that the soon to be 81-year-old Lula held an unassailable lead of nearly 4.4 million votes over opponent Flávio Bolsonaro.",
+          "link": "https://www.pbs.org/newshour/world/brazil-votes-in-a-tense-lula-vs-bolsonaro-runoff-with-u-s-influence-over-latin-america-at-stake",
+          "published": "2026-10-25T14:57:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump ally Bolsonaro refuses to concede defeat as Lula triumphs in neck-and-neck Brazilian election",
+          "description": "Flavio Bolsonaro sought to annul the result over a voting extension, despite seeking one himself. His 80 year-old rival is set to begin an historic fourth term",
+          "link": "https://www.independent.co.uk/news/world/americas/jair-bolsonaro-flavio-lula-brazil-election-b3073236.html",
+          "published": "2026-10-26T09:12:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "The world leaders congratulating Brazil President Lula on his historic re-election",
+          "description": "The results came in on Monday morning",
+          "link": "https://www.independent.co.uk/news/world/americas/bolsonaro-trump-brazil-election-results-reaction-b3073202.html",
+          "published": "2026-10-26T07:26:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "World reacts to Lula’s victory in Brazil’s presidential election",
+          "description": "International leaders and politicians congratulate the Brazilian president on his re-election.",
+          "link": "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race?traffic_source=rss",
+          "published": "2026-10-26T03:50:12.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Congratulations!’: World leaders hail Lula’s election victory in Brazil",
+          "description": "The international community on Monday congratulated Brazil's President Luiz Inacio Lula da Silva after his stunning re-election in a runoff with right-wing candidate Flavio Bolsonaro. The region's left-leaning leaders were quick to react as Brazil staved off a conservative wave in many countries while Europeans, such as Spanish Prime Minister Pedro Sanchez, celebrated a \"progressive comeback\".",
+          "link": "https://www.france24.com/en/americas/20261026-congratulations-world-leaders-hail-lula-s-election-victory-in-brazil",
+          "published": "2026-10-26T09:31:08.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump critic Lula wins reelection in Brazil, securing fourth presidential term",
+          "description": "Brazil’s President Luiz In&aacute;cio Lula da Silva, a vocal critic of U.S. President Donald Trump, has been reelected in a result that provides relief to critics of Trump and keeps some distance between Latin America’s biggest economy and Washington",
+          "link": "https://abcnews.com/Business/wireStory/brazil-faces-tense-lula-bolsonaro-runoff-us-influence-137548341",
+          "published": "2026-10-26T00:39:10.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazil keeps left: what Lula’s victory means for his country and beyond",
+          "description": "In today’s newsletter: As Luiz Inácio Lula da Silva secured victory in the presidential race, we look the implications for democracy, the environment and international relations Good morning. Chances are you woke this morning to news of two momentous election results. In Serbia, a student-led movement has ousted the country’s long-serving leader, Aleksandar Vučić (which you can read more about her",
+          "link": "https://www.theguardian.com/world/2026/oct/26/brazil-presidential-elections-luiz-inacio-lula-da-silva-flavio-bolsonaro",
+          "published": "2026-10-26T06:44:33.000Z",
+          "categories": [
+            "Brazil",
+            "Luiz Inácio Lula da Silva",
+            "Flávio Bolsonaro",
+            "Jair Bolsonaro",
+            "Americas",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "The presidential election in Brazil is a test of Trump’s power as a kingmaker.",
+          "description": "",
+          "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-presidential-election-in-brazil-is-a-test-of-trumps-power-as-a-kingmaker",
+          "published": "2026-10-25T23:41:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil: long queues and river journeys mark decisive presidential vote",
+          "description": "Brazilians headed to the polls on Sunday to choose between Lula and Flávio Bolsonaro. From canoe journeys in the Amazon to long queues in Rio and a Lula doll in Brasília, voters turned out for the presidential runoff.",
+          "link": "https://www.euronews.com/video/2026/10/25/brazil-long-queues-and-river-journeys-mark-decisive-presidential-vote",
+          "published": "2026-10-25T17:49:05.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-26-3otdh",
+      "topic": "world",
+      "title": "Venezuela's opposition leader Machado returns after months in exile",
+      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 13,
+      "score": 23.5,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Venezuelan opposition leader María Machado returns after months in exile",
+          "description": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+          "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo",
+          "published": "2026-10-26T05:20:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Crowds welcome Venezuela's María Machado after months in exile",
+          "description": "The Venezuelan opposition leader spent more than 10 months in exile after escaping the country on a speedboat.",
+          "link": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo",
+          "published": "2026-10-26T09:31:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Venezuela’s Machado returns from exile, as doubts over democracy deepen",
+          "description": "Exiled Nobel laureate María Corina Machado has returned to Venezuela for the first time since December and is testing the U.S.-backed government.",
+          "link": "https://www.csmonitor.com/World/Americas/2026/1025/venezuela-machado-exile-maduro-rodriguez?icid=rss",
+          "published": "2026-10-25T21:05:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Venezuela: Opposition leader Machado returns from exile, received by thousands of supporters in Caracas",
+          "description": "Nobel Peach Prize winner and popular Venezuelan political opposition figure Maria Corina Machado has returned from nearly a year in exile. She was greeted by thousands of cheering supporters in Caracas.",
+          "link": "https://www.dw.com/en/venezuela-opposition-leader-machado-returns-from-exile-received-by-thousands-of-supporters-in-caracas/a-79759187?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-26T09:08:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Opposition leader Machado returns to Venezuela after 10 months in exile",
+          "description": "Venezuelan opposition leader Maria Corina Machado announced on Sunday that she has returned to her homeland following almost a year in exile, after covertly leaving Venezuela in late 2025 to receive the Nobel Peace Prize. She returns as doubts about her country’s democratic future and the role of the US are growing.",
+          "link": "https://www.france24.com/en/americas/20261025-opposition-leader-machado-returns-to-venezuela-after-10-months-in-exile",
+          "published": "2026-10-25T17:10:11.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Exiled opposition leader announces shock return to Venezuela",
+          "description": "Venezuelan opposition leader Maria Corina Machado has returned ‌to the country nearly a year after her daring escape.",
+          "link": "https://news.sky.com/story/exiled-venezuelan-opposition-leader-announces-shock-return-to-the-country-13603692",
+          "published": "2026-10-25T17:03:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Venezuela opposition leader María Corina Machado returns to country",
+          "description": "Machado covertly snuck out of the South American country in December with a private U.S. rescue team to accept the 2025 Nobel Peace Prize in Norway.",
+          "link": "https://www.cbsnews.com/news/venezuela-opposition-maria-corina-machado-return/",
+          "published": "2026-10-26T02:27:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Venezuela’s opposition leader Machado returns after months in exile",
+          "description": "Opposition leader and Nobel laureate María Corina Machado returned from exile to Venezuela for the first time since December, amid rising doubts over the country’s democracy and U.S. involvement. Her first public appearance since the U.S. military ousted Nicolás Maduro.",
+          "link": "https://www.nbcnews.com/video/venezuela-s-opposition-leader-machado-returns-after-months-in-exile-272198725649",
+          "published": "2026-10-25T19:58:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Exiled opposition leader María Corina Machado returns to rapturous reception in Venezuela",
+          "description": "Nobel peace prize winner’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader, María Corina Machado, has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime.",
+          "link": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+          "published": "2026-10-26T05:27:12.000Z",
+          "categories": [
+            "Venezuela",
+            "María Corina Machado",
+            "Americas",
+            "World news",
+            "Delcy Rodríguez",
+            "US foreign policy",
+            "Nicolás Maduro",
+            "Trump administration"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "María Corina Machado Returns to Venezuela",
+          "description": "After nearly 10 months in exile, Ms. Machado, a Nobel laureate, came back to challenge leaders who have sidelined her and press for new elections.",
+          "link": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html",
+          "published": "2026-10-26T05:18:47.000Z",
+          "categories": [
+            "Machado, Maria Corina",
+            "Venezuela",
+            "Rodriguez, Delcy (1969-)",
+            "Politics and Government",
+            "United States International Relations"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Who Is María Corina Machado?",
+          "description": "The Venezuelan opposition leader returned home from exile to a country firmly under American control. How are her relations with Washington?",
+          "link": "https://www.nytimes.com/2026/10/25/world/americas/who-is-maria-corina-machado.html",
+          "published": "2026-10-25T21:05:50.000Z",
+          "categories": [
+            "Machado, Maria Corina",
+            "Venezuela",
+            "US-Venezuela Conflict (2025-)",
+            "Vente Venezuela (Political Party)",
+            "Maduro, Nicolas",
+            "International Relations"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Venezuelan opposition leader María Corina Machado makes surprise return home after nearly a year abroad",
+          "description": "María Corina Machado's return to Venezuela could reshape opposition dynamics as Edmundo González vows to join her and push for democratic elections.",
+          "link": "https://www.foxnews.com/world/venezuelan-opposition-leader-maria-corina-machado-surprise-return-home-after-nearly-year-abroad",
+          "published": "2026-10-25T17:47:02.000Z",
+          "categories": [
+            "c8af9818-6413-5a0e-8cfc-1b5046cc12d2",
+            "fnc",
+            "Fox News",
+            "fox-news/topic/venezuelan-political-crisis",
+            "fox-news/travel/regions/south-america",
+            "fox-news/world",
+            "fox-news/person/nicolas-maduro",
+            "fox-news/politics",
+            "fox-news/world/world-politics",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "María Corina Machado back in Venezuela after 10 months in exile",
+          "description": "The opposition leader was last in Venezuela in in December 2025, after which she left to receive the Nobel Peace Prize in Oslo. Since then, she has carried out much of her political activity from the United States and Panama.",
+          "link": "https://www.euronews.com/2026/10/25/maria-corina-machado-back-in-venezuela-after-nearly-10-months-in-exile",
+          "published": "2026-10-25T16:54:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Venezuela's opposition leader Machado returns after months in exile",
+          "description": "It was her first appearance since the U.S. military deposed the country's then-President Nicolás Maduro, replacing him with an interim president who has exceeded the time she was authorized to serve, with no election scheduled.",
+          "link": "https://www.pbs.org/newshour/world/venezuelas-opposition-leader-machado-returns-after-months-in-exile",
+          "published": "2026-10-25T16:58:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Venezuelan opposition leader María Corina Machado returns after 10-month exile",
+          "description": "Her attempts to re-enter the country have tested relations with the Trump administration",
+          "link": "https://www.independent.co.uk/news/world/americas/venezuelan-opposition-leader-maria-machado-returns-b3073063.html",
+          "published": "2026-10-25T19:56:33.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-26-1ubqiyg",
+      "topic": "world",
+      "title": "Serbia's strongman leader Vucic concedes defeat to student-led movement in seismic political shift",
+      "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 14,
+      "score": 21.3,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 14,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+          "description": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+          "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo",
+          "published": "2026-10-26T09:04:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Photos: Serbia celebrates as ruling party loses grip on power",
+          "description": "Two years of student-led protests against corruption and mismanagement culminate in election victory.",
+          "link": "https://www.aljazeera.com/gallery/2026/10/26/photos-serbia-celebrates-as-ruling-party-loses-grip-on-power?traffic_source=rss",
+          "published": "2026-10-26T08:18:39.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Photos: Lula supporters flood streets in celebration of historic win",
+          "description": "Avenues and squares in Rio de Janeiro and Sao Paulo filled with crowds dressed in red, celebrating democracy.",
+          "link": "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss",
+          "published": "2026-10-26T07:24:58.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Tonight we celebrate’: Serbia’s students jubilant after poll win",
+          "description": "he parliamentary election was the culmination of nearly two years of student-led protests.",
+          "link": "https://www.straitstimes.com/world/europe/tonight-we-celebrate-serbias-students-jubilant-after-poll-win",
+          "published": "2026-10-25T23:35:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Serbia: crowds celebrate in Belgrade after Vučić admits defeat",
+          "description": "Crowds celebrated in Belgrade after President Aleksandar Vučić conceded defeat for his ruling party in Serbia's snap parliamentary election, following nearly two years of student-led demonstrations.",
+          "link": "https://www.euronews.com/video/2026/10/25/serbia-crowds-celebrate-in-belgrade-after-vucic-admits-defeat",
+          "published": "2026-10-25T22:12:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Aleksandar Vucic, the Serbian leader brought down by students",
+          "description": "Serbia's longtime leader concedes defeat to a student-led protest movement in parliamentary elections.",
+          "link": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
+          "published": "2026-10-26T05:24:59.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Serbia election: Vucic concedes defeat to student-led movement",
+          "description": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections.",
+          "link": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-25T21:07:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Serbia's Vucic concedes defeat in historic snap election with record turnout",
+          "description": "Serbia's Aleksandar Vucic conceded defeat in an historic election on Sunday following a near to 70% turnout at polling stations – the highest since the break-up of Yugoslavia in 1992. The snap election followed nearly two years of student-led demonstrations against perceived corruption and authoritarianism triggered by the deaths of 16 people when a train station canopy collapsed in the ‌city of N",
+          "link": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout",
+          "published": "2026-10-25T21:24:42.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Serbia's pro-Russian leader urges supporters to avoid 'killings' after defeat",
+          "description": "Serbia's long-serving pro-Russian leader has urged his supporters to avoid \"killings\" after he conceded defeat to a student-led movement at the election.",
+          "link": "https://news.sky.com/story/student-protest-movement-aims-to-defeat-ex-serbian-leader-in-parliamentary-election-13603462",
+          "published": "2026-10-25T07:46:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Putin-backed strongman Vucic concedes defeat in Serbia elections",
+          "description": "Serbian parliamentary elections unseat Aleksandar Vucic, a Putin-endorsed strongman who led with virtually absolute power for 14 years.",
+          "link": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/",
+          "published": "2026-10-25T21:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Serbians celebrate as Vucic concedes defeat to student-led movement",
+          "description": "Serbia’s student-led movement celebrates after longtime leader Aleksandar Vucic concedes defeat in a historic election. The result comes after a two-year peaceful protest movement that called for Vucic to step down.",
+          "link": "https://www.nbcnews.com/video/serbians-celebrate-as-vucic-concedes-defeat-to-student-led-movement-272205381718",
+          "published": "2026-10-26T00:44:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Serbia wakes up to new reality after student-led movement ousts Vučić – Europe live",
+          "description": "Hopes raised for a reset in relations with EU and other partners following the defeat of authoritarian president Serbian leader ousted by student movement in seismic election Hungary’s prime minister Péter Magyar – who came into power after ousting Viktor Orbán earlier this year – is clearly emotionally invested in the events in Serbia. After posting several times last night and drawing (somewhat ",
+          "link": "https://www.theguardian.com/world/live/2026/oct/26/serbia-vucic-elections-students-bulgaria-france-urkaine-russia-latest-news-updates",
+          "published": "2026-10-26T09:21:46.000Z",
+          "categories": [
+            "Serbia",
+            "Bulgaria",
+            "France",
+            "Ukraine",
+            "Russia",
+            "European Union",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Serbian leader Aleksandar Vučić ousted by student movement in seismic election",
+          "description": "Vučić’s 12-year reign looks to have been ended by record turnout of voters in election provoked by student-led protests The long-serving leader of Serbia, Aleksandar Vučić, has conceded defeat, ushering in a seismic political shift after a historic election that saw ​the increasingly authoritarian leader pitted against a student-led movement that had spent two years protesting against his governme",
+          "link": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
+          "published": "2026-10-25T23:42:32.000Z",
+          "categories": [
+            "Serbia",
+            "Europe",
+            "Protest",
+            "Activism"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘Door to EU is open’ new Serbian government told after Vučić concedes election – Europe live as it happened",
+          "description": "Student List movement projected to have 141 seats in the new parliament, well clear of the 126 required for majority Serbian leader Aleksandar Vučić concedes defeat in fiercely contested parliamentary election The latest turnout projection by Ipsos/Cesid suggests a turnout of 60.8% by 5pm local time (4pm UK), with three hours still to go until the polling stations close. That’s more than 13 percen",
+          "link": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+          "published": "2026-10-25T23:40:57.000Z",
+          "categories": [
+            "Serbia",
+            "Bulgaria",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+          "description": "“It is clear that we have lost these elections,” Aleksandar Vucic said in a surprisingly early speech congratulating his opponents.",
+          "link": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html",
+          "published": "2026-10-26T08:51:09.000Z",
+          "categories": [
+            "Vucic, Aleksandar",
+            "Serbia",
+            "Elections",
+            "Student List-Students Win (Serbia)"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to Know as Serbia Votes for a New Parliament",
+          "description": "A student-led movement is challenging the governing party of Aleksandar Vucic, who has dominated Serbian politics for over a decade.",
+          "link": "https://www.nytimes.com/2026/10/25/world/europe/serbia-election.html",
+          "published": "2026-10-25T04:01:22.000Z",
+          "categories": [
+            "Serbia",
+            "Elections",
+            "Vucic, Aleksandar",
+            "Serbian Progressive Party",
+            "European Union",
+            "Demonstrations, Protests and Riots",
+            "Student List-Students Win (Serbia)"
+          ]
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pro-Trump Serbia Leader Blames 'American Deep State' After Election Defeat",
+          "description": "Aleksandar Vucic conceded defeat against a student-led opposition movement.",
+          "link": "https://www.newsweek.com/pro-trump-serbia-leader-blames-american-deep-state-after-election-defeat-12617864",
+          "published": "2026-10-26T09:32:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Aleksandar Vucic: Serbia’s veteran ruler felled by student-led movement",
+          "description": "Opponents saw him as an increasingly authoritarian figure, leading a government accused of endemic corruption.",
+          "link": "https://www.straitstimes.com/world/europe/aleksandar-vucic-serbias-veteran-ruler-felled-by-student-led-movement",
+          "published": "2026-10-26T00:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Serbia's strongman leader Vucic concedes defeat to student-led movement in seismic political shift",
+          "description": "It was a seismic political shift in the Balkan country where Vucic, who had been endorsed by Russian President Vladimir Putin and who denounced the student movement as a foreign-led attempt to unseat him, led with virtually absolute power for 14 years.",
+          "link": "https://www.pbs.org/newshour/world/serbias-strongman-leader-vucic-concedes-defeat-to-student-led-movement-in-seismic-political-shift",
+          "published": "2026-10-25T21:35:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Aleksandar Vucic defeated in Serbia election as student protest movement claims historic win",
+          "description": "The snap elections came following nearly two years of student-driven demonstrations against perceived corruption and creeping authoritarianism",
+          "link": "https://www.independent.co.uk/news/world/europe/serbia-election-result-student-list-aleksandar-vucic-b3073238.html",
+          "published": "2026-10-26T08:28:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Reactions to election victory of Serbia's Student List",
+          "description": "BELGRADE, Oct 25 - Serbia's Aleksandar Vucic conceded defeat to a student-led protest movement in a historic election on Sunday that ends his long grip on power and heralds a new political era in the Balkan country.",
+          "link": "https://www.straitstimes.com/world/europe/reactions-to-election-victory-of-serbias-student-list",
+          "published": "2026-10-25T23:15:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Belgrade in rapture as Serbian students topple Vucic in historic election",
+          "description": "BELGRADE, Oct 25 - Trams and traffic halted by crowds. Tens of thousands of people choking the city's main boulevards; the air thick with smoke; a man on a car waving a flare.",
+          "link": "https://www.straitstimes.com/world/europe/belgrade-in-rapture-as-serbian-students-topple-vucic-in-historic-election",
+          "published": "2026-10-25T23:00:46.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-26-1vo7o23",
+      "topic": "world",
+      "title": "France: Hundreds arrested after nationwide protests",
+      "summary": "The French government says more than 1,000 people were arrested following nationwide protests on Saturday. Police and elite security forces were out in force across the country as clashes broke out.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 9,
+      "score": 20.93,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.16,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "The French government is hiding behind a ‘riots’ narrative",
+          "description": "It is much easier to fearmonger and try to delegitimise the protests than to address students' demands.",
+          "link": "https://www.aljazeera.com/opinions/2026/10/26/the-french-government-is-hiding-behind-a-riots-narrative?traffic_source=rss",
+          "published": "2026-10-26T05:56:04.000Z",
+          "categories": [
+            "Opinions"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: Hundreds arrested after nationwide protests",
+          "description": "The French government says more than 1,000 people were arrested following nationwide protests on Saturday. Police and elite security forces were out in force across the country as clashes broke out.",
+          "link": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-25T12:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: 1.314 arrested during protests across the country",
+          "description": "France saw another day of nationwide protests on Saturday, with more than 400,000 people taking to the streets over the rising cost of living and school funding. Most marches remained peaceful, a week after riots and looting hit several cities. However, police say more than 1,300 people were arrested nationwide as violence broke out on the sidelines of demonstrations. Caroline Baum has more.",
+          "link": "https://www.france24.com/en/france-1-314-arrested-during-protests-across-the-country",
+          "published": "2026-10-25T16:32:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "More than 1,000 arrested in France as protesters and police clash",
+          "description": "While demonstrations throughout France were largely peaceful, police reported clashes with protesters Saturday evening.",
+          "link": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+          "published": "2026-10-26T00:53:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "France see new round of protests; Riot police clash with demonstrators in Italy",
+          "description": "More anti-government protests took place in France this weekend. Leigh Kiniry has the details.",
+          "link": "https://www.cbsnews.com/video/france-see-new-round-of-protests-riot-police-clash-with-demonstrators-in-italy/",
+          "published": "2026-10-25T00:59:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Macron accused of putting France’s right to protest at risk with ‘vandal’s law’",
+          "description": "Making innocent protesters liable for damage would be bad for rule of law and play into far-right hands, say opponents Emmanuel Macron has been accused by trade unions of trying to curb the fundamental French right to protest as the government fast-tracks a bill to make protesters pay for damage caused by vandalism at street demonstrations even if they did not directly cause it themselves. The Fre",
+          "link": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+          "published": "2026-10-25T19:57:40.000Z",
+          "categories": [
+            "France",
+            "Protest",
+            "Emmanuel Macron",
+            "Marine Le Pen",
+            "Europe",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "A Day After Renewed Street Clashes in France, Relief and Anxiety Mix",
+          "description": "While the police kept a lid on vandalism, the huge number of protesters and France’s fraught politics suggest unrest could grow.",
+          "link": "https://www.nytimes.com/2026/10/25/world/europe/france-protests-macron-lepen.html",
+          "published": "2026-10-25T17:52:46.000Z",
+          "categories": [
+            "Demonstrations, Protests and Riots",
+            "France Unbowed (Political Party)",
+            "National Rally (France)",
+            "Le Pen, Marine",
+            "Macron, Emmanuel (1977-)",
+            "France",
+            "Orleans (France)",
+            "Paris (France)"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+          "description": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
+          "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+          "published": "2026-10-25T08:06:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "From arrests to crackdowns, how Europe’s leaders are responding as protests rock the continent",
+          "description": "Emmanuel Macron vows rioters will pay as 70,000 police deploy across France, while Italy, Belgium and Albania face escalating protest violence.",
+          "link": "https://www.foxnews.com/world/arrests-crackdowns-how-europes-leaders-responding-protests-rock-continent",
+          "published": "2026-10-25T15:24:14.000Z",
+          "categories": [
+            "bb4c4f21-a06f-5452-a20a-ccdcd8fbb6f1",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/europe",
+            "fox-news/politics",
+            "fox-news/world/world-regions/france",
+            "fox-news/world",
+            "fox-news/person/emmanuel-macron",
+            "fox-news/world/world-protests",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: 110.000 protesters in Paris",
+          "description": "Hundreds of demonstrations took place across France on Saturday over the rising cost of living, with security forces deployed in large numbers to prevent a repeat of the violence seen last weekend. While the marches themselves “passed off well” in several cities, Interior Minister Laurent Nuñez said members of “ultra-left” groups threw projectiles and fireworks at police in an attempt to provoke c",
+          "link": "https://www.france24.com/en/france-110-000-protesters-in-paris",
+          "published": "2026-10-25T15:00:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "French TV channels scramble to apologize after airing Albanian protests as Paris and Lyon",
+          "description": "Two French news channels have apologized after misidentifying protest images from Albania as demonstrations in France",
+          "link": "https://www.independent.co.uk/news/world/europe/tirana-paris-french-jeanluc-melenchon-police-b3073043.html",
+          "published": "2026-10-25T17:56:27.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-26-422pia",
+      "topic": "world",
+      "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
+      "summary": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 6,
+      "score": 18.54,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
+          "description": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
+          "published": "2026-10-26T09:22:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
+          "description": "Al Jazeera looks at the key takeaways from the US president's campaign event in Michigan ahead of the midterm vote.",
+          "link": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss",
+          "published": "2026-10-26T04:03:28.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "El-Sayed: Trump has as much regard for Constitution as ‘a piece of toilet paper’",
+          "description": "Michigan Senate candidate Abdul El-Sayed criticized President Trump on Sunday, saying the president has as much regard for the Constitution as “a piece of toilet paper.” In an interview with Al Sharpton on PoliticsNation, El-Sayed was asked about the numerous attacks made by the GOP and Trump about his family background and faith and how...",
+          "link": "https://thehill.com/homenews/campaign/6171437-el-sayed-trump-has-as-much-regard-for-constitution-as-a-piece-of-toilet-paper/",
+          "published": "2026-10-26T01:20:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says El-Sayed should have to pass through metal detector to enter Senate",
+          "description": "President Trump called out Michigan Senate candidate Abdul El-Sayed on Sunday, saying he should have to pass through a metal detector to enter the Senate building. “Anyone with that record of support for jihadists would be screened and unable to get a seat on an airplane. They certainly should not give him a seat in...",
+          "link": "https://thehill.com/homenews/administration/6171296-donald-trump-abdul-el-sayed-pass-through-metal-detector-to-enter-senate/",
+          "published": "2026-10-25T22:52:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Rogers dodges questions on MAGA label, Trump tariffs",
+          "description": "Former Rep. Mike Rogers (R-Mich.) dodged questions on whether he identifies as a MAGA-Republican and avoided clarifying his position on President Trump’s controversial tariffs against Canada ahead of his competitive race against Democrat Abdul El-Sayed in Michigan’s Senate race. During a Sunday appearance on NBC’s “Meet the Press,” Rogers was asked if he considered himself...",
+          "link": "https://thehill.com/homenews/campaign/6171235-rogers-dodges-magar-label-interview/",
+          "published": "2026-10-25T21:44:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump vows to make Abdul El- Sayed go through metal detectors in Senate if he wins",
+          "description": "Trump arrived on stage in Port Huron, Michigan, on Sunday afternoon to rally for the Republican cause with less than two weeks to go before the midterms.",
+          "link": "https://www.dailymail.com/news/article-16237749/Trump-Muslim-jihadist-Abdul-El-Sayed-metal-detector-Senate.html",
+          "published": "2026-10-26T05:59:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Can the man Trump called a 'jihadist' become America's first Muslim senator?",
+          "description": "Donald Trump has called Michigan Senate candidate Abdul El-Sayed a \"jihadist\" and accused him of extremist links without evidence. As El-Sayed faces Republican Mike Rogers in a closely contested race, can he overcome the controversy to become America's first Muslim senator?",
+          "link": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/can-the-man-trump-called-a-jihadist-become-americas-first-muslim-senator/articleshow/135206904.cms",
+          "published": "2026-10-26T09:18:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump escalates rhetoric against El-Sayed as he tries to undermine Democrat in Michigan Senate race",
+          "description": "Trump, who imposed a travel ban targeting several predominantly Muslim countries during his first term, has increasingly leaned into anti-Muslim rhetoric as Election Day approaches.",
+          "link": "https://www.pbs.org/newshour/politics/trump-escalates-rhetoric-against-el-sayed-as-he-tries-to-undermine-democrat-in-michigan-senate-race",
+          "published": "2026-10-25T21:50:29.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-26-rud3io",
+      "topic": "tech",
+      "title": "AI cloud computing firms face ‘guppy-level death’, Elon Musk warns; French bonds rally after avoiding downgrade – business live",
+      "summary": "The SpaceX CEO said many neoclouds will face \"guppy-level death\" because they lack alternative streams of revenue.",
+      "headlineSource": "Guardian Business",
+      "sourceCount": 5,
+      "score": 16.63,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "business",
+        "reconciled": "business -> tech by headline",
+        "outlets": 5,
+        "specialistOutlets": 4,
+        "specialistShare": 0.8,
+        "votes": {
+          "tech": 2,
+          "business": 4,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
+          "description": "Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.",
+          "link": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+          "published": "2026-10-26T09:07:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "AI cloud computing firms face ‘guppy-level death’, Elon Musk warns; French bonds rally after avoiding downgrade – business live",
+          "description": "Rolling coverage of the latest economic and financial news Elsewhere in the bond markets, Brazil’s debt is dropping in value after president Luiz Inácio Lula da Silva won a dramatic victory over his far-right opponent, Flávio Bolsonaro, to claim a historic fourth term in power. Bolsonaro, son of the former president, had been expected to oust Lula, but instead the left-wing incumbent triumphed, wi",
+          "link": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+          "published": "2026-10-26T09:28:24.000Z",
+          "categories": [
+            "Business",
+            "Economics",
+            "Stock markets",
+            "FTSE",
+            "Elon Musk",
+            "AI (artificial intelligence)"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "US military gives Elon Musk’s SpaceX access to sensitive tracking data",
+          "description": "This gives the company an advantage in tracking objects in orbit, raising national security concerns and fears of greater control over the space industry The US military has given Elon Musk’s SpaceX access to restricted space tracking data, raising a new round of questions about whether the Trump administration is attempting to hand over traffic control in Earth’s orbit to a controversial donor. T",
+          "link": "https://www.theguardian.com/science/2026/oct/25/spacex-access-sensitive-tracking-data",
+          "published": "2026-10-25T12:00:05.000Z",
+          "categories": [
+            "SpaceX",
+            "Elon Musk",
+            "Trump administration",
+            "US news",
+            "Space",
+            "Aerospace industry",
+            "US politics",
+            "Satellites",
+            "US military",
+            "Science policy",
+            "Data protection"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk says neoclouds are cooked, and SpaceX won't be buying them",
+          "description": "The SpaceX CEO said many neoclouds will face \"guppy-level death\" because they lack alternative streams of revenue.",
+          "link": "https://www.businessinsider.com/elon-musk-neoclouds-doomed-spacex-not-buying-2026-10",
+          "published": "2026-10-26T05:37:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "SpaceX secures $40B in financing for GPUs as Elon Musk warns of AI cloud industry consolidation",
+          "description": "SpaceX closed $40 billion in debt financing for GPU purchases as Elon Musk warns AI debt markets have shut off access for most companies.",
+          "link": "https://www.foxbusiness.com/technology/spacex-secures-40b-financing-gpus-elon-musk-warns-ai-cloud-industry-consolidation",
+          "published": "2026-10-26T05:09:45.000Z",
+          "categories": [
+            "93d1992b-7d18-5ddf-adbf-81bf6e9b6588",
+            "fbn",
+            "Fox Business",
+            "fox-business/business-leaders/elon-musk",
+            "fox-business/technology/spacex",
+            "fox-business/technology",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+          "description": "SpaceX is rapidly growing an AI business that rents out access to advanced chips.",
+          "link": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+          "published": "2026-10-26T01:50:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-26-12d2p22",
+      "topic": "world",
+      "title": "Saudi-led forces strike Houthi missile facilities after Riyadh airport attack",
+      "summary": "The Saudi-led military coalition fighting Yemen’s Houthis struck several of the group’s missile launchers and storage facilities, a spokesman said on Monday, while the Iran-backed group claimed a new attack on Riyadh’s international airport. The coalition’s…",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 7,
+      "score": 16.35,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.2,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure",
+          "description": "The US is helping Saudi Arabia fight the Houthi group in Yemen with AI-assisted targeting. But AI is not a magic bullet, experts say, and there are technological, political and human rights issues to consider.",
+          "link": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemen-s-houthis-up-pressure/a-79735138?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-25T09:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+          "description": "Saudi Arabia says it intercepted Houthi missiles and drones, while the Houthis claimed attacks on airports and energy sites amid rising regional supply risks.",
+          "link": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
+          "published": "2026-10-25T13:41:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia executes man for crime committed when he was 14",
+          "description": "The kingdom carried out 347 executions last year, a new high despite efforts to transform its image",
+          "link": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-childhood-executions-b3072067.html",
+          "published": "2026-10-25T16:22:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+          "description": "The Houthis, an Iran-backed Yemeni militia, launched several deadly attacks on the airport this month.",
+          "link": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html",
+          "published": "2026-10-25T21:39:45.000Z",
+          "categories": [
+            "Airlines and Airplanes",
+            "War and Armed Conflicts",
+            "Mohammed bin Salman (1985-)",
+            "Iran",
+            "Israel",
+            "Riyadh (Saudi Arabia)",
+            "Saudi Arabia",
+            "Yemen",
+            "Houthis",
+            "King Khalid International Airport (Riyadh, Saudi Arabia)",
+            "Saudi Arabian Airlines"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "description": "An earlier attack on the airport several weeks ago had killed 13 people.",
+          "link": "https://www.straitstimes.com/world/middle-east/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies",
+          "published": "2026-10-26T06:15:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi-led forces strike Houthi missile facilities after Riyadh airport attack",
+          "description": "The Houthis have carried out waves of strikes on the King Khalid International Airport in Riyadh.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/26/world/politics/houthi-saudi-arabia-riyadh-airport/",
+          "published": "2026-10-26T06:24:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Saudi-led coalition hits Houthi missile sites after Riyadh targeted again",
+          "description": "The Saudi-led military coalition fighting Yemen’s Houthis struck several of the group’s missile launchers and storage facilities, a spokesman said on Monday, while the Iran-backed group claimed a new attack on Riyadh’s international airport. The coalition’s operation came a day after explosions rattled Saudi Arabia’s capital and authorities sent text messages to residents warning them of a “hostil",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3372131/saudi-coalition-intercepts-missile-houthis-claim-new-attack-riyadh-airport",
+          "published": "2026-10-26T05:49:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia reopens Riyadh airport after Houthi attacks but flights remain limited",
+          "description": "The renewed fighting in Yemen has shattered a UN-brokered truce that had largely held since 2022",
+          "link": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-riyadh-airport-houthis-king-khalid-b3073057.html",
+          "published": "2026-10-25T19:19:37.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-26-15jhtsk",
+      "topic": "world",
+      "title": "Ukraine disputes Elon Musk's claim that its military violated Starlink's terms of service",
+      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 8,
+      "score": 15.43,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 2,
+        "specialistShare": 0.25,
+        "votes": {
+          "tech": 1,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+          "description": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+          "link": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo",
+          "published": "2026-10-25T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "SpaceX satellite system back up to full speed in Ukraine, officials say",
+          "description": "Ukrainian leaders confirmed Saturday that the country's access to SpaceX technologies Starlink and Starshield have been restored to full speed, shortly after Elon Musk admitted to slowing Starlink down.",
+          "link": "https://www.cbsnews.com/video/spacex-satellite-system-back-up-to-full-speed-in-ukraine-officials-say/",
+          "published": "2026-10-25T00:55:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Elon Musk says SpaceX closed Ukraine Starlink ‘loophole,’ while Kyiv denies breaching terms",
+          "description": "Musk called his critics “bloodthirsty warmongers” who “want the war to continue until every last man in Ukraine has died in a ditch.”",
+          "link": "https://www.nbcnews.com/world/ukraine/elon-musk-spacex-closed-ukraine-starlink-loophole-limits-hit-drone-rcna605494",
+          "published": "2026-10-25T10:52:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
+          "description": "The comments came after the disruption in the country’s satellite service. Earlier, Ukraine said drones using Starshield, the Pentagon-funded service, were back to normal speeds.",
+          "link": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
+          "published": "2026-10-25T09:28:36.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Starlink Satellite Constellation (SpaceX)",
+            "Satellites",
+            "Drones (Pilotless Planes)",
+            "Ukraine",
+            "Zelensky, Volodymyr",
+            "Russia",
+            "United States International Relations",
+            "Musk, Elon",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
+          "description": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use.",
+          "link": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+          "published": "2026-10-25T18:18:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine disputes Elon Musk's claim that its military violated Starlink's terms of service",
+          "description": "Serhii Beskrestnov, a defense technology adviser to President Volodymyr Zelenskyy, said long-standing restrictions on the civilian system in Ukraine made such offensive use impossible.",
+          "link": "https://www.pbs.org/newshour/world/ukraine-disputes-elon-musks-claim-that-its-military-violated-starlinks-terms-of-service",
+          "published": "2026-10-25T15:35:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Kyiv questions Elon Musk’s ‘physically impossible’ Starlink claims",
+          "description": "Zelensky has announced a trilateral meeting with Russian and US officials in November",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-zelensky-musk-starlink-b3073168.html",
+          "published": "2026-10-26T08:17:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Elon Musk Says Ukraine Violated Starlink’s Rules",
+          "description": "The comments came after the disruption in the country’s satellite service. Earlier, Ukraine said drones using Starshield, the Pentagon-funded service, were back to normal speeds.",
+          "link": "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
+          "published": "2026-10-25T09:28:36.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Starlink Satellite Constellation (SpaceX)",
+            "Satellites",
+            "Drones (Pilotless Planes)",
+            "Ukraine",
+            "Zelensky, Volodymyr",
+            "Russia",
+            "United States International Relations",
+            "Musk, Elon",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk’s dust-up with Ukraine on Starlink isn't over yet",
+          "description": "Ukrainian drone advisors have disputed Musk's accusation that Kyiv's forces used Starlink's civilian-only service to conduct drone strikes.",
+          "link": "https://www.businessinsider.com/elon-musk-dust-up-starlink-ukraine-civilian-starshield-violate-terms-2026-10",
+          "published": "2026-10-26T07:28:26.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-26-1y4awsr",
+      "topic": "world",
+      "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
+      "summary": "Donald Trump made sexually explicit remarks about musician Nicki Minaj who was speaking at a rally in Michigan.",
+      "headlineSource": "BBC News",
+      "sourceCount": 5,
+      "score": 15.3,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
+          "description": "The Super Bass singer is the latest big name to campaign in Michigan, where a tight Senate race is playing out ahead of the 3 November midterms.",
+          "link": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo",
+          "published": "2026-10-25T23:33:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump makes explicit remarks about Nicki Minaj at Michigan midterm rally",
+          "description": "Donald Trump made sexually explicit remarks about musician Nicki Minaj who was speaking at a rally in Michigan.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-makes-explicit-remarks-about-nicki-minaj-at-michigan-midterm-rally?traffic_source=rss",
+          "published": "2026-10-26T08:23:37.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump says Canada tariff deal coming ‘soon’ at Michigan border rally",
+          "description": "He did not provide any specifics.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-says-canada-tariff-deal-coming-soon-at-michigan-border-rally",
+          "published": "2026-10-26T00:58:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US: Nicki Minaj endorses Trump at Michigan Republican rally",
+          "description": "Nicki Minaj joined Donald Trump at a Republican rally in Michigan, declaring her support for the president. The event also saw Trump renew his attacks on Democratic Senate candidate Abdul El-Sayed.",
+          "link": "https://www.euronews.com/video/2026/10/26/us-nicki-minaj-endorses-trump-at-michigan-republican-rally",
+          "published": "2026-10-26T08:32:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump focuses on Nicki Minaj’s ‘beautiful’ rear, AOC and owning Greenland in marathon rally speech",
+          "description": "‘I looked at one hell of a beautiful ass before – Nicki Minaj,’ Trump said as a crowd of his supporters in Michigan roared",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-michigan-rally-nicki-minaj-aoc-greenland-b3073110.html",
+          "published": "2026-10-25T23:06:36.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-26-1hwmuaz",
+      "topic": "tech",
+      "title": "Anthropic’s Claude accessed Georgia state vote count data behind paywall",
+      "summary": "Claude bypassed a paywall and accessed publicly available US state of Georgia aggregate voter counts.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 3,
+      "score": 12.33,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.23,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 1,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Anthropic’s Claude accessed Georgia state vote count data behind paywall",
+          "description": "Claude bypassed a paywall and accessed publicly available US state of Georgia aggregate voter counts.",
+          "link": "https://www.straitstimes.com/world/united-states/anthropics-claude-accessed-georgia-state-vote-count-data-behind-paywall",
+          "published": "2026-10-26T02:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Anthropic's Claude accessed Georgia's public vote counts without human authorisation",
+          "description": "Anthropic's AI model, Claude, accessed publicly available voter counts from the state of Georgia without permission. The model bypassed a paywall while retrieving data usually available for a fee. Anthropic has since implemented measures to prevent similar occurrences from happening in the future. The company notified the Georgia secretary of state and federal officials about this incident weeks a",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/anthropics-claude-accessed-georgias-public-vote-counts-behind-a-paywall-without-human-authorisation-the-ai-company-says-no-individual-voter-records-were-retrieved-or-altered-and-it-has-added-safeguards/articleshow/135205036.cms",
+          "published": "2026-10-26T06:45:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Claude AI accessed publicly available Georgia voter data, Anthropic confirms",
+          "description": "Officials said the AI bot accessed publicly available voter data through the state's data hub but did not access voter files or Georgia's voter registration system.",
+          "link": "https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms",
+          "published": "2026-10-26T00:00:36.000Z",
+          "categories": [
+            "5d8f5602-a695-5cae-82b4-168e76fcda2b",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/politics",
+            "fox-business/politics/election",
+            "fox-business/politics/election/midterm-elections",
+            "fox-news/fox-news-us/fox-news-us-regions/fox-news-southeast/fox-news-georgia",
+            "fox-news/fox-news-tech",
+            "article"
+          ]
+        }
+      ]
+    }
+  ]
+}
