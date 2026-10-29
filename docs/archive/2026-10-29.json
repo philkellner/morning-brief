@@ -1,0 +1,871 @@
+{
+  "version": 1,
+  "edition": "2026-10-29",
+  "generatedAt": "2026-10-29T10:42:27.058Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-29-1ji4ta4",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "At least 68 people dead in Spain’s second major train crash this year",
+      "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
+      "url": "https://www.japantimes.co.jp/news/2026/10/29/world/spain-second-train-crash-dead/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-29T10:40:51.000Z",
+      "sourceCount": 17,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 11,
+      "score": 24.61,
+      "scoreComponents": {
+        "breadth": 12.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "‘I held this woman in my arms. She died’: Spain mourns train crash victims",
+          "url": "https://www.aljazeera.com/news/2026/10/29/i-held-this-woman-in-my-arms-she-died-spain-mourns-train-crash-victims?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+          "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "High-speed train crash in Spain kills at least 68, dozens injured",
+          "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+          "url": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Spain: Madrid mourns train crash victims as rescuers work through the night",
+          "url": "https://www.euronews.com/video/2026/10/29/spain-madrid-mourns-train-crash-victims-as-rescuers-work-through-the-night"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Spain high-speed railway crash kills at least 68 after train stopped on tracks",
+          "url": "https://www.foxnews.com/world/spain-high-speed-railway-crash-kills-train-stopped-tracks"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Spain train crash death toll rises to 69, emergency crews continue operations",
+          "url": "https://www.france24.com/en/video/20261029-spain-train-crash-death-toll-rises-to-69-emergency-crews-continue-operations"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Train crash kills at least 68 in Spain",
+          "url": "https://www.nbcnews.com/nightly-news/video/train-crash-kills-at-least-68-in-spain-272442437541"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+          "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Shock, anger and mourning in Spain after 2nd major train crash this year",
+          "url": "https://www.pbs.org/newshour/show/shock-anger-and-mourning-in-spain-after-2nd-major-train-crash-this-year"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Spain begins 3 days of mourning after high-speed train disaster",
+          "url": "https://www.scmp.com/news/world/europe/article/3372573/spain-begins-3-days-mourning-after-high-speed-train-disaster"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
+          "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+          "url": "https://www.independent.co.uk/news/world/europe/pedro-sanchez-spain-santiago-abascal-china-toledo-b3075326.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "At least 68 people dead in Spain’s second major train crash this year",
+          "url": "https://www.japantimes.co.jp/news/2026/10/29/world/spain-second-train-crash-dead/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Is There a ‘Safest Seat’ in a Train Crash? Experts Say It’s Not So Simple.",
+          "url": "https://www.nytimes.com/2026/10/28/world/europe/spain-train-crash-rail-safety.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Spanish rescuers search trains in hope of finding survivors of deadly crash",
+          "url": "https://www.straitstimes.com/world/europe/spanish-rescuers-search-trains-in-hope-of-finding-survivors-of-deadly-crash"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Spain train crash: Audio reveals chilling exchange before deadly collision",
+          "url": "https://timesofindia.indiatimes.com/world/europe/spain-train-crash-audio-reveals-chilling-exchange-between-operators-before-deadly-collision/articleshow/135299791.cms"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-29-5gbjk1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Here’s what could follow Israel’s bitterly contested elections",
+      "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "url": "https://www.csmonitor.com/World/Middle-East/2026/1028/israel-elections-stalemate-netanyahu-opposition-arabs?icid=rss",
+      "headlineSource": "Christian Science Monitor",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-29T10:29:00.000Z",
+      "sourceCount": 12,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 23.18,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "No clear winner in Israeli election as polls suggest stalemate",
+          "url": "https://www.cbsnews.com/news/israel-election-exit-polls-stalemate/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Here’s what could follow Israel’s bitterly contested elections",
+          "url": "https://www.csmonitor.com/World/Middle-East/2026/1028/israel-elections-stalemate-netanyahu-opposition-arabs?icid=rss"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Israel election: Netanyahu-led bloc holds lead with nearly 90% of votes counted",
+          "url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-90-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Israel: opposition supporters celebrate narrow lead in exit polls",
+          "url": "https://www.euronews.com/video/2026/10/28/israel-opposition-supporters-celebrate-narrow-lead-in-exit-polls"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Netanyahu defies exit polls as vote shifts in his favor, but majority remains elusive",
+          "url": "https://www.foxnews.com/world/netanyahu-defies-exit-polls-vote-shifts-his-favor-majority-remains-elusive"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Live: Israelis await final election results, with no majority in sight",
+          "url": "https://www.france24.com/en/middle-east/20261029-live-israeli-elections-are-coming-to-a-close-with-no-majority-to-be-seen"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Israel election results live: Netanyahu accused of ‘ugly delegitimisation campaign’ after his claims about Arab parties",
+          "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Israel election results live: Trump says he’s watching coalition talks as police dismiss Netanyahu’s election theft claims",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-election-results-live-netanyahu-eisenkot-trump-palestine-b3075351.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "What to Make of Israel’s Ambiguous Election",
+          "url": "https://www.nytimes.com/2026/10/28/world/israel-election-results-spain-train.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Explainer-How could Israel break the election deadlock?",
+          "url": "https://www.straitstimes.com/world/middle-east/explainer-how-could-israel-break-the-election-deadlock"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Israel polls: Netanyahu cries foul; poll chief orders probe into 'foreign hand'",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-polls-poll-chief-orders-probe-into-foreign-interference-netanyahu-levels-big-charge-top-developments/articleshow/135299653.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-29-1qtmrm9",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "summary": "Another member of Brazil's Bolsonaro family has found haven from possible prosecution by fleeing to the U.S., where they have an ally in President Trump. Just three days after losing Brazil's presidential election, Flávio Bolsonaro, who faces multiple…",
+      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo",
+      "headlineSource": "BBC News",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-10-29T10:33:13.000Z",
+      "sourceCount": 15,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 9,
+      "score": 21.59,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Brazilians split over Flavio Bolsonaro’s exit to US",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/brazilians-split-over-flavio-bolsonaros-exit-to-us-2?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Flávio Bolsonaro leaves Brazil, lands in U.S. after election loss",
+          "url": "https://www.cbsnews.com/news/brazil-flavio-bolsonaro-u-s-visa-presidential-election-loss/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
+          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Bolsonaro claims he is Brazil's true leader after fleeing to US",
+          "url": "https://www.euronews.com/2026/10/29/bolsonaro-claims-he-is-brazils-true-leader-after-fleeing-to-us"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "From election defeat to Miami: What to know about Brazil's Bolsonaro's dramatic departure to the US",
+          "url": "https://www.france24.com/en/video/20261029-from-election-defeat-to-miami-what-to-know-about-brazil-s-bolsonaro-s-dramatic-departure-to-the-us"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Brazil’s Flávio Bolsonaro arrives in U.S. after losing election",
+          "url": "https://www.nbcnews.com/video/brazil-s-flavio-bolsonaro-arrives-in-u-s-after-losing-election-272444997786"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Brazil's Fl&aacute;vio Bolsonaro flees to U.S. after election loss",
+          "url": "https://www.pbs.org/newshour/show/brazils-flavio-bolsonaro-flees-to-u-s-after-election-loss"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Defiant Bolsonaro breaks silence after fleeing Brazil for the US",
+          "url": "https://news.sky.com/story/flavio-bolsonaro-insists-he-is-leader-of-brazil-despite-losing-election-run-off-13605006"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "How Flavio Bolsonaro pulled off a clandestine escape to the US",
+          "url": "https://www.scmp.com/news/world/americas/article/3372545/how-flavio-bolsonaro-pulled-clandestine-escape-us"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Bolsonaro denies fleeing Brazil in first public statement after landing in US",
+          "url": "https://www.independent.co.uk/news/world/americas/flavio-bolsonaro-brazil-election-miami-trump-b3075317.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
+          "url": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Flavio Bolsonaro’s escape to the US: How it happened",
+          "url": "https://www.straitstimes.com/world/flavio-bolsonaros-escape-to-the-us-how-it-happened"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Decoys, secret jet and Trump's help: How Bolsonaro pulled off his escape to US",
+          "url": "https://timesofindia.indiatimes.com/world/us/decoys-secret-jet-and-trumps-help-how-bolsonaro-pulled-off-his-escape-from-brazil-to-us/articleshow/135297514.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-29-3b54xv",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Hegseth fires Pentagon’s top military planner as Trump weighs new Iran strikes",
+      "summary": "US Defence Secretary Pete Hegseth has fired the Pentagon’s top military planner, a defence official said on Wednesday, the latest in a series of generals to be ousted and one that comes even as President Donald Trump weighed renewed strikes on Iran in the…",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372530/hegseth-fires-pentagons-top-military-planner-trump-weighs-new-iran-strikes",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-10-29T09:48:59.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 20.03,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "How to stop the US-Israel war on Iran",
+          "url": "https://www.aljazeera.com/opinions/2026/10/29/how-to-stop-the-us-israel-war-on-iran?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "8-month Iran war looms large over Israeli election",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
+          "url": "https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Hegseth fires top Pentagon war planner Brett Sylvia in latest military shake-up",
+          "url": "https://nypost.com/2026/10/29/us-news/hegseth-fires-top-pentagon-war-planner-brett-sylvia-in-latest-military-shake-up/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "American taxpayers' bill for Iran war grows to estimated $47.1 billion",
+          "url": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Hegseth fires Pentagon’s top military planner as Trump weighs new Iran strikes",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372530/hegseth-fires-pentagons-top-military-planner-trump-weighs-new-iran-strikes"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Hegseth ousted top military strategist from Pentagon, sources say",
+          "url": "https://thehill.com/policy/defense/6180055-hegseth-ousted-military-strategist-syllia/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Pete Hegseth axes Pentagon chief strategist just as Donald Trump reportedly plots new Iran blitz",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/brett-syliva-pentagon-pete-hegseth-fired-iran-b3075470.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US fires top army general in latest ouster: Report",
+          "url": "https://www.straitstimes.com/world/united-states/us-fires-top-army-general-in-latest-ouster-report"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-29-1fm33vn",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Bahamas: King Charles III dances with locals during Caribbean visit",
+      "summary": "King Charles III showed off his dance moves during a colourful Junkanoo street parade in Nassau, the capital of the Bahamas, on Wednesday, 28 October, as part of his first Caribbean tour since becoming monarch.",
+      "url": "https://www.euronews.com/video/2026/10/29/bahamas-king-charles-iii-dances-with-locals-during-caribbean-visit",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-29T10:00:05.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 18.99,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Watch: King dances in the streets of the Bahamas capital",
+          "url": "https://www.bbc.co.uk/news/videos/cm87zwe3ydp1o"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Dancing King! Charles gets in the carnival spirit during Bahamas visit and enjoys a celebratory Junkanoo street parade",
+          "url": "https://www.dailymail.com/news/royals/article-16247571/Dancing-King-Charles-carnival-spirit-Bahamas-visit-Junkanoo.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Bahamas: King Charles III dances with locals during Caribbean visit",
+          "url": "https://www.euronews.com/video/2026/10/29/bahamas-king-charles-iii-dances-with-locals-during-caribbean-visit"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "King Charles III can't escape Britain's role in slavery as he tours Caribbean nations",
+          "url": "https://www.pbs.org/newshour/world/king-charles-iii-cant-escape-britains-role-in-slavery-as-he-tours-caribbean-nations"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "King Charles to discuss legacy of slavery with Commonwealth leaders at summit",
+          "url": "https://www.theguardian.com/world/2026/oct/28/king-charles-confirms-he-will-discuss-legacy-of-slavery-at-commonwealth-summit"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-29-m18pga",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Fed holds interest rates steady in last decision before midterms",
+      "summary": "In our news wrap Wednesday, the Federal Reserve held interest rates unchanged even as officials acknowledged that inflation remains elevated, the federal judge overseeing the prosecution of former Venezuelan president Nicolas Maduro died at the age of 92 and…",
+      "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+      "headlineSource": "Guardian Business",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-10-29T09:03:21.000Z",
+      "sourceCount": 7,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 18.55,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.35,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Federal Reserve holds interest rates steady as midterm elections loom",
+          "url": "https://abcnews.com/Business/federal-reserve-set-issue-interest-rate-decision-midterm/story?id=137599228"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+          "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Federal Reserve makes interest rate decision ahead of midterms",
+          "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-october-28-2026"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Fed holds interest rates steady in last decision before midterms",
+          "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
+          "url": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Fed holds interest rates unchanged as inflation remains elevated",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-fed-holds-interest-rates-unchanged-as-inflation-remains-elevated"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "US makes interest rate decision - as Bank of England verdict looms",
+          "url": "https://news.sky.com/story/us-federal-reserve-holds-interest-rates-ahead-of-possible-bank-of-england-hike-13605142"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-29-1f0c0h4",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "The major reason Microsoft’s stock is heading higher after earnings",
+      "summary": "Alphabet and Microsoft reported strong earnings fueled by growing AI demand, even as the tech giants continue investing billions in data centers and cloud infrastructure.",
+      "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+      "headlineSource": "MarketWatch",
+      "summarySource": "Fox Business",
+      "publishedAt": "2026-10-29T08:54:59.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 17.96,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Microsoft profits soar days after announcing thousands of layoffs",
+          "url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Alphabet falls 10% in premarket, putting it on course for its biggest ever post-earnings drop",
+          "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Alphabet, Microsoft earnings reveal surging AI demand as spending soars",
+          "url": "https://www.foxbusiness.com/technology/alphabet-microsoft-earnings-reveal-surging-ai-demand-spending-soars"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Microsoft posts $92.3bn quarterly revenue after offering buyouts to 60,000 employees",
+          "url": "https://www.theguardian.com/technology/2026/oct/28/microsoft-earnings"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "The major reason Microsoft’s stock is heading higher after earnings",
+          "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+          "url": "https://www.theverge.com/?p=1020785"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-29-htgrvm",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Putin calls Elon Musk a 'genius' as Russia builds its own Starlink rival",
+      "summary": "Russian President Vladimir Putin has praised Elon Musk as a “genius” for deploying thousands of satellites into orbit. Speaking in Moscow, Putin highlighted Russia’s efforts to develop its own satellite internet network to rival Musk’s Starlink.",
+      "url": "https://www.euronews.com/2026/10/29/putin-calls-elon-musk-a-genius-as-russia-builds-its-own-starlink-rival",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-29T09:58:52.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 16.35,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+          "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Elon Musk says long-term saving is 'pointless' as he expects a future of abundance",
+          "url": "https://www.businessinsider.com/elon-musk-savings-ai-abundance-wealth-future-retirement-personal-finance-2026-10"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Putin praises Elon Musk as a ‘real genius’ as Russia develops Starlink alternative",
+          "url": "https://www.cnbc.com/2026/10/29/putin-elon-musk-starlink-ukraine.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Putin calls Elon Musk a 'genius' as Russia builds its own Starlink rival",
+          "url": "https://www.euronews.com/2026/10/29/putin-calls-elon-musk-a-genius-as-russia-builds-its-own-starlink-rival"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Putin hails Elon Musk’s ‘genius’ amid plans for Russian version of Starlink",
+          "url": "https://www.theguardian.com/world/2026/oct/28/vladimir-putin-elon-musk-genius-russia-starlink"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Putin calls Musk ‘genius’ for throttling Starlink as drones disrupt Moscow airports",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-musk-zelensky-starlink-b3075342.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-28-1owfuwc",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "What's next for Israel after election produces political gridlock",
+      "summary": "In Israel, nearly all the votes have been counted in Tuesday's election. Prime Minister Benjamin Netanyahu and his allies emerged as the largest bloc, but lost seats and fell short of the majority needed to form a government.",
+      "url": "https://www.pbs.org/newshour/show/whats-next-for-israel-after-election-produces-political-gridlock",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-10-28T22:50:09.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 12.23,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.05,
+        "wire": 1.6,
+        "freshness": 1.58,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "What's the healthiest packet of crisps? Dietician reveals why lentil chips are worse for you than Walker's - and the best bag to pick",
+          "url": "https://www.dailymail.com/health/article-16241891/which-crisp-healthiest-walkers-kettle-chips-popped.html"
+        },
+        {
+          "source": "NPR Health",
+          "sourceId": "npr_health",
+          "lean": "center-left",
+          "title": "What's gone up even faster than gas or rent? The cost of caregiving",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6019319/caregiving-costs-aarp-affordability"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "What's next for Israel after election produces political gridlock",
+          "url": "https://www.pbs.org/newshour/show/whats-next-for-israel-after-election-produces-political-gridlock"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-28-1ri5vff",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Apple announces touchscreen MacBook Pro with OLED display",
+      "summary": "With an OLED display and touchscreen capabilities, it's no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the 14-inch, and $3,399 for…",
+      "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+      "headlineSource": "Ars Technica",
+      "summarySource": "The Verge",
+      "publishedAt": "2026-10-28T22:56:46.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 12.04,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 1.59,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Apple announces touchscreen MacBook Pro with OLED display",
+          "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Apple breaks with longtime MacBook policy, introduces touchscreen laptops at higher prices",
+          "url": "https://www.foxbusiness.com/technology/apple-breaks-longtime-macbook-policy-introduces-touchscreen-laptops-higher-prices"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
+          "url": "https://www.theverge.com/?p=1021308"
+        }
+      ]
+    }
+  ]
+}

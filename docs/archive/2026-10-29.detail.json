@@ -1,0 +1,2164 @@
+{
+  "edition": "2026-10-29",
+  "generatedAt": "2026-10-29T10:42:27.058Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-29-1ji4ta4",
+      "topic": "world",
+      "title": "At least 68 people dead in Spain’s second major train crash this year",
+      "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 17,
+      "score": 24.61,
+      "scoreComponents": {
+        "breadth": 12.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 17,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+          "description": "Spain's second high-speed rail disaster this year, a crash in which one train struck another from behind, killing 68 people, has raised fresh concerns about the safety of the country's rail network.",
+          "link": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+          "published": "2026-10-29T06:10:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+          "description": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
+          "link": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o",
+          "published": "2026-10-29T08:38:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: At the scene of Spain's deadly train crash",
+          "description": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013.",
+          "link": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo",
+          "published": "2026-10-28T16:45:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know so far about deadly Spain train crash",
+          "description": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
+          "link": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo",
+          "published": "2026-10-29T10:02:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘I held this woman in my arms. She died’: Spain mourns train crash victims",
+          "description": "Second tragedy on line in about nine months raises questions about levels of investment in railway maintenance.",
+          "link": "https://www.aljazeera.com/news/2026/10/29/i-held-this-woman-in-my-arms-she-died-spain-mourns-train-crash-victims?traffic_source=rss",
+          "published": "2026-10-29T08:20:34.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain train crash: PM Sanchez calls for investigation as 3 days of mourning begins",
+          "description": "Emergency crews worked through the night after a high-speed train collision killed 68 people. PM Pedro Sanchez has pledged a full investigation into Spain's second major train accident this year.",
+          "link": "https://www.dw.com/en/spain-train-crash-pm-sanchez-calls-for-investigation-as-3-days-of-mourning-begins/a-79792085?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-29T07:22:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+          "description": "Two high-speed trains carrying hundreds of passengers collided south of Madrid. Spain's transport minister said one of the trains was told to continue its journey despite a \"red signal\" being in effect.",
+          "link": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-28T14:33:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain train crash death toll rises to 69, emergency crews continue operations",
+          "description": "Emergency responders continued operations on Thursday morning, following a deadly train crash in Spain a day earlier that killed at least 69 people. Victims of the deadly train crash were taken to the Institute of Legal Medicine of Toledo for identification. Police, medical and military units could be seen outside the institute, as FRANCE 24’s Sarah Morris reports.",
+          "link": "https://www.france24.com/en/video/20261029-spain-train-crash-death-toll-rises-to-69-emergency-crews-continue-operations",
+          "published": "2026-10-29T10:40:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Desolation, despair': Spain begins three days of mourning after deadly train crash",
+          "description": "Spain entered three days of mourning on Thursday after a high-speed train collision killed 68 people and injured scores. The incident has prompted fresh questions about rail safety and management.",
+          "link": "https://www.france24.com/en/europe/20261029-desolation-despair-spain-begins-three-days-of-mourning-after-deadly-train-crash",
+          "published": "2026-10-29T06:25:15.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain rail crash came after train ordered to go in error: minister",
+          "description": "A rail collision in Spain that claimed at least 68 lives on Wednesday came after a train was ordered to go in \"error\" despite a technical failure that halted all services, the transport minister said. The first findings about the accident in the central region of Castilla-La Mancha are likely to revive questions about rail safety in Spain after another high-speed collision in January killed 46 peo",
+          "link": "https://www.france24.com/en/spain-rail-crash-came-after-train-ordered-to-go-in-error-minister",
+          "published": "2026-10-28T22:30:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rail safety questioned after Spain suffers second fatal high-speed train crash in a year",
+          "description": "Questions are being raised about Spain's rail safety as authorities launch an official investigation into the cause of Wednesday's high-speed train collision, which killed at least 68 people and wounded around 100 more, in the country's second fatal rail crash this year.",
+          "link": "https://www.france24.com/en/europe/20261028-rail-safety-questioned-after-spain-suffers-second-fatal-high-speed-train-crash-in-a-year",
+          "published": "2026-10-28T22:11:42.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "High-speed train crash in Spain kills at least 68, dozens injured",
+          "description": "Dozens of people were killed or injured when a high-speed train crashed into another train in central Spain, officials said.",
+          "link": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+          "published": "2026-10-29T00:26:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Dozens dead as two trains collide in Spain",
+          "description": "A high-speed train crashed into a stopped train in Spain, causing at least 30 deaths. Leigh Kiniry reports.",
+          "link": "https://www.cbsnews.com/video/dozens-dead-as-two-trains-collide-in-spain/",
+          "published": "2026-10-28T12:40:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Train crash kills at least 68 in Spain",
+          "description": "Spain’s transportation minister said it was ‘inexplicable’ how the disaster happened when a high-speed train rear-ended another train that had stopped on the same track. NBC News’ Raf Sanchez reports.",
+          "link": "https://www.nbcnews.com/nightly-news/video/train-crash-kills-at-least-68-in-spain-272442437541",
+          "published": "2026-10-29T00:30:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain train crash leaves at least 68 dead in second major collision this year",
+          "description": "Several Americans are among the injured and the U.S. is working with local authorities to provide help, the State Department said.",
+          "link": "https://www.nbcnews.com/world/spain/spain-train-crash-high-speed-collision-toledo-rcna606070",
+          "published": "2026-10-28T09:50:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
+          "description": "Emergency services, drones and dog unit continue to comb carriages as Civil Guard sets up clinics for relatives to provide DNA samples Spain has begun three days of mourning to commemorate the 68 people who died in a high-speed rail collision as hospitals continue to treat scores of injured passengers and rescuers scour the wreckage of the two trains for victims. The trains – one from Spain’s stat",
+          "link": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+          "published": "2026-10-29T09:29:30.000Z",
+          "categories": [
+            "Spain",
+            "Europe",
+            "Train crashes",
+            "Rail transport"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – as it happened",
+          "description": "Pedro Sánchez says the government will act with urgency to ‘clarify what has happened, why this tragedy occurred’ Full report from Spain At least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with concerns the death toll could be much higher. The number of people affected is expected to rise (10:46), local authorities said, with growin",
+          "link": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+          "published": "2026-10-28T20:53:55.000Z",
+          "categories": [
+            "World news",
+            "Spain",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Is There a ‘Safest Seat’ in a Train Crash? Experts Say It’s Not So Simple.",
+          "description": "After a high-speed collision near Toledo, Spain, killed at least 68 people, rail safety experts said the rough consensus that it is best to sit in the middle of a train has its limits.",
+          "link": "https://www.nytimes.com/2026/10/28/world/europe/spain-train-crash-rail-safety.html",
+          "published": "2026-10-29T03:16:41.000Z",
+          "categories": [
+            "Spain Train Crash (October 28, 2026)",
+            "Railroad Accidents and Safety",
+            "Railroads",
+            "Spain",
+            "Toledo (Spain)"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain Train Crash Kills at Least 68",
+          "description": "The accident, the second in less than a year on the same busy rail line, was one of the deadliest in the country’s history.",
+          "link": "https://www.nytimes.com/2026/10/28/world/europe/spain-train-crash-rescue-victims.html",
+          "published": "2026-10-28T20:26:04.000Z",
+          "categories": [
+            "Spain Train Crash (October 28, 2026)",
+            "Railroad Accidents and Safety",
+            "Railroads",
+            "Spain Train Crash (Jan 18, 2026)",
+            "Deaths (Fatalities)",
+            "Intermodalidad de Levante SA (Iryo)",
+            "Renfe Operadora",
+            "Sanchez Perez-Castejon, Pedro (1972-)",
+            "Madrid (Spain)",
+            "Seville (Spain)",
+            "Spain"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What We Know About the Deadly Train Crash in Spain",
+          "description": "A train accident near Toledo, Spain, which killed at least 68 people, was one of the deadliest in the country’s history.",
+          "link": "https://www.nytimes.com/2026/10/28/world/europe/train-crash-spain.html",
+          "published": "2026-10-28T21:19:40.000Z",
+          "categories": [
+            "Spain Train Crash (October 28, 2026)",
+            "Intermodalidad de Levante SA (Iryo)",
+            "Renfe Operadora",
+            "Toledo (Spain)",
+            "Madrid (Spain)",
+            "Seville (Spain)",
+            "live-detached"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain high-speed railway crash kills at least 68 after train stopped on tracks",
+          "description": "A high-speed RENFE train slammed into a stopped IRYO train in Toledo province, derailing two cars and killing at least 68 people on Wednesday.",
+          "link": "https://www.foxnews.com/world/spain-high-speed-railway-crash-kills-train-stopped-tracks",
+          "published": "2026-10-28T11:08:48.000Z",
+          "categories": [
+            "c6b01eab-0599-5381-805d-e766dbcf85f3",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/spain",
+            "fox-news/world/disasters",
+            "fox-news/world/disasters/transportation",
+            "fox-news/world/world-regions/europe",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spanish rescuers search trains in hope of finding survivors of deadly crash",
+          "description": "The crash on Oct 28 killed at least 68 people.",
+          "link": "https://www.straitstimes.com/world/europe/spanish-rescuers-search-trains-in-hope-of-finding-survivors-of-deadly-crash",
+          "published": "2026-10-29T08:46:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain mourns after latest train tragedy kills 68",
+          "description": "Emergency services combed through the wreckage at night to find further victims.",
+          "link": "https://www.straitstimes.com/world/europe/spain-mourns-after-latest-train-tragedy-kills-68",
+          "published": "2026-10-29T02:21:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain: Madrid mourns train crash victims as rescuers work through the night",
+          "description": "Spain reels from the deadly Toledo high-speed train collision that killed 68 and injured more than 100, sparking grief, protests and calls for resignations.",
+          "link": "https://www.euronews.com/video/2026/10/29/spain-madrid-mourns-train-crash-victims-as-rescuers-work-through-the-night",
+          "published": "2026-10-28T23:10:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain: Rescuers search mangled train wreckage near Toledo",
+          "description": "At least 68 people have been killed and dozens more injured after two high-speed trains collided near Urda, in central Spain’s Toledo province, on Wednesday, 28 October. Authorities warned the toll could rise further as rescuers searched the wreckage.",
+          "link": "https://www.euronews.com/video/2026/10/28/spain-rescuers-search-mangled-train-wreckage-near-toledo",
+          "published": "2026-10-28T15:54:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+          "description": "At least 10 people died when a high-speed train struck another near Toledo, Spain. Two carriages derailed, leaving rescuers searching through the wreckage as authorities warned the death toll could rise.",
+          "link": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+          "published": "2026-10-28T11:16:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "First aerial images show scene of deadly train crash in Toledo, Spain",
+          "description": "Aerial footage shows the aftermath of a collision between two high-speed trains near Urda, in Spain's Toledo province, as emergency crews continue rescue and response operations.",
+          "link": "https://www.euronews.com/2026/10/28/first-aerial-images-show-scene-of-deadly-train-crash-in-toledo-spain",
+          "published": "2026-10-28T11:12:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 68 people dead in Spain’s second major train crash this year",
+          "description": "It was Spain's second fatal rail crash this year and Europe's deadliest since 2013.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/29/world/spain-second-train-crash-dead/",
+          "published": "2026-10-29T04:38:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain begins 3 days of mourning after high-speed train disaster",
+          "description": "Spain began three days of mourning on Thursday after its second high-speed rail collision this year killed 68 people and injured scores, with relatives desperately seeking news about their loved ones. One of Europe’s deadliest train disasters this century has raised fresh questions about safety on Spain’s rail network after the transport minister reported an “error” and “inexplicable circumstances",
+          "link": "https://www.scmp.com/news/world/europe/article/3372573/spain-begins-3-days-mourning-after-high-speed-train-disaster",
+          "published": "2026-10-29T08:31:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain train crash: Audio reveals chilling exchange before deadly collision",
+          "description": "According to the recordings published by Spanish outlets including El País and RTVE, a technical problem had disrupted the automatic signalling system, forcing trains on the affected stretch to stop. The system helps control train movements and prevents trains from entering sections of track when it may be unsafe to do so.",
+          "link": "https://timesofindia.indiatimes.com/world/europe/spain-train-crash-audio-reveals-chilling-exchange-between-operators-before-deadly-collision/articleshow/135299791.cms",
+          "published": "2026-10-29T09:53:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain train crash: Videos capture overturned carriages, passengers, devastation",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/europe/68-killed-in-spain-train-collision-videos-capture-overturned-carriages-injured-passengers-devastation/articleshow/135289949.cms",
+          "published": "2026-10-29T04:51:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Shock, anger and mourning in Spain after 2nd major train crash this year",
+          "description": "There is shock, anger and mourning in Spain after the second fatal train crash this year. At least 68 people have died in what is now the deadliest collision there in more than a decade. William Brangham reports.",
+          "link": "https://www.pbs.org/newshour/show/shock-anger-and-mourning-in-spain-after-2nd-major-train-crash-this-year",
+          "published": "2026-10-28T22:45:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+          "description": "Spain faces fresh concerns about rail safety after a second high-speed train crash this year killed 68 people",
+          "link": "https://www.independent.co.uk/news/world/europe/pedro-sanchez-spain-santiago-abascal-china-toledo-b3075326.html",
+          "published": "2026-10-29T04:01:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Rescue efforts continue into the night after deadly train collision in Spain",
+          "description": "Rescue efforts continue into the night as authorities work through the wreckage of a deadly train collision south of Madrid. At least 68 people were killed in the crash and dozens more injured, with the Spanish prime minister vowing action if \"negligence\" led to the accident.",
+          "link": "https://www.nbcnews.com/video/rescue-efforts-continue-into-the-night-after-deadly-train-collision-in-spain-272428613968",
+          "published": "2026-10-28T21:21:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain: cranes clear twisted train wreckage as rescuers work through the night",
+          "description": "Rescue teams worked through the night at the site of a train collision that killed 68 people near Toledo. Cranes continued clearing the wreckage as authorities set up a temporary morgue to identify victims.",
+          "link": "https://www.euronews.com/video/2026/10/29/spain-cranes-clear-twisted-train-wreckage-as-rescuers-work-through-the-night",
+          "published": "2026-10-29T10:32:27.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-29-5gbjk1",
+      "topic": "world",
+      "title": "Here’s what could follow Israel’s bitterly contested elections",
+      "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "headlineSource": "Christian Science Monitor",
+      "sourceCount": 12,
+      "score": 23.18,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+          "description": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+          "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo",
+          "published": "2026-10-28T20:24:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel election: Netanyahu-led bloc holds lead with nearly 90% of votes counted",
+          "description": "With nearly 90% of votes counted, the pro-Netanyahu bloc is just ahead of the anti-Netanyahu bloc, but neither grouping is expected to win a majority, with tough coalition talks ahead. Follow DW.",
+          "link": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-90-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-29T06:36:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Israelis await final election results, with no majority in sight",
+          "description": "With more than 90% of the ballots counted on Thursday, Israeli Prime Minister Benjamin Netanyahu's bloc has gained 53 seats, with the opposition at 67, including 48 for Gadi Eisenkot's centrist bloc and 19 for the Arab-majority parties. The Israeli president called on the parties on Wednesday to \"do everything\" to form a government coalition and avoid a return to the polls. Follow our liveblog for",
+          "link": "https://www.france24.com/en/middle-east/20261029-live-israeli-elections-are-coming-to-a-close-with-no-majority-to-be-seen",
+          "published": "2026-10-29T03:36:46.000Z",
+          "categories": [
+            "Middle East"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Historic gains for Arab-majority parties in Israeli election",
+          "description": "Two Arab-majority parties are set to win a historic 19 seats in total, amid a record turnout at the polls in Israel on Tuesday. Voters from the community, descendants of Palestinians who stayed after Israel's creation and who make up around 20 percent of the population, have been enraged by the Netanyahu government's ultra-nationalist Jewish vision for the country and the Palestinian territories. ",
+          "link": "https://www.france24.com/en/historic-gains-for-arab-majority-parties-in-israeli-election",
+          "published": "2026-10-28T20:32:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israel election results live: Netanyahu accused of ‘ugly delegitimisation campaign’ after his claims about Arab parties",
+          "description": "Israeli police dismiss Likud’s claim election ‘stolen’ by parties representing Palestinians as count of absentee ballots continues Full report: Coalition talks loom in Israel Analysis: Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition Gadi Eisenkot, leader of the Yashar party and Benjamin Netanyahu’s main rival, has warned political opponents against exploiting allega",
+          "link": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+          "published": "2026-10-29T10:04:39.000Z",
+          "categories": [
+            "Israel",
+            "Middle East and north Africa",
+            "Israel-Gaza war",
+            "Benjamin Netanyahu"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Netanyahu bloc loses majority as most ballots counted – as it happened",
+          "description": "This live blog is now closed – you can read the latest elections news here One apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections. But instead there was stunned silence at the watch party for Otzma Yehudit (Jewish Power) in central Israel as results from the exit polls f",
+          "link": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+          "published": "2026-10-29T00:24:12.000Z",
+          "categories": [
+            "Israel",
+            "Israel-Gaza war",
+            "Benjamin Netanyahu",
+            "Middle East and north Africa"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Coalition talks loom in Israel as Netanyahu and Eisenkot blocs set to fall short of majority",
+          "description": "Projections show votes for Palestinian parties surged in a tight contest that drew highest turnout in decades Israel election results – live updates Analysis: Rise of Palestinian parties in Knesset will redraw Israel’s political landscape Israel’s future hung in the balance on Wednesday as it became clear that Benjamin Netanyahu had lost his governing majority. His political fate now depends on wh",
+          "link": "https://www.theguardian.com/world/2026/oct/28/israel-election-exit-polls-suggest-netanyahu-eisenkot-blocs-tied-ntwnfb",
+          "published": "2026-10-28T19:58:27.000Z",
+          "categories": [
+            "Israel",
+            "Benjamin Netanyahu",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition",
+          "description": "Incumbent could turn defeat into another term in office as rival parties erect confected barrier to unseating him Israel election results – live updates Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political landscape Hours before the final results from Israel’s elections were in, several things were clear. Benjamin Netanyahu’s far-right coalition h",
+          "link": "https://www.theguardian.com/world/2026/oct/28/israel-elections-choice-netanyahu-remaining-power-or-palestinian-backed-coalition",
+          "published": "2026-10-28T18:54:10.000Z",
+          "categories": [
+            "Israel",
+            "World news",
+            "Benjamin Netanyahu",
+            "Middle East and north Africa",
+            "Palestine"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to Make of Israel’s Ambiguous Election",
+          "description": "Neither Benjamin Netanyahu nor his rivals won a majority, leaving Arab lawmakers as potential kingmakers in the new Parliament.",
+          "link": "https://www.nytimes.com/2026/10/28/world/israel-election-results-spain-train.html",
+          "published": "2026-10-29T05:04:25.000Z",
+          "categories": [
+            "internal-open-access-from-nl",
+            "Elections",
+            "Likud Party (Israel)",
+            "Netanyahu, Benjamin",
+            "Eisenkot, Gadi",
+            "Abbas, Mahmoud",
+            "Spain",
+            "Lauren, Ralph"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israel’s opposition may not be able to form a government, but it still could control Parliament.",
+          "description": "",
+          "link": "https://www.nytimes.com/live/2026/10/28/world/israel-elections/israels-opposition-may-not-be-able-to-form-a-government-but-it-still-could-control-parliament",
+          "published": "2026-10-28T18:38:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel: opposition supporters celebrate narrow lead in exit polls",
+          "description": "Supporters of Gadi Eisenkot celebrated in Tel Aviv as exit polls gave Israel's opposition bloc a narrow lead over Benjamin Netanyahu's camp, but no outright parliamentary majority.",
+          "link": "https://www.euronews.com/video/2026/10/28/israel-opposition-supporters-celebrate-narrow-lead-in-exit-polls",
+          "published": "2026-10-27T23:31:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israel polls: Netanyahu cries foul; poll chief orders probe into 'foreign hand'",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/middle-east/israel-polls-poll-chief-orders-probe-into-foreign-interference-netanyahu-levels-big-charge-top-developments/articleshow/135299653.cms",
+          "published": "2026-10-29T09:52:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How could Israel break election deadlock? Here are four scenarios",
+          "description": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+          "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo",
+          "published": "2026-10-29T09:06:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Here’s what could follow Israel’s bitterly contested elections",
+          "description": "There are three main options for Israel’s political path forward. None would be simple or easy.",
+          "link": "https://www.csmonitor.com/World/Middle-East/2026/1028/israel-elections-stalemate-netanyahu-opposition-arabs?icid=rss",
+          "published": "2026-10-28T21:15:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Explainer-How could Israel break the election deadlock?",
+          "description": "JERUSALEM, Oct 29 - Israel's election this week was indecisive and there is no clear winner poised to form a government. Benjamin Netanyahu remains in office as caretaker prime minister, but faces a parliament stacked with an opposition majority vying to oust him.",
+          "link": "https://www.straitstimes.com/world/middle-east/explainer-how-could-israel-break-the-election-deadlock",
+          "published": "2026-10-29T09:32:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Europe Today: Israel faces deadlock after vote, Nordic leaders hold rare Putin call",
+          "description": "Israel's election has ended in apparent deadlock, with neither Benjamin Netanyahu nor Gadi Eisenkot on track for a majority. Finland's and Norway's leaders have phoned Vladimir Putin as Europe seeks a seat at the table. We also cover Serbia's vote, the upcoming US midterms, and Mbappé's China row.",
+          "link": "https://www.euronews.com/2026/10/28/europe-today-israel-faces-deadlock-after-vote-nordic-leaders-hold-rare-putin-call",
+          "published": "2026-10-28T07:01:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israel election results live: Trump says he’s watching coalition talks as police dismiss Netanyahu’s election theft claims",
+          "description": "Netanyahu has accused Arab-Israeli parties of ‘stealing’ the election after a strong performance that could make them kingmakers",
+          "link": "https://www.independent.co.uk/news/world/middle-east/israel-election-results-live-netanyahu-eisenkot-trump-palestine-b3075351.html",
+          "published": "2026-10-29T10:12:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Four scenarios that could play out after Israel’s election as Netanyahu tries to cling onto power",
+          "description": "With the majority of ballots counted, neither Netanyahu nor Gadi Eisenkot commands an obvious route to a 61-seat majority",
+          "link": "https://www.independent.co.uk/news/world/middle-east/israel-elections-2026-results-who-won-netanyahu-coalition-b3075329.html",
+          "published": "2026-10-29T04:17:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "No clear winner in Israeli election as polls suggest stalemate",
+          "description": "Israeli Prime Minister Benjamin Netanyahu appears to have won fewer votes than his main challenger, according to early exit polls, but both sides will likely struggle to cobble together a coalition.",
+          "link": "https://www.cbsnews.com/news/israel-election-exit-polls-stalemate/",
+          "published": "2026-10-28T15:00:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "No official winner yet in Israeli election as votes continue to be counted",
+          "description": "Votes are still being counted in the Israeli election between front-runners Prime Minister Benjamin Netanyahu and Gadi Eisenkot with neither likely to obtain a majority. Matt Gutman reports.",
+          "link": "https://www.cbsnews.com/video/no-official-winner-yet-in-israeli-election-as-votes-continue-to-be-counted/",
+          "published": "2026-10-28T13:09:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Netanyahu fighting for his political life in Israeli election",
+          "description": "Israelis voted in one of the most important elections on Tuesday, with the potential to oust Prime Minister Benjamin Netanyahu and help shape the future of the war with Iran, the Gaza Strip and America's relationship with the Middle East. Matt Gutman reports from Tel Aviv.",
+          "link": "https://www.cbsnews.com/video/netanyahu-fighting-political-life-israeli-election/",
+          "published": "2026-10-28T00:17:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "With No Clear Winner, How Could Israel Get a Prime Minister?",
+          "description": "Deadlock is possible, as neither the bloc of Prime Minister Benjamin Netanyahu nor his main challenger appear likely to win a majority. But there are still paths to a new government.",
+          "link": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-election-coalition-scenarios.html",
+          "published": "2026-10-29T09:54:25.000Z",
+          "categories": [
+            "Israel",
+            "Elections",
+            "Netanyahu, Benjamin",
+            "Eisenkot, Gadi",
+            "Politics and Government",
+            "Legislatures and Parliaments"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Israel’s Parties Gird for Wrangling to Form a Government, With No Clear Path",
+          "description": "Votes are still being counted, but it appears that neither Prime Minister Benjamin Netanyahu’s right-wing coalition nor the opposition alliance headed by Gadi Eisenkot will have a majority.",
+          "link": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-government-formation-negotiation.html",
+          "published": "2026-10-29T02:27:45.000Z",
+          "categories": [
+            "Elections",
+            "Jews and Judaism",
+            "Arabs",
+            "Legislatures and Parliaments",
+            "Likud Party (Israel)",
+            "Raam Party (Israel)",
+            "Netanyahu, Benjamin",
+            "Eisenkot, Gadi",
+            "Herzog, Isaac",
+            "Abbas, Mansour",
+            "Israel",
+            "Hamas"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Netanyahu defies exit polls as vote shifts in his favor, but majority remains elusive",
+          "description": "With 70% of votes counted, Benjamin Netanyahu's Likud leads, but three possible paths to government formation keep Israel's election uncertain.",
+          "link": "https://www.foxnews.com/world/netanyahu-defies-exit-polls-vote-shifts-his-favor-majority-remains-elusive",
+          "published": "2026-10-28T10:10:20.000Z",
+          "categories": [
+            "1ff26e8e-8a3b-5da4-8f34-bb8c8ad28a80",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/israel",
+            "fox-news/politics/elections",
+            "fox-news/person/benjamin-netanyahu",
+            "fox-news/politics",
+            "fox-news/world",
+            "fox-news/world/world-elections",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "How Netanyahu Used Fear, Again, to Win More Votes Than Anyone Else",
+          "description": "Despite years of political baggage, the Israeli prime minister outperformed expectations, and his rivals, by playing on Jewish voters’ fears of Arab political power and potential security threats.",
+          "link": "https://www.nytimes.com/2026/10/29/world/middleeast/netanyahu-fear-election-votes.html",
+          "published": "2026-10-29T10:29:00.000Z",
+          "categories": [
+            "International Relations",
+            "Bennett, Naftali",
+            "Eisenkot, Gadi",
+            "Katz, Yaakov",
+            "Lieberman, Avigdor",
+            "Netanyahu, Benjamin",
+            "Trump, Donald J",
+            "Iran",
+            "Israel",
+            "Jerusalem (Israel)"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Surprise Showing by Arab Parties in Israeli Vote Puts Them in Spotlight",
+          "description": "The Arab parties have long been kept on the political sidelines. But stunning turnout by their supporters makes the Arab minority an Israeli political reality that cannot be ignored.",
+          "link": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-arab-parties.html",
+          "published": "2026-10-29T00:25:15.000Z",
+          "categories": [
+            "Abbas, Mansour",
+            "Eisenkot, Gadi",
+            "Netanyahu, Benjamin",
+            "Segalovitz, Yoav (1959-)",
+            "Hamas",
+            "Joint List (Israel)",
+            "Raam Party (Israel)",
+            "Supreme Court of Israel",
+            "Politics and Government",
+            "Israel-Gaza War (2023-)",
+            "Legislatures and Parliaments",
+            "Arabs",
+            "Palestinians",
+            "Israel",
+            "Gaza Strip",
+            "West Bank"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Netanyahu alleges fraud as Arab parties score record gains — emerge as potential kingmakers",
+          "description": "Benjamin Netanyahu alleges Israel's election was \"stolen by Arab parties,\" demanding police investigate as Arab voter turnout hit record levels.",
+          "link": "https://www.foxnews.com/world/netanyahu-alleges-fraud-arab-parties-score-record-gains-emerge-potential-kingmakers",
+          "published": "2026-10-29T10:12:44.000Z",
+          "categories": [
+            "3d28d4c1-ea45-5a74-857e-38699daa1f1d",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/israel",
+            "fox-news/person/benjamin-netanyahu",
+            "fox-news/world/hamas",
+            "fox-news/politics/foreign-policy/middle-east",
+            "fox-news/world/world-elections",
+            "fox-news/world",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-29-1qtmrm9",
+      "topic": "world",
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "summary": "Another member of Brazil's Bolsonaro family has found haven from possible prosecution by fleeing to the U.S., where they have an ally in President Trump. Just three days after losing Brazil's presidential election, Flávio Bolsonaro, who faces multiple…",
+      "headlineSource": "BBC News",
+      "sourceCount": 15,
+      "score": 21.59,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 15,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+          "description": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+          "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo",
+          "published": "2026-10-29T01:14:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How did Flávio Bolsonaro end up in Miami?",
+          "description": "BBC Verify has pieced together defeated presidential candidate Flávio Bolsonaro's journey through Brazil, Argentina and Ecuador to reach Miami.",
+          "link": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o",
+          "published": "2026-10-28T18:51:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "From election defeat to Miami: What to know about Brazil's Bolsonaro's dramatic departure to the US",
+          "description": "Flávio Bolsonaro fled to Miami with his family after his defeat by Luiz Inácio Lula da Silva in Brazil’s presidential election. The 45-year-old ally of US President Donald Trump arrived in Florida on Wednesday, despite Brazil’s Supreme Court reportedly deeming him a flight risk amid ongoing corruption investigations and ordering his passports seized. FRANCE 24 International Affairs Editor Philip T",
+          "link": "https://www.france24.com/en/video/20261029-from-election-defeat-to-miami-what-to-know-about-brazil-s-bolsonaro-s-dramatic-departure-to-the-us",
+          "published": "2026-10-29T10:33:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+          "description": "Far-right senator and family land in US after crossing from Brazil into Argentina and then flying via Ecuador Flávio Bolsonaro declared himself the “true president” of Brazil after losing last Sunday’s presidential election and fleeing to the United States. After landing on a private jet with his family in Miami, Florida, on Wednesday morning, the far-right senator published the claim in a letter ",
+          "link": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+          "published": "2026-10-28T22:06:46.000Z",
+          "categories": [
+            "Flávio Bolsonaro",
+            "Brazil",
+            "US news",
+            "Miami",
+            "Florida",
+            "Americas",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
+          "description": "Mr. Bolsonaro, who lost Sunday’s presidential election, fled Brazil for the United States via Argentina after the police canceled his passport in relation to an investigation.",
+          "link": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
+          "published": "2026-10-29T06:01:06.000Z",
+          "categories": [
+            "United States International Relations",
+            "Politics and Government",
+            "Passports",
+            "Money Laundering",
+            "State Department",
+            "Bolsonaro, Flavio",
+            "Bolsonaro, Jair (1955-)",
+            "Da Silva, Luiz Inacio Lula",
+            "Trump, Donald J",
+            "Brazil",
+            "Argentina",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazil's Fl&aacute;vio Bolsonaro flees to U.S. after election loss",
+          "description": "Another member of Brazil's Bolsonaro family has found haven from possible prosecution by fleeing to the U.S., where they have an ally in President Trump. Just three days after losing Brazil's presidential election, Flávio Bolsonaro, who faces multiple criminal investigations, defied a Brazilian court and left the country. Stephanie Sy discussed more with Brian Winter of America's Quarterly.",
+          "link": "https://www.pbs.org/newshour/show/brazils-flavio-bolsonaro-flees-to-u-s-after-election-loss",
+          "published": "2026-10-28T22:35:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bolsonaro denies fleeing Brazil in first public statement after landing in US",
+          "description": "Bolsonaro declares himself ‘leader’ of Brazilian people upon landing in Miami",
+          "link": "https://www.independent.co.uk/news/world/americas/flavio-bolsonaro-brazil-election-miami-trump-b3075317.html",
+          "published": "2026-10-29T05:01:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Brazilians split over Flavio Bolsonaro’s exit to US",
+          "description": "Brazilians are split over Flavio Bolsonaro fleeing to the US after refusing to concede the election to President Lula.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/brazilians-split-over-flavio-bolsonaros-exit-to-us-2?traffic_source=rss",
+          "published": "2026-10-29T09:12:40.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
+          "description": "Flavio Bolsonaro declared himself the rightful leader of his country despite losing the presidential election runoff on Sunday. He and his family have fled to the US.",
+          "link": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-28T22:26:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flavio Bolsonaro claims he is Brazil's true leader after fleeing to US",
+          "description": "Brazil's defeated right-wing presidential candidate Flavio Bolsonaro insisted Wednesday he is his country's rightful leader after arriving in the United States to start a self-imposed exile. Bolsonaro's defiance on fleeing to Florida signaled continued upheaval for Brazil, where leftist President Luiz Inacio Lula da Silva won a dramatic runoff election Sunday. FRANCE 24's Sharon Gaffney speaks wit",
+          "link": "https://www.france24.com/en/tv-shows/a-propos/20261028-flavio-bolsonaro-claims-he-is-brazil-s-true-leader-after-fleeing-to-us",
+          "published": "2026-10-28T22:15:03.000Z",
+          "categories": [
+            "A propos"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Defiant Bolsonaro breaks silence after fleeing Brazil for the US",
+          "description": "Flavio Bolsonaro has called himself the \"leader of Brazil\" - despite losing the presidential election.",
+          "link": "https://news.sky.com/story/flavio-bolsonaro-insists-he-is-leader-of-brazil-despite-losing-election-run-off-13605006",
+          "published": "2026-10-28T19:48:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flávio Bolsonaro leaves Brazil, lands in U.S. after election loss",
+          "description": "Flávio Bolsonaro, who lost Brazil's presidential election, left the country with his family and State Department official told CBS News they would receive U.S. visas.",
+          "link": "https://www.cbsnews.com/news/brazil-flavio-bolsonaro-u-s-visa-presidential-election-loss/",
+          "published": "2026-10-28T20:57:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Brazil’s Flávio Bolsonaro arrives in U.S. after losing election",
+          "description": "Brazilian Sen. Flávio Bolsonaro and his family have arrived in Miami, where the U.S. government will grant them entry visas after he refused to comply with Brazil’s order to surrender his passports. NBC News’ Carlos Curbelo explains how Bolsonaro was granted entry and its impact on U.S.-Brazil relations.",
+          "link": "https://www.nbcnews.com/video/brazil-s-flavio-bolsonaro-arrives-in-u-s-after-losing-election-272444997786",
+          "published": "2026-10-29T01:35:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flavio Bolsonaro’s escape to the US: How it happened",
+          "description": "AFP takes a look at the frenzied 24-hours that left the world scratching its head as Bolsonaro went off the grid.",
+          "link": "https://www.straitstimes.com/world/flavio-bolsonaros-escape-to-the-us-how-it-happened",
+          "published": "2026-10-29T00:17:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bolsonaro claims he is Brazil's true leader after fleeing to US",
+          "description": "US President Donald Trump's administration has strong links to Bolsonaro and his father Jair Bolsonaro, who is under house arrest in Brazil after attempting to overturn his own electoral loss to Lula in 2022.",
+          "link": "https://www.euronews.com/2026/10/29/bolsonaro-claims-he-is-brazils-true-leader-after-fleeing-to-us",
+          "published": "2026-10-29T05:09:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Flavio Bolsonaro arrives in Miami after fleeing Brazil",
+          "description": "On Monday, Bolsonaro described the travel ban as an attempt to intimidate him, insisting he had no plans to leave Brazil.",
+          "link": "https://www.euronews.com/2026/10/28/us-to-grant-flavio-bolsonaro-visa-as-he-flees-brazil-and-makes-brief-stop-in-ecuador-via-a",
+          "published": "2026-10-28T11:14:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How Flavio Bolsonaro pulled off a clandestine escape to the US",
+          "description": "Flavio Bolsonaro’s clandestine escape to the United States bewildered Brazil and triggered a frantic search for his whereabouts. The Supreme Court had ordered the son of jailed ex-leader Jair Bolsonaro to forfeit his passports after his electoral loss on Sunday, amid fears he would leave the country due to ongoing investigations against him. But the defeated right-wing presidential candidate faile",
+          "link": "https://www.scmp.com/news/world/americas/article/3372545/how-flavio-bolsonaro-pulled-clandestine-escape-us",
+          "published": "2026-10-29T06:14:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Decoys, secret jet and Trump's help: How Bolsonaro pulled off his escape to US",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/us/decoys-secret-jet-and-trumps-help-how-bolsonaro-pulled-off-his-escape-from-brazil-to-us/articleshow/135297514.cms",
+          "published": "2026-10-29T08:34:37.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-29-3b54xv",
+      "topic": "world",
+      "title": "Hegseth fires Pentagon’s top military planner as Trump weighs new Iran strikes",
+      "summary": "US Defence Secretary Pete Hegseth has fired the Pentagon’s top military planner, a defence official said on Wednesday, the latest in a series of generals to be ousted and one that comes even as President Donald Trump weighed renewed strikes on Iran in the…",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 9,
+      "score": 20.03,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "How to stop the US-Israel war on Iran",
+          "description": "Arab states must reject Israeli hegemony and build a regional security framework independent of Washington.",
+          "link": "https://www.aljazeera.com/opinions/2026/10/29/how-to-stop-the-us-israel-war-on-iran?traffic_source=rss",
+          "published": "2026-10-29T07:54:51.000Z",
+          "categories": [
+            "Opinions"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "8-month Iran war looms large over Israeli election",
+          "description": "Israelis voted in a national election set to shape the country's next government, with the Iran war looming large over their decisions.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/",
+          "published": "2026-10-28T03:48:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran war has cost $47 billion, U.S. military says",
+          "description": "The war with Iran has cost the U.S. military at least $47.1 billion as of mid-October, according to a new estimate from U.S. Central Command obtained by CBS News.",
+          "link": "https://www.cbsnews.com/news/iran-war-cost-centcom-47-billion/",
+          "published": "2026-10-28T03:29:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
+          "description": "Lieutenant General Brett Sylvia was removed as head of strategy, plans and policy on the Joint Chiefs of Staff.",
+          "link": "https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html",
+          "published": "2026-10-29T07:35:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "American taxpayers' bill for Iran war grows to estimated $47.1 billion",
+          "description": "The Republican president has said new strikes on Iran are an option after the midterms and is sending more military resources to the Middle East, despite initially promising Americans a military campaign that would last only a matter of weeks.",
+          "link": "https://www.pbs.org/newshour/world/american-taxpayers-bill-for-iran-war-grows-to-estimated-47-1-billion",
+          "published": "2026-10-28T19:40:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hegseth ousted top military strategist from Pentagon, sources say",
+          "description": "Defense Secretary Pete Hegseth ousted a top military strategist from the Pentagon, The Hill has learned, marking another senior officer who has been removed from the department since Hegseth took the helm close to two years ago. Hegseth fired Army Lt. Gen. Brett Sylvia, who was the Director for Strategy, Plans and Policy, J-5 on...",
+          "link": "https://thehill.com/policy/defense/6180055-hegseth-ousted-military-strategist-syllia/",
+          "published": "2026-10-29T02:05:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hegseth fires top Pentagon war planner Brett Sylvia in latest military shake-up",
+          "description": "Army Lt. Gen. Brett Sylvia is the second general to be ousted from the post under Hegseth.",
+          "link": "https://nypost.com/2026/10/29/us-news/hegseth-fires-top-pentagon-war-planner-brett-sylvia-in-latest-military-shake-up/",
+          "published": "2026-10-29T06:20:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US fires top army general in latest ouster: Report",
+          "description": "Pete Hegseth said in September that the US had cut the number of generals and admirals by 20%.",
+          "link": "https://www.straitstimes.com/world/united-states/us-fires-top-army-general-in-latest-ouster-report",
+          "published": "2026-10-29T09:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hegseth fires Pentagon’s top military planner as Trump weighs new Iran strikes",
+          "description": "US Defence Secretary Pete Hegseth has fired the Pentagon’s top military planner, a defence official said on Wednesday, the latest in a series of generals to be ousted and one that comes even as President Donald Trump weighed renewed strikes on Iran in the eight-month-long war. US Army Lieutentant General Brett Sylvia was removed as head of strategy, plans and policy on the Joint Chiefs of Staff. H",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3372530/hegseth-fires-pentagons-top-military-planner-trump-weighs-new-iran-strikes",
+          "published": "2026-10-29T04:54:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pete Hegseth axes Pentagon chief strategist just as Donald Trump reportedly plots new Iran blitz",
+          "description": "Defense Secretary Pete Hegseth has fired the Pentagon’s top military planner, a defense official said Wednesday",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/brett-syliva-pentagon-pete-hegseth-fired-iran-b3075470.html",
+          "published": "2026-10-29T09:48:59.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-29-1fm33vn",
+      "topic": "world",
+      "title": "Bahamas: King Charles III dances with locals during Caribbean visit",
+      "summary": "King Charles III showed off his dance moves during a colourful Junkanoo street parade in Nassau, the capital of the Bahamas, on Wednesday, 28 October, as part of his first Caribbean tour since becoming monarch.",
+      "headlineSource": "Euronews",
+      "sourceCount": 5,
+      "score": 18.99,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: King dances in the streets of the Bahamas capital",
+          "description": "The monarch is in the Bahamas as part of a tour of the Caribbean during which he addressed the \"great suffering of the past\".",
+          "link": "https://www.bbc.co.uk/news/videos/cm87zwe3ydp1o",
+          "published": "2026-10-28T20:44:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Dancing King! Charles gets in the carnival spirit during Bahamas visit and enjoys a celebratory Junkanoo street parade",
+          "description": "A joyful King Charles danced and played a pair of Bahamian hand bells as he threw himself - quite literally - into the carnival spirit.",
+          "link": "https://www.dailymail.com/news/royals/article-16247571/Dancing-King-Charles-carnival-spirit-Bahamas-visit-Junkanoo.html",
+          "published": "2026-10-29T10:00:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bahamas: King Charles III dances with locals during Caribbean visit",
+          "description": "King Charles III showed off his dance moves during a colourful Junkanoo street parade in Nassau, the capital of the Bahamas, on Wednesday, 28 October, as part of his first Caribbean tour since becoming monarch.",
+          "link": "https://www.euronews.com/video/2026/10/29/bahamas-king-charles-iii-dances-with-locals-during-caribbean-visit",
+          "published": "2026-10-29T07:56:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "King Charles III can't escape Britain's role in slavery as he tours Caribbean nations",
+          "description": "Facing demands that Britain apologize and pay reparations, palace officials say Charles will reiterate previous comments that slavery was an \"atrocity that forever stains our history,\" while stopping short of an apology.",
+          "link": "https://www.pbs.org/newshour/world/king-charles-iii-cant-escape-britains-role-in-slavery-as-he-tours-caribbean-nations",
+          "published": "2026-10-28T23:49:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "King Charles to discuss legacy of slavery with Commonwealth leaders at summit",
+          "description": "Royal tour of Caribbean comes as poll suggests majority support among younger Britons for dialogue on slavery reparations King Charles has confirmed he will discuss the legacy of slavery at a summit with Commonwealth leaders as he begins his Caribbean tour. The king arrived in the Bahamas on Tuesday to a ceremonial welcome and attended a youth rally at Clifford Park, the site where the country off",
+          "link": "https://www.theguardian.com/world/2026/oct/28/king-charles-confirms-he-will-discuss-legacy-of-slavery-at-commonwealth-summit",
+          "published": "2026-10-28T06:55:35.000Z",
+          "categories": [
+            "Commonwealth summit",
+            "Reparations and reparative justice",
+            "King Charles III",
+            "Caribbean",
+            "Bahamas",
+            "World news",
+            "Americas",
+            "UK news",
+            "Slavery",
+            "Commonwealth of Nations",
+            "Monarchy",
+            "British empire",
+            "Colonialism"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-29-m18pga",
+      "topic": "business",
+      "title": "Fed holds interest rates steady in last decision before midterms",
+      "summary": "In our news wrap Wednesday, the Federal Reserve held interest rates unchanged even as officials acknowledged that inflation remains elevated, the federal judge overseeing the prosecution of former Venezuelan president Nicolas Maduro died at the age of 92 and…",
+      "headlineSource": "Guardian Business",
+      "sourceCount": 7,
+      "score": 18.55,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.35,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 4,
+        "specialistShare": 0.57,
+        "votes": {
+          "tech": 1,
+          "business": 4,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "US makes interest rate decision - as Bank of England verdict looms",
+          "description": "The Federal Reserve has left interest rates unchanged - despite persistently high inflation and repeated calls from Donald Trump to lower borrowing costs.",
+          "link": "https://news.sky.com/story/us-federal-reserve-holds-interest-rates-ahead-of-possible-bank-of-england-hike-13605142",
+          "published": "2026-10-28T23:51:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Federal Reserve holds interest rates steady as midterm elections loom",
+          "description": "Markets expect the central bank to hold rates steady for now.",
+          "link": "https://abcnews.com/Business/federal-reserve-set-issue-interest-rate-decision-midterm/story?id=137599228",
+          "published": "2026-10-28T21:15:28.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "News Wrap: Fed holds interest rates unchanged as inflation remains elevated",
+          "description": "In our news wrap Wednesday, the Federal Reserve held interest rates unchanged even as officials acknowledged that inflation remains elevated, the federal judge overseeing the prosecution of former Venezuelan president Nicolas Maduro died at the age of 92 and hundreds of passengers aboard a cruise ship found themselves stranded in Cambodia after their trip was cut short due to high fuel prices.",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-fed-holds-interest-rates-unchanged-as-inflation-remains-elevated",
+          "published": "2026-10-28T22:40:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
+          "description": "Federal Reserve officials are expected to restart rate increases in December, but the cadence of additional moves will depend on the data.",
+          "link": "https://www.nytimes.com/2026/10/29/business/economy/federal-reserve-interest-rates.html",
+          "published": "2026-10-29T09:03:21.000Z",
+          "categories": [
+            "Inflation (Economics)",
+            "Banking and Financial Institutions",
+            "United States Economy",
+            "Interest Rates",
+            "United States Politics and Government",
+            "Artificial Intelligence",
+            "Treasury Department",
+            "Federal Reserve System",
+            "Cook, Lisa D",
+            "Sahm, Claudia",
+            "Trump, Donald J"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Fed Will Hold Fewer Rate-Setting Meetings Starting Next Year",
+          "description": "Kevin M. Warsh, the Federal Reserve’s chairman, said the central bank would vote on interest rates seven times in 2027 and six in 2028. It has traditionally voted eight times per year.",
+          "link": "https://www.nytimes.com/2026/10/28/business/economy/fed-meetings-2027-interest-rates-warsh.html",
+          "published": "2026-10-28T20:02:56.000Z",
+          "categories": [
+            "Banking and Financial Institutions",
+            "Interest Rates",
+            "Regulation and Deregulation of Industry",
+            "Federal Reserve System",
+            "Warsh, Kevin M"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How the Fed’s Interest Rate Decision Affects Credit Cards, Loans and More",
+          "description": "The Federal Reserve left its benchmark rate untouched, but a December hike could make holiday borrowing more costly.",
+          "link": "https://www.nytimes.com/2026/10/28/business/economy/fed-interest-rates-credit-cards-loans.html",
+          "published": "2026-10-28T18:09:22.000Z",
+          "categories": [
+            "Interest Rates",
+            "Inflation (Economics)",
+            "Credit and Debt",
+            "Personal Finances",
+            "Credit Cards",
+            "Banking and Financial Institutions",
+            "United States Economy",
+            "Federal Reserve System"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Fed Holds Rates Steady Despite Lack of Progress on Inflation",
+          "description": "Kevin M. Warsh, the chairman of the Federal Reserve, said an “information-rich” period before the central bank’s gathering in December will help officials determine next steps for policy.",
+          "link": "https://www.nytimes.com/2026/10/28/business/economy/warsh-interest-rates-fed.html",
+          "published": "2026-10-28T21:27:49.000Z",
+          "categories": [
+            "Banking and Financial Institutions",
+            "live-detached",
+            "Interest Rates",
+            "Inflation (Economics)",
+            "Midterm Elections (2026)",
+            "Federal Reserve System",
+            "Warsh, Kevin M"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Fed holds interest rates steady in last decision before midterms",
+          "description": "Fed chair Kevin Warsh said politics played no role in pause of interest rate hikes, despite inflation remaining above 3% The US Federal Reserve left interest rates unchanged on Wednesday during its last board meeting before the midterm elections, keeping rates at one of the highest pre-election levels seen in over 20 years. Two out of 12 board members voted against the pause, preferring to raise r",
+          "link": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
+          "published": "2026-10-28T19:26:41.000Z",
+          "categories": [
+            "Federal Reserve",
+            "US news",
+            "US politics",
+            "Donald Trump",
+            "World news",
+            "US economy",
+            "Business",
+            "Inflation",
+            "US interest rates"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Federal Reserve makes interest rate decision ahead of midterms",
+          "description": "Federal Reserve policymakers left interest rates unchanged at their October meeting ahead of next week's midterm elections while inflation remains elevated.",
+          "link": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-october-28-2026",
+          "published": "2026-10-28T18:00:55.000Z",
+          "categories": [
+            "3cac0f9c-c554-58e3-a502-41cdf9fcd500",
+            "fbn",
+            "Fox Business",
+            "fox-business/politics/the-fed",
+            "fox-news/fox-news-us/fox-news-economy/inflation",
+            "fox-business/markets/economy",
+            "fox-business/economic-indicators",
+            "fox-business/kevin-warsh",
+            "kalshi",
+            "fox-business/economy",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+          "description": "Even though the interest-rate vote went as expected, there were a few surprises out of this week's Federal Open Market Committee meeting.",
+          "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+          "published": "2026-10-28T21:31:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Takeaways from Warsh’s news conference.",
+          "description": "",
+          "link": "https://www.nytimes.com/live/2026/10/28/business/fed-meeting-warsh-interest-rates/takeaways-from-warshs-news-conference",
+          "published": "2026-10-28T19:43:34.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-29-1f0c0h4",
+      "topic": "business",
+      "title": "The major reason Microsoft’s stock is heading higher after earnings",
+      "summary": "Alphabet and Microsoft reported strong earnings fueled by growing AI demand, even as the tech giants continue investing billions in data centers and cloud infrastructure.",
+      "headlineSource": "MarketWatch",
+      "sourceCount": 6,
+      "score": 17.96,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "tech",
+        "reconciled": "tech -> business by headline",
+        "outlets": 6,
+        "specialistOutlets": 5,
+        "specialistShare": 0.83,
+        "votes": {
+          "tech": 4,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Alphabet falls 10% in premarket, putting it on course for its biggest ever post-earnings drop",
+          "description": "Alphabet reported a larger negative free cash flow than analysts had expected while maintaining its spending gudiance for the year.",
+          "link": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+          "published": "2026-10-29T08:54:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Alphabet, Microsoft earnings reveal surging AI demand as spending soars",
+          "description": "Alphabet and Microsoft reported strong earnings fueled by growing AI demand, even as the tech giants continue investing billions in data centers and cloud infrastructure.",
+          "link": "https://www.foxbusiness.com/technology/alphabet-microsoft-earnings-reveal-surging-ai-demand-spending-soars",
+          "published": "2026-10-29T00:45:28.000Z",
+          "categories": [
+            "6fea196e-4485-5057-8f49-09b9b4098360",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/technology",
+            "fox-business/organization/microsoft",
+            "fox-business/markets/earnings",
+            "fox-business/markets",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+          "description": "Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.",
+          "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+          "published": "2026-10-29T06:03:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+          "description": "Microsoft just posted the first quarter of its 2027 fiscal financial results. The software maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19 percent, and net income has increased by 32 percent. It's a new financial year for Microsoft, so the company is changing up",
+          "link": "https://www.theverge.com/?p=1020785",
+          "published": "2026-10-28T20:20:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Microsoft posts $92.3bn quarterly revenue after offering buyouts to 60,000 employees",
+          "description": "Software giant reports $36.6bn in profit, beating Wall Street expectations, as Azure cloud computing division grows 48% Microsoft gained billions of dollars in stock market value Wednesday afternoon after it reported better than expected revenue and profit, just days after it offered voluntary buyouts to some 60,000 employees. The office software giant’s growth was fueled by its Azure cloud comput",
+          "link": "https://www.theguardian.com/technology/2026/oct/28/microsoft-earnings",
+          "published": "2026-10-28T22:44:58.000Z",
+          "categories": [
+            "Microsoft",
+            "Technology",
+            "Computing",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Microsoft profits soar days after announcing thousands of layoffs",
+          "description": "The week, the Windows developer said it would offer buyouts to 60,000 workers as it looks to curb costs.",
+          "link": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no",
+          "published": "2026-10-29T01:27:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Microsoft posts $92.3bn quarterly revenue after offering buyouts to 60,000 employees",
+          "description": "Software giant reports $36.6bn in profit, beating Wall Street expectations, as Azure cloud computing division grows 48% Microsoft gained billions of dollars in stock market value Wednesday afternoon after it reported better than expected revenue and profit, just days after it offered voluntary buyouts to some 60,000 employees. The office software giant’s growth was fueled by its Azure cloud comput",
+          "link": "https://www.theguardian.com/technology/2026/oct/28/microsoft-earnings",
+          "published": "2026-10-28T22:44:58.000Z",
+          "categories": [
+            "Microsoft",
+            "Technology",
+            "Computing",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "The major reason Microsoft’s stock is heading higher after earnings",
+          "description": "Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.",
+          "link": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+          "published": "2026-10-29T00:10:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-29-htgrvm",
+      "topic": "tech",
+      "title": "Putin calls Elon Musk a 'genius' as Russia builds its own Starlink rival",
+      "summary": "Russian President Vladimir Putin has praised Elon Musk as a “genius” for deploying thousands of satellites into orbit. Speaking in Moscow, Putin highlighted Russia’s efforts to develop its own satellite internet network to rival Musk’s Starlink.",
+      "headlineSource": "Euronews",
+      "sourceCount": 6,
+      "score": 16.35,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 3,
+        "specialistShare": 0.5,
+        "votes": {
+          "tech": 2,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+          "description": "The Russian President praised Musk and said they are in \"close\" contact.",
+          "link": "https://www.bbc.co.uk/news/articles/c63djl148n3eo",
+          "published": "2026-10-28T19:15:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Putin praises Elon Musk as a ‘real genius’ as Russia develops Starlink alternative",
+          "description": "Russia is trying to develop is own version of the satellite constellation Starlink: Rassvet.",
+          "link": "https://www.cnbc.com/2026/10/29/putin-elon-musk-starlink-ukraine.html",
+          "published": "2026-10-29T09:06:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Putin calls Elon Musk a 'genius' as Russia builds its own Starlink rival",
+          "description": "Russian President Vladimir Putin has praised Elon Musk as a “genius” for deploying thousands of satellites into orbit. Speaking in Moscow, Putin highlighted Russia’s efforts to develop its own satellite internet network to rival Musk’s Starlink.",
+          "link": "https://www.euronews.com/2026/10/29/putin-calls-elon-musk-a-genius-as-russia-builds-its-own-starlink-rival",
+          "published": "2026-10-29T08:34:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Putin calls Musk ‘genius’ for throttling Starlink as drones disrupt Moscow airports",
+          "description": "Russia says it has downed most of 613 drones headed for its capital region overnight",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-musk-zelensky-starlink-b3075342.html",
+          "published": "2026-10-29T05:11:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+          "description": "The Russian President praised Musk and said they are in \"close\" contact.",
+          "link": "https://www.bbc.co.uk/news/articles/c63djl148n3eo",
+          "published": "2026-10-28T19:15:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Putin hails Elon Musk’s ‘genius’ amid plans for Russian version of Starlink",
+          "description": "Russia plans to build own version of US billionaire’s satellite communications to help attack Ukraine Vladimir Putin praised Elon Musk’s genius and said he was in touch with Starlink’s controlling shareholder as Russia develops its own satellite communications for its military to use against Ukraine. The Russian president, speaking at a summit with African leaders in Moscow, was comparing the Eart",
+          "link": "https://www.theguardian.com/world/2026/oct/28/vladimir-putin-elon-musk-genius-russia-starlink",
+          "published": "2026-10-28T18:32:38.000Z",
+          "categories": [
+            "Ukraine",
+            "Russia",
+            "Elon Musk",
+            "Vladimir Putin",
+            "SpaceX",
+            "Europe",
+            "Science",
+            "Technology",
+            "World news",
+            "Volodymyr Zelenskyy",
+            "Satellites",
+            "Telecoms"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk says long-term saving is 'pointless' as he expects a future of abundance",
+          "description": "\"Saving money for the distant future is pointless with the advent of super intelligent abundance,\" Elon Musk wrote on X.",
+          "link": "https://www.businessinsider.com/elon-musk-savings-ai-abundance-wealth-future-retirement-personal-finance-2026-10",
+          "published": "2026-10-29T09:58:52.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-28-1owfuwc",
+      "topic": "health",
+      "title": "What's next for Israel after election produces political gridlock",
+      "summary": "In Israel, nearly all the votes have been counted in Tuesday's election. Prime Minister Benjamin Netanyahu and his allies emerged as the largest bloc, but lost seats and fell short of the majority needed to form a government.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 3,
+      "score": 12.23,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.05,
+        "wire": 1.6,
+        "freshness": 1.58,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 2
+        }
+      },
+      "members": [
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What's next for Israel after election produces political gridlock",
+          "description": "In Israel, nearly all the votes have been counted in Tuesday's election. Prime Minister Benjamin Netanyahu and his allies emerged as the largest bloc, but lost seats and fell short of the majority needed to form a government. The results leave Israel facing the prospect of political gridlock. Nick Schifrin reports from Tel Aviv.",
+          "link": "https://www.pbs.org/newshour/show/whats-next-for-israel-after-election-produces-political-gridlock",
+          "published": "2026-10-28T22:50:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_health",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "health",
+          "title": "What's gone up even faster than gas or rent? The cost of caregiving",
+          "description": "A new study from AARP shows caregivers' out-of-pocket costs rose about 60% in the last five years.",
+          "link": "https://www.npr.org/2026/10/28/nx-s1-6019319/caregiving-costs-aarp-affordability",
+          "published": "2026-10-28T13:05:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "What's the healthiest packet of crisps? Dietician reveals why lentil chips are worse for you than Walker's - and the best bag to pick",
+          "description": "These days, crisps aren't limited to one vegetable; they're made from lentils, chickpeas, corn - and are baked, rather than fried.",
+          "link": "https://www.dailymail.com/health/article-16241891/which-crisp-healthiest-walkers-kettle-chips-popped.html",
+          "published": "2026-10-28T16:41:58.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-28-1ri5vff",
+      "topic": "tech",
+      "title": "Apple announces touchscreen MacBook Pro with OLED display",
+      "summary": "With an OLED display and touchscreen capabilities, it's no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the 14-inch, and $3,399 for…",
+      "headlineSource": "Ars Technica",
+      "sourceCount": 3,
+      "score": 12.04,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 1.59,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 3,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 3,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
+          "description": "With an OLED display and touchscreen capabilities, it's no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the 14-inch, and $3,399 for the 16-inch, with every premium hardware option that Apple offers pushes those",
+          "link": "https://www.theverge.com/?p=1021308",
+          "published": "2026-10-28T20:12:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple announces touchscreen MacBook Pro with OLED display",
+          "description": "The OLED display is the main draw, but the price is a lot to reckon with.",
+          "link": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+          "published": "2026-10-28T17:25:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Apple breaks with longtime MacBook policy, introduces touchscreen laptops at higher prices",
+          "description": "Apple is changing its longtime approach to MacBook design with the introduction of touchscreen models carrying higher starting prices than their predecessors.",
+          "link": "https://www.foxbusiness.com/technology/apple-breaks-longtime-macbook-policy-introduces-touchscreen-laptops-higher-prices",
+          "published": "2026-10-28T22:56:46.000Z",
+          "categories": [
+            "19ed4979-a4f2-5cd7-ace6-b84a22c14929",
+            "fbn",
+            "Fox Business",
+            "fox-business/organization/apple",
+            "fox-business/magnificent-7-stocks",
+            "fox-business/technology",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Touchscreen MacBook Pro hands-on: OLED looks great on a Mac",
+          "description": "It's not as different from the previous model as you might have expected.",
+          "link": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/",
+          "published": "2026-10-28T19:10:29.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
