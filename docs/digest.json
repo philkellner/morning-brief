@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-10-30",
-  "generatedAt": "2026-10-30T10:42:36.396Z",
+  "edition": "2026-10-31",
+  "generatedAt": "2026-10-31T10:11:10.638Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,32 +12,37 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 63,
-    "failed": []
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-10-30-orvwqy",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Potential Binance 'hack' forces crypto firms to freeze $3 billion",
-      "summary": "Binance said on Thursday that a security breach had affected an estimated $6.3 billion in assets, potentially making it the biggest cryptocurrency heist on record. The world's largest crypto exchange said it had recovered or frozen about $3 billion, while…",
-      "url": "https://thehill.com/policy/technology/6183131-binance-hack-crypto-firms-freeze-assets/",
-      "headlineSource": "The Hill",
-      "summarySource": "France 24",
-      "publishedAt": "2026-10-30T10:30:37.000Z",
-      "sourceCount": 15,
+      "id": "2026-10-31-1oox3k9",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Binance hack exposes unsolvable crypto risk: disappearing money",
+      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "url": "https://www.japantimes.co.jp/business/2026/10/31/binance-hack-disappearing-money/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-31T03:09:55.000Z",
+      "sourceCount": 13,
       "leanCount": 4,
       "leanSpread": 1,
       "wireCount": 5,
-      "score": 24.08,
+      "score": 22.93,
       "scoreComponents": {
-        "breadth": 12,
+        "breadth": 11.42,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.48,
+        "freshness": 1.91,
         "softPenalty": 0
       },
       "coverage": [
@@ -45,340 +50,284 @@
           "source": "ABC News",
           "sourceId": "abc",
           "lean": "center-left",
-          "title": "Binance estimates security breach impact at $6.3 billion",
-          "url": "https://abcnews.com/Business/binance-estimates-security-breach-impact-63-billion/story?id=137698510"
+          "title": "WATCH: What we know about Binance security breach",
+          "url": "https://abcnews.com/video/137711374/"
+        },
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+          "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "What we know about Binance's $6.3bn hack",
-          "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Binance and Polymarket are investigating potential hacks. The former says $6.3 billion is affected.",
-          "url": "https://www.businessinsider.com/binance-polymarket-hacks-crypto-2026-10"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Binance's $6.3 billion hack: What we know and what comes next",
-          "url": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Hackers steal $6.3BILLION from crypto giant Binance in 'biggest hack in history' blamed on elite North Koreans",
-          "url": "https://www.dailymail.com/news/article-16251215/Worlds-biggest-crypto-heist-results-hackers-making-6-3billion-exchange-boss-says.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Cryptocurrency exchange Binance suspends trading amid a suspected cyberattack now linked to North Korea",
-          "url": "https://www.dw.com/en/cryptocurrency-exchange-binance-suspends-trading-amid-a-suspected-cyberattack-now-linked-to-north-korea/a-79803280?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Binance says security incident had estimated $6.3B impact, $3B in assets frozen",
-          "url": "https://www.foxbusiness.com/technology/binance-says-security-incident-had-estimated-6-3b-impact-3b-assets-frozen"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Binance hit by $6.3 billion security breach in potential record crypto heist",
-          "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "North Korean group blamed for $6.3bn Binance hack in biggest ever crypto heist",
-          "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "Here’s when Binance plans to reopen after what’s believed to be the largest-ever $6.3 billion hack",
-          "url": "https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "Binance Grapples With ‘Security Incident’ That May Cause $6.3 Billion in Losses",
-          "url": "https://www.nytimes.com/2026/10/29/technology/binance-hack-crypto.html"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Crypto industry suffers 'largest bank heist in human history'",
-          "url": "https://news.sky.com/story/crypto-worth-billions-frozen-over-potential-security-issue-13605627"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Potential Binance 'hack' forces crypto firms to freeze $3 billion",
-          "url": "https://thehill.com/policy/technology/6183131-binance-hack-crypto-firms-freeze-assets/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Crypto exchange Binance freezes assets after $6.3 billion security breach",
-          "url": "https://www.straitstimes.com/world/crypto-exchange-binance-freezes-assets-after-6-3-billion-security-breach"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "$6.3bn gone, N Korea link: Inside crypto heist at world's largest exchange Binance",
-          "url": "https://timesofindia.indiatimes.com/business/international-business/6-3-billion-gone-north-korea-link-inside-the-crypto-heist-at-worlds-largest-exchange-binance/articleshow/135351366.cms"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-10-30-lcxgix",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
-      "summary": "Israel faces a political deadlock after Prime Minister Benjamin Netanyahu's bloc fell short of the 61 seats needed for a majority. With Arab-led parties holding 19 seats, opposition leader Gadi Eisenkot could seek their support to form a government.",
-      "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
-      "headlineSource": "Euronews",
-      "summarySource": "Times of India",
-      "publishedAt": "2026-10-30T10:15:00.000Z",
-      "sourceCount": 15,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 8,
-      "score": 24.06,
-      "scoreComponents": {
-        "breadth": 12,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
-          "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo"
+          "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+          "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "No clear winner in Israeli election as negotiations to follow",
-          "url": "https://www.cbsnews.com/news/israel-election-exit-polls-stalemate/"
+          "title": "How hard is it to recover the $6 billion stolen from Binance?",
+          "url": "https://www.cbsnews.com/news/binance-crypto-hack-stolen-funds-recovery/"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Israel faces weeks of coalition haggling as Netanyahu’s party claims election 'stolen'",
-          "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"
+          "title": "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
+          "url": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "Israeli election: Netanyahu, main rival fall short of majority after all votes counted",
-          "url": "https://www.dw.com/en/israeli-election-netanyahu-main-rival-fall-short-of-majority-after-all-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf"
+          "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
+          "url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-all-1573-rdf"
         },
         {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
-          "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Netanyahu falls short of majority as Israel faces three possible paths to a new government",
-          "url": "https://www.foxnews.com/world/netanyahu-bloc-falls-short-arab-vote-surges-qatar-election-interference-allegations-emerge"
+          "title": "Expert warns of 'AI hacking bloodbath' following massive Binance cryptocurrency theft",
+          "url": "https://www.foxbusiness.com/technology/expert-warns-ai-hacking-bloodbath-following-massive-binance-cryptocurrency-theft"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Israel elections: Netanyahu attacks Arab parties as they emerge as potential kingmakers",
-          "url": "https://www.france24.com/en/video/20261030-israel-elections-netanyahu-attacks-arab-parties-as-they-emerge-as-potential-kingmakers"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
           "lean": "center-left",
-          "title": "Israel’s final election results show neither Netanyahu nor rival can immediately form government",
-          "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+          "title": "Binance Suspends Withdrawals After Crypto Hackers Steal $6.3 Billion",
+          "url": "https://www.nytimes.com/2026/10/29/technology/binance-hack-crypto.html"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Netanyahu's party claims Israeli election 'stolen' as results show him losing majority",
-          "url": "https://www.pbs.org/newshour/world/netanyahus-party-claims-israeli-election-stolen-as-results-show-him-losing-majority"
+          "title": "$6 billion cryptocurrency heist puts investors on edge",
+          "url": "https://www.pbs.org/newshour/show/6-billion-cryptocurrency-heist-puts-investors-on-edge"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Netanyahu accused of smearing Arab voters to hold on to power",
-          "url": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power"
+          "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
+          "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump says US looking into Binance hack: 'We don't know' if North Korea responsible",
+          "url": "https://thehill.com/policy/technology/6185518-trump-binance-crypto-hack-north-korea/"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "Netanyahu bloc finishes ahead in Israel vote, but well short of majority",
-          "url": "https://www.japantimes.co.jp/news/2026/10/30/world/politics/netanyahu-no-majority-israel-election/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "An Arab Town in Israel Celebrates the Election but Wonders What Will Change",
-          "url": "https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html"
+          "title": "Binance hack exposes unsolvable crypto risk: disappearing money",
+          "url": "https://www.japantimes.co.jp/business/2026/10/31/binance-hack-disappearing-money/"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Netanyahu bloc finishes in lead but short of majority: Official results",
-          "url": "https://www.straitstimes.com/world/middle-east/netanyahu-bloc-finishes-in-lead-but-short-of-majority-official-results"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Israel polls: Neither Netanyahu nor oppn wins majority; what happens next?",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-election-results-neither-netanyahu-nor-opposition-wins-majority-what-happens-next/articleshow/135347255.cms"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "An inconclusive outcome to Israel’s first election since the Oct. 7 invasion",
-          "url": "https://www.washingtonexaminer.com/premium/4784454/inconclusive-outcome-israeli-election/"
+          "title": "Crypto exchanges call for quick moves to bolster defences after Binance heist",
+          "url": "https://www.straitstimes.com/world/united-states/crypto-exchanges-call-for-quick-moves-to-bolster-defences-after-binance-heist"
         }
       ]
     },
     {
-      "rank": 3,
-      "id": "2026-10-30-ow4kvy",
+      "rank": 2,
+      "id": "2026-10-31-1phu5fg",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Abdul El-Sayed Is a Socialist in All but Name",
-      "summary": "What in the name of political free speech is off limits? Can you say whatever you want on the campaign trail, no matter how false or racist it is?",
-      "url": "https://reason.com/2026/10/29/abdul-el-sayed-is-a-socialist-in-all-but-name/",
-      "headlineSource": "Reason",
-      "summarySource": "France 24",
-      "publishedAt": "2026-10-30T10:05:34.000Z",
-      "sourceCount": 8,
-      "leanCount": 5,
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-31T08:22:03.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 1,
-      "score": 20.55,
+      "wireCount": 4,
+      "score": 21.9,
       "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 7.8,
-        "wire": 0.8,
-        "freshness": 2.44,
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.33,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "France 24",
-          "sourceId": "france24",
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+          "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "Michigan's El-Sayed targeted by Republicans in midterms race: Will the religion card work?",
-          "url": "https://www.france24.com/en/tv-shows/the-debate/20261029-michigan-s-el-sayed-targeted-by-republicans-in-midterms-race-will-the-religion-card-work"
+          "title": "US approves sale of 500 Patriot missiles to Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S. approves sale of 500 Patriot missiles to Ukraine",
+          "url": "https://www.cbsnews.com/news/ukraine-patriot-missiles-us-lockheed-martin-sale-zelenskyy/"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Zelenskyy thanks US over deal for 500 Patriot missiles but warns delivery could take years",
+          "url": "https://www.euronews.com/2026/10/31/zelenskyy-thanks-us-over-deal-for-500-patriot-missiles-but-warns-delivery-could-take-years"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "U.S. approves $2.1 billion sale of Patriot interceptors to Ukraine",
+          "url": "https://www.nbcnews.com/world/ukraine/us-approves-21-billion-sale-patriot-interceptors-ukraine-rcna606641"
         },
         {
           "source": "New York Post",
           "sourceId": "nypost",
           "lean": "right",
-          "title": "Nancy Pelosi calls Mamdani, El-Sayed’s past comments on Israel ‘concerning’ and ‘wrong’",
-          "url": "https://nypost.com/2026/10/30/us-news/nancy-pelosi-calls-mamdani-el-sayeds-past-comments-on-israel-concerning-and-wrong/"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Nancy Pelosi Rebukes El-Sayed Over Israel: ‘It’s Wrong’",
-          "url": "https://www.newsweek.com/nancy-pelosi-rebukes-el-sayed-over-israel-its-wrong-midterms-michigan-senate-12639868"
-        },
-        {
-          "source": "Politico",
-          "sourceId": "politico",
-          "lean": "center-left",
-          "title": "El-Sayed’s allies fear Trump’s anti-Muslim attacks are reaching undecided voters",
-          "url": "https://www.politico.com/news/2026/10/29/trump-muslim-attacks-michigan-el-sayed-01140171"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "Abdul El-Sayed Is a Socialist in All but Name",
-          "url": "https://reason.com/2026/10/29/abdul-el-sayed-is-a-socialist-in-all-but-name/"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
-          "lean": "center",
-          "title": "STAT+: El-Sayed claps back at RFK Jr., and FDA’s ‘enforcement discretion’ on peptides",
-          "url": "https://www.statnews.com/2026/10/29/el-sayed-claps-back-at-rfk-jr-fda-peptide-policy-dc-diagnosis/"
+          "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+          "url": "https://nypost.com/2026/10/31/us-news/us-approves-2-1-billion-patriot-missile-sale-to-ukraine/"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "As Trump escalates extreme attacks, Democrats – finally – rally round El-Sayed",
-          "url": "https://www.theguardian.com/us-news/2026/oct/30/abdul-el-sayed-michigan-senate-tump"
+          "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+          "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years"
         },
         {
-          "source": "Washington Free Beacon",
-          "sourceId": "freebeacon",
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Ukraine gets approval for Patriot missile sale",
+          "url": "https://thehill.com/newsletters/defense-national-security/6185817-us-approves-ukraine-patriot-missiles/"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump administration approves potential Patriot missiles sale to Ukraine",
+          "url": "https://www.japantimes.co.jp/news/2026/10/31/world/ukraine-patriot-missile-sale-approve/"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-31-yv5266",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Poland's president turns back from Senegal trip as court chief's ousting sparks crisis",
+      "summary": "Riot police were deployed to Poland's Constitutional Tribunal on Friday as hundreds of demonstrators gathered to protest against the suspension of the top court's president by the current pro-European government.",
+      "url": "https://news.sky.com/story/polands-president-turns-back-from-senegal-trip-as-court-chiefs-ousting-sparks-crisis-13606013",
+      "headlineSource": "Sky News",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-31T10:05:00.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 21.6,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Police deployed during stand-off over control of top Poland court",
+          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Poland: Protesters clash with police over sacked court chief",
+          "url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
           "lean": "right",
-          "title": "Abdul El-Sayed Quietly Attends Banquet for PAC of Hamas-Loving Editor Who Said Arabs Should Send Jews 'Back to Poland'",
-          "url": "https://freebeacon.com/democrats/abdul-el-sayed-quietly-attends-banquet-for-pac-of-hamas-loving-editor-who-said-arabs-should-send-jews-back-to-poland/"
+          "title": "Polish president turns plane around after 'coup' at nation’s top court",
+          "url": "https://www.foxnews.com/world/polish-president-turns-plane-around-after-coup-at-nations-top-court"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Protesters gather at Poland's Top court",
+          "url": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Poland's president turns back from Senegal trip as court chief's ousting sparks crisis",
+          "url": "https://news.sky.com/story/polands-president-turns-back-from-senegal-trip-as-court-chiefs-ousting-sparks-crisis-13606013"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
+          "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Protests in Poland as president returns to country after Tusk accused of coup against court",
+          "url": "https://www.independent.co.uk/news/world/europe/poland-president-nawrocki-tusk-protest-b3076760.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Polish President calls crisis talks after court stand-off",
+          "url": "https://www.straitstimes.com/world/europe/polish-president-calls-crisis-talks-after-court-stand-off"
         }
       ]
     },
     {
       "rank": 4,
-      "id": "2026-10-30-1rj948o",
+      "id": "2026-10-31-wyy3ld",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Survivors of Spain’s worst train crashes urge action after latest disaster",
-      "summary": "The leaked tapes appear to show one high-speed train was given clearance to move at normal speed, even though another up ahead had stalled.",
-      "url": "https://www.aljazeera.com/news/2026/10/30/survivors-of-spains-worst-train-crashes-urge-action-after-latest-disaster?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-30T10:29:38.000Z",
+      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "summary": "Residents evacuated from the Russian-occupied Ukrainian town of Oleshky have left for Russia's Anapa city with a Ukrainian delegation, senior official David Arakhamia said Friday. They are expected to fly to Belarus before returning to Ukraine by bus, during…",
+      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo",
+      "headlineSource": "BBC News",
+      "summarySource": "France 24",
+      "publishedAt": "2026-10-31T09:58:37.000Z",
       "sourceCount": 9,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 5,
+      "wireCount": 6,
       "score": 19.55,
       "scoreComponents": {
         "breadth": 9.97,
@@ -389,451 +338,327 @@
       },
       "coverage": [
         {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Survivors of Spain’s worst train crashes urge action after latest disaster",
-          "url": "https://www.aljazeera.com/news/2026/10/30/survivors-of-spains-worst-train-crashes-urge-action-after-latest-disaster?traffic_source=rss"
-        },
-        {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
-          "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Spain train collision sparks protest",
-          "url": "https://www.cbsnews.com/video/spain-train-collision-sparks-protest/"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Spain: minute of silence for train crash victims as king visits hospital",
-          "url": "https://www.euronews.com/video/2026/10/29/spain-minute-of-silence-for-train-crash-victims-as-king-visits-hospital"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Spain demands answers as train disaster toll rises",
-          "url": "https://www.france24.com/en/video/20261030-spain-demands-answers-as-train-disaster-toll-rises"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Audio recordings reveal decisions made moments before deadly train crash in Spain",
-          "url": "https://www.nbcnews.com/world/spain/audio-recordings-decisions-deadly-spain-train-crash-rcna606366"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Pedro Sánchez says people of 27 nationalities may be among those killed or injured in Spanish train crash – Europe live",
-          "url": "https://www.theguardian.com/world/live/2026/oct/30/spain-investigates-toledo-crash-pedro-sanchez-france-italy-protests-latest-news-updates"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Spanish train was moving at up to 124 mph when it crashed, killing at least 69 people",
-          "url": "https://www.independent.co.uk/news/world/europe/spain-train-crash-toledo-2026-report-aitat-b3076225.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Spanish train was travelling at 160kmh when it smashed into second one, report finds",
-          "url": "https://www.straitstimes.com/world/europe/spanish-train-was-travelling-at-160-kph-when-it-smashed-into-second-one-report-finds"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-10-30-1xw1fpz",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-      "summary": "The Republican governor was responding to allegations in the New York Times that Democrats recruited a spoiler candidate, Dan Sullivan.",
-      "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-30T10:20:51.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 4,
-      "score": 19.08,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "DOJ issues grand jury subpoenas to election officials in California",
-          "url": "https://abcnews.com/Politics/doj-issues-grand-jury-subpoenas-election-officials-california/story?id=137689807"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-          "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Here are the Senate races to watch ahead of Election Day",
-          "url": "https://www.npr.org/2026/10/30/g-s1-149975/2026-midterms-senate-map"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Republicans seize on controversy in Alaska's closely watched Senate race",
-          "url": "https://www.pbs.org/newshour/show/republicans-seize-on-controversy-in-alaskas-closely-watched-senate-race"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "Trump's Claims About Noncitizen Voting Are 'Not Credible,' a Federal Judge Says in a Scathing Decision",
-          "url": "https://reason.com/2026/10/29/trumps-claims-about-noncitizen-voting-are-not-credible-a-federal-judge-says-in-a-scathing-decision/"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Alaska governor: Election certification 'could be stopped' due to Peltola probe",
-          "url": "https://thehill.com/homenews/campaign/6182999-alaska-election-verification-stopped-peltola-probe/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump's DOJ escalates Alaska Senate probe as president demands Dem candidate Mary Peltola be prosecuted",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/alaska-senate-subpoenas-peltola-sullivan-b3076244.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Trump Justice Department issues subpoenas in California non-citizen voting probe",
-          "url": "https://www.straitstimes.com/world/united-states/trump-doj-issues-subpoenas-in-california-noncitizen-voting-probe-escalating-pressure-campaign"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-10-30-1a5tf9w",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "China dismisses US report of suspected spy targeting Nvidia CEO Jensen Huang as ‘groundless’",
-      "summary": "A new report from the New York Times reveals that Nvidia CEO Jensen Huang was the target of a possible Chinese spy plot, involving an executive at a Singapore-based company. NBC News has not independently confirmed the details of the investigation.",
-      "url": "https://www.scmp.com/tech/tech-war/article/3372743/china-dismisses-us-report-suspected-spy-targeting-nvidia-ceo-jensen-huang-groundless",
-      "headlineSource": "South China Morning Post",
-      "summarySource": "NBC News",
-      "publishedAt": "2026-10-30T10:30:07.000Z",
-      "sourceCount": 6,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 18.1,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 6.4,
-        "wire": 0.8,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
-          "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
-          "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Suspected Chinese intelligence asset gained access to Nvidia CEO Jensen Huang: report",
-          "url": "https://www.foxbusiness.com/business-leaders/suspected-chinese-intelligence-asset-gained-access-nvidia-ceo-jensen-huang-report"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "New report says Nvidia CEO was possible target of Chinese spy plot",
-          "url": "https://www.nbcnews.com/video/new-report-says-nvidia-ceo-was-possible-target-of-chinese-spy-plot-272497733989"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "China dismisses US report of suspected spy targeting Nvidia CEO Jensen Huang as ‘groundless’",
-          "url": "https://www.scmp.com/tech/tech-war/article/3372743/china-dismisses-us-report-suspected-spy-targeting-nvidia-ceo-jensen-huang-groundless"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Nvidia CEO reportedly targeted by an alleged Chinese spy",
-          "url": "https://www.theguardian.com/technology/2026/oct/29/nvidia-ceo-targeted-chinese-spy"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-10-30-rhlmsu",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Google value plunges by $500bn as AI search hits ad sales",
-      "summary": "The company's reported disappointing search and advertising sales have reinforced investor concerns about AI's threat to its core business.",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o",
-      "headlineSource": "BBC News",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-10-30T02:54:00.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 2,
-      "score": 16.86,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 3.9,
-        "wire": 1.6,
-        "freshness": 1.85,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Google admits AI search makes less money, but it's fixing that with more ads",
-          "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Google value plunges by $500bn as AI search hits ad sales",
-          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
-          "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"
-        },
-        {
-          "source": "Economist Business",
-          "sourceId": "econ_business",
-          "lean": "center-right",
-          "title": "Google’s $500bn bloodbath reflects the danger it faces from AI",
-          "url": "https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Why Google stock has plunged $500bn in a single day",
-          "url": "https://news.sky.com/story/google-parent-alphabet-takes-500bn-hit-on-ai-worries-13605428"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Google stock price crashes and wipes $500 billion off company amid panic over AI",
-          "url": "https://www.independent.co.uk/tech/google-stock-price-shares-ai-artificial-intelligence-b3076018.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Google erases a record $500 billion as AI eats into sales",
-          "url": "https://www.japantimes.co.jp/business/2026/10/30/companies/google-500-billion-wipeout/"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Reddit’s CEO says Google’s AI Mode ‘does not drive traffic’",
-          "url": "https://www.theverge.com/?p=1022848"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-10-30-khr4pi",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "China expels a record number from Communist party amid Xi’s intensified purges of top officials",
-      "summary": "Xi's anti-corruption campaign has become \"an effort to consolidate and maintain authority\", observers say.",
-      "url": "https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum",
-      "headlineSource": "The Guardian",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-10-30T09:00:31.000Z",
-      "sourceCount": 5,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 3,
-      "score": 16.4,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 3.9,
-        "wire": 2.4,
-        "freshness": 2.34,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo"
-        },
-        {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
-          "lean": "center",
-          "title": "After purges, China’s Central Committee praises the party’s ‘rigorous self-governance’",
-          "url": "https://www.csmonitor.com/World/Asia-Pacific/2026/1029/china-communist-party-purges-plenum?icid=rss"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Politburo promotion, Lula victory, US midterm elections",
-          "url": "https://www.scmp.com/plus/news/china/politics/article/3372719/politburo-promotion-lula-victory-us-midterm-elections"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "China expels a record number from Communist party amid Xi’s intensified purges of top officials",
-          "url": "https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "China Confirms Expulsion of 33 Officials, as Xi’s Purge Deepens",
-          "url": "https://www.nytimes.com/2026/10/29/world/asia/china-communist-party-purges.html"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-10-30-9hsh1q",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-      "summary": "The comments will fuel speculation about her future plans, ahead of a presidential election in her native France. The resignation also sparks a succession race, as Europe faces a turbulent fiscal future.",
-      "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "France 24",
-      "publishedAt": "2026-10-30T10:10:09.000Z",
-      "sourceCount": 5,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 13.75,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 2.45,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "ECB Warns of Slow SRT Approvals if Banks Don’t Keep Them Simple",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-30/ecb-warns-of-slow-srt-approvals-if-banks-don-t-keep-them-simple"
+          "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-          "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf"
+          "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
+          "url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "ECB President Lagarde steps down in order to speak out",
-          "url": "https://www.france24.com/en/tv-shows/business/20261029-ecb-president-lagarde-steps-down-in-order-to-speak-out"
+          "title": "Residents leave Russian-occupied Oleshky in evacuation operation",
+          "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
         },
         {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
+          "source": "NBC News",
+          "sourceId": "nbc",
           "lean": "center-left",
-          "title": "Christine Lagarde to Step Down as President of European Central Bank",
-          "url": "https://www.nytimes.com/2026/10/29/business/christine-lagarde-resigns-ecb.html"
+          "title": "Evacuations begin in Ukraine under localized ceasefire brokered by Melania Trump",
+          "url": "https://www.nbcnews.com/world/ukraine/melania-ukraine-oleshky-evacuation-russia-ceasefire-leo-rcna606509"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Russia-occupied Oleshky evacuees arrive in Belarus, Ukraine next",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372828/russia-occupied-oleshky-evacuees-arrive-belarus-ukraine-next"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
+          "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Desperate residents evacuate devastated Russian-occupied Oleshky by bus",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-war-oleshky-russia-evacuation-ceasefire-b3076137.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Residents of Russian-controlled Ukrainian town arrive in Belarus",
+          "url": "https://www.straitstimes.com/world/europe/residents-of-russian-controlled-ukrainian-town-arrive-in-belarus"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Hundreds evacuated from Oleshky as Melania Trump brokers rare Russia-Ukraine ceasefire",
+          "url": "https://timesofindia.indiatimes.com/world/europe/hundreds-evacuated-from-occupied-oleshky-as-melania-trump-brokers-rare-russia-ukraine-ceasefire/articleshow/135397051.cms"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-31-fqvrb",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Russia's presence divides G20 ministers",
+      "summary": "Russian Foreign Minister Sergey Lavrov declined to comment on Russia's participation in the G20 summit in December, telling DW that Volodymyr Zelenskyy should travel to Russia if he wanted talks with Vladimir Putin.",
+      "url": "https://www.france24.com/en/russia-s-presence-divides-g20-ministers",
+      "headlineSource": "France 24",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-10-31T09:30:04.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 19.5,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+          "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "European diplomats shun Russia at G20 gathering in the US",
+          "url": "https://www.dw.com/en/european-diplomats-shun-russia-at-g20-gathering-in-the-us/a-79813925?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "EU diplomats object to G20 photo with Lavrov, prompting US cancellation",
+          "url": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Russia's presence divides G20 ministers",
+          "url": "https://www.france24.com/en/russia-s-presence-divides-g20-ministers"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "WATCH: Rubio welcomes G20 foreign ministers to Atlanta at 'critical moment'",
+          "url": "https://www.pbs.org/newshour/politics/watch-rubio-welcomes-g20-foreign-ministers-to-atlanta-at-critical-moment"
         },
         {
           "source": "Sky News",
           "sourceId": "skynews",
           "lean": "center",
-          "title": "Will she stand? Lagarde quits European Central Bank ahead of French election",
-          "url": "https://news.sky.com/story/lagarde-quits-european-central-bank-ahead-of-french-election-13605291"
+          "title": "G20 photocall axed after Miliband and other ministers refuse to be pictured with top Russian diplomat",
+          "url": "https://news.sky.com/story/g20-photocall-cancelled-after-ed-miliband-and-other-foreign-ministers-refuse-to-be-pictured-with-russias-sergei-lavrov-13605874"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
+          "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "G20 photocall cancelled after Miliband refuses to be pictured with Russian foreign minister",
+          "url": "https://www.independent.co.uk/news/world/europe/g20-ed-miliband-russia-ukraine-b3076684.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Japan demands release of national in meeting with Russia’s Lavrov",
+          "url": "https://www.japantimes.co.jp/news/2026/10/31/japan/japan-russia-g20-meeting/"
         }
       ]
     },
     {
-      "rank": 10,
-      "id": "2026-10-30-ecv8gq",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Judge blocks Trump administration's Medicaid work requirement rule forcing proof of medical frailty",
-      "summary": "Twenty-five states sued the Trump administration in June over the new Centers for Medicare and Medicaid Services guidance tied to the 2025 law known as the \"One Big Beautiful Bill.\"",
-      "url": "https://www.pbs.org/newshour/health/judge-blocks-trump-administrations-medicaid-work-requirement-rule-forcing-proof-of-medical-frailty",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-10-30T04:38:24.000Z",
-      "sourceCount": 4,
+      "rank": 6,
+      "id": "2026-10-31-1n4mycl",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
+      "summary": "Oil companies are reporting another quarter of sky-high profits as the war in Iran pushes up the price of oil — and prices at the pump.",
+      "url": "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "NPR",
+      "publishedAt": "2026-10-31T09:00:00.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 18.01,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+          "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Oil giants post billions in profits as Americans feel pain at the pump",
+          "url": "https://www.foxbusiness.com/economy/oil-giants-post-billions-profits-americans-feel-pain-pump"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "BP profits hit ‘obscene’ 18-year high as Iran war drives up oil refining margins",
+          "url": "https://www.theguardian.com/business/2026/oct/30/bp-profits-jump-as-middle-east-conflict-drives-up-oil-refining-margins"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "ExxonMobil and Chevron report blowout profits as Trump touts benefits of high oil prices",
+          "url": "https://www.nbcnews.com/business/energy/exxonmobil-chevron-profits-trump-high-oil-prices-rcna606524"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Oil company earnings skyrocket — again",
+          "url": "https://www.npr.org/2026/10/31/nx-s1-6008072/oil-company-profits-gasoline-diesel-prices"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
+          "url": "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-31-lcxgix",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
+      "summary": "The result means Israel is now set to face a lengthy and likely tricky period of negotiations as party leaders work to form a government.",
+      "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-10-31T09:05:41.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 16.9,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Netanyahu's party claims Israel's election was stolen. Now what?",
+          "url": "https://www.cbsnews.com/news/israel-election-results-netanyahu-likud-claim-stolen-arab-parties/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Gazans couldn’t vote in Israel’s election. But many say it will determine their future.",
+          "url": "https://www.csmonitor.com/World/Middle-East/2026/1030/gaza-reaction-israel-election-netanyahu-eisenkot?icid=rss"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
+          "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Final election results show neither Netanyahu nor rival can immediately form government",
+          "url": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Netanyahu accused of smearing Arab voters to hold on to power",
+          "url": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Democrats weigh Israel election results amid lingering uncertainty",
+          "url": "https://thehill.com/homenews/house/6185584-democrats-react-israel-elections/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Iran Braces for More War, No Matter the Outcome of the U.S. and Israeli Elections",
+          "url": "https://www.nytimes.com/2026/10/31/world/middleeast/iran-war-israel-us-elections-trump-netanyahu.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-31-nv7m7t",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Independent Russian newspaper Novaya Gazeta shuts under Kremlin pressure",
+      "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+      "url": "https://www.straitstimes.com/world/europe/independent-russian-newspaper-novaya-gazeta-shuts-under-kremlin-pressure",
+      "headlineSource": "The Straits Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-31T03:27:21.000Z",
+      "sourceCount": 8,
       "leanCount": 2,
       "leanSpread": 0.25,
-      "wireCount": 2,
-      "score": 12.49,
+      "wireCount": 6,
+      "score": 16.59,
       "scoreComponents": {
-        "breadth": 6.97,
+        "breadth": 9.51,
         "diversity": 1.95,
-        "wire": 1.6,
-        "freshness": 1.98,
+        "wire": 3.2,
+        "freshness": 1.93,
         "softPenalty": 0
       },
       "coverage": [
@@ -841,29 +666,195 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "US judge blocks Trump’s Medicaid rule forcing ill to prove impairment",
-          "url": "https://www.aljazeera.com/news/2026/10/30/us-judge-blocks-trumps-medicaid-rule-forcing-ill-to-prove-impairment?traffic_source=rss"
+          "title": "Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/russias-novaya-gazeta-killed-off-after-murders-arrests-and-pressure?traffic_source=rss"
         },
         {
-          "source": "NYT Health",
-          "sourceId": "nyt_health",
-          "lean": "center-left",
-          "title": "Court Blocks Strict New Rule for Medicaid Work Requirements",
-          "url": "https://www.nytimes.com/2026/10/29/us/politics/medicaid-work-requirements-frailty.html"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Judge blocks Trump administration's Medicaid work requirement rule forcing proof of medical frailty",
-          "url": "https://www.pbs.org/newshour/health/judge-blocks-trump-administrations-medicaid-work-requirement-rule-forcing-proof-of-medical-frailty"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "STAT+: Federal judge rejects new Medicaid ‘frailty’ definition for work requirements",
-          "url": "https://www.statnews.com/2026/10/29/medicaid-work-requirements-judge-blocks-new-limits-medical-frailty/"
+          "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+          "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Last independent newspaper in Russia forced to shut down",
+          "url": "https://www.cbsnews.com/news/novaya-gazeta-russia-newspaper-closes-putin-free-press-crackdown/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Russia: Critical newspaper 'Novaya Gazeta' to close",
+          "url": "https://www.dw.com/en/russia-critical-newspaper-novaya-gazeta-to-close/a-79805693?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Russian independent newspaper Novaya Gazeta says it will shut down following pressure from Kremlin",
+          "url": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Russia’s Novaya Gazeta to cease publication amid Kremlin crackdown",
+          "url": "https://www.france24.com/en/video/20261030-russia-s-novaya-gazeta-to-cease-publication-amid-kremlin-crackdown"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Russian News Outlet That Defied Kremlin Will Shut Down: ‘They Killed Us’",
+          "url": "https://www.nytimes.com/2026/10/30/world/europe/russia-novaya-gazeta-newspaper.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Independent Russian newspaper Novaya Gazeta shuts under Kremlin pressure",
+          "url": "https://www.straitstimes.com/world/europe/independent-russian-newspaper-novaya-gazeta-shuts-under-kremlin-pressure"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-31-1c4mu14",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
+      "summary": "Iran's Revolutionary Guard says four tankers have caught fire in the Strait of Hormuz.",
+      "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+      "headlineSource": "Euronews",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-10-31T05:06:00.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 16.21,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.06,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Iran says four tankers on fire after striking mines in Hormuz",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran claims 4 tankers hit mines in Strait of Hormuz",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+          "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "India news: Tanker carrying 27 Indians attacked in Strait of Hormuz",
+          "url": "https://www.dw.com/en/india-news-tanker-carrying-27-indians-attacked-in-strait-of-hormuz/live-79814329?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
+          "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Iran claims three tankers catch fire and US drone was downed in Strait of Hormuz",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-straight-of-hormuz-tanker-fire-drone-b3076620.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Oman rescues 25 from burning ship, Iran halts tankers",
+          "url": "https://www.straitstimes.com/world/middle-east/oman-rescues-25-from-burning-ship-iran-halts-tankers"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-30-1ka6ebx",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-10-30T20:52:00.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 13.95,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 1.5,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
+          "url": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "In a wild October for markets, these stocks were the biggest winners and losers",
+          "url": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Tech Stocks See Worst Day Since June, Pressuring Broader Market",
+          "url": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html"
         }
       ]
     }

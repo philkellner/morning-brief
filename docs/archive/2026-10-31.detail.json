@@ -1,0 +1,2111 @@
+{
+  "edition": "2026-10-31",
+  "generatedAt": "2026-10-31T10:11:10.638Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-10-31-1oox3k9",
+      "topic": "tech",
+      "title": "Binance hack exposes unsolvable crypto risk: disappearing money",
+      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 13,
+      "score": 22.93,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 1.91,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 7,
+        "specialistShare": 0.54,
+        "votes": {
+          "tech": 6,
+          "business": 4,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+          "description": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+          "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo",
+          "published": "2026-10-30T21:13:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+          "description": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+          "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o",
+          "published": "2026-10-31T02:12:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
+          "description": "Crypto platform Binance has suspended trading following a suspected hack now linked to North Korea. The disruption has left users unable to trade on the cryptocurrency platform while the suspected breach is investigated.",
+          "link": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-30T15:37:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "How hard is it to recover the $6 billion stolen from Binance?",
+          "description": "Security experts are calling it the \"largest bank robbery in human history.\" Getting all of the stolen crypto funds won't be easy.",
+          "link": "https://www.cbsnews.com/news/binance-crypto-hack-stolen-funds-recovery/",
+          "published": "2026-10-30T23:50:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "$6.3 billion Binance hack likely work of North Korea, experts say",
+          "description": "A cyberattack on Binance, the world's largest crypto exchange, was likely carried out by North Korea, according to a blockchain intelligence firm.",
+          "link": "https://www.cbsnews.com/news/binance-hack-north-korea/",
+          "published": "2026-10-30T18:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
+          "description": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency income North Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking. Experts, such as TRM Labs, quickly attributed the extraordina",
+          "link": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+          "published": "2026-10-30T17:37:46.000Z",
+          "categories": [
+            "North Korea",
+            "Hacking",
+            "Cryptocurrencies",
+            "Asia Pacific",
+            "World news",
+            "Technology",
+            "Binance",
+            "Cybercrime",
+            "Internet",
+            "The Interview",
+            "Seth Rogen"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says US looking into Binance hack: 'We don't know' if North Korea responsible",
+          "description": "President Trump said Friday his administration is looking into the $6.3 billion hacking of the cryptocurrency exchange Binance, the largest such hack on record. “We don’t know,” Trump said in the Oval Office when asked if the hack should be attributed to a suspected North Korean hacker group. “We’re looking at that,” he continued. TraderTraitor,...",
+          "link": "https://thehill.com/policy/technology/6185518-trump-binance-crypto-hack-north-korea/",
+          "published": "2026-10-30T21:46:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
+          "description": "More than $6 billion in crypto was stolen from Binance, setting off a race to recover the funds before North Korea-linked hackers can launder them into cash.",
+          "link": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html",
+          "published": "2026-10-30T19:27:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Binance loses $6.3 billion in crypto heist—what happens to your money when an exchange gets hacked",
+          "description": "Crypto exchanges make it easier to buy, sell and store digital assets, but they come with risks, too.",
+          "link": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
+          "published": "2026-10-30T21:45:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why bitcoin held up better after the record Binance hack",
+          "description": "Bitcoin was trading down about 4% on Friday afternoon, less than a day after the biggest crypto hack in history.",
+          "link": "https://www.cnbc.com/2026/10/30/binance-hack-bitcoin-price.html",
+          "published": "2026-10-30T18:07:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "$6.3 billion Binance hack is largest crypto theft on record",
+          "description": "Binance says a security breach impacted about $6.3 billion in assets. The exchange says roughly $3 billion has been frozen and losses will be covered.",
+          "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+          "published": "2026-10-30T21:21:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Crypto exchanges call for quick moves to bolster defences after Binance heist",
+          "description": "Record hack at Binance shows urgent need to address crypto security.",
+          "link": "https://www.straitstimes.com/world/united-states/crypto-exchanges-call-for-quick-moves-to-bolster-defences-after-binance-heist",
+          "published": "2026-10-31T02:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Binance seeks to shore up confidence after record US$6.3 billion heist; Trump weighs in",
+          "description": "It has promised to cover all losses from company funds and allow clients to trade again within days.",
+          "link": "https://www.straitstimes.com/world/united-states/binance-seeks-to-shore-up-confidence-after-record-us6-3-billion-heist-trump-weighs-in",
+          "published": "2026-10-31T00:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How hackers steal crypto – and what they do with it",
+          "description": "Binance suspended withdrawals from its platform after a breach affected US$6.3 billion in funds.",
+          "link": "https://www.straitstimes.com/world/united-states/how-hackers-steal-crypto-and-what-they-do-with-it",
+          "published": "2026-10-30T23:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Binance hack exposes unsolvable crypto risk: disappearing money",
+          "description": "The $6.3 billion cryptocurrency heist shows that however sophisticated the fortifications, high-tech criminals are still finding a way in.",
+          "link": "https://www.japantimes.co.jp/business/2026/10/31/binance-hack-disappearing-money/",
+          "published": "2026-10-31T02:49:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Crypto exchanges call for quick moves to bolster defenses after Binance heist",
+          "description": "The $6.3 billion heist has exposed the vulnerabilities of crypto exchanges just as they become more embedded in mainstream finance.",
+          "link": "https://www.japantimes.co.jp/business/2026/10/31/crypto-exchanges-defense-call/",
+          "published": "2026-10-31T02:47:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hackers steal $6.3 billion from Binance in record heist blamed on North Korea",
+          "description": "Cryptocurrency prices fell on the news, while Binance halted withdrawals and said it would cover the losses.",
+          "link": "https://www.japantimes.co.jp/business/2026/10/30/markets/binance-suspected-hack/",
+          "published": "2026-10-30T10:49:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "$6 billion cryptocurrency heist puts investors on edge",
+          "description": "Binance, the world's largest cryptocurrency exchange, says it's working to recover funds after the biggest crypto heist in history. The company halted withdrawals after hackers made off with $6 billion in assets. The cyber heist is raising questions about the security of crypto and who pulled this off. Geoff Bennett discussed more with Geoff White, author of \"The Lazarus Heist.\"",
+          "link": "https://www.pbs.org/newshour/show/6-billion-cryptocurrency-heist-puts-investors-on-edge",
+          "published": "2026-10-30T22:50:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+          "description": "Binance exchange says it will cover customer losses as it scrambles to freeze affected assets, with about $3bn located so far Q&A: How big a deal is the $6.3bn crypto heist? Tell us: have you been affected by the Binance hack? The world’s largest cryptocurrency exchange has been hit by a record $6.3bn (£4.7bn) hack described as the biggest heist in history, with experts identifying North Korea as ",
+          "link": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+          "published": "2026-10-30T16:35:44.000Z",
+          "categories": [
+            "Binance",
+            "Cryptocurrencies",
+            "Business",
+            "Hacking",
+            "US news",
+            "Technology",
+            "World news",
+            "North Korea",
+            "Bitcoin"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Binance Suspends Withdrawals After Crypto Hackers Steal $6.3 Billion",
+          "description": "The crypto exchange said it was compromised in what could be the biggest crypto heist ever. One research lab attributed the theft to “North Korea’s elite hacking unit.”",
+          "link": "https://www.nytimes.com/2026/10/29/technology/binance-hack-crypto.html",
+          "published": "2026-10-30T15:16:55.000Z",
+          "categories": [
+            "Binance",
+            "Virtual Currency",
+            "Cyberwarfare and Defense",
+            "North Korea",
+            "Robberies and Thefts",
+            "Regulation and Deregulation of Industry",
+            "Computer Security",
+            "Computers and the Internet",
+            "Banking and Financial Institutions",
+            "Zhao, Changpeng"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
+          "description": "The largest cyber heist in history came as attackers increasingly use artificial intelligence and other advanced techniques to steal crypto and quickly launder the funds.",
+          "link": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+          "published": "2026-10-30T21:17:37.000Z",
+          "categories": [
+            "Virtual Currency",
+            "Robberies and Thefts",
+            "Cyberwarfare and Defense",
+            "Artificial Intelligence",
+            "Money Laundering",
+            "Computer Security",
+            "Banking and Financial Institutions",
+            "Computers and the Internet",
+            "Cyberattacks and Hackers",
+            "Binance",
+            "Bybit Fintech Ltd",
+            "Chainalysis Inc",
+            "Zhao, Changpeng"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+          "description": "Binance scrambles to freeze billions after record-breaking hack linked to North Korea.",
+          "link": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
+          "published": "2026-10-30T13:46:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+          "description": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+          "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o",
+          "published": "2026-10-31T02:12:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Who could be behind the Binance hack and what we know so far",
+          "description": "Binance has been hit by what could be the biggest crypto hack ever - here's what we know so far",
+          "link": "https://www.bbc.co.uk/news/articles/cm5yn8eqg3npo",
+          "published": "2026-10-30T11:57:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "From Bitcoin to Binance: Crypto terms and what they mean",
+          "description": "The Binance hack has thrust cryptocurrencies back into headlines - but what are they and how do they work?",
+          "link": "https://www.bbc.co.uk/news/articles/cy5w2k5k5ylo",
+          "published": "2026-10-30T11:35:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+          "description": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+          "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o",
+          "published": "2026-10-30T09:33:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Binance Was Hacked. What Protections Exist for Crypto Customers?",
+          "description": "After a $6.3 billion hack, the company said it was going to reimburse customers who had losses.",
+          "link": "https://www.nytimes.com/2026/10/30/business/binances-hack-customer-protections.html",
+          "published": "2026-10-30T20:49:27.000Z",
+          "categories": [
+            "Content Type: Service",
+            "Personal Finances",
+            "Bitcoin (Currency)",
+            "Cyberattacks and Hackers",
+            "Binance",
+            "Regulation and Deregulation of Industry"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
+          "description": "The largest cyber heist in history came as attackers increasingly use artificial intelligence and other advanced techniques to steal crypto and quickly launder the funds.",
+          "link": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+          "published": "2026-10-30T21:17:37.000Z",
+          "categories": [
+            "Virtual Currency",
+            "Robberies and Thefts",
+            "Cyberwarfare and Defense",
+            "Artificial Intelligence",
+            "Money Laundering",
+            "Computer Security",
+            "Banking and Financial Institutions",
+            "Computers and the Internet",
+            "Cyberattacks and Hackers",
+            "Binance",
+            "Bybit Fintech Ltd",
+            "Chainalysis Inc",
+            "Zhao, Changpeng"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
+          "description": "Hackers made off with around $6 billion in digital currency in what could be the biggest crypto heist in history. Binance said it will cover the losses.",
+          "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
+          "published": "2026-10-30T21:48:01.000Z",
+          "categories": [
+            "Binance",
+            "Cyberattacks and Hackers",
+            "Virtual Currency",
+            "Robberies and Thefts",
+            "Bitcoin (Currency)",
+            "Zhao, Changpeng"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Binance Hack Sends Crypto Stocks Tumbling",
+          "description": "The rout hit publicly traded crypto exchanges and fintech companies, as well as cryptocurrencies like Bitcoin.",
+          "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-stocks-bitcoin.html",
+          "published": "2026-10-30T19:00:28.000Z",
+          "categories": [
+            "Virtual Currency",
+            "Robberies and Thefts",
+            "Bitcoin (Currency)",
+            "Binance",
+            "Coinbase Inc",
+            "Ethereum Foundation",
+            "Robinhood Financial LLC"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Binance Suspends Withdrawals After Crypto Hackers Steal $6.3 Billion",
+          "description": "The crypto exchange said it was compromised in what could be the biggest crypto heist ever. One research lab attributed the theft to “North Korea’s elite hacking unit.”",
+          "link": "https://www.nytimes.com/2026/10/29/technology/binance-hack-crypto.html",
+          "published": "2026-10-30T15:16:55.000Z",
+          "categories": [
+            "Binance",
+            "Virtual Currency",
+            "Cyberwarfare and Defense",
+            "North Korea",
+            "Robberies and Thefts",
+            "Regulation and Deregulation of Industry",
+            "Computer Security",
+            "Computers and the Internet",
+            "Banking and Financial Institutions",
+            "Zhao, Changpeng"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+          "description": "Binance exchange says it will cover customer losses as it scrambles to freeze affected assets, with about $3bn located so far Q&A: How big a deal is the $6.3bn crypto heist? Tell us: have you been affected by the Binance hack? The world’s largest cryptocurrency exchange has been hit by a record $6.3bn (£4.7bn) hack described as the biggest heist in history, with experts identifying North Korea as ",
+          "link": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+          "published": "2026-10-30T16:35:44.000Z",
+          "categories": [
+            "Binance",
+            "Cryptocurrencies",
+            "Business",
+            "Hacking",
+            "US news",
+            "Technology",
+            "World news",
+            "North Korea",
+            "Bitcoin"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How big a deal is the $6.3bn Binance crypto heist, who did it, and are investments safe?",
+          "description": "The incident at Binance could be the biggest theft of any kind in history. We answer some key questions North Korean group blamed for $6.3bn crypto heist Tell us: have you been affected? The world’s largest cryptocurrency exchange has been hit by a $6.3bn heist that, according to experts, is likely to be the work of North Korea. This is not the first time a crypto market has been targeted by hacke",
+          "link": "https://www.theguardian.com/business/2026/oct/30/crypto-heist-binance-who-did-it-are-investments-safe",
+          "published": "2026-10-30T15:17:01.000Z",
+          "categories": [
+            "Binance",
+            "Business",
+            "Cryptocurrencies",
+            "E-commerce",
+            "Internet",
+            "North Korea",
+            "Banking",
+            "Financial sector",
+            "Bitcoin",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
+          "description": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency income North Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking. Experts, such as TRM Labs, quickly attributed the extraordina",
+          "link": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+          "published": "2026-10-30T17:37:46.000Z",
+          "categories": [
+            "North Korea",
+            "Hacking",
+            "Cryptocurrencies",
+            "Asia Pacific",
+            "World news",
+            "Technology",
+            "Binance",
+            "Cybercrime",
+            "Internet",
+            "The Interview",
+            "Seth Rogen"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Expert warns of 'AI hacking bloodbath' following massive Binance cryptocurrency theft",
+          "description": "Eric Schiffer warns the $6.3 billion Binance hack signals a coming \"bloodbath of AI hacking\" as cybersecurity threats grow more sophisticated.",
+          "link": "https://www.foxbusiness.com/technology/expert-warns-ai-hacking-bloodbath-following-massive-binance-cryptocurrency-theft",
+          "published": "2026-10-31T03:09:55.000Z",
+          "categories": [
+            "9f4e4d96-a593-5feb-ab8a-c12b6b91541e",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology",
+            "fox-business/topic/cryptocurrency",
+            "fox-business/industries/financials",
+            "fox-business/technology/cyber-security",
+            "fox-business/money/crime",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about Binance's $6.3bn hack",
+          "description": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
+          "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o",
+          "published": "2026-10-30T12:27:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Binance's $6.3 billion hack: What we know and what comes next",
+          "description": "Billions in crypto assets have been frozen following a potential Binance security breach, raising questions about whether the funds can be recovered.",
+          "link": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html",
+          "published": "2026-10-30T16:31:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "WATCH: What we know about Binance security breach",
+          "description": "Dave Merkel, co-founder and CEO of cybersecurity company Expel, talks about the major breach.",
+          "link": "https://abcnews.com/video/137711374/",
+          "published": "2026-10-30T16:30:35.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack",
+          "description": "Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.",
+          "link": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
+          "published": "2026-10-30T20:02:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Thieves make off with $6.3B from Binance: 'Biggest hack in history'",
+          "description": "Binance froze $3 billion in assets after a major security incident, with Changpeng Zhao suggesting the crypto exchange appears to have been hacked.",
+          "link": "https://www.foxbusiness.com/technology/binance-says-security-incident-had-estimated-6-3b-impact-3b-assets-frozen",
+          "published": "2026-10-30T03:52:33.000Z",
+          "categories": [
+            "74c00dc6-591d-591d-9bd9-80baf94c410e",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology/cyber-security",
+            "fox-business/topic/cryptocurrency",
+            "fox-business/technology",
+            "fox-business/financial-planning-101",
+            "fox-business/technology",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-10-31-1phu5fg",
+      "topic": "world",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+      "headlineSource": "BBC News",
+      "sourceCount": 9,
+      "score": 21.9,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US approves sale of 500 Patriot missiles to Ukraine",
+          "description": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+          "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo",
+          "published": "2026-10-31T00:40:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+          "description": "Deal would be one of the most significant steps to supply defensive weapons to Kyiv since ​Trump took office in 2025.",
+          "link": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
+          "published": "2026-10-31T04:51:25.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. approves sale of 500 Patriot missiles to Ukraine",
+          "description": "Ukrainian President Volodymyr Zelenskyy urged his allies to speed up deliveries of the critical munition.",
+          "link": "https://www.cbsnews.com/news/ukraine-patriot-missiles-us-lockheed-martin-sale-zelenskyy/",
+          "published": "2026-10-31T08:22:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. approves $2.1 billion sale of Patriot interceptors to Ukraine",
+          "description": "The Trump administration approved the sale of $2.1 billion in Patriot air defense systems to Ukraine on Friday, the State Department said in a statement.",
+          "link": "https://www.nbcnews.com/world/ukraine/us-approves-21-billion-sale-patriot-interceptors-ukraine-rcna606641",
+          "published": "2026-10-30T22:44:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+          "description": "The Ukrainian president called the US decision strong, but added that delivery of 500 Patriot PAC-3 missiles ⁠could take years The US has approved the sale ⁠of 500 Patriot PAC-3 missiles ⁠to Ukraine for an estimated $2.1bn, but Volodymyr Zelenskyy has warned deliveries could take years and stockpiles were needed now to counter Russian ballistic missile attacks. “The proposed sale will improve Ukra",
+          "link": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+          "published": "2026-10-31T02:18:17.000Z",
+          "categories": [
+            "Ukraine",
+            "Russia",
+            "US foreign policy",
+            "Arms trade",
+            "Europe",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine gets approval for Patriot missile sale",
+          "description": "Presented by Palantir {beacon} Defense &National Security Defense &National Security The Big Story Ukraine gets approval for Patriot missile sale The State Department approved on Friday a possible $2.1 billion sale of 500 Patriot interceptor missiles to Ukraine that is funded entirely by U.S. partners and allies. © Getty The Trump administration greenlit the...",
+          "link": "https://thehill.com/newsletters/defense-national-security/6185817-us-approves-ukraine-patriot-missiles/",
+          "published": "2026-10-31T00:36:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+          "description": "Ukraine has long said it urgently needs more missile interceptors to knock down ​the growing waves of missiles from Russia.",
+          "link": "https://nypost.com/2026/10/31/us-news/us-approves-2-1-billion-patriot-missile-sale-to-ukraine/",
+          "published": "2026-10-31T06:20:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelenskyy thanks US over deal for 500 Patriot missiles but warns delivery could take years",
+          "description": "Kyiv has long called for more interceptors to help its forces fend off Russian missile and drone attacks. The rapidly approaching winter is pressing home that need.",
+          "link": "https://www.euronews.com/2026/10/31/zelenskyy-thanks-us-over-deal-for-500-patriot-missiles-but-warns-delivery-could-take-years",
+          "published": "2026-10-31T07:46:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump administration approves potential Patriot missiles sale to Ukraine",
+          "description": "The approval comes after weeks of complaints by Ukrainian authorities that its supplies of the interceptor missiles were dwindling.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/31/world/ukraine-patriot-missile-sale-approve/",
+          "published": "2026-10-31T08:06:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-10-31-yv5266",
+      "topic": "world",
+      "title": "Poland's president turns back from Senegal trip as court chief's ousting sparks crisis",
+      "summary": "Riot police were deployed to Poland's Constitutional Tribunal on Friday as hundreds of demonstrators gathered to protest against the suspension of the top court's president by the current pro-European government.",
+      "headlineSource": "Sky News",
+      "sourceCount": 8,
+      "score": 21.6,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Police deployed during stand-off over control of top Poland court",
+          "description": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+          "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o",
+          "published": "2026-10-31T01:11:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Poland: Protesters clash with police over sacked court chief",
+          "description": "Polish Prime Minister Donald Tusk defended the firing of top court President Bogdan Swieczkowski as a move to \"restore the rule of law.\"",
+          "link": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-30T23:22:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Protesters gather at Poland's Top court",
+          "description": "Police in Poland have stepped up security around the country’s Constitutional Tribunal after dozens of protesters gathered on Friday to oppose the government’s suspension of its president, which they say was unlawful. Police say several people were detained after some demonstrators breached the court’s perimeter fence. Charlotte Hughes reports.",
+          "link": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court",
+          "published": "2026-10-31T09:31:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Poland's president turns back from Senegal trip as court chief's ousting sparks crisis",
+          "description": "Riot police were deployed to Poland's Constitutional Tribunal on Friday as hundreds of demonstrators gathered to protest against the suspension of the top court's president by the current pro-European government.",
+          "link": "https://news.sky.com/story/polands-president-turns-back-from-senegal-trip-as-court-chiefs-ousting-sparks-crisis-13606013",
+          "published": "2026-10-31T01:16:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
+          "description": "President Karol Nawrocki seen struggling to gain entry to court building in Warsaw amid long-running row over the court’s legitimacy Riot police were locked in a tense standoff with protesters outside Poland’s constitutional court on Friday night after its top judge was suspended in the latest escalation in a decade-long dispute over the court’s legal status. The clashes followed a controversial d",
+          "link": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
+          "published": "2026-10-31T04:27:25.000Z",
+          "categories": [
+            "Poland",
+            "Europe",
+            "Donald Tusk",
+            "Karol Nawrocki"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Polish president turns plane around after 'coup' at nation’s top court",
+          "description": "Tensions between Poland’s president and prime minister intensified as demonstrators rally outside the country’s top court.",
+          "link": "https://www.foxnews.com/world/polish-president-turns-plane-around-after-coup-at-nations-top-court",
+          "published": "2026-10-30T22:32:52.000Z",
+          "categories": [
+            "2567f1f2-c46f-5d0c-8b8c-9c2d30093738",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-elections",
+            "fox-news/world/world-politics",
+            "fox-news/world/world-regions/europe",
+            "fox-news/topic/the-european-union",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Polish President calls crisis talks after court stand-off",
+          "description": "The President, who was travelling to Senegal, ordered his plane to return to Warsaw.",
+          "link": "https://www.straitstimes.com/world/europe/polish-president-calls-crisis-talks-after-court-stand-off",
+          "published": "2026-10-31T10:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Protests in Poland as president returns to country after Tusk accused of coup against court",
+          "description": "Latest drama in ongoing conflict in Poland",
+          "link": "https://www.independent.co.uk/news/world/europe/poland-president-nawrocki-tusk-protest-b3076760.html",
+          "published": "2026-10-31T09:15:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Polish president turns back from foreign trip as police and protesters clash over ‘constitutional crisis’",
+          "description": "The president of the country’s top court has been suspended",
+          "link": "https://www.independent.co.uk/news/world/europe/poland-president-constitutional-crisis-senegal-b3076666.html",
+          "published": "2026-10-30T21:54:49.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-10-31-wyy3ld",
+      "topic": "world",
+      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "summary": "Residents evacuated from the Russian-occupied Ukrainian town of Oleshky have left for Russia's Anapa city with a Ukrainian delegation, senior official David Arakhamia said Friday. They are expected to fly to Belarus before returning to Ukraine by bus, during…",
+      "headlineSource": "BBC News",
+      "sourceCount": 9,
+      "score": 19.55,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+          "description": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+          "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo",
+          "published": "2026-10-31T08:49:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+          "description": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+          "link": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o",
+          "published": "2026-10-30T23:19:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
+          "description": "Under the local ceasefire, an aid convoy of 25 buses arrived with humanitarian aid and as transport for fleeing Oleshky residents. The Ukrainian city has been occupied by Russia since 2022 and faces food shortages.",
+          "link": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-30T20:09:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Residents leave Russian-occupied Oleshky in evacuation operation",
+          "description": "Residents evacuated from the Russian-occupied Ukrainian town of Oleshky have left for Russia's Anapa city with a Ukrainian delegation, senior official David Arakhamia said Friday. They are expected to fly to Belarus before returning to Ukraine by bus, during a rare ceasefire brokered by the United States.",
+          "link": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
+          "published": "2026-10-30T21:46:29.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oleshky: No access to basic needs, ceasefire offers limited opportunity for humanitarian assistance",
+          "description": "Catherine Viette is pleased to welcome Jens Schumacher, Field Coordinator in Mykolaiv and Kherson with Solidarity International. Just a few kilometers separate the Ukrainian-controlled city of Kherson from Russian-occupied Oleshky. For civilians caught between military occupation, disrupted essential services and uncertain evacuation arrangements, geographical proximity offers little guarantee of ",
+          "link": "https://www.france24.com/en/oleshky-no-access-to-basic-needs-ceasefire-offers-limited-opportunity-for-humanitarian-assistance",
+          "published": "2026-10-30T17:11:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Stranded locals use rare truce to leave Moscow-occupied town in Ukraine",
+          "description": "Some residents of Oleshky, a Russian-occupied town in southern Ukraine ravaged by food and medicine shortages, left on Friday during a rare ceasefire brokered by the United States – due to end on Sunday evening. Ukrainian and Russian officials visited the town together on Friday, delivering aid and marshalling those who wanted to leave.",
+          "link": "https://www.france24.com/en/video/20261030-stranded-locals-use-rare-truce-to-leave-moscow-occupied-town-in-ukraine",
+          "published": "2026-10-30T16:44:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "War in Ukraine: Evacuations under way in Russian-occupied Oleshky",
+          "description": "Starving and exhausted residents of Oleshky, a Russian-occupied town in southern Ukraine, were being evacuated on Friday, October 30, as part of a joint relief operation involving the opposing sides – the first operation of its kind in four years and eight months of war. FRANCE 24’s Ukraine correspondent Emmanuelle Chaze reports.",
+          "link": "https://www.france24.com/en/video/20261030-war-in-ukraine-evacuations-under-way-in-russian-occupied-oleshky",
+          "published": "2026-10-30T16:01:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Evacuations begin in Ukraine under localized ceasefire brokered by Melania Trump",
+          "description": "An evacuation mission was underway in a Russian-occupied city in Ukraine, during a truce brokered by first lady Melania Trump and with Pope Leo XIV’s involvement.",
+          "link": "https://www.nbcnews.com/world/ukraine/melania-ukraine-oleshky-evacuation-russia-ceasefire-leo-rcna606509",
+          "published": "2026-10-30T11:17:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
+          "description": "Humanitarian convoy brings food and medicine to Russian-held city where people have suffered severe shortages People living in the besieged Russian-held city of Oleshky in southern Ukraine were evacuated on Friday as part of a joint relief operation, the first of its kind in four years and eight months of war. The city, which lies on the Russian-occupied side of the Dnipro River, opposite Kherson,",
+          "link": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+          "published": "2026-10-30T17:13:48.000Z",
+          "categories": [
+            "Ukraine",
+            "Russia",
+            "Europe",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hundreds evacuated from Oleshky as Melania Trump brokers rare Russia-Ukraine ceasefire",
+          "description": "Hundreds of residents were evacuated from the Russian-occupied town of Oleshky during a humanitarian ceasefire. The evacuation allowed individuals to leave amidst dire conditions of starvation and exhaustion. Three planes carrying evacuees successfully landed at an airport in Belarus as part of a coordinated operation. Both Russian and Ukrainian authorities confirmed the operation was conducted wi",
+          "link": "https://timesofindia.indiatimes.com/world/europe/hundreds-evacuated-from-occupied-oleshky-as-melania-trump-brokers-rare-russia-ukraine-ceasefire/articleshow/135397051.cms",
+          "published": "2026-10-31T09:58:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Desperate residents evacuate devastated Russian-occupied Oleshky by bus",
+          "description": "Hundreds of people were expected to stay in the beleaguered town in occupied southern Ukraine despite the risks",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-war-oleshky-russia-evacuation-ceasefire-b3076137.html",
+          "published": "2026-10-30T16:00:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Residents of Russian-controlled Ukrainian town arrive in Belarus",
+          "description": "KYIV, Oct 31 - Four planes carrying residents evacuated from the Russian-controlled Ukrainian town of Oleshky landed in Belarus on Saturday, the Belarusian Belta state news agency and a senior Ukrainian official said.",
+          "link": "https://www.straitstimes.com/world/europe/residents-of-russian-controlled-ukrainian-town-arrive-in-belarus",
+          "published": "2026-10-31T09:46:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia-occupied Oleshky evacuees arrive in Belarus, Ukraine next",
+          "description": "Three ⁠planes ⁠carrying residents evacuated ⁠from the Russian-controlled frontline Ukrainian city of Oleshky landed at Gomel airport ‌in Belarus, the Belta state news agency reported on Saturday. The evacuees, wishing to leave for ⁠Ukraine, travelled by bus via the ‌Crimean peninsula to the Russian town of ‌Anapa before flying to Belarus ⁠and ⁠will proceed to Ukraine ‌via a border crossing, Belta ",
+          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372828/russia-occupied-oleshky-evacuees-arrive-belarus-ukraine-next",
+          "published": "2026-10-31T09:22:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Planes carrying evacuated residents from Oleshky land in Belarus",
+          "description": "Starving and exhausted residents were evacuated by bus as part of a ‌joint relief operation ​by the ‌opposing sides, the ⁠first of its ⁠kind in four years ‌and ​eight months ‌of war",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-uk-oil-refineries-b3076107.html",
+          "published": "2026-10-31T09:49:53.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-10-31-fqvrb",
+      "topic": "world",
+      "title": "Russia's presence divides G20 ministers",
+      "summary": "Russian Foreign Minister Sergey Lavrov declined to comment on Russia's participation in the G20 summit in December, telling DW that Volodymyr Zelenskyy should travel to Russia if he wanted talks with Vladimir Putin.",
+      "headlineSource": "France 24",
+      "sourceCount": 9,
+      "score": 19.5,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+          "description": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+          "link": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do",
+          "published": "2026-10-30T22:11:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia's presence divides G20 ministers",
+          "description": "The G20 foreign ministers’ meeting in the US is wrapping up two days of talks without agreement on several key global security issues. On the sidelines, US Secretary of State Marco Rubio signed an Arctic cooperation deal with Japan and South Korea and confirmed Washington’s participation in Riyadh’s World Expo in 2030. Meanwhile, European ministers confronted Russia’s Sergei Lavrov over the war in",
+          "link": "https://www.france24.com/en/russia-s-presence-divides-g20-ministers",
+          "published": "2026-10-31T09:30:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "G20 photocall axed after Miliband and other ministers refuse to be pictured with top Russian diplomat",
+          "description": "A photocall of foreign ministers was cancelled by the US after the UK's Foreign Secretary Ed Miliband and other European counterparts refused to be pictured with Russia's envoy Sergei Lavrov.",
+          "link": "https://news.sky.com/story/g20-photocall-cancelled-after-ed-miliband-and-other-foreign-ministers-refuse-to-be-pictured-with-russias-sergei-lavrov-13605874",
+          "published": "2026-10-30T18:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
+          "description": "Marco Rubio pulls plug on traditional photo op at meeting of foreign ministers after about one-third of countries threaten boycott The traditional “family photo” to open the G20 foreign ministers’ meeting has been abruptly cancelled in the US after a host of nations – including Australia and the UK – refused to appear beside the Russian foreign minister, Sergei Lavrov. The US secretary of state, M",
+          "link": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+          "published": "2026-10-31T00:29:28.000Z",
+          "categories": [
+            "G20",
+            "Australian foreign policy",
+            "Russia",
+            "Australian politics",
+            "UK news",
+            "US politics",
+            "Australia news"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "WATCH: Rubio welcomes G20 foreign ministers to Atlanta at 'critical moment'",
+          "description": "Secretary of State Marco Rubio pulled the plug on the traditional group photo after several European officials threatened to boycott or walk out of the snapshot that usually helps kick off such diplomatic gatherings.",
+          "link": "https://www.pbs.org/newshour/politics/watch-rubio-welcomes-g20-foreign-ministers-to-atlanta-at-critical-moment",
+          "published": "2026-10-30T18:10:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "G20 photocall cancelled after Miliband refuses to be pictured with Russian foreign minister",
+          "description": "Miliband also told Russia foreign minister ‘you are not winning this war’",
+          "link": "https://www.independent.co.uk/news/world/europe/g20-ed-miliband-russia-ukraine-b3076684.html",
+          "published": "2026-10-30T22:40:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "G20 leaders photo scrapped after Europe refuses to be pictured with Russia",
+          "description": "US Secretary of State Marco Rubio was forced to cancel the leaders’ photo on Friday amid fears it would be a distraction",
+          "link": "https://www.independent.co.uk/news/world/europe/g20-leaders-atlanta-europe-russia-b3076457.html",
+          "published": "2026-10-30T15:20:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "European diplomats shun Russia at G20 gathering in the US",
+          "description": "Russian Foreign Minister Sergey Lavrov declined to comment on Russia's participation in the G20 summit in December, telling DW that Volodymyr Zelenskyy should travel to Russia if he wanted talks with Vladimir Putin.",
+          "link": "https://www.dw.com/en/european-diplomats-shun-russia-at-g20-gathering-in-the-us/a-79813925?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-31T01:56:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "EU diplomats object to G20 photo with Lavrov, prompting US cancellation",
+          "description": "The meeting in Atlanta will go ahead as planned, ahead of a G20 leaders’ summit hosted by President Donald Trump at his Miami golf club in December.",
+          "link": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation",
+          "published": "2026-10-30T17:03:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Japan demands release of national in meeting with Russia’s Lavrov",
+          "description": "The rare high-level meeting between the two countries came amid strained ties over Ukraine and a long-running territorial dispute.",
+          "link": "https://www.japantimes.co.jp/news/2026/10/31/japan/japan-russia-g20-meeting/",
+          "published": "2026-10-31T02:32:00.000Z",
+          "categories": [
+            "JAPAN"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-10-31-1n4mycl",
+      "topic": "business",
+      "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
+      "summary": "Oil companies are reporting another quarter of sky-high profits as the war in Iran pushes up the price of oil — and prices at the pump.",
+      "headlineSource": "NYT Business",
+      "sourceCount": 6,
+      "score": 18.01,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 4,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 4,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oil company earnings skyrocket — again",
+          "description": "Oil companies are reporting another quarter of sky-high profits as the war in Iran pushes up the price of oil — and prices at the pump.",
+          "link": "https://www.npr.org/2026/10/31/nx-s1-6008072/oil-company-profits-gasoline-diesel-prices",
+          "published": "2026-10-31T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+          "description": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
+          "link": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+          "published": "2026-10-31T06:00:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
+          "description": "That was almost three times as much as what businesses producing and refining oil in the United States made in the same period in 2025.",
+          "link": "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html",
+          "published": "2026-10-30T10:35:33.000Z",
+          "categories": [
+            "Oil (Petroleum) and Gasoline",
+            "US and Israeli Attack on Iran (2026)",
+            "War and Armed Conflicts",
+            "Company Reports",
+            "Russian Invasion of Ukraine (2022)",
+            "Prices (Fares, Fees and Rates)",
+            "United States Politics and Government",
+            "Diesel Power",
+            "Inflation (Economics)",
+            "Pipelines",
+            "United States Economy",
+            "Refineries",
+            "Chevron Corporation",
+            "Exxon Mobil Corp",
+            "Shell Plc",
+            "TotalEnergies SE",
+            "Valero Energy Corporation",
+            "Trump, Donald J",
+            "Iran",
+            "Russia",
+            "Ukraine"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "BP profits hit ‘obscene’ 18-year high as Iran war drives up oil refining margins",
+          "description": "Oil giant comes under fire from climate campaigners, as its earnings reach $8.46bn while ‘innocent civilians suffer’ BP’s quarterly profits have been labelled “obscene” after they hit an 18-year high of $8.46bn (£6.3bn), as the war in the Middle East drove up oil and gas prices. The energy company hailed a “banner quarter” on Friday, with its underlying ​replacement ⁠cost profit – a key measure of",
+          "link": "https://www.theguardian.com/business/2026/oct/30/bp-profits-jump-as-middle-east-conflict-drives-up-oil-refining-margins",
+          "published": "2026-10-30T16:49:00.000Z",
+          "categories": [
+            "BP",
+            "Oil and gas companies",
+            "Business",
+            "Energy industry",
+            "Oil",
+            "Commodities",
+            "Gas",
+            "UK news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "ExxonMobil and Chevron report blowout profits as Trump touts benefits of high oil prices",
+          "description": "The two largest U.S. oil companies, ExxonMobil and Chevron reported blowout profits as oil prices remain sharply elevated due to the U.S. war with Iran.",
+          "link": "https://www.nbcnews.com/business/energy/exxonmobil-chevron-profits-trump-high-oil-prices-rcna606524",
+          "published": "2026-10-30T14:35:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Oil giants post billions in profits as Americans feel pain at the pump",
+          "description": "ExxonMobil and Chevron posted massive quarterly profits as Middle East and Russia-Ukraine conflicts drove gas prices up 34.2% year over year.",
+          "link": "https://www.foxbusiness.com/economy/oil-giants-post-billions-profits-americans-feel-pain-pump",
+          "published": "2026-10-30T18:52:47.000Z",
+          "categories": [
+            "3a5826c5-96a6-5d72-b235-e5aa1deed885",
+            "fbn",
+            "Fox Business",
+            "fox-business/economic-indicators/us-economy/gas-prices",
+            "fox-business/financial-planning-101",
+            "fox-news/fox-news-newsedge/fox-news-consumer",
+            "fox-business/markets/economy",
+            "fox-business/markets/oil",
+            "kalshi",
+            "fox-business/economy",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
+          "description": "Global diesel prices surged as Ukraine and Iran struck refineries in Russia and the Middle East.",
+          "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
+          "published": "2026-10-30T16:44:31.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-10-31-lcxgix",
+      "topic": "world",
+      "title": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
+      "summary": "The result means Israel is now set to face a lengthy and likely tricky period of negotiations as party leaders work to form a government.",
+      "headlineSource": "Euronews",
+      "sourceCount": 7,
+      "score": 16.9,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "csm",
+          "outlet": "csm",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Gazans couldn’t vote in Israel’s election. But many say it will determine their future.",
+          "description": "As coalition negotiations begin in Israel, many Gazans hope to see the opposition bring an end to Benjamin Netanyahu’s political career.",
+          "link": "https://www.csmonitor.com/World/Middle-East/2026/1030/gaza-reaction-israel-election-netanyahu-eisenkot?icid=rss",
+          "published": "2026-10-30T18:17:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Netanyahu's party claims Israel's election was stolen. Now what?",
+          "description": "Benjamin Netanyahu, facing a possible election ouster, has made a contentious claim that a foreign country meddled to boost voting by Israel's Arab minority.",
+          "link": "https://www.cbsnews.com/news/israel-election-results-netanyahu-likud-claim-stolen-arab-parties/",
+          "published": "2026-10-30T14:39:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Netanyahu accused of smearing Arab voters to hold on to power",
+          "description": "Prime minister claims Arab Israeli parties used foreign backing to steal elections, in which his coalition lost its majority Benjamin Netanyahu has been accused of using smear tactics to cling to power, after he claimed that Arab Israeli parties had used foreign backing to “steal” Tuesday’s election, in which the prime minister’s coalition lost its parliamentary majority. Netanyahu and his allies ",
+          "link": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power",
+          "published": "2026-10-29T23:14:53.000Z",
+          "categories": [
+            "Benjamin Netanyahu",
+            "Israel",
+            "Middle East and north Africa",
+            "World news",
+            "The far right"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran Braces for More War, No Matter the Outcome of the U.S. and Israeli Elections",
+          "description": "Prime Minister Benjamin Netanyahu is jockeying to stay in power, and President Trump is in a tough midterm fight, yet Iran’s leaders do not expect a major shift in Israeli or U.S. policy.",
+          "link": "https://www.nytimes.com/2026/10/31/world/middleeast/iran-war-israel-us-elections-trump-netanyahu.html",
+          "published": "2026-10-31T09:05:41.000Z",
+          "categories": [
+            "US and Israeli Attack on Iran (2026)",
+            "International Relations",
+            "Iran-Israel Proxy Conflict",
+            "Iran-Israel War (2025-)",
+            "War and Armed Conflicts",
+            "Defense and Military Forces",
+            "Midterm Elections (2026)",
+            "Oil (Petroleum) and Gasoline",
+            "Islamic Revolutionary Guards Corps",
+            "Trump, Donald J",
+            "Pezeshkian, Masoud",
+            "Netanyahu, Benjamin",
+            "Iran",
+            "Israel",
+            "Strait of Hormuz",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What Israeli Election Results Reveal About the Electorate",
+          "description": "Some groups stood by Prime Minister Benjamin Netanyahu’s party, but support fell off among others. Turnout was also a striking factor in the election.",
+          "link": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-voter-data-takeaways.html",
+          "published": "2026-10-30T06:31:44.000Z",
+          "categories": [
+            "Israel",
+            "Elections",
+            "Netanyahu, Benjamin",
+            "Voting and Voters",
+            "Polls and Public Opinion",
+            "Likud Party (Israel)",
+            "Arabs",
+            "Politics and Government",
+            "Israel-Gaza War (2023-)"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "No Clear Winner in Israel Election, Final Results Show",
+          "description": "Prime Minister Benjamin Netanyahu’s party and its allies won 53 seats in Parliament, falling short of the outright majority needed to form a government. The main opposition bloc, led by Gadi Eisenkot, won 48.",
+          "link": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-election-results-netanyahu-eisenkot.html",
+          "published": "2026-10-30T15:02:51.000Z",
+          "categories": [
+            "Israel",
+            "Elections",
+            "Netanyahu, Benjamin",
+            "Eisenkot, Gadi",
+            "Herzog, Isaac",
+            "Legislatures and Parliaments",
+            "Politics and Government"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Democrats weigh Israel election results amid lingering uncertainty",
+          "description": "The results of Israel’s elections this week have left Democrats on Capitol Hill with a mixed bag of emotions. The lawmakers say they’re heartened by the massive voter turnout, the erosion of support for conservative Prime Minister Benjamin Netanyahu, and the potential influence of his top opponent, retired Gen. Gadi Eisenkot, over whatever governing coalition...",
+          "link": "https://thehill.com/homenews/house/6185584-democrats-react-israel-elections/",
+          "published": "2026-10-30T23:03:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
+          "description": "The result means Israel is now set to face a lengthy and likely tricky period of negotiations as party leaders work to form a government.",
+          "link": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
+          "published": "2026-10-30T07:31:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Final election results show neither Netanyahu nor rival can immediately form government",
+          "description": "Parties led by Israel’s Arab minority made historic gains, winning a combined 19 seats in a race in which Palestinians with Israeli citizenship headed to the polls in record numbers.",
+          "link": "https://www.nbcnews.com/world/israel/israels-final-election-results-show-neither-netanyahu-rival-can-immedi-rcna606290",
+          "published": "2026-10-30T01:42:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "An Arab Town in Israel Celebrates the Election but Wonders What Will Change",
+          "description": "Gains for Arab-led parties have electrified Taibe, in central Israel, even as voters elsewhere in Israel say they have no place in any future government.",
+          "link": "https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html",
+          "published": "2026-10-30T04:01:20.000Z",
+          "categories": [
+            "Politics and Government",
+            "Elections",
+            "Arabs",
+            "Joint List (Israel)",
+            "Raam Party (Israel)",
+            "Taibe (Israel)",
+            "Israel",
+            "Gaza Strip",
+            "West Bank",
+            "Netanyahu, Benjamin"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-10-31-nv7m7t",
+      "topic": "world",
+      "title": "Independent Russian newspaper Novaya Gazeta shuts under Kremlin pressure",
+      "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 8,
+      "score": 16.59,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 1.93,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+          "description": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+          "link": "https://www.bbc.co.uk/news/articles/cmewepdr109do",
+          "published": "2026-10-30T20:41:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure",
+          "description": "Russia’s most prominent investigative newspaper is closing, with staff accusing the government of killing it off.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/russias-novaya-gazeta-killed-off-after-murders-arrests-and-pressure?traffic_source=rss",
+          "published": "2026-10-31T03:27:21.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia: Critical newspaper 'Novaya Gazeta' to close",
+          "description": "\"Novaya Gazeta,\" one of the last remaining independent, critical media outlets in Russia, has announced it is closing under pressure from state authorities. Meanwhile, in Ukraine, evacuations have begun in Oleshky.",
+          "link": "https://www.dw.com/en/russia-critical-newspaper-novaya-gazeta-to-close/a-79805693?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-30T11:09:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia’s Novaya Gazeta to cease publication amid Kremlin crackdown",
+          "description": "Russia’s most renowned independent newspaper, Novaya Gazeta, announced on Friday that it was ceasing publication after more than three decades. Known for its courageous investigative journalism, the flagship newspaper said the Kremlin’s crackdown and ban on the media outlet had made it impossible to continue its work.",
+          "link": "https://www.france24.com/en/video/20261030-russia-s-novaya-gazeta-to-cease-publication-amid-kremlin-crackdown",
+          "published": "2026-10-30T16:58:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Last independent newspaper in Russia forced to shut down",
+          "description": "The editor of Russia's last independent newspaper, Novaya Gazeta, says Vladimir Putin's government has \"forced the editorial team to stop its work.\"",
+          "link": "https://www.cbsnews.com/news/novaya-gazeta-russia-newspaper-closes-putin-free-press-crackdown/",
+          "published": "2026-10-30T16:03:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russian News Outlet That Defied Kremlin Will Shut Down: ‘They Killed Us’",
+          "description": "Journalists at the fiercely independent Novaya Gazeta, whose co-founder received the Nobel Peace Prize, said the government had orchestrated its demise.",
+          "link": "https://www.nytimes.com/2026/10/30/world/europe/russia-novaya-gazeta-newspaper.html",
+          "published": "2026-10-30T19:09:14.000Z",
+          "categories": [
+            "Novaya Gazeta",
+            "Muratov, Dmitri A",
+            "Russia",
+            "Russian Invasion of Ukraine (2022)",
+            "Freedom of the Press"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Independent Russian newspaper Novaya Gazeta shuts under Kremlin pressure",
+          "description": "The publication said it had been “killed” by state pressure after years of repression targeting its journalists.",
+          "link": "https://www.straitstimes.com/world/europe/independent-russian-newspaper-novaya-gazeta-shuts-under-kremlin-pressure",
+          "published": "2026-10-30T23:56:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian independent newspaper Novaya Gazeta says it will shut down following pressure from Kremlin",
+          "description": "The paper is one of the few Russian outlets that has been openly critical of Russia's war in Ukraine, but it has come under increasing pressure from Moscow.",
+          "link": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from",
+          "published": "2026-10-30T15:08:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-10-31-1c4mu14",
+      "topic": "world",
+      "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
+      "summary": "Iran's Revolutionary Guard says four tankers have caught fire in the Strait of Hormuz.",
+      "headlineSource": "Euronews",
+      "sourceCount": 7,
+      "score": 16.21,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.06,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran says four tankers on fire after striking mines in Hormuz",
+          "description": "Iran's Revolutionary Guard says four tankers have caught fire in the Strait of Hormuz.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss",
+          "published": "2026-10-31T03:55:48.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Oman rescues 25 from burning ship, Iran halts tankers",
+          "description": "The crew members onboard the crude oil tanker were provided with medical care.",
+          "link": "https://www.straitstimes.com/world/middle-east/oman-rescues-25-from-burning-ship-iran-halts-tankers",
+          "published": "2026-10-31T04:25:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India news: Tanker carrying 27 Indians attacked in Strait of Hormuz",
+          "description": "Two vessels carrying Indian crew members have been attacked in the Strait of Hormuz over the past two days as Iran steps up attacks on shipping. DW has more.",
+          "link": "https://www.dw.com/en/india-news-tanker-carrying-27-indians-attacked-in-strait-of-hormuz/live-79814329?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-31T05:06:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran claims 4 tankers hit mines in Strait of Hormuz",
+          "description": "A tanker was also struck by a projectile in the strait on Thursday night.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/",
+          "published": "2026-10-30T07:18:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+          "description": "Soaring freight rates are giving tankers a big financial incentive to run the gauntlet through the Strait of Hormuz.",
+          "link": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+          "published": "2026-10-30T18:28:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
+          "description": "Iran’s Revolutionary Guard said Friday that two oil tankers had caught fire and been stopped in the Strait of Hormuz, as Qatari mediators returned to Tehran for another round of talks aimed at ending the war between Iran and the United States.",
+          "link": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+          "published": "2026-10-30T14:43:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran claims three tankers catch fire and US drone was downed in Strait of Hormuz",
+          "description": "According to the IRGC Navy, one vessel carrying 2 million barrels of crude oil struck a mine",
+          "link": "https://www.independent.co.uk/news/world/middle-east/iran-straight-of-hormuz-tanker-fire-drone-b3076620.html",
+          "published": "2026-10-30T19:28:35.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-30-1ka6ebx",
+      "topic": "tech",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+      "headlineSource": "BBC News",
+      "sourceCount": 5,
+      "score": 13.95,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 1.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 4,
+        "specialistShare": 0.8,
+        "votes": {
+          "tech": 3,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "description": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+          "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "published": "2026-10-30T20:34:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+          "description": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
+          "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+          "published": "2026-10-30T20:30:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "description": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+          "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "published": "2026-10-30T20:34:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tech Stocks See Worst Day Since June, Pressuring Broader Market",
+          "description": "The Nasdaq and the S&P 500 had their worst day since June as investors worried about spending on A.I. infrastructure.",
+          "link": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
+          "published": "2026-10-30T20:40:47.000Z",
+          "categories": [
+            "Stocks and Bonds",
+            "Standard & Poor's 500-Stock Index",
+            "Artificial Intelligence",
+            "Company Reports",
+            "Oil (Petroleum) and Gasoline",
+            "Alphabet Inc",
+            "Amazon.com Inc",
+            "Google Inc",
+            "Microsoft Corp",
+            "Meta Platforms Inc"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
+          "description": "Big tech stocks falter as investors question whether billions being poured into AI can generate returns quickly enough A sell-off of tech stocks that began earlier this month and gained steam with disappointing earnings from leading tech companies drove US markets down by hundreds of billions of dollars Friday. In total, the decline has knocked nearly $1tn in value off the tech-heavy Nasdaq exchan",
+          "link": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+          "published": "2026-10-30T18:27:51.000Z",
+          "categories": [
+            "Technology",
+            "AI (artificial intelligence)",
+            "Datacenters – US",
+            "Business",
+            "Stock markets",
+            "US markets",
+            "US news",
+            "Nasdaq",
+            "Market turmoil",
+            "Amazon",
+            "Alphabet",
+            "Intel",
+            "Nvidia",
+            "Quarterly results"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "In a wild October for markets, these stocks were the biggest winners and losers",
+          "description": "Many Big Tech stocks were hit hard but the S&P 500 showed strength under the surface, with a majority of stocks showing gains for the month.",
+          "link": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
+          "published": "2026-10-30T20:52:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+          "description": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+          "link": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+          "published": "2026-10-30T18:55:44.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
