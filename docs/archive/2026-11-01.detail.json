@@ -1,0 +1,1708 @@
+{
+  "edition": "2026-11-01",
+  "generatedAt": "2026-11-01T11:01:03.159Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-01-vheubd",
+      "topic": "tech",
+      "title": "FBI blames North Korea for $6 billion Binance crypto hack",
+      "summary": "The FBI said the theft was tied to \"malicious cyber activity\" by an entity known as TraderTraitor, the same actors behind a $1.5 billion Bybit hack last year.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 15,
+      "score": 23.96,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 15,
+        "specialistOutlets": 8,
+        "specialistShare": 0.53,
+        "votes": {
+          "tech": 7,
+          "business": 5,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "description": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+          "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o",
+          "published": "2026-11-01T09:28:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "FBI says North Korea behind $6 billion Binance crypto theft",
+          "description": "The FBI said the theft was tied to \"malicious cyber activity\" by an entity known as TraderTraitor, the same actors behind a $1.5 billion Bybit hack last year.",
+          "link": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-01T07:33:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Binance resumes crypto withdrawals after major hack blamed on North Korea",
+          "description": "Binance, the world’s biggest cryptocurrency exchange, on Sunday said it would resume withdrawals after a suspension due to a major hack, which the FBI has tied ​to North Korea. The exchange said it covered 95% of the $6.3 billion in tokens stolen from its platform in the world's largest digital heist.",
+          "link": "https://www.france24.com/en/business/20261101-binance-says-resuming-withdrawals-after-major-hack",
+          "published": "2026-11-01T07:01:49.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Binance hit by 6.3 billion dollar crypto theft",
+          "description": "Binance executives are scrambling to recover billions of dollars after the crypto platform was hit by what is being described as the biggest heist in cryptocurrency history. Hackers reportedly stole $6.3 billion from users, with analysts pointing the finger at North Korea. The attack far surpasses the previous record set in February 2025, when hackers stole $1.5 billion from crypto exchange Bybit.",
+          "link": "https://www.france24.com/en/binance-hit-by-6-3-billion-dollar-crypto-theft",
+          "published": "2026-10-31T11:16:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Majority of funds stolen in cryptocurrency hack replenished, Binance says",
+          "description": "Around 90% of stolen cryptocurrency assets following a hack on a major exchange has been replenished, according to Binance.",
+          "link": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152",
+          "published": "2026-10-31T14:39:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "$6.3 billion Binance hack likely work of North Korea, experts say",
+          "description": "A cyberattack on Binance, the world's largest crypto exchange, was likely carried out by North Korea, according to a blockchain intelligence firm.",
+          "link": "https://www.cbsnews.com/news/binance-hack-north-korea/",
+          "published": "2026-10-31T23:20:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "How hard is it to recover the $6 billion stolen from Binance?",
+          "description": "Security experts are calling it the \"largest bank robbery in human history.\" Getting all of the stolen crypto funds won't be easy.",
+          "link": "https://www.cbsnews.com/news/binance-crypto-hack-stolen-funds-recovery/",
+          "published": "2026-10-30T23:50:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+          "description": "Cryptocurrency exchange says withdrawals starting to resume on Sunday as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance says it has replaced 90% of the ⁠amount stolen after a record $6.3bn hack of its platform by a group the FBI identified as being backed by North Korea. The remaining 10% of tokens are less liquid, meaning they ⁠may take ​longer to buy,",
+          "link": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+          "published": "2026-11-01T06:53:18.000Z",
+          "categories": [
+            "Binance",
+            "Cryptocurrencies",
+            "North Korea",
+            "Asia Pacific",
+            "World news",
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
+          "description": "This week’s $6.3 billion hack of Binance is the largest to hit crypto, and would be the most that North Koreans have stolen in years of brazen cybercrime.",
+          "link": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html",
+          "published": "2026-10-31T23:05:42.000Z",
+          "categories": [
+            "Cyberwarfare and Defense",
+            "Cyberattacks and Hackers",
+            "North Korea",
+            "Kim Jong-un",
+            "Zhou, Ben (Financial Executive)",
+            "Federal Bureau of Investigation",
+            "Bangladesh Bank",
+            "Binance",
+            "Lazarus Group",
+            "Sony Corporation",
+            "Sony Pictures Entertainment",
+            "Stimson Center",
+            "United Nations",
+            "South Korea"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Binance recovers 90 percent of stolen assets from hack",
+          "description": "Cryptocurrency exchange Binance said Saturday that it was able to replenish 90 percent of the stolen assets ‌after a $6.3 billion hack of its platform. On Thursday, the money started moving out of Binance wallets, prompting the company to suspend all deposits and withdrawals. Some cryptocurrency firms froze around $3 billion in assets in connection...",
+          "link": "https://thehill.com/policy/technology/6186304-binance-replenishes-ninety-percent-hack/",
+          "published": "2026-10-31T19:08:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
+          "description": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and resumed phased withdrawals.",
+          "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+          "published": "2026-11-01T09:03:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+          "description": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
+          "link": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+          "published": "2026-10-31T16:13:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Binance’s US$6b crypto heist: Five things to know about North Korea’s TraderTraitor hackers",
+          "description": "The group has been known to pose as recruiters offering lucrative jobs to trick victims into downloading malicious software.",
+          "link": "https://www.straitstimes.com/world/five-things-to-know-about-north-koreas-tradertraitor-hackers",
+          "published": "2026-11-01T03:23:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "FBI blames North Korea for US$6 billion Binance crypto hack",
+          "description": "",
+          "link": "https://www.straitstimes.com/world/united-states/fbi-blames-north-korea-for-us6-billion-binance-crypto-hack",
+          "published": "2026-10-31T23:33:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "FBI blames North Korea for $6 billion Binance crypto hack",
+          "description": "Binance has said it will cover about 90% of the loss and plans to restore withdrawals, making progress on a pledge to fully reimburse customers.",
+          "link": "https://www.japantimes.co.jp/business/2026/11/01/tech/binance-hack-fbi-north-korea/",
+          "published": "2026-10-31T23:21:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+          "description": "The theft of billions of dollars from Binance within a matter of minutes, the biggest cryptocurrency heist in history, was orchestrated by North Korean hackers, the FBI said on Saturday. The Federal Bureau of Investigation said in a statement that this week’s attack was tied to “malicious cyber activity” by an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last y",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
+          "published": "2026-10-31T23:49:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What to know about the $6.3B hack on Binance, likely the biggest-ever crypto theft",
+          "description": "Here's what we know about the hack, possible North Korean involvement and Binance's investigation.",
+          "link": "https://www.pbs.org/newshour/world/what-to-know-about-the-6-3b-hack-on-binance-likely-the-biggest-ever-crypto-theft",
+          "published": "2026-10-31T16:14:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
+          "description": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and the company plans to cover the remaining 10 percent as well. Binance is covering the stolen funds directly, and the remaining 10 percent consists of \"less",
+          "link": "https://www.theverge.com/?p=1024091",
+          "published": "2026-10-31T18:40:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "How Binance’s $6.3 Billion Hack Went Down",
+          "description": "A war room. A global conference call. A founder who live-posted about the largest crypto heist in history. Inside a frantic 24 hours at the world’s biggest crypto exchange.",
+          "link": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+          "published": "2026-10-31T22:19:49.000Z",
+          "categories": [
+            "Virtual Currency",
+            "Robberies and Thefts",
+            "Money Laundering",
+            "Cyberattacks and Hackers",
+            "Cyberwarfare and Defense",
+            "Computers and the Internet",
+            "Banking and Financial Institutions",
+            "Binance",
+            "Bybit Fintech Ltd",
+            "Chainalysis Inc",
+            "Space Exploration Technologies Corp",
+            "Musk, Elon",
+            "Zhao, Changpeng",
+            "He Yi",
+            "North Korea",
+            "Abu Dhabi (United Arab Emirates)"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+          "description": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+          "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o",
+          "published": "2026-10-31T02:12:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How Binance’s $6.3 Billion Hack Went Down",
+          "description": "A war room. A global conference call. A founder who live-posted about the largest crypto heist in history. Inside a frantic 24 hours at the world’s biggest crypto exchange.",
+          "link": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+          "published": "2026-10-31T22:19:49.000Z",
+          "categories": [
+            "Virtual Currency",
+            "Robberies and Thefts",
+            "Money Laundering",
+            "Cyberattacks and Hackers",
+            "Cyberwarfare and Defense",
+            "Computers and the Internet",
+            "Banking and Financial Institutions",
+            "Binance",
+            "Bybit Fintech Ltd",
+            "Chainalysis Inc",
+            "Space Exploration Technologies Corp",
+            "Musk, Elon",
+            "Zhao, Changpeng",
+            "He Yi",
+            "North Korea",
+            "Abu Dhabi (United Arab Emirates)"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
+          "description": "Hackers made off with around $6 billion in digital currency in what could be the biggest crypto heist in history. Binance said it will cover the losses.",
+          "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
+          "published": "2026-10-31T22:25:51.000Z",
+          "categories": [
+            "Binance",
+            "Cyberattacks and Hackers",
+            "Virtual Currency",
+            "Robberies and Thefts",
+            "Bitcoin (Currency)",
+            "Zhao, Changpeng",
+            "North Korea",
+            "Cyberwarfare and Defense"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "North Korea responsible for $6 billion Binance cryptocurrency hack, FBI says",
+          "description": "North Korean hackers converted stolen Binance assets into Ethereum, prompting the FBI to urge crypto firms to block wallet addresses tied to the $6 billion theft.",
+          "link": "https://www.foxbusiness.com/technology/north-korea-responsible-6-billion-binance-cryptocurrency-hack-fbi-says",
+          "published": "2026-11-01T05:37:42.000Z",
+          "categories": [
+            "7a767c1e-d597-5416-a16c-a07337b908e3",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/cryptocurrency",
+            "fox-business/technology/cyber-security",
+            "fox-business/technology",
+            "fox-business/industries/financials",
+            "fox-business/technology/ecommerce",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Expert warns of 'AI hacking bloodbath' following massive Binance cryptocurrency theft",
+          "description": "Eric Schiffer warns the $6.3 billion Binance hack signals a coming \"bloodbath of AI hacking\" as cybersecurity threats grow more sophisticated.",
+          "link": "https://www.foxbusiness.com/technology/expert-warns-ai-hacking-bloodbath-following-massive-binance-cryptocurrency-theft",
+          "published": "2026-10-31T03:09:55.000Z",
+          "categories": [
+            "9f4e4d96-a593-5feb-ab8a-c12b6b91541e",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology",
+            "fox-business/topic/cryptocurrency",
+            "fox-business/industries/financials",
+            "fox-business/technology/cyber-security",
+            "fox-business/money/crime",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "$6 billion cryptocurrency heist puts investors on edge",
+          "description": "Binance, the world's largest cryptocurrency exchange, says it's working to recover funds after the biggest crypto heist in history. The company halted withdrawals after hackers made off with $6 billion in assets. The cyber heist is raising questions about the security of crypto and who pulled this off. Geoff Bennett discussed more with Geoff White, author of \"The Lazarus Heist.\"",
+          "link": "https://www.pbs.org/newshour/show/6-billion-cryptocurrency-heist-puts-investors-on-edge",
+          "published": "2026-10-30T23:50:03.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-01-zvnt6p",
+      "topic": "world",
+      "title": "Clashes break out as hundreds of thousands protest in France",
+      "summary": "Hundreds of thousands of people staged a third weekend of protests at soaring living costs.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 10,
+      "score": 22.38,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "No, France is not ‘burning’",
+          "description": "It is merely witnessing another episode of unrest that – like many others in its history – has a violent element to it.",
+          "link": "https://www.aljazeera.com/opinions/2026/11/1/no-france-is-not?traffic_source=rss",
+          "published": "2026-11-01T07:56:52.000Z",
+          "categories": [
+            "Opinions"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "More than 290 arrested in France as some weekend protests turn violent",
+          "description": "Protests continue across France as 320,000 people take to the streets over rising living costs and poor school conditions for a third consecutive weekend, with clashes reported in several cities.",
+          "link": "https://www.dw.com/en/more-than-290-arrested-in-france-as-some-weekend-protests-turn-violent/a-79818138?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-31T18:49:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Some 320,000 demonstrators take part in largely peaceful protests across France",
+          "description": "Around 320,000 protesters took part in a third mass protest over living costs across France on Saturday, the interior ministry estimated, while organisers counted nearly half a million. Tensions flared ​at the end of marches in ​some cities but authorities reported that most demonstrations were largely peaceful.",
+          "link": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france",
+          "published": "2026-10-31T21:34:15.000Z",
+          "categories": [
+            "France"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Live: Interior ministry says some 320,000 people protest across France as unrest flares",
+          "description": "",
+          "link": "https://www.france24.com/en/france/20261031-live-france-braces-for-halloween-protests-government-vows-tough-response",
+          "published": "2026-10-31T16:45:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Third weekend of protests in France",
+          "description": "France is preparing for a third weekend of protests, with 70,000 security personnel deployed to prevent a repeat of the violence seen on October 17. Shops have boarded up their premises as authorities warn of further clashes, with Halloween adding to concerns over masked demonstrators. The protests, initially driven by anger over the cost of living and poor school conditions, have broadened to inc",
+          "link": "https://www.france24.com/en/third-weekend-of-protests-in-france",
+          "published": "2026-10-31T11:13:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Police clash with masked rioters after largely peaceful protests across France",
+          "description": "Demonstrations also taking place in Germany, where officers fire teargas to disperse crowds as evening falls Clashes erupted in Paris, Marseille and other cities on Saturday after tens of thousands of demonstrators, some in Halloween fancy dress, marched across France in a third wave of protests over the cost of living and deteriorating public services. The interior minister, Laurent Nuñez, said a",
+          "link": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
+          "published": "2026-11-01T01:43:02.000Z",
+          "categories": [
+            "France",
+            "Protest",
+            "Paris",
+            "Germany",
+            "World news",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
+          "description": "More than 300,000 people took to the streets, some wearing Halloween costumes, before the demonstrations ended in violence.",
+          "link": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html",
+          "published": "2026-10-31T21:50:29.000Z",
+          "categories": [
+            "Demonstrations, Protests and Riots",
+            "Politics and Government",
+            "Le Pen, Marine",
+            "France",
+            "Paris (France)"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "France deploys 70,000 police officers to prepare for new wave of protests on Halloween",
+          "description": "Emmanuel Macron's government deploys 70,000 police officers as France braces for a third week of intense protests amid over $1 billion in losses.",
+          "link": "https://www.foxnews.com/world/france-deploys-70000-police-officers-prepare-new-wave-protests-halloween",
+          "published": "2026-10-31T14:27:09.000Z",
+          "categories": [
+            "9e6e5e8f-ee9b-577f-890c-13a3d813d4cb",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/world-regions/france",
+            "fox-news/world/world-protests",
+            "fox-news/shows/cops",
+            "fox-news/news-events",
+            "fox-news/topic/trending-news",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Clashes break out as hundreds of thousands protest in France; officer hit by Molotov cocktail",
+          "description": "Hundreds of thousands of people staged a third weekend of protests at soaring living costs.",
+          "link": "https://www.straitstimes.com/world/europe/halloween-costumes-heavy-security-as-thousands-take-to-frances-streets",
+          "published": "2026-10-31T15:57:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Clashes break out as hundreds of thousands protest in France",
+          "description": "More than 500 people were arrested as police fired water cannons and tear gas to disperse rioters on the sidelines of the demonstrations.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/01/world/clashes-protest-france/",
+          "published": "2026-10-31T23:18:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Attempted murder’: Molotov cocktail hits police officer as France protests escalate",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/europe/attempted-murder-molotov-cocktail-hits-paris-police-officer-as-france-protests-turn-violent/articleshow/135423408.cms",
+          "published": "2026-11-01T09:55:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "French police fire tear gas as more than 300,000 march across France in latest anti-government protests",
+          "description": "Around 70,000 police are expected to deployed nationwide as France braces for further unrest. Demonstrations have also been held in Germany and Albania",
+          "link": "https://www.independent.co.uk/news/world/europe/france-protests-police-halloween-rioting-paris-b3076867.html",
+          "published": "2026-10-31T23:26:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hundreds of thousands protest in France for \"Act III\"",
+          "description": "A heavy police presence was hard to miss on the streets of Paris on Saturday, as the capital saw demonstrations for a third consecutive weekend over the rising cost of living and deteriorating conditions in schools. But the increased security failed to prevent clashes in several parts of the city. Riot police fired tear gas to push back protesters, while small fires broke out in several areas. Sim",
+          "link": "https://www.france24.com/en/hundreds-of-thousands-protest-in-france-for-act-iii",
+          "published": "2026-11-01T09:35:02.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-01-hjswwm",
+      "topic": "world",
+      "title": "Germany news: Gen Z group calls for new protests",
+      "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 7,
+      "score": 19.13,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Shops looted as German cost of living protests turn violent",
+          "description": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+          "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o",
+          "published": "2026-11-01T08:43:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany news: Gen Z group calls for new protests",
+          "description": "The group behind German demonstrations this weekend has called for more protests to keep pressure on the government to act. Meanwhile, the IG Metall union has begun warning strikes after pay talks collapse. DW has more.",
+          "link": "https://www.dw.com/en/germany-news-gen-z-group-calls-for-new-protests/live-79814961?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-01T10:46:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany's Gen Z protests disrupted by violence on Saturday",
+          "description": "Nationwide protests led by young people were largely peaceful throughout the day, but reports about looting and rioting in the evening, especially in Frankfurt, overshadowed the spirit of the demonstrations.",
+          "link": "https://www.dw.com/en/germany-s-gen-z-protests-disrupted-by-violence-on-saturday/live-79814694?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-10-31T16:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Gen Z' demonstrations across Germany demand more education funding",
+          "description": "Police and protesters clashed Saturday in Germany where tens of thousands of young people took to the streets, inspired by similar movements in other European countries. Organized by the \"GenZ regelt!\" (\"Gen Z has got this!\") group, marches were held nationwide to demand more funding for education and to protest the high cost of living.",
+          "link": "https://www.france24.com/en/europe/20261031-german-police-protesters-clash-after-gen-z-demos",
+          "published": "2026-10-31T20:07:52.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Rioters loot stores in Germany amid cost of living protests",
+          "description": "After a largely peaceful protest, violence broke out between police and demonstrators in Germany.",
+          "link": "https://www.cbsnews.com/news/germany-protest-frankfurt-looting-violence/",
+          "published": "2026-11-01T05:53:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Wave of unrest breaks out across Europe: Protesters firebomb police and loot stores as violence grips France, Germany and Albania on Halloween",
+          "description": "Berlin became the latest European capital to witness clashes as more than 3,500 demonstrators descended on the streets.",
+          "link": "https://www.dailymail.com/news/article-16255601/Wave-unrest-breaks-Europe-Protesters-firebomb-police-loot-stores-violence-grips-France-Germany-Albania.html",
+          "published": "2026-11-01T10:10:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "German rioters loot shops as ‘Gen Z’ demonstrations turn ugly",
+          "description": "Police used water cannon and pepper spray as masked demonstrators hurled fireworks, stones and bottles.",
+          "link": "https://www.straitstimes.com/world/europe/police-protesters-clash-in-germany-after-gen-z-demonstrations",
+          "published": "2026-10-31T21:33:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Now Gen Z protests reach Germany as thousands join Halloween rallies",
+          "description": "Police in Frankfurt, Munich and Berlin reported 6,000 protesters",
+          "link": "https://www.independent.co.uk/news/world/europe/germany-protests-berlin-france-spain-b3076845.html",
+          "published": "2026-10-31T14:55:07.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-01-9vards",
+      "topic": "world",
+      "title": "Forced to eat grass, Oleshky evacuees say Russia-Ukraine truce was a ‘blessing’",
+      "summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 9,
+      "score": 17.49,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+          "description": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+          "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o",
+          "published": "2026-10-31T19:22:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+          "description": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
+          "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo",
+          "published": "2026-10-31T17:53:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Residents evacuated from Russia-occupied city back in Ukraine",
+          "description": "The civilians traveled by bus and plane through Russia and Belarus before returning to Ukraine, following a deal brokered by U.S. first lady Melania Trump.",
+          "link": "https://www.cbsnews.com/news/residents-evacuated-oleshky-arrive-ukraine-temporary-us-brokered-ceasefire/",
+          "published": "2026-11-01T01:05:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Residents evacuated from Ukrainian village under siege reunited with their families amid truce",
+          "description": "Residents of a Russian-occupied village in southern Ukraine who have been living with limited food and electricity were evacuated and reunited with their families following a temporary ceasefire there negotiated by first lady Melania Trump. Those who chose to remain in Oleshky were given emergency supplies. Aidan Stretch reports.",
+          "link": "https://www.cbsnews.com/video/residents-evacuated-from-ukrainian-village-under-siege-reunited-with-their-families-amid-truce/",
+          "published": "2026-11-01T00:56:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Emotional reunions with loved ones for Oleshky evacuees",
+          "description": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
+          "link": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo",
+          "published": "2026-10-31T16:55:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukrainian Evacuees From Oleshky Tell Survival Stories",
+          "description": "Safely out of Oleshky after enduring years in the combat zone and a harrowing 24-hour journey, weary civilians reunited with family and friends.",
+          "link": "https://www.nytimes.com/2026/10/31/world/europe/ukraine-evacuees-oleshky.html",
+          "published": "2026-10-31T21:43:34.000Z",
+          "categories": [
+            "Oleshky (Ukraine)",
+            "Russian Invasion of Ukraine (2022)",
+            "Evacuations and Evacuees",
+            "Trump, Melania"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Forced to eat grass, Oleshky evacuees say Russia-Ukraine truce was a ‘blessing’",
+          "description": "US First Lady Melania Trump announced the truce on Oct 23, saying Oleshky was “on the brink of disaster”.",
+          "link": "https://www.straitstimes.com/world/europe/forced-to-eat-grass-oleshky-evacuees-say-russia-ukraine-truce-was-a-blessing",
+          "published": "2026-10-31T17:23:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Evacuees fleeing Oleshky reunite with family at the Ukrainian-Belarusian border",
+          "description": "Evacuees wrapped in blue and yellow Ukrainian flags stepped off buses at the Ukrainian-Belarusian border and reunited with family members.",
+          "link": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire",
+          "published": "2026-10-31T15:47:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+          "description": "After Melania Trump reportedly brokered a localized truce, residents of Ukraine's Oleshky managed to leave the occupied city. Meanwhile, Kyiv claimed a hit on a Russian rocket fuel plant. DW has more.",
+          "link": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-01T09:43:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
+          "description": "Evacuees from Oleshky crossed into Ukrainian-held territory Saturday in a major rescue operation after travelling through Belarus during a rare truce brokered by US First Lady Melania Trump. The city of Oleshky has been under Russian occupation since 2022 and was caught in intense fighting that left residents starving and unable to leave.",
+          "link": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine",
+          "published": "2026-10-31T12:45:49.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Evacuees from Russia-controlled Oleshky arrive back in Ukraine amid U.S.-brokered ceasefire",
+          "description": "Residents evacuated from the Russian-occupied city of Oleshky arrived back in Ukraine on Saturday amid a localized U.S.-brokered ceasefire agreement. The halt in fighting, which was secured earlier this month by first lady Melania Trump, went into effect on Tuesday and is set to last through Saturday. Residents were given the choice of being transported...",
+          "link": "https://thehill.com/policy/international/6186192-oleshky-residents-return-ukraine/",
+          "published": "2026-10-31T17:22:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘We escaped from hell’: Hundreds of starving Ukrainians return home from Russian-occupied Oleshky under ceasefire deal",
+          "description": "Evacuees said they were forced to eat grass to survive food shortages in the town when supplies were cut off. Civilians returned home to Ukraine on Saturday as part of a rare ceasefire agreement, Suha Kidwai reports",
+          "link": "https://www.independent.co.uk/news/world/europe/ukraine-russia-evacuate-ceasefire-oleshky-b3076850.html",
+          "published": "2026-10-31T17:40:33.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-01-1kniepc",
+      "topic": "world",
+      "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
+      "summary": "British Prime Minister Andy Burnham said Saturday he was \"open\" to the UK apologising for the first time for its role in the transatlantic slave trade but rejected calls for financial reparations. Issues around Britain's colonial history have loomed large…",
+      "headlineSource": "France 24",
+      "sourceCount": 5,
+      "score": 17.42,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
+          "description": "British Prime Minister Andy Burnham said Saturday he was \"open\" to the UK apologising for the first time for its role in the transatlantic slave trade but rejected calls for financial reparations. Issues around Britain's colonial history have loomed large over King Charles' ongoing visit to three Caribbean nations ahead of Commonwealth summit.",
+          "link": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
+          "published": "2026-10-31T12:31:49.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.K. PM open to slave trade apology but rules out financial reparations",
+          "description": "U.K. Prime Minister Andy Burnham said that he is open to am apology for his country’s role in the slave trade, but ruled out financial reparations.",
+          "link": "https://www.nbcnews.com/world/united-kingdom/uk-andy-burnham-slave-trade-apology-reparations-king-charles-rcna606670",
+          "published": "2026-10-31T09:46:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Minister says UK apology over historic role in slave trade won’t lead to financial reparations – UK politics live",
+          "description": "Ahead of a meeting with Commonwealth leaders, Andy Burnham wrote that Britain needed to ‘acknowledge its complicated history’ On the slave trade apology, Badenoch repeats what she wrote on X yesterday, dismissing the discussion as “naval gazing”. She also claims that “We have apologised. Tony Blair apologised twice.” I assume she’s referring to Blair’s statements in 2006 and 2007, around the 200th",
+          "link": "https://www.theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates",
+          "published": "2026-11-01T10:38:51.000Z",
+          "categories": [
+            "Politics",
+            "UK news",
+            "Slavery"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Britain’s Prime Minister Says He’s Open to a Formal Apology for Slavery",
+          "description": "The premier’s comments represent a major change in British policy, but they are unlikely to satisfy those who hoped that reparations would follow.",
+          "link": "https://www.nytimes.com/2026/10/30/world/europe/britain-burnham-charles-apology-slavery.html",
+          "published": "2026-10-31T09:19:30.000Z",
+          "categories": [
+            "Great Britain",
+            "Politics and Government",
+            "Burnham, Andrew M (1970-)",
+            "Apologies",
+            "Slavery (Historical)",
+            "Reparations",
+            "Caribbean Area",
+            "Antigua and Barbuda",
+            "Royal Families",
+            "Charles III, King of the United Kingdom",
+            "International Relations",
+            "Colonization"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Burnham faces Labour demands to go further after he paves way for slave trade apology... as ministers play down fears UK will end up paying reparations",
+          "description": "Andy Burnham has been warned his surprise concession is still 'lacking' as ministers were forced to play down fears the UK will end up paying reparations.",
+          "link": "https://www.dailymail.com/news/article-16256381/Burnham-Labour-slave-trade-apology-reparations-King.html",
+          "published": "2026-11-01T10:20:21.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-01-1f7wgry",
+      "topic": "world",
+      "title": "US judge dismisses Trump lawsuit against Wall Street Journal over Epstein letter",
+      "summary": "Saying the president was \"grasping at straws,\" a federal judge on Saturday threw out Donald Trump's $10 billion lawsuit against The Wall Street Journal and media mogul Rupert Murdoch over a story reporting on his ties to Jeffrey Epstein.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 9,
+      "score": 17.37,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.25,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 1,
+        "specialistShare": 0.11,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+          "description": "Saying the president was \"grasping at straws,\" a federal judge on Saturday threw out Donald Trump's $10 billion lawsuit against The Wall Street Journal and media mogul Rupert Murdoch over a story reporting on his ties to Jeffrey Epstein.",
+          "link": "https://www.npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter",
+          "published": "2026-11-01T08:20:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+          "description": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
+          "link": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo",
+          "published": "2026-11-01T00:41:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge dismisses Trump's Wall Street Journal lawsuit",
+          "description": "A US judge has dismissed President Donald Trump's lawsuit against The Wall Street Journal over a story about a birthday card he allegedly sent Jeffrey Epstein.",
+          "link": "https://news.sky.com/story/judge-dismisses-trumps-wall-street-journal-lawsuit-13606496",
+          "published": "2026-10-31T21:17:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+          "description": "President Donald Trump denied writing a birthday letter to sex offender Jeffrey Epstein, which was the subject of a 2025 Wall Street Journal article.",
+          "link": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
+          "published": "2026-10-31T23:56:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "List of Trump's Media Lawsuits as Judge Tosses WSJ Epstein Note Case",
+          "description": "The ruling marks one of the most significant court defeats yet for Trump's efforts to use defamation litigation against the media.",
+          "link": "https://www.newsweek.com/list-trump-media-lawsuits-judge-tosses-wsj-epstein-case-12646003",
+          "published": "2026-11-01T03:17:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US judge dismisses Trump lawsuit against Wall Street Journal over Epstein letter",
+          "description": "Trump's alleged letter to Epstein featured a drawing of a naked woman.",
+          "link": "https://www.straitstimes.com/world/united-states/us-judge-dismisses-trump-lawsuit-against-wall-steet-journal-over-epstein-letter",
+          "published": "2026-10-31T23:31:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
+          "description": "U.S. District Judge Darrin Gayles in Miami dismissed the suit with prejudice, ruling that the president did not prove the defendants made defamatory statements with actual malice as required by law.",
+          "link": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-suit-against-wall-street-journal-over-epstein-birthday-letter",
+          "published": "2026-10-31T22:32:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge permanently throws out Trump’s Wall Street Journal defamation lawsuit over Epstein letter story",
+          "description": "The president failed to show the newspaper acted with ‘actual malice’ by publishing sexually suggestive birthday note",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-epstein-wall-street-journal-defamation-lawsuit-b3076941.html",
+          "published": "2026-10-31T19:59:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Judge Tosses Trump’s $10 Billion Suit Against The Wall Street Journal",
+          "description": "The defamation suit focused on an article about a birthday note to Jeffrey Epstein. It was the president’s second attempt to claim the publication had acted with actual malice.",
+          "link": "https://www.nytimes.com/2026/10/31/business/media/trump-wsj-defamation-suit-10-billion.html",
+          "published": "2026-10-31T21:01:29.000Z",
+          "categories": [
+            "United States Politics and Government",
+            "Newspapers",
+            "Libel and Slander",
+            "News and News Media",
+            "Suits and Litigation (Civil)",
+            "Decisions and Verdicts",
+            "Dow Jones & Co",
+            "Wall Street Journal",
+            "News Corporation",
+            "Trump, Donald J",
+            "Epstein, Jeffrey E (1953-)",
+            "Murdoch, Rupert"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-01-1dxvggh",
+      "topic": "world",
+      "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
+      "summary": "Protests in France have helped inspire youth demonstrations elsewhere in Europe, from Portugal and Italy to Germany. Germany saw particularly large rallies on Saturday, led by a youth initiative whose name roughly translates as “Gen Z has got this”.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 7,
+      "score": 16.62,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "France seethes again as youth-led protests sweep Europe",
+          "description": "French Interior Minister Laurent Nuñez warned of a \"very high risk\" of disorder, especially after dark on Halloween, as some 320,000 people nationwide took to the streets.",
+          "link": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+          "published": "2026-10-31T19:30:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Thousands demonstrate in Paris as protests spread across Europe",
+          "description": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police.",
+          "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o",
+          "published": "2026-10-31T21:29:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "French police clash with some protesters again as demonstrations continue",
+          "description": "Police said about 70,000 people demonstrated in Paris alone. France's interior ministry said about 320,000 people rallied nationwide.",
+          "link": "https://www.cbsnews.com/news/france-protests-paris-police-clash-demonstrators-halloween/",
+          "published": "2026-11-01T01:03:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Police clash with Paris protesters as demonstrations grip Europe",
+          "description": "There was another wave of violence in Paris Saturday as anti-government protesters clashed with police. Demonstrations were also held across Europe.",
+          "link": "https://www.cbsnews.com/video/police-clash-with-paris-protesters-as-demonstrations-grip-europe/",
+          "published": "2026-11-01T00:53:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Massive protests sweep Europe over cost of living and strained public services",
+          "description": "Massive protests were sweeping Europe on Saturday as part of demonstrations driven by the cost of living and deficient public services, with police bracing for potential violence after recent looting and riots.",
+          "link": "https://www.nbcnews.com/world/europe/europe-braces-massive-halloween-protests-cost-living-public-services-rcna606671",
+          "published": "2026-10-31T11:39:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
+          "description": "About 70,000 police and gendarmes were deployed across the country after French Interior Minister Laurent Nuñez warned of a \"very high risk\" of disorder, especially after dark on Halloween.",
+          "link": "https://www.pbs.org/newshour/world/a-third-weekend-of-protests-in-france-as-youth-led-rallies-sweep-europe",
+          "published": "2026-10-31T18:14:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Photos: Youth-led rallies sweep Germany",
+          "description": "Tens of thousands take to the streets across Germany's biggest cities to demand better education and lower living costs.",
+          "link": "https://www.aljazeera.com/gallery/2026/11/1/photos-youth-led-rallies-sweep-germany?traffic_source=rss",
+          "published": "2026-11-01T10:41:13.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Youth-led rallies sweep Europe",
+          "description": "Protests in France have helped inspire youth demonstrations elsewhere in Europe, from Portugal and Italy to Germany. Germany saw particularly large rallies on Saturday, led by a youth initiative whose name roughly translates as “Gen Z has got this”. Demonstrators called for better education and healthcare, stronger climate protection and a more affordable cost of living, while also opposing any re",
+          "link": "https://www.france24.com/en/youth-led-rallies-sweep-europe",
+          "published": "2026-11-01T09:38:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-01-zbowpj",
+      "topic": "world",
+      "title": "India's opposition holds mega rally seeking election chief's resignation",
+      "summary": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
+      "headlineSource": "BBC News",
+      "sourceCount": 6,
+      "score": 16.57,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 2.5,
+        "wire": 3.2,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India's opposition holds mega rally seeking election chief's resignation",
+          "description": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
+          "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo",
+          "published": "2026-11-01T07:00:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India news: Opposition holds major rally in Delhi over voter roll revisions",
+          "description": "Thousands are expected to take part in the Indian opposition's planned mega march in New Delhi over a controversial revision of electoral rolls. DW has more.",
+          "link": "https://www.dw.com/en/india-news-opposition-holds-major-rally-in-delhi-over-voter-roll-revisions/live-79820226?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-01T10:26:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Indian opposition parties stage mega rally seeking election chief’s resignation",
+          "description": "Thousands of demonstrators on Sunday joined a protest in New Delhi called by Indian opposition leader Rahul Gandhi and backed by the youth “Cockroach” movement amid tight security. Protesters are demanding the resignation of the country's election chief over voter list revisions that critics say favour Prime Minister Narendra Modi's party.",
+          "link": "https://www.france24.com/en/asia-pacific/20261101-india-tightens-security-as-opposition-holds-mega-rally-demanding-election-chief-s-resignation",
+          "published": "2026-11-01T06:24:17.000Z",
+          "categories": [
+            "Asia / Pacific"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Indian forces tighten security in Delhi ahead of big opposition protest",
+          "description": "Opposition says hundreds of thousands of people expected to participate in march demanding election chief resign over voter list changes Indian security personnel carrying batons and shields and accompanied by riot control vehicles surrounded the site of a planned opposition ⁠protest in Delhi on Sunday that is set to demand the resignation of the country’s election chief over a controversial revis",
+          "link": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
+          "published": "2026-11-01T06:20:58.000Z",
+          "categories": [
+            "India",
+            "Protest",
+            "South and central Asia"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Indian opposition unites to demand Modi electoral chief’s resignation",
+          "description": "Thousands protested in Delhi on Sunday to demand the resignation of India’s election chief over a revision of voter lists, the latest in more than a month of ‌opposition demonstrations challenging Prime Minister Narendra Modi. Led by Congress party chief Rahul Gandhi, Sunday’s protesters say the controversial revision benefits Modi’s Hindu nationalist Bharatiya Janata Party. Analysts say the prote",
+          "link": "https://www.scmp.com/news/asia/south-asia/article/3372886/indian-opposition-unites-demand-modi-electoral-chiefs-resignation",
+          "published": "2026-11-01T10:13:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India’s protest movements unite in fresh headache for Modi",
+          "description": "The event will bring together two strands of Indian political agitation that had largely operated separately.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/politics/india-protest-movements-unite-modi/",
+          "published": "2026-11-01T03:06:00.000Z",
+          "categories": [
+            "ASIA PACIFIC"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-01-10uqu4m",
+      "topic": "world",
+      "title": "FBI visits Dan J. Sullivan donor in candidate's home town as Alaska Senate probe widens",
+      "summary": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
+      "headlineSource": "The Independent",
+      "sourceCount": 5,
+      "score": 16.26,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+          "description": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
+          "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo",
+          "published": "2026-11-01T00:46:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "FBI visits ‘Decoy Dan’ Sullivan donors as feds ramp up investigation into Alaska Senate candidate",
+          "description": "Agents have contacted donors in at least two remote communities in Alaska and a couple in Massachusetts.",
+          "link": "https://nypost.com/2026/11/01/us-news/alaska-senate-candidate-dan-j-sullivans-donors-contacted-by-fbi/",
+          "published": "2026-11-01T07:26:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Attorneys for Alaska say 'meritless' Trump demand to set aside Senate ballots 'not even possible'",
+          "description": "The Department of Justice on Friday added a request that the judge separate all ballots showing votes for the second Dan Sullivan until it can be determined whether voters were fooled into wasting their votes for a spoiler candidate.",
+          "link": "https://www.pbs.org/newshour/politics/attorneys-for-alaska-say-meritless-trump-demand-to-set-aside-senate-ballots-not-even-possible",
+          "published": "2026-10-31T23:22:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "FBI visits Dan J. Sullivan donor in candidate's hometown as Alaska Senate inquiry widens",
+          "description": "An Anchorage-based FBI agent visited a boat dealership in Petersburg, a small fishing community accessible only by air or water where the candidate lives.",
+          "link": "https://www.pbs.org/newshour/politics/fbi-visits-dan-j-sullivan-donor-in-candidates-hometown-as-alaska-senate-inquiry-widens",
+          "published": "2026-10-31T20:50:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "FBI visits Dan J. Sullivan donor in candidate's home town as Alaska Senate probe widens",
+          "description": "The Democrat in the race said Friday she was ‘deeply offended’ by allegations that her campaign helped recruit Dan J. Sullivan",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-dan-j-sullivan-alaska-senate-race-b3076832.html",
+          "published": "2026-10-31T15:22:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Peltola repeats denial of ballot-stacking reports, stays silent on federal probe",
+          "description": "Alaska’s Democratic Senate candidate Mary Peltola denied once again any involvement in the alleged ballot-stacking scheme that it was recently reported her campaign engaged in during a rally on Friday, but did not mention the ongoing investigations into the scheme “I am so deeply offended by these accusations about having any involvement with anyone else's...",
+          "link": "https://thehill.com/homenews/campaign/6186389-peltola-repeats-denial-of-ballot-stacking-reports-stays-silent-on-federal-probe/",
+          "published": "2026-10-31T20:26:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "AOC-backed Alaska Senate hopeful Mary Peltola accused of using n-word",
+          "description": "Mary Peltola — the Alaska Democratic Senate hopeful famously championed by \"Squad\" Rep. Alexandria Ocasio-Cortez — is fighting allegations by former staffers she used the n-word in a 2024 incident.",
+          "link": "https://nypost.com/2026/11/01/us-news/aoc-backed-alaska-senate-hopeful-mary-peltola-accused-of-using-n-word/",
+          "published": "2026-11-01T10:31:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump claims Alaska voters need ‘190 IQ’ to understand their ballot as DOJ ratchets up case against the state",
+          "description": "Democratic Senate candidate Mary Peltola accused of recruiting a candidate with the same name as the sitting Republican",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-alaska-senate-race-sullivan-peltola-b3076946.html",
+          "published": "2026-10-31T22:30:50.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-10-31-16b3pyj",
+      "topic": "health",
+      "title": "Countries reach COP17 deal to speed up biodiversity action, but money still short",
+      "summary": "Countries have been trying to get a global agreement to halt nature decline back on track.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 4,
+      "score": 13.15,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 1.29,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 2,
+        "specialistShare": 0.5,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 2
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Global nature talks reach deal but money remains an issue",
+          "description": "Countries have been trying to get a global agreement to halt nature decline back on track.",
+          "link": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo",
+          "published": "2026-10-31T01:27:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Countries reach COP17 deal to speed up biodiversity action, but money still short",
+          "description": "LONDON, Oct 31 - Governments at a UN conference that ended on Saturday have agreed to step up efforts to protect global biodiversity after talks ran through the night, although the finance to deliver it remains elusive.",
+          "link": "https://www.straitstimes.com/world/countries-reach-cop17-deal-to-speed-up-biodiversity-action-but-money-still-short",
+          "published": "2026-10-31T17:46:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "carbonbrief",
+          "outlet": "carbonbrief",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "COP17: Key outcomes agreed at the UN biodiversity conference in Yerevan",
+          "description": "Countries have completed the first “global review” of their progress towards reversing nature loss by 2030 at the COP17 biodiversity…",
+          "link": "https://www.carbonbrief.org/cop17-key-outcomes-agreed-at-the-un-biodiversity-conference-in-yerevan",
+          "published": "2026-10-31T13:30:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
+          "description": "Cop17, focused on protecting nature and restoring ecosystems, concludes on Saturday with critics saying system allows ‘one idiot’ to stall progress Calls are growing for major reforms to UN biodiversity summits as countries fail to deliver on their promises to halt the destruction of the natural world, with governments likely on track to continue their record of never having met a target in the 34",
+          "link": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
+          "published": "2026-10-31T12:30:06.000Z",
+          "categories": [
+            "Cop17 biodiversity summit",
+            "Environment",
+            "World news",
+            "Climate crisis",
+            "Greenhouse gas emissions",
+            "Biodiversity",
+            "United Nations",
+            "Wildlife",
+            "Conservation"
+          ]
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
+          "description": "Cop17, focused on protecting nature and restoring ecosystems, concludes on Saturday with critics saying system allows ‘one idiot’ to stall progress Calls are growing for major reforms to UN biodiversity summits as countries fail to deliver on their promises to halt the destruction of the natural world, with governments likely on track to continue their record of never having met a target in the 34",
+          "link": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
+          "published": "2026-10-31T12:30:06.000Z",
+          "categories": [
+            "Cop17 biodiversity summit",
+            "Environment",
+            "World news",
+            "Climate crisis",
+            "Greenhouse gas emissions",
+            "Biodiversity",
+            "United Nations",
+            "Wildlife",
+            "Conservation"
+          ]
+        }
+      ]
+    }
+  ]
+}
