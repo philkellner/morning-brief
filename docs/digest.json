@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-11-01",
-  "generatedAt": "2026-11-01T11:01:03.159Z",
+  "edition": "2026-11-02",
+  "generatedAt": "2026-11-02T11:59:41.384Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -18,26 +18,255 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-11-01-vheubd",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "FBI blames North Korea for $6 billion Binance crypto hack",
-      "summary": "The FBI said the theft was tied to \"malicious cyber activity\" by an entity known as TraderTraitor, the same actors behind a $1.5 billion Bybit hack last year.",
-      "url": "https://www.japantimes.co.jp/business/2026/11/01/tech/binance-hack-fbi-north-korea/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-11-01T09:28:06.000Z",
-      "sourceCount": 15,
+      "id": "2026-11-02-puqd2y",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Haley Stevens Endorses Mike Rogers, Spurns Leftist Abdul El-Sayed",
+      "summary": "Al-Sayed is campaigning in a tight race that could change the balance of power in the Senate.",
+      "url": "https://reason.com/2026/11/01/haley-stevens-endorses-mike-rogers-spurns-leftist-abdul-el-sayed/",
+      "headlineSource": "Reason",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-02T11:47:22.000Z",
+      "sourceCount": 13,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 24.1,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 7.8,
+        "wire": 2.4,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Democratic Rep. Stevens endorses GOP candidate Mike Rogers in Michigan US Senate race",
+          "url": "https://abcnews.com/Politics/democratic-rep-haley-stevens-endorses-gop-candidate-mike/story?id=137752255"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US midterms: 1 day to go – Democrats rally around El-Sayed amid attacks",
+          "url": "https://www.aljazeera.com/news/2026/11/2/us-midterms-1-day-to-go-democrats-rally-around-el-sayed-amid-attacks?traffic_source=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Democratic Rep. Stevens endorses Republican Rogers over rival El-Sayed in Michigan Senate election",
+          "url": "https://www.cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "James Carville slammed for vulgar ‘used condom’ remarks on Rep. Haley Stevens endorsing GOP candidate over Dem Abdul El-Sayed",
+          "url": "https://nypost.com/2026/11/01/us-news/james-carville-slammed-for-vulgar-used-condom-remarks-on-rep-haley-stevens-endorsing-gop-candidate-over-dem-abdul-el-sayed/"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "El-Sayed Issues Data Center Warning as Voters Are ‘Deathly Afraid’",
+          "url": "https://www.newsweek.com/el-sayed-issues-data-center-warning-voters-deathly-afraid-60-minutes-midterms-michigan-12648260"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6023084/morning-news-brief"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "Democratic Rep. Haley Stevens endorses Republican Mike Rogers for Michigan Senate",
+          "url": "https://www.politico.com/news/2026/11/01/haley-stevens-endorses-mike-rogers-michigan-senate-01144698"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "Haley Stevens Endorses Mike Rogers, Spurns Leftist Abdul El-Sayed",
+          "url": "https://reason.com/2026/11/01/haley-stevens-endorses-mike-rogers-spurns-leftist-abdul-el-sayed/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Democrats condemn Haley Stevens’ ‘betrayal’ following endorsement of Republican Mike Rogers – US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Democrats blast Stevens over Michigan 'betrayal'",
+          "url": "https://thehill.com/homenews/campaign/6187640-democrats-blast-stevens-rogers-endorsement-michigan/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Haley Stevens was the future of Michigan Democrats. Then she endorsed a Republican.",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/haley-stevens-politics-husband-michgian-senate-b3077361.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Michigan Senate race: Will Haley Stevens spoil the party for Democratic candidate El-Sayed?",
+          "url": "https://www.straitstimes.com/world/michigan-senate-race-will-haley-stevens-spoil-the-party-for-democratic-candidate-el-sayed"
+        },
+        {
+          "source": "Washington Free Beacon",
+          "sourceId": "freebeacon",
+          "lean": "right",
+          "title": "Detroit Churchgoers Say Haley Stevens’s Stunning Endorsement of Republican Mike Rogers Could Move Votes",
+          "url": "https://freebeacon.com/elections/detroit-churchgoers-say-haley-stevenss-stunning-endorsement-of-republican-mike-rogers-could-move-votes/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-02-7yytk1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine, Russia report hacking attacks on emergency alert apps",
+      "summary": "Warnings startle people in Ukraine, but authorities say they cleared up the confusion in under an hour.",
+      "url": "https://www.dw.com/en/ukraine-russia-report-hacking-attacks-on-emergency-alert-apps/live-79825079?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-02T11:49:48.000Z",
+      "sourceCount": 12,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 7,
-      "score": 23.96,
+      "wireCount": 5,
+      "score": 23.19,
       "scoreComponents": {
-        "breadth": 12,
+        "breadth": 11.1,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.36,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Nuclear radiation in Russia, Ukraine? No, just hacked warning alerts",
+          "url": "https://www.aljazeera.com/news/2026/11/2/nuclear-radiation-in-russia-ukraine-no-just-hacked-warning-alerts?traffic_source=rss"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Fake nuclear attack alerts hit millions of Ukrainians and Russians on the same day",
+          "url": "https://www.businessinsider.com/nuclear-attack-scare-ukraine-russia-false-alert-hack-2026-11"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Ukraine’s farmers dig in as Russia turns its sights back on grain shipments",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1101/ukraine-grain-trade-breadbasket-russia-war-ports?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
+          "url": "https://www.cnbc.com/2026/11/02/russia-ukraine-cyberattack-zelenskyy-putin.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine, Russia report hacking attacks on emergency alert apps",
+          "url": "https://www.dw.com/en/ukraine-russia-report-hacking-attacks-on-emergency-alert-apps/live-79825079?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Ukraine says air alert system hacked after false radiation warning in Kyiv",
+          "url": "https://www.foxnews.com/world/ukraine-air-alert-system-hacked-false-radiation-warning-kyiv"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Ukraine and Russia both hit by cyberattacks on emergency apps",
+          "url": "https://www.france24.com/en/video/20261102-ukraine-and-russia-both-hit-by-cyberattacks-on-emergency-apps"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Fake alerts warn of nuclear danger as Ukraine and Russia report emergency app hacks",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-russia-emergency-app-cyberattacks-alerts-radiation-kyiv-war-rcna606964"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Ukraine and Russia Hit By Hoax Nuclear Threat Alerts After Cyberattacks",
+          "url": "https://www.newsweek.com/ukraine-and-russia-hit-by-hoax-nuclear-threat-alerts-after-cyberattacks-12648269"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Ukraine and Russia say emergency air-raid warning systems hit by cyber-hacks – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Ukrainians receive fake nuclear emergency alert after app ‘hacked by enemy’",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-cyberattack-air-raid-b3077274.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Ukraine defies Trump, puts Russian oil refineries back in the firing line",
+          "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-defies-trump-puts-russian-oil-refineries-back-in-the-firing-line/articleshow/135453530.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-02-kqatnc",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "FBI says North Korea was behind $6.3 billion Binance heist, the biggest crypto hack in history",
+      "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
+      "url": "https://www.pbs.org/newshour/world/fbi-says-north-korea-was-behind-6-3-billion-binance-heist-the-biggest-crypto-hack-in-history",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-02T11:35:24.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 20.77,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.46,
         "softPenalty": 0
       },
       "coverage": [
@@ -45,29 +274,15 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "$6.3 billion Binance hack likely work of North Korea, experts say",
-          "url": "https://www.cbsnews.com/news/binance-hack-north-korea/"
+          "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+          "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
-          "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "FBI says North Korea behind $6 billion Binance crypto theft",
-          "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-all-1573-rdf"
+          "title": "Binance sees $3.64 billion in net outflows as withdrawals resume after massive hack",
+          "url": "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html"
         },
         {
           "source": "Fox Business",
@@ -80,511 +295,61 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Binance resumes crypto withdrawals after major hack blamed on North Korea",
-          "url": "https://www.france24.com/en/business/20261101-binance-says-resuming-withdrawals-after-major-hack"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "What to know about the $6.3B hack on Binance, likely the biggest-ever crypto theft",
-          "url": "https://www.pbs.org/newshour/world/what-to-know-about-the-6-3b-hack-on-binance-likely-the-biggest-ever-crypto-theft"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Majority of funds stolen in cryptocurrency hack replenished, Binance says",
-          "url": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
-          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Binance recovers 90 percent of stolen assets from hack",
-          "url": "https://thehill.com/policy/technology/6186304-binance-replenishes-ninety-percent-hack/"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "FBI blames North Korea for $6 billion Binance crypto hack",
-          "url": "https://www.japantimes.co.jp/business/2026/11/01/tech/binance-hack-fbi-north-korea/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
-          "url": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Binance’s US$6b crypto heist: Five things to know about North Korea’s TraderTraitor hackers",
-          "url": "https://www.straitstimes.com/world/five-things-to-know-about-north-koreas-tradertraitor-hackers"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
-          "url": "https://www.theverge.com/?p=1024091"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-11-01-zvnt6p",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Clashes break out as hundreds of thousands protest in France",
-      "summary": "Hundreds of thousands of people staged a third weekend of protests at soaring living costs.",
-      "url": "https://www.japantimes.co.jp/news/2026/11/01/world/clashes-protest-france/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-01T09:55:32.000Z",
-      "sourceCount": 10,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 6,
-      "score": 22.38,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.4,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "No, France is not ‘burning’",
-          "url": "https://www.aljazeera.com/opinions/2026/11/1/no-france-is-not?traffic_source=rss"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "More than 290 arrested in France as some weekend protests turn violent",
-          "url": "https://www.dw.com/en/more-than-290-arrested-in-france-as-some-weekend-protests-turn-violent/a-79818138?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "France deploys 70,000 police officers to prepare for new wave of protests on Halloween",
-          "url": "https://www.foxnews.com/world/france-deploys-70000-police-officers-prepare-new-wave-protests-halloween"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Some 320,000 demonstrators take part in largely peaceful protests across France",
-          "url": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Police clash with masked rioters after largely peaceful protests across France",
-          "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "French police fire tear gas as more than 300,000 march across France in latest anti-government protests",
-          "url": "https://www.independent.co.uk/news/world/europe/france-protests-police-halloween-rioting-paris-b3076867.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Clashes break out as hundreds of thousands protest in France",
-          "url": "https://www.japantimes.co.jp/news/2026/11/01/world/clashes-protest-france/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
-          "url": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Clashes break out as hundreds of thousands protest in France; officer hit by Molotov cocktail",
-          "url": "https://www.straitstimes.com/world/europe/halloween-costumes-heavy-security-as-thousands-take-to-frances-streets"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "‘Attempted murder’: Molotov cocktail hits police officer as France protests escalate",
-          "url": "https://timesofindia.indiatimes.com/world/europe/attempted-murder-molotov-cocktail-hits-paris-police-officer-as-france-protests-turn-violent/articleshow/135423408.cms"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-11-01-hjswwm",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Germany news: Gen Z group calls for new protests",
-      "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
-      "url": "https://www.dw.com/en/germany-news-gen-z-group-calls-for-new-protests/live-79814961?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-01T10:46:00.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 4,
-      "score": 19.13,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Shops looted as German cost of living protests turn violent",
-          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Rioters loot stores in Germany amid cost of living protests",
-          "url": "https://www.cbsnews.com/news/germany-protest-frankfurt-looting-violence/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Wave of unrest breaks out across Europe: Protesters firebomb police and loot stores as violence grips France, Germany and Albania on Halloween",
-          "url": "https://www.dailymail.com/news/article-16255601/Wave-unrest-breaks-Europe-Protesters-firebomb-police-loot-stores-violence-grips-France-Germany-Albania.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Germany news: Gen Z group calls for new protests",
-          "url": "https://www.dw.com/en/germany-news-gen-z-group-calls-for-new-protests/live-79814961?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "'Gen Z' demonstrations across Germany demand more education funding",
-          "url": "https://www.france24.com/en/europe/20261031-german-police-protesters-clash-after-gen-z-demos"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Now Gen Z protests reach Germany as thousands join Halloween rallies",
-          "url": "https://www.independent.co.uk/news/world/europe/germany-protests-berlin-france-spain-b3076845.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "German rioters loot shops as ‘Gen Z’ demonstrations turn ugly",
-          "url": "https://www.straitstimes.com/world/europe/police-protesters-clash-in-germany-after-gen-z-demonstrations"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-11-01-9vards",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Forced to eat grass, Oleshky evacuees say Russia-Ukraine truce was a ‘blessing’",
-      "summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
-      "url": "https://www.straitstimes.com/world/europe/forced-to-eat-grass-oleshky-evacuees-say-russia-ukraine-truce-was-a-blessing",
-      "headlineSource": "The Straits Times",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-01T09:43:00.000Z",
-      "sourceCount": 9,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 5,
-      "score": 17.49,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 1.95,
-        "wire": 3.2,
-        "freshness": 2.38,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-          "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Residents evacuated from Russia-occupied city back in Ukraine",
-          "url": "https://www.cbsnews.com/news/residents-evacuated-oleshky-arrive-ukraine-temporary-us-brokered-ceasefire/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
-          "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
-          "url": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Evacuees fleeing Oleshky reunite with family at the Ukrainian-Belarusian border",
-          "url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Evacuees from Russia-controlled Oleshky arrive back in Ukraine amid U.S.-brokered ceasefire",
-          "url": "https://thehill.com/policy/international/6186192-oleshky-residents-return-ukraine/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "‘We escaped from hell’: Hundreds of starving Ukrainians return home from Russian-occupied Oleshky under ceasefire deal",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-evacuate-ceasefire-oleshky-b3076850.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Ukrainian Evacuees From Oleshky Tell Survival Stories",
-          "url": "https://www.nytimes.com/2026/10/31/world/europe/ukraine-evacuees-oleshky.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Forced to eat grass, Oleshky evacuees say Russia-Ukraine truce was a ‘blessing’",
-          "url": "https://www.straitstimes.com/world/europe/forced-to-eat-grass-oleshky-evacuees-say-russia-ukraine-truce-was-a-blessing"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-11-01-1kniepc",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
-      "summary": "British Prime Minister Andy Burnham said Saturday he was \"open\" to the UK apologising for the first time for its role in the transatlantic slave trade but rejected calls for financial reparations. Issues around Britain's colonial history have loomed large…",
-      "url": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
-      "headlineSource": "France 24",
-      "summarySource": "France 24",
-      "publishedAt": "2026-11-01T10:38:51.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 17.42,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 0.8,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Burnham faces Labour demands to go further after he paves way for slave trade apology... as ministers play down fears UK will end up paying reparations",
-          "url": "https://www.dailymail.com/news/article-16256381/Burnham-Labour-slave-trade-apology-reparations-King.html"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
-          "url": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "U.K. PM open to slave trade apology but rules out financial reparations",
-          "url": "https://www.nbcnews.com/world/united-kingdom/uk-andy-burnham-slave-trade-apology-reparations-king-charles-rcna606670"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Minister says UK apology over historic role in slave trade won’t lead to financial reparations – UK politics live",
-          "url": "https://www.theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Britain’s Prime Minister Says He’s Open to a Formal Apology for Slavery",
-          "url": "https://www.nytimes.com/2026/10/30/world/europe/britain-burnham-charles-apology-slavery.html"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-11-01-1f7wgry",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "US judge dismisses Trump lawsuit against Wall Street Journal over Epstein letter",
-      "summary": "Saying the president was \"grasping at straws,\" a federal judge on Saturday threw out Donald Trump's $10 billion lawsuit against The Wall Street Journal and media mogul Rupert Murdoch over a story reporting on his ties to Jeffrey Epstein.",
-      "url": "https://www.straitstimes.com/world/united-states/us-judge-dismisses-trump-lawsuit-against-wall-steet-journal-over-epstein-letter",
-      "headlineSource": "The Straits Times",
-      "summarySource": "NPR",
-      "publishedAt": "2026-11-01T08:20:19.000Z",
-      "sourceCount": 9,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 4,
-      "score": 17.37,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 1.95,
-        "wire": 3.2,
-        "freshness": 2.25,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-          "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
-          "url": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "List of Trump's Media Lawsuits as Judge Tosses WSJ Epstein Note Case",
-          "url": "https://www.newsweek.com/list-trump-media-lawsuits-judge-tosses-wsj-epstein-case-12646003"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
-          "url": "https://www.npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter"
+          "title": "Binance users withdraw $3.4 billion after record crypto heist",
+          "url": "https://www.france24.com/en/tv-shows/business/20261102-binance-users-withdraw-3-4-billion-after-record-crypto-heist"
         },
         {
           "source": "NYT Business",
           "sourceId": "nyt_business",
           "lean": "center-left",
-          "title": "Judge Tosses Trump’s $10 Billion Suit Against The Wall Street Journal",
-          "url": "https://www.nytimes.com/2026/10/31/business/media/trump-wsj-defamation-suit-10-billion.html"
+          "title": "Binance Reports $3.64 Billion in Outflows as It Resumes Normal Transactions",
+          "url": "https://www.nytimes.com/2026/11/01/business/binance-hack-crypto-north-korea.html"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
-          "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-suit-against-wall-street-journal-over-epstein-birthday-letter"
+          "title": "FBI says North Korea was behind $6.3 billion Binance heist, the biggest crypto hack in history",
+          "url": "https://www.pbs.org/newshour/world/fbi-says-north-korea-was-behind-6-3-billion-binance-heist-the-biggest-crypto-hack-in-history"
         },
         {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Judge dismisses Trump's Wall Street Journal lawsuit",
-          "url": "https://news.sky.com/story/judge-dismisses-trumps-wall-street-journal-lawsuit-13606496"
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Binance resumes customer withdrawals after record $6.3bn hack",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
         },
         {
-          "source": "The Independent",
-          "sourceId": "independent",
+          "source": "The Verge",
+          "sourceId": "verge",
           "lean": "center-left",
-          "title": "Judge permanently throws out Trump’s Wall Street Journal defamation lawsuit over Epstein letter story",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-epstein-wall-street-journal-defamation-lawsuit-b3076941.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US judge dismisses Trump lawsuit against Wall Street Journal over Epstein letter",
-          "url": "https://www.straitstimes.com/world/united-states/us-judge-dismisses-trump-lawsuit-against-wall-steet-journal-over-epstein-letter"
+          "title": "North Korea linked to massive Binance crypto heist",
+          "url": "https://www.theverge.com/?p=1024176"
         }
       ]
     },
     {
-      "rank": 7,
-      "id": "2026-11-01-1dxvggh",
+      "rank": 4,
+      "id": "2026-11-02-yik252",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
-      "summary": "Protests in France have helped inspire youth demonstrations elsewhere in Europe, from Portugal and Italy to Germany. Germany saw particularly large rallies on Saturday, led by a youth initiative whose name roughly translates as “Gen Z has got this”.",
-      "url": "https://www.pbs.org/newshour/world/a-third-weekend-of-protests-in-france-as-youth-led-rallies-sweep-europe",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "France 24",
-      "publishedAt": "2026-11-01T10:41:13.000Z",
-      "sourceCount": 7,
-      "leanCount": 2,
-      "leanSpread": 0.25,
+      "title": "Michigan Democrat stuns party to back Republican candidate in critical Senate race",
+      "summary": "The remarkable show of support for the President Donald Trump-backed candidate in the tightly contested race comes after she was uninvited to a joint event the same day with El-Sayed, who defeated the congresswoman by a slim margin in the August primary.",
+      "url": "https://www.france24.com/en/americas/20261102-michigan-democrat-stuns-party-back-republican-candidate-critical-senate-race",
+      "headlineSource": "France 24",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-02T11:22:53.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
       "wireCount": 5,
-      "score": 16.62,
+      "score": 20.06,
       "scoreComponents": {
-        "breadth": 9,
-        "diversity": 1.95,
+        "breadth": 9.97,
+        "diversity": 4.45,
         "wire": 3.2,
-        "freshness": 2.47,
+        "freshness": 2.44,
         "softPenalty": 0
       },
       "coverage": [
@@ -592,75 +357,296 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Photos: Youth-led rallies sweep Germany",
-          "url": "https://www.aljazeera.com/gallery/2026/11/1/photos-youth-led-rallies-sweep-germany?traffic_source=rss"
+          "title": "Trump makes controversial claims at final Republican campaign rallies",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/trump-makes-controversial-claims-at-final-republican-campaign-rallies?traffic_source=rss"
         },
         {
-          "source": "BBC News",
-          "sourceId": "bbc",
+          "source": "Euronews",
+          "sourceId": "euronews",
           "lean": "center",
-          "title": "Thousands demonstrate in Paris as protests spread across Europe",
-          "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "French police clash with some protesters again as demonstrations continue",
-          "url": "https://www.cbsnews.com/news/france-protests-paris-police-clash-demonstrators-halloween/"
+          "title": "Trump rallies in Iowa and Kansas in final push as Democratic divisions shake up Michigan",
+          "url": "https://www.euronews.com/2026/11/02/trump-wraps-up-campaign-rallies-in-final-push-as-democratic-divisions-shake-up-michigan"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Youth-led rallies sweep Europe",
-          "url": "https://www.france24.com/en/youth-led-rallies-sweep-europe"
+          "title": "Michigan Democrat stuns party to back Republican candidate in critical Senate race",
+          "url": "https://www.france24.com/en/americas/20261102-michigan-democrat-stuns-party-back-republican-candidate-critical-senate-race"
         },
         {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Massive protests sweep Europe over cost of living and strained public services",
-          "url": "https://www.nbcnews.com/world/europe/europe-braces-massive-halloween-protests-cost-living-public-services-rcna606671"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "France seethes again as youth-led protests sweep Europe",
-          "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe"
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Trump Makes Final Midterm Rally Push as Democrats Rise in Polls",
+          "url": "https://www.newsweek.com/trump-makes-final-midterm-rally-push-as-democrats-rise-in-polls-12647916"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
-          "url": "https://www.pbs.org/newshour/world/a-third-weekend-of-protests-in-france-as-youth-led-rallies-sweep-europe"
+          "title": "El-Sayed's primary opponent stuns Democrats by endorsing Republican opponent in Michigan Senate race",
+          "url": "https://www.pbs.org/newshour/politics/democrat-haley-stevens-endorses-gops-mike-rogers-in-michigan-senate-race-2-days-before-election"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "Democrats eye state supreme court races — this year and beyond",
+          "url": "https://www.politico.com/news/2026/11/01/state-supreme-court-midterm-elections-01144147"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Democrats edge out Republicans in 7 heated Senate races: NYT polls",
+          "url": "https://thehill.com/homenews/6187749-democrats-edge-out-gop-senate-poll/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Republicans, Democrats set midterm closing arguments as Michigan endorsement roils Senate race",
+          "url": "https://www.straitstimes.com/world/republicans-democrats-set-midterm-closing-arguments-as-michigan-endorsement-roils-senate-race"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Late deciders favor Republicans in key Senate races by nine-point margin despite strong Democratic lead: Poll",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787536/late-deciders-favor-republicans-despite-democratic-lead/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-02-xhtudu",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Nine killed as small jet crashes on Florida street",
+      "summary": "A Learjet plane crashed near a busy road in a residential neighborhood in Palm Beach County, leaving all nine people on board dead and a large crater on ground.",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o",
+      "headlineSource": "BBC News",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-02T10:47:41.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 7,
+      "score": 20,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Final distress call with Learjet pilot captured moments before crash",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/final-distress-call-with-learjet-pilot-captured-moments-before-crash?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Nine killed as small jet crashes on Florida street",
+          "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US: Nine killed in Florida jet crash",
+          "url": "https://www.dw.com/en/us-nine-killed-in-florida-jet-crash/a-79825921?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+          "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+          "url": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Residents describe moment Learjet plummets and explodes in Florida mobile home park: ‘Everything was on fire’",
+          "url": "https://nypost.com/2026/11/02/us-news/residents-describe-moment-learjet-plummets-and-explodes-in-florida-mobile-home-park-everything-was-on-fire/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "9 dead as jet nosedives and erupts into fireball near busy roadway in South Florida",
+          "url": "https://www.npr.org/2026/11/02/g-s1-151211/south-florida-jet-crash"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "All 9 people aboard a jet that crashed in Florida have died, transportation secretary says",
+          "url": "https://www.pbs.org/newshour/nation/all-9-people-aboard-a-jet-that-crashed-in-florida-have-died-transportation-secretary-says"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Private plane carrying nine aboard crashes in Florida and erupts in massive fireball",
+          "url": "https://www.independent.co.uk/news/world/americas/florida-learjet-60-plane-crash-palm-beach-county-b3077261.html"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-02-1tclkx6",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Supermarket freezers in Belgium, Sweden and Luxembourg hit by suspected cyber-attack",
+      "summary": "Stores in Sweden say temperatures for its freezers were raised to 50 C (122F).",
+      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-02T11:56:32.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 14.96,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Supermarket freezers in Belgium, Sweden and Luxembourg hit by suspected cyber-attack",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Europe hit by another wave of suspected grocery store freezer hacks",
+          "url": "https://www.businessinsider.com/freezer-hack-europe-grocery-stores-belgium-sweden-supermarkets-france-cyberattack-2026-11"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+          "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "European supermarkets hit by new fridge cyber attack",
+          "url": "https://www.straitstimes.com/world/europe/temperature-soars-at-swedish-grocery-store-freezers-one-store-blames-hackers"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-02-bsoum",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Halloween weekend shootings across US leave at least six dead, dozens wounded",
+      "summary": "The deadliest violence occurred in Dallas, where a handful of shootings in the city's Deep Ellum neighborhood, a center of music, restaurants and nightlife, killed four people and injured 15 others, police said.",
+      "url": "https://www.france24.com/en/americas/20261102-halloween-weekend-shootings-across-us-leave-at-least-six-dead-dozens-wounded",
+      "headlineSource": "France 24",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-02T11:17:08.000Z",
+      "sourceCount": 5,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 3,
+      "score": 14.54,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 1.95,
+        "wire": 2.4,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Dallas Halloween shootings leave 4 dead, 15 injured, police say",
+          "url": "https://abcnews.com/US/dallas-halloween-shootings-leave-4-dead-15-injured/story?id=137762633"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Halloween weekend shootings across US leave at least six dead, dozens wounded",
+          "url": "https://www.france24.com/en/americas/20261102-halloween-weekend-shootings-across-us-leave-at-least-six-dead-dozens-wounded"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Shootings over Halloween weekend leave at least 6 dead and dozens injured across U.S.",
+          "url": "https://www.pbs.org/newshour/nation/dozens-injured-at-least-6-dead-in-halloween-weekend-gun-violence-at-nightlife-districts-across-u-s"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Six dead and dozens injured in Halloween weekend violence across US",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/halloween-shootings-dallas-alabama-spirit-stores-b3077217.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Halloween turns deadly across US as gun violence leaves at least 24 dead, 94 injured",
+          "url": "https://timesofindia.indiatimes.com/world/us/halloween-turns-deadly-across-us-as-gun-violence-leaves-at-least-24-dead-94-injured/articleshow/135454052.cms"
         }
       ]
     },
     {
       "rank": 8,
-      "id": "2026-11-01-zbowpj",
+      "id": "2026-11-02-fev7ps",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "India's opposition holds mega rally seeking election chief's resignation",
-      "summary": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
-      "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo",
-      "headlineSource": "BBC News",
+      "title": "India news: Opposition holds major rally in Delhi over voter roll revisions",
+      "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
+      "url": "https://www.dw.com/en/india-news-opposition-holds-major-rally-in-delhi-over-voter-roll-revisions/live-79820226?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
       "summarySource": "BBC News",
-      "publishedAt": "2026-11-01T10:26:00.000Z",
-      "sourceCount": 6,
-      "leanCount": 2,
+      "publishedAt": "2026-11-02T06:38:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 5,
-      "score": 16.57,
+      "wireCount": 2,
+      "score": 14.5,
       "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 2.5,
-        "wire": 3.2,
-        "freshness": 2.44,
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.03,
         "softPenalty": 0
       },
       "coverage": [
@@ -679,119 +665,98 @@
           "url": "https://www.dw.com/en/india-news-opposition-holds-major-rally-in-delhi-over-voter-roll-revisions/live-79820226?maca=en-rss-en-all-1573-rdf"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Indian opposition parties stage mega rally seeking election chief’s resignation",
-          "url": "https://www.france24.com/en/asia-pacific/20261101-india-tightens-security-as-opposition-holds-mega-rally-demanding-election-chief-s-resignation"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Indian opposition unites to demand Modi electoral chief’s resignation",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3372886/indian-opposition-unites-demand-modi-electoral-chiefs-resignation"
-        },
-        {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Indian forces tighten security in Delhi ahead of big opposition protest",
+          "title": "Tens of thousands protest against Narendra Modi regime in Delhi",
           "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi"
         },
         {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "India’s protest movements unite in fresh headache for Modi",
-          "url": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/politics/india-protest-movements-unite-modi/"
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "India’s Congress Party Holds Mass Protest in New Delhi",
+          "url": "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html"
         }
       ]
     },
     {
       "rank": 9,
-      "id": "2026-11-01-10uqu4m",
+      "id": "2026-11-02-1m8hell",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "FBI visits Dan J. Sullivan donor in candidate's home town as Alaska Senate probe widens",
-      "summary": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-dan-j-sullivan-alaska-senate-race-b3076832.html",
-      "headlineSource": "The Independent",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-01T10:31:20.000Z",
-      "sourceCount": 5,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 2,
-      "score": 16.26,
+      "title": "Police armed with assault rifles patrol Sydney in Australian first after Bondi attack",
+      "summary": "A new police unit ⁠armed with military ⁠assault rifles has ⁠begun patrolling the streets of Sydney, in an Australian-first measure set up in response to the Bondi Beach attack last December. The Armed Response ‌Command (ARC) would deploy at major events…",
+      "url": "https://www.scmp.com/news/asia/australasia/article/3372932/police-armed-assault-rifles-patrol-sydney-australian-first-after-bondi-attack",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-02T08:44:49.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 3,
+      "score": 13.52,
       "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 4.45,
-        "wire": 1.6,
-        "freshness": 2.45,
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 2.4,
+        "freshness": 2.21,
         "softPenalty": 0
       },
       "coverage": [
         {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Sydney deploys heavily armed police unit after Bondi attack",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/sydney-deploys-heavily-armed-police-unit-after-bondi-attack?traffic_source=rss"
+        },
+        {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-          "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo"
+          "title": "Armed police start patrols in Sydney after Bondi Beach attack",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "FBI visits ‘Decoy Dan’ Sullivan donors as feds ramp up investigation into Alaska Senate candidate",
-          "url": "https://nypost.com/2026/11/01/us-news/alaska-senate-candidate-dan-j-sullivans-donors-contacted-by-fbi/"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Attorneys for Alaska say 'meritless' Trump demand to set aside Senate ballots 'not even possible'",
-          "url": "https://www.pbs.org/newshour/politics/attorneys-for-alaska-say-meritless-trump-demand-to-set-aside-senate-ballots-not-even-possible"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
           "lean": "center",
-          "title": "Peltola repeats denial of ballot-stacking reports, stays silent on federal probe",
-          "url": "https://thehill.com/homenews/campaign/6186389-peltola-repeats-denial-of-ballot-stacking-reports-stays-silent-on-federal-probe/"
+          "title": "Police armed with assault rifles patrol Sydney in Australian first after Bondi attack",
+          "url": "https://www.scmp.com/news/asia/australasia/article/3372932/police-armed-assault-rifles-patrol-sydney-australian-first-after-bondi-attack"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "FBI visits Dan J. Sullivan donor in candidate's home town as Alaska Senate probe widens",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-dan-j-sullivan-alaska-senate-race-b3076832.html"
+          "title": "Sydney deploys armed police with assault rifles in security crackdown after Bondi massacre",
+          "url": "https://www.independent.co.uk/news/world/australasia/sydney-bondi-beach-armed-police-patrols-b3077264.html"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-10-31-16b3pyj",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Countries reach COP17 deal to speed up biodiversity action, but money still short",
-      "summary": "Countries have been trying to get a global agreement to halt nature decline back on track.",
-      "url": "https://www.straitstimes.com/world/countries-reach-cop17-deal-to-speed-up-biodiversity-action-but-money-still-short",
-      "headlineSource": "The Straits Times",
+      "id": "2026-11-02-1gwyaov",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Popular Australian children's author jailed over child exploitation offences",
+      "summary": "The author of Jasper Jones and Runt pleaded guilty in May after police raided his home months earlier.",
+      "url": "https://www.bbc.co.uk/news/articles/cmjwe9nggp60o",
+      "headlineSource": "BBC News",
       "summarySource": "BBC News",
-      "publishedAt": "2026-10-31T17:46:35.000Z",
-      "sourceCount": 4,
-      "leanCount": 2,
+      "publishedAt": "2026-11-02T11:46:23.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 3,
-      "score": 13.15,
+      "wireCount": 1,
+      "score": 13.18,
       "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 2.5,
-        "wire": 2.4,
-        "freshness": 1.29,
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.48,
         "softPenalty": 0
       },
       "coverage": [
@@ -799,29 +764,22 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Global nature talks reach deal but money remains an issue",
-          "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo"
+          "title": "Popular Australian children's author jailed over child exploitation offences",
+          "url": "https://www.bbc.co.uk/news/articles/cmjwe9nggp60o"
         },
         {
-          "source": "Carbon Brief",
-          "sourceId": "carbonbrief",
-          "lean": "center",
-          "title": "COP17: Key outcomes agreed at the UN biodiversity conference in Yerevan",
-          "url": "https://www.carbonbrief.org/cop17-key-outcomes-agreed-at-the-un-biodiversity-conference-in-yerevan"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
+          "source": "The Guardian",
+          "sourceId": "guardian",
           "lean": "left",
-          "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
-          "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets"
+          "title": "Award‑winning Australian children’s author Craig Silvey jailed over child exploitation material",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/02/australian-author-craig-silvey-jailed-child-exploitation-material-ntwnfb"
         },
         {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Countries reach COP17 deal to speed up biodiversity action, but money still short",
-          "url": "https://www.straitstimes.com/world/countries-reach-cop17-deal-to-speed-up-biodiversity-action-but-money-still-short"
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Children’s author jailed for possessing and distributing child exploitation material",
+          "url": "https://www.independent.co.uk/news/world/australasia/craig-silvey-australia-child-exploitation-jasper-jones-sentence-b3077385.html"
         }
       ]
     }
