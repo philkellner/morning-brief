@@ -1,0 +1,792 @@
+{
+  "version": 1,
+  "edition": "2026-11-03",
+  "generatedAt": "2026-11-03T11:37:08.968Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-03-1pheija",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
+      "summary": "A Russian strike on an aid station and shelter killed at least 26 people in southern Ukraine on Monday. It was the latest in an unceasing series of Russian attacks on Ukrainian cities and the civilians living there.",
+      "url": "https://www.dw.com/en/ukraine-at-least-26-killed-in-russian-strikes-on-aid-center/live-79825079?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-03T11:18:59.000Z",
+      "sourceCount": 11,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 22.83,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
+          "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
+          "url": "https://www.dw.com/en/ukraine-at-least-26-killed-in-russian-strikes-on-aid-center/live-79825079?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Russia plotting 'massive strike' during midterms, Zelenskyy warns, urges US to stop Putin",
+          "url": "https://www.foxnews.com/world/russia-planning-massive-strike-midterms-zelenskyy-warns-urges-us-stop-putin"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+          "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Zelenskyy on his 'emotional' relationship with Trump and fighting Russia",
+          "url": "https://www.pbs.org/newshour/show/zelenskyy-on-his-emotional-relationship-with-trump-and-fighting-russia"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "British troops will be allowed to fire at Russian forces if attacked during multinational mission",
+          "url": "https://news.sky.com/story/british-troops-will-be-allowed-to-fire-back-at-russian-forces-if-attacked-in-mission-13607272"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Russia bombs aid centre and shelter in Ukraine, killing at least 29 people",
+          "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Russian strike on school kills at least 31 in Ukraine village",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-attack-zaporizhzhia-ukraine-putin-b3078227.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Russian Strike on Ukraine Humanitarian Hub Kills Dozens",
+          "url": "https://www.nytimes.com/2026/11/02/world/europe/russian-strike-zaporizhzhia-ukraine.html"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-03-1nzj0bb",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Four types of House races to watch on election night to know how it might go",
+      "summary": "Americans head to the polls on 3 November for midterm elections that will determine control of Congress for the next two years.",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch",
+      "headlineSource": "NPR",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-03T11:27:14.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 22.05,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "These House races could determine which party is in control in the next Congress",
+          "url": "https://abcnews.com/Politics/house-races-determine-party-control-congress/story?id=137301298"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Polls open in closely contested US midterm elections 2026",
+          "url": "https://www.aljazeera.com/news/2026/11/3/polls-open-in-closely-contested-us-midterm-elections-2026?traffic_source=rss"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "US midterm elections 2026: What are they and when will we know the results?",
+          "url": "https://www.euronews.com/2026/11/02/us-midterm-elections-2026-what-are-they-and-when-will-we-know-the-results"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "An hour-by-hour guide to watching the 2026 midterms — and when we’ll know who controls Congress",
+          "url": "https://nypost.com/2026/11/03/us-news/midterms-2026-an-hour-by-hour-guide-on-how-to-watch/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Four types of House races to watch on election night to know how it might go",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Midterm elections 2026: what time do the polls close today?",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-polls-close-what-time"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "The House races to watch for early signs of a midterm wave",
+          "url": "https://thehill.com/homenews/6190738-house-midterm-battlefield-key-races/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Midterms House poll tracker: The 10 races you need to know about",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterms-polls-house-of-representatives-trump-b3078096.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "When will we know who has won the US midterm elections?",
+          "url": "https://www.straitstimes.com/world/united-states/when-will-we-know-whos-won-the-us-midterm-elections"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-03-1dyqzs6",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm Island, officials say",
+      "summary": "The attack was the latest in a series of limited strikes carried out by Washington in recent weeks, the Journal said.",
+      "url": "https://www.straitstimes.com/world/middle-east/united-states-struck-irans-qeshm-island-wall-street-journal-reports",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-03T10:40:34.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 21.98,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest",
+          "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest?traffic_source=rss"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Trump launches attack on Iran on eve of midterm elections",
+          "url": "https://www.dailymail.com/news/article-16260625/US-secret-military-strikes-Iran-midterms.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "What might Trump have planned for Iran following the midterm election?",
+          "url": "https://www.dw.com/en/what-might-trump-have-planned-for-iran-following-the-midterm-election/a-79831816?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Iran warns of ‘new battlefield’ after reported US strike on Qeshm",
+          "url": "https://www.euronews.com/2026/11/03/iran-warns-of-new-battlefield-after-reported-us-strike-on-qeshm"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "U.S. military carries out limited strikes on Iran’s Qeshm Island",
+          "url": "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "US carries out 'limited strikes' on Qeshm Island in Iran",
+          "url": "https://news.sky.com/story/us-carries-out-limited-strikes-on-qeshm-island-in-iran-13607337"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+          "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "US military strikes Iran’s Qeshm Island day before midterms",
+          "url": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm Island, officials say",
+          "url": "https://www.straitstimes.com/world/middle-east/united-states-struck-irans-qeshm-island-wall-street-journal-reports"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-03-1wts39e",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump calls Iran conflict a ‘soft war,’ insists US holds the cards ahead of midterm elections",
+      "summary": "While U.S. President Donald Trump won't be on the ballot on Tuesday, he looms large in the midterm election.",
+      "url": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
+      "headlineSource": "New York Post",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-03T11:20:54.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 20.44,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump says deal with Iran still possible as Americans set to vote",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US midterms: Americans vote in polls seen as referendum on Trump",
+          "url": "https://www.dw.com/en/us-midterms-americans-vote-in-polls-seen-as-referendum-on-trump/live-79829440?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump calls Iran conflict a ‘soft war,’ insists US holds the cards ahead of midterm elections",
+          "url": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump mulls Iran strikes after midterms, as mediators push for peace deal",
+          "url": "https://thehill.com/policy/defense/6190510-trump-mulls-iran-strikes-midterms/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump approval rating tracker: How unpopular is the president as midterms arrive?",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-approval-rating-midterms-b3078080.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump approval near career low ahead of elections, poll finds",
+          "url": "https://www.japantimes.co.jp/news/2026/11/03/world/politics/trump-approval-low-elections-poll/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Why Trump Often Mentioned Iran in the Midterm Campaign",
+          "url": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Broken promises: Why the Iran war could decide the midterm elections",
+          "url": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/4788483/why-iran-war-broken-promises-could-decide-midterm-elections/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-03-wk89dw",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
+      "summary": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko",
+      "headlineSource": "BBC Technology",
+      "summarySource": "BBC Technology",
+      "publishedAt": "2026-11-03T11:10:37.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 19.62,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+          "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
+          "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Apple says it's 'really hard' to predict when iPhone Duo supply will catch up to demand",
+          "url": "https://www.businessinsider.com/apple-iphone-duo-supply-demand-earnings-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
+          "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Apple posts record September quarter under new CEO as iPhone, Mac sales surge",
+          "url": "https://www.foxbusiness.com/markets/apple-posts-record-september-quarter-under-new-ceo-iphone-mac-sales-surge"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Apple warns of ‘unprecedented’ rise in memory chip prices",
+          "url": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "What analysts are saying as Apple’s stock falls after earnings report",
+          "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Apple’s Profit Grows 12% Despite Component Price Worries",
+          "url": "https://www.nytimes.com/2026/11/02/technology/apple-earnings.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Apple set an iPhone sales record even without a new standard iPhone",
+          "url": "https://www.theverge.com/?p=1024748"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-03-l3ymu0",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "North Korea denies being behind record $6.3bn Binance hack",
+      "summary": "Kim Yo Jong dismissed FBI claims that North Korean hackers stole more than $6 billion from Binance, as the exchange began reopening withdrawals on more networks.",
+      "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo",
+      "headlineSource": "BBC News",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-03T08:33:20.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 16.37,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.22,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "North Korea denies being behind record $6.3bn Binance hack",
+          "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "North Korea says it wasn’t behind the $6.3 billion Binance hack and claims the US blames it for 'all the cyber crimes'",
+          "url": "https://www.businessinsider.com/binance-hack-north-korea-denies-being-behind-missing-6-billion-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "North Korea denies links to Binance hack as researchers trace stolen billions",
+          "url": "https://www.cnbc.com/2026/11/03/north-korea-binance-elliptic-chainalysis.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "North Korea denies role in record Binance hack, calls US charge 'provocation'",
+          "url": "https://www.dw.com/en/north-korea-denies-role-in-record-binance-hack-calls-us-charge-provocation/a-79835321?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "North Korea slams FBI claims it was behind €5bn Binance hack and test fires missiles",
+          "url": "https://www.euronews.com/2026/11/03/north-korea-slams-fbi-claims-it-was-behind-5bn-binance-hack-and-test-fires-missiles"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "North Korea rejects US allegations over $6 billion Binance crypto heist",
+          "url": "https://www.france24.com/en/asia-pacific/20261102-north-korea-rejects-us-allegations-over-6-billion-binance-crypto-heist"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
+          "url": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-03-vbyas6",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "NY child dies of measles, marking state’s first death from the disease in 30 years",
+      "summary": "New York governor says case is ‘devastating reminder of what’s at stake’ when vaccine protections are eroded A child in rural northern New York has died after contracting measles, marking the state’s first death from the disease in 30 years, state officials…",
+      "url": "https://nypost.com/2026/11/03/us-news/ny-child-dies-of-measles-marking-states-first-death-from-the-disease-in-30-years/",
+      "headlineSource": "New York Post",
+      "summarySource": "The Guardian",
+      "publishedAt": "2026-11-03T07:44:49.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 14.91,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 5,
+        "wire": 0,
+        "freshness": 2.15,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "Child’s measles death marks New York state’s first in more than 30 years amid outbreak",
+          "url": "https://www.foxnews.com/health/childs-measles-death-marks-new-york-states-first-more-than-30-years-amid-outbreak"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "NY child dies of measles, marking state’s first death from the disease in 30 years",
+          "url": "https://nypost.com/2026/11/03/us-news/ny-child-dies-of-measles-marking-states-first-death-from-the-disease-in-30-years/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "New York child dies from measles in state’s first fatal case in 30 years",
+          "url": "https://www.theguardian.com/society/2026/nov/03/new-york-child-measles-death-first-in-30-years"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Child dies of measles in New York's first in 30 years",
+          "url": "https://www.independent.co.uk/news/world/americas/measles-death-lewis-county-new-york-b3078049.html"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "New York reports first measles death in 30 years, Hochul says",
+          "url": "https://www.washingtonexaminer.com/policy/healthcare/4788960/new-york-first-measles-death-child-hochul/"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-03-1qi7wyr",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
+      "summary": "Saudi Arabia's state-owned oil giant saw its profits rise to $36.25 billion in the third quarter, despite seeing its infrastructure and even headquarters targeted by Houthi rebels. Elevated oil prices have offset the supply disruption caused by the Iran war.",
+      "url": "https://www.france24.com/en/tv-shows/business/20261103-despite-attacks-saudi-aramco-posts-34-rise-in-net-profits-in-latest-quarter",
+      "headlineSource": "France 24",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-03T10:34:57.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 14.07,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Aramco's profit rises as refining margins strengthen amid Iran war",
+          "url": "https://www.cnbc.com/2026/11/03/saudi-aramcos-third-quarter-middle-east-.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
+          "url": "https://www.france24.com/en/tv-shows/business/20261103-despite-attacks-saudi-aramco-posts-34-rise-in-net-profits-in-latest-quarter"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Primark to launch home service ‘by end of 2027’; Saudi state oil company reports jump in profits despite attacks – business live",
+          "url": "https://www.theguardian.com/business/live/2026/nov/03/saudi-oil-company-profits-australian-central-bank-rates-brent-crude-crypto-hack-energy-prices-latest-news-updates"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
+          "url": "https://www.nytimes.com/2026/11/03/business/saudi-aramco-q3-earnings.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-02-rgfvlc",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+      "summary": "The AI infrastructure deal is expected to close during the first half of 2028.",
+      "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
+      "headlineSource": "CNBC",
+      "summarySource": "CNBC",
+      "publishedAt": "2026-11-02T23:39:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 12.99,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 1.58,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+          "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Marvell, Lumentum tout historic $115B deal to create ‘category leader’ in AI connectivity",
+          "url": "https://www.foxbusiness.com/media/marvell-lumentum-tout-historic-115b-deal-create-category-leader-ai-connectivity"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
+          "url": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger",
+          "url": "https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-03-xpzb1b",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Washington state resident dies from bird flu following exposure to infected cattle",
+      "summary": "An individual from Washington state has become the third American to die from complications of highly transmissible H5N1 bird flu, health officials have announced.",
+      "url": "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/",
+      "headlineSource": "STAT News",
+      "summarySource": "Daily Mail Health",
+      "publishedAt": "2026-11-03T02:18:09.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 11.21,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 2.5,
+        "wire": 0,
+        "freshness": 1.75,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Third person dies of bird flu since virus started jumping to livestock",
+          "url": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Washington resident dies from bird flu complications... in America's third fatality linked to the virus",
+          "url": "https://www.dailymail.com/health/article-16259139/washington-resident-bird-flu-death.html"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Washington state resident dies after contracting bird flu from dairy farm: officials",
+          "url": "https://nypost.com/2026/11/02/us-news/washington-state-resident-dies-after-contracting-bird-flu-from-dairy-farm-officials/"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "Washington state resident dies from bird flu following exposure to infected cattle",
+          "url": "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/"
+        }
+      ]
+    }
+  ]
+}

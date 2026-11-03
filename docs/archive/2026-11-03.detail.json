@@ -1,0 +1,1592 @@
+{
+  "edition": "2026-11-03",
+  "generatedAt": "2026-11-03T11:37:08.968Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-03-1pheija",
+      "topic": "world",
+      "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
+      "summary": "A Russian strike on an aid station and shelter killed at least 26 people in southern Ukraine on Monday. It was the latest in an unceasing series of Russian attacks on Ukrainian cities and the civilians living there.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 11,
+      "score": 22.83,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+          "description": "Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, President Zelenskyy said in an online post that noted the barrage coincided with U.S. elections.",
+          "link": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+          "published": "2026-11-03T11:01:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+          "description": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+          "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o",
+          "published": "2026-11-03T07:24:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
+          "description": "Medical facility was struck by Russian ballistic missiles and aerial bombs overnight.",
+          "link": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss",
+          "published": "2026-11-03T10:18:18.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
+          "description": "At least 26 people were killed in Russian airstrikes on a school that was serving as an aid distribution center in Zaporizhzhia, a southern Ukrainian region.",
+          "link": "https://www.dw.com/en/ukraine-at-least-26-killed-in-russian-strikes-on-aid-center/live-79825079?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-02T21:59:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+          "description": "The death toll from a Russian attack in southern Ukraine on a site where people had gathered to receive humanitarian aid rose to 29 on Tuesday, with 48 still missing, as a wave of overnight strikes targeted power plants across the country, damaged hospitals and wounded scores of people. Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, triggering ",
+          "link": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+          "published": "2026-11-03T10:58:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian strikes kill at least 26 in Ukraine after war's longest ceasefire ends",
+          "description": "Russia killed at least 26 people in strikes on a village in southern Ukraine on Monday, including civilians collecting humanitarian aid, emergency workers and police officers. The attack came hours after a rare ceasefire ended, extinguishing hopes of progress towards peace.",
+          "link": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends",
+          "published": "2026-11-03T01:18:44.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "British troops will be allowed to fire at Russian forces if attacked during multinational mission",
+          "description": "British troops will be allowed to fire back at Russian forces if attacked as part of a multinational mission to secure any future peace in Ukraine, Western officials have said.",
+          "link": "https://news.sky.com/story/british-troops-will-be-allowed-to-fire-back-at-russian-forces-if-attacked-in-mission-13607272",
+          "published": "2026-11-03T01:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia bombs aid centre and shelter in Ukraine, killing at least 29 people",
+          "description": "Volodymyr Zelenskyy says attack in Komyshuvakha was ‘vile’ and shows Putin does not want to de-escalate Russia has bombed an aid distribution centre and neighbouring shelter in southern Ukraine, killing at least 29 ​people, with 48 still missing, as a wave of overnight strikes targeted power plants across the country, damaged hospitals and wounded scores of people. Russia had launched 289 attack d",
+          "link": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+          "published": "2026-11-03T10:37:57.000Z",
+          "categories": [
+            "Ukraine",
+            "Russia",
+            "Europe",
+            "Drones (military)",
+            "War crimes",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia plotting 'massive strike' during midterms, Zelenskyy warns, urges US to stop Putin",
+          "description": "Zelenskyy says Russia plans a massive attack on Ukraine's energy infrastructure while the world watches Tuesday's U.S. midterm elections unfold.",
+          "link": "https://www.foxnews.com/world/russia-planning-massive-strike-midterms-zelenskyy-warns-urges-us-stop-putin",
+          "published": "2026-11-02T22:35:21.000Z",
+          "categories": [
+            "69e93ccc-2fd4-55ad-b604-0053bebea662",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/world/volodymyr-zelenskyy",
+            "fox-news/world/world-regions/russia",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/person/donald-trump",
+            "fox-news/politics",
+            "fox-news/politics/foreign-policy",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Zelenskyy on his 'emotional' relationship with Trump and fighting Russia",
+          "description": "A Russian strike on an aid station and shelter killed at least 26 people in southern Ukraine on Monday. It was the latest in an unceasing series of Russian attacks on Ukrainian cities and the civilians living there. Before the bombing, Amna Nawaz spoke with Ukrainian President Volodymyr Zelenskyy as the war remains at a stalemate both on the battlefield and at the negotiating table.",
+          "link": "https://www.pbs.org/newshour/show/zelenskyy-on-his-emotional-relationship-with-trump-and-fighting-russia",
+          "published": "2026-11-02T23:45:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russian strike on school kills at least 31 in Ukraine village",
+          "description": "Among those killed were two members of a rescue crew and four police officers, according to emergency services in the area",
+          "link": "https://www.independent.co.uk/news/world/europe/russia-attack-zaporizhzhia-ukraine-putin-b3078227.html",
+          "published": "2026-11-03T11:18:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russian Strike on Ukraine Humanitarian Hub Kills Dozens",
+          "description": "The strike in the Zaporizhzhia region came a day after a brief humanitarian truce ended in neighboring Kherson.",
+          "link": "https://www.nytimes.com/2026/11/02/world/europe/russian-strike-zaporizhzhia-ukraine.html",
+          "published": "2026-11-02T20:50:14.000Z",
+          "categories": [
+            "Zaporizhzhia (Ukraine)",
+            "Civilian Casualties",
+            "Russian Invasion of Ukraine (2022)",
+            "Ukraine",
+            "Kherson (Ukraine)"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-03-1nzj0bb",
+      "topic": "world",
+      "title": "Four types of House races to watch on election night to know how it might go",
+      "summary": "Americans head to the polls on 3 November for midterm elections that will determine control of Congress for the next two years.",
+      "headlineSource": "NPR",
+      "sourceCount": 9,
+      "score": 22.05,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Four types of House races to watch on election night to know how it might go",
+          "description": "As polls close on Election Day and results start rolling in, these are some of the House races that will help explain how the midterms are unfolding.",
+          "link": "https://www.npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch",
+          "published": "2026-11-03T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "These House races could determine which party is in control in the next Congress",
+          "description": "All 435 seats in the House of Representatives are on the ballot when voters head to the polls on Tuesday. Here are the races that ABC News rates as Tossup.",
+          "link": "https://abcnews.com/Politics/house-races-determine-party-control-congress/story?id=137301298",
+          "published": "2026-11-03T11:11:53.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Midterm elections 2026: what time do the polls close today?",
+          "description": "Here’s an hour-by-hour rundown of when polls close around the US, and some of the key races taking place In the 2026 US midterm cycle, there are 35 Senate seats up for election, 36 governors’ races and all 435 seats in the House of Representatives up for grabs. There are also several ballot measures across the country on issues ranging from election administration to abortion access. Democrats are",
+          "link": "https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-polls-close-what-time",
+          "published": "2026-11-03T10:00:45.000Z",
+          "categories": [
+            "US midterm elections 2026",
+            "House of Representatives",
+            "US news",
+            "Republicans",
+            "Democrats",
+            "US politics"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "The House races to watch for early signs of a midterm wave",
+          "description": "The House battlefield in Tuesday’s midterms consists of dozens of races in largely purple districts where majorities are won and lost. But as GOP leaders scramble against the odds to salvage their fragile majority — and the favored Democrats fight to run up the score — both sides are paying particular attention to a much...",
+          "link": "https://thehill.com/homenews/6190738-house-midterm-battlefield-key-races/",
+          "published": "2026-11-03T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Midterms House poll tracker: The 10 races you need to know about",
+          "description": "History suggests Democrats will pick up seats. Holding such a slim majority could be tough for Republicans in a midterm year, when voters tend to vote against the party in the White House",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/midterms-polls-house-of-representatives-trump-b3078096.html",
+          "published": "2026-11-03T08:51:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Polls open in closely contested US midterm elections 2026",
+          "description": "Democrats are eyeing historic gains in the US Congress that could change the trajectory of the country.",
+          "link": "https://www.aljazeera.com/news/2026/11/3/polls-open-in-closely-contested-us-midterm-elections-2026?traffic_source=rss",
+          "published": "2026-11-03T11:27:14.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US midterm elections live: Polls open in test for Trump",
+          "description": "First results are expected on Tuesday after polls begin to close at 23:00 GMT, but final results might take days.",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump?traffic_source=rss",
+          "published": "2026-11-03T10:10:48.000Z",
+          "categories": [
+            "News Analysis"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "When will we know the US midterm election results?",
+          "description": "The first results are expected on Tuesday as polls begin to close at 23:00 GMT. But final results might take days.",
+          "link": "https://www.aljazeera.com/news/2026/11/3/when-will-we-know-the-us-midterm-election-results?traffic_source=rss",
+          "published": "2026-11-03T07:27:21.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Your hour-by-hour guide to 2026 midterm elections",
+          "description": "Election Day is here, and observers waiting with bated breath for results can expect a late night. Results will begin to trickle in at 6 p.m. EST, with control of Congress on the line. Although the final tabulation of votes could take days or even weeks, race projections Tuesday night will begin to paint a...",
+          "link": "https://thehill.com/homenews/campaign/6181540-2026-midterm-election-guide/",
+          "published": "2026-11-03T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "An hour-by-hour guide to watching the 2026 midterms — and when we’ll know who controls Congress",
+          "description": "The Post breaks down when the polls close in key races and what to watch out for.",
+          "link": "https://nypost.com/2026/11/03/us-news/midterms-2026-an-hour-by-hour-guide-on-how-to-watch/",
+          "published": "2026-11-03T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "When will we know who has won the US midterm elections?",
+          "description": "The results could take anywhere from minutes to weeks to become clear.",
+          "link": "https://www.straitstimes.com/world/united-states/when-will-we-know-whos-won-the-us-midterm-elections",
+          "published": "2026-11-03T03:11:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US midterm elections 2026: What are they and when will we know the results?",
+          "description": "Americans head to the polls on 3 November for midterm elections that will determine control of Congress for the next two years.",
+          "link": "https://www.euronews.com/2026/11/02/us-midterm-elections-2026-what-are-they-and-when-will-we-know-the-results",
+          "published": "2026-11-02T13:20:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Midterms 2026: When will we actually know who won Congress?",
+          "description": "Control of the House comes down to which party reaches 218 seats",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/midterms-2026-results-us-elections-congress-senate-b3078193.html",
+          "published": "2026-11-03T10:41:07.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-03-1dyqzs6",
+      "topic": "world",
+      "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm Island, officials say",
+      "summary": "The attack was the latest in a series of limited strikes carried out by Washington in recent weeks, the Journal said.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 9,
+      "score": 21.98,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest",
+          "description": "With the first US attack on Qeshm Island since June, Iran and the US are on parallel tracks towards both peace and war.",
+          "link": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest?traffic_source=rss",
+          "published": "2026-11-03T10:40:34.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What might Trump have planned for Iran following the midterm election?",
+          "description": "While the US midterms could open a window for diplomacy with Iran, they could also unleash a new military escalation. DW spoke with analysts to identify eight factors that could tip the balance toward war or peace.",
+          "link": "https://www.dw.com/en/what-might-trump-have-planned-for-iran-following-the-midterm-election/a-79831816?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-02T15:41:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "US carries out 'limited strikes' on Qeshm Island in Iran",
+          "description": "The US military has carried out \"limited strikes\" on Qeshm Island in Iran - hours before the midterms are due to take place.",
+          "link": "https://news.sky.com/story/us-carries-out-limited-strikes-on-qeshm-island-in-iran-13607337",
+          "published": "2026-11-03T03:02:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. military carries out limited strikes on Iran’s Qeshm Island",
+          "description": "The strikes, which appeared to be limited as opposed to a full return to hostilities, came on the eve of crucial American midterm elections.",
+          "link": "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161",
+          "published": "2026-11-03T02:06:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+          "description": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours after the vice-president, JD Vance, said he was optimistic that diplomatic efforts to end the war were moving in the right direction. The strikes, first reported by the Wall Street Journal, came on the eve of crucial mid",
+          "link": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+          "published": "2026-11-03T08:13:46.000Z",
+          "categories": [
+            "US-Israel war on Iran",
+            "Iran",
+            "Strait of Hormuz",
+            "US news",
+            "Trump administration",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "US military strikes Iran’s Qeshm Island day before midterms",
+          "description": "The U.S. military struck radar detectors and missile launchers on Iran’s Qeshm Island on Monday, a day before the U.S. midterm elections as mediators continue to push the two sides to reach a peace deal. The Monday attack is a continuation of strikes against Iran and was defensive in nature, a U.S. official told NewsNation,...",
+          "link": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/",
+          "published": "2026-11-03T02:16:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump launches attack on Iran on eve of midterm elections",
+          "description": "Donald Trump has authorized defensive strikes on Iranian targets on Qeshm Island in the Strait of Hormuz just one day before the midterm elections.",
+          "link": "https://www.dailymail.com/news/article-16260625/US-secret-military-strikes-Iran-midterms.html",
+          "published": "2026-11-03T09:36:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm Island, officials say",
+          "description": "The attack was the latest in a series of limited strikes carried out by Washington in recent weeks, the Journal said.",
+          "link": "https://www.straitstimes.com/world/middle-east/united-states-struck-irans-qeshm-island-wall-street-journal-reports",
+          "published": "2026-11-03T01:10:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran warns of ‘new battlefield’ after reported US strike on Qeshm",
+          "description": "Parliament speaker Ghalibaf said “the ball is in America’s court to prevent war” as Iran reached its highest defensive readiness and Iranian outlets reported Tehran had updated its target bank to include US support bases in Europe under a “response without geographical limits”.",
+          "link": "https://www.euronews.com/2026/11/03/iran-warns-of-new-battlefield-after-reported-us-strike-on-qeshm",
+          "published": "2026-11-03T10:19:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US strikes Iran's Qeshm Island ahead of midterm elections",
+          "description": "The strikes on Iran come on the eve of US midterm elections, and just hours after Trump signalled progress in negotiations with Tehran.",
+          "link": "https://www.euronews.com/2026/11/03/us-strikes-irans-qeshm-island-ahead-of-midterm-elections",
+          "published": "2026-11-03T04:27:32.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-03-1wts39e",
+      "topic": "world",
+      "title": "Trump calls Iran conflict a ‘soft war,’ insists US holds the cards ahead of midterm elections",
+      "summary": "While U.S. President Donald Trump won't be on the ballot on Tuesday, he looms large in the midterm election.",
+      "headlineSource": "New York Post",
+      "sourceCount": 9,
+      "score": 20.44,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US midterms: Americans vote in polls seen as referendum on Trump",
+          "description": "The crucial midterms will determine how much power President Donald Trump has to make changes in the last two years of his term.",
+          "link": "https://www.dw.com/en/us-midterms-americans-vote-in-polls-seen-as-referendum-on-trump/live-79829440?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-03T10:16:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US: Trump labels Democrats 'dangerous' ahead of midterms",
+          "description": "US President Donald Trump said the Democrats nominated \"the most extreme and dangerous\" candidates in US history in the midterms. He also lowered expectations by saying a sitting president \"doesn't win\" the midterms.",
+          "link": "https://www.dw.com/en/us-trump-labels-democrats-dangerous-ahead-of-midterms/a-79834945?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-02T23:37:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says deal with Iran still possible as Americans set to vote",
+          "description": "Despite limited new strikes on Iran and ongoing attacks on ships near the Strait of Hormuz, Trump says on eve of U.S. elections that a peace deal \"could happen.\"",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+          "published": "2026-11-03T11:13:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump says Iran war will be put away very soon, \"one way or the other\"",
+          "description": "Earlier, President Trump predicted the war with Iran is \"going to end soon,\" without offering any details, as Qatari mediators return to Tehran to push for a deal.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+          "published": "2026-11-02T04:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda",
+          "description": "Polls open across the US where key Senate and House races will decide which party controls Congress for remainder of Donald Trump’s second term",
+          "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+          "published": "2026-11-03T11:20:54.000Z",
+          "categories": [
+            "US midterm elections 2026",
+            "US Congress",
+            "Donald Trump",
+            "Trump administration",
+            "US Senate",
+            "House of Representatives",
+            "Republicans",
+            "Democrats",
+            "US politics",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Americans head to polls in midterm elections seen as referendum on Trump",
+          "description": "Control of the Senate and House of Representatives, both currently held by the Republicans, is at stake US midterm elections 2026: latest updates Americans are heading to the polls today in US midterm elections widely seen as a referendum on Donald Trump’s second presidency and a chance for opponents to rein in his untrammeled power. Democrats and Republicans have scrambled in recent days to deliv",
+          "link": "https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote",
+          "published": "2026-11-03T07:00:43.000Z",
+          "categories": [
+            "US midterm elections 2026",
+            "US news",
+            "US politics",
+            "US Senate",
+            "House of Representatives",
+            "US Congress",
+            "Democrats",
+            "Republicans"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Why Trump Often Mentioned Iran in the Midterm Campaign",
+          "description": "President Trump has repeatedly reminded Americans of a losing campaign issue just as voters head to the polls. Why?",
+          "link": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-election-strategy.html",
+          "published": "2026-11-03T10:45:04.000Z",
+          "categories": [
+            "US and Israeli Attack on Iran (2026)",
+            "United States Politics and Government",
+            "Midterm Elections (2026)",
+            "United States Defense and Military Forces",
+            "Stockpiling",
+            "Trump, Donald J",
+            "Iran",
+            "Strait of Hormuz",
+            "United States",
+            "Persian Gulf"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump mulls Iran strikes after midterms, as mediators push for peace deal",
+          "description": "Mediators are pushing the U.S. and Iran to reach a deal to end the war in the Middle East as President Trump mulls military strikes as early as this week. Trump has predicted the war will quickly draw to a conclusion after the midterms on Tuesday, though he’s been ambiguous about how that will happen....",
+          "link": "https://thehill.com/policy/defense/6190510-trump-mulls-iran-strikes-midterms/",
+          "published": "2026-11-03T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump calls Iran conflict a ‘soft war,’ insists US holds the cards ahead of midterm elections",
+          "description": "The president sought to reassure voters on the eve of Election Day as gas prices and the $47B cost weigh on Republicans.",
+          "link": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
+          "published": "2026-11-03T10:09:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Broken promises: Why the Iran war could decide the midterm elections",
+          "description": "In his victory speech on election night in 2024, President Donald Trump issued a bold promise. “I’m not going to start a war,” he declared that night almost two years ago, “I’m going to stop wars.” It was a simple but powerful line, reflective of a disruptive and unconventional — not to mention long overdue",
+          "link": "https://www.washingtonexaminer.com/restoring-america/courage-strength-optimism/4788483/why-iran-war-broken-promises-could-decide-midterm-elections/",
+          "published": "2026-11-03T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump approval near career low ahead of elections, poll finds",
+          "description": "While U.S. President Donald Trump won't be on the ballot on Tuesday, he looms large in the midterm election.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/03/world/politics/trump-approval-low-elections-poll/",
+          "published": "2026-11-03T01:07:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump approval rating tracker: How unpopular is the president as midterms arrive?",
+          "description": "Approval of the Republican president on the economy overall has slipped to 26%, a new low",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-approval-rating-midterms-b3078080.html",
+          "published": "2026-11-03T08:27:34.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-03-wk89dw",
+      "topic": "tech",
+      "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
+      "summary": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
+      "headlineSource": "BBC Technology",
+      "sourceCount": 9,
+      "score": 19.62,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 8,
+        "specialistShare": 0.89,
+        "votes": {
+          "tech": 5,
+          "business": 4,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
+          "description": "The iPhone-maker and software giant fell after earnings failed to impress investors.",
+          "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+          "published": "2026-11-03T10:34:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "What analysts are saying as Apple’s stock falls after earnings report",
+          "description": "Shares in Apple declined 4.5% in premarket trading after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.",
+          "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+          "published": "2026-11-03T10:20:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+          "description": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.",
+          "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+          "published": "2026-11-03T00:59:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Apple's quarter is not perfect. But with enough to like, we raised our price target",
+          "description": "We remain \"own it, don't trade it\" on Apple stock.",
+          "link": "https://www.cnbc.com/investingclub/2026/11/02/apples-quarter-is-not-perfect-but-with-enough-to-like-we-raised-our-price-target.html",
+          "published": "2026-11-03T00:55:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple set an iPhone sales record even without a new standard iPhone",
+          "description": "Apple had a record-breaking quarter for iPhone sales - despite not releasing a standard model during its latest refresh. In its fourth-quarter earnings report released on Monday, Apple says it earned $57.58 billion in iPhone revenue, a 17 percent jump from the same time last year. The increase in revenue follows the launch of Apple's",
+          "link": "https://www.theverge.com/?p=1024748",
+          "published": "2026-11-02T22:02:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "The Apple Watch Ultra 4 is $100 off, matching its best price to date",
+          "description": "The Apple Watch Ultra 4 is the company’s most capable smartwatch. Whether you intend to put its many tracking features to the test, or you simply want the longest battery life of any Apple Watch, it’s currently on sale for $699.99 ($100 off) in multiple colors at Amazon, matching its all-time low price. Powered by",
+          "link": "https://www.theverge.com/?p=1024416",
+          "published": "2026-11-02T19:24:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple warns of ‘unprecedented’ rise in memory chip prices",
+          "description": "iPhone maker says decision to raise prices has offset some of impact, as revenues are stronger than expected Business live – latest updates Apple has warned of an “unprecedented” rise in memory chip prices, as it battles with datacentres to lay its hands on supplies. The iPhone maker’s shares fell in after-hours trading after it told investors that the higher prices will eat into its profit margin",
+          "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
+          "published": "2026-11-03T09:01:19.000Z",
+          "categories": [
+            "Apple",
+            "Quarterly results",
+            "Technology",
+            "UK news",
+            "US news",
+            "Technology sector",
+            "Business",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple’s Profit Grows 12% Despite Component Price Worries",
+          "description": "The company said iPhone sales remained strong, but warned that the cost of memory chips for its devices was going up.",
+          "link": "https://www.nytimes.com/2026/11/02/technology/apple-earnings.html",
+          "published": "2026-11-02T23:41:50.000Z",
+          "categories": [
+            "Computers and the Internet",
+            "Smartphones",
+            "Shortages",
+            "Company Reports",
+            "Computer Chips",
+            "iPhone",
+            "Apple Inc"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+          "description": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+          "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+          "published": "2026-11-02T18:32:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Apple warns of ‘unprecedented’ rise in memory chip prices",
+          "description": "iPhone maker says decision to raise prices has offset some of impact, as revenues are stronger than expected Business live – latest updates Apple has warned of an “unprecedented” rise in memory chip prices, as it battles with datacentres to lay its hands on supplies. The iPhone maker’s shares fell in after-hours trading after it told investors that the higher prices will eat into its profit margin",
+          "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
+          "published": "2026-11-03T09:01:19.000Z",
+          "categories": [
+            "Apple",
+            "Quarterly results",
+            "Technology",
+            "UK news",
+            "US news",
+            "Technology sector",
+            "Business",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Apple posts record September quarter under new CEO as iPhone, Mac sales surge",
+          "description": "Apple reported record September-quarter revenue of $114.5 billion, driven by strong iPhone 18 Pro and Mac sales despite price increases.",
+          "link": "https://www.foxbusiness.com/markets/apple-posts-record-september-quarter-under-new-ceo-iphone-mac-sales-surge",
+          "published": "2026-11-02T22:13:01.000Z",
+          "categories": [
+            "28ac6c03-db19-59c8-b565-3fb507b0d1cb",
+            "fbn",
+            "Fox Business",
+            "fox-business/organization/apple",
+            "fox-business/technology",
+            "fox-business/markets",
+            "fox-business/markets/stocks",
+            "fox-business/markets/us-markets/marketcheck",
+            "fox-business/markets/wall-street",
+            "fox-business/markets",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
+          "description": "Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.",
+          "link": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+          "published": "2026-11-03T00:52:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Apple is ‘not able to predict’ when it’ll have enough iPhone Duos to go around",
+          "description": "Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could lift. During an interview with Reuters, Ternus said the company is \"working hard to get it to as many customers as quickly as possible, but at this ​point, we're not able to predict when supply and demand will be in",
+          "link": "https://www.theverge.com/?p=1024915",
+          "published": "2026-11-02T22:56:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
+          "description": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
+          "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko",
+          "published": "2026-11-03T11:10:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Apple says it's 'really hard' to predict when iPhone Duo supply will catch up to demand",
+          "description": "Apple's chief operating officer said during Monday's earnings call that \"it's really hard to predict when supply and demand will be in balance.\"",
+          "link": "https://www.businessinsider.com/apple-iphone-duo-supply-demand-earnings-2026-11",
+          "published": "2026-11-03T00:48:53.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-03-l3ymu0",
+      "topic": "business",
+      "title": "North Korea denies being behind record $6.3bn Binance hack",
+      "summary": "Kim Yo Jong dismissed FBI claims that North Korean hackers stole more than $6 billion from Binance, as the exchange began reopening withdrawals on more networks.",
+      "headlineSource": "BBC News",
+      "sourceCount": 7,
+      "score": 16.37,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.22,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 3,
+        "specialistShare": 0.43,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "North Korea denies being behind record $6.3bn Binance hack",
+          "description": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
+          "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo",
+          "published": "2026-11-03T08:33:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "North Korea denies role in record Binance hack, calls US charge 'provocation'",
+          "description": "Kim Yo Jong dismissed FBI claims that North Korean hackers stole more than $6 billion from Binance, as the exchange began reopening withdrawals on more networks.",
+          "link": "https://www.dw.com/en/north-korea-denies-role-in-record-binance-hack-calls-us-charge-provocation/a-79835321?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-03T05:34:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "North Korea rejects US allegations over $6 billion Binance crypto heist",
+          "description": "North Korea on Tuesday dismissed US allegations that it was behind a $6 billion cryptocurrency theft from Binance as \"absurd rhetoric\", accusing Washington of seeking to portray the country as a cybercriminal state and warning that US hostility could affect future diplomatic engagement.",
+          "link": "https://www.france24.com/en/asia-pacific/20261102-north-korea-rejects-us-allegations-over-6-billion-binance-crypto-heist",
+          "published": "2026-11-02T23:49:10.000Z",
+          "categories": [
+            "Asia / Pacific"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
+          "description": "This week’s $6.3 billion hack of Binance is the largest to hit crypto, and would be the most that North Koreans have stolen in years of brazen cybercrime.",
+          "link": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html",
+          "published": "2026-11-03T03:29:38.000Z",
+          "categories": [
+            "North Korea",
+            "Cyberwarfare and Defense",
+            "Cyberattacks and Hackers",
+            "Virtual Currency",
+            "Binance",
+            "Federal Bureau of Investigation",
+            "Sony Corporation",
+            "Bybit Fintech Ltd",
+            "Robberies and Thefts"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "North Korea denies links to Binance hack as researchers trace stolen billions",
+          "description": "North Korea rejected allegations linking it to the Binance hack as blockchain researchers traced billions in stolen cryptocurrency across networks.",
+          "link": "https://www.cnbc.com/2026/11/03/north-korea-binance-elliptic-chainalysis.html",
+          "published": "2026-11-03T06:32:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "North Korea slams FBI claims it was behind €5bn Binance hack and test fires missiles",
+          "description": "A 2024 United Nations report said proceeds from North Korean cyberattacks had \"reportedly helped to fund the country's development of weapons of mass destruction\".",
+          "link": "https://www.euronews.com/2026/11/03/north-korea-slams-fbi-claims-it-was-behind-5bn-binance-hack-and-test-fires-missiles",
+          "published": "2026-11-03T06:53:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "North Korea denies being behind record $6.3bn Binance hack",
+          "description": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
+          "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo",
+          "published": "2026-11-03T08:33:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+          "description": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
+          "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o",
+          "published": "2026-11-02T07:42:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Binance Reports $3.64 Billion in Outflows as It Resumes Normal Transactions",
+          "description": "The cryptocurrency exchange saw an immediate uptick in customer withdrawals, following the theft of $6.3 billion in tokens that has been linked to North Korea.",
+          "link": "https://www.nytimes.com/2026/11/01/business/binance-hack-crypto-north-korea.html",
+          "published": "2026-11-02T09:52:23.000Z",
+          "categories": [
+            "Binance",
+            "Virtual Currency",
+            "Cyberattacks and Hackers",
+            "Assets, Frozen",
+            "Computer Security"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "North Korea says it wasn’t behind the $6.3 billion Binance hack and claims the US blames it for 'all the cyber crimes'",
+          "description": "North Korea called the FBI's allegation a \"grave political provocation.\"",
+          "link": "https://www.businessinsider.com/binance-hack-north-korea-denies-being-behind-missing-6-billion-2026-11",
+          "published": "2026-11-03T05:49:39.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-03-vbyas6",
+      "topic": "health",
+      "title": "NY child dies of measles, marking state’s first death from the disease in 30 years",
+      "summary": "New York governor says case is ‘devastating reminder of what’s at stake’ when vaccine protections are eroded A child in rural northern New York has died after contracting measles, marking the state’s first death from the disease in 30 years, state officials…",
+      "headlineSource": "New York Post",
+      "sourceCount": 5,
+      "score": 14.91,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 5,
+        "wire": 0,
+        "freshness": 2.15,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "New York child dies from measles in state’s first fatal case in 30 years",
+          "description": "New York governor says case is ‘devastating reminder of what’s at stake’ when vaccine protections are eroded A child in rural northern New York has died after contracting measles, marking the state’s first death from the disease in 30 years, state officials announced on Monday. The child died in Lewis county, about 93 miles (150km) north of Syracuse, New York governor Kathy Hochul said.",
+          "link": "https://www.theguardian.com/society/2026/nov/03/new-york-child-measles-death-first-in-30-years",
+          "published": "2026-11-03T05:48:26.000Z",
+          "categories": [
+            "Vaccines and immunisation",
+            "New York",
+            "Robert F Kennedy Jr",
+            "Health",
+            "Infectious diseases",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "NY child dies of measles, marking state’s first death from the disease in 30 years",
+          "description": "The measles death marks the first in the Empire State in over 30 years, and comes just four weeks after Gov. Kathy Hochul declared a State Disaster Emergency in response to a surge in cases.",
+          "link": "https://nypost.com/2026/11/03/us-news/ny-child-dies-of-measles-marking-states-first-death-from-the-disease-in-30-years/",
+          "published": "2026-11-03T05:24:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "New York reports first measles death in 30 years, Hochul says",
+          "description": "Gov. Kathy Hochul (D-NY) reported New York’s first measles death in three decades as the state grapples with an outbreak that has seen 178 cases this year. The death occurred in Lewis County, which is located about 400 miles northwest of New York City, and the age of the deceased was not disclosed, only reported",
+          "link": "https://www.washingtonexaminer.com/policy/healthcare/4788960/new-york-first-measles-death-child-hochul/",
+          "published": "2026-11-03T03:31:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Child dies of measles in New York's first in 30 years",
+          "description": "The death was in Lewis County, situated approximately 150 kilometres north of Syracuse",
+          "link": "https://www.independent.co.uk/news/world/americas/measles-death-lewis-county-new-york-b3078049.html",
+          "published": "2026-11-03T07:44:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "fox_health",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Child’s measles death marks New York state’s first in more than 30 years amid outbreak",
+          "description": "A child in Lewis County marks New York's first measles-associated death in over 30 years as Gov. Kathy Hochul urges people to get their vaccinations.",
+          "link": "https://www.foxnews.com/health/childs-measles-death-marks-new-york-states-first-more-than-30-years-amid-outbreak",
+          "published": "2026-11-03T02:40:19.000Z",
+          "categories": [
+            "0c831811-beb1-5523-8b49-5fbf5ad57fa0",
+            "fnc",
+            "Fox News",
+            "fox-news/health",
+            "fox-news/health/measles",
+            "fox-news/health/healthy-living/childrens-health",
+            "fox-news/us/us-regions/northeast/new-york",
+            "fox-news/us",
+            "fox-news/health",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-03-1qi7wyr",
+      "topic": "business",
+      "title": "Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
+      "summary": "Saudi Arabia's state-owned oil giant saw its profits rise to $36.25 billion in the third quarter, despite seeing its infrastructure and even headquarters targeted by Houthi rebels. Elevated oil prices have offset the supply disruption caused by the Iran war.",
+      "headlineSource": "France 24",
+      "sourceCount": 4,
+      "score": 14.07,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
+          "description": "Saudi Arabia's state-owned oil giant saw its profits rise to $36.25 billion in the third quarter, despite seeing its infrastructure and even headquarters targeted by Houthi rebels. Elevated oil prices have offset the supply disruption caused by the Iran war. Also in this edition: North Korea denies any involvement in the largest-ever crypto heist and we take a look at how Russia's strikes against ",
+          "link": "https://www.france24.com/en/tv-shows/business/20261103-despite-attacks-saudi-aramco-posts-34-rise-in-net-profits-in-latest-quarter",
+          "published": "2026-11-03T10:13:19.000Z",
+          "categories": [
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Aramco's profit rises as refining margins strengthen amid Iran war",
+          "description": "Aramco posted third-quarter earnings on Tuesday.",
+          "link": "https://www.cnbc.com/2026/11/03/saudi-aramcos-third-quarter-middle-east-.html",
+          "published": "2026-11-03T07:24:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
+          "description": "Saudi Arabia’s state-owned oil company posted a 9 percent increase in third-quarter profit on Tuesday.",
+          "link": "https://www.nytimes.com/2026/11/03/business/saudi-aramco-q3-earnings.html",
+          "published": "2026-11-03T10:19:29.000Z",
+          "categories": [
+            "Saudi Aramco",
+            "Oil (Petroleum) and Gasoline",
+            "Saudi Arabia",
+            "US and Israeli Attack on Iran (2026)",
+            "Offshore Drilling and Exploration"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Primark to launch home service ‘by end of 2027’; Saudi state oil company reports jump in profits despite attacks – business live",
+          "description": "Primark home delivery service to come before the chain is spun off from Associated British Foods; stock markets fall as oil prices rise again Love it or hate it, the 2026 John Lewis Christmas advert is here – and it’s Kristin Scott Thomas v Pickles the evil AI overlord puppy! The John Lewis Christmas advert no longer lands with the same thud as old. Once it prompted full media saturation and perfo",
+          "link": "https://www.theguardian.com/business/live/2026/nov/03/saudi-oil-company-profits-australian-central-bank-rates-brent-crude-crypto-hack-energy-prices-latest-news-updates",
+          "published": "2026-11-03T10:34:57.000Z",
+          "categories": [
+            "Business",
+            "Stock markets",
+            "Currencies",
+            "Commodities"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-02-rgfvlc",
+      "topic": "tech",
+      "title": "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+      "summary": "The AI infrastructure deal is expected to close during the first half of 2028.",
+      "headlineSource": "CNBC",
+      "sourceCount": 4,
+      "score": 12.99,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 1.58,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "business",
+        "reconciled": "business -> tech by headline",
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+          "description": "The AI infrastructure deal is expected to close during the first half of 2028.",
+          "link": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
+          "published": "2026-11-02T21:00:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Marvell, Lumentum tout historic $115B deal to create ‘category leader’ in AI connectivity",
+          "description": "Marvell CEO Matt Murphy calls the $115 billion Lumentum acquisition a once-in-a-generation move to create a dominant AI connectivity leader.",
+          "link": "https://www.foxbusiness.com/media/marvell-lumentum-tout-historic-115b-deal-create-category-leader-ai-connectivity",
+          "published": "2026-11-02T21:57:04.000Z",
+          "categories": [
+            "9ec6dc96-c14c-5585-a2db-e7f55a3123b4",
+            "fbn",
+            "Fox Business",
+            "fox-business/technology",
+            "fox-business/media",
+            "fox-business/shows/the-claman-countdown",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/markets/mergers-and-acquisitions",
+            "fox-business/tech",
+            "fox-business/media",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger",
+          "description": "Marvell and Lumentum said they were combining, in a major bet on a technology, known as optical networking, that is increasingly being used in A.I. data centers.",
+          "link": "https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html",
+          "published": "2026-11-02T18:48:04.000Z",
+          "categories": [
+            "Computer Chips",
+            "Artificial Intelligence",
+            "Data Centers",
+            "Mergers, Acquisitions and Divestitures",
+            "Stocks and Bonds",
+            "Antitrust Laws and Competition Issues",
+            "Laser (Light Amplification by Stimulated Emission of Radiation)",
+            "Marvell Technology Group Ltd",
+            "Murphy, Matthew J (1972-)",
+            "Lumentum Holdings Inc."
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
+          "description": "Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.",
+          "link": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
+          "published": "2026-11-02T23:39:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-03-xpzb1b",
+      "topic": "health",
+      "title": "Washington state resident dies from bird flu following exposure to infected cattle",
+      "summary": "An individual from Washington state has become the third American to die from complications of highly transmissible H5N1 bird flu, health officials have announced.",
+      "headlineSource": "STAT News",
+      "sourceCount": 4,
+      "score": 11.21,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 2.5,
+        "wire": 0,
+        "freshness": 1.75,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 1,
+          "business": 0,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Washington state resident dies after contracting bird flu from dairy farm: officials",
+          "description": "The Yakima County resident contracted the illness after being exposed to cattle carrying the avian flu at a dairy farm, according to authorities.",
+          "link": "https://nypost.com/2026/11/02/us-news/washington-state-resident-dies-after-contracting-bird-flu-from-dairy-farm-officials/",
+          "published": "2026-11-03T02:18:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Third person dies of bird flu since virus started jumping to livestock",
+          "description": "The threat is still considered to be low, but the virus continues to spread.",
+          "link": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/",
+          "published": "2026-11-02T21:21:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail_hea",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Washington resident dies from bird flu complications... in America's third fatality linked to the virus",
+          "description": "An individual from Washington state has become the third American to die from complications of highly transmissible H5N1 bird flu, health officials have announced.",
+          "link": "https://www.dailymail.com/health/article-16259139/washington-resident-bird-flu-death.html",
+          "published": "2026-11-02T17:03:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Washington state resident dies from bird flu following exposure to infected cattle",
+          "description": "A person in Washington state has died from complications of the bird flu, the first such U.S. death in a year.",
+          "link": "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/",
+          "published": "2026-11-02T20:44:40.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
