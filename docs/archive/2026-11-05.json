@@ -1,0 +1,843 @@
+{
+  "version": 1,
+  "edition": "2026-11-05",
+  "generatedAt": "2026-11-05T11:51:52.401Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-05-crb9dw",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "What Democrats can and can't do with their new power after taking Congress",
+      "summary": "Trump said he would work with Democrats while clinging to his veto powers.",
+      "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo",
+      "headlineSource": "BBC News",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-05T11:18:26.000Z",
+      "sourceCount": 14,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 23.77,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "What Democrats can and can't do with their new power after taking Congress",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Democrats take Congress in a blue wave. Here's what it means for your money",
+          "url": "https://www.cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Democrats take House and Senate from Republicans in US midterm rout",
+          "url": "https://www.dw.com/en/democrats-take-house-and-senate-from-republicans-in-us-midterm-rout/a-79859416?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
+          "url": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "It was a big night for doctors to win seats in Congress, riding the blue wave",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6017757/democrats-republicans-doctors-acton-andrews-blue-wave"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Democrats win full control of more state governments and the Texas House",
+          "url": "https://www.pbs.org/newshour/politics/democrats-win-full-control-of-more-state-governments-and-the-texas-house"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "Democrats sweep Texas",
+          "url": "https://www.politico.com/news/2026/11/03/democrats-sweep-texas-01147637"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Facing 2 years as a lame duck, what can Trump do to stay in control?",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3373425/facing-two-years-lame-duck-what-can-trump-do-stay-control"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "STAT+: A looming deadline to fund the government will shape Congress’ unusual lame duck session",
+          "url": "https://www.statnews.com/2026/11/04/lame-duck-session-congress-health-policy-aca-subsidies-medicaid-funding/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Not just Congress: Democrats’ blue wave washes over state legislatures across US",
+          "url": "https://www.theguardian.com/us-news/2026/nov/05/democrats-state-legislatures-midterm-elections"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Healthcare powers Democrats’ midterm rout: 4 takeaways",
+          "url": "https://thehill.com/policy/healthcare/6199119-democrats-win-congress-healthcare-takeaways/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Donald Trump humiliated in US midterms as Democrats seize control of Congress",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-us-midterm-elections-democrats-b3079227.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US midterms: Trump confronts new role as a lame duck facing a hostile Congress",
+          "url": "https://www.straitstimes.com/world/united-states/us-midterms-trump-confronts-a-new-role-as-a-lame-duck-facing-a-hostile-congress"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Where Democrats could use their landslide victories to redistrict",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4793338/where-democrats-could-use-landslide-victories-redistricting/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-05-e1fba6",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "French blood banks targeted by refrigerator cyberattack",
+      "summary": "A cyberattack on several blood banks tried to raise temperatures to extremely high levels but was thwarted before it could do any damage to blood products or samples, French authorities said. The incident comes after supermarkets in a number of European…",
+      "url": "https://www.dw.com/en/french-blood-banks-targeted-by-refrigerator-cyberattack/a-79857981?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-05T10:25:41.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 20.68,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "French blood banks hit by cyberattack days after European freezer hacks",
+          "url": "https://www.cbsnews.com/news/cyberattack-france-blood-bank/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Blood banks targeted in latest European fridge cyberattacks",
+          "url": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "French blood banks targeted by refrigerator cyberattack",
+          "url": "https://www.dw.com/en/french-blood-banks-targeted-by-refrigerator-cyberattack/a-79857981?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "France blood bank cyberattack targets refrigeration systems as European supermarkets hit",
+          "url": "https://www.foxbusiness.com/technology/france-blood-bank-cyberattack-targets-refrigeration-systems-european-supermarkets-hit"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Cyberattack hits French blood bank site, no blood products compromised",
+          "url": "https://www.france24.com/en/video/20261105-cyberattack-hits-french-blood-bank-site-no-blood-products-compromised"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "French blood banks hacked in latest cyber-attack on Europe",
+          "url": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Cyber attack threatens French blood banks",
+          "url": "https://news.sky.com/story/cyber-attack-threatens-french-blood-banks-13606660"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-05-ezdj4k",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "With US Congress flipped, Trump faces hard choices on the Iran war",
+      "summary": "US Vice President JD Vance blames the war for the midterm rout as Democrats prepare to use Congress to rein it in.",
+      "url": "https://www.straitstimes.com/world/united-states/with-us-congress-flipped-trump-faces-hard-choices-on-the-iran-war",
+      "headlineSource": "The Straits Times",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-05T11:20:00.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 20.07,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Congress defeat: How Trump’s allies are distancing themselves from Iran war",
+          "url": "https://www.aljazeera.com/news/2026/11/5/congress-defeat-how-trumps-allies-are-distancing-themselves-from-iran-war?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+          "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran says U.S. election results show Americans reject the war",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "JD Vance hits out at Trump's war in Iran in stunning rebuke as he fights for his political future after the midterms",
+          "url": "https://www.dailymail.com/news/article-16265577/jd-vance-donald-trump-war.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "After midterm stinging defeat, Trump is left to weigh his next move in Iran war",
+          "url": "https://www.france24.com/en/video/20261105-after-midterm-stinging-defeat-trump-is-left-to-weigh-his-next-move-in-iran-war"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
+          "url": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
+          "url": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-midterms-election.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "With US Congress flipped, Trump faces hard choices on the Iran war",
+          "url": "https://www.straitstimes.com/world/united-states/with-us-congress-flipped-trump-faces-hard-choices-on-the-iran-war"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-05-1j3ksf9",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 years in jail",
+      "summary": "Wong, in prison since 2020, was found guilty of colluding with foreign entities in violation of national security law.",
+      "url": "https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-05T11:29:09.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 19.53,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 years in jail",
+          "url": "https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years",
+          "url": "https://www.dw.com/en/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years/a-79859898?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years for collusion",
+          "url": "https://www.euronews.com/2026/11/05/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years-for-collusion"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Hong Kong activist jailed for 10 more years for collusion with foreign forces",
+          "url": "https://www.france24.com/en/video/20261105-hong-kong-activist-jailed-for-10-more-years-for-collusion-with-foreign-forces"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+          "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Hong Kong jails Joshua Wong for a decade in collusion case",
+          "url": "https://www.japantimes.co.jp/news/2026/11/05/asia-pacific/politics/joshua-wong-hong-kong-democracy-prison/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
+          "url": "https://www.nytimes.com/2026/11/04/world/asia/joshua-wong-hong-kong-sentenced.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-05-1w2ypxp",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "France braces for fresh protests as unions strike over higher wages",
+      "summary": "Five of France's unions have joined a wave of strikes and protests in a national day of action.",
+      "url": "https://www.dw.com/en/france-braces-for-fresh-protests-as-unions-strike-over-higher-wages/a-79860616?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-05T11:36:54.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.09,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "France gears up for strikes and protests as unions promise national mobilisation",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "France braces for fresh protests as unions strike over higher wages",
+          "url": "https://www.dw.com/en/france-braces-for-fresh-protests-as-unions-strike-over-higher-wages/a-79860616?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Students blockade schools, universities as France braces for mass rallies",
+          "url": "https://www.france24.com/en/video/20261105-students-blockade-schools-universities-as-france-braces-for-mass-rallies"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "US Embassy Issues France Travel Warning as Nationwide Strike Chaos Looms",
+          "url": "https://www.newsweek.com/us-embassy-issues-france-travel-warning-nationwide-strike-chaos-looms-12668932"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Protesters to join nationwide march as France braces for day of strike action",
+          "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "France faces fresh protest wave with budget impasse deepening",
+          "url": "https://www.japantimes.co.jp/news/2026/11/05/world/politics/france-protest-budget-impasse/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "First, France Had Riots and Protests. Now It’s Bracing for a General Strike.",
+          "url": "https://www.nytimes.com/2026/11/05/world/europe/france-protests-general-strike.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "France braces itself for fresh protests as Macron seeks to prevent repeat of October unrest",
+          "url": "https://www.straitstimes.com/world/europe/france-braces-for-fresh-protests-as-macron-seeks-to-prevent-repeat-of-october-unrest"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-05-sjngo1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Bomb threats cause major flight disruptions across Europe",
+      "summary": "Flights make emergency landings in France, Italy and Bulgaria days after bomb threats disrupted air traffic.",
+      "url": "https://www.france24.com/en/video/20261105-bomb-threats-cause-major-flight-disruptions-across-europe",
+      "headlineSource": "France 24",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-05T11:36:26.000Z",
+      "sourceCount": 13,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 7,
+      "score": 19.05,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "New bomb threats bring more disruption to flights across Europe",
+          "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france?traffic_source=rss"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Bomb threats hit European airlines once again, just 48 hours after a first wave of hoaxes",
+          "url": "https://www.businessinsider.com/european-flights-bomb-threats-ryanair-aer-lingus-wizz-2026-11"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Hoax bomb threats affect at least 20 European flights in a week",
+          "url": "https://www.cbsnews.com/news/europe-flights-airlines-hoax-bomb-threats/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Several European flights receive bomb threats, some divert",
+          "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "After US midterms, a weakened Trump may pose a greater threat to Europe",
+          "url": "https://www.euronews.com/2026/11/04/after-us-midterms-a-weakened-trump-may-pose-a-greater-threat-to-europe"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Bomb threats cause major flight disruptions across Europe",
+          "url": "https://www.france24.com/en/video/20261105-bomb-threats-cause-major-flight-disruptions-across-europe"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Series of bomb threats cause flight disruptions across Europe",
+          "url": "https://www.nbcnews.com/world/europe/bomb-threat-plane-dublin-rome-diverted-aer-lingus-france-rcna607594"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "More Than 10 Planes Targeted by Bomb Threats Across Europe",
+          "url": "https://www.newsweek.com/multiple-planes-targeted-by-suspected-bomb-threats-across-europe-12668764"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Bomb threat forces Ireland-Italy flight to divert to French airbase",
+          "url": "https://www.scmp.com/news/world/europe/article/3373414/bomb-threat-forces-ireland-italy-flight-divert-french-airbase"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Flight bomb threats latest: Europe hit by travel chaos as 10 planes forced into emergency landings",
+          "url": "https://www.independent.co.uk/news/world/europe/bomb-threats-flight-emergency-landings-live-updates-europe-rome-b3079642.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Bomb Threats Disrupt Several Flights Across Europe",
+          "url": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "New wave of bomb threats hits passenger flights across Europe",
+          "url": "https://www.straitstimes.com/world/europe/bomb-alert-diverts-airbus-a320-plane-flying-from-dublin-to-rome-french-pm-says"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Disruption op in Europe? Chaos as multiple flights diverted due to bomb threats",
+          "url": "https://timesofindia.indiatimes.com/world/europe/mid-air-chaos-multiple-flights-in-europe-diverted-due-to-bomb-threats/articleshow/135570328.cms"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-05-1mvh7a8",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+      "summary": "The 2026 midterm elections were the most expensive on record, with nearly 12 billion dollars spent during the campaign. Tech tycoon Elon Musk was by far the largest individual donor ever, injecting over 440 million dollars of his money to support the GOP.",
+      "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko",
+      "headlineSource": "BBC Technology",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-05T11:29:35.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.19,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+          "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US midterms: Elon Musk fails $440 million bet as Republicans lose",
+          "url": "https://www.france24.com/en/video/20261105-us-midterms-elon-musk-fails-440-million-bet-as-republicans-lose"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
+          "url": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "What a Blue Texas Means for Elon Musk’s Future",
+          "url": "https://www.newsweek.com/what-a-blue-texas-means-for-elon-musks-future-12667872"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Elon Musk will face scrutiny from Democrats after midterms",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6029650/elon-musk-midterms-democrats-texas-congress"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "17 better ways Elon Musk could have wasted $446 million",
+          "url": "https://www.theverge.com/?p=1026878"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-05-1hhxcxq",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "CVS Health to split pharmacy chain from health insurance",
+      "summary": "CVS Health’s decision to split comes amid federal and state scrutiny over vertical integration.",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance",
+      "headlineSource": "Guardian Business",
+      "summarySource": "STAT News",
+      "publishedAt": "2026-11-05T10:00:41.000Z",
+      "sourceCount": 4,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 15.69,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "CVS announces major breakup, pharmacy expert weighs impact on consumers",
+          "url": "https://www.foxbusiness.com/retail/cvs-announces-major-breakup-pharmacy-expert-weighs-impact-consumers"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "CVS Health to split pharmacy chain from health insurance",
+          "url": "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "CVS to Split Off Drugstore Business, Ending Its Bigger-Is-Better Era",
+          "url": "https://www.nytimes.com/2026/11/04/business/cvs-health-split.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "STAT+: CVS Health to split, reversing years of deal-making to combine pharmacies and insurance",
+          "url": "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-05-1259jj5",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+      "summary": "Democrats' midterm victories draw mixed reactions from Wall Street and business executives over AI infrastructure, regulatory risks, market stability and travel.",
+      "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
+      "headlineSource": "CNBC",
+      "summarySource": "Fox Business",
+      "publishedAt": "2026-11-05T10:28:01.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 13.78,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Wall Street's rising stars say these skills matter more than ever in the AI era",
+          "url": "https://www.businessinsider.com/wall-street-rising-stars-career-advice-skills-ai-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+          "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Business leaders, investors weigh impact of Democrats’ midterm sweep on markets, AI and travel",
+          "url": "https://www.foxbusiness.com/politics/business-leaders-investors-weigh-impact-democrats-midterm-sweep-markets-ai-travel"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
+          "url": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-05-1ejzs6r",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "NYC Marathon Runner’s Death Linked to Rhabdomyolysis, Father Says",
+      "summary": "Rachel Apa collapsed and died at just 24 while running the New York City Marathon. Doctors are now issuing an urgent warning about the muscle condition behind her death, rhabdomyolysis.",
+      "url": "https://www.nytimes.com/2026/11/02/nyregion/marathon-runner-dies-rachel-apa.html",
+      "headlineSource": "NYT Health",
+      "summarySource": "Daily Mail Health",
+      "publishedAt": "2026-11-05T01:29:50.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 11.69,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.05,
+        "wire": 0,
+        "freshness": 1.68,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "NYC marathon runner was killed by a silent condition. Experts expose the deceptively subtle warning signs athletes must never ignore",
+          "url": "https://www.dailymail.com/health/article-16262453/nyc-marathon-runner-death-signs.html"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "NYC marathoner with 'heart for Jesus' remembered after tragic death for her faith, strength and charity",
+          "url": "https://www.foxnews.com/health/nyc-marathoner-heart-jesus-remembered-tragic-death-faith-strength-charity"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "NYC marathon spectator told Rachel Apa ‘she wasn’t alone’ as she reveals runner’s heartbreaking final moments",
+          "url": "https://nypost.com/2026/11/04/us-news/nyc-marathon-spectator-told-rachel-apa-she-wasnt-alone-as-she-reveals-runners-heartbreaking-final-moments/"
+        },
+        {
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
+          "lean": "center-left",
+          "title": "NYC Marathon Runner’s Death Linked to Rhabdomyolysis, Father Says",
+          "url": "https://www.nytimes.com/2026/11/02/nyregion/marathon-runner-dies-rachel-apa.html"
+        }
+      ]
+    }
+  ]
+}

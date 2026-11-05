@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-11-04",
-  "generatedAt": "2026-11-04T11:51:30.257Z",
+  "edition": "2026-11-05",
+  "generatedAt": "2026-11-05T11:51:52.401Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,680 +12,157 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 62,
-    "failed": [
-      {
-        "id": "newsweek",
-        "error": "HTTP 404"
-      }
-    ]
+    "succeeded": 63,
+    "failed": []
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-11-04-jnhf0m",
+      "id": "2026-11-05-crb9dw",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
-      "summary": "El-Sayed's campaign tested how an antiestablishment candidate on the left would fare in a perennial Midwest battleground. With the win, he'll become the first Muslim American to serve in the Senate.",
-      "url": "https://www.theguardian.com/us-news/2026/nov/03/abdul-el-sayed-mike-rogers-michigan-senate",
-      "headlineSource": "The Guardian",
-      "summarySource": "NPR",
-      "publishedAt": "2026-11-04T11:46:46.000Z",
-      "sourceCount": 11,
-      "leanCount": 5,
+      "title": "What Democrats can and can't do with their new power after taking Congress",
+      "summary": "Trump said he would work with Democrats while clinging to his veto powers.",
+      "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo",
+      "headlineSource": "BBC News",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-05T11:18:26.000Z",
+      "sourceCount": 14,
+      "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 5,
-      "score": 24.25,
+      "wireCount": 6,
+      "score": 23.77,
       "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 7.8,
+        "breadth": 11.72,
+        "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.49,
+        "freshness": 2.45,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "‘Call me senator’: How Abdul El-Sayed beat Trump’s hate to create history",
-          "url": "https://www.aljazeera.com/news/2026/11/4/call-me-senator-how-abdul-el-sayed-beat-trumps-hate-to-create-history?traffic_source=rss"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Far-left Abdul El-Sayed becomes first Muslim Senator in history after winning vicious Michigan race: Democrat sends message to Trump after defying mutiny to take seat",
-          "url": "https://www.dailymail.com/news/article-16242571/Abdul-El-Sayed-declares-victory-vicious-Michigan-Senate-campaign-race-remains-close-call.html"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "Abdul El-Sayed set to become first Muslim senator after win in Michigan",
-          "url": "https://www.france24.com/en/video/20261104-abdul-el-sayed-set-to-become-first-muslim-senator-after-win-in-michigan"
+          "title": "What Democrats can and can't do with their new power after taking Congress",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Far-left Dem Abdul El-Sayed defies bitter party mutiny to rout Mike Rogers in Michigan Senate race",
-          "url": "https://nypost.com/2026/11/04/us-news/far-left-dem-abdul-el-sayed-defies-bitter-party-mutiny-to-rout-mike-rogers-in-michigan-senate-race/"
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Democrats take Congress in a blue wave. Here's what it means for your money",
+          "url": "https://www.cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Democrats take House and Senate from Republicans in US midterm rout",
+          "url": "https://www.dw.com/en/democrats-take-house-and-senate-from-republicans-in-us-midterm-rout/a-79859416?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
+          "url": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories"
         },
         {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "Democrat Abdul El-Sayed defeats Republican Mike Rogers in key Michigan Senate race",
-          "url": "https://www.npr.org/2026/11/04/g-s1-150029/michigan-senate-race-abdul-el-sayed-mike-rogers"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "Abdul El-Sayed Wins Michigan Senate Race",
-          "url": "https://reason.com/2026/11/04/abdul-el-sayed-wins-michigan-senate-race/"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
-          "url": "https://www.theguardian.com/us-news/2026/nov/03/abdul-el-sayed-mike-rogers-michigan-senate"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Abdul El-Sayed takes aim at Trump and Vance in victory speech after making history as first Muslim elected to US Senate",
-          "url": "https://www.independent.co.uk/tv/news/abdul-el-sayed-elction-win-trump-vance-speech-b3078834.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US midterms: Democrat Abdul El-Sayed becomes first Muslim elected to Senate",
-          "url": "https://www.straitstimes.com/world/united-states/us-midterms-democrat-abdul-el-sayed-becomes-first-muslim-elected-to-senate"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "‘Habibi, call me Senator’: Abdul El-Sayed mocks Trump, Vance in victory speech",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/habibi-call-me-senator-first-muslim-us-senator-abdul-el-sayed-mocks-donald-trump-jd-vance-in-victory-speech/articleshow/135533707.cms"
-        },
-        {
-          "source": "Washington Free Beacon",
-          "sourceId": "freebeacon",
-          "lean": "right",
-          "title": "Madness in Michigan: Muslim Brotherhood-Friendly Radical Heads to US Senate",
-          "url": "https://freebeacon.com/elections/madness-in-michigan-muslim-brotherhood-friendly-radical-heads-to-us-senate/"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-11-04-mk0uo",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Republicans fuming after Democrat Talarico flips Texas Senate blue",
-      "summary": "Republicans in Texas are trying to make sense of how they lost to the Democrats for the first time in almost 40 years.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/republicans-fuming-after-democrat-talarico-flips-texas-senate-blue?traffic_source=rss",
-      "headlineSource": "Al Jazeera",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-11-04T11:15:51.000Z",
-      "sourceCount": 11,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 8,
-      "score": 20.85,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.44,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "WATCH: James Talarico addresses supporters after projected win in Texas Senate race",
-          "url": "https://abcnews.com/video/137836878/"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Republicans fuming after Democrat Talarico flips Texas Senate blue",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/republicans-fuming-after-democrat-talarico-flips-texas-senate-blue?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-          "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Texas turns blue as James Talarico humiliates scandal-plagued Ken Paxton in historic Senate upset",
-          "url": "https://www.dailymail.com/news/article-16243623/Texas-Senate-race-Talarico-Paxton.html"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "‘We defeated Goliath’: Talarico says after historic Texas Senate win",
-          "url": "https://www.euronews.com/2026/11/04/we-defeated-goliath-talarico-says-after-historic-texas-senate-win"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "From Kansas to Texas, Democrats win big in Republican heartlands",
-          "url": "https://www.france24.com/en/video/20261104-from-kansas-to-texas-democrats-win-big-in-republican-heartlands"
+          "title": "It was a big night for doctors to win seats in Congress, riding the blue wave",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6017757/democrats-republicans-doctors-acton-andrews-blue-wave"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "WATCH: Republican Ken Paxton speaks after losing Texas Senate race",
-          "url": "https://www.pbs.org/newshour/politics/watch-republican-ken-paxton-speaks-after-losing-texas-senate-race"
+          "title": "Democrats win full control of more state governments and the Texas House",
+          "url": "https://www.pbs.org/newshour/politics/democrats-win-full-control-of-more-state-governments-and-the-texas-house"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "Democrats sweep Texas",
+          "url": "https://www.politico.com/news/2026/11/03/democrats-sweep-texas-01147637"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "Trump suffers midterms trouncing weeks before Xi meeting",
-          "url": "https://www.scmp.com/plus/news/us/us-elections/article/3373259/trump-suffers-midterms-trouncing-weeks-xi-meeting"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump is Texas toast as ‘Talafreako’ trounces Paxton in stunning Senate midterms rebuke",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/james-talarico-texas-election-results-trump-paxton-b3078750.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Trump hand-picked Senate candidates. Republicans paid the price.",
-          "url": "https://www.japantimes.co.jp/news/2026/11/04/world/politics/trump-senate-candidates-republicans/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US midterms: Trump hand-picked Senate candidates, Republicans paid the price",
-          "url": "https://www.straitstimes.com/world/united-states/trump-hand-picked-us-senate-candidates-republicans-paid-the-price"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-11-04-1brhgul",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-      "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-04T09:29:29.000Z",
-      "sourceCount": 8,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 19.79,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 6.4,
-        "wire": 1.6,
-        "freshness": 2.28,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-          "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Binance breach puts custody at center of crypto infrastructure trade",
-          "url": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "What happens if YOUR savings vanish into thin air: After last week's £4.7bn crypto heist, experts warn our money guru that no bank is totally safe from attack. You must protect…",
-          "url": "https://www.dailymail.com/money/investing/article-16261733/cryptocurrency-investment-cyber-attack-Binance-warning-protect-cash.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Binance details how a fake job interview led to a $6.3B crypto heist",
-          "url": "https://www.foxbusiness.com/fox-news-tech/binance-details-how-fake-job-interview-led-6-3b-crypto-heist"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’",
-          "url": "https://www.theguardian.com/business/2026/nov/03/hackers-63bn-binance-heist-malware-bogus-job-interviews-cryptocurrency"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "Binance Says Hackers Plotted $6.3 Billion Crypto Heist for Months",
-          "url": "https://www.nytimes.com/2026/11/03/technology/binance-hack-report.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "North Korea pours cold water on Kim-Trump meeting as APEC summit looms",
-          "url": "https://www.japantimes.co.jp/news/2026/11/04/asia-pacific/north-korea-kim-trump-meeting/"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
-          "url": "https://www.theverge.com/?p=1025576"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-11-04-tmzjhl",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Israel election commission rejects Netanyahu’s charges of fraud",
-      "summary": "Netanyahu’s allies refused to back the result, as President Herzog began talks on who should form the next government",
-      "url": "https://www.straitstimes.com/world/middle-east/israel-election-commission-rejects-netanyahu-charges-of-fraud",
-      "headlineSource": "The Straits Times",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-11-04T11:32:43.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 6,
-      "score": 19.63,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Israel vote results confirmed as election commission rejects fraud claims",
-          "url": "https://www.aljazeera.com/news/2026/11/4/israel-vote-results-confirmed-as-election-commission-rejects-fraud-claims?traffic_source=rss"
-        },
-        {
-          "source": "Christian Science Monitor",
-          "sourceId": "csm",
-          "lean": "center",
-          "title": "After deadlocked elections, it’s up to Israel’s president to find a way forward",
-          "url": "https://www.csmonitor.com/World/Middle-East/2026/1103/israel-herzog-netanyahu-election-president-unity?icid=rss"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Israel's election commission says no fraud found in last week's vote",
-          "url": "https://www.euronews.com/2026/11/04/israels-election-commission-says-no-fraud-found-in-last-weeks-vote"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Netanyahu faces coalition showdown as rivals maneuver to form Israel's next government",
-          "url": "https://www.foxnews.com/world/netanyahu-faces-coalition-showdown-rivals-maneuver-form-israels-next-government"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "What consequences for Israel as Democrats win the US midterm elections?",
-          "url": "https://www.france24.com/en/video/20261104-what-consequences-for-israel-as-democrats-win-the-us-midterm-elections"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Blow for Netanyahu as Israeli election body rejects claims of Arab party fraud",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3373260/blow-netanyahu-israeli-election-body-rejects-claims-arab-party-fraud"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Israel’s President Could Play Key Role in Breaking Post-Election Deadlock",
-          "url": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-president-herzog-election-government.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Israel election commission rejects Netanyahu’s charges of fraud",
-          "url": "https://www.straitstimes.com/world/middle-east/israel-election-commission-rejects-netanyahu-charges-of-fraud"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-11-04-8on0md",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "‘Democrats did a good job’: Trump congratulates Democrats on midterm wins",
-      "summary": "Voter anger over prices and the Iran war hands Democrats power and leaves Trump facing new scrutiny.",
-      "url": "https://www.euronews.com/2026/11/04/democrats-did-a-good-job-trump-congratulates-democrats-on-midterm-wins",
-      "headlineSource": "Euronews",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-04T11:24:24.000Z",
-      "sourceCount": 9,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 7,
-      "score": 17.57,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 1.95,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "‘Democrats did a good job’: Trump congratulates Democrats on midterm wins",
-          "url": "https://www.euronews.com/2026/11/04/democrats-did-a-good-job-trump-congratulates-democrats-on-midterm-wins"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "US midterms: Trump reacts to the Democrats’ sweeping victory",
-          "url": "https://www.france24.com/en/video/20261104-us-midterms-trump-reacts-to-the-democrats-sweeping-victory"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Democrats win control of U.S. House, in major rebuke to Trump",
-          "url": "https://www.pbs.org/newshour/politics/democrats-win-control-of-the-u-s-house"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "US midterm takeaways: Trump’s blame game, Elon’s space lasers and the rest of the world",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3373270/us-midterm-takeaways-trumps-blame-game-elons-space-lasers-and-rest-world"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump dealt a ‘full-blown repudiation’ by Americans as Democrats seize firm control of House and Senate",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterm-election-results-democrats-trump-b3078789.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Democrats clinch huge wins on inflation anger and Trump fatigue",
-          "url": "https://www.japantimes.co.jp/news/2026/11/04/world/politics/america-us-midterms-vote-congress/"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Countries Weigh, and Worry About, What Trump Will Do After Midterm Defeat",
-          "url": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US midterms: Democrats seize Congress in thundering midterm rebuke of Trump",
-          "url": "https://www.straitstimes.com/world/united-states/us-midterms-democrats-seize-congress-in-thundering-midterm-rebuke-of-trump"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "Iran war, inflation or Trump fatigue: What drove Democrats' midterm surge?",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/iran-war-inflation-or-trump-fatigue-what-drove-democrats-midterm-surge/articleshow/135526305.cms"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-11-04-gpyz9",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "US stock futures mixed as Democrats score key midterm election wins",
-      "summary": "European defense stocks slid as the Democrats’ landslide midterm-elections win dented expectations of a further ramp-up in US military spending.",
-      "url": "https://www.foxbusiness.com/markets/us-stock-futures-mixed-democrats-score-key-midterm-election-wins",
-      "headlineSource": "Fox Business",
-      "summarySource": "Bloomberg",
-      "publishedAt": "2026-11-04T11:27:31.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 0,
-      "score": 16.62,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 0,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "European Defense Stocks Slide as Democrats’ Sweep Dents Optimism",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
-          "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "US stock futures mixed as Democrats score key midterm election wins",
-          "url": "https://www.foxbusiness.com/markets/us-stock-futures-mixed-democrats-score-key-midterm-election-wins"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "US dollar slides after Democrats’ midterm election win as growth fears rise",
-          "url": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Asian shares and US futures are mixed as Democrats gain majorities in both the US House and Senate",
-          "url": "https://www.independent.co.uk/news/world/americas/democrats-donald-trump-senate-asian-hong-kong-b3078827.html"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-11-04-183qym8",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Child Dies From Measles in New York State’s First Fatal Case in 30 Years",
-      "summary": "A child in New York has died after contracting measles, marking the state's first measles-associated death in over 30 years, Governor Kathy Hochul announced Monday.",
-      "url": "https://www.nytimes.com/2026/11/02/nyregion/measles-death-child-new-york-lewis-county.html",
-      "headlineSource": "NYT Health",
-      "summarySource": "Daily Mail Health",
-      "publishedAt": "2026-11-04T06:32:22.000Z",
-      "sourceCount": 5,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 1,
-      "score": 15.04,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 4.45,
-        "wire": 0.8,
-        "freshness": 2.04,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "New York reports its first measles-associated death in over 30 years after governor declared state of emergency amid rising cases",
-          "url": "https://www.dailymail.com/health/article-16262189/new-york-measles-death-emergency.html"
-        },
-        {
-          "source": "Fox Health",
-          "sourceId": "fox_health",
-          "lean": "right",
-          "title": "Child’s measles death marks New York state’s first in more than 30 years amid outbreak",
-          "url": "https://www.foxnews.com/health/childs-measles-death-marks-new-york-states-first-more-than-30-years-amid-outbreak"
-        },
-        {
-          "source": "NYT Health",
-          "sourceId": "nyt_health",
-          "lean": "center-left",
-          "title": "Child Dies From Measles in New York State’s First Fatal Case in 30 Years",
-          "url": "https://www.nytimes.com/2026/11/02/nyregion/measles-death-child-new-york-lewis-county.html"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "WATCH: New York Gov. Kathy Hochul speaks after winning reelection",
-          "url": "https://www.pbs.org/newshour/politics/watch-new-york-gov-kathy-hochul-speaks-after-winning-reelection"
+          "title": "Facing 2 years as a lame duck, what can Trump do to stay in control?",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3373425/facing-two-years-lame-duck-what-can-trump-do-stay-control"
         },
         {
           "source": "STAT News",
           "sourceId": "statnews",
           "lean": "center",
-          "title": "Child dies of measles in New York’s first such death in 30 years",
-          "url": "https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-11-04-1px879n",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Americans head to the polls for US midterm elections",
-      "summary": "Voters cast their ballots in Fairfax, Virginia, and New York as Americans head to the polls in midterm elections that will determine control of Congress for the final two years of President Donald Trump’s term.",
-      "url": "https://www.euronews.com/video/2026/11/03/americans-head-to-the-polls-for-us-midterm-elections",
-      "headlineSource": "Euronews",
-      "summarySource": "Euronews",
-      "publishedAt": "2026-11-04T10:00:01.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 1,
-      "score": 14.54,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 4.45,
-        "wire": 0.8,
-        "freshness": 2.33,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "WATCH: Election Day draws millions of Americans to the polls",
-          "url": "https://abcnews.com/video/137823497/"
+          "title": "STAT+: A looming deadline to fund the government will shape Congress’ unusual lame duck session",
+          "url": "https://www.statnews.com/2026/11/04/lame-duck-session-congress-health-policy-aca-subsidies-medicaid-funding/"
         },
         {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Americans' wallets drove the midterms",
-          "url": "https://www.businessinsider.com/inflation-and-cost-of-living-shaped-2026-midterm-voter-priorities-2026-11"
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Not just Congress: Democrats’ blue wave washes over state legislatures across US",
+          "url": "https://www.theguardian.com/us-news/2026/nov/05/democrats-state-legislatures-midterm-elections"
         },
         {
-          "source": "Euronews",
-          "sourceId": "euronews",
+          "source": "The Hill",
+          "sourceId": "thehill",
           "lean": "center",
-          "title": "Americans head to the polls for US midterm elections",
-          "url": "https://www.euronews.com/video/2026/11/03/americans-head-to-the-polls-for-us-midterm-elections"
+          "title": "Healthcare powers Democrats’ midterm rout: 4 takeaways",
+          "url": "https://thehill.com/policy/healthcare/6199119-democrats-win-congress-healthcare-takeaways/"
         },
         {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Donald Trump humiliated in US midterms as Democrats seize control of Congress",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-us-midterm-elections-democrats-b3079227.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US midterms: Trump confronts new role as a lame duck facing a hostile Congress",
+          "url": "https://www.straitstimes.com/world/united-states/us-midterms-trump-confronts-a-new-role-as-a-lame-duck-facing-a-hostile-congress"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
           "lean": "right",
-          "title": "Affordability takes center stage as Americans cast their ballots in high-stakes midterms",
-          "url": "https://www.foxbusiness.com/economy/affordability-takes-center-stage-americans-cast-ballots-high-stakes-midterms"
+          "title": "Where Democrats could use their landslide victories to redistrict",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4793338/where-democrats-could-use-landslide-victories-redistricting/"
         }
       ]
     },
     {
-      "rank": 9,
-      "id": "2026-11-03-1dc1ssi",
+      "rank": 2,
+      "id": "2026-11-05-e1fba6",
       "topic": "tech",
       "topicLabel": "Technology & physical science",
       "topicShort": "TECH",
-      "title": "UK meat industry hit by cyber-attack which targeted European supermarket freezers",
-      "summary": "Supermarkets in countries including Ireland, Sweden and Belgium reported fridges being hiked in temperature on Monday.",
-      "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o",
-      "headlineSource": "BBC Technology",
-      "summarySource": "BBC Technology",
-      "publishedAt": "2026-11-03T19:12:31.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 12.98,
+      "title": "French blood banks targeted by refrigerator cyberattack",
+      "summary": "A cyberattack on several blood banks tried to raise temperatures to extremely high levels but was thwarted before it could do any damage to blood products or samples, French authorities said. The incident comes after supermarkets in a number of European…",
+      "url": "https://www.dw.com/en/french-blood-banks-targeted-by-refrigerator-cyberattack/a-79857981?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-05T10:25:41.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 20.68,
       "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 3.9,
-        "wire": 0.8,
-        "freshness": 1.32,
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.37,
         "softPenalty": 0
       },
       "coverage": [
@@ -693,54 +170,642 @@
           "source": "BBC Technology",
           "sourceId": "bbc_tech",
           "lean": "center",
-          "title": "UK meat industry hit by cyber-attack which targeted European supermarket freezers",
-          "url": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o"
+          "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "More European grocery stores hit by apparent fridge-freezer hacks",
-          "url": "https://www.cbsnews.com/news/europe-grocery-store-refrigerator-freezer-cyberattack-hack-food-wasted/"
+          "title": "French blood banks hit by cyberattack days after European freezer hacks",
+          "url": "https://www.cbsnews.com/news/cyberattack-france-blood-bank/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Blood banks targeted in latest European fridge cyberattacks",
+          "url": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "French blood banks targeted by refrigerator cyberattack",
+          "url": "https://www.dw.com/en/french-blood-banks-targeted-by-refrigerator-cyberattack/a-79857981?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "France blood bank cyberattack targets refrigeration systems as European supermarkets hit",
+          "url": "https://www.foxbusiness.com/technology/france-blood-bank-cyberattack-targets-refrigeration-systems-european-supermarkets-hit"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Cyberattack hits French blood bank site, no blood products compromised",
+          "url": "https://www.france24.com/en/video/20261105-cyberattack-hits-french-blood-bank-site-no-blood-products-compromised"
         },
         {
           "source": "Guardian Tech",
           "sourceId": "guardian_tech",
           "lean": "left",
-          "title": "Food suppliers in UK hit by cyber-attacks after freezers targeted in Europe",
-          "url": "https://www.theguardian.com/technology/2026/nov/03/uk-meat-processing-firms-fridges-heat-up-cyber-attacks"
+          "title": "French blood banks hacked in latest cyber-attack on Europe",
+          "url": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Cyber attack threatens French blood banks",
+          "url": "https://news.sky.com/story/cyber-attack-threatens-french-blood-banks-13606660"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-05-ezdj4k",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "With US Congress flipped, Trump faces hard choices on the Iran war",
+      "summary": "US Vice President JD Vance blames the war for the midterm rout as Democrats prepare to use Congress to rein it in.",
+      "url": "https://www.straitstimes.com/world/united-states/with-us-congress-flipped-trump-faces-hard-choices-on-the-iran-war",
+      "headlineSource": "The Straits Times",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-05T11:20:00.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 20.07,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Congress defeat: How Trump’s allies are distancing themselves from Iran war",
+          "url": "https://www.aljazeera.com/news/2026/11/5/congress-defeat-how-trumps-allies-are-distancing-themselves-from-iran-war?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+          "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran says U.S. election results show Americans reject the war",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "JD Vance hits out at Trump's war in Iran in stunning rebuke as he fights for his political future after the midterms",
+          "url": "https://www.dailymail.com/news/article-16265577/jd-vance-donald-trump-war.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "After midterm stinging defeat, Trump is left to weigh his next move in Iran war",
+          "url": "https://www.france24.com/en/video/20261105-after-midterm-stinging-defeat-trump-is-left-to-weigh-his-next-move-in-iran-war"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
+          "url": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories"
         },
         {
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Are Freezers Being Hacked? Europe and the U.S. Military Investigate.",
-          "url": "https://www.nytimes.com/2026/11/02/business/cyberattack-freezers-europe-us-army.html"
+          "title": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
+          "url": "https://www.nytimes.com/2026/11/03/world/middleeast/trump-iran-war-midterms-election.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "With US Congress flipped, Trump faces hard choices on the Iran war",
+          "url": "https://www.straitstimes.com/world/united-states/with-us-congress-flipped-trump-faces-hard-choices-on-the-iran-war"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-05-1j3ksf9",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 years in jail",
+      "summary": "Wong, in prison since 2020, was found guilty of colluding with foreign entities in violation of national security law.",
+      "url": "https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-05T11:29:09.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 19.53,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 years in jail",
+          "url": "https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years",
+          "url": "https://www.dw.com/en/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years/a-79859898?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years for collusion",
+          "url": "https://www.euronews.com/2026/11/05/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years-for-collusion"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Hong Kong activist jailed for 10 more years for collusion with foreign forces",
+          "url": "https://www.france24.com/en/video/20261105-hong-kong-activist-jailed-for-10-more-years-for-collusion-with-foreign-forces"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+          "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Hong Kong jails Joshua Wong for a decade in collusion case",
+          "url": "https://www.japantimes.co.jp/news/2026/11/05/asia-pacific/politics/joshua-wong-hong-kong-democracy-prison/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
+          "url": "https://www.nytimes.com/2026/11/04/world/asia/joshua-wong-hong-kong-sentenced.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-05-1w2ypxp",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "France braces for fresh protests as unions strike over higher wages",
+      "summary": "Five of France's unions have joined a wave of strikes and protests in a national day of action.",
+      "url": "https://www.dw.com/en/france-braces-for-fresh-protests-as-unions-strike-over-higher-wages/a-79860616?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-05T11:36:54.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.09,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "France gears up for strikes and protests as unions promise national mobilisation",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "France braces for fresh protests as unions strike over higher wages",
+          "url": "https://www.dw.com/en/france-braces-for-fresh-protests-as-unions-strike-over-higher-wages/a-79860616?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Students blockade schools, universities as France braces for mass rallies",
+          "url": "https://www.france24.com/en/video/20261105-students-blockade-schools-universities-as-france-braces-for-mass-rallies"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "US Embassy Issues France Travel Warning as Nationwide Strike Chaos Looms",
+          "url": "https://www.newsweek.com/us-embassy-issues-france-travel-warning-nationwide-strike-chaos-looms-12668932"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Protesters to join nationwide march as France braces for day of strike action",
+          "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "France faces fresh protest wave with budget impasse deepening",
+          "url": "https://www.japantimes.co.jp/news/2026/11/05/world/politics/france-protest-budget-impasse/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "First, France Had Riots and Protests. Now It’s Bracing for a General Strike.",
+          "url": "https://www.nytimes.com/2026/11/05/world/europe/france-protests-general-strike.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "France braces itself for fresh protests as Macron seeks to prevent repeat of October unrest",
+          "url": "https://www.straitstimes.com/world/europe/france-braces-for-fresh-protests-as-macron-seeks-to-prevent-repeat-of-october-unrest"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-05-sjngo1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Bomb threats cause major flight disruptions across Europe",
+      "summary": "Flights make emergency landings in France, Italy and Bulgaria days after bomb threats disrupted air traffic.",
+      "url": "https://www.france24.com/en/video/20261105-bomb-threats-cause-major-flight-disruptions-across-europe",
+      "headlineSource": "France 24",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-05T11:36:26.000Z",
+      "sourceCount": 13,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 7,
+      "score": 19.05,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "New bomb threats bring more disruption to flights across Europe",
+          "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france?traffic_source=rss"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Bomb threats hit European airlines once again, just 48 hours after a first wave of hoaxes",
+          "url": "https://www.businessinsider.com/european-flights-bomb-threats-ryanair-aer-lingus-wizz-2026-11"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Hoax bomb threats affect at least 20 European flights in a week",
+          "url": "https://www.cbsnews.com/news/europe-flights-airlines-hoax-bomb-threats/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Several European flights receive bomb threats, some divert",
+          "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "After US midterms, a weakened Trump may pose a greater threat to Europe",
+          "url": "https://www.euronews.com/2026/11/04/after-us-midterms-a-weakened-trump-may-pose-a-greater-threat-to-europe"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Bomb threats cause major flight disruptions across Europe",
+          "url": "https://www.france24.com/en/video/20261105-bomb-threats-cause-major-flight-disruptions-across-europe"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Series of bomb threats cause flight disruptions across Europe",
+          "url": "https://www.nbcnews.com/world/europe/bomb-threat-plane-dublin-rome-diverted-aer-lingus-france-rcna607594"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "More Than 10 Planes Targeted by Bomb Threats Across Europe",
+          "url": "https://www.newsweek.com/multiple-planes-targeted-by-suspected-bomb-threats-across-europe-12668764"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Bomb threat forces Ireland-Italy flight to divert to French airbase",
+          "url": "https://www.scmp.com/news/world/europe/article/3373414/bomb-threat-forces-ireland-italy-flight-divert-french-airbase"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Flight bomb threats latest: Europe hit by travel chaos as 10 planes forced into emergency landings",
+          "url": "https://www.independent.co.uk/news/world/europe/bomb-threats-flight-emergency-landings-live-updates-europe-rome-b3079642.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Bomb Threats Disrupt Several Flights Across Europe",
+          "url": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "New wave of bomb threats hits passenger flights across Europe",
+          "url": "https://www.straitstimes.com/world/europe/bomb-alert-diverts-airbus-a320-plane-flying-from-dublin-to-rome-french-pm-says"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Disruption op in Europe? Chaos as multiple flights diverted due to bomb threats",
+          "url": "https://timesofindia.indiatimes.com/world/europe/mid-air-chaos-multiple-flights-in-europe-diverted-due-to-bomb-threats/articleshow/135570328.cms"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-05-1mvh7a8",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+      "summary": "The 2026 midterm elections were the most expensive on record, with nearly 12 billion dollars spent during the campaign. Tech tycoon Elon Musk was by far the largest individual donor ever, injecting over 440 million dollars of his money to support the GOP.",
+      "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko",
+      "headlineSource": "BBC Technology",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-05T11:29:35.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.19,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+          "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US midterms: Elon Musk fails $440 million bet as Republicans lose",
+          "url": "https://www.france24.com/en/video/20261105-us-midterms-elon-musk-fails-440-million-bet-as-republicans-lose"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
+          "url": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "What a Blue Texas Means for Elon Musk’s Future",
+          "url": "https://www.newsweek.com/what-a-blue-texas-means-for-elon-musks-future-12667872"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Elon Musk will face scrutiny from Democrats after midterms",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6029650/elon-musk-midterms-democrats-texas-congress"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "17 better ways Elon Musk could have wasted $446 million",
+          "url": "https://www.theverge.com/?p=1026878"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-05-1hhxcxq",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "CVS Health to split pharmacy chain from health insurance",
+      "summary": "CVS Health’s decision to split comes amid federal and state scrutiny over vertical integration.",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance",
+      "headlineSource": "Guardian Business",
+      "summarySource": "STAT News",
+      "publishedAt": "2026-11-05T10:00:41.000Z",
+      "sourceCount": 4,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 15.69,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "CVS announces major breakup, pharmacy expert weighs impact on consumers",
+          "url": "https://www.foxbusiness.com/retail/cvs-announces-major-breakup-pharmacy-expert-weighs-impact-consumers"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "CVS Health to split pharmacy chain from health insurance",
+          "url": "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "CVS to Split Off Drugstore Business, Ending Its Bigger-Is-Better Era",
+          "url": "https://www.nytimes.com/2026/11/04/business/cvs-health-split.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "STAT+: CVS Health to split, reversing years of deal-making to combine pharmacies and insurance",
+          "url": "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-05-1259jj5",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+      "summary": "Democrats' midterm victories draw mixed reactions from Wall Street and business executives over AI infrastructure, regulatory risks, market stability and travel.",
+      "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
+      "headlineSource": "CNBC",
+      "summarySource": "Fox Business",
+      "publishedAt": "2026-11-05T10:28:01.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 13.78,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Wall Street's rising stars say these skills matter more than ever in the AI era",
+          "url": "https://www.businessinsider.com/wall-street-rising-stars-career-advice-skills-ai-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+          "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Business leaders, investors weigh impact of Democrats’ midterm sweep on markets, AI and travel",
+          "url": "https://www.foxbusiness.com/politics/business-leaders-investors-weigh-impact-democrats-midterm-sweep-markets-ai-travel"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
+          "url": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-11-04-13117d6",
+      "id": "2026-11-05-1ejzs6r",
       "topic": "health",
       "topicLabel": "Health, life science & climate",
       "topicShort": "HEALTH",
-      "title": "NYC marathon runner, 24, dies just 2 miles from finish line after sending dad chilling texts",
-      "summary": "Rachel Apa's father says rhabdomyolysis killed the 24-year-old NYC marathon runner, who collapsed at mile 24 during her first-ever race Sunday.",
-      "url": "https://www.foxnews.com/health/healthy-24-year-old-athlete-dies-2-miles-nyc-marathon-finish-line-after-sending-dad-chilling-texts",
-      "headlineSource": "Fox Health",
-      "summarySource": "Fox Health",
-      "publishedAt": "2026-11-04T00:33:39.000Z",
-      "sourceCount": 3,
+      "title": "NYC Marathon Runner’s Death Linked to Rhabdomyolysis, Father Says",
+      "summary": "Rachel Apa collapsed and died at just 24 while running the New York City Marathon. Doctors are now issuing an urgent warning about the muscle condition behind her death, rhabdomyolysis.",
+      "url": "https://www.nytimes.com/2026/11/02/nyregion/marathon-runner-dies-rachel-apa.html",
+      "headlineSource": "NYT Health",
+      "summarySource": "Daily Mail Health",
+      "publishedAt": "2026-11-05T01:29:50.000Z",
+      "sourceCount": 4,
       "leanCount": 2,
       "leanSpread": 0.75,
       "wireCount": 0,
-      "score": 10.67,
+      "score": 11.69,
       "scoreComponents": {
-        "breadth": 6,
+        "breadth": 6.97,
         "diversity": 3.05,
         "wire": 0,
-        "freshness": 1.62,
+        "freshness": 1.68,
         "softPenalty": 0
       },
       "coverage": [
@@ -755,14 +820,21 @@
           "source": "Fox Health",
           "sourceId": "fox_health",
           "lean": "right",
-          "title": "NYC marathon runner, 24, dies just 2 miles from finish line after sending dad chilling texts",
-          "url": "https://www.foxnews.com/health/healthy-24-year-old-athlete-dies-2-miles-nyc-marathon-finish-line-after-sending-dad-chilling-texts"
+          "title": "NYC marathoner with 'heart for Jesus' remembered after tragic death for her faith, strength and charity",
+          "url": "https://www.foxnews.com/health/nyc-marathoner-heart-jesus-remembered-tragic-death-faith-strength-charity"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "NYC marathon spectator told Rachel Apa ‘she wasn’t alone’ as she reveals runner’s heartbreaking final moments",
+          "url": "https://nypost.com/2026/11/04/us-news/nyc-marathon-spectator-told-rachel-apa-she-wasnt-alone-as-she-reveals-runners-heartbreaking-final-moments/"
         },
         {
           "source": "NYT Health",
           "sourceId": "nyt_health",
           "lean": "center-left",
-          "title": "Runner, 24, Dies During Her First Marathon",
+          "title": "NYC Marathon Runner’s Death Linked to Rhabdomyolysis, Father Says",
           "url": "https://www.nytimes.com/2026/11/02/nyregion/marathon-runner-dies-rachel-apa.html"
         }
       ]
