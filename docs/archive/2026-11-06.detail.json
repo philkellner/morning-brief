@@ -1,0 +1,1912 @@
+{
+  "edition": "2026-11-06",
+  "generatedAt": "2026-11-06T11:49:06.202Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-06-1n7fddj",
+      "topic": "world",
+      "title": "Bomb threats disrupt several flights across Europe",
+      "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 13,
+      "score": 23.5,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 2,
+        "specialistShare": 0.15,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+          "description": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
+          "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo",
+          "published": "2026-11-05T17:39:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bomb hoaxes: Messages reveal how threat was passed on by air traffic control",
+          "description": "BBC Verify has been analysing messages after flights across Europe were targeted by fake bomb threats - the second such incident this week.",
+          "link": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo",
+          "published": "2026-11-05T18:22:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Who could be behind hoax bomb threats to European air travel?",
+          "description": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+          "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo",
+          "published": "2026-11-05T19:58:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hoax or bomb threats? What we know about flight disruptions across Europe",
+          "description": "Security inspections reveal no explosives as fighter jets escort planes amid Europe's major wave of bomb threats.",
+          "link": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe?traffic_source=rss",
+          "published": "2026-11-06T11:18:02.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bomb threats disrupt several flights across Europe",
+          "description": "At least a dozen flights were either diverted or landed with a military escort after bomb or security threats. The first reported case involved a flight from Dublin to Rome landing outside Paris and more soon followed.",
+          "link": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-05T10:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Dozens of planes targeted by bomb threats in Europe in apparent hoax",
+          "description": "A wave of bomb threats has diverted and grounded dozens of flights in Europe in recent days, prompting some countries to scramble their fighter jets in response to what, so far, has all been a hoax. Imtiaz Tyab reports from London.",
+          "link": "https://www.cbsnews.com/video/dozens-planes-targeted-bomb-threats-europe-apparent-hoax/",
+          "published": "2026-11-06T00:44:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hoax bomb threats affect at least 20 European flights within hours",
+          "description": "At least 20 flights in Europe deal with bomb threats, adding to what one expert calls an unusual level of hoaxes in a short time period, suggesting \"a very deliberate act.\"",
+          "link": "https://www.cbsnews.com/news/europe-flights-airlines-hoax-bomb-threats/",
+          "published": "2026-11-05T17:04:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 15 European flights receive bomb threats in a single day",
+          "description": "At least 15 commercial European flights received bomb threats Thursday, bringing the week's total to more than 20. Holly Williams reports.",
+          "link": "https://www.cbsnews.com/video/at-least-15-european-flights-receive-bomb-threats-in-a-single-day/",
+          "published": "2026-11-05T14:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Wave of bomb threats against European airliners triggers diversions and tarmac searches",
+          "description": "No explosives have been found, and it isn’t clear who or what is behind the calls, but the threats alone have caused chaos in the skies and airports.",
+          "link": "https://www.nbcnews.com/world/europe/bomb-threat-plane-dublin-rome-diverted-aer-lingus-france-rcna607594",
+          "published": "2026-11-05T09:26:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "European skies on high alert after hoax bomb threats this week – Europe live",
+          "description": "Hoax bomb threats targeted commercial flights this week leaving at least 35 planes searched or diverted A Romanian airline Tarom flight from Prague to Bucharest is the latest believed to be affected by today’s bomb threats. The aircraft, operating flight number ROT226M, sent a squawk code of 7700 – general emergency – before landing safely in Bucharest. The threat was later confirmed to be unprove",
+          "link": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+          "published": "2026-11-06T11:35:15.000Z",
+          "categories": [
+            "World news",
+            "Air transport",
+            "Europe",
+            "France",
+            "Belgium",
+            "Pope Leo XIV"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
+          "description": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Why have more than 30 European flights been hit by bomb threats this week? Hoax bomb threats have disrupted at least 34 flights across Europe this week, with some forced to make emergency landings, as questions mount over an apparently coordinated effort to cause chaos for travellers. At least 25 bom",
+          "link": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+          "published": "2026-11-05T18:17:36.000Z",
+          "categories": [
+            "Air transport",
+            "World news",
+            "Europe",
+            "Airline industry",
+            "Transport"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bomb Threats Disrupt European Flights and Rattle Passengers",
+          "description": "Passengers recounted landing at a military base and being subjected to security checks and travel delays after threats that turned out to be hoaxes affected planes in Italy, Poland and Spain.",
+          "link": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-airline-passengers.html",
+          "published": "2026-11-05T19:39:19.000Z",
+          "categories": [
+            "Airlines and Airplanes",
+            "Threats and Threatening Messages",
+            "Hoaxes and Pranks",
+            "Aer Lingus Airlines",
+            "LOT Polish Airlines",
+            "Europe",
+            "France",
+            "Italy",
+            "Poland",
+            "Delays (Transportation)",
+            "Wizz Air"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What to Know About the Bomb Threats Disrupting Flights in Europe",
+          "description": "More threats were reported Friday after dozens of planes were targeted earlier this week. Officials have not reported finding any explosives, but the hoaxes have added to airspace anxiety.",
+          "link": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-europe-flights-airlines.html",
+          "published": "2026-11-06T11:28:37.000Z",
+          "categories": [
+            "Airlines and Airplanes",
+            "Threats and Threatening Messages",
+            "Bombs and Explosives",
+            "Delays (Transportation)",
+            "Air Lingus",
+            "Czech Republic",
+            "Europe",
+            "France"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hoax Bomb threats repeatedly disrupt flights across Europe this week. Here’s what we know",
+          "description": "Dozens of flights across Europe reported bomb threats this week, disrupting air travel across London, Dublin, and Helsinki.",
+          "link": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html",
+          "published": "2026-11-06T10:28:40.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Multiple flights in Europe diverted because of bomb threats",
+          "description": "At least 11 planes from cities, including Dublin, Madrid, and Warsaw, were diverted or grounded over bomb threats that have been determined to be unfounded.",
+          "link": "https://www.foxnews.com/world/multiple-flights-europe-diverted-bomb-threats",
+          "published": "2026-11-05T11:33:26.000Z",
+          "categories": [
+            "c1cc4366-b182-524e-8656-3c6f6623f506",
+            "fnc",
+            "Fox News",
+            "fox-news/travel/general/airlines",
+            "fox-news/world/world-regions/europe",
+            "fox-news/world/world-regions/france",
+            "fox-news/world/world-regions/italy",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "newsweek",
+          "outlet": "newsweek",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Europe Hit By More Bomb Threats Targeting TV Studios, Flights",
+          "description": "The threats mirror similar incidents to have taken places across Europe this week.",
+          "link": "https://www.newsweek.com/europe-hit-by-more-bomb-threats-targeting-tv-studios-flights-12675752",
+          "published": "2026-11-06T10:51:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bomb threats force evacuations at Irish media outlets",
+          "description": "The threats came after days of hoax bomb alerts across Europe.",
+          "link": "https://www.straitstimes.com/world/europe/bomb-threats-force-evacuations-at-irish-media-outlets",
+          "published": "2026-11-06T10:45:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Offices of Irish media groups evacuated due to bomb threats, one deemed a hoax",
+          "description": "DUBLIN, Nov 6 - The offices of Irish media groups including national broadcaster RTE were evacuated following bomb threats on Friday that a presenter on one of the impacted radio stations, Newstalk, said had been deemed a hoax.",
+          "link": "https://www.straitstimes.com/world/europe/offices-of-irish-media-groups-evacuated-due-to-bomb-threats-one-deemed-a-hoax",
+          "published": "2026-11-06T10:43:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Wave of bomb threats afflict European flights for third time this week",
+          "description": "COPENHAGEN/PRAGUE, Nov 6 - A wave of bomb threats were issued to passenger flights around Europe on Friday for the third time this week, as Spain's foreign minister said the continent appeared to be facing \\\"hybrid aggression and a form of psychological warfare\\\".",
+          "link": "https://www.straitstimes.com/world/europe/danish-police-investigate-renewed-threats-at-copenhagen-airport",
+          "published": "2026-11-06T10:03:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hoax bomb threats disrupt dozens of passenger flights across Europe",
+          "description": "Officials and experts said no one has claimed responsibility.",
+          "link": "https://www.straitstimes.com/world/europe/new-wave-of-bomb-hoaxes-hits-dozens-of-flights-across-europe",
+          "published": "2026-11-06T09:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What happens when airlines receive bomb threats?",
+          "description": "Hundreds of airline passengers in Europe had their flights diverted or given military escorts this week after a series of bomb threats that officials have said were malicious hoaxes.",
+          "link": "https://www.pbs.org/newshour/world/what-happens-when-airlines-receive-bomb-threats",
+          "published": "2026-11-05T22:31:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Europe flights and airport hit by fresh threats after days of chaos",
+          "description": "Multiple flights have been grounded over the past week",
+          "link": "https://www.independent.co.uk/news/world/europe/air-travel-bomb-threats-copenhagen-denmark-b3080336.html",
+          "published": "2026-11-06T11:33:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Bomb Threats Disrupt European Flights and Rattle Passengers",
+          "description": "Passengers recounted landing at a military base and being subjected to security checks and travel delays after threats that turned out to be hoaxes affected planes in Italy, Poland and Spain.",
+          "link": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-airline-passengers.html",
+          "published": "2026-11-05T19:39:19.000Z",
+          "categories": [
+            "Airlines and Airplanes",
+            "Threats and Threatening Messages",
+            "Hoaxes and Pranks",
+            "Aer Lingus Airlines",
+            "LOT Polish Airlines",
+            "Europe",
+            "France",
+            "Italy",
+            "Poland",
+            "Delays (Transportation)",
+            "Wizz Air"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Why have more than 30 European flights been hit by bomb threats this week?",
+          "description": "With flights disrupted, how concerned should you be about your travel plans? More than 30 planes have been subjected to security alerts or diversions this week, with at least 25 more bomb threats on Thursday disrupting civil aviation across Europe. What do we know so far, and how concerned should you be about your travel plans?",
+          "link": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-european-flights-airports-disruption-explainer",
+          "published": "2026-11-05T17:36:43.000Z",
+          "categories": [
+            "Air transport",
+            "Europe",
+            "Airline industry",
+            "Ryanair",
+            "Business",
+            "Bulgaria",
+            "Belgium",
+            "Italy",
+            "Spain",
+            "Czechia",
+            "Poland",
+            "Finland",
+            "Ireland",
+            "Hungary",
+            "World news"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-06-1lmu6n",
+      "topic": "world",
+      "title": "Trump’s 250-foot triumphal arch gets green light from key federal panel — but judge blocks construction for at least 14 days",
+      "summary": "A judge ordered a two-week stop to construction on US President Trump's arch project in Washington. A federal panel had approved Trump's triumphal arch plans in an 8-4 vote.",
+      "headlineSource": "New York Post",
+      "sourceCount": 11,
+      "score": 22.78,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "A judge blocks construction of Trump's arch moments after it won federal approval",
+          "description": "The Trump administration hoped to begin construction immediately after a federal panel approved its arch late Thursday. But just after midnight, the judge issued an order blocking work for 14 days.",
+          "link": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction",
+          "published": "2026-11-06T05:05:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US judge halts construction of Trump’s triumphal arch in Washington, DC",
+          "description": "A 14-day pause has been ordered blocking the so-called 'Arc de Trump' project in Washington, DC.",
+          "link": "https://www.aljazeera.com/news/2026/11/6/us-judge-halts-construction-of-trumps-triumphal-arch-in-washington-dc?traffic_source=rss",
+          "published": "2026-11-06T07:32:08.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US judge temporarily blocks Trump's arch project after panel approval",
+          "description": "A judge ordered a two-week stop to construction on US President Trump's arch project in Washington. A federal panel had approved Trump's triumphal arch plans in an 8-4 vote.",
+          "link": "https://www.dw.com/en/us-judge-temporarily-blocks-trump-s-arch-project-after-panel-approval/a-79871690?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-06T06:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge blocks Trump arch hours after federal panel approval",
+          "description": "Ahead of the vote to grant final approval, the Vietnam vet leading a lawsuit to stop the project called it \"frankly blasphemous.\"",
+          "link": "https://abcnews.com/Politics/vietnam-vet-leading-opposition-trumps-arch-calls-frankly/story?id=137885182",
+          "published": "2026-11-06T11:00:17.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge temporarily halts building work on Trump’s triumphal arch",
+          "description": "Federal judge issues 14-day restraining order on any construction work on Washington monument, hours after it was approved by planning commission A federal judge has halted construction work on Donald Trump’s towering triumphal arch for 14 days, a major setback for one of the president’s most prominent projects in his vision to remake Washington. The temporary restraining order was issued by US di",
+          "link": "https://www.theguardian.com/us-news/2026/nov/06/judge-temporarily-halts-work-trump-triumphal-arch-washington",
+          "published": "2026-11-06T06:36:20.000Z",
+          "categories": [
+            "Washington DC",
+            "Trump administration",
+            "US politics",
+            "Virginia",
+            "Donald Trump",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "NCPC approves plan to build Trump's triumphal arch",
+          "description": "The National Capital Planning Commission (NCPC) on Thursday voted to approve plans to build a triumphal arch championed by President Trump between the Lincoln Memorial and Arlington National Cemetery. The motion to approve the project passed by an 8-4 vote after listening to over 100 public remarks largely against the project after a nearly 9-hour...",
+          "link": "https://thehill.com/homenews/administration/6202351-ncpc-approves-trump-arch/",
+          "published": "2026-11-06T03:34:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s 250-foot triumphal arch gets green light from key federal panel — but judge blocks construction for at least 14 days",
+          "description": "In an 8-4 vote, the commission approved plans to build the 250-foot-high arch just across the Potomac River from the Lincoln Memorial, on a traffic circle between Arlington National Cemetery and Arlington Memorial Bridge.",
+          "link": "https://nypost.com/2026/11/06/us-news/trumps-250-foot-triumphal-arch-gets-greenlight-from-key-federal-panel/",
+          "published": "2026-11-06T06:55:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US federal judge blocks Trump’s massive arch project",
+          "description": "The judge ruled that the Trump administration cannot start construction on the arch for two weeks",
+          "link": "https://www.straitstimes.com/world/united-states/panel-votes-to-proceed-with-trumps-massive-arch-despite-complaints",
+          "published": "2026-11-06T05:28:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Judge blocks construction of Trump's massive 'triumphal arch'",
+          "description": "Trump has said the structure would be turned into a \"top grade military complex\" housing drones, snipers and ammunition.",
+          "link": "https://www.euronews.com/2026/11/06/judge-blocks-construction-of-trumps-massive-triumphal-arch",
+          "published": "2026-11-06T09:19:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Key federal panel expected to approve Trump's arch amid court challenge",
+          "description": "The approval would clear a hurdle on the road to breaking ground on the project, and the administration has said it could launch construction within a day of the vote. But the proposed 250-foot tall gilded arch still faced legal challenges.",
+          "link": "https://www.pbs.org/newshour/politics/key-federal-panel-expected-to-approve-trumps-arch-amid-court-challenge",
+          "published": "2026-11-05T21:34:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Judge blocks Trump’s 250-foot DC arch within an hour of panel of allies approving plans",
+          "description": "Federal judge temporarily blocks Trump’s ‘top-grade military complex’ near Arlington National Cemetery after a commission approved the plans",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-dc-arch-judge-block-construction-timeline-b3080088.html",
+          "published": "2026-11-06T08:56:12.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-06-ojc9v5",
+      "topic": "business",
+      "title": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
+      "summary": "Global markets are being roiled due to concerns over US data centre expansion and AI regulation.",
+      "headlineSource": "NYT Business",
+      "sourceCount": 10,
+      "score": 22.44,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 10,
+        "specialistOutlets": 8,
+        "specialistShare": 0.8,
+        "votes": {
+          "tech": 3,
+          "business": 6,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tech stock rout, driven by US AI fears, continues in Asian trading",
+          "description": "Global markets are being roiled due to concerns over US data centre expansion and AI regulation.",
+          "link": "https://www.aljazeera.com/economy/2026/11/6/tech-stock-rout-driven-by-us-ai-fears-continues-in-asian-trading?traffic_source=rss",
+          "published": "2026-11-06T08:41:05.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Global tech stocks plunge over fears of AI curbs in US",
+          "description": "Asian markets plunged Friday, tracking a sell-off in Western stocks following the US midterm elections.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/global-tech-stocks-plunge-over-fears-of-ai-curbs-in-us?traffic_source=rss",
+          "published": "2026-11-06T07:24:20.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
+          "description": "European shares have fallen after sharp losses in Asia and on Wall Street. Doubts over huge AI investments and fears of curbs following the Democrats' US midterm victory have rattled global markets.",
+          "link": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-06T09:29:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: European stocks plunge after US midterm election results shock markets",
+          "description": "European shares tumbled on Friday as global investors grappled with uncertainty over AI stocks, following the Democrats’ sweeping victory in the US midterm elections. The drop is partly due to fears that Democrats could curb the development of AI data centres, which are widely unpopular among US voters. Follow our liveblog for all the latest updates.",
+          "link": "https://www.france24.com/en/americas/20261106-live-european-stocks-plunge-after-us-midterm-election-results-shock-markets",
+          "published": "2026-11-06T09:37:30.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tech stocks plunge as US midterm results fuel fears of tighter AI rules",
+          "description": "Asian tech stocks fell sharply on Friday, driven by fears of tighter AI regulation following Democrats’ US midterm election victory. US voters widely oppose Data centres, and many winning candidates pledged to curb their development.",
+          "link": "https://www.france24.com/en/technology/20261106-tech-stocks-plunge-us-midterm-ai-rules",
+          "published": "2026-11-06T05:02:06.000Z",
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Global tech stocks tumble as blue wave is felt in Asia and Europe",
+          "description": "An intensifying rout of tech stocks hit global markets Friday, with a surge of red tickers spreading from Wall Street to Asia and Europe after the blue wave of the U.S. midterm elections fueled fears over AI development.",
+          "link": "https://www.nbcnews.com/business/markets/global-markets-tech-stocks-ai-midterms-democrats-asia-europe-rcna607794",
+          "published": "2026-11-06T08:33:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+          "description": "Asian and European markets follow Wall Street with sharp fall as FTSE down 1.9% Business live – latest updates European stock markets have fallen sharply as a rout in US tech stocks spread across the Atlantic, after the Democrats’ midterms victory sparked fears of a slowdown in the AI industry. A sell-off on Wall Street on Thursday was followed by sharp falls in Asian stocks markets on Friday morn",
+          "link": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+          "published": "2026-11-06T08:58:22.000Z",
+          "categories": [
+            "Stock markets",
+            "AI (artificial intelligence)",
+            "Business",
+            "Technology sector",
+            "FTSE",
+            "Europe",
+            "US news",
+            "Asia Pacific",
+            "World news",
+            "Nasdaq"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+          "description": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
+          "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+          "published": "2026-11-06T11:06:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+          "description": "Asian and European markets follow Wall Street with sharp fall as FTSE down 1.9% Business live – latest updates European stock markets have fallen sharply as a rout in US tech stocks spread across the Atlantic, after the Democrats’ midterms victory sparked fears of a slowdown in the AI industry. A sell-off on Wall Street on Thursday was followed by sharp falls in Asian stocks markets on Friday morn",
+          "link": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+          "published": "2026-11-06T08:58:22.000Z",
+          "categories": [
+            "Stock markets",
+            "AI (artificial intelligence)",
+            "Business",
+            "Technology sector",
+            "FTSE",
+            "Europe",
+            "US news",
+            "Asia Pacific",
+            "World news",
+            "Nasdaq"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+          "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+          "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo",
+          "published": "2026-11-06T11:20:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
+          "description": "Markets in Asia and Europe tumbled, with Japan’s market falling into a bear market.",
+          "link": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
+          "published": "2026-11-06T10:28:08.000Z",
+          "categories": [
+            "US and Israeli Attack on Iran (2026)",
+            "Oil (Petroleum) and Gasoline",
+            "Prices (Fares, Fees and Rates)",
+            "Stocks and Bonds",
+            "Standard & Poor's 500-Stock Index",
+            "Iran"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
+          "description": "Rolling coverage of the latest economic and financial news, as Asia-Pacific markets slide after Wall Street rout Despite the sharp losses suffered on global stock markets around the world, most indices are still up for the year. The Nasdaq Composite index, for example, is still up 4.6% since the start of January – even though it’s more than 10% below its peak. “The tech sell-off has intensified, w",
+          "link": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+          "published": "2026-11-06T10:59:47.000Z",
+          "categories": [
+            "Business",
+            "Economics",
+            "Stock markets",
+            "FTSE",
+            "AI (artificial intelligence)"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "What Wall Street's tech stock sell-off means for your 401(k)",
+          "description": "A sharp stock market sell-off sent major indexes tumbling Thursday, prompting financial experts to offer advice for Americans worried about their 401(k) retirement savings.",
+          "link": "https://www.foxbusiness.com/economy/wall-street-stocks-tech-sell-off-november-5-2026",
+          "published": "2026-11-05T21:40:08.000Z",
+          "categories": [
+            "36433b52-2fc6-59ff-935d-3f795f696a88",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/401k",
+            "fox-business/money/retire",
+            "fox-business/markets/stocks",
+            "fox-business/personal-finance",
+            "fox-business/markets/economy",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/economy",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Wall Street Traders Wrong-Footed After Bullish Equity Calls",
+          "description": "Wall Street’s biggest trading desks spent weeks saying the stock-market rally would resume once the election was done. On Thursday, that call backfired spectacularly.",
+          "link": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-traders-wrong-footed-after-bullish-equity-calls",
+          "published": "2026-11-06T01:51:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Wall Street’s Script Gets Flipped by Post-Election Rout",
+          "description": "India, Europe are bright spots for stock investors.",
+          "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/wall-street-s-script-gets-flipped-by-post-election-rout",
+          "published": "2026-11-06T11:22:24.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-06-1t6g6ii",
+      "topic": "world",
+      "title": "Russell Brand guilty of rape and three sexual assaults",
+      "summary": "Russell Brand was convicted of four sexual offences, one rape and three sexual assaults, involving four women between 2005 and 2009 in different locations.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 8,
+      "score": 21.59,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Sleazy', 'manipulative' and 'ruthless': Russell Brand convicted of rape, sexual assault",
+          "description": "PRESS REVIEW – Friday, November 6: Italian, British, French and Bulgarian papers discuss the bomb threats that diverted multiple flights across Europe on Thursday. British papers discuss Russell Brand's rape and sexual assault conviction. Finally, kids in Hanoi chase tourists – not for money, but for vocabulary. Bonus: we learn a fun fact about chihuahuas.",
+          "link": "https://www.france24.com/en/tv-shows/press-review/20261106-sleazy-manipulative-and-ruthless-russell-brand-convicted-of-rape-sexual-assault",
+          "published": "2026-11-06T09:53:13.000Z",
+          "categories": [
+            "Press Review"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russell Brand found guilty of rape and sexual assault",
+          "description": "Actor and comedian Russell Brand was accused of three counts of rape, three counts of sexual assault and one charge of attempted indecent assault.",
+          "link": "https://www.cbsnews.com/news/russell-brand-found-guilty-rape-sexual-assault-verdict/",
+          "published": "2026-11-05T16:18:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russell Brand found guilty of rape and sexual assault",
+          "description": "Six women alleged that the British comedian had sexually assaulted them at his home, in hotels and public bathrooms. Brand has denied all claims.",
+          "link": "https://www.nbcnews.com/world/united-kingdom/russell-brand-guilty-rape-sexual-assault-rcna606967",
+          "published": "2026-11-05T14:26:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Met police chief urges potential victims of Russell Brand to come forward",
+          "description": "Mark Rowley says he would not be surprised if many more people emerged with allegations against convicted rapist The head of Scotland Yard has called for anyone with fresh allegations against the convicted rapist Russell Brand to come forward. Mark Rowley, the Metropolitan police commissioner, said he would not be surprised if “many more” alleged victims emerged after the former comedian turned on",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/06/met-police-chief-potential-victims-russell-brand-come-forward",
+          "published": "2026-11-06T10:00:23.000Z",
+          "categories": [
+            "UK news"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Met Police chief says 'many, many more victims' of Russell Brand could come forward as comedian faces two new rape probes",
+          "description": "Sir Mark Rowley, Commissioner of the Metropolitan Police, confirmed detectives are already investigating two further rape allegations involving the disgraced comedian and actor.",
+          "link": "https://www.dailymail.com/news/article-16271125/Met-Police-chief-says-victims-Russell-Brand-come-forward-comedian-faces-two-new-rape-probes.html",
+          "published": "2026-11-06T11:37:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russell Brand is 'petrified' in prison and admitted fears of incarceration to wife Laura on camera days before he was found guilty",
+          "description": "The disgraced comedian and former Hollywood star is in a south London jail after being convicted of raping a fan and carrying out three other sexual assaults.",
+          "link": "https://www.dailymail.com/news/article-16270851/Russell-Brand-petrified-prison-admitted-fears-incarceration-wife-Laura-camera-days-guilty.html",
+          "published": "2026-11-06T11:15:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "T for Tart: What Russell Brand called victim in his phone contacts",
+          "description": "It was a secret code that would only be solved some 17 years after the crime. Hidden among thousands of phone contacts, Russell Brand saved the number of his youngest rape victim under T - for 'Tart'.",
+          "link": "https://www.dailymail.com/crime-desk/article-16270135/T-Tart-Russell-Brand-called-victim-phone-contacts.html",
+          "published": "2026-11-06T11:11:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russell Brand's ex who was victim of the 'Sachsgate' scandal says comedian 'needs to tell the truth'",
+          "description": "Georgina Baillie, one of Russell Brand's former lovers, has urged him to 'tell the truth' - and admitted she was wrong to trust him.",
+          "link": "https://www.dailymail.com/crime-desk/article-16269651/Russell-Brands-ex-victim-Sachsgate-comedian-tell-truth.html",
+          "published": "2026-11-06T11:05:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "London police chief expects ‘many more’ accusations against Russell Brand",
+          "description": "Two more cases are currently being investigated.",
+          "link": "https://www.straitstimes.com/world/europe/london-police-chief-expects-many-more-accusations-against-russell-brand",
+          "published": "2026-11-06T09:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
+          "description": "Russell Brand was convicted of four sexual offences, one rape and three sexual assaults, involving four women between 2005 and 2009 in different locations.",
+          "link": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
+          "published": "2026-11-05T17:42:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russell Brand guilty of rape and three sexual assaults",
+          "description": "The comedian also faces a further accusation of raping two more women, including a 16-year-old, and could face further criminal charges.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/russell-brand-guilty/",
+          "published": "2026-11-06T08:48:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-06-gcvh9r",
+      "topic": "world",
+      "title": "Two dead after bus crashes in France, officials say",
+      "summary": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
+      "headlineSource": "BBC News",
+      "sourceCount": 11,
+      "score": 20.86,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Two dead after bus crashes in France, officials say",
+          "description": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
+          "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo",
+          "published": "2026-11-06T11:21:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "French bus carrying school children crashes, killing 2",
+          "description": "The bus reportedly veered off the road and crashed into a tree. French Transport Minister Philippe Tabarot was on his way to the scene.",
+          "link": "https://www.dw.com/en/french-bus-carrying-school-children-crashes-killing-2/a-79873221?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-06T10:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least two killed, 16 injured in school bus accident in eastern France",
+          "description": "A bus carrying school children crashed south of Bourg-en-Bresse in eastern France on Friday, killing at least two people and injuring 16 others. The vehicle was carrying 43 passengers in total.",
+          "link": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
+          "published": "2026-11-06T10:37:42.000Z",
+          "categories": [
+            "France"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Two dead after bus carrying schoolchildren crashes in France, officials say",
+          "description": "One child and a young adult have been killed after a bus crashed in eastern France, French authorities said.",
+          "link": "https://news.sky.com/story/two-dead-after-bus-carrying-schoolchildren-crashes-in-france-officials-say-13608677",
+          "published": "2026-11-06T06:12:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bus whose passengers included kids crashes in France, leaving 2 dead and 16 injured",
+          "description": "A bus crash in eastern France has killed one minor and one young adult",
+          "link": "https://abcnews.com/International/wireStory/bus-passengers-included-school-kids-crashes-france-leaving-137904168",
+          "published": "2026-11-06T11:05:11.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least two children killed in bus crash in eastern France: Local authorities",
+          "description": "Three people are in critical condition.",
+          "link": "https://www.straitstimes.com/world/europe/bus-crashes-in-eastern-france-several-casualties-authorities-say",
+          "published": "2026-11-06T09:33:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Several victims': Bus meets accident in eastern France near Switzerland",
+          "description": "In the early morning hours, a grave bus crash occurred near the Swiss border in eastern France, involving a school bus. Local authorities have reported several casualties resulting from the incident. Education Minister Edouard Geffray verified the school bus's participation, with additional comments from the area prefect regarding an intercity bus.",
+          "link": "https://timesofindia.indiatimes.com/world/europe/several-victims-bus-meets-accident-in-eastern-france-near-switzerland/articleshow/135601016.cms",
+          "published": "2026-11-06T09:06:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Two children dead as school bus crashes in France",
+          "description": "Three people have been left in a critical condition while several others sustained minor injuries",
+          "link": "https://www.independent.co.uk/news/world/europe/france-school-bus-crash-live-updates-lent-b3080294.html",
+          "published": "2026-11-06T09:00:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Clashes erupt in France as ‘Black Thursday’ protests sweep the nation",
+          "description": "“Everything is going up except wages and pensions,” the country’s main unions said. “Anger is immense.”",
+          "link": "https://www.nbcnews.com/world/france/france-clashes-riot-police-tear-gas-paris-lyon-student-protests-rcna607599",
+          "published": "2026-11-05T15:56:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Protests erupt across France after left-wing groups call for mobilization",
+          "description": "An estimated 270,000 people joined nationwide strikes and protests across France on Thursday, putting pressure on President Emmanuel Macron's government.",
+          "link": "https://www.foxnews.com/world/protests-erupt-across-france-left-wing-groups-call-mobilization",
+          "published": "2026-11-05T14:36:30.000Z",
+          "categories": [
+            "896d47a4-05e4-55fe-a1af-0d8cbd0a7197",
+            "fnc",
+            "Fox News",
+            "fox-news/world/world-regions/france",
+            "fox-news/world/world-protests",
+            "fox-news/world/world-regions/europe",
+            "fox-news/person/emmanuel-macron",
+            "fox-news/world",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: Up to 55,000 march in Lyon amid clashes and tear gas",
+          "description": "Tens of thousands marched through Lyon area during a nationwide strike over wages and purchasing power. Police charged demonstrators and used tear gas as clashes erupted along the protest route.",
+          "link": "https://www.euronews.com/video/2026/11/05/france-up-to-55000-march-in-lyon-amid-clashes-and-tear-gas",
+          "published": "2026-11-05T14:08:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France: Mass protests and school blockades mark fourth national strike",
+          "description": "Hundreds of thousands joined a fourth nationwide day of protests across France. Police used tear gas outside a Paris school, while major demonstrations disrupted Marseille and Nantes.",
+          "link": "https://www.euronews.com/video/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs",
+          "published": "2026-11-05T11:55:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Clashes break out as hundreds of thousands take to the streets in France in strike action",
+          "description": "Police fired tear gas and fires broke out as at least 575,000 turned out to protest across France",
+          "link": "https://www.independent.co.uk/news/world/europe/france-protest-paris-clashes-fire-demonstrations-b3080050.html",
+          "published": "2026-11-05T19:32:34.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-06-1spviom",
+      "topic": "world",
+      "title": "Midterms over, Democrats eye wide-open 2028 White House race",
+      "summary": "All of these seats were in districts redrawn in 2023 to favor Republican candidates.",
+      "headlineSource": "France 24",
+      "sourceCount": 7,
+      "score": 19.46,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
+          "description": "All of these seats were in districts redrawn in 2023 to favor Republican candidates.",
+          "link": "https://www.npr.org/2026/11/05/nx-s1-6031719/north-carolina-democrats-flip-house-seats-republican-districts",
+          "published": "2026-11-05T23:34:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US midterm elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
+          "description": "Democrats widen gap in House chamber by flipping more seats, including in Ohio, Arizona and North Carolina; Ted Cruz calls election a ‘Watergate-level repudiation’ Live results | Q&A: Ask your questions about Democrats’ win",
+          "link": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
+          "published": "2026-11-06T11:25:16.000Z",
+          "categories": [
+            "US midterm elections 2026",
+            "US Congress",
+            "US Senate",
+            "House of Representatives",
+            "US politics",
+            "Trump administration",
+            "Democrats",
+            "Republicans",
+            "US news",
+            "Donald Trump"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Democrats flip more House seats – as it happened",
+          "description": "This blog is now closed Live results | Q&A: Ask your questions about Democrats’ win",
+          "link": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
+          "published": "2026-11-06T06:19:03.000Z",
+          "categories": [
+            "US midterm elections 2026",
+            "US Congress",
+            "House of Representatives",
+            "US Senate",
+            "US politics",
+            "Trump administration",
+            "Democrats",
+            "Republicans",
+            "US news",
+            "Donald Trump"
+          ]
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Democrats’ most vulnerable rental seats in 2028",
+          "description": "Democrats’ sweep Tuesday night delivered their largest House majority in decades, flipping traditionally Republican seats across the country thanks to a favorable political environment. However, many of these newly elected officials immediately face uphill climbs in two years defending deep-red terrain. Democrats notched several shocking flips in seats President Donald won by double digits in",
+          "link": "https://www.washingtonexaminer.com/news/campaigns/congressional/4794683/democrats-vulnerable-rental-seats-2028/",
+          "published": "2026-11-06T10:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Midterms over, Democrats eye wide-open 2028 White House race",
+          "description": "With the US midterms over, Democrats are turning to what could become one of their most crowded and unpredictable presidential primaries in decades, a 2028 contest ​likely to expose the party's divide over how to win back the White House. Despite their resounding victories on Tuesday, Democrats enter the 2028 campaign still divided over whether to tack to the center or move further left on issues ",
+          "link": "https://www.france24.com/en/video/20261106-midterms-over-democrats-eye-wide-open-2028-white-house-race",
+          "published": "2026-11-06T10:42:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Republicans face reckoning after major midterm election defeat",
+          "description": "Following the Democrats' sweeping victory in Tuesday's US midterm elections, Republicans are facing a moment of reckoning. With Donald Trump now a \"lame-duck\" president, the party must find a way forward after a historic electoral setback. The GOP faces major questions about how to win back voters and who will lead the party, with the next presidential election just two years away.",
+          "link": "https://www.france24.com/en/video/20261106-us-republicans-face-reckoning-after-major-midterm-election-defeat",
+          "published": "2026-11-06T10:37:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "'Extinction-level event': How Republicans eyeing 2028 are taking midterm losses",
+          "description": "Republicans considering a presidential run offered their assessment of the party's performance in the midterm elections.",
+          "link": "https://abcnews.com/Politics/extinction-level-event-blue-tsunami-republicans-eyeing-2028/story?id=137882445",
+          "published": "2026-11-05T20:47:54.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "House Republicans divided over how to move forward after brutal election losses",
+          "description": "House Republicans are divided over how to move forward after the party’s devastating election losses, with some calling for an overhaul of the current leadership team and others arguing that President Trump bears much of the blame. Speaker Mike Johnson (R-La.) told staff on a call Wednesday that he would not run for minority leader,...",
+          "link": "https://thehill.com/homenews/house/6202785-house-republican-leadership-divide/",
+          "published": "2026-11-06T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "politico",
+          "outlet": "politico",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "The midterms blew open the 2028 map. Republicans are panicking.",
+          "description": "Strategists on both sides agree: Ohio, Texas and Iowa should be competitive in 2028.",
+          "link": "https://www.politico.com/news/2026/11/06/midterms-2028-presidential-map-republicans-panic-texas-ohio-iowa-01153026",
+          "published": "2026-11-06T10:00:00.000Z",
+          "categories": [
+            "Politics",
+            "DC",
+            "2026 Elections",
+            "2028 Elections",
+            "James Talarico",
+            "Gina Hinojosa",
+            "Texas"
+          ]
+        },
+        {
+          "sourceId": "politico",
+          "outlet": "politico",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Poll: Republicans and Democrats can agree on one thing. They’re divided.",
+          "description": "POLITICO’s polling before Election Day showed that both parties would be left without clear direction amid a blue wave. And then the blue wave hit.",
+          "link": "https://www.politico.com/news/2026/11/06/poll-republicans-democrats-divided-elections-01152054",
+          "published": "2026-11-06T10:00:00.000Z",
+          "categories": [
+            "Politics",
+            "DC",
+            "The POLITICO Poll",
+            "2026 Elections"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-06-j9n18o",
+      "topic": "business",
+      "title": "What the Democrats' midterms win means for the US economy and Trump",
+      "summary": "Democratic midterm wins could increase scrutiny of AI data centers and power demand, but President Donald Trump retains veto power over any federal legislation.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 6,
+      "score": 16.64,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 5,
+        "wire": 0.8,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 4,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 1,
+          "business": 3,
+          "health": 2
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What the Democrats' midterms win means for the US economy and Trump",
+          "description": "From high oil prices and data centers to tariffs and mounting debt, economic concerns played a key role in the crushing defeat of President Donald Trump's Republicans. So can the Democrats now make a difference?",
+          "link": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-05T07:03:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Democrats rode rural frustration to Senate wins. Now farmers want results",
+          "description": "Democrats flipped Senate seats in previously deep-red territory such as Kansas and Texas in part by criticizing Trump administration policies that helped create high diesel and beef costs. Now they're going to be under pressure to deliver for farmers, who want the party to put words into actions once they take control of the House...",
+          "link": "https://thehill.com/business/6202564-farmers-demand-congressional-action-democratic-wins/",
+          "published": "2026-11-06T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Texas GOP grapples with historic losses as Democrats eye 2028",
+          "description": "Texas Republicans are divided over whether Democrats’ historic sweep of statewide offices is the beginning of a political realignment or a temporary backlash against President Donald Trump, with some warning that the losses could put the longtime Republican stronghold in play in the 2028 presidential election. Democrats rode voter frustration over the cost of living,",
+          "link": "https://www.washingtonexaminer.com/news/campaigns/presidential/4793850/democrats-texas-republicans-2028/",
+          "published": "2026-11-06T11:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Statehouse wins give Democrats new power to push clean energy",
+          "description": "Democrats erased the GOP’s trifecta edge and gained new power over energy policy.",
+          "link": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/",
+          "published": "2026-11-05T15:59:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How Democrats’ midterm gains could reshape the political landscape for AI",
+          "description": "Democratic midterm wins could increase scrutiny of AI data centers and power demand, but President Donald Trump retains veto power over any federal legislation.",
+          "link": "https://www.foxbusiness.com/politics/new-political-landscape-facing-ai-after-democrats-midterm-gains",
+          "published": "2026-11-05T15:49:35.000Z",
+          "categories": [
+            "3a20e412-ac64-50f1-9d01-5947854f114c",
+            "fbn",
+            "Fox Business",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/politics/election/midterm-elections",
+            "fox-business/technology",
+            "fox-business/politics",
+            "fox-business/politics/congress",
+            "fox-news/fox-news-us/fox-news-us-regions/fox-news-southwest/fox-news-texas",
+            "fox-business/politics",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "How Democrats used the midterms to turn affordability concerns into ‘green populism’",
+          "description": "From energy prices to datacenters, climate became a cost-of-living issue – and a winning one Q&A: Ask your questions about Democrats’ win in the midterms Climate-forward Democrats swept into power on Tuesday night as a blue tsunami flipped the Senate, House and several governor’s races. Voters were laser-focused on affordability, and experts said Democrats succeeded in linking cost-of-living conce",
+          "link": "https://www.theguardian.com/us-news/2026/nov/05/democrats-climate-crisis-in-midterm-election-results",
+          "published": "2026-11-05T17:00:28.000Z",
+          "categories": [
+            "US midterm elections 2026",
+            "Renewable energy",
+            "Climate crisis",
+            "US news",
+            "Environment",
+            "US politics",
+            "Oil and gas companies",
+            "US Congress",
+            "Business",
+            "Energy",
+            "Energy industry"
+          ]
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump tells voters ‘you only have yourselves to blame’ for post-midterm market ‘crash’",
+          "description": "President Donald Trump blamed the current stock market volatility on voters electing Democrats in the 2026 midterm elections. “The Stock Market crashed today because the Dumocrats had a big Tuesday — So sad to see, you only have yourselves to blame!” Trump wrote on Truth Social on Thursday evening. Democrats retook the majority in both",
+          "link": "https://www.washingtonexaminer.com/policy/finance-and-economy/4795045/trump-voters-blame-midterms-stock-market-crash/",
+          "published": "2026-11-06T04:10:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump blames Democrats for stock market plunge after sweeping midterm victories",
+          "description": "Trump blamed Democrats' midterm wins for Wall Street's massive sell-off, warning Americans on Truth Social that their 401(k)s have dropped.",
+          "link": "https://www.foxbusiness.com/politics/trump-blames-democrats-stock-market-plunge-after-sweeping-midterm-victories",
+          "published": "2026-11-06T00:09:15.000Z",
+          "categories": [
+            "0211119a-ef78-55cf-ae3a-eb2dc3b12a26",
+            "fbn",
+            "Fox Business",
+            "fox-business/person/donald-trump",
+            "fox-business/markets/stocks",
+            "fox-business/markets",
+            "fox-business/industries/financials",
+            "fox-business/politics",
+            "fox-business/politics/congress",
+            "fox-business/politics",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-06-imj2uu",
+      "topic": "tech",
+      "title": "Is it the end of the Cybertruck? Elon Musk announces factory will shift Tesla production.",
+      "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+      "headlineSource": "MarketWatch",
+      "sourceCount": 6,
+      "score": 16.32,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 5,
+        "specialistShare": 0.83,
+        "votes": {
+          "tech": 3,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+          "description": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+          "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o",
+          "published": "2026-11-06T09:57:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Elon Musk gambled $445 million to boost Republicans in the midterms. It came up short",
+          "description": "Nobody may have suffered bigger losses Tuesday than President Donald Trump. But few others had more on the line than Musk, who gambled big and came up holding the midterm's worst return on investment.",
+          "link": "https://www.pbs.org/newshour/politics/elon-musk-gambled-445-million-to-boost-republicans-in-the-midterms-it-came-up-short",
+          "published": "2026-11-05T22:44:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Tesla is ‘winding down’ production of the Cybertruck next year",
+          "description": "Tesla is getting the Cybertruck ready for retirement in an effort to ramp up its robotaxi output. In an X post on Friday, Tesla CEO Elon Musk said that the company will be \"winding down\" Cybertruck production at its Texas Gigafactory sometime around the middle of next year, \"to make room for increased Cybercab production.\"",
+          "link": "https://www.theverge.com/?p=1028542",
+          "published": "2026-11-06T10:42:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
+          "description": "The tech billionaire set spending record as he poured $446m into campaigns for failed Republican candidates Elon Musk set a record for election spending this year after pouring nearly half a billion dollars into backing Republicans in the US midterm elections. It turned out to be a poor investment. The SpaceX and Tesla CEO contributed at least $446m to Republican-aligned Super Pacs and groups over",
+          "link": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis",
+          "published": "2026-11-05T02:00:50.000Z",
+          "categories": [
+            "Elon Musk",
+            "US midterm elections 2026",
+            "US political financing",
+            "Technology",
+            "US news",
+            "US politics",
+            "Republicans",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+          "description": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+          "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o",
+          "published": "2026-11-06T09:57:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
+          "description": "The tech billionaire set spending record as he poured $446m into campaigns for failed Republican candidates Elon Musk set a record for election spending this year after pouring nearly half a billion dollars into backing Republicans in the US midterm elections. It turned out to be a poor investment. The SpaceX and Tesla CEO contributed at least $446m to Republican-aligned Super Pacs and groups over",
+          "link": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis",
+          "published": "2026-11-05T02:00:50.000Z",
+          "categories": [
+            "Elon Musk",
+            "US midterm elections 2026",
+            "US political financing",
+            "Technology",
+            "US news",
+            "US politics",
+            "Republicans",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "RIP the Cybertruck: Elon Musk says Tesla will wind down production of its most polarizing EV",
+          "description": "Cybertruck sales had collapsed, and the science fiction-inspired pickup became a target of vandalism and ridicule.",
+          "link": "https://www.businessinsider.com/tesla-wind-down-cybertruck-production-elon-musk-cybercab-texas-2026-11",
+          "published": "2026-11-06T10:40:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Is it the end of the Cybertruck? Elon Musk announces factory will shift Tesla production.",
+          "description": "Tesla CEO Elon Musk said in a post on X that the automaker will wind down the production of Cybertrucks in its Texas Gigafactory next year.",
+          "link": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
+          "published": "2026-11-06T10:37:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-06-xdrv97",
+      "topic": "tech",
+      "title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
+      "summary": "Shares sank, with the tech-heavy Nasdaq dropping over 5%, as investors reacted with fear that a Democratic Congress — and states across the country -— would crack down on AI and data centers.",
+      "headlineSource": "NPR",
+      "sourceCount": 5,
+      "score": 14.83,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "business",
+        "reconciled": "business -> tech by headline",
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 2,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
+          "description": "Shares sank, with the tech-heavy Nasdaq dropping over 5%, as investors reacted with fear that a Democratic Congress — and states across the country -— would crack down on AI and data centers.",
+          "link": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
+          "published": "2026-11-06T00:16:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Fast-Money Systematic Funds Stoked $2.3 Trillion Tech-Stock Rout",
+          "description": "As investors rushed out of US technology stocks on Thursday, selling by trend-following systematic strategies amplified what quickly became a record plunge by market value in the Nasdaq 100 index.",
+          "link": "https://www.bloomberg.com/news/articles/2026-11-06/fast-money-systematic-funds-stoked-2-3-trillion-tech-stock-rout",
+          "published": "2026-11-06T10:30:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nasdaq drops into correction territory — here’s what typically happens next",
+          "description": "Nasdaq’s slide into correction territory puts its history of recoveries in focus. Here's what history shows.",
+          "link": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+          "published": "2026-11-05T22:31:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
+          "description": "Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses The Nasdaq share index had its worst day in 19 months after slumping 5.5% on Thursday amid growing signs that the artificial intelligence industry will face tougher regulation because of the midterm election results. As Wall Street sustained widespread losses, the Nasdaq composite tumbled into “correcti",
+          "link": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
+          "published": "2026-11-05T21:23:18.000Z",
+          "categories": [
+            "Nasdaq",
+            "US news",
+            "US markets",
+            "Dow Jones",
+            "Datacenters – US",
+            "US midterm elections 2026",
+            "Business",
+            "Stock markets",
+            "World news",
+            "AI (artificial intelligence)"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Stocks Erase Post-Midterm Elections Rally, Dragged Down by Tech",
+          "description": "The S&P 500 slumped to its worst daily decline since April 2025 and the tech-heavy Nasdaq entered correction territory, as investors fretted about the durability of the A.I. build-out.",
+          "link": "https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html",
+          "published": "2026-11-06T00:48:29.000Z",
+          "categories": [
+            "Stocks and Bonds",
+            "Standard & Poor's 500-Stock Index",
+            "Nasdaq Composite Index",
+            "Midterm Elections (2026)",
+            "Computer Chips",
+            "Artificial Intelligence",
+            "Regulation and Deregulation of Industry"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-06-3y8rhv",
+      "topic": "health",
+      "title": "Three-quarters of world's displaced people face severe climate risks, UN says",
+      "summary": "Nearly 90 million forcibly displaced people, or three-quarters of the global total, live in countries highly exposed to climate hazards, the UN Refugee Agency said on Friday, urging action ahead of the COP31 climate summit in Turkey. It said droughts, floods…",
+      "headlineSource": "France 24",
+      "sourceCount": 3,
+      "score": 12.18,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.08,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 3,
+        "specialistShare": 1,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Three-quarters of world's displaced people face severe climate risks, UN says",
+          "description": "Nearly 90 million forcibly displaced people, or three-quarters of the global total, live in countries highly exposed to climate hazards, the UN Refugee Agency said on Friday, urging action ahead of the COP31 climate summit in Turkey. It said droughts, floods and extreme heat were making lasting solutions harder to find.",
+          "link": "https://www.france24.com/en/environment/20261105-un-displaced-people-climate-risks",
+          "published": "2026-11-05T23:34:08.000Z",
+          "categories": [
+            "Environment"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Cop31 will expose the conflicts and contradictions of the world’s fossil fuel reliance",
+          "description": "The move to clean electricity will form the focus of the climate summit, which begins next week in coal-obsessed Turkey. The outlook doesn’t look good • Don’t get Down to Earth delivered to your inbox? Sign up here Holding a climate conference under the presidency of one coal-obsessed country might be regarded as a misfortune for the planet – sharing it between two starts to look provocative. But ",
+          "link": "https://www.theguardian.com/environment/2026/nov/06/cop31-coal-turkey-fossil-fuel-reliance",
+          "published": "2026-11-06T07:00:46.000Z",
+          "categories": [
+            "Environment"
+          ]
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Cop31 will expose the conflicts and contradictions of the world’s fossil fuel reliance",
+          "description": "The move to clean electricity will form the focus of the climate summit, which begins next week in coal-obsessed Turkey. The outlook doesn’t look good • Don’t get Down to Earth delivered to your inbox? Sign up here Holding a climate conference under the presidency of one coal-obsessed country might be regarded as a misfortune for the planet – sharing it between two starts to look provocative. But ",
+          "link": "https://www.theguardian.com/environment/2026/nov/06/cop31-coal-turkey-fossil-fuel-reliance",
+          "published": "2026-11-06T07:00:46.000Z",
+          "categories": [
+            "Environment"
+          ]
+        },
+        {
+          "sourceId": "carbonbrief",
+          "outlet": "carbonbrief",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Interactive: Tracking negotiating texts at the COP31 climate summit",
+          "description": "The centrepiece of every UN climate summit is for countries to negotiate the wording of a large number of legal…",
+          "link": "https://www.carbonbrief.org/interactive-tracking-negotiating-texts-at-the-cop31-climate-summit",
+          "published": "2026-11-05T14:13:38.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
