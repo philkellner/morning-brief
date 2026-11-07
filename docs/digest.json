@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-11-06",
-  "generatedAt": "2026-11-06T11:49:06.202Z",
+  "edition": "2026-11-07",
+  "generatedAt": "2026-11-07T10:53:01.438Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -18,142 +18,24 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-11-06-1n7fddj",
+      "id": "2026-11-07-6l6m5u",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Bomb threats disrupt several flights across Europe",
-      "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
-      "url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-all-1573-rdf",
+      "title": "Stephen Miller named by Trump as new White House chief of staff",
+      "summary": "The change comes after sweeping Republican losses in the midterm elections.",
+      "url": "https://www.dw.com/en/stephen-miller-named-by-trump-as-new-white-house-chief-of-staff/a-79881571?maca=en-rss-en-all-1573-rdf",
       "headlineSource": "Deutsche Welle",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-06T11:35:15.000Z",
-      "sourceCount": 13,
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-07T10:00:08.000Z",
+      "sourceCount": 14,
       "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 5,
-      "score": 23.5,
+      "leanSpread": 0.75,
+      "wireCount": 7,
+      "score": 23.19,
       "scoreComponents": {
-        "breadth": 11.42,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Hoax or bomb threats? What we know about flight disruptions across Europe",
-          "url": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Dozens of planes targeted by bomb threats in Europe in apparent hoax",
-          "url": "https://www.cbsnews.com/video/dozens-planes-targeted-bomb-threats-europe-apparent-hoax/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Hoax Bomb threats repeatedly disrupt flights across Europe this week. Here’s what we know",
-          "url": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Bomb threats disrupt several flights across Europe",
-          "url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Multiple flights in Europe diverted because of bomb threats",
-          "url": "https://www.foxnews.com/world/multiple-flights-europe-diverted-bomb-threats"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Wave of bomb threats against European airliners triggers diversions and tarmac searches",
-          "url": "https://www.nbcnews.com/world/europe/bomb-threat-plane-dublin-rome-diverted-aer-lingus-france-rcna607594"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Europe Hit By More Bomb Threats Targeting TV Studios, Flights",
-          "url": "https://www.newsweek.com/europe-hit-by-more-bomb-threats-targeting-tv-studios-flights-12675752"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "What happens when airlines receive bomb threats?",
-          "url": "https://www.pbs.org/newshour/world/what-happens-when-airlines-receive-bomb-threats"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "European skies on high alert after hoax bomb threats this week – Europe live",
-          "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Europe flights and airport hit by fresh threats after days of chaos",
-          "url": "https://www.independent.co.uk/news/world/europe/air-travel-bomb-threats-copenhagen-denmark-b3080336.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Bomb Threats Disrupt European Flights and Rattle Passengers",
-          "url": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-airline-passengers.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Bomb threats force evacuations at Irish media outlets",
-          "url": "https://www.straitstimes.com/world/europe/bomb-threats-force-evacuations-at-irish-media-outlets"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-11-06-1lmu6n",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump’s 250-foot triumphal arch gets green light from key federal panel — but judge blocks construction for at least 14 days",
-      "summary": "A judge ordered a two-week stop to construction on US President Trump's arch project in Washington. A federal panel had approved Trump's triumphal arch plans in an 8-4 vote.",
-      "url": "https://nypost.com/2026/11/06/us-news/trumps-250-foot-triumphal-arch-gets-greenlight-from-key-federal-panel/",
-      "headlineSource": "New York Post",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-11-06T11:00:17.000Z",
-      "sourceCount": 11,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 6,
-      "score": 22.78,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 6.4,
+        "breadth": 11.72,
+        "diversity": 5.85,
         "wire": 3.2,
         "freshness": 2.42,
         "softPenalty": 0
@@ -163,103 +45,124 @@
           "source": "ABC News",
           "sourceId": "abc",
           "lean": "center-left",
-          "title": "Judge blocks Trump arch hours after federal panel approval",
-          "url": "https://abcnews.com/Politics/vietnam-vet-leading-opposition-trumps-arch-calls-frankly/story?id=137885182"
+          "title": "Trump says chief of staff Susie Wiles out, Stephen Miller will replace her",
+          "url": "https://abcnews.com/Politics/trump-chief-staff-susie-wiles-miller-replace/story?id=137921244"
         },
         {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
+          "source": "CBS News",
+          "sourceId": "cbs",
           "lean": "center-left",
-          "title": "US judge halts construction of Trump’s triumphal arch in Washington, DC",
-          "url": "https://www.aljazeera.com/news/2026/11/6/us-judge-halts-construction-of-trumps-triumphal-arch-in-washington-dc?traffic_source=rss"
+          "title": "11/6: The Takeout with Major Garrett",
+          "url": "https://www.cbsnews.com/video/110626-the-takeout-with-major-garrett/"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "US judge temporarily blocks Trump's arch project after panel approval",
-          "url": "https://www.dw.com/en/us-judge-temporarily-blocks-trump-s-arch-project-after-panel-approval/a-79871690?maca=en-rss-en-all-1573-rdf"
+          "title": "Stephen Miller named by Trump as new White House chief of staff",
+          "url": "https://www.dw.com/en/stephen-miller-named-by-trump-as-new-white-house-chief-of-staff/a-79881571?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Euronews",
           "sourceId": "euronews",
           "lean": "center",
-          "title": "Judge blocks construction of Trump's massive 'triumphal arch'",
-          "url": "https://www.euronews.com/2026/11/06/judge-blocks-construction-of-trumps-massive-triumphal-arch"
+          "title": "Trump appoints immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.euronews.com/2026/11/06/trump-appoints-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Trump’s 250-foot triumphal arch gets green light from key federal panel — but judge blocks construction for at least 14 days",
-          "url": "https://nypost.com/2026/11/06/us-news/trumps-250-foot-triumphal-arch-gets-greenlight-from-key-federal-panel/"
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
         },
         {
           "source": "NPR",
           "sourceId": "npr",
           "lean": "center-left",
-          "title": "A judge blocks construction of Trump's arch moments after it won federal approval",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction"
+          "title": "Stephen Miller will replace Susie Wiles as Trump's chief of staff",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Susie Wiles, Trump’s Chief of Staff, Is Accused of Blocking Health Policies to Attract Donations",
+          "url": "https://www.nytimes.com/2026/11/06/us/politics/susie-wiles-calley-means-joe-rogan.html"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Key federal panel expected to approve Trump's arch amid court challenge",
-          "url": "https://www.pbs.org/newshour/politics/key-federal-panel-expected-to-approve-trumps-arch-amid-court-challenge"
+          "title": "What Trump picking Stephen Miller for chief of staff signals about his agenda",
+          "url": "https://www.pbs.org/newshour/show/what-trump-picking-stephen-miller-for-chief-of-staff-signals-about-his-agenda"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "As Chief of Staff, Stephen Miller Will Reinforce Trump's Worst Instincts",
+          "url": "https://reason.com/2026/11/06/as-chief-of-staff-stephen-miller-will-reinforce-trumps-worst-instincts/"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Judge temporarily halts building work on Trump’s triumphal arch",
-          "url": "https://www.theguardian.com/us-news/2026/nov/06/judge-temporarily-halts-work-trump-triumphal-arch-washington"
+          "title": "Trump faces criticism for ‘dangerous’ Stephen Miller appointment as White House chief of staff",
+          "url": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-democrats-react"
         },
         {
           "source": "The Hill",
           "sourceId": "thehill",
           "lean": "center",
-          "title": "NCPC approves plan to build Trump's triumphal arch",
-          "url": "https://thehill.com/homenews/administration/6202351-ncpc-approves-trump-arch/"
+          "title": "Tillis says Miller is 'worst of all possible choices' for chief of staff role",
+          "url": "https://thehill.com/homenews/administration/6205824-tillis-slams-trump-miller-hire/"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Judge blocks Trump’s 250-foot DC arch within an hour of panel of allies approving plans",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-dc-arch-judge-block-construction-timeline-b3080088.html"
+          "title": "In his words: Miller is an immigration hardliner and a bombastic critic of Democrats",
+          "url": "https://www.independent.co.uk/news/world/europe/donald-trump-stephen-miller-democrats-white-house-washington-b3080889.html"
         },
         {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
           "lean": "center",
-          "title": "US federal judge blocks Trump’s massive arch project",
-          "url": "https://www.straitstimes.com/world/united-states/panel-votes-to-proceed-with-trumps-massive-arch-despite-complaints"
+          "title": "Trump makes hard-liner Stephen Miller his chief of staff after midterm defeat",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/trump-stephen-miller-chief-of-staff/"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Trump to get 'Trumpier' as hardliner Miller set to take charge; impact on India",
+          "url": "https://timesofindia.indiatimes.com/world/us/trump-to-get-trumpier-as-hardliner-stephen-miller-takes-charge-of-white-house-what-it-means-for-india/articleshow/135631339.cms"
         }
       ]
     },
     {
-      "rank": 3,
-      "id": "2026-11-06-ojc9v5",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
-      "summary": "Global markets are being roiled due to concerns over US data centre expansion and AI regulation.",
-      "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
-      "headlineSource": "NYT Business",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-11-06T11:22:24.000Z",
-      "sourceCount": 10,
+      "rank": 2,
+      "id": "2026-11-07-1dmvzsd",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "U.S. and Iran edge closer to deal with nuclear issue back in play",
+      "summary": "Washington is offering a US$20 million reward “and possible relocation” for information about Iran’s nuclear programme, the US military has said, as President Donald Trump reiterated that Tehran wants to make a deal to end the war. A State Department…",
+      "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/us-iran-deal-nuclear/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-07T09:06:46.000Z",
+      "sourceCount": 8,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 4,
-      "score": 22.44,
+      "wireCount": 5,
+      "score": 21.44,
       "scoreComponents": {
-        "breadth": 10.38,
+        "breadth": 9.51,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.34,
         "softPenalty": 0
       },
       "coverage": [
@@ -267,29 +170,257 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Tech stock rout, driven by US AI fears, continues in Asian trading",
-          "url": "https://www.aljazeera.com/economy/2026/11/6/tech-stock-rout-driven-by-us-ai-fears-continues-in-asian-trading?traffic_source=rss"
+          "title": "Qatari PM says US willing to seek solution to war with Iran",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss"
         },
         {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S. offers $20 million for information on Iran's nuclear program",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "State Dept. offers $20 million reward for information about Iran’s nuke program",
+          "url": "https://nypost.com/2026/11/07/us-news/state-dept-offers-20-million-reward-for-information-about-irans-nuke-program/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
           "lean": "center",
-          "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo"
+          "title": "Iran’s nuclear programme: US offers US$20 million reward for information",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373625/irans-nuclear-programme-us-offers-us20-million-reward-information"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+          "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "U.S. and Iran edge closer to deal with nuclear issue back in play",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/us-iran-deal-nuclear/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Iran says forces ‘stronger’ than at beginning of war",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-says-forces-stronger-than-at-beginning-of-war"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Nobody got hurt or killed for five months': Trump plays down Iran conflict",
+          "url": "https://timesofindia.indiatimes.com/world/us/nobody-got-hurt-or-killed-for-five-months-trump-plays-down-iran-conflict/articleshow/135631785.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-07-1vrrk1u",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Paraguay’s President Pena impeached over Ueno banking crisis, placed under house arrest",
+      "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "url": "https://www.scmp.com/news/world/americas/article/3373623/paraguays-president-pena-impeached-over-ueno-banking-crisis-placed-under-house-arrest",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-07T10:36:19.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 20.33,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Paraguay’s Pena under military protection in bank collapse chaos",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_paraguays-pena-under-house-arrest-061126?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Paraguay's president impeached and under house arrest after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o"
         },
         {
           "source": "Bloomberg",
           "sourceId": "bloomberg",
           "lean": "center",
-          "title": "Wall Street Traders Wrong-Footed After Bullish Equity Calls",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-traders-wrong-footed-after-bullish-equity-calls"
+          "title": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/how-a-banking-scandal-is-taking-down-trump-s-ally-in-paraguay"
         },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Paraguay's president under house arrested after bank collapse",
+          "url": "https://www.cbsnews.com/news/paraguay-president-arrest-bank-ueno-collapse/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Paraguay: President Santiago Pena under house arrest over bank crisis",
+          "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Pedro Alliana sworn in as Paraguay president after Santiago Peña's impeachment",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Paraguay places ousted president Peña under house arrest after bank collapse",
+          "url": "https://www.france24.com/en/americas/20261107-ousted-paraguay-president-under-house-arrest-after-banking-crisis"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Paraguay’s President Pena impeached over Ueno banking crisis, placed under house arrest",
+          "url": "https://www.scmp.com/news/world/americas/article/3373623/paraguays-president-pena-impeached-over-ueno-banking-crisis-placed-under-house-arrest"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Crisis-hit Paraguay impeaches president and replaces him with VP",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/paraguay-president-santiago-pena-impeached/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
+          "url": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-07-p8wjb1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "British comedian Russell Brand found guilty of rape and three sexual assaults",
+      "summary": "The comedian also faces a further accusation of raping two more women, including a 16-year-old, and could face further criminal charges.",
+      "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+      "headlineSource": "France 24",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-07T10:04:01.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 18.18,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "BBC comes under fire for 'passing the buck' on Russell Brand: Comedian boasted his boss was 'incredibly tolerant' of his sexual behaviour - as he joked about raping and killing…",
+          "url": "https://www.dailymail.com/news/article-16270887/BBC-comes-fire-passing-buck-Russell-Brand-Comedian-boasted-boss-incredibly-tolerant-sexual-behaviour-joked-raping-killing-woman-having-sex-children.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults",
+          "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Russell Brand barrister reports himself to watchdog over clash with journalist",
+          "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-barrister-ian-winter-reports-himself-bar-watchdog-confronting-sunday-times-journalist"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Russell Brand's convictions renew spotlight on media — and a culture — that may have looked away",
+          "url": "https://www.independent.co.uk/news/world/americas/russell-brand-bbc-brand-britain-andrew-sachs-b3080888.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Russell Brand guilty of rape and three sexual assaults",
+          "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/russell-brand-guilty/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-06-1tvbo55",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
+      "summary": "European shares have fallen after sharp losses in Asia and on Wall Street. Doubts over huge AI investments and fears of curbs following the Democrats' US midterm victory have rattled global markets.",
+      "url": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-06T21:23:54.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 16.44,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 1.49,
+        "softPenalty": 0
+      },
+      "coverage": [
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-          "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+          "title": "Wall Street's fear gauge may be flashing a buy sign",
+          "url": "https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html"
         },
         {
           "source": "Deutsche Welle",
@@ -302,22 +433,8 @@
           "source": "Fox Business",
           "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "What Wall Street's tech stock sell-off means for your 401(k)",
-          "url": "https://www.foxbusiness.com/economy/wall-street-stocks-tech-sell-off-november-5-2026"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Live: European stocks plunge after US midterm election results shock markets",
-          "url": "https://www.france24.com/en/americas/20261106-live-european-stocks-plunge-after-us-midterm-election-results-shock-markets"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Global tech stocks tumble as blue wave is felt in Asia and Europe",
-          "url": "https://www.nbcnews.com/business/markets/global-markets-tech-stocks-ai-midterms-democrats-asia-europe-rcna607794"
+          "title": "Trump blames Democrats for stock market plunge after sweeping midterm victories",
+          "url": "https://www.foxbusiness.com/politics/trump-blames-democrats-stock-market-plunge-after-sweeping-midterm-victories"
         },
         {
           "source": "NYT Business",
@@ -330,295 +447,32 @@
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+          "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
           "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-11-06-1t6g6ii",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Russell Brand guilty of rape and three sexual assaults",
-      "summary": "Russell Brand was convicted of four sexual offences, one rape and three sexual assaults, involving four women between 2005 and 2009 in different locations.",
-      "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/russell-brand-guilty/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "Euronews",
-      "publishedAt": "2026-11-06T11:37:52.000Z",
-      "sourceCount": 8,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 21.59,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Russell Brand found guilty of rape and sexual assault",
-          "url": "https://www.cbsnews.com/news/russell-brand-found-guilty-rape-sexual-assault-verdict/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Met Police chief says 'many, many more victims' of Russell Brand could come forward as comedian faces two new rape probes",
-          "url": "https://www.dailymail.com/news/article-16271125/Met-Police-chief-says-victims-Russell-Brand-come-forward-comedian-faces-two-new-rape-probes.html"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
-          "url": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "'Sleazy', 'manipulative' and 'ruthless': Russell Brand convicted of rape, sexual assault",
-          "url": "https://www.france24.com/en/tv-shows/press-review/20261106-sleazy-manipulative-and-ruthless-russell-brand-convicted-of-rape-sexual-assault"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Russell Brand found guilty of rape and sexual assault",
-          "url": "https://www.nbcnews.com/world/united-kingdom/russell-brand-guilty-rape-sexual-assault-rcna606967"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Met police chief urges potential victims of Russell Brand to come forward",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/06/met-police-chief-potential-victims-russell-brand-come-forward"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Russell Brand guilty of rape and three sexual assaults",
-          "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/russell-brand-guilty/"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "London police chief expects ‘many more’ accusations against Russell Brand",
-          "url": "https://www.straitstimes.com/world/europe/london-police-chief-expects-many-more-accusations-against-russell-brand"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-11-06-gcvh9r",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Two dead after bus crashes in France, officials say",
-      "summary": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
-      "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-06T11:21:20.000Z",
-      "sourceCount": 11,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 6,
-      "score": 20.86,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Bus whose passengers included kids crashes in France, leaving 2 dead and 16 injured",
-          "url": "https://abcnews.com/International/wireStory/bus-passengers-included-school-kids-crashes-france-leaving-137904168"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Two dead after bus crashes in France, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "French bus carrying school children crashes, killing 2",
-          "url": "https://www.dw.com/en/french-bus-carrying-school-children-crashes-killing-2/a-79873221?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "France: Up to 55,000 march in Lyon amid clashes and tear gas",
-          "url": "https://www.euronews.com/video/2026/11/05/france-up-to-55000-march-in-lyon-amid-clashes-and-tear-gas"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Protests erupt across France after left-wing groups call for mobilization",
-          "url": "https://www.foxnews.com/world/protests-erupt-across-france-left-wing-groups-call-mobilization"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "At least two killed, 16 injured in school bus accident in eastern France",
-          "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Clashes erupt in France as ‘Black Thursday’ protests sweep the nation",
-          "url": "https://www.nbcnews.com/world/france/france-clashes-riot-police-tear-gas-paris-lyon-student-protests-rcna607599"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Two dead after bus carrying schoolchildren crashes in France, officials say",
-          "url": "https://news.sky.com/story/two-dead-after-bus-carrying-schoolchildren-crashes-in-france-officials-say-13608677"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Two children dead as school bus crashes in France",
-          "url": "https://www.independent.co.uk/news/world/europe/france-school-bus-crash-live-updates-lent-b3080294.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "At least two children killed in bus crash in eastern France: Local authorities",
-          "url": "https://www.straitstimes.com/world/europe/bus-crashes-in-eastern-france-several-casualties-authorities-say"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "'Several victims': Bus meets accident in eastern France near Switzerland",
-          "url": "https://timesofindia.indiatimes.com/world/europe/several-victims-bus-meets-accident-in-eastern-france-near-switzerland/articleshow/135601016.cms"
-        }
-      ]
-    },
-    {
       "rank": 6,
-      "id": "2026-11-06-1spviom",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Midterms over, Democrats eye wide-open 2028 White House race",
-      "summary": "All of these seats were in districts redrawn in 2023 to favor Republican candidates.",
-      "url": "https://www.france24.com/en/video/20261106-midterms-over-democrats-eye-wide-open-2028-white-house-race",
-      "headlineSource": "France 24",
-      "summarySource": "NPR",
-      "publishedAt": "2026-11-06T11:25:16.000Z",
-      "sourceCount": 7,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 19.46,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 6.4,
-        "wire": 1.6,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "'Extinction-level event': How Republicans eyeing 2028 are taking midterm losses",
-          "url": "https://abcnews.com/Politics/extinction-level-event-blue-tsunami-republicans-eyeing-2028/story?id=137882445"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Midterms over, Democrats eye wide-open 2028 White House race",
-          "url": "https://www.france24.com/en/video/20261106-midterms-over-democrats-eye-wide-open-2028-white-house-race"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
-          "url": "https://www.npr.org/2026/11/05/nx-s1-6031719/north-carolina-democrats-flip-house-seats-republican-districts"
-        },
-        {
-          "source": "Politico",
-          "sourceId": "politico",
-          "lean": "center-left",
-          "title": "The midterms blew open the 2028 map. Republicans are panicking.",
-          "url": "https://www.politico.com/news/2026/11/06/midterms-2028-presidential-map-republicans-panic-texas-ohio-iowa-01153026"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "US midterm elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "House Republicans divided over how to move forward after brutal election losses",
-          "url": "https://thehill.com/homenews/house/6202785-house-republican-leadership-divide/"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Democrats’ most vulnerable rental seats in 2028",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4794683/democrats-vulnerable-rental-seats-2028/"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-11-06-j9n18o",
+      "id": "2026-11-07-e0zv1w",
       "topic": "business",
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
-      "title": "What the Democrats' midterms win means for the US economy and Trump",
-      "summary": "Democratic midterm wins could increase scrutiny of AI data centers and power demand, but President Donald Trump retains veto power over any federal legislation.",
-      "url": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-all-1573-rdf",
+      "title": "Tesla to 'wind down' production of flop Cybertruck",
+      "summary": "Elon Musk's electric pickup for the future will start to be consigned to the past next year. The Cybertruck's bulk and crude shape meant it could only pass regulatory standards in more permissive markets.",
+      "url": "https://www.dw.com/en/tesla-to-wind-down-production-of-flop-cybertruck/a-79877759?maca=en-rss-en-all-1573-rdf",
       "headlineSource": "Deutsche Welle",
-      "summarySource": "Fox Business",
-      "publishedAt": "2026-11-06T11:00:00.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 16.64,
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-07T10:00:06.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 16.32,
       "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 5,
-        "wire": 0.8,
+        "breadth": 9,
+        "diversity": 2.5,
+        "wire": 2.4,
         "freshness": 2.42,
         "softPenalty": 0
       },
@@ -627,71 +481,9 @@
           "source": "Ars Technica",
           "sourceId": "arstechnica",
           "lean": "center",
-          "title": "Statehouse wins give Democrats new power to push clean energy",
-          "url": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/"
+          "title": "No more Cybertrucks; Musk moves on from the angular metallic flop",
+          "url": "https://arstechnica.com/cars/2026/11/the-cybertruck-is-dead-makes-way-for-cybercab-says-elon-musk/"
         },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "What the Democrats' midterms win means for the US economy and Trump",
-          "url": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "How Democrats’ midterm gains could reshape the political landscape for AI",
-          "url": "https://www.foxbusiness.com/politics/new-political-landscape-facing-ai-after-democrats-midterm-gains"
-        },
-        {
-          "source": "Guardian Environment",
-          "sourceId": "guardian_env",
-          "lean": "left",
-          "title": "How Democrats used the midterms to turn affordability concerns into ‘green populism’",
-          "url": "https://www.theguardian.com/us-news/2026/nov/05/democrats-climate-crisis-in-midterm-election-results"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Democrats rode rural frustration to Senate wins. Now farmers want results",
-          "url": "https://thehill.com/business/6202564-farmers-demand-congressional-action-democratic-wins/"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Texas GOP grapples with historic losses as Democrats eye 2028",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4793850/democrats-texas-republicans-2028/"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-11-06-imj2uu",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Is it the end of the Cybertruck? Elon Musk announces factory will shift Tesla production.",
-      "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
-      "url": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
-      "headlineSource": "MarketWatch",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-06T10:42:52.000Z",
-      "sourceCount": 6,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 2,
-      "score": 16.32,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 3.9,
-        "wire": 1.6,
-        "freshness": 2.4,
-        "softPenalty": 0
-      },
-      "coverage": [
         {
           "source": "BBC News",
           "sourceId": "bbc",
@@ -700,149 +492,252 @@
           "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o"
         },
         {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "RIP the Cybertruck: Elon Musk says Tesla will wind down production of its most polarizing EV",
-          "url": "https://www.businessinsider.com/tesla-wind-down-cybertruck-production-elon-musk-cybercab-texas-2026-11"
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
+          "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html"
         },
         {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
-          "url": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis"
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Tesla to 'wind down' production of flop Cybertruck",
+          "url": "https://www.dw.com/en/tesla-to-wind-down-production-of-flop-cybertruck/a-79877759?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Tesla to wind down Cybertruck production at Texas factory next year to make room for Cybercab",
+          "url": "https://www.foxbusiness.com/markets/tesla-wind-down-cybertruck-production-texas-factory-next-year-make-room-cybercab"
         },
         {
           "source": "MarketWatch",
           "sourceId": "marketwatch",
           "lean": "center",
-          "title": "Is it the end of the Cybertruck? Elon Musk announces factory will shift Tesla production.",
+          "title": "Cybertruck’s run comes to an end as Musk kills off pricey pet project",
           "url": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories"
         },
         {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "Elon Musk gambled $445 million to boost Republicans in the midterms. It came up short",
-          "url": "https://www.pbs.org/newshour/politics/elon-musk-gambled-445-million-to-boost-republicans-in-the-midterms-it-came-up-short"
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Elon Musk's dream vehicle to cease production - What went wrong with Tesla Cybertruck",
+          "url": "https://timesofindia.indiatimes.com/business/international-business/elon-musks-futuristic-dream-vehicle-to-cease-production-what-went-wrong-with-teslas-cybertruck/articleshow/135632407.cms"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-07-1lttfj8",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "China’s top spy agency recruited woman who targeted Nvidia’s Jensen Huang",
+      "summary": "A memo cited intelligence that Alice Huang was an asset of Beijing’s Ministry of State Security.",
+      "url": "https://www.straitstimes.com/world/united-states/chinas-top-spy-agency-recruited-woman-who-targeted-nvidias-jensen-huang",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-07T02:42:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 12.34,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 1.82,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
+          "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "China’s top spy agency recruited woman who targeted Nvidia’s Jensen Huang",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/asia-pacific/china-nvidia-jensen-huang-spy/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "China’s top spy agency recruited woman who targeted Nvidia’s Jensen Huang",
+          "url": "https://www.straitstimes.com/world/united-states/chinas-top-spy-agency-recruited-woman-who-targeted-nvidias-jensen-huang"
         },
         {
           "source": "The Verge",
           "sourceId": "verge",
           "lean": "center-left",
-          "title": "Tesla is ‘winding down’ production of the Cybertruck next year",
-          "url": "https://www.theverge.com/?p=1028542"
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+          "url": "https://www.theverge.com/?p=1029338"
         }
       ]
     },
     {
-      "rank": 9,
-      "id": "2026-11-06-xdrv97",
+      "rank": 8,
+      "id": "2026-11-06-1injqa8",
       "topic": "tech",
       "topicLabel": "Technology & physical science",
       "topicShort": "TECH",
-      "title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
-      "summary": "Shares sank, with the tech-heavy Nasdaq dropping over 5%, as investors reacted with fear that a Democratic Congress — and states across the country -— would crack down on AI and data centers.",
-      "url": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
-      "headlineSource": "NPR",
-      "summarySource": "NPR",
-      "publishedAt": "2026-11-06T10:30:31.000Z",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-06T23:46:18.000Z",
       "sourceCount": 5,
-      "leanCount": 3,
-      "leanSpread": 0.5,
+      "leanCount": 2,
+      "leanSpread": 0.25,
       "wireCount": 1,
-      "score": 14.83,
+      "score": 12.13,
       "scoreComponents": {
         "breadth": 7.75,
-        "diversity": 3.9,
+        "diversity": 1.95,
         "wire": 0.8,
-        "freshness": 2.38,
+        "freshness": 1.63,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "Fast-Money Systematic Funds Stoked $2.3 Trillion Tech-Stock Rout",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/fast-money-systematic-funds-stoked-2-3-trillion-tech-stock-rout"
+          "title": "AI stocks climb after trillions wiped from market values",
+          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Nasdaq drops into correction territory — here’s what typically happens next",
-          "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html"
+          "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+          "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
         },
         {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "Nasdaq sees worst day in 19 months as investors bet on AI slowdown after Democrats’ election triumph",
-          "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
+          "source": "NBC News",
+          "sourceId": "nbc",
           "lean": "center-left",
-          "title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
-          "url": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections"
+          "title": "Investors try to regain their footing after tech stocks tank",
+          "url": "https://www.nbcnews.com/business/markets/global-markets-tech-stocks-ai-midterms-democrats-asia-europe-rcna607794"
         },
         {
           "source": "NYT Business",
           "sourceId": "nyt_business",
           "lean": "center-left",
-          "title": "Stocks Erase Post-Midterm Elections Rally, Dragged Down by Tech",
-          "url": "https://www.nytimes.com/2026/11/05/business/stocks-midterms-artificial-intelligence.html"
+          "title": "After a $2.5 Trillion Wipeout, Tech Investors Brace for More Pain",
+          "url": "https://www.nytimes.com/2026/11/06/business/dealbook/tech-investors-ai-rout.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+          "url": "https://www.theverge.com/?p=1029380"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-06-xdbxxx",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Trump's global health strategy is emerging. What will the Democratic Congress say?",
+      "summary": "The Trump Administration has ushered in a fundamental shift in the U.S. approach to global health aid. How will the newly elected Democratic Congress weigh in?",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6028828/global-health-usaid-trump-democrats-congress",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-06T21:46:55.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 1,
+      "score": 10.26,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 1.51,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump's global health strategy is emerging. What will the Democratic Congress say?",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6028828/global-health-usaid-trump-democrats-congress"
+        },
+        {
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
+          "lean": "center-left",
+          "title": "What a Democratic Congress Could Mean for Science",
+          "url": "https://www.nytimes.com/2026/11/06/science/science-democrats-congress-election.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "Two incoming lawmakers plan to defend health equity from Trump administration cuts",
+          "url": "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/"
         }
       ]
     },
     {
       "rank": 10,
-      "id": "2026-11-06-3y8rhv",
+      "id": "2026-11-07-4ns4zy",
       "topic": "health",
       "topicLabel": "Health, life science & climate",
       "topicShort": "HEALTH",
-      "title": "Three-quarters of world's displaced people face severe climate risks, UN says",
-      "summary": "Nearly 90 million forcibly displaced people, or three-quarters of the global total, live in countries highly exposed to climate hazards, the UN Refugee Agency said on Friday, urging action ahead of the COP31 climate summit in Turkey. It said droughts, floods…",
-      "url": "https://www.france24.com/en/environment/20261105-un-displaced-people-climate-risks",
-      "headlineSource": "France 24",
-      "summarySource": "France 24",
-      "publishedAt": "2026-11-06T07:00:46.000Z",
+      "title": "Wisconsin reports measles death of a baby, first death in over 35 years",
+      "summary": "Next week, experts will determine if the US has lost its measles elimination status.",
+      "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/",
+      "headlineSource": "Ars Technica",
+      "summarySource": "Ars Technica",
+      "publishedAt": "2026-11-07T00:56:46.000Z",
       "sourceCount": 3,
       "leanCount": 2,
       "leanSpread": 0.5,
-      "wireCount": 2,
-      "score": 12.18,
+      "wireCount": 0,
+      "score": 10.21,
       "scoreComponents": {
         "breadth": 6,
         "diversity": 2.5,
-        "wire": 1.6,
-        "freshness": 2.08,
+        "wire": 0,
+        "freshness": 1.71,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Carbon Brief",
-          "sourceId": "carbonbrief",
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
           "lean": "center",
-          "title": "Interactive: Tracking negotiating texts at the COP31 climate summit",
-          "url": "https://www.carbonbrief.org/interactive-tracking-negotiating-texts-at-the-cop31-climate-summit"
+          "title": "Wisconsin reports measles death of a baby, first death in over 35 years",
+          "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Three-quarters of world's displaced people face severe climate risks, UN says",
-          "url": "https://www.france24.com/en/environment/20261105-un-displaced-people-climate-risks"
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "Wisconsin infant dies of measles as state sees first death from disease since 1990",
+          "url": "https://www.foxnews.com/health/wisconsin-infant-dies-measles-state-first-death-disease-since-1990"
         },
         {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "Cop31 will expose the conflicts and contradictions of the world’s fossil fuel reliance",
-          "url": "https://www.theguardian.com/environment/2026/nov/06/cop31-coal-turkey-fossil-fuel-reliance"
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "US measles status to go up for review",
+          "url": "https://thehill.com/newsletters/healthcare/6205697-us-mexico-measles-status-review/"
         }
       ]
     }

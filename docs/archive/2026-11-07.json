@@ -1,0 +1,745 @@
+{
+  "version": 1,
+  "edition": "2026-11-07",
+  "generatedAt": "2026-11-07T10:53:01.438Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-07-6l6m5u",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Stephen Miller named by Trump as new White House chief of staff",
+      "summary": "The change comes after sweeping Republican losses in the midterm elections.",
+      "url": "https://www.dw.com/en/stephen-miller-named-by-trump-as-new-white-house-chief-of-staff/a-79881571?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-07T10:00:08.000Z",
+      "sourceCount": 14,
+      "leanCount": 4,
+      "leanSpread": 0.75,
+      "wireCount": 7,
+      "score": 23.19,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 5.85,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump says chief of staff Susie Wiles out, Stephen Miller will replace her",
+          "url": "https://abcnews.com/Politics/trump-chief-staff-susie-wiles-miller-replace/story?id=137921244"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "11/6: The Takeout with Major Garrett",
+          "url": "https://www.cbsnews.com/video/110626-the-takeout-with-major-garrett/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Stephen Miller named by Trump as new White House chief of staff",
+          "url": "https://www.dw.com/en/stephen-miller-named-by-trump-as-new-white-house-chief-of-staff/a-79881571?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump appoints immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.euronews.com/2026/11/06/trump-appoints-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Stephen Miller will replace Susie Wiles as Trump's chief of staff",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Susie Wiles, Trump’s Chief of Staff, Is Accused of Blocking Health Policies to Attract Donations",
+          "url": "https://www.nytimes.com/2026/11/06/us/politics/susie-wiles-calley-means-joe-rogan.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "What Trump picking Stephen Miller for chief of staff signals about his agenda",
+          "url": "https://www.pbs.org/newshour/show/what-trump-picking-stephen-miller-for-chief-of-staff-signals-about-his-agenda"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "As Chief of Staff, Stephen Miller Will Reinforce Trump's Worst Instincts",
+          "url": "https://reason.com/2026/11/06/as-chief-of-staff-stephen-miller-will-reinforce-trumps-worst-instincts/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Trump faces criticism for ‘dangerous’ Stephen Miller appointment as White House chief of staff",
+          "url": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-democrats-react"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Tillis says Miller is 'worst of all possible choices' for chief of staff role",
+          "url": "https://thehill.com/homenews/administration/6205824-tillis-slams-trump-miller-hire/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "In his words: Miller is an immigration hardliner and a bombastic critic of Democrats",
+          "url": "https://www.independent.co.uk/news/world/europe/donald-trump-stephen-miller-democrats-white-house-washington-b3080889.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump makes hard-liner Stephen Miller his chief of staff after midterm defeat",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/trump-stephen-miller-chief-of-staff/"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Trump to get 'Trumpier' as hardliner Miller set to take charge; impact on India",
+          "url": "https://timesofindia.indiatimes.com/world/us/trump-to-get-trumpier-as-hardliner-stephen-miller-takes-charge-of-white-house-what-it-means-for-india/articleshow/135631339.cms"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-07-1dmvzsd",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "U.S. and Iran edge closer to deal with nuclear issue back in play",
+      "summary": "Washington is offering a US$20 million reward “and possible relocation” for information about Iran’s nuclear programme, the US military has said, as President Donald Trump reiterated that Tehran wants to make a deal to end the war. A State Department…",
+      "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/us-iran-deal-nuclear/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-07T09:06:46.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 21.44,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.34,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Qatari PM says US willing to seek solution to war with Iran",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S. offers $20 million for information on Iran's nuclear program",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "State Dept. offers $20 million reward for information about Iran’s nuke program",
+          "url": "https://nypost.com/2026/11/07/us-news/state-dept-offers-20-million-reward-for-information-about-irans-nuke-program/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Iran’s nuclear programme: US offers US$20 million reward for information",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373625/irans-nuclear-programme-us-offers-us20-million-reward-information"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+          "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "U.S. and Iran edge closer to deal with nuclear issue back in play",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/us-iran-deal-nuclear/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Iran says forces ‘stronger’ than at beginning of war",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-says-forces-stronger-than-at-beginning-of-war"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Nobody got hurt or killed for five months': Trump plays down Iran conflict",
+          "url": "https://timesofindia.indiatimes.com/world/us/nobody-got-hurt-or-killed-for-five-months-trump-plays-down-iran-conflict/articleshow/135631785.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-07-1vrrk1u",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Paraguay’s President Pena impeached over Ueno banking crisis, placed under house arrest",
+      "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "url": "https://www.scmp.com/news/world/americas/article/3373623/paraguays-president-pena-impeached-over-ueno-banking-crisis-placed-under-house-arrest",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-07T10:36:19.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 7,
+      "score": 20.33,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Paraguay’s Pena under military protection in bank collapse chaos",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_paraguays-pena-under-house-arrest-061126?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Paraguay's president impeached and under house arrest after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/how-a-banking-scandal-is-taking-down-trump-s-ally-in-paraguay"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Paraguay's president under house arrested after bank collapse",
+          "url": "https://www.cbsnews.com/news/paraguay-president-arrest-bank-ueno-collapse/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Paraguay: President Santiago Pena under house arrest over bank crisis",
+          "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Pedro Alliana sworn in as Paraguay president after Santiago Peña's impeachment",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Paraguay places ousted president Peña under house arrest after bank collapse",
+          "url": "https://www.france24.com/en/americas/20261107-ousted-paraguay-president-under-house-arrest-after-banking-crisis"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Paraguay’s President Pena impeached over Ueno banking crisis, placed under house arrest",
+          "url": "https://www.scmp.com/news/world/americas/article/3373623/paraguays-president-pena-impeached-over-ueno-banking-crisis-placed-under-house-arrest"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Crisis-hit Paraguay impeaches president and replaces him with VP",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/paraguay-president-santiago-pena-impeached/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
+          "url": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-07-p8wjb1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "British comedian Russell Brand found guilty of rape and three sexual assaults",
+      "summary": "The comedian also faces a further accusation of raping two more women, including a 16-year-old, and could face further criminal charges.",
+      "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+      "headlineSource": "France 24",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-07T10:04:01.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 18.18,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "BBC comes under fire for 'passing the buck' on Russell Brand: Comedian boasted his boss was 'incredibly tolerant' of his sexual behaviour - as he joked about raping and killing…",
+          "url": "https://www.dailymail.com/news/article-16270887/BBC-comes-fire-passing-buck-Russell-Brand-Comedian-boasted-boss-incredibly-tolerant-sexual-behaviour-joked-raping-killing-woman-having-sex-children.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults",
+          "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Russell Brand barrister reports himself to watchdog over clash with journalist",
+          "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-barrister-ian-winter-reports-himself-bar-watchdog-confronting-sunday-times-journalist"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Russell Brand's convictions renew spotlight on media — and a culture — that may have looked away",
+          "url": "https://www.independent.co.uk/news/world/americas/russell-brand-bbc-brand-britain-andrew-sachs-b3080888.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Russell Brand guilty of rape and three sexual assaults",
+          "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/russell-brand-guilty/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-06-1tvbo55",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
+      "summary": "European shares have fallen after sharp losses in Asia and on Wall Street. Doubts over huge AI investments and fears of curbs following the Democrats' US midterm victory have rattled global markets.",
+      "url": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-06T21:23:54.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 16.44,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 1.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Wall Street's fear gauge may be flashing a buy sign",
+          "url": "https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
+          "url": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Trump blames Democrats for stock market plunge after sweeping midterm victories",
+          "url": "https://www.foxbusiness.com/politics/trump-blames-democrats-stock-market-plunge-after-sweeping-midterm-victories"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
+          "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+          "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-07-e0zv1w",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Tesla to 'wind down' production of flop Cybertruck",
+      "summary": "Elon Musk's electric pickup for the future will start to be consigned to the past next year. The Cybertruck's bulk and crude shape meant it could only pass regulatory standards in more permissive markets.",
+      "url": "https://www.dw.com/en/tesla-to-wind-down-production-of-flop-cybertruck/a-79877759?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-07T10:00:06.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 16.32,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "No more Cybertrucks; Musk moves on from the angular metallic flop",
+          "url": "https://arstechnica.com/cars/2026/11/the-cybertruck-is-dead-makes-way-for-cybercab-says-elon-musk/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
+          "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Tesla to 'wind down' production of flop Cybertruck",
+          "url": "https://www.dw.com/en/tesla-to-wind-down-production-of-flop-cybertruck/a-79877759?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Tesla to wind down Cybertruck production at Texas factory next year to make room for Cybercab",
+          "url": "https://www.foxbusiness.com/markets/tesla-wind-down-cybertruck-production-texas-factory-next-year-make-room-cybercab"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Cybertruck’s run comes to an end as Musk kills off pricey pet project",
+          "url": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Elon Musk's dream vehicle to cease production - What went wrong with Tesla Cybertruck",
+          "url": "https://timesofindia.indiatimes.com/business/international-business/elon-musks-futuristic-dream-vehicle-to-cease-production-what-went-wrong-with-teslas-cybertruck/articleshow/135632407.cms"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-07-1lttfj8",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "China’s top spy agency recruited woman who targeted Nvidia’s Jensen Huang",
+      "summary": "A memo cited intelligence that Alice Huang was an asset of Beijing’s Ministry of State Security.",
+      "url": "https://www.straitstimes.com/world/united-states/chinas-top-spy-agency-recruited-woman-who-targeted-nvidias-jensen-huang",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-07T02:42:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 12.34,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 1.82,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
+          "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "China’s top spy agency recruited woman who targeted Nvidia’s Jensen Huang",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/asia-pacific/china-nvidia-jensen-huang-spy/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "China’s top spy agency recruited woman who targeted Nvidia’s Jensen Huang",
+          "url": "https://www.straitstimes.com/world/united-states/chinas-top-spy-agency-recruited-woman-who-targeted-nvidias-jensen-huang"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+          "url": "https://www.theverge.com/?p=1029338"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-06-1injqa8",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-06T23:46:18.000Z",
+      "sourceCount": 5,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 1,
+      "score": 12.13,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 1.63,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "AI stocks climb after trillions wiped from market values",
+          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+          "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Investors try to regain their footing after tech stocks tank",
+          "url": "https://www.nbcnews.com/business/markets/global-markets-tech-stocks-ai-midterms-democrats-asia-europe-rcna607794"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "After a $2.5 Trillion Wipeout, Tech Investors Brace for More Pain",
+          "url": "https://www.nytimes.com/2026/11/06/business/dealbook/tech-investors-ai-rout.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+          "url": "https://www.theverge.com/?p=1029380"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-06-xdbxxx",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Trump's global health strategy is emerging. What will the Democratic Congress say?",
+      "summary": "The Trump Administration has ushered in a fundamental shift in the U.S. approach to global health aid. How will the newly elected Democratic Congress weigh in?",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6028828/global-health-usaid-trump-democrats-congress",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-06T21:46:55.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 1,
+      "score": 10.26,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0.8,
+        "freshness": 1.51,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump's global health strategy is emerging. What will the Democratic Congress say?",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6028828/global-health-usaid-trump-democrats-congress"
+        },
+        {
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
+          "lean": "center-left",
+          "title": "What a Democratic Congress Could Mean for Science",
+          "url": "https://www.nytimes.com/2026/11/06/science/science-democrats-congress-election.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "Two incoming lawmakers plan to defend health equity from Trump administration cuts",
+          "url": "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-07-4ns4zy",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Wisconsin reports measles death of a baby, first death in over 35 years",
+      "summary": "Next week, experts will determine if the US has lost its measles elimination status.",
+      "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/",
+      "headlineSource": "Ars Technica",
+      "summarySource": "Ars Technica",
+      "publishedAt": "2026-11-07T00:56:46.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 10.21,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 0,
+        "freshness": 1.71,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Wisconsin reports measles death of a baby, first death in over 35 years",
+          "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "Wisconsin infant dies of measles as state sees first death from disease since 1990",
+          "url": "https://www.foxnews.com/health/wisconsin-infant-dies-measles-state-first-death-disease-since-1990"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "US measles status to go up for review",
+          "url": "https://thehill.com/newsletters/healthcare/6205697-us-mexico-measles-status-review/"
+        }
+      ]
+    }
+  ]
+}
