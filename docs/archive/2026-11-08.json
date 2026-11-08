@@ -1,0 +1,948 @@
+{
+  "version": 1,
+  "edition": "2026-11-08",
+  "generatedAt": "2026-11-08T11:02:06.880Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-08-1hx56bm",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government",
+      "summary": "In Israel, a candidate tasked with forming a new government has 28 days to carry out the job. The president is able to extend this by a maximum of 14 days before giving the mandate to someone else.",
+      "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/israel-president-gadi-eisenkot-government/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-08T09:43:26.000Z",
+      "sourceCount": 17,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 10,
+      "score": 24.49,
+      "scoreComponents": {
+        "breadth": 12.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "The anti-Netanyahu: Can Gadi Eisenkot give the world a different Israel?",
+          "url": "https://www.aljazeera.com/news/2026/11/8/the-anti-netanyahu-can-gadi-eisenkot-give-the-world-a-different-israel?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Israel's president taps opposition candidate Eisenkot to form a government",
+          "url": "https://www.cbsnews.com/news/israel-election-government-gadi-eisenkot-benjamin-netanyahu/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Israeli president tasks Gadi Eisenkot with forming government",
+          "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Netanyahu rival Eisenkot to be tasked with forming new government following Israeli elections",
+          "url": "https://www.euronews.com/2026/11/08/netanyahu-rival-eisenkot-to-be-tasked-with-forming-new-government-following-israeli-electi"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Israeli president taps Netanyahu rival to form government as coalition battle looms",
+          "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Israel's Arab-led parties gain influence",
+          "url": "https://www.france24.com/en/israel-s-arab-led-parties-gain-influence"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Israel's president taps opposition candidate Eisenkot to form a government, in setback for Netanyahu",
+          "url": "https://www.pbs.org/newshour/world/israels-president-taps-opposition-candidate-eisenkot-to-form-a-government-in-setback-for-netanyahu"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Blow for Netanyahu as opposition rival asked to form government by Israel's president",
+          "url": "https://news.sky.com/story/blow-for-netanyahu-as-opposition-rival-asked-to-form-government-by-israels-president-13609540"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Who is Eisenkot, the former Israeli general expected to replace Netanyahu?",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3373679/who-eisenkot-former-israeli-general-expected-replace-netanyahu"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+          "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Israeli president picks Netanyahu's rival Eisenkot to form new government",
+          "url": "https://thehill.com/policy/international/6206234-herzog-appoints-eisenkot-form-government/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Israel’s president picks Netanyahu rival Gadi Eisenkot to form government",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-election-gadi-eisenkot-netanyahu-b3081156.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/israel-president-gadi-eisenkot-government/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Eisenkot, Netanyahu Rival and Opposition Leader, Tapped to Try to Form Government",
+          "url": "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Who is Gadi Eisenkot, the ex-general tasked with forming new Israeli government",
+          "url": "https://www.straitstimes.com/world/middle-east/who-is-gadi-eisenkot-the-ex-general-tasked-with-forming-new-israeli-government"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-08-1rppmb6",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Gunman kills six in Krakow, three more bodies found at his house",
+      "summary": "A gunman targeted random people as he drove into Krakow's Main Square, a major tourist spot. Police shot and wounded the gunman during a gunfight.",
+      "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+      "headlineSource": "France 24",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-08T10:05:30.000Z",
+      "sourceCount": 16,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 9,
+      "score": 24.27,
+      "scoreComponents": {
+        "breadth": 12.26,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "What we know so far after Krakow gun attack",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+          "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "British man among nine killed after Polish gunman, 25, 'shot dead his parents and sister' then opened fire in Krakow in 'far-right terror attack' - as hero cop left fighting for…",
+          "url": "https://www.dailymail.com/news/article-16274153/Shots-fired-Krakow-main-square.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Poland begins two days of mourning over Krakow shooting",
+          "url": "https://www.dw.com/en/poland-begins-two-days-of-mourning-over-krakow-shooting/a-79889400?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Poland: Footage shows people taking cover as a gunman opens fire in Krakow",
+          "url": "https://www.euronews.com/video/2026/11/07/poland-footage-shows-people-taking-cover-as-a-gunman-opens-fire-in-krakow"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Gunman kills six in Krakow, three more bodies found at his house",
+          "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "At least six people killed after gunman opens fire in central square of Polish city of Krakow",
+          "url": "https://www.nbcnews.com/video/at-least-six-people-killed-after-gunman-opens-fire-in-krakow-s-central-square-273075781533"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Krakow Shooting Suspect: What We Know As More Victims Discovered",
+          "url": "https://www.newsweek.com/krakow-shooting-suspect-what-we-know-as-more-victims-discovered-12683092"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Gunman opens fire in Polish city of Krakow, killing 6 people and wounding 16",
+          "url": "https://www.pbs.org/newshour/world/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Briton among six killed by 'far-right' gunman in Krakow rampage",
+          "url": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
+          "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Briton among six dead after gunman opens fire in Kraków market square",
+          "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Krakow shooting latest: Investigations continue after British national among six killed by gunman in ‘act of terror’",
+          "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Poland in shock after six die in Krakow mass shooting",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/crime-legal/poland-krakow-mass-shooting/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Poland mourns victims of Krakow mass shooting as security fears grow",
+          "url": "https://www.straitstimes.com/world/europe/poland-mourns-victims-of-krakow-mass-shooting-as-security-fears-grow"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-08-q7fpxr",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
+      "summary": "President Donald Trump said Saturday that he has offered the job of White House press secretary to his friend and UFC boss Dana White.",
+      "url": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+      "headlineSource": "NPR",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-08T09:44:28.000Z",
+      "sourceCount": 16,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 9,
+      "score": 22.29,
+      "scoreComponents": {
+        "breadth": 12.26,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Trump says he offered 'violent fighter' Dana White the role of press secretary: 'Dana, please take the job!'",
+          "url": "https://www.businessinsider.com/trump-dana-white-house-press-secretary-job-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump offers UFC chief Dana White press secretary job",
+          "url": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump offers White House press secretary role to Dana White",
+          "url": "https://www.dw.com/en/trump-offers-white-house-press-secretary-role-to-dana-white/a-79888119?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump offers UFC boss White House press secretary role: 'Dana, please take the job!'",
+          "url": "https://www.euronews.com/2026/11/08/trump-offers-ufc-boss-press-secretary-role-dana-please-take-the-job"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Donald Trump wants UFC fighters as assistants",
+          "url": "https://www.france24.com/en/donald-trump-wants-ufc-fighters-as-assistants"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Dana White reveals he’s flying to DC ‘right now’ after Trump offered him press secretary gig",
+          "url": "https://nypost.com/2026/11/07/us-news/dana-white-reveals-hes-flying-to-dc-right-now-after-trump-offered-him-press-secretary-gig/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump says he's asked UFC's Dana White to be his press secretary",
+          "url": "https://www.pbs.org/newshour/politics/trump-says-hes-asked-ufcs-dana-white-to-be-his-press-secretary"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Trump asks UFC boss Dana White to be his new press secretary",
+          "url": "https://news.sky.com/story/trump-asks-ufc-boss-dana-white-to-become-white-house-press-secretary-13609613"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Trump asks UFC chief Dana White to be his new press secretary: ‘please take the job’",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373670/trump-asks-ufc-chief-dana-white-be-his-new-press-secretary-please-take-job"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump says he offered White House press secretary job to Dana White",
+          "url": "https://thehill.com/homenews/administration/6206117-trump-says-he-offered-white-house-press-secretary-job-to-dana-white/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump offers press secretary role to UFC CEO Dana White",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-dana-white-ufc-press-secretary-b3081071.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump taps UFC boss as press secretary and urges criminal probes into Democrats",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/trump-ufc-press-secretary/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump says he wants UFC chief Dana White for White House press secretary",
+          "url": "https://www.straitstimes.com/world/united-states/trump-says-he-wants-ufc-chief-dana-white-for-white-house-press-secretary"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "The great White mix-up: Did Trump offer White House job to the wrong Dana?",
+          "url": "https://timesofindia.indiatimes.com/world/us/the-great-white-mix-up-did-trump-offer-white-house-job-to-the-wrong-dana-white/articleshow/135653662.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Dana White responds to question about Trump’s White House press secretary request",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796653/dana-white-responds-question-trump-white-house-press-secretary-request/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-07-1vbhm1q",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Paraguay's former president charged after bank collapse",
+      "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-07T20:17:15.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 18.03,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 1.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Paraguay's former president charged after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Paraguay's president under house arrest after bank collapse",
+          "url": "https://www.cbsnews.com/news/paraguay-president-arrest-bank-ueno-collapse/"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Pedro Alliana sworn in as Paraguay president after Santiago Peña's impeachment",
+          "url": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Paraguay’s impeached president charged over bank collapse",
+          "url": "https://www.france24.com/en/americas/20261107-paraguay-s-impeached-president-charged-over-bank-collapse"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Paraguay's ousted president charged with crimes linked to collapse of major bank",
+          "url": "https://www.pbs.org/newshour/world/paraguays-ousted-president-faces-prosecutors-after-his-removal-over-bank-collapse"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Crisis-hit Paraguay impeaches president and replaces him with VP",
+          "url": "https://www.japantimes.co.jp/news/2026/11/07/world/politics/paraguay-president-santiago-pena-impeached/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Prosecutors Charge Paraguay’s Former President With Corruption",
+          "url": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-08-eiazy6",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "New Zealand election too close to call with over 95% of votes counted",
+      "summary": "Initial results in New Zealand show the two main parties neck-and-neck with fewer than 4,000 votes separating them. Official results aren't expected until later this month once special votes have been counted.",
+      "url": "https://www.dw.com/en/new-zealand-election-too-close-to-call-with-over-95-of-votes-counted/a-79883056?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-08T08:49:03.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.6,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.3,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "New Zealand election too close to call with over 95% of votes counted",
+          "url": "https://www.dw.com/en/new-zealand-election-too-close-to-call-with-over-95-of-votes-counted/a-79883056?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "New Zealand counts votes in razor-thin election after campaign centred on cost of living",
+          "url": "https://www.euronews.com/2026/11/07/new-zealand-counts-votes-in-razor-thin-election-after-campaign-centred-on-cost-of-living"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "No clear winner after New Zealand general election",
+          "url": "https://news.sky.com/story/new-zealand-election-too-close-to-call-with-conservative-coalition-on-brink-of-slim-majority-13609199"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
+          "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Relative newcomer emerges as kingmaker after New Zealand election yields deadlock",
+          "url": "https://www.independent.co.uk/news/world/australasia/new-zealand-election-results-latest-b3080932.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "New Zealand preliminary vote leaves it unclear who will govern",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/asia-pacific/politics/new-zealand-vote-unclear/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "New Zealand’s Election ‘Too Close to Call’ as Voters Turn to Minor Parties",
+          "url": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-08-hvu21w",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
+      "summary": "The US military carried out new airstrikes on Iranian defence systems, sending ripples across the Gulf, but Trump insists they are “minor strikes” while intense diplomatic efforts continue to avert an all-out war.",
+      "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-08T10:44:48.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.19,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US launches task force to disrupt Iran’s land-based supply routes",
+          "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S. launches task force to disrupt Iranian ground shipping routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+          "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
+          "url": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
+          "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Expanding on naval blockade, U.S. military looks to restrict Iranian land commerce",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/us-military-blockade-iran-commerce/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-08-1aqdod5",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine: Russian strikes hit Kyiv region, damaging infrastructure",
+      "summary": "As Ukraine prepares for another round of talks with Russia and the United States next week, Moscow has launched a massive overnight strike. At least five people were injured in Kyiv, where Russian missiles damaged residential and commercial buildings, forced…",
+      "url": "https://www.euronews.com/video/2026/11/07/ukraine-russian-strikes-hit-kyiv-region-damaging-infrastructure",
+      "headlineSource": "Euronews",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-08T10:39:10.000Z",
+      "sourceCount": 8,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 5,
+      "score": 17.12,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Zelenskyy says Russia is stepping up attacks ahead of U.S. talks",
+          "url": "https://www.cbsnews.com/news/zelenskyy-russia-attacks-us-talks/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+          "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Ukraine: Russian strikes hit Kyiv region, damaging infrastructure",
+          "url": "https://www.euronews.com/video/2026/11/07/ukraine-russian-strikes-hit-kyiv-region-damaging-infrastructure"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Russia launches massive strike on Kyiv",
+          "url": "https://www.france24.com/en/video/20261107-russia-launches-massive-strike-on-kyiv-1"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Huge fire erupts after Kyiv strikes electronics factory with Neptune cruise missile",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-uk-g20-melania-b3080221.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Inside the Operation That Helped Ukraine Reverse Some Russian War Gains",
+          "url": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Russian strikes cut power to hundreds of thousands in Ukraine",
+          "url": "https://www.straitstimes.com/world/europe/russian-strikes-cut-power-to-hundreds-of-thousands-in-ukraine"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-08-1ksocyn",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Pope Leo calls on Uruguay's Catholics to be 'bridge builders'",
+      "summary": "Pope Leo travels to Uruguay just three weeks after having surgery for lung cancer.",
+      "url": "https://www.france24.com/en/pope-leo-calls-on-uruguay-catholics-bridge-builders",
+      "headlineSource": "France 24",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-08T10:08:44.000Z",
+      "sourceCount": 8,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 5,
+      "score": 17.08,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Pope in 'pretty good health' as he starts Latin America tour",
+          "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Pope Leo calls for universal healthcare weeks after lung cancer surgery",
+          "url": "https://www.cbsnews.com/news/pope-leo-xiv-universal-healthcare-uruguay/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "More than 40,000 gather as Pope Leo XIV celebrates Mass in Uruguay",
+          "url": "https://www.dw.com/en/more-than-40-000-gather-as-pope-leo-xiv-celebrates-mass-in-uruguay/a-79886543?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Pope Leo calls on Uruguay's Catholics to be 'bridge builders'",
+          "url": "https://www.france24.com/en/pope-leo-calls-on-uruguay-catholics-bridge-builders"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "With an ode to mate, Pope Leo urges faithful in Uruguay to build bridges of fraternity and faith",
+          "url": "https://www.pbs.org/newshour/world/with-an-ode-to-mate-pope-leo-urges-faithful-in-uruguay-to-build-bridges-of-fraternity-and-faith"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Thousands turn out to greet Pope Leo as he begins Latin America tour",
+          "url": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Pope Leo greeted by 40,000 in Uruguay for first Mass in South America after cancer surgery",
+          "url": "https://www.independent.co.uk/news/world/americas/pope-leo-uruguay-south-america-mass-cancer-surgery-b3080985.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Pope Leo heads to Milei’s Argentina as tensions loom over austerity, Iran",
+          "url": "https://www.straitstimes.com/world/pope-leo-heads-to-mileis-argentina-as-tensions-loom-over-austerity-iran"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-08-2n8ka0",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "A Guide to COP31 Climate Talks in Antalya, Turkey",
+      "summary": "Droughts, floods and extreme heat are upping the pressure on delegates at the UN climate talks in Antalya, Turkey. Can countries move beyond pledges to concrete action?",
+      "url": "https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html",
+      "headlineSource": "The New York Times",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-08T10:01:50.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 16.46,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "As COP31 Antalya kicks off, can world move beyond big promises?",
+          "url": "https://www.dw.com/en/as-cop31-antalya-kicks-off-can-world-move-beyond-big-promises/a-79661366?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
+          "url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "A Guide to COP31 Climate Talks in Antalya, Turkey",
+          "url": "https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Turkey’s COP31 message: Electrify, recycle and don’t mention coal",
+          "url": "https://www.straitstimes.com/world/turkeys-cop31-message-electrify-recycle-and-dont-mention-coal"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "COP31 a 'moment of truth': UN chief urges world leaders to act now on climate change",
+          "url": "https://timesofindia.indiatimes.com/home/environment/global-warming/cop31-a-moment-of-truth-un-chief-guterres-urges-world-leaders-to-act-now-on-climate-change/articleshow/135653565.cms"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-08-1ndhs7j",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.",
+      "summary": "The model is a test of Trump's most-favored nation approach to drug pricing, though its impact is likely to be limited.",
+      "url": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories",
+      "headlineSource": "MarketWatch",
+      "summarySource": "STAT News",
+      "publishedAt": "2026-11-08T10:00:39.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 0,
+      "score": 10.35,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.",
+          "url": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Medicare Advantage vs. Traditional Medicare, Explained",
+          "url": "https://www.nytimes.com/2026/11/08/business/original-medicare-advantage.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "STAT+: BIO joins the legal fight against Medicare pilot that ties drug prices to peer countries",
+          "url": "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/"
+        }
+      ]
+    }
+  ]
+}
