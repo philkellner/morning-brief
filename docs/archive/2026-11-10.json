@@ -1,0 +1,932 @@
+{
+  "version": 1,
+  "edition": "2026-11-10",
+  "generatedAt": "2026-11-10T12:05:45.917Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-10-85fobu",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Trump says Nvidia CEO Huang knew nothing about alleged Chinese spy",
+      "summary": "Nvidia shareholders have sued the chipmaker and its CEO, Jensen Huang, over his alleged ties to a suspected Chinese spy. The case adds to scrutiny over whether sensitive information at the AI giant was compromised.",
+      "url": "https://www.euronews.com/2026/11/10/trump-says-nvidia-ceo-huang-knew-nothing-about-alleged-chinese-spy",
+      "headlineSource": "Euronews",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-10T12:00:21.000Z",
+      "sourceCount": 22,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 9,
+      "score": 25.66,
+      "scoreComponents": {
+        "breadth": 13.57,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump says Nvidia CEO told him he 'didn't know' he was involved with alleged spy",
+          "url": "https://abcnews.com/Technology/nvidia-announces-investigation-ceo-amid-foreign-intelligence-target/story?id=137959091"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Nvidia spy scandal fuels debate over chip exports to China",
+          "url": "https://www.aljazeera.com/economy/2026/11/10/nvidia-spy-scandal-fuels-debate-over-chip-exports-to-china?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "The Chinese internet is trying to figure out who lost the most in the fallout of Jensen Huang's affair",
+          "url": "https://www.businessinsider.com/chinese-social-media-users-jensen-huang-cost-nvidia-2026-11"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump says Jensen Huang told him he had \"no idea she was a spy\" amid Chinese intel allegations",
+          "url": "https://www.cbsnews.com/video/trump-says-jensen-huang-no-idea-spy/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+          "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Startling rise of 'Chinese spy' Alice Huang - the former reporter who became the world's biggest buyer of Nvidia chips",
+          "url": "https://www.dailymail.com/debate/article-16279435/ANDY-JEHRING-reporter-buyer-Nvidia-chips.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+          "url": "https://www.dw.com/en/nvidia-shareholders-sue-jensen-huang-over-alleged-spy-ties/a-79905809?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump says Nvidia CEO Huang knew nothing about alleged Chinese spy",
+          "url": "https://www.euronews.com/2026/11/10/trump-says-nvidia-ceo-huang-knew-nothing-about-alleged-chinese-spy"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "China denies spy plot targeting Nvidia CEO Jensen Huang, calls allegations ‘smear’",
+          "url": "https://www.foxbusiness.com/technology/china-denies-spy-plot-targeting-nvidia-ceo-jensen-huang-calls-allegations-smear"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Nvidia shares slide as board probes CEO over affair with alleged Chinese spy",
+          "url": "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "FBI is ‘looking into’ Nvidia boss Jensen Huang’s affair with suspected Chinese spy, Trump says",
+          "url": "https://nypost.com/2026/11/10/us-news/fbi-is-looking-into-nvidia-boss-jensen-huangs-affair-with-suspected-chinese-spy-trump-says/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6032705/morning-news-brief"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "A.I. Fueled Nvidia CEO Jensen Huang’s Elite Status, but Scandal Followed",
+          "url": "https://www.nytimes.com/2026/11/09/technology/jensen-huang-nvidia-ai-chips-scandal.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Nvidia's Jensen Huang faces scrutiny over alleged affair with Chinese spy",
+          "url": "https://www.pbs.org/newshour/show/nvidias-jensen-huang-faces-scrutiny-over-alleged-affair-with-chinese-spy"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+          "url": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Who is Alice Huang and why is her relationship with Nvidia’s CEO under scrutiny?",
+          "url": "https://www.scmp.com/tech/tech-war/article/3373960/who-alice-huang-and-why-her-relationship-nvidias-ceo-under-scrutiny"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+          "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump says Hegseth should be praised, not impeached",
+          "url": "https://thehill.com/homenews/administration/6209668-trump-defends-hegseth-impeachment/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "US tech giant Nvidia and CEO Jensen Huang sued following suspected Chinese spy scandal",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-chinese-spy-b3082250.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Hegseth accused of crimes and misconduct in impeachment effort",
+          "url": "https://www.japantimes.co.jp/news/2026/11/10/world/politics/hegseth-crimes-impeachment/"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Here’s what Trump said he knew about Jensen Huang",
+          "url": "https://www.theverge.com/?p=1030446"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-10-vf8vtv",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "California voters reject measure to tax the wealth of billionaires",
+      "summary": "The measure was seen as a key test for the global campaign against inequality, but warnings that the super-rich would leave the state won out.",
+      "url": "https://www.france24.com/en/video/20261110-california-voters-reject-measure-to-tax-the-wealth-of-billionaires",
+      "headlineSource": "France 24",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-10T11:30:00.000Z",
+      "sourceCount": 10,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 23.82,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 7.8,
+        "wire": 3.2,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "California voters reject billionaire tax",
+          "url": "https://www.aljazeera.com/news/2026/11/10/california-voters-reject-billionaire-tax?traffic_source=rss"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Californians reject Prop 40, the billionaire tax tech elites spent millions trying to stop",
+          "url": "https://www.businessinsider.com/california-reject-billionaire-five-percent-tax-tech-elite-tried-stop-2026-11"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "California voters reject one-off billionaire wealth tax US media predicts",
+          "url": "https://www.euronews.com/2026/11/10/california-voters-reject-one-off-billionaire-wealth-tax-us-media-predicts"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "California voters reject measure to tax the wealth of billionaires",
+          "url": "https://www.france24.com/en/video/20261110-california-voters-reject-measure-to-tax-the-wealth-of-billionaires"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "California voters officially reject controversial billionaire tax in setback for progressive agenda",
+          "url": "https://nypost.com/2026/11/09/us-news/california-voters-officially-reject-controversial-billionaire-tax-in-setback-for-progressive-agenda/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Why did California's billionaire tax fail to surf the blue wave?",
+          "url": "https://www.npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "California Voters Reject 5% Billionaire Wealth Tax",
+          "url": "https://reason.com/2026/11/09/california-voters-reject-5-billionaire-wealth-tax/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "California billionaire tax measure defeated in contentious vote",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373896/california-billionaire-tax-defeated-contentious-vote"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "California voters fail to pass proposed one-time tax on billionaires’ wealth",
+          "url": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Tech billionaires dodge massive wealth tax as California voters decisively reject controversial Proposition",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/california-proposition-40-billionaire-tax-b3082216.html"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-10-15nwvxo",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US moves aircraft from second UK base over ‘threat from Iran’",
+      "summary": "The precaution comes weeks after a suspected Iran-linked security incident at RAF Fairford airbase.",
+      "url": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-10T11:53:02.000Z",
+      "sourceCount": 10,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 22.46,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "US refueling tankers moved to Germany due to unspecified Iran threat, source says",
+          "url": "https://abcnews.com/International/refueling-tankers-moved-uk-germany-due-unspecified-iran/story?id=138004946"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US moves aircraft from second UK base over ‘threat from Iran’",
+          "url": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Reported Iran threat sees U.S. moves planes from second U.K. base",
+          "url": "https://www.cbsnews.com/news/raf-mildenhall-us-tanker-relocation-iran-threat-military-aircraft-moved/"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "U.S. moves military aircraft from British base amid Iran threats",
+          "url": "https://www.nbcnews.com/world/europe/us-moves-military-aircraft-british-base-iran-threats-raf-mildenhall-rcna608501"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "US pulls aircraft from second British base over threat from Iran: report",
+          "url": "https://nypost.com/2026/11/10/us-news/us-pulls-aircraft-from-second-british-base-over-threat-from-iran-report/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "US withdraws military aircraft from second UK airbase after Iran threat: reports",
+          "url": "https://www.scmp.com/news/world/europe/article/3373947/us-withdraws-9-military-aircraft-second-uk-airbase-after-iran-threat-reports"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "US reportedly evacuates aircraft from RAF Mildenhall over Iran threat",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "U.S. aircraft evacuated from second U.K. base due to Iran threat, WSJ reports",
+          "url": "https://www.japantimes.co.jp/news/2026/11/10/world/us-uk-base-evacuated-iran/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US aircraft evacuated from second British base due to Iran threat: Wall Street Journal",
+          "url": "https://www.straitstimes.com/world/europe/us-aircraft-evacuated-from-second-uk-base-due-to-iran-threat-wsj-reports"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Mystery threat puts US bases in Britain on high alert, aircraft shifted",
+          "url": "https://timesofindia.indiatimes.com/world/us/mystery-threat-puts-us-bases-in-britain-on-high-alert-aircraft-shifted/articleshow/135707507.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-10-17i37z4",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Netanyahu's daily calls to Trump over Iran war spark pushback within White House: Report",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu has reportedly been urging President Donald Trump daily to resume military action against Iran. This comes as several Arab and Muslim leaders have advised Trump to pursue diplomatic avenues rather than escalate the…",
+      "url": "https://timesofindia.indiatimes.com/world/us/netanyahus-daily-calls-to-trump-over-iran-war-spark-pushback-within-white-house-report/articleshow/135703743.cms",
+      "headlineSource": "Times of India",
+      "summarySource": "Times of India",
+      "publishedAt": "2026-11-10T11:56:35.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 6,
+      "score": 21.24,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: New reaction to White House shake-up as newly elected Democrats head to Washington",
+          "url": "https://abcnews.com/video/137968637/"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "UFC CEO Dana White takes the White House podium during Washington visit",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/ufc-ceo-dana-white-takes-the-white-house-podium-during-washington-visit?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Dana White declines Trump’s offer to be White House press secretary",
+          "url": "https://www.bbc.co.uk/news/videos/cwm2328pyy1jo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump says Iran war at \"status quo,\" warns U.S. \"locked and loaded\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "US midterms open door to Iran diplomacy. Can a deal be struck?",
+          "url": "https://www.csmonitor.com/World/Middle-East/2026/1109/iran-war-diplomacy-trump-qatar-midterms?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump’s C-SPAN call marks latest surprise post-midterm appearance",
+          "url": "https://www.cnbc.com/2026/11/10/trump-cspan-call-elections.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump says Iran war ‘effectively over’ as Tehran denies planned talks",
+          "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Trump meets key Iran war mediator as UAE reveals major oil export surge despite conflict",
+          "url": "https://www.foxnews.com/world/trump-meets-key-iran-war-mediator-uae-reveals-major-oil-export-surge-despite-conflict"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "5 takeaways from Trump's surprise White House briefing",
+          "url": "https://thehill.com/homenews/administration/6209377-trump-briefing-dana-white-pete-hegseth/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump says Iran war is ‘effectively over’ after midterms humiliation",
+          "url": "https://www.independent.co.uk/news/world/middle-east/trump-iran-war-midterms-strikes-b3082221.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Most Americans want new Democratic Congress to end Trump’s Iran war: Poll",
+          "url": "https://www.straitstimes.com/world/united-states/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-reutersipsos-poll-finds"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Netanyahu's daily calls to Trump over Iran war spark pushback within White House: Report",
+          "url": "https://timesofindia.indiatimes.com/world/us/netanyahus-daily-calls-to-trump-over-iran-war-spark-pushback-within-white-house-report/articleshow/135703743.cms"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-10-grrvoq",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US, Russia and Ukraine start talks in Abu Dhabi",
+      "summary": "Peace talks between Russia, Ukraine and the US are getting underway in the United Arab Emirates. It is the first such meeting since February.",
+      "url": "https://www.dw.com/en/us-russia-and-ukraine-start-talks-in-abu-dhabi/live-79906232?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-10T11:58:39.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 20.34,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S., Russia and Ukraine start talks aimed at ending war",
+          "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-peace-abu-dhabi-deal/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Expectations low as US gives Ukraine peace talks another try",
+          "url": "https://www.csmonitor.com/USA/Foreign-Policy/2026/1110/ukraine-peace-talks-us-russia-abu-dhabi-uae-donetsk?icid=rss"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump sees opening for Ukraine peace deal, but key questions remain ahead of Abu Dhabi talks",
+          "url": "https://www.cnbc.com/2026/11/10/trump-russia-ukraine-abu-dhabi-war-talks.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US, Russia and Ukraine start talks in Abu Dhabi",
+          "url": "https://www.dw.com/en/us-russia-and-ukraine-start-talks-in-abu-dhabi/live-79906232?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Russia and Ukraine hold US-backed talks after Trump says broad deal is possible",
+          "url": "https://www.france24.com/en/video/20261110-russia-and-ukraine-hold-us-backed-talks-after-trump-says-broad-deal-is-possible"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "U.S.-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Russia launched deadly Ukraine attacks hours before start of Abu Dhabi talks – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Huge attack causes power outages across Ukraine hours before crucial peace talks",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-peace-talks-drone-strike-b3082131.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Ukraine Peace Talks Resume This Week in Abu Dhabi",
+          "url": "https://www.nytimes.com/2026/11/09/world/europe/ukraine-russia-peace-talks.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US calls for ‘new’ Europe security framework as Russia-Ukraine talks open",
+          "url": "https://www.straitstimes.com/world/us-calls-for-new-europe-security-framework-as-russia-ukraine-talks-open"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-10-23atse",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "British comedian Russell Brand sentenced to 10 years and six months for rape, sexual assault",
+      "summary": "The British comedian was found guilty of one count of rape and three counts of sexual assault on Thursday following a four-week trial.",
+      "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-10T11:33:38.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 18.87,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Russell Brand sentenced to over 10 years for rape and sex assault",
+          "url": "https://www.cbsnews.com/news/russell-brand-sentenced-prison-rape-sexual-assault/"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "'Staggeringly arrogant' predator Russell Brand is being probed over new abuse claims after 'multiple reports' came in following his rape conviction: Star begins 10½-year term…",
+          "url": "https://www.dailymail.com/crime-desk/article-16279883/Staggeringly-arrogant-Russell-Brand-claims-ex-Jemima-Goldsmith.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "British comedian Russell Brand sentenced to 10 years and six months for rape, sexual assault",
+          "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Russell Brand is sentenced to 10 years and six months for rape and sexual assault",
+          "url": "https://www.nbcnews.com/video/russell-brand-is-sentenced-to-10-years-and-six-month-for-rape-and-sexual-assault-273134149781"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Brand barrister’s cross-examination of victims shocking and depressing, says Labour deputy",
+          "url": "https://www.theguardian.com/news/2026/nov/10/lucy-powell-russell-brand-cross-examination-victims"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "British police say assessing further reports about Russell Brand",
+          "url": "https://www.straitstimes.com/world/europe/british-police-say-assessing-further-reports-about-russell-brand"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-10-1xn69ld",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Australia tightens AI oversight rules after OpenAI government breach",
+      "summary": "The decision comes after ​an OpenAI agent breached ​an Australian government website in June.",
+      "url": "https://www.aljazeera.com/news/2026/11/10/australia-tightens-ai-oversight-rules-after-openai-government-breach?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-10T11:01:06.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.12,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Australia tightens AI oversight rules after OpenAI government breach",
+          "url": "https://www.aljazeera.com/news/2026/11/10/australia-tightens-ai-oversight-rules-after-openai-government-breach?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Australia to introduce mandatory AI safeguards",
+          "url": "https://www.dw.com/en/australia-to-introduce-mandatory-ai-safeguards/a-79906006?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+          "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Australia to set up AI regulator after OpenAI breaches government portal",
+          "url": "https://www.independent.co.uk/news/world/australasia/australia-ai-regulator-openai-breach-chatgpt-b3082128.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Australia Unveils New A.I. Regulator After OpenAI Breach",
+          "url": "https://www.nytimes.com/2026/11/10/world/australia/ai-regulator-openai-hack-medicare.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-10-1r6cvl5",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "China’s trade surplus soars past $1 trillion as AI boom powers exports",
+      "summary": "The surplus highlight Beijing's growing reliance on overseas demand to support an economy hobbled by subdued consumption and a property slump.",
+      "url": "https://www.japantimes.co.jp/business/2026/11/10/tech/china-trade-surplus-1-trillion-ai/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-10T11:30:06.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 16.25,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "China's goods surplus tops $1 trillion for a second year amid calls for Beijing to rebalance trade",
+          "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "'China spy' said she could get US tech: Woman who had affair with American billionaire boasted of securing AI chips despite export ban",
+          "url": "https://www.dailymail.com/news/article-16279821/China-spy-Woman-affair-American-billionaire.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "US lawmakers push for tougher China export controls in defence bill amid Nvidia scrutiny",
+          "url": "https://www.scmp.com/tech/tech-war/article/3373940/us-lawmakers-push-tougher-china-export-controls-defence-bill-amid-nvidia-scrutiny"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "China’s trade surplus soars past $1 trillion as AI boom powers exports",
+          "url": "https://www.japantimes.co.jp/business/2026/11/10/tech/china-trade-surplus-1-trillion-ai/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "China’s Trade Surplus Passes $1 Trillion at Record Pace",
+          "url": "https://www.nytimes.com/2026/11/09/business/china-trade-surplus-trillion.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-10-378rbl",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Fossil fuel emissions fall due to Iran war and renewables, research shows",
+      "summary": "It would be the first annual drop since 2020, when the Covid-19 pandemic paralysed trade and transport.",
+      "url": "https://www.japantimes.co.jp/environment/2026/11/10/energy/fossil-fuel-emissions-fall/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-10T10:35:11.000Z",
+      "sourceCount": 5,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 15.81,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 2.5,
+        "wire": 3.2,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Global carbon emissions from fossil fuels are projected to decrease by 0.4% in 2026, promising study reveals",
+          "url": "https://www.dailymail.com/sciencetech/article-16278201/Global-carbon-emissions-fossil-fuels-decrease.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Iran war oil shock drives dip in global emissions, study shows",
+          "url": "https://www.dw.com/en/iran-war-oil-shock-drives-dip-in-global-emissions-study-shows/a-79905937?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Fossil fuel emissions set to fall for first time since Covid, research shows",
+          "url": "https://www.france24.com/en/environment/20261110-fossil-fuel-emissions-set-to-fall-for-first-time-since-covid-research-shows"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Fossil fuel emissions fall due to Iran war and renewables, research shows",
+          "url": "https://www.japantimes.co.jp/environment/2026/11/10/energy/fossil-fuel-emissions-fall/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Fossil fuel emissions fall due to Iran war, renewables: Research",
+          "url": "https://www.straitstimes.com/world/fossil-fuel-emissions-fall-due-to-iran-war-renewables-research"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-10-1niupxo",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Oil prices fall to lowest since August as Trump says Iran war is ‘effectively over’",
+      "summary": "The global benchmark price is down roughly $20 a barrel since late October, when it traded for around $113.",
+      "url": "https://www.theguardian.com/business/2026/nov/10/oil-prices-fall-donald-trump-iran-war-ftse-100-markets",
+      "headlineSource": "The Guardian",
+      "summarySource": "NYT Business",
+      "publishedAt": "2026-11-10T11:36:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 13.32,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 0,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Falling Oil Prices and Bond Yields Offer Investors Some Relief",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/falling-oil-prices-and-bond-yields-offer-investors-some-relief"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Brent crude falls below $90 for first time since August on Iran war de-escalation hopes",
+          "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Oil Prices Fall on Hopes for Peace Between U.S. and Iran",
+          "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/oil-price-iran-trump-war.html"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Oil prices fall to lowest since August as Trump says Iran war is ‘effectively over’",
+          "url": "https://www.theguardian.com/business/2026/nov/10/oil-prices-fall-donald-trump-iran-war-ftse-100-markets"
+        }
+      ]
+    }
+  ]
+}
