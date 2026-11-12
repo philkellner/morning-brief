@@ -1,0 +1,948 @@
+{
+  "version": 1,
+  "edition": "2026-11-12",
+  "generatedAt": "2026-11-12T12:10:46.397Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-12-11qfpym",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
+      "summary": "Extramarital affairs are usually private matters. Jensen Huang's has global implications.",
+      "url": "https://www.pbs.org/newshour/world/how-nvidia-ceo-jensen-huangs-extramarital-affair-could-cause-collateral-damage-in-washington",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-12T12:03:39.000Z",
+      "sourceCount": 14,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 25.21,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 7.8,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+          "url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
+          "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Stocks Fall as Nvidia Slides 6% on CEO Turmoil: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Jensen Huang on Nvidia succession weeks before scandal hit: 'Just as I can be fired, the next CEO has to be hired'",
+          "url": "https://www.businessinsider.com/jensen-huang-nvidia-next-ceo-earn-job-affair-scandal-2026-11"
+        },
+        {
+          "source": "Economist Business",
+          "sourceId": "econ_business",
+          "lean": "center-right",
+          "title": "Jensen Huang’s recklessness leaves Nvidia with no good options",
+          "url": "https://www.economist.com/business/2026/11/12/jensen-huangs-recklessness-leaves-nvidia-with-no-good-options"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Nvidia board weighs Jensen Huang’s future as reports emerge of second affair",
+          "url": "https://www.euronews.com/2026/11/12/nvidia-board-weighs-jensen-huangs-future-as-reports-emerge-of-second-affair"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Nvidia preparing to replace CEO Jensen Huang as second alleged affair emerges: report",
+          "url": "https://www.foxbusiness.com/markets/nvidia-preparing-replace-ceo-jensen-huang-second-alleged-affair-emerges-report"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "New report alleges that Jensen Huang had relationship with an Nvidia executive",
+          "url": "https://www.nbcnews.com/video/new-report-alleges-that-jensen-huang-had-relationship-with-an-nvidia-executive-273299525963"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
+          "url": "https://www.pbs.org/newshour/world/how-nvidia-ceo-jensen-huangs-extramarital-affair-could-cause-collateral-damage-in-washington"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+          "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Nvidia’s Asian supply chain prepares for life after Huang",
+          "url": "https://www.japantimes.co.jp/business/2026/11/12/nvidia-supply-chain-asia/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "In China’s Spy Operations, Romance Can Be a Long Game",
+          "url": "https://www.nytimes.com/2026/11/12/world/asia/china-spy-espionage-romance.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+          "url": "https://www.theverge.com/?p=1031652"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-12-6mjhll",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Nvidia board weighing up whether or not to oust CEO Jensen Huang",
+      "summary": "CEO of chip maker is under scrutiny after reports of affairs, including a relationship with an alleged Chinese spy.",
+      "url": "https://www.france24.com/en/tv-shows/business/20261112-nvidia-board-weighing-up-whether-or-not-to-oust-ceo-jensen-huang",
+      "headlineSource": "France 24",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-12T12:05:42.000Z",
+      "sourceCount": 15,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 24.09,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Nvidia board weighs Jensen Huang’s future: Can it remove its founder?",
+          "url": "https://www.aljazeera.com/news/2026/11/12/nvidia-board-weighs-jensen-huangs-future-can-it-remove-its-founder?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+          "url": "https://www.cbsnews.com/video/nvidias-board-preparing-oust-ceo-jensen-huang-sources-say/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Nvidia stock falls 8% as investors await Jensen Huang’s fate",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Nvidia CEO Jensen Huang caught in second affair after Chinese spy scandal as chip giant's stocks plummet",
+          "url": "https://www.dailymail.com/news/article-16285603/Nvidia-Jensen-Huang-cheating-Kimberly-Powell.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy",
+          "url": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Nvidia board weighing up whether or not to oust CEO Jensen Huang",
+          "url": "https://www.france24.com/en/tv-shows/business/20261112-nvidia-board-weighing-up-whether-or-not-to-oust-ceo-jensen-huang"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Jensen Huang built Nvidia into a behemoth. His scandal puts the entire AI boom in jeopardy.",
+          "url": "https://www.marketwatch.com/story/jensen-huang-built-nvidia-into-a-behemoth-his-scandal-puts-the-entire-ai-boom-in-jeopardy-c374b079?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Megaspeed, chip firm at center of Nvidia scandal, pledges to cooperate with U.S. investigation",
+          "url": "https://www.nbcnews.com/tech/tech-news/megaspeed-statement-nvidia-jensen-huang-alice-us-exports-chips-china-rcna608939"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Nvidia Scandal Puts Lori Huang, Jensen Huang’s Wife, In the Spotlight",
+          "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-affair-lori-huang.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Loyalty vs accountability: a look at the Nvidia board deciding CEO Jensen Huang’s fate",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374203/loyalty-vs-accountability-look-nvidia-board-deciding-ceo-jensen-huangs-fate"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Nvidia stock tanks after report of second Jensen Huang affair",
+          "url": "https://thehill.com/business/6214833-nvidia-ceo-jesen-huang-affair/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Nvidia moves to oust spy-tainted CEO Jensen Huang after word of affair with subordinate: report",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-ceo-affair-b3083502.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Chinese AI firms rush to secure Nvidia chip capacity as scandal stirs fear of curbs",
+          "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/china-ai-nvidia-spy-us-chip-curbs/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Nvidia drama triggers difficult search for Jensen Huang’s successor",
+          "url": "https://www.straitstimes.com/world/united-states/who-could-potentially-replace-jensen-huang-if-nvidia-ousts-him"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-12-17vdpd",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Millions join Spain's first general strike in 14 years as anger over housing leads to clashes",
+      "summary": "Anger over housing affordability and purchasing power leads to clashes amid Spain's first general strike in 14 years.",
+      "url": "https://www.france24.com/en/video/20261112-millions-join-spain-s-first-general-strike-in-14-years-as-anger-over-housing-leads-to-clashes",
+      "headlineSource": "France 24",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-12T10:33:28.000Z",
+      "sourceCount": 11,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 22.7,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.35,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Photos: Protesters clash with police after housing cost rallies in Spain",
+          "url": "https://www.aljazeera.com/gallery/2026/11/12/photos-protesters-clash-with-police-after-housing-cost-rallies-in-spain?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "General strikes to paralyze Spain as protestors clash with police ahead of election campaign",
+          "url": "https://www.cnbc.com/2026/11/11/spain-protests-general-strikes-election.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
+          "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+          "url": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Fiery chaos erupts across Spain as protesters clash with police during massive nationwide strike",
+          "url": "https://www.foxnews.com/world/fiery-chaos-erupts-spain-protesters-clash-police-massive-nationwide-strike"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Millions join Spain's first general strike in 14 years as anger over housing leads to clashes",
+          "url": "https://www.france24.com/en/video/20261112-millions-join-spain-s-first-general-strike-in-14-years-as-anger-over-housing-leads-to-clashes"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Fiery clashes erupt in Spain as millions join general strike",
+          "url": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Millions join Spain’s first general strike in 14 years in protest at housing costs",
+          "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
+          "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Millions of Spaniards stage first general strike in 14 years as anger over housing leads to clashes",
+          "url": "https://www.straitstimes.com/world/europe/millions-of-spaniards-stage-first-general-strike-in-14-years-as-anger-over-housing-leads-to-clashes"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-12-1wxzhg5",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
+      "summary": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
+      "url": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html",
+      "headlineSource": "CNBC",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-12T11:58:37.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 19.96,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US envoys arrive in Moscow for Russia-Ukraine talks with Putin",
+          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
+          "url": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine peace talks: US envoys arrive in Russia to meet with Putin",
+          "url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "New restrictions to Starshield network 'kill more Ukrainians', Zelensky says",
+          "url": "https://www.france24.com/en/europe/20261112-new-systematic-restrictions-starshield-network-kill-more-ukrainians-zelensky-says"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Ukraine faces new Starshield disruptions as Trump envoys meet Putin",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-starshield-limits-russia-war-trump-musk-rcna608938"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Ukraine Hit By New 'Systematic' Starshield Restrictions, Says Zelensky",
+          "url": "https://www.newsweek.com/ukraine-hit-by-new-systematic-starshield-restrictions-says-zelensky-12703360"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Ukraine hit by ‘significant’ Starshield disruptions as US envoys meet Putin, Zelenskyy says - Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US envoys go to Kremlin for talks with Putin on Ukraine",
+          "url": "https://www.straitstimes.com/world/europe/us-envoys-arrive-in-moscow-for-latest-round-of-ukrainian-peace-talks-with-putin"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Not random': Zelenskyy flags 'systematic disruptions' in Musk's Starshield",
+          "url": "https://timesofindia.indiatimes.com/world/europe/not-random-zelenskyy-flags-disruptions-in-musks-starshield-despite-trumps-claim/articleshow/135767294.cms"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-12-1aemdl9",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Famed ship SS United States deliberately sunk off Florida coast to become a reef",
+      "summary": "The historic SS United States, once the fastest ship on the seas, made a slow final journey beneath the waters Wednesday.",
+      "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o",
+      "headlineSource": "BBC News",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-12T11:43:18.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 19.11,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Famed ship SS United States deliberately sunk off Florida coast to become a reef",
+          "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Moment historic SS United States sinks off Florida’s coast",
+          "url": "https://www.euronews.com/2026/11/12/moment-historic-ss-united-states-sinks-off-floridas-coast"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Historic SS United States sinks after hours-long goodbye off Florida’s coast",
+          "url": "https://nypost.com/2026/11/12/us-news/historic-ss-united-states-sinks-after-hours-long-goodbye-to-become-artificial-reef-off-floridas-coast/"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "SS United States Has Just Been Sunk—What Happens Next?",
+          "url": "https://www.newsweek.com/ss-united-states-sunk-what-happens-next-12703668"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Legendary liner SS United States slips beneath waves off Florida coast",
+          "url": "https://www.independent.co.uk/news/world/americas/ss-united-states-florida-destin-reef-b3083805.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Famed ship heads for afterlife as artificial reef in deliberate sinking off Florida",
+          "url": "https://www.straitstimes.com/world/united-states/famed-ship-heads-for-afterlife-as-artificial-reef-in-deliberate-sinking-off-florida"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-12-emkiun",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Democrat Scott Colom wins Mississippi Senate seat in historic upset",
+      "summary": "Mississippi hadn't elected a Democrat to the U.S. Senate in more than 40 years.",
+      "url": "https://www.euronews.com/2026/11/12/democrat-scott-colom-wins-mississippi-senate-seat-in-historic-upset",
+      "headlineSource": "Euronews",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-12T11:31:16.000Z",
+      "sourceCount": 12,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 8,
+      "score": 18.69,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Democrat Colom flips Mississippi Senate seat",
+          "url": "https://abcnews.com/Politics/democrat-colom-mississippis-black-senator-100-years-ap/story?id=137984057"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Who is Scott Colom, Mississippi’s first Black senator in 150 years?",
+          "url": "https://www.aljazeera.com/news/2026/11/12/who-is-scott-colom-mississippis-first-black-senator-in-150-years?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
+          "url": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith",
+          "url": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Democrat Scott Colom wins Mississippi Senate seat in historic upset",
+          "url": "https://www.euronews.com/2026/11/12/democrat-scott-colom-wins-mississippi-senate-seat-in-historic-upset"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Scott Colom makes history in Mississippi as first Black senator in more than 140 years",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261112-scott-colom-makes-history-in-mississippi-as-first-black-senator-in-more-than-140-years"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Democrat Scott Colom wins the closest Senate race in the country",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Scott Colom wins Senate election in Mississippi",
+          "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "Mississippi elects Democrat Scott Colom to Senate in massive upset",
+          "url": "https://www.politico.com/news/2026/11/11/scott-colom-wins-mississippi-senate-01161555"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Democrats rally around Colom's historic Mississippi victory",
+          "url": "https://thehill.com/homenews/campaign/6215058-colom-makes-mississippi-history/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Democrat Colom wins Mississippi Senate seat, becomes state's first Black senator since 1874",
+          "url": "https://www.straitstimes.com/world/democrat-colom-wins-mississippi-senate-seat-becomes-states-first-black-senator-since-18741"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-12-7optk3",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Baby buried in dog crate for 24 hours survives; South Carolina father charged",
+      "summary": "Cool temperatures and a towel that created an air pocket probably kept him alive, according to the local sheriff.",
+      "url": "https://timesofindia.indiatimes.com/world/us/an-11-month-old-south-carolina-boy-survived-after-being-buried-underground-in-a-dog-crate-for-24-hours-rescuers-heard-koah-sharp-crying-and-his-father-has-now-been-charged-with-attempted-murder-/articleshow/135767176.cms",
+      "headlineSource": "Times of India",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-12T11:24:18.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 18.5,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
+          "url": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Hospitals impose visiting restrictions for children and teenagers in South Carolina amid surging flu rates",
+          "url": "https://www.dailymail.com/health/article-16282435/hospitals-visiting-restrictions-south-carolina-flu.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Baby buried in dog crate in US found alive after 24 hours",
+          "url": "https://www.euronews.com/2026/11/12/baby-buried-in-dog-crate-in-us-found-alive-after-24-hours"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "South Carolina baby buried alive for over 24 hours miraculously released from hospital as dad is charged with attempted murder",
+          "url": "https://nypost.com/2026/11/12/us-news/11-month-old-buried-alive-for-24-hours-miraculously-released-from-hospital-as-dad-is-charged-with-attempted-murder/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Missing South Carolina infant rescued after being buried alive in a dog crate for 24 hours",
+          "url": "https://www.pbs.org/newshour/nation/missing-south-carolina-infant-rescued-after-being-buried-alive-in-a-dog-crate-for-24-hours"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Baby buried in dog crate for 24 hours survives; South Carolina father charged",
+          "url": "https://timesofindia.indiatimes.com/world/us/an-11-month-old-south-carolina-boy-survived-after-being-buried-underground-in-a-dog-crate-for-24-hours-rescuers-heard-koah-sharp-crying-and-his-father-has-now-been-charged-with-attempted-murder-/articleshow/135767176.cms"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-12-9lpjnj",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "At least 6 dead, multiple injured after building collapses in Brooklyn",
+      "summary": "At least two people have died and 17 others were injured after a three-storey building partially collapsed in Brooklyn, shortly after 4 pm on Wednesday, 11 November. Rescuers pulled four survivors from the rubble as firefighters continued searching for people…",
+      "url": "https://abcnews.com/US/rescue-operations-underway-after-building-collapses-brooklyn-new/story?id=138059620",
+      "headlineSource": "ABC News",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-12T12:06:31.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 18.34,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "At least 6 dead, multiple injured after building collapses in Brooklyn",
+          "url": "https://abcnews.com/US/rescue-operations-underway-after-building-collapses-brooklyn-new/story?id=138059620"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "New York building collapse kills at least four people",
+          "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Two dead and at least 17 injured, including seven children, in NYC building collapse: Desperate search launched for survivors trapped under rubble as Mamdani rushes to scene",
+          "url": "https://www.dailymail.com/news/article-16285551/brooklyn-new-york-city-building-collapse-people-trapped.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "US: Survivor pulled alive from rubble after deadly Brooklyn collapse",
+          "url": "https://www.euronews.com/video/2026/11/12/us-survivor-pulled-alive-from-rubble-after-deadly-brooklyn-collapse"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "New York: Deadly building collapse in Brooklyn",
+          "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "At least 5 confirmed dead in collapsed NYC building as massive rescue operation continues",
+          "url": "https://nypost.com/2026/11/12/us-news/at-least-4-confirmed-dead-in-collapsed-nyc-building-as-massive-rescue-operation-continues/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Pregnant woman rescued from rubble after Brooklyn building collapse kills six",
+          "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-pregnant-woman-b3083626.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-12-1na2llh",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+      "summary": "The victims included a surgeon, and dozens more were injured. Israel said it was targeting a Hamas commander and other militants.",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-12T12:03:47.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 18.3,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Israeli strike on Gaza hospital kills 6, health authorities say",
+          "url": "https://www.cbsnews.com/news/israel-strike-gaza-hospital-kills-several/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Israel targets senior Hamas member in Gaza hospital strike",
+          "url": "https://www.dw.com/en/israel-targets-senior-hamas-member-in-gaza-hospital-strike/a-79927645?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Israeli strike on Gaza hospital kills at least six people, officials say",
+          "url": "https://www.nbcnews.com/world/middle-east/israeli-strike-gaza-nasser-hospital-abu-shaira-doctor-hamas-rcna608932"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
+          "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Israeli strike on Gaza hospital kills 6, and other Mideast news",
+          "url": "https://www.independent.co.uk/news/world/europe/israeli-gaza-france-hamas-benjamin-netanyahu-b3083703.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
+          "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-12-ox6fjm",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Conflict must not distract from climate action, leaders warn COP31",
+      "summary": "COP31 host Turkey has been pushing for a goal to expand electrification at the center of a deal, even as critics say it may do little to curb warming.",
+      "url": "https://www.japantimes.co.jp/environment/2026/11/12/climate-change/conflict-climate-action-cop31/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-12T11:43:13.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 14.32,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "COP31: Climate disruption puts farmers and global food supplies under pressure",
+          "url": "https://www.france24.com/en/video/20261112-cop31-climate-disruption-puts-farmers-and-global-food-supplies-under-pressure"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
+          "url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Conflict must not distract from climate action, leaders warn COP31",
+          "url": "https://www.japantimes.co.jp/environment/2026/11/12/climate-change/conflict-climate-action-cop31/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Venezuela tells COP31 it has a sovereign right to pump more oil",
+          "url": "https://www.straitstimes.com/world/europe/venezuela-tells-cop31-it-has-a-sovereign-right-to-pump-more-oil"
+        }
+      ]
+    }
+  ]
+}
