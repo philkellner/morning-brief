@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-11-13",
-  "generatedAt": "2026-11-13T11:51:12.960Z",
+  "edition": "2026-11-14",
+  "generatedAt": "2026-11-14T11:12:37.125Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,37 +12,32 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 62,
-    "failed": [
-      {
-        "id": "newsweek",
-        "error": "HTTP 404"
-      }
-    ]
+    "succeeded": 63,
+    "failed": []
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-11-13-1ob0izu",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Jensen Huang’s fall sparks dismay in Asia over Nvidia ex-CEO’s family man image",
-      "summary": "Huang’s usual take-charge demeanour had evaporated and it looked like he had given up.",
-      "url": "https://www.scmp.com/week-asia/people/article/3374337/jensen-huangs-fall-sparks-dismay-asia-over-nvidia-ex-ceos-family-man-image",
+      "id": "2026-11-14-1ntb9hw",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US flight departures resume after FAA lifts nationwide ground stop",
+      "summary": "The Federal Aviation Administration (FAA) says airplane departures can resume after the agency lifted a nationwide ground stop caused by communications problems. Air travel across the United States had come to a halt earlier on Friday afternoon after the…",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
       "headlineSource": "South China Morning Post",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-13T11:16:06.000Z",
-      "sourceCount": 20,
-      "leanCount": 5,
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-14T10:45:51.000Z",
+      "sourceCount": 17,
+      "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 7,
-      "score": 26.62,
+      "wireCount": 9,
+      "score": 24.57,
       "scoreComponents": {
-        "breadth": 13.18,
-        "diversity": 7.8,
+        "breadth": 12.51,
+        "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.44,
+        "freshness": 2.46,
         "softPenalty": 0
       },
       "coverage": [
@@ -50,163 +45,142 @@
           "source": "Ars Technica",
           "sourceId": "arstechnica",
           "lean": "center",
-          "title": "Nvidia CEO Jensen Huang has resigned",
-          "url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+          "title": "FAA has lifted its third-ever nationwide ground stop",
+          "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o"
+          "title": "What we know about the ground stop and what to do if you're affected",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo"
         },
         {
           "source": "Business Insider",
           "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "Trump says he spoke to Jensen Huang on Wednesday: ‘He’s going through hell’",
-          "url": "https://www.businessinsider.com/trump-spoke-to-jensen-huang-going-through-hell-resigned-nvidia-2026-11"
+          "title": "FAA lifts nationwide ground stop, but chaos will continue after 10,000 flights were delayed and 6,600 canceled",
+          "url": "https://www.businessinsider.com/faa-national-ground-stop-flights-2026-11"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
-          "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "'I'm just a piece of sh**': Insiders 'reveal Jensen Huang's final hours as Nvidia CEO - 'he started saying he didn't care''",
-          "url": "https://www.dailymail.com/news/article-16289735/Im-just-piece-sh-Insiders-reveal-Jensen-Huangs-final-hours-Nvidia-CEO-started-saying-didnt-care.html"
+          "title": "U.S. flights resume after FAA ground stop, but travel disruption continues",
+          "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "Jensen Huang: Spy row, affairs leave Nvidia without its rockstar CEO",
-          "url": "https://www.dw.com/en/jensen-huang-spy-row-affairs-leave-nvidia-without-its-rockstar-ceo/a-79926972?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Economist Business",
-          "sourceId": "econ_business",
-          "lean": "center-right",
-          "title": "Jensen Huang’s recklessness leaves Nvidia with no good options",
-          "url": "https://www.economist.com/business/2026/11/12/jensen-huangs-recklessness-leaves-nvidia-with-no-good-options"
+          "title": "US lifts nationwide ground stop for airports hours after halting all departures",
+          "url": "https://www.dw.com/en/us-lifts-nationwide-ground-stop-for-airports-hours-after-halting-all-departures/a-79945062?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Euronews",
           "sourceId": "euronews",
           "lean": "center",
-          "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
-          "url": "https://www.euronews.com/2026/11/12/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang"
+          "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
+          "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop"
         },
         {
           "source": "Fox Business",
           "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Nvidia CEO Jensen Huang resigns amid investigation into relationship with alleged Chinese spy",
-          "url": "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
+          "title": "Nationwide FAA ground stop lifted but cancellations, significant delays to continue: Transportation secretary",
+          "url": "https://www.foxbusiness.com/fox-news-us/nationwide-faa-ground-stop-lifted-cancellations-significant-delays-continue-transportation-secretary"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Potential 'national security crisis' as Nvidia ex-CEO summoned by US Congress",
-          "url": "https://www.france24.com/en/video/20261113-potential-national-security-crisis-as-nvidia-ex-ceo-summoned-by-us-congress"
+          "title": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
+          "url": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data"
         },
         {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "A timeline of the affair scandal that sank Nvidia’s Jensen Huang",
-          "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline"
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "FAA lifts nationwide ground stop, 4 hours after air traffic chaos began — but thousands of NYC travelers left stranded",
+          "url": "https://nypost.com/2026/11/13/us-news/faa-lifts-nationwide-ground-stop-4-hours-after-air-traffic-chaos-began/"
         },
         {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
-          "url": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
+          "source": "NPR",
+          "sourceId": "npr",
           "lean": "center-left",
-          "title": "Jensen Huang Is Out at Nvidia",
-          "url": "https://www.nytimes.com/2026/11/12/podcasts/hardfork-jensen-huang-resigns.html"
+          "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop"
         },
         {
-          "source": "Politico",
-          "sourceId": "politico",
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Jensen Huang’s Washington fallout",
-          "url": "https://www.politico.com/video/2026/11/13/jensen-huangs-washington-fallout-2229409"
+          "title": "FAA issues rare nationwide ground stop due to 'extraordinary circumstances'",
+          "url": "https://www.pbs.org/newshour/show/faa-issues-rare-nationwide-ground-stop-due-to-extraordinary-circumstances"
         },
         {
           "source": "South China Morning Post",
           "sourceId": "scmp",
           "lean": "center",
-          "title": "Jensen Huang’s fall sparks dismay in Asia over Nvidia ex-CEO’s family man image",
-          "url": "https://www.scmp.com/week-asia/people/article/3374337/jensen-huangs-fall-sparks-dismay-asia-over-nvidia-ex-ceos-family-man-image"
+          "title": "US flight departures resume after FAA lifts nationwide ground stop",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Airport chaos continues after US ground stop lifted – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/nov/13/us-flight-outage-live-updates-faa-lifts-nationwide-ground-stop-as-airport-chaos-continues"
         },
         {
           "source": "The Hill",
           "sourceId": "thehill",
           "lean": "center",
-          "title": "Trump told Huang to fight for his job after affair scandals: Report",
-          "url": "https://thehill.com/homenews/administration/6217994-trump-nvidia-ceo-huang-resignation/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "What we know after Jensen Huang resigns as Nvidia CEO",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-donald-trump-ceo-beijing-malaysia-b3084263.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "‘I’m a piece of s---’: Jensen Huang’s last hours as Nvidia CEO",
-          "url": "https://www.japantimes.co.jp/news/2026/11/13/world/jensen-huang-nvidia-last-hours/"
+          "title": "Airspace reopened after nationwide ground stop",
+          "url": "https://thehill.com/policy/transportation/6220313-faa-lifts-nationwide-ground-stop/"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Whatever. I don’t care: Inside Jensen Huang’s last hours as Nvidia CEO",
-          "url": "https://www.straitstimes.com/world/united-states/inside-jensen-huangs-last-hours-as-nvidia-ceo"
+          "title": "US resumes flights after air traffic network failure sparks chaos",
+          "url": "https://www.straitstimes.com/world/united-states/us-faa-grounds-all-departing-flights-due-to-extraordinary-circumstance-safety-reasons"
         },
         {
           "source": "The Verge",
           "sourceId": "verge",
           "lean": "center-left",
-          "title": "‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation",
-          "url": "https://www.theverge.com/?p=1032434"
+          "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+          "url": "https://www.theverge.com/?p=1033489"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "US flight chaos: Trump official seeks $50 billion for air traffic control",
+          "url": "https://timesofindia.indiatimes.com/world/us/us-flight-chaos-trump-official-seeks-50-billion-for-air-traffic-control-overhaul-after-nationwide-disruptions/articleshow/135830168.cms"
         }
       ]
     },
     {
       "rank": 2,
-      "id": "2026-11-13-rebvgh",
+      "id": "2026-11-14-i5bt2p",
       "topic": "tech",
       "topicLabel": "Technology & physical science",
       "topicShort": "TECH",
-      "title": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
-      "summary": "A Microsoft outage disrupted Outlook and Teams worldwide, with reports from scores of countries and territories. The software giant said that it was \"not aware\" of malicious activity that could have caused the outage.",
-      "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
-      "headlineSource": "France 24",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-11-13T11:44:36.000Z",
-      "sourceCount": 17,
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-14T11:07:33.000Z",
+      "sourceCount": 15,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 6,
-      "score": 24.6,
+      "wireCount": 7,
+      "score": 24.09,
       "scoreComponents": {
-        "breadth": 12.51,
+        "breadth": 12,
         "diversity": 6.4,
         "wire": 3.2,
         "freshness": 2.49,
@@ -214,275 +188,261 @@
       },
       "coverage": [
         {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Microsoft Outlook outage updates: Latest on email as services go down",
-          "url": "https://abcnews.com/US/outlook-down-microsoft-outage-reported-mail/story?id=138088203"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Live: Microsoft struggles to restore services as outage hits global users",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss"
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+          "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "What we know about the global Microsoft outage",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "The Microsoft outage is disrupting email. These business leaders barely use it anyway.",
-          "url": "https://www.businessinsider.com/microsoft-outage-disrupting-email-ceo-business-leaders-barely-use-it-2026-11"
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Microsoft battling major worldwide outage",
+          "title": "Microsoft says it \"restored service\" after major worldwide outage",
           "url": "https://www.cbsnews.com/news/microsoft-battling-major-outage/"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "Widespread Microsoft outage continues, taking down Outlook and other 365 services",
+          "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
           "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
         },
         {
           "source": "Daily Mail",
           "sourceId": "dailymail",
           "lean": "right",
-          "title": "Microsoft is still DOWN: Firm says tools to fix global outage are 'not working as expected' with millions affected as Microsoft 365, Outlook, Teams, Copilot and OneDrive all hit",
-          "url": "https://www.dailymail.com/news/article-16289457/Microsoft-Firm-says-tools-fix-global-outage-not-working-expected-millions-affected-Microsoft-365-Outlook-Teams-Copilot-OneDrive-hit.html"
+          "title": "Microsoft says efforts to fix global outage 'not going as expected' with millions impacted worldwide",
+          "url": "https://www.dailymail.com/sciencetech/article-16289289/microsoft-outage-fix-struggles.html"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "Microsoft rules out 'malicious activity' as cause for global outage",
-          "url": "https://www.dw.com/en/microsoft-rules-out-malicious-activity-as-cause-for-global-outage/a-79935611?maca=en-rss-en-all-1573-rdf"
+          "title": "Microsoft says all services working again",
+          "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Fox Business",
           "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Microsoft 365 hit by multi-region connectivity issues amid elevated infrastructure load",
-          "url": "https://www.foxbusiness.com/technology/microsoft-365-hit-multi-region-connectivity-issues-amid-elevated-infrastructure-load"
+          "title": "Microsoft apologizes after major Outlook outage worldwide, blames technical issue",
+          "url": "https://www.foxbusiness.com/technology/microsoft-apologizes-after-major-outlook-outage-worldwide-blames-technical-issue"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
-          "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack"
+          "title": "Microsoft's widespread outages caused global chaos, including in the healthcasre industry",
+          "url": "https://www.france24.com/en/microsoft-s-widespread-outages-caused-global-chaos-including-in-the-healthcasre-industry"
         },
         {
-          "source": "NBC News",
-          "sourceId": "nbc",
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Microsoft services hit by major outage across the world",
-          "url": "https://www.nbcnews.com/tech/tech-news/outlook-widespread-outage-hits-microsoft-apps-rcna609047"
-        },
-        {
-          "source": "NYT Technology",
-          "sourceId": "nyt_tech",
-          "lean": "center-left",
-          "title": "Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-          "url": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html"
+          "title": "What to know about Microsoft's outage and why it takes so long to restore email services",
+          "url": "https://www.pbs.org/newshour/science/what-to-know-about-microsofts-outage-and-why-it-takes-so-long-to-restore-email-services"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
-          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Major Microsoft outage disrupts Teams and Outlook as thousands of users affected",
-          "url": "https://www.independent.co.uk/news/world/americas/microsoft-outage-today-latest-outlook-teams-down-openai-fixed-b3084265.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Microsoft outage gums up markets, forces traders to use phones",
-          "url": "https://www.straitstimes.com/world/microsoft-outage-gums-up-markets-forces-traders-to-use-phones"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Microsoft Outlook is still down",
-          "url": "https://www.theverge.com/?p=1032226"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "More than 16 hours after global outage, Microsoft still struggling to fix issue",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-365-outage-outlook-and-teams-see-incremental-improvement-but-company-says-issues-are-not-fully-fixed-yet/articleshow/135799684.cms"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-11-13-11xizgc",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Jensen Huang’s exit tests Nvidia’s supply chain clout, ability to bankroll AI buildout",
-      "summary": "For years, Jensen Huang was more than Nvidia’s CEO – he was a key figure driving the artificial intelligence boom, parlaying close ties with Asian chip foundries and aggressive financial backing into an unprecedented global buildout of data centres. Following…",
-      "url": "https://www.scmp.com/tech/big-tech/article/3374357/jensen-huangs-exit-tests-nvidias-supply-chain-clout-ability-bankroll-ai-buildout",
-      "headlineSource": "South China Morning Post",
-      "summarySource": "South China Morning Post",
-      "publishedAt": "2026-11-13T11:00:10.000Z",
-      "sourceCount": 9,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 3,
-      "score": 21.19,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 6.4,
-        "wire": 2.4,
-        "freshness": 2.42,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
-          "lean": "center",
-          "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
-          "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Jensen Huang shows the risk of becoming an indispensable leader",
-          "url": "https://www.businessinsider.com/jensen-huang-nvidia-flat-structure-leadership-succession-risk-2026-11"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
-          "url": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Jensen Huang joins list of high-profile founders ousted from their own companies",
-          "url": "https://www.foxbusiness.com/economy/jensen-huang-joins-list-high-profile-founders-ousted-from-own-companies"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "Who is Colette Kress, interim Nvidia CEO after Jensen Huang exit?",
-          "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?",
-          "url": "https://www.nytimes.com/2026/11/12/business/nvidia-colette-kress-jensen-huang.html"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Jensen Huang’s exit tests Nvidia’s supply chain clout, ability to bankroll AI buildout",
-          "url": "https://www.scmp.com/tech/big-tech/article/3374357/jensen-huangs-exit-tests-nvidias-supply-chain-clout-ability-bankroll-ai-buildout"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "How Jensen Huang's resignation from Nvidia is threatening AI-powered economy",
-          "url": "https://thehill.com/business/6217149-ai-industry-stability-threatened-nvidia-huang/"
+          "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia"
         },
         {
           "source": "The Japan Times",
           "sourceId": "japantimes",
           "lean": "center",
-          "title": "AI industry weighs future without Nvidia’s Huang",
-          "url": "https://www.japantimes.co.jp/business/2026/11/13/tech/ai-sector-after-huang/"
+          "title": "Microsoft says services fully restored after outage roiled world",
+          "url": "https://www.japantimes.co.jp/business/2026/11/14/microsoft-outage-recovered/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Microsoft’s Global Outage and Fixes: What We Know",
+          "url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Inside Microsoft’s rush to get back online after a global outage",
+          "url": "https://www.straitstimes.com/world/united-states/inside-microsofts-rush-to-get-back-online-after-a-global-outage"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Microsoft’s massive Outlook outage might be over",
+          "url": "https://www.theverge.com/?p=1032862"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "How one network change disrupted Microsoft Outlook, Teams & AI tools that rely on them",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/how-one-network-change-disrupted-microsoft-outlook-teams-and-the-ai-tools-that-rely-on-them/articleshow/135826190.cms"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-11-13-12hrvqg",
+      "rank": 3,
+      "id": "2026-11-14-1dsbjpr",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "summary": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
-      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo",
-      "headlineSource": "BBC News",
+      "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+      "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+      "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
       "summarySource": "BBC News",
-      "publishedAt": "2026-11-13T11:49:56.000Z",
-      "sourceCount": 13,
+      "publishedAt": "2026-11-14T07:59:41.000Z",
+      "sourceCount": 11,
       "leanCount": 3,
       "leanSpread": 0.5,
       "wireCount": 7,
-      "score": 21.02,
+      "score": 20.06,
       "scoreComponents": {
-        "breadth": 11.42,
+        "breadth": 10.75,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.5,
+        "freshness": 2.21,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Witkoff and Kushner arrive in Moscow to meet with Putin, discuss Ukraine peace talks",
-          "url": "https://abcnews.com/International/witkoff-kushner-arrive-moscow-meet-putin-discuss-ukraine/story?id=138070892"
-        },
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
-          "url": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/"
-        },
-        {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo"
+          "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+          "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo"
         },
         {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Ukraine says the Starshield speed limit is back and Russian 'strikes have already gone through'",
-          "url": "https://www.businessinsider.com/ukraine-starshield-speed-limit-problems-back-russian-strikes-zelenskyy-spacex-2026-11"
+          "title": "11/13: CBS Evening News",
+          "url": "https://www.cbsnews.com/video/111326-cbs-evening-news/"
         },
         {
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "lean": "center",
-          "title": "EU leaders tussle over whom to send to Ukraine, Russia peace talks",
-          "url": "https://www.dw.com/en/eu-leaders-tussle-over-whom-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-all-1573-rdf"
+          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Tanker crashes into river cruise boat in New Orleans",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-tanker-crashes-into-river-cruise-boat-in-new-orleans"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+          "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "‘Miracle on the Mississippi’: All passengers accounted for after New Orleans riverboat crash, officials say",
+          "url": "https://www.independent.co.uk/news/world/americas/new-orleans-river-boat-crash-129-passengers-b3084807.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Freighter collides with cruise ship in New Orleans, passengers in the water",
+          "url": "https://www.straitstimes.com/world/freighter-collides-with-cruise-ship-in-new-orleans-passengers-in-the-water"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Watch: Passengers jump into water as luxury ship collides with tanker on Mississippi River",
+          "url": "https://timesofindia.indiatimes.com/world/us/watch-passengers-jump-into-water-as-luxury-ship-collides-with-tanker-on-mississippi-river/articleshow/135826366.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-14-2ow337",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US pushes for European presence at Ukraine-Russia talks, which Moscow refuses to confirm",
+      "summary": "The Abu Dhabi talks reveal Moscow’s growing leverage over Ukraine and a shifting Western approach to peace.",
+      "url": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks",
+      "headlineSource": "Euronews",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-14T10:42:42.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.52,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Ukraine is running out of options, and Russia knows it",
+          "url": "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine updates: Europe to send united front to potential peace talks",
+          "url": "https://www.dw.com/en/ukraine-updates-europe-to-send-united-front-to-potential-peace-talks/live-79937459?maca=en-rss-en-all-1573-rdf"
         },
         {
           "source": "Euronews",
@@ -495,379 +455,61 @@
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance",
-          "url": "https://www.france24.com/en/video/20261113-us-ukraine-say-europe-to-join-peace-talks-as-putin-sticks-to-hardline-stance"
+          "title": "France among five major powers to represent EU in Ukraine talks",
+          "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "EU leaders choose team for Ukraine peace talks after months of wavering",
+          "url": "https://news.sky.com/story/eu-leaders-choose-team-for-ukraine-peace-talks-after-months-of-wavering-13612008"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Leaders meet in Dublin amid search for lead EU negotiator for peace talks with Russia - Europe live",
-          "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates"
+          "title": "Russia is ‘setting traps’ in Ukraine talks, EU foreign policy chief warns",
+          "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
-          "url": "https://www.independent.co.uk/news/world/europe/europe-ukraine-european-union-kaja-kallas-vladimir-putin-b3084274.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Putin agrees to European participation in next round of Ukraine peace talks",
-          "url": "https://www.japantimes.co.jp/news/2026/11/13/world/politics/putin-allows-europe-in-ukraine-talks/"
+          "title": "What’s next for Ukraine-Russia peace talks as war approaches fifth year?",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-peace-talks-putin-witkoff-kushner-b3084948.html"
         },
         {
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Europe Haggles Over Who Will Represent It in Talks With Russia",
+          "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
           "url": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Kushner says US working towards ‘largest prisoner exchange’ of Russia’s war in Ukraine",
-          "url": "https://www.straitstimes.com/world/europe/kushner-says-us-working-toward-largest-prisoner-exchange-of-russias-war-in-ukraine"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "'Must not fall into Russia's trap': EU's Kallas warns Europe over Ukraine peace talks",
-          "url": "https://timesofindia.indiatimes.com/world/europe/must-not-fall-into-russias-trap-eus-kallas-warns-europe-over-ukraine-peace-talks/articleshow/135799283.cms"
         }
       ]
     },
     {
       "rank": 5,
-      "id": "2026-11-13-oic0uk",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
-      "summary": "A second car bomb in two days exploded in Moscow, targeting an exiled Ukrainian political aide, according to Russian media. Meanwhile, Ukraine and Russia exchanged deadly strikes overnight.",
-      "url": "https://www.euronews.com/video/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa",
-      "headlineSource": "Euronews",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-11-13T10:46:23.000Z",
-      "sourceCount": 8,
+      "id": "2026-11-14-9q65s0",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Setback for SpaceX Starship rocket's double-catch test",
+      "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+      "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-14T10:21:09.000Z",
+      "sourceCount": 9,
       "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 4,
-      "score": 19.56,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 19.48,
       "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 4.45,
+        "breadth": 9.97,
+        "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.4,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Russia and Ukraine report overnight attacks amid US diplomatic push",
-          "url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-          "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Ukraine says Starshield throttled again as U.S. pushes for a deal",
-          "url": "https://www.cbsnews.com/news/russia-ukraine-war-elon-musk-starshield-limited-us-witkoff-kushner-diplomacy/"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "Man weeps over the body of loved one killed by Putin drone as Ukraine is blitzed by latest wave of Russian drones",
-          "url": "https://www.dailymail.com/news/article-16289547/Man-weeps-body-loved-one-killed-Putin-drone-Ukraine-blitzed-latest-wave-Russian-drones.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Ukraine updates: Second car bomb to hit Russia in two days",
-          "url": "https://www.dw.com/en/ukraine-updates-second-car-bomb-to-hit-russia-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
-          "url": "https://www.euronews.com/video/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Ukraine faces new Starshield disruptions as Trump envoys meet with Putin",
-          "url": "https://www.nbcnews.com/world/ukraine/ukraine-starshield-limits-russia-war-trump-musk-rcna608938"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Ukraine-Russia war latest: Exiled Kyiv political aide hospitalised after second Russian car bomb attack",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-second-car-bomb-zavorotniy-b3084409.html"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-11-13-1j7wj40",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "US Senator Van Hollen to challenge Schumer for Senate majority leader",
-      "summary": "Schumer insists he has the votes to continue serving as the Democratic Senate leader.",
-      "url": "https://www.straitstimes.com/world/united-states/us-senator-van-hollen-to-challenge-schumer-for-senate-majority-leader",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-13T11:44:50.000Z",
-      "sourceCount": 6,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 18.91,
-      "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 6.4,
-        "wire": 1.6,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "US senator Chris Van Hollen to challenge Chuck Schumer for Senate majority leader",
-          "url": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Lefty Dem Chris Van Hollen challenging Schumer for Senate Majority leader, arguing voters ‘called for change’",
-          "url": "https://nypost.com/2026/11/12/us-news/chris-van-hollen-challenging-schumer-for-senate-majority-leader/"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Van Hollen takes aim at Schumer as Democrats face first big test after midterms – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Van Hollen says he will challenge Schumer for majority leader",
-          "url": "https://thehill.com/homenews/senate/6217923-van-hollen-challenges-schumer/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Democratic civil war erupts as Van Hollen challenges Chuck Schumer",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/van-hollen-schumer-senate-leader-b3084383.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US Senator Van Hollen to challenge Schumer for Senate majority leader",
-          "url": "https://www.straitstimes.com/world/united-states/us-senator-van-hollen-to-challenge-schumer-for-senate-majority-leader"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-11-13-1kt0vuw",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Peru: Pope Leo XIV leads youth prayer vigil at Lima's National Stadium",
-      "summary": "Pope Leo XIV on Thursday denounced widespread \"machismo\" and violence against women in Peru, demanding that women be protected and respected as he set out marching orders for his beloved Peruvian church and people.",
-      "url": "https://www.euronews.com/video/2026/11/13/peru-pope-leo-xiv-leads-youth-prayer-vigil-at-limas-national-stadium",
-      "headlineSource": "Euronews",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-11-13T10:55:09.000Z",
-      "sourceCount": 10,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 5,
-      "score": 17.94,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 1.95,
-        "wire": 3.2,
-        "freshness": 2.41,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "WATCH: Pope Leo returns to Peru for historic visit",
-          "url": "https://abcnews.com/video/138074243/"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Pope Leo XIV warns on pressures facing modern families",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-xiv-warns-on-pressures-facing-modern-families?traffic_source=rss"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Pope Leo calls on followers to \"value women\" and \"respect girls\"",
-          "url": "https://www.cbsnews.com/video/pope-leo-calls-followers-value-women-respect-girls/"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Peru: Pope Leo XIV leads youth prayer vigil at Lima's National Stadium",
-          "url": "https://www.euronews.com/video/2026/11/13/peru-pope-leo-xiv-leads-youth-prayer-vigil-at-limas-national-stadium"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Peruvians flock to see Pope Leo XIV in city he served as bishop",
-          "url": "https://www.france24.com/en/video/20261113-peruvians-flock-to-see-pope-leo-xiv-in-city-he-served-as-bishop"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Pope Leo arrives in Peru",
-          "url": "https://www.nbcnews.com/nightly-news/video/pope-leo-arrives-in-peru-273305669610"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "After emotional return, Pope Leo denounces 'machismo' in Peru and demands respect for women",
-          "url": "https://www.pbs.org/newshour/world/after-emotional-return-pope-leo-denounces-machismo-in-peru-and-demands-respect-for-women"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Pope Leo demands end to violence against women: ‘It wounds all of humanity’",
-          "url": "https://www.independent.co.uk/news/world/americas/pope-leo-violence-against-women-b3084307.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Pope Leo XIV Goes Home to Peru, Meeting Ghosts of His Past",
-          "url": "https://www.nytimes.com/2026/11/11/world/europe/pope-leo-peru-visit-lima.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Peruvian town hopes Pope Leo will recognize four-century-old miracle",
-          "url": "https://www.straitstimes.com/world/europe/peruvian-town-hopes-pope-leo-will-recognize-four-century-old-miracle"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-11-12-1r1fs5t",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
-      "summary": "Kalshi announces ‘mutual decision’ as Democrats say they plan to investigate Trump family’s investments Donald Trump Jr is no longer a paid adviser for Kalshi, the prediction market company said Thursday. Kalshi described it as a mutual business decision…",
-      "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
-      "headlineSource": "CNBC",
-      "summarySource": "Guardian Business",
-      "publishedAt": "2026-11-12T22:37:10.000Z",
-      "sourceCount": 4,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 0,
-      "score": 14.87,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 6.4,
-        "wire": 0,
-        "freshness": 1.5,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
-          "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Polymarket confirms layoffs as prediction market giant undergoes major restructuring",
-          "url": "https://www.foxbusiness.com/economy/polymarket-confirms-layoffs-prediction-market-giant-undergoes-major-restructuring"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "Donald Trump Jr exits as paid adviser for prediction market Kalshi",
-          "url": "https://www.theguardian.com/us-news/2026/nov/12/donald-trump-jr-kalshi"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Donald Trump Jr. exits Kalshi adviser role after firm invests in competitor Polymarket",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-jr-kalshi-adviser-role-exit-b3084220.html"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-11-12-yd3a0n",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Experts update prostate cancer screening guidelines for men",
-      "summary": "The American Cancer Society has announced it is now recommending expanded prostate cancer screening for men ages 50 to 69 amid a recent surge in cases.",
-      "url": "https://www.statnews.com/2026/11/12/health-news-experts-update-prostate-cancer-screening-guidelines-for-men/",
-      "headlineSource": "STAT News",
-      "summarySource": "Daily Mail Health",
-      "publishedAt": "2026-11-12T22:59:51.000Z",
-      "sourceCount": 4,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 0,
-      "score": 12.94,
-      "scoreComponents": {
-        "breadth": 6.97,
-        "diversity": 4.45,
-        "wire": 0,
-        "freshness": 1.52,
+        "freshness": 2.42,
         "softPenalty": 0
       },
       "coverage": [
@@ -875,77 +517,451 @@
           "source": "Ars Technica",
           "sourceId": "arstechnica",
           "lean": "center",
-          "title": "In reversal, American Cancer Society urges routine prostate cancer screening",
-          "url": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/"
+          "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+          "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/"
         },
         {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "Prostate cancer screening guidelines upgraded as more men are urged to get checked every other year… amid rising cases",
-          "url": "https://www.dailymail.com/health/article-16287539/prostate-cancer-screening-guidelines-upgraded.html"
-        },
-        {
-          "source": "NYT Health",
-          "sourceId": "nyt_health",
-          "lean": "center-left",
-          "title": "What to Know About New Prostate Cancer Screening Recommendations",
-          "url": "https://www.nytimes.com/2026/11/12/well/prostate-cancer-screening-guideline.html"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "Experts update prostate cancer screening guidelines for men",
-          "url": "https://www.statnews.com/2026/11/12/health-news-experts-update-prostate-cancer-screening-guidelines-for-men/"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-11-13-76jmuo",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Stocks Gain as Fed Bets Face Fresh Inflation Test: Markets Wrap",
-      "summary": "The most recent inflation reading for October was higher than expected, coming in at 0.4% for the month.",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
-      "headlineSource": "Bloomberg",
-      "summarySource": "CNBC",
-      "publishedAt": "2026-11-13T11:31:10.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 10.42,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 0,
-        "freshness": 2.47,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Stocks Gain as Fed Bets Face Fresh Inflation Test: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates"
+          "title": "Setback for SpaceX Starship rocket's double-catch test",
+          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
-          "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html"
+          "title": "SpaceX launches Starship in key test flight of massive rocket",
+          "url": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "SpaceX launches Starship rocket, fails to recover booster",
+          "url": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "SpaceX's Starship encounters problems during 15th test flight",
+          "url": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "SpaceX Starship megarocket blasts off before expected return for reuse",
+          "url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit"
+        },
+        {
+          "source": "NPR Science",
+          "sourceId": "npr_science",
+          "lean": "center-left",
+          "title": "SpaceX's giant rocket may leave NASA in the dust",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "SpaceX's Starship soars into orbit after booster malfunction thwarts double catch attempt",
+          "url": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-14-1kncwwc",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Despite Nvidia’s Drop, Stocks Push Ahead",
+      "summary": "Jensen Huang is expected to lose around $108 million in unvested stock awards following his exit from Nvidia. His net worth, primarily composed of Nvidia shares, is around $144.5 billion.",
+      "url": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "Times of India",
+      "publishedAt": "2026-11-14T06:06:04.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 19.22,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.05,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "China warns against new U.S. export controls on computer chips",
+          "url": "https://www.cbsnews.com/news/china-us-export-controls-chips-nvidia-huang-scandal/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Ousted Nvidia tycoon Jensen Huang accused of THIRD 'affair' as AI stock plunges and Trump aide tells Mail: 'World economy is f*****'",
+          "url": "https://www.dailymail.com/news/article-16288671/nvidia-tycoon-Jensen-Huang-accused-affair-AI-stock-plunges.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Nvidia stock slide wipes out more than $20B in value for Jensen Huang over 5 days",
+          "url": "https://www.foxbusiness.com/markets/nvidia-stock-slide-wipes-out-billions-value-jensen-huang-days"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Trump bought Nvidia stock as he helped chipmaker with change to export rule",
+          "url": "https://www.theguardian.com/us-news/2026/nov/13/trump-nvidia-stock-jensen-huang-us-china"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories"
+        },
+        {
+          "source": "National Review",
+          "sourceId": "nationalreview",
+          "lean": "right",
+          "title": "Did Payments by Huang’s Nvidia Influence Trump’s Policy on Chip Exports to China?",
+          "url": "https://www.nationalreview.com/article/did-payments-by-huang-s-nvidia-influence-trump-s-policy-on-chip-exports-to-china"
         },
         {
           "source": "NYT Business",
           "sourceId": "nyt_business",
           "lean": "center-left",
-          "title": "Fed Will Not Hold Policy Vote at October 2027 Meeting",
-          "url": "https://www.nytimes.com/2026/11/12/business/economy/fed-warsh-october.html"
+          "title": "Despite Nvidia’s Drop, Stocks Push Ahead",
+          "url": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Jensen Huang's Nvidia exit cost him over Rs 900 crore: How much wealth does he have left?",
+          "url": "https://timesofindia.indiatimes.com/business/international-business/jensen-huangs-nvidia-exit-costs-him-rs-900-crore-how-much-wealth-does-he-have-left/articleshow/135824006.cms"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-14-vcqvs4",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump, Xi and Putin to meet in China, White House says",
+      "summary": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+      "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-14T10:59:18.000Z",
+      "sourceCount": 13,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 7,
+      "score": 19.05,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump to meet with Putin and Xi in China next week, US officials say",
+          "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump, Xi and Putin to hold first three-way summit in China",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump, Putin, Xi Jinping to meet in first trilateral of its kind",
+          "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump to meet Xi, Putin for three-way huddle on nuclear arms talks",
+          "url": "https://www.dw.com/en/trump-to-meet-xi-putin-for-three-way-huddle-on-nuclear-arms-talks/a-79946408?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump, Xi and Putin to meet in China, White House says",
+          "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump, Xi and Putin plan an unprecedented meeting on the sidelines of APEC, officials say",
+          "url": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+          "url": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "White House confirms US-China-Russia trilateral talks on Apec sidelines",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump, Putin and Xi to meet in first trilateral meeting between leaders",
+          "url": "https://thehill.com/homenews/administration/6220278-trump-putin-xi-trilateral-meeting/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "It’s looking like Trump’s first term again as knives come out at the White House over Nvidia scandal",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/howard-lutnick-testify-nvidia-chip-exports-jensen-huang-b3084810.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump to raise nuclear-arms cuts with Putin and Xi at historic trilateral summit",
+          "url": "https://www.japantimes.co.jp/news/2026/11/14/asia-pacific/politics/trump-xi-putin-trilateral-apec/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
+          "url": "https://www.straitstimes.com/world/china-us-discuss-tariffs-farm-trade-ahead-of-xi-trump-meeting"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-14-1gxwfci",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
+      "summary": "There is growing criticism of Lutnick’s role in overseeing export controls on US chips to China.",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-14T01:46:29.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 17.84,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 1.74,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Bessent upset Lutnick didn't ban Nvidia chip exports to China-linked firm",
+          "url": "https://www.cbsnews.com/video/bessent-upset-lutnick-didnt-ban-nvidia-chip-exports-to-china-linked-firm/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+          "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Bessent accuses Lutnick of failing to prevent China from obtaining Nvidia chips",
+          "url": "https://www.pbs.org/newshour/show/bessent-accuses-lutnick-of-failing-to-prevent-china-from-obtaining-nvidia-chips"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Bessent blames US Commerce Dept over lack of export controls for Nvidia partner Megaspeed",
+          "url": "https://www.straitstimes.com/world/united-states/bessent-blames-us-commerce-dept-over-lack-of-export-controls-for-nvidia-partner-megaspeed"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-14-135gu6h",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "New candidate emerges to replace Jensen Huang as Nvidia CEO",
+      "summary": "The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy.",
+      "url": "https://www.foxbusiness.com/fox-news-tech/new-candidate-emerges-replace-jensen-huang-nvidia-ceo",
+      "headlineSource": "Fox Business",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-14T10:20:11.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 12.52,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "New candidate emerges to replace Jensen Huang as Nvidia CEO",
+          "url": "https://www.foxbusiness.com/fox-news-tech/new-candidate-emerges-replace-jensen-huang-nvidia-ceo"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Can Nvidia survive without tech titan Jensen Huang?",
+          "url": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Nvidia approaches Arm CEO Haas as employees seek Huang’s return, reports say",
+          "url": "https://www.japantimes.co.jp/business/2026/11/14/companies/nvidia-arm-ceo-haas-huang/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-14-yg281r",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Trump administration delays Medicaid work requirement enforcement",
+      "summary": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
+      "url": "https://thehill.com/policy/healthcare/6220069-trump-delays-medicaid-work-requirements/",
+      "headlineSource": "The Hill",
+      "summarySource": "NYT Business",
+      "publishedAt": "2026-11-14T02:22:25.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 0,
+      "score": 10.69,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 1.78,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
+          "url": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "STAT+: Enforcement of stringent Medicaid work requirements delayed for six months",
+          "url": "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Trump administration delays Medicaid work requirement enforcement",
+          "url": "https://thehill.com/policy/healthcare/6220069-trump-delays-medicaid-work-requirements/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "US gives states another 6 months before they have to remove people from Medicaid for not working",
+          "url": "https://www.independent.co.uk/news/world/americas/medicaid-donald-trump-democrats-mehmet-oz-nebraska-b3084865.html"
         }
       ]
     }

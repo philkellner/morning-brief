@@ -1,0 +1,2545 @@
+{
+  "edition": "2026-11-14",
+  "generatedAt": "2026-11-14T11:12:37.125Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-14-1ntb9hw",
+      "topic": "world",
+      "title": "US flight departures resume after FAA lifts nationwide ground stop",
+      "summary": "The Federal Aviation Administration (FAA) says airplane departures can resume after the agency lifted a nationwide ground stop caused by communications problems. Air travel across the United States had come to a halt earlier on Friday afternoon after the…",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 17,
+      "score": 24.57,
+      "scoreComponents": {
+        "breadth": 12.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 17,
+        "specialistOutlets": 5,
+        "specialistShare": 0.29,
+        "votes": {
+          "tech": 2,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+          "description": "Department of Homeland Security Secretary Markwayne Mullin spoke to at the White House on Friday afternoon after the FAA issues a total ground stop. NPR was there for the briefing.",
+          "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+          "published": "2026-11-13T22:36:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about the FAA nationwide ground stop",
+          "description": "The Federal Aviation Administration took an extraordinary step Friday afternoon by issuing a nationwide ground stop. No planes are taking off at any airport and millions of passengers are stranded.",
+          "link": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+          "published": "2026-11-13T22:27:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Old tech blamed for the ground stop that caused flight chaos: 'It got overloaded'",
+          "description": "The nationwide ground stop that paralyzed the U.S. aviation system on Friday has ended, according to Federal Aviation Administration.",
+          "link": "https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports",
+          "published": "2026-11-13T21:55:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What we know about the ground stop and what to do if you're affected",
+          "description": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+          "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo",
+          "published": "2026-11-14T07:42:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'We'll get home one day' - US travellers impacted by nationwide ground stop",
+          "description": "Passengers throughout the country were impacted over what the Federal Aviation Administration (FAA) describes as “safety and communication issues”.",
+          "link": "https://www.bbc.co.uk/news/videos/c893ryz7lw33o",
+          "published": "2026-11-14T01:47:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US lifts nationwide ground stop for airports hours after halting all departures",
+          "description": "The US federal aviation regulator has lifted a nationwide ground stop for all airports. Trump administration officials blame \"overloaded\" and \"outdated\" systems for the hourslong halt to departures.",
+          "link": "https://www.dw.com/en/us-lifts-nationwide-ground-stop-for-airports-hours-after-halting-all-departures/a-79945062?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-14T01:41:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
+          "description": "On Friday, the Federal Aviation Administration issued a rare nationwide ground stop. More than 8,200 flights, or over 31% of those scheduled in the United States, were canceled. The ground stop lasted nearly five hours and was the longest in the country since September 11, 2001. Officials blamed outdated air traffic communications equipment, and said that there was no evidence of a cyber attack. T",
+          "link": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data",
+          "published": "2026-11-14T10:14:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "FAA lifts nationwide ground stop on all US flights",
+          "description": "The United States on Friday lifted an hours-long ground stop at the nation's airports, with top officials explaining that the disruption was not due to a cyberattack or a sweeping Microsoft outage.",
+          "link": "https://www.france24.com/en/video/20261114-faa-lifts-nationwide-ground-stop-on-all-us-flights",
+          "published": "2026-11-14T02:50:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US flights resume after nationwide ground stop lifted",
+          "description": "The United States on Friday lifted an hours-long ground stop at the nation's airports, with top officials explaining that the disruption was not due to a cyberattack or a sweeping Microsoft outage. Transportation Secretary Sean Duffy said that US airspace was now \"opened up,\" and blamed \"old hardware\" for the travel chaos.",
+          "link": "https://www.france24.com/en/americas/20261114-us-flights-resume-after-nationwide-ground-stop-lifted-aviation",
+          "published": "2026-11-14T02:35:48.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Passengers face further cancellations as US flights slowly resume after ground stop",
+          "description": "While flights in the United States started resuming on Saturday following the longest nationwide ground stop in 25 years, more than 2,000 flights have been cancelled as airlines work to return to normal operations. Nearly 6,000 flights were cancelled on Friday, with the incident marking only the second time an alert to ground all flights had been issued in US airspace since the 9/11 attacks.",
+          "link": "https://www.france24.com/en/americas/20261113-us-air-travel-resumption-will-take-time-after-hours-long-stop",
+          "published": "2026-11-13T22:43:22.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 US flight authority orders national ground stop over air traffic control 'communication issue'",
+          "description": "",
+          "link": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
+          "published": "2026-11-13T21:29:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Airport chaos continues after US ground stop lifted – as it happened",
+          "description": "This blog is now closed. See our full reports: US aviation agency lifts nationwide ground stop affecting all air travel Chaos at US airports as flight stoppage grinds travel plans to a halt",
+          "link": "https://www.theguardian.com/world/live/2026/nov/13/us-flight-outage-live-updates-faa-lifts-nationwide-ground-stop-as-airport-chaos-continues",
+          "published": "2026-11-14T05:55:53.000Z",
+          "categories": [
+            "Air transport",
+            "Airline industry",
+            "US news",
+            "Trump administration",
+            "Telecoms",
+            "Infrastructure",
+            "US politics"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US flight outage: FAA lifts nationwide ground stop; Trump officials suggest new tech overwhelmed old equipment – as it happened",
+          "description": "This live blog is now closed. Follow our latest coverage here. US aviation agency lifts nationwide ground stop affecting all air travel Chaos at US airports as flight stoppage grinds travel plans to a halt",
+          "link": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+          "published": "2026-11-14T03:11:35.000Z",
+          "categories": [
+            "Air transport",
+            "US news",
+            "Donald Trump",
+            "Trump administration"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘It’s frustrating’: chaos at US airports as stoppage grinds travel plans to a halt",
+          "description": "Travelers and crew feeling ‘pissed’ or ‘lucky’ depending on level of upset amid nationwide ground stop The US Federal Aviation Administration’s decision to ground all flights on Friday threw airports and travel plans into chaos across the country, as passengers on planes and in airport terminals were suddenly thrust into limbo. At New York’s John F Kennedy airport, passengers found their travel pl",
+          "link": "https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage",
+          "published": "2026-11-14T02:49:59.000Z",
+          "categories": [
+            "US news",
+            "Air transport",
+            "Airline industry",
+            "World news",
+            "Trump administration",
+            "US politics",
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+          "description": "Transportation secretary Sean Duffy says the airspace is now open and the problem has been identified Chaos at US airports as stoppage grinds travel plans to a halt What to know about the rare nationwide ground stop issued by the FAA Flights in the US have slowly started resuming after being grounded for several hours on Friday due to a major communications outage, but authorities have warned that",
+          "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+          "published": "2026-11-14T02:15:53.000Z",
+          "categories": [
+            "Air transport",
+            "Trump administration",
+            "Airline industry",
+            "US news",
+            "World news",
+            "US politics",
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Airspace reopened after nationwide ground stop",
+          "description": "The nationwide ground stop issued by the Federal Aviation Administration Friday afternoon has been lifted, Transportation Secretary Sean Duffy confirmed. \"At 8:15 tonight Eastern Time, we've opened up the airspace,\" Duffy said to reporters in the White House briefing room during a press conference that began at around 8:30 p.m. EST. Duffy added that, although...",
+          "link": "https://thehill.com/policy/transportation/6220313-faa-lifts-nationwide-ground-stop/",
+          "published": "2026-11-14T01:56:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Multiple college football teams in flight limbo due to FAA ground stop",
+          "description": "The nationwide ground stop issued by the Federal Aviation Administration Friday afternoon has impacted travel plans for college football teams scheduled to fly to their destinations. Among teams impacted are four schools in the NCAA's Big 12 Conference, Baylor University, Kansas State University, University of Utah and Arizona State University; three in the Big Ten...",
+          "link": "https://thehill.com/policy/sports-gaming/6220145-faa-ground-stop-impacts-college-football/",
+          "published": "2026-11-14T00:08:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. flights resume after FAA ground stop, but travel disruption continues",
+          "description": "U.S. flights are resuming after the FAA ground stop, but delays and cancellations are still piling up.",
+          "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+          "published": "2026-11-14T10:04:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "FAA lifts nationwide ground stop, 4 hours after air traffic chaos began — but thousands of NYC travelers left stranded",
+          "description": "The Federal Aviation Administration announced the unprecedented move just before 4 p.m. to ground all flights.",
+          "link": "https://nypost.com/2026/11/13/us-news/faa-lifts-nationwide-ground-stop-4-hours-after-air-traffic-chaos-began/",
+          "published": "2026-11-14T02:24:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "JetBlue cancels most remaining flights due to FAA ground stop — and predicts chaos won’t end soon",
+          "description": "\"Flights already in the air are continuing to their destinations. We expect disruptions to continue into tomorrow,\" the airline noted.",
+          "link": "https://nypost.com/2026/11/13/us-news/jetblue-cancels-most-remaining-flights-due-to-faa-ground-stop-predicts-chaos-wont-end-soon/",
+          "published": "2026-11-14T01:16:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US resumes flights after air traffic network failure sparks chaos",
+          "description": "By 11.30pm, nearly 10,000 flights had been cancelled on Nov 13.",
+          "link": "https://www.straitstimes.com/world/united-states/us-faa-grounds-all-departing-flights-due-to-extraordinary-circumstance-safety-reasons",
+          "published": "2026-11-13T21:34:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US flight departures resume after FAA lifts nationwide ground stop",
+          "description": "The Federal Aviation Administration (FAA) says airplane departures can resume after the agency lifted a nationwide ground stop caused by communications problems. Air travel across the United States had come to a halt earlier on Friday afternoon after the ordered all flights grounded because of a communications breakdown at the regional centres that manage the country’s air traffic. The grounding f",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
+          "published": "2026-11-13T21:33:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "FAA issues rare nationwide ground stop due to 'extraordinary circumstances'",
+          "description": "Air travel across the country came to a standstill on Friday after the Federal Aviation Administration issued a rare nationwide ground stop citing \"extraordinary circumstances\" and \"reasons of safety.\" Aviation correspondent Miles O'Brien reports.",
+          "link": "https://www.pbs.org/newshour/show/faa-issues-rare-nationwide-ground-stop-due-to-extraordinary-circumstances",
+          "published": "2026-11-13T23:56:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "FAA grounds all flights at U.S. airports due to air traffic control communications problems",
+          "description": "The nation's top homeland security official attributed the problem to a telecommunications outage and said there was no indication yet of a nefarious act.",
+          "link": "https://www.pbs.org/newshour/nation/faa-grounds-all-flights-at-u-s-airports-due-to-air-traffic-control-communications-problems",
+          "published": "2026-11-13T21:41:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+          "description": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how",
+          "link": "https://www.theverge.com/?p=1033489",
+          "published": "2026-11-14T01:53:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "FAA has lifted its third-ever nationwide ground stop",
+          "description": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
+          "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+          "published": "2026-11-13T23:17:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+          "description": "Transportation secretary Sean Duffy says the airspace is now open and the problem has been identified Chaos at US airports as stoppage grinds travel plans to a halt What to know about the rare nationwide ground stop issued by the FAA Flights in the US have slowly started resuming after being grounded for several hours on Friday due to a major communications outage, but authorities have warned that",
+          "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+          "published": "2026-11-14T02:15:53.000Z",
+          "categories": [
+            "Air transport",
+            "Trump administration",
+            "Airline industry",
+            "US news",
+            "World news",
+            "US politics",
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "FAA lifts nationwide ground stop, but chaos will continue after 10,000 flights were delayed and 6,600 canceled",
+          "description": "The Federal Aviation Administration has lifted its nationwide ground stop. Flight chaos will continue after nearly 7,000 flights were canceled.",
+          "link": "https://www.businessinsider.com/faa-national-ground-stop-flights-2026-11",
+          "published": "2026-11-14T07:24:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nearly 5,000 flights were canceled across the US after an FAA ground stop. Here's what to do if your trip was affected.",
+          "description": "US airlines are canceling thousands of flights amid a rare air traffic control ground stop affecting the US.",
+          "link": "https://www.businessinsider.com/what-do-if-flight-delayed-or-canceled-airlines-atc-2026-11",
+          "published": "2026-11-14T03:43:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nationwide FAA ground stop lifted but cancellations, significant delays to continue: Transportation secretary",
+          "description": "The Federal Aviation Administration lifted a nationwide ground stop after more than four hours due to communication issues impacted Air Route Traffic Control Centers on Friday.",
+          "link": "https://www.foxbusiness.com/fox-news-us/nationwide-faa-ground-stop-lifted-cancellations-significant-delays-continue-transportation-secretary",
+          "published": "2026-11-13T21:28:37.000Z",
+          "categories": [
+            "e39134fc-e3ee-59af-b6a5-e2f687831653",
+            "fbn",
+            "Fox Business",
+            "fox-news/fox-news-science/fox-news-air-and-space",
+            "fox-business/lifestyle/airplanes",
+            "fox-business/lifestyle/travel",
+            "fox-business/lifestyle",
+            "fox-news/fox-news-us",
+            "fox-news/fox-news-weather/fox-news-us",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "AI company behind FAA's SMART tool denies link to ground stop, Duffy confirms",
+          "description": "Air Space Intelligence (ASI), the company behind a recently deployed Federal Aviation Administration (FAA) AI tool, denied any link to the nationwide ground stop issued Friday afternoon. “The current ground stop is not based on or a result of the SMART system, any product of ASI or our integration with FAA and ATC,” the company...",
+          "link": "https://thehill.com/policy/transportation/6220416-faa-smart-ai-ground-stop-denial/",
+          "published": "2026-11-14T04:04:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "FAA SMART AI system vendor and Microsoft both say ground stop isn't their fault",
+          "description": "Microsoft and Air Space Intelligence, the company behind the FAA's new SMART system, said the nationwide ground stop wasn't due to their products.",
+          "link": "https://www.businessinsider.com/smart-system-microsoft-faa-ground-stop-not-their-fault-2026-11",
+          "published": "2026-11-14T02:23:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Duffy, Mullin call for $50B air travel 'overhaul' in fiery ground stop briefing",
+          "description": "Trump administration officials reupped their calls for a multi-billion-dollar investment into updating the U.S.'s \"incredibly old\" air traffic control systems, calling out Congress for \"[kicking] the can down the road\" on improvements they argued could have prevented Friday night's nationwide ground stop. “What we have is an incredibly old air traffic control system,” Transportation Secretary...",
+          "link": "https://thehill.com/policy/transportation/6220399-duffy-billions-air-traffic-ground-stop/",
+          "published": "2026-11-14T03:37:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Watch: Duffy, Mullin hold press briefing on FAA nationwide ground stop",
+          "description": "Homeland Security Secretary Markwayne Mullin and Transportation Secretary Sean Duffy will hold a press briefing at the White House on Friday night to provide an update on the Federal Aviation Administration's (FAA) nationwide ground stop. “The @FAANews [FAA] issued a nationwide ground stop for all U.S. airports following a communication issue impacting all Air Route...",
+          "link": "https://thehill.com/video-clips/6220247-watch-duffy-mullin-hold-press-briefing-on-faa-nationwide-ground-stop/",
+          "published": "2026-11-14T00:54:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump official seeks US$50 billion for air traffic control after outage forced nationwide ground stop",
+          "description": "The US relies on decades-old ​computers as well as replacement parts bought through auction websites.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-official-seeks-us50-billion-for-air-traffic-control-after-outage-forced-nationwide-ground-stop",
+          "published": "2026-11-14T06:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
+          "description": "US Transport Secretary Sean Duffy blamed the stoppage on what he called an \"incredibly old\" air traffic control system and warned that it would take time for normal operations to resume.",
+          "link": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
+          "published": "2026-11-14T06:56:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US flight chaos: Trump official seeks $50 billion for air traffic control",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/us/us-flight-chaos-trump-official-seeks-50-billion-for-air-traffic-control-overhaul-after-nationwide-disruptions/articleshow/135830168.cms",
+          "published": "2026-11-14T10:45:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "America's air traffic control meltdown: How US flight crisis unfolded & what next",
+          "description": "On November 13, a significant communications failure caused a nationwide ground stop for US flights. Airports experienced delays, cancellations, and diversions, affecting approximately 1.5 million passengers. The Federal Aviation Administration identified outdated equipment as the primary cause for the disruption and enforced departure restrictions for safety. Following the incident, Transportatio",
+          "link": "https://timesofindia.indiatimes.com/world/us/us-flight-chaos-what-went-wrong-how-americas-skies-were-brought-to-a-standstill-and-what-happens-next/articleshow/135821067.cms",
+          "published": "2026-11-14T05:16:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Duffy sounds alarm over aging FAA system after nationwide air travel shutdown",
+          "description": "Sean Duffy blamed outdated routers and 1980s-era copper lines for the FAA ground stop, demanding Congress approve $50 billion in emergency funding.",
+          "link": "https://www.foxbusiness.com/politics/duffy-sounds-alarm-over-aging-faa-system-after-nationwide-air-travel-shutdown",
+          "published": "2026-11-14T03:16:39.000Z",
+          "categories": [
+            "d8a394c5-2690-503b-a32f-8419761bd4f5",
+            "fbn",
+            "Fox Business",
+            "fox-news/fox-news-science/fox-news-air-and-space",
+            "fox-business/lifestyle/airplanes",
+            "fox-business/industries/infrastructure",
+            "fox-business/politics/government-and-institutions",
+            "fox-news/fox-news-us",
+            "fox-business/politics",
+            "fox-business/lifestyle",
+            "fox-business/politics",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-14-i5bt2p",
+      "topic": "tech",
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+      "headlineSource": "BBC News",
+      "sourceCount": 15,
+      "score": 24.09,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 15,
+        "specialistOutlets": 11,
+        "specialistShare": 0.73,
+        "votes": {
+          "tech": 10,
+          "business": 4,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "description": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+          "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o",
+          "published": "2026-11-14T06:42:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Microsoft says all services working again",
+          "description": "US tech giant Microsoft says it has fixed problems that led to a global outage of its services. The glitch severely disrupted online communications in businesses and governments for more than 24 hours.",
+          "link": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-14T09:06:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Microsoft's widespread outages caused global chaos, including in the healthcasre industry",
+          "description": "Microsoft says it is seeing improvements in its service availability after an hours-long disruption knocked out its platforms including Outlook and Teams. The outage has affected hundreds of millions of people across the globe. The healthcare industry was among those impacted, as Ophelie Jacobson explains.",
+          "link": "https://www.france24.com/en/microsoft-s-widespread-outages-caused-global-chaos-including-in-the-healthcasre-industry",
+          "published": "2026-11-14T11:07:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Microsoft says all services 'fully recovered' after global outage",
+          "description": "The tech giant confirmed on Saturday morning that all services have recovered ⁠across ‌Teams, Outlook, Copilot and ⁠other applications, ​ending a ‌global outage ‌that ​crippled online communications across businesses and ​governments ​for ​over 24 hours. The US homeland security chief confirmed there was 'no Microsoft link' to the US air traffic stoppage.",
+          "link": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
+          "published": "2026-11-14T06:07:56.000Z",
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft says it \"restored service\" after major worldwide outage",
+          "description": "A Microsoft outage involving services like Outlook and Teams impacted many users, companies and government services.",
+          "link": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+          "published": "2026-11-14T07:32:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
+          "description": "Experts say disruption exposes ‘Australia’s reliance on foreign technology’ as software giant says services being restored Get our breaking news email, free app or daily news podcast The Microsoft outage could be a disaster for the Australian economy that forces some small businesses to close, with costs expected to run into the billions of dollars, experts have warned. The US software company has",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+          "published": "2026-11-14T06:19:04.000Z",
+          "categories": [
+            "Australia news",
+            "Microsoft",
+            "Business",
+            "Australian economy"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+          "description": "Tech firm says it is ‘deeply sorry’ for disruption that took services down and has now addressed the underlying issue What caused the outage and when will it be fixed? Microsoft outage hits UK hospitals, GPs, schools and police Tell us: have you been affected by the outage? Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations an",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "published": "2026-11-13T17:41:15.000Z",
+          "categories": [
+            "Microsoft",
+            "Technology sector",
+            "Business",
+            "Technology",
+            "US news",
+            "Australia news",
+            "UK news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft says services fully restored after global outage",
+          "description": "Tech company says services now restored to all customers and regions hit by one of worst IT failures in years Microsoft has said its service is fully restored after a massive outage that caused widespread disruption to governments, businesses and public services around the world. The technology company said on Saturday morning it had restored service to the remaining customers affected by one of t",
+          "link": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
+          "published": "2026-11-14T10:52:31.000Z",
+          "categories": [
+            "Microsoft",
+            "Technology",
+            "UK news",
+            "World news",
+            "Software"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft’s Global Outage and Fixes: What We Know",
+          "description": "The company described “encouraging” progress on efforts to overcome a second day of disruptions to its email, messaging and other services.",
+          "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+          "published": "2026-11-13T22:30:40.000Z",
+          "categories": [
+            "Microsoft Corp",
+            "Computer Network Outages",
+            "Computers and the Internet",
+            "E-Mail",
+            "Software",
+            "E-Commerce"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+          "description": "A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.",
+          "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+          "published": "2026-11-14T08:11:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Microsoft says efforts to fix global outage 'not going as expected' with millions impacted worldwide",
+          "description": "Millions reported issues with Microsoft Outlook, the company's workplace messaging app, Teams, its AI assistant, Copilot, as well as other Microsoft 365 services.",
+          "link": "https://www.dailymail.com/sciencetech/article-16289289/microsoft-outage-fix-struggles.html",
+          "published": "2026-11-13T21:29:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Outlook not so good! Office workers show sense of humour as they react to Microsoft meltdown with hilarious memes",
+          "description": "Social media is rife with memes and reaction as the company struggles to resurrect its services after more than 18 hours of outages.",
+          "link": "https://www.dailymail.com/news/article-16289561/Outlook-not-good-Office-workers-sense-humour-react-Microsoft-meltdown-hilarious-memes.html",
+          "published": "2026-11-13T14:08:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Inside Microsoft’s rush to get back online after a global outage",
+          "description": "A company outage affected hospitals, schools, businesses and congressional offices in Washington.",
+          "link": "https://www.straitstimes.com/world/united-states/inside-microsofts-rush-to-get-back-online-after-a-global-outage",
+          "published": "2026-11-14T00:04:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Microsoft says services fully restored after outage roiled world",
+          "description": "Access has been fully restored to itd flagship software, ending an outage that paralyzed government offices, traders and businesses around the world.",
+          "link": "https://www.japantimes.co.jp/business/2026/11/14/microsoft-outage-recovered/",
+          "published": "2026-11-14T04:53:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "How one network change disrupted Microsoft Outlook, Teams & AI tools that rely on them",
+          "description": "Microsoft experienced a significant outage affecting Outlook, Teams, and other services for more than 24 hours. The incident, traced back to a network change, caused disruptions in email communication across various sectors. Companies around the world resorted to using faxes and phone calls as a temporary measure during the outage. Microsoft has confirmed that the issue was not a cyberattack or ca",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/how-one-network-change-disrupted-microsoft-outlook-teams-and-the-ai-tools-that-rely-on-them/articleshow/135826190.cms",
+          "published": "2026-11-14T07:28:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Microsoft’s massive Outlook outage might be over",
+          "description": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been restored, though the flow of Outlook mail",
+          "link": "https://www.theverge.com/?p=1032862",
+          "published": "2026-11-13T16:17:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Microsoft outage shakes up companies, schools and local governments across US",
+          "description": "Local officials warn some services remain unavailable even as Outlook starts to resume normal operations after outage Microsoft outage – live updates The Microsoft Outlook outage has shaken up companies and local governments across the US that use its suite of email, calendar, video conferencing and cloud storage systems. Even as Outlook started to resume normal operations Friday morning, local le",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+          "published": "2026-11-13T21:13:59.000Z",
+          "categories": [
+            "Microsoft",
+            "Technology",
+            "US news",
+            "Computing",
+            "Business",
+            "Software"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Microsoft Says Outage Disrupting Outlook Is Improving",
+          "description": "Health services, schools, police departments and companies worldwide reported disruptions to their work. The cause was unclear, though Microsoft appeared to rule out a cyberattack.",
+          "link": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html",
+          "published": "2026-11-13T18:05:44.000Z",
+          "categories": [
+            "Microsoft Corp",
+            "Computer Network Outages",
+            "Computers and the Internet",
+            "E-Mail",
+            "Cloud Computing",
+            "Enterprise Computing"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+          "description": "Governments, hospitals, courts scrambled by global Microsoft outage.",
+          "link": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+          "published": "2026-11-13T15:26:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "description": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+          "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o",
+          "published": "2026-11-14T06:42:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+          "description": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
+          "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo",
+          "published": "2026-11-13T21:15:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Courts, spies and MPs: How the Microsoft outage has been felt around the world",
+          "description": "From city governments in the US to spy agencies in Australia, the Microsoft outage is being felt around the world.",
+          "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro",
+          "published": "2026-11-13T17:34:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "NHS, schools and police forces hit by Microsoft outage",
+          "description": "Major airports and intelligence services are unaffected, while the government is still assessing the impact.",
+          "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o",
+          "published": "2026-11-13T13:41:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "What we know so far about the Microsoft outage",
+          "description": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
+          "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po",
+          "published": "2026-11-13T11:43:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "What happened overnight with the Microsoft global outage?",
+          "description": "Microsoft is struggling to fix a global outage, with services including Teams, Outlook and AI software Copilot affected by \"connectivity problems\".",
+          "link": "https://www.bbc.co.uk/news/videos/cwm2591k27e2o",
+          "published": "2026-11-13T07:18:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Microsoft Says Outage Disrupting Outlook Is Improving",
+          "description": "Health services, schools, police departments and companies worldwide reported disruptions to their work. The cause was unclear, though Microsoft appeared to rule out a cyberattack.",
+          "link": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html",
+          "published": "2026-11-13T18:05:44.000Z",
+          "categories": [
+            "Microsoft Corp",
+            "Computer Network Outages",
+            "Computers and the Internet",
+            "E-Mail",
+            "Cloud Computing",
+            "Enterprise Computing"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+          "description": "Tech firm says it is ‘deeply sorry’ for disruption that took services down and has now addressed the underlying issue What caused the outage and when will it be fixed? Microsoft outage hits UK hospitals, GPs, schools and police Tell us: have you been affected by the outage? Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations an",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "published": "2026-11-13T17:41:15.000Z",
+          "categories": [
+            "Microsoft",
+            "Technology sector",
+            "Business",
+            "Technology",
+            "US news",
+            "Australia news",
+            "UK news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Microsoft apologizes after major Outlook outage worldwide, blames technical issue",
+          "description": "Microsoft says it has found no evidence of a cyberattack as a global outage affecting Outlook, Copilot and Exchange Online stretches into a second day.",
+          "link": "https://www.foxbusiness.com/technology/microsoft-apologizes-after-major-outlook-outage-worldwide-blames-technical-issue",
+          "published": "2026-11-13T12:20:43.000Z",
+          "categories": [
+            "94fd394f-a08d-56a4-b61f-a75ec52541a6",
+            "fbn",
+            "Fox Business",
+            "fox-business/magnificent-7-stocks",
+            "fox-business/technology",
+            "fox-business/organization/microsoft",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "NHS, schools and police forces hit by Microsoft outage",
+          "description": "Major airports and intelligence services are unaffected, while the government is still assessing the impact.",
+          "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o",
+          "published": "2026-11-13T13:41:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_health",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Are you affected by the Microsoft outage?",
+          "description": "A Microsoft outage has affected services including Teams, Outlook and AI software Copilot.",
+          "link": "https://www.bbc.co.uk/news/videos/cr1ew8v4z9g8o",
+          "published": "2026-11-13T14:02:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "What to know about Microsoft's outage and why it takes so long to restore email services",
+          "description": "Unlike modern web apps or authentication gatekeepers, email wasn't designed to fail fast, meaning to immediately halt when a problem arises.",
+          "link": "https://www.pbs.org/newshour/science/what-to-know-about-microsofts-outage-and-why-it-takes-so-long-to-restore-email-services",
+          "published": "2026-11-13T23:33:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Microsoft’s Global Outage and Fixes: What We Know",
+          "description": "The company described “encouraging” progress on efforts to overcome a second day of disruptions to its email, messaging and other services.",
+          "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+          "published": "2026-11-13T22:30:40.000Z",
+          "categories": [
+            "Microsoft Corp",
+            "Computer Network Outages",
+            "Computers and the Internet",
+            "E-Mail",
+            "Software",
+            "E-Commerce"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+          "description": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
+          "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o",
+          "published": "2026-11-13T18:36:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Inside Microsoft’s Rush to Get Back Online After a Global Outage",
+          "description": "A prolonged outage left many without email and other services, the most recent reminder that the world’s technological underpinnings rely on just a few companies.",
+          "link": "https://www.nytimes.com/2026/11/13/business/microsoft-outage.html",
+          "published": "2026-11-13T21:28:58.000Z",
+          "categories": [
+            "Computer Network Outages",
+            "Computers and the Internet",
+            "E-Mail",
+            "Cloud Computing",
+            "Microsoft Corp",
+            "Artificial Intelligence",
+            "Engineering and Engineers",
+            "Infrastructure (Public Works)",
+            "Software"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Microsoft’s Global Outage and Fixes: What We Know",
+          "description": "The company described “encouraging” progress on efforts to overcome a second day of disruptions to its email, messaging and other services.",
+          "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+          "published": "2026-11-13T22:30:40.000Z",
+          "categories": [
+            "Microsoft Corp",
+            "Computer Network Outages",
+            "Computers and the Internet",
+            "E-Mail",
+            "Software",
+            "E-Commerce"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-14-1dsbjpr",
+      "topic": "world",
+      "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+      "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 11,
+      "score": 20.06,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.21,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 1,
+        "specialistShare": 0.09,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+          "description": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+          "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo",
+          "published": "2026-11-13T23:40:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+          "description": "All passengers have been accounted for after a cargo ship collided with a docked cruise ship.",
+          "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o",
+          "published": "2026-11-13T21:15:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+          "description": "A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for.",
+          "link": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-13T21:31:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "11/13: CBS Evening News",
+          "description": "Latest on FAA's national ground stop; No fatalities in New Orleans ship collision.",
+          "link": "https://www.cbsnews.com/video/111326-cbs-evening-news/",
+          "published": "2026-11-13T23:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "11/12: CBS Evening News",
+          "description": "Suspected D.C. shooter identified as a doctor; Hailstorm could hit East Coast cities.",
+          "link": "https://www.cbsnews.com/video/111226-cbs-evening-news/",
+          "published": "2026-11-12T23:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+          "description": "No passengers or crew killed or critically hurt after tanker collides with river cruise ship on Mississippi, officials say In what the city’s mayor declared a “miracle on the Mississippi”, all passengers were accounted for – with none killed or critically hurt – after a tanker collided with a river cruise ship docked on the Mississippi River in New Orleans on Friday afternoon. Thirty-two people we",
+          "link": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+          "published": "2026-11-14T03:11:28.000Z",
+          "categories": [
+            "New Orleans",
+            "US news",
+            "Louisiana",
+            "Water transport"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Freighter collides with cruise ship in New Orleans, passengers in the water",
+          "description": "Nov 13 - A tanker ship collided on Friday with an American Cruise Lines passenger ship that was docked in New Orleans on the Mississippi River, where rescue efforts were under way for multiple passengers in the water.",
+          "link": "https://www.straitstimes.com/world/freighter-collides-with-cruise-ship-in-new-orleans-passengers-in-the-water",
+          "published": "2026-11-13T21:24:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Tanker hits river cruise ship near New Orleans port",
+          "description": "Passengers could be seen on the boat’s deck as it tipped over in the footage.",
+          "link": "https://www.straitstimes.com/world/united-states/tanker-hits-river-cruise-ship-near-new-orleans-port",
+          "published": "2026-11-13T20:58:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+          "description": "According to the Port of New Orleans, all 197 passengers and crew members have been accounted for. \"No critical injuries have been reported,\" it said in a post on social media.",
+          "link": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+          "published": "2026-11-13T21:04:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
+          "description": "At least 180 passengers and crew members were rescued Friday after a tanker lost control, hit and sank a paddleboat on the Mississippi River, the mayor of New Orleans said. Video from the scene showed the much larger Atlantic Asphalt tanker hit the cruise boat while it was docked as metal and glass crashed and crunched. Tugboat operators, nearby workers, police and several other rescuers rushed to",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
+          "published": "2026-11-13T20:49:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: Passengers jump into water as luxury ship collides with tanker on Mississippi River",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/us/watch-passengers-jump-into-water-as-luxury-ship-collides-with-tanker-on-mississippi-river/articleshow/135826366.cms",
+          "published": "2026-11-14T07:59:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "News Wrap: Tanker crashes into river cruise boat in New Orleans",
+          "description": "In our news wrap Friday, a ship collided with a river cruise boat in New Orleans, causing it to sink in the Mississippi River, some Microsoft users were offline for a second day as the company scrambled to restore its widely used suite of workplace software and the White House is tightening rules on how staffers interact with lobbyists.",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-tanker-crashes-into-river-cruise-boat-in-new-orleans",
+          "published": "2026-11-13T23:55:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rescues operations underway in New Orleans after tanker hits river cruise boat",
+          "description": "A tanker struck a New Orleans river cruise with 129 passengers on board on Friday, partially submerging the boat. Rescues were underway on the Mississippi River, officials say.",
+          "link": "https://www.pbs.org/newshour/nation/rescues-operations-underway-in-new-orleans-after-tanker-hits-river-cruise-boat",
+          "published": "2026-11-13T21:00:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘Miracle on the Mississippi’: All passengers accounted for after New Orleans riverboat crash, officials say",
+          "description": "No deaths were reported after a massive tanker collided with paddlewheel cruise liner American Heritage steps away from a tourist-heavy downtown",
+          "link": "https://www.independent.co.uk/news/world/americas/new-orleans-river-boat-crash-129-passengers-b3084807.html",
+          "published": "2026-11-14T00:30:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
+          "description": "All passengers and crew members aboard a river cruise ship that capsized after a tanker collision in New Orleans on Friday were accounted for, with 32 people hospitalized but none critically injured, according to Mayor Helena Moreno. (Source: Bloomberg)",
+          "link": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video",
+          "published": "2026-11-14T00:29:03.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-14-2ow337",
+      "topic": "world",
+      "title": "US pushes for European presence at Ukraine-Russia talks, which Moscow refuses to confirm",
+      "summary": "The Abu Dhabi talks reveal Moscow’s growing leverage over Ukraine and a shifting Western approach to peace.",
+      "headlineSource": "Euronews",
+      "sourceCount": 9,
+      "score": 19.52,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "description": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
+          "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo",
+          "published": "2026-11-13T16:40:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine is running out of options, and Russia knows it",
+          "description": "The Abu Dhabi talks reveal Moscow’s growing leverage over Ukraine and a shifting Western approach to peace.",
+          "link": "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss",
+          "published": "2026-11-14T06:39:09.000Z",
+          "categories": [
+            "Opinions"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine updates: Europe to send united front to potential peace talks",
+          "description": "Germany, France, the UK, Italy and Poland — as well as the EU itself — will jointly represent Europe in possible peace talks. Meanwhile, a second car bomb in two days has exploded in Moscow.",
+          "link": "https://www.dw.com/en/ukraine-updates-europe-to-send-united-front-to-potential-peace-talks/live-79937459?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-13T19:39:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "France among five major powers to represent EU in Ukraine talks",
+          "description": "European Council President Antonio Costa on Friday said that Brussels will send diplomats from the bloc and five countries, including the UK, France, Germany, Italy and Poland, to upcoming Ukraine talks.",
+          "link": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
+          "published": "2026-11-13T21:38:52.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "The Downfall of AI’s ‘Rock Star’ Boss, Ukraine: Who speaks for Europe? Protests & Presidents",
+          "description": "On The World This Week with Gavin Lee, our panel distills the breaking news and global stories of the past 7 days into 45 minutes. Ukraine: Who will speak for Europe? In a week thats seen the first direct talks between Ukraine and Russia since February, with the US in the room and the Europeans relegated to the lobby according to Moscow. A new ‘European Security Architecture’ is discussed.",
+          "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20261113-the-downfall-of-ai-s-rock-star-boss-ukraine-who-speak-for-europe-protests-presidents",
+          "published": "2026-11-13T19:46:54.000Z",
+          "categories": [
+            "The World This Week"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "EU leaders choose team for Ukraine peace talks after months of wavering",
+          "description": "British representatives will be part of a team representing Europe in Ukraine peace talks.",
+          "link": "https://news.sky.com/story/eu-leaders-choose-team-for-ukraine-peace-talks-after-months-of-wavering-13612008",
+          "published": "2026-11-13T18:04:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Russia is ‘setting traps’ in Ukraine talks, EU foreign policy chief warns",
+          "description": "Kaja Kallas says Moscow is trying to divert attention from its aggression by raising issue of European security The EU’s foreign policy chief has warned against “walking into the traps that Russia is setting” as she said Moscow was trying to start a debate about European security in order to divert attention from its aggression. “We have one aggressor and one victim, and the aggressor does not hav",
+          "link": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
+          "published": "2026-11-13T20:38:25.000Z",
+          "categories": [
+            "European Union",
+            "Europe",
+            "World news",
+            "Russia",
+            "Ukraine"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
+          "description": "After coveting a seat in the Ukraine war discussions, Europe is poised to get one. The continent wants to fill it with a six-member team.",
+          "link": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
+          "published": "2026-11-13T22:47:13.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "International Relations",
+            "Politics and Government",
+            "United States International Relations",
+            "Peace Process",
+            "European Union",
+            "Kushner, Jared",
+            "Witkoff, Steven",
+            "Zelensky, Volodymyr",
+            "Europe",
+            "Russia",
+            "Ukraine"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "In Moscow, Witkoff and Kushner Ask Putin to Include Europe in Peace Talks",
+          "description": "In Dublin, President Volodymyr Zelensky of Ukraine said Europeans would join the next round of talks. Russia has not confirmed that.",
+          "link": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
+          "published": "2026-11-13T07:58:38.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "International Relations",
+            "United States International Relations",
+            "Politics and Government",
+            "Putin, Vladimir V",
+            "Witkoff, Steven",
+            "Ukraine",
+            "United States"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US pushes for European presence at Ukraine-Russia talks, which Moscow refuses to confirm",
+          "description": "\"Both sides have now agreed to expand the next round of negotiations to include our European partners,\" US special envoy Jared Kushner said. Moscow has not confirmed whether it has agreed to include European negotiators in subsequent talks.",
+          "link": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks",
+          "published": "2026-11-13T07:41:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "What’s next for Ukraine-Russia peace talks as war approaches fifth year?",
+          "description": "Steve Witkoff and Jared Kushner, who is also President Donald Trump's son-in-law, brokered talks this week between delegations from Moscow and Kyiv",
+          "link": "https://www.independent.co.uk/news/world/europe/russia-ukraine-peace-talks-putin-witkoff-kushner-b3084948.html",
+          "published": "2026-11-14T10:42:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "As EU grapples with fierce AI competition, summit overshadowed by elusive Ukraine-Russia peace deal",
+          "description": "As EU leaders meet for an AI summit in Dublin, largely overshadowed by Russia's war on Ukraine, William Hilderbrandt is pleased to welcome Fabrice Pothier, CEO of Rasmussen Global. On AI, Pothier points to Europe's limited computing capacity, estimating that it barely represents \"5% of what's available out there.\" Despite the EU's wealth of researchers and expertise, he warns that Europe is strugg",
+          "link": "https://www.france24.com/en/video/20261113-as-eu-grapples-with-fierce-ai-competition-summit-overshadowed-by-elusive-ukraine-russia-peace-deal-1",
+          "published": "2026-11-13T17:28:54.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-14-9q65s0",
+      "topic": "tech",
+      "title": "Setback for SpaceX Starship rocket's double-catch test",
+      "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+      "headlineSource": "BBC News",
+      "sourceCount": 9,
+      "score": 19.48,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 4,
+        "specialistShare": 0.44,
+        "votes": {
+          "tech": 4,
+          "business": 1,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Setback for SpaceX Starship rocket's double-catch test",
+          "description": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+          "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo",
+          "published": "2026-11-14T00:01:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "SpaceX launches Starship rocket, fails to recover booster",
+          "description": "SpaceX had planned to catch and later reuse both stages of its biggest rocket for the first time. But the booster exploded over the Gulf of Mexico, while the spacecraft continued into orbit.",
+          "link": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-14T02:24:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "SpaceX's Starship encounters problems during 15th test flight",
+          "description": "Elon Musk’s SpaceX successfully launched its Starship, the world's largest spaceship, into orbit where it should release 15 satellites for its Starlink network. A few minutes after lift off however, the rocket's booster which was meant to return to the pad splashed down in the Gulf of Mexico. Details by Daniel Quinlan.",
+          "link": "https://www.france24.com/en/spacex-s-starship-encounters-problems-during-15th-test-flight",
+          "published": "2026-11-14T10:21:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "SpaceX launches Starship in key test flight of massive rocket",
+          "description": "The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.",
+          "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+          "published": "2026-11-14T01:18:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
+          "description": "SpaceX launched Starship towards orbit on Friday in its boldest test yet: a 22-hour flight that aimed to capture the entire rocket in a move meant to accelerate moon and Mars travel. But Elon Musk’s company had to lower its expectations when the first part of the double catch flopped. The first-stage booster malfunctioned and instead of returning to its Texas pad several minutes after lift-off, it",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
+          "published": "2026-11-13T23:23:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "SpaceX's Starship soars into orbit after booster malfunction thwarts double catch attempt",
+          "description": "SpaceX's attempt to recover its entire Starship back at the launch pad was thwarted when the booster malfunctioned and ended up in the water Friday, but the spacecraft still soared into orbit in its boldest test yet.",
+          "link": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt",
+          "published": "2026-11-14T00:20:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_science",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "science",
+          "title": "SpaceX's giant rocket may leave NASA in the dust",
+          "description": "As it races to develop its new massive rocket, the space launch company is preparing to retire NASA's main ride to the International Space Station.",
+          "link": "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk",
+          "published": "2026-11-13T10:00:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "SpaceX Starship megarocket blasts off before expected return for reuse",
+          "description": "Flight 15 expected to orbit Earth about 14 times over 22 hours, before company catches it at Starbase, Texas SpaceX’s Starship megarocket blasted off from Texas on Friday afternoon as the aerospace company sought to make history with a double catch of its reusable rocket, but ultimately fell short. Starship, the world’s largest rocket, standing at 407ft, is expected to orbit Earth about 14 times o",
+          "link": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
+          "published": "2026-11-14T00:53:52.000Z",
+          "categories": [
+            "SpaceX",
+            "Texas",
+            "Space",
+            "US news",
+            "Elon Musk",
+            "Science",
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+          "description": "One way or another, the company will get some more data on Saturday.",
+          "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+          "published": "2026-11-14T00:49:13.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-14-1kncwwc",
+      "topic": "business",
+      "title": "Despite Nvidia’s Drop, Stocks Push Ahead",
+      "summary": "Jensen Huang is expected to lose around $108 million in unvested stock awards following his exit from Nvidia. His net worth, primarily composed of Nvidia shares, is around $144.5 billion.",
+      "headlineSource": "NYT Business",
+      "sourceCount": 9,
+      "score": 19.22,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.05,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 5,
+        "specialistShare": 0.56,
+        "votes": {
+          "tech": 3,
+          "business": 5,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "China warns against new U.S. export controls on computer chips",
+          "description": "China is warning the U.S. against putting new export controls on semiconductors in the wake of the scandal surrounding​ AI chip giant Nvidia and its now-former CEO Jensen Huang.",
+          "link": "https://www.cbsnews.com/news/china-us-export-controls-chips-nvidia-huang-scandal/",
+          "published": "2026-11-13T16:23:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nationalreview",
+          "outlet": "nationalreview",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Did Payments by Huang’s Nvidia Influence Trump’s Policy on Chip Exports to China?",
+          "description": "While correlation doesn’t necessarily mean causation, there is an undeniable correlation between Nvidia’s payments and Trump’s loosening of export restrictions.",
+          "link": "https://www.nationalreview.com/article/did-payments-by-huang-s-nvidia-influence-trump-s-policy-on-chip-exports-to-china",
+          "published": "2026-11-13T21:22:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nationalreview",
+          "outlet": "nationalreview",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump’s People May Have to Answer for Jensen Huang",
+          "description": "Why, exactly, are we allowing Nvidia to sell advanced AI chips to China?",
+          "link": "https://www.nationalreview.com/article/trump-s-people-may-have-to-answer-for-jensen-huang",
+          "published": "2026-11-13T19:39:25.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump bought Nvidia stock as he helped chipmaker with change to export rule",
+          "description": "President purchased up to $5m of stock before revoking Biden-era rule that limited Nvidia’s ability to sell to China Donald Trump bought Nvidia stock worth millions of dollars as he made decisions on America’s China policy that would benefit the chipmaker, an analysis has found. In May 2025, Trump’s administration rescinded a Biden-era rule designed to prevent the most advanced US-made AI chips fr",
+          "link": "https://www.theguardian.com/us-news/2026/nov/13/trump-nvidia-stock-jensen-huang-us-china",
+          "published": "2026-11-13T19:09:05.000Z",
+          "categories": [
+            "Donald Trump",
+            "US news",
+            "World news",
+            "China",
+            "Nvidia",
+            "Jensen Huang",
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Company under scrutiny for ties to Nvidia and China",
+          "description": "The unusual global footprint of Megaspeed, a major buyer of Nvidia's powerful AI computer chips, is fueling questions about whether it's a front for the Chinese government.",
+          "link": "https://www.cbsnews.com/news/megaspeed-nvidia-china-ties/",
+          "published": "2026-11-13T15:19:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+          "description": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+          "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+          "published": "2026-11-13T22:18:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Jensen Huang's Nvidia exit cost him over Rs 900 crore: How much wealth does he have left?",
+          "description": "Jensen Huang is expected to lose around $108 million in unvested stock awards following his exit from Nvidia. His net worth, primarily composed of Nvidia shares, is around $144.5 billion. Huang's holdings include approximately 812 million shares, valued at about $135 billion. Despite this wealth, he has sold around $3 billion in stock since Nvidia's IPO in 1999. Potential legal investigations may ",
+          "link": "https://timesofindia.indiatimes.com/business/international-business/jensen-huangs-nvidia-exit-costs-him-rs-900-crore-how-much-wealth-does-he-have-left/articleshow/135824006.cms",
+          "published": "2026-11-14T06:06:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Despite Nvidia’s Drop, Stocks Push Ahead",
+          "description": "A drop in Nvidia shares after the ouster of the company’s chief executive has not spread to the rest of the market, as stocks have held their ground broadly.",
+          "link": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
+          "published": "2026-11-14T00:40:29.000Z",
+          "categories": [
+            "Stocks and Bonds",
+            "Artificial Intelligence",
+            "United States Economy",
+            "NVIDIA Corporation",
+            "Huang, Jen-Hsun",
+            "Adultery",
+            "Industrial Espionage",
+            "Computer Chips"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nvidia stock slide wipes out more than $20B in value for Jensen Huang over 5 days",
+          "description": "The declining share price of Nvidia this week has wiped out around $20 billion of the value of ex-CEO Jensen Huang's stock holdings in the company.",
+          "link": "https://www.foxbusiness.com/markets/nvidia-stock-slide-wipes-out-billions-value-jensen-huang-days",
+          "published": "2026-11-13T19:40:12.000Z",
+          "categories": [
+            "105035e3-848d-5d9c-b994-8a6f4ffda642",
+            "fbn",
+            "Fox Business",
+            "fox-business/organization/nvidia",
+            "fox-business/business-leaders",
+            "fox-business/technology",
+            "fox-business/markets/stocks",
+            "fox-business/markets/us-markets/marketcheck",
+            "fox-business/markets",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+          "description": "Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
+          "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+          "published": "2026-11-13T22:21:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+          "description": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
+          "link": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+          "published": "2026-11-13T21:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ousted Nvidia tycoon Jensen Huang accused of THIRD 'affair' as AI stock plunges and Trump aide tells Mail: 'World economy is f*****'",
+          "description": "As the board was gathering for the meeting on Wednesday, news broke that Huang had strayed a second time.",
+          "link": "https://www.dailymail.com/news/article-16288671/nvidia-tycoon-Jensen-Huang-accused-affair-AI-stock-plunges.html",
+          "published": "2026-11-13T17:47:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Elon Musk joins over 43,000 people asking Nvidia’s board to bring back Jensen Huang",
+          "description": "Elon Musk has signed an open letter urging Nvidia’s board to reinstate Jensen Huang as CEO, joining more than 43,000 signers, including current and former Nvidia employees, shareholders and tech leaders like Tim Sweeney and Garry Tan. The letter demands an independent investigation, a fair hearing and a public explanation, days after Huang resigned over reported extramarital affairs, including one",
+          "link": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-and-over-40000-others-including-nvidias-current-and-former-employees-sign-open-letter-for-jensen-huangs-return-letter-says-thirty-three-years-of-leadership-do-not-place-anyone-above-/articleshow/135823053.cms",
+          "published": "2026-11-14T04:47:05.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-14-vcqvs4",
+      "topic": "world",
+      "title": "Trump, Xi and Putin to meet in China, White House says",
+      "summary": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+      "headlineSource": "Euronews",
+      "sourceCount": 13,
+      "score": 19.05,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 1,
+        "specialistShare": 0.08,
+        "votes": {
+          "tech": 1,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+          "description": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+          "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do",
+          "published": "2026-11-14T05:52:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump, Xi and Putin to hold first three-way summit in China",
+          "description": "White House says Trump plans to discuss the Iran war and nuclear arms at a meeting on the sidelines of APEC next week.",
+          "link": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
+          "published": "2026-11-14T04:55:58.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump to meet Xi, Putin for three-way huddle on nuclear arms talks",
+          "description": "The White House has said President Donald Trump will urge Xi Jinping and Vladimir Putin to discuss cutting nuclear arsenals in Shenzhen next week, though a senior US official expects no agreement.",
+          "link": "https://www.dw.com/en/trump-to-meet-xi-putin-for-three-way-huddle-on-nuclear-arms-talks/a-79946408?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-14T04:11:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+          "description": "The leaders of the US, China and Russia will hold an unprecedented meeting on the sidelines of a major economic summit, the White House has said.",
+          "link": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+          "published": "2026-11-14T08:19:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump to meet with Putin and Xi in China next week, US officials say",
+          "description": "Trump will participate in the first-ever trilateral meeting between the leaders of the U.S., China, and Russia on the sidelines of the APEC Summit in China next week.",
+          "link": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914",
+          "published": "2026-11-14T02:43:31.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump, Putin, Xi Jinping to meet in first trilateral of its kind",
+          "description": "President Trump is looking to talk about reducing nuclear arsenals in the first formal trilateral between the leaders of U.S., China and Russia.",
+          "link": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/",
+          "published": "2026-11-14T10:59:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump, Xi and Putin plan an unprecedented meeting on the sidelines of APEC, officials say",
+          "description": "President Donald Trump will meet with the leaders of China and Russia on the sidelines of the Asia-Pacific Economic Cooperation summit in Shenzen, China’s tech hub, next week, an unprecedented gathering of the heads of the world’s biggest nuclear powers.",
+          "link": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275",
+          "published": "2026-11-14T00:08:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump, Putin and Xi to meet in first trilateral meeting between leaders",
+          "description": "President Trump plans to meet with Russian President Vladimir Putin and Chinese President Xi Jinping on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit in China next week, marking the first-ever trilateral meeting between the three leaders. Trump will be in Asia for The Association of Southeast Asian Nations summit in the Philippines and...",
+          "link": "https://thehill.com/homenews/administration/6220278-trump-putin-xi-trilateral-meeting/",
+          "published": "2026-11-14T01:30:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
+          "description": "The White House said Trump will meet Xi on Nov 19 on the sidelines of the Asia-Pacific Economic Cooperation forum in Shenzhen.",
+          "link": "https://www.straitstimes.com/world/china-us-discuss-tariffs-farm-trade-ahead-of-xi-trump-meeting",
+          "published": "2026-11-14T08:35:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nvidia affair will hang over Trump’s upcoming trip to Asia-Pacific",
+          "description": "Unanswered questions about Nvidia’s ties with Megaspeed are creating an awkward moment for Trump.",
+          "link": "https://www.straitstimes.com/world/united-states/nvidia-affair-will-hang-over-trumps-upcoming-trip-to-asia-pacific",
+          "published": "2026-11-14T05:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump to raise nuclear-arms cuts with Putin, Xi on Nov 19, White House says",
+          "description": "The three leaders are expected to meet on the sidelines of the upcoming APEC summit.",
+          "link": "https://www.straitstimes.com/world/united-states/trump-to-raise-nuclear-arms-cuts-with-putin-xi-on-thursday-white-house-says",
+          "published": "2026-11-14T01:39:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump, Xi and Putin to meet in China, White House says",
+          "description": "Trump is set to depart Washington on Monday for the Philippines, where he is due to attend a meeting of the Association of Southeast Asian Nations before making his way to Shenzhen in China.",
+          "link": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
+          "published": "2026-11-14T09:00:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump to raise nuclear-arms cuts with Putin and Xi at historic trilateral summit",
+          "description": "Trump wants to talk about reducing nuclear arsenals and is also set to bring up his war in Iran — but is not expected to discuss the war in Ukraine.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/14/asia-pacific/politics/trump-xi-putin-trilateral-apec/",
+          "published": "2026-11-14T00:23:00.000Z",
+          "categories": [
+            "ASIA PACIFIC"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "White House confirms US-China-Russia trilateral talks on Apec sidelines",
+          "description": "The White House on Friday confirmed an unprecedented meeting between leaders of the US, China and Russia on the sidelines of the Asia-Pacific Economic Cooperation (Apec) summit in Shenzhen next week. “President [Donald] Trump will conclude his visit to China with a trilateral meeting between the president of the United States, the president of the People’s Republic of China and the president of th",
+          "link": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+          "published": "2026-11-14T00:30:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "It’s looking like Trump’s first term again as knives come out at the White House over Nvidia scandal",
+          "description": "The backbiting and leaking that characterized Trump’s first term is back in full force - and this time Commerce Secretary Howard Lutnick appears to be the target, White House Correspondent Andrew Feinberg writes",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/howard-lutnick-testify-nvidia-chip-exports-jensen-huang-b3084810.html",
+          "published": "2026-11-13T23:02:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nvidia fallout deepens as Trump official blames commerce secretary for lack of controls",
+          "description": "Senior White House officials are said to be discussing whether Howard Lutnick should be pushed out amid the scandal",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/bessent-howard-lutnick-nvidia-trump-b3084646.html",
+          "published": "2026-11-13T15:41:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+          "description": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+          "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o",
+          "published": "2026-11-13T12:22:30.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-14-1gxwfci",
+      "topic": "world",
+      "title": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
+      "summary": "There is growing criticism of Lutnick’s role in overseeing export controls on US chips to China.",
+      "headlineSource": "South China Morning Post",
+      "sourceCount": 7,
+      "score": 17.84,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 1.74,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 2,
+        "specialistShare": 0.29,
+        "votes": {
+          "tech": 2,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+          "description": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+          "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro",
+          "published": "2026-11-13T19:53:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bessent upset Lutnick didn't ban Nvidia chip exports to China-linked firm",
+          "description": "Treasury Secretary Scott Bessent is blaming Commerce Secretary Howard Lutnick for allowing Megaspeed, the firm once led by alleged Chinese spy Alice Huang, to circumvent U.S. restrictions by funneling Nvidia chips to China, CBS News has learned. Megaspeed denies wrongdoing and China denies the spying allegations. Ed O'Keefe has the story.",
+          "link": "https://www.cbsnews.com/video/bessent-upset-lutnick-didnt-ban-nvidia-chip-exports-to-china-linked-firm/",
+          "published": "2026-11-14T01:46:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Critics say Lutnick failed to cut off diversion of Nvidia chips to China",
+          "description": "Commerce Secretary Howard Lutnick is under fire from critics asking whether his ties to Chinese companies and friendship with ex-Nvidia CEO Jensen Huang contributed to a lack of oversight over Nvidia AI chip sales.",
+          "link": "https://www.cbsnews.com/news/lutnick-nvidia-ai-chips-china/",
+          "published": "2026-11-13T15:15:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+          "description": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of action over the Nvidia spying scandal as other Trump administration officials publicly raise questions over his decisions. Scott Bessent, t",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+          "published": "2026-11-13T19:51:28.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "China",
+            "US politics",
+            "Asia Pacific",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Trump administration",
+            "Donald Trump",
+            "US news",
+            "US national security",
+            "CIA",
+            "Technology sector",
+            "Computing",
+            "Espionage",
+            "Business",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+          "description": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+          "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+          "published": "2026-11-13T23:42:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bessent blames US Commerce Dept over lack of export controls for Nvidia partner Megaspeed",
+          "description": "There is growing criticism of Lutnick’s role in overseeing export controls on US chips to China.",
+          "link": "https://www.straitstimes.com/world/united-states/bessent-blames-us-commerce-dept-over-lack-of-export-controls-for-nvidia-partner-megaspeed",
+          "published": "2026-11-13T23:50:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
+          "description": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department, led by Howard Lutnick, for delaying the blacklisting of Megaspeed, an Nvidia customer suspected of diverting advanced AI chips to China, days before US President Donald Trump and Chinese President Xi Jinping are expected to meet in Shenzhen. Bessent spoke a day after Nvidia co-founder Jensen Huang resigned as chief execu",
+          "link": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
+          "published": "2026-11-13T20:20:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Bessent accuses Lutnick of failing to prevent China from obtaining Nvidia chips",
+          "description": "The fallout of Jensen Huang's downfall expanded into a public fight between two of President Trump's top advisers. Treasury Secretary Scott Bessent accused Commerce Secretary Howard Lutnick of failing to prevent China from obtaining Nvidia's most advanced chips. Nick Schifrin looks at the finger-pointing and the ongoing efforts to control advanced technology exports to China.",
+          "link": "https://www.pbs.org/newshour/show/bessent-accuses-lutnick-of-failing-to-prevent-china-from-obtaining-nvidia-chips",
+          "published": "2026-11-13T23:50:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+          "description": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of action over the Nvidia spying scandal as other Trump administration officials publicly raise questions over his decisions. Scott Bessent, t",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+          "published": "2026-11-13T19:51:28.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "China",
+            "US politics",
+            "Asia Pacific",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Trump administration",
+            "Donald Trump",
+            "US news",
+            "US national security",
+            "CIA",
+            "Technology sector",
+            "Computing",
+            "Espionage",
+            "Business",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
+          "description": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
+          "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro",
+          "published": "2026-11-13T19:53:57.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-14-135gu6h",
+      "topic": "business",
+      "title": "New candidate emerges to replace Jensen Huang as Nvidia CEO",
+      "summary": "The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy.",
+      "headlineSource": "Fox Business",
+      "sourceCount": 3,
+      "score": 12.52,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Can Nvidia survive without tech titan Jensen Huang?",
+          "description": "The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy. Meanwhile some employees are clamouring for Huang's return – as his fellow tech leader Elon Musk. A sign of Huang's lingering star power, in an industry where so often the fa",
+          "link": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+          "published": "2026-11-14T10:20:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nvidia approaches Arm CEO Haas as employees seek Huang’s return, reports say",
+          "description": "Nvidia's board said it was in the process of selecting a search firm for the CEO role and had not formally engaged any potential candidates.",
+          "link": "https://www.japantimes.co.jp/business/2026/11/14/companies/nvidia-arm-ceo-haas-huang/",
+          "published": "2026-11-13T23:30:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "New candidate emerges to replace Jensen Huang as Nvidia CEO",
+          "description": "The board of Nvidia has approached Rene Haas, the CEO of British chipmaker Arm, as it searches for a replacement for ousted CEO Jensen Huang, a report said.",
+          "link": "https://www.foxbusiness.com/fox-news-tech/new-candidate-emerges-replace-jensen-huang-nvidia-ceo",
+          "published": "2026-11-13T18:44:27.000Z",
+          "categories": [
+            "d41d7521-4f65-5ebc-b38f-e6fbfe8b5291",
+            "fbn",
+            "Fox Business",
+            "fox-business/organization/nvidia",
+            "fox-business/topic/artificial-intelligence",
+            "fox-business/tech",
+            "fox-news/fox-news-tech",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+          "description": "The revelation follows two other extramarital affairs that led to his resignation Thursday.",
+          "link": "https://www.japantimes.co.jp/business/2026/11/14/huang-second-employee-relationship/",
+          "published": "2026-11-14T08:06:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-14-yg281r",
+      "topic": "health",
+      "title": "Trump administration delays Medicaid work requirement enforcement",
+      "summary": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
+      "headlineSource": "The Hill",
+      "sourceCount": 4,
+      "score": 10.69,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 1.78,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 3
+        }
+      },
+      "members": [
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump administration delays Medicaid work requirement enforcement",
+          "description": "The Trump administration is delaying the implementation of controversial Medicaid work requirements, giving states an extra six months to prepare. The work requirements, which Republicans established in the One Big Beautiful Bill Act last year, will still technically go into effect Jan. 1. But states will have an optional “hold harmless” transition period that will...",
+          "link": "https://thehill.com/policy/healthcare/6220069-trump-delays-medicaid-work-requirements/",
+          "published": "2026-11-13T23:19:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US gives states another 6 months before they have to remove people from Medicaid for not working",
+          "description": "President Donald Trump's administration is giving states another six months before they must remove beneficiaries from Medicaid rolls for failing to meet new work requirements",
+          "link": "https://www.independent.co.uk/news/world/americas/medicaid-donald-trump-democrats-mehmet-oz-nebraska-b3084865.html",
+          "published": "2026-11-13T22:48:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
+          "description": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
+          "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
+          "published": "2026-11-14T02:22:25.000Z",
+          "categories": [
+            "Medicaid",
+            "United States Politics and Government",
+            "Federal-State Relations (US)",
+            "States (US)",
+            "United States",
+            "Health Insurance and Managed Care",
+            "Democratic Party",
+            "National Assn of Medicaid Directors",
+            "Republican Party",
+            "Jeffries, Hakeem"
+          ]
+        },
+        {
+          "sourceId": "nyt_health",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
+          "description": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
+          "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
+          "published": "2026-11-14T02:22:25.000Z",
+          "categories": [
+            "Medicaid",
+            "United States Politics and Government",
+            "Federal-State Relations (US)",
+            "States (US)",
+            "United States",
+            "Health Insurance and Managed Care",
+            "Democratic Party",
+            "National Assn of Medicaid Directors",
+            "Republican Party",
+            "Jeffries, Hakeem"
+          ]
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "STAT+: Enforcement of stringent Medicaid work requirements delayed for six months",
+          "description": "Enforcement of the Trump administration's stringent new Medicaid work requirements have been delayed for six months, until July 1, 2027.",
+          "link": "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/",
+          "published": "2026-11-13T22:21:56.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
