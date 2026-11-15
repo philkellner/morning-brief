@@ -1,0 +1,918 @@
+{
+  "version": 1,
+  "edition": "2026-11-15",
+  "generatedAt": "2026-11-15T11:45:19.888Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-15-ngir15",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "SpaceX successfully catches Starship and makes history",
+      "summary": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
+      "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+      "headlineSource": "NPR",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-15T11:33:37.000Z",
+      "sourceCount": 19,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 8,
+      "score": 26.45,
+      "scoreComponents": {
+        "breadth": 12.97,
+        "diversity": 7.8,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+          "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "(Digital) SpaceX Catches Starship in Novel Landing",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "SpaceX catches upper stage of Starship rocket in historic first",
+          "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "SpaceX carries out first-ever spaceship capture",
+          "url": "https://www.dw.com/en/spacex-carries-out-first-ever-spaceship-capture/a-79950275?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Economist Science",
+          "sourceId": "econ_scitech",
+          "lean": "center-right",
+          "title": "SpaceX achieves another historic first",
+          "url": "https://www.economist.com/science-and-technology/2026/11/15/spacex-achieves-another-historic-first"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Watch: SpaceX catches Starship in midair on return to launch tower",
+          "url": "https://www.euronews.com/video/2026/11/15/watch-spacex-catches-starship-in-midair-on-return-to-launch-tower"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "SpaceX makes history as Starship spacecraft caught by launch tower for first time",
+          "url": "https://www.foxbusiness.com/technology/spacex-makes-history-starship-spacecraft-caught-launch-tower-first-time"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "SpaceX makes rocketry history by recapturing massive reusable rocketship",
+          "url": "https://www.france24.com/en/spacex-makes-rocketry-history-by-recapturing-massive-reusable-rocketship"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
+          "url": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "SpaceX recovers Starship with giant tower arms in historic first",
+          "url": "https://nypost.com/2026/11/14/us-news/spacex-recovers-starship-with-giant-tower-arms-in-historic-first/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "SpaceX successfully catches Starship and makes history",
+          "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
+          "url": "https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "SpaceX's Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+          "url": "https://www.pbs.org/newshour/science/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "SpaceX’s Starship returns to launch pad from orbit in victory for company",
+          "url": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "SpaceX catches Starship for first time, drawing praise in Washington",
+          "url": "https://thehill.com/policy/technology/6221123-spacex-starship-historic-landing-lawmakers-react/"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "SpaceX pulls off first-ever spaceship ‘catch’",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "SpaceX’s Starship returns to landing pad from orbit, acing test for reusable rockets",
+          "url": "https://www.straitstimes.com/world/united-states/spacexs-starship-nears-end-of-15th-test-flight-and-return-landing-attempt"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+          "url": "https://www.theverge.com/?p=1033930"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-15-lw0796",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "How some flights were exempt from the US ground stop",
+      "summary": "Passengers travelling to and from the US continued to face delays and cancellations to flights on Saturday despite the FAA having lifted the ground stop.",
+      "url": "https://www.straitstimes.com/world/united-states/how-some-flights-were-exempt-from-the-us-ground-stop",
+      "headlineSource": "The Straits Times",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-15T08:35:03.000Z",
+      "sourceCount": 16,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 8,
+      "score": 24.07,
+      "scoreComponents": {
+        "breadth": 12.26,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.21,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Trump Heads to China for Talks With Xi and Putin",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-14/trump-heads-to-china-for-talks-with-xi-and-putin-video"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
+          "url": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US: Duffy says 'incompetence' or bad tech to blame for flight haltings",
+          "url": "https://www.dw.com/en/us-duffy-says-incompetence-or-bad-tech-to-blame-for-flight-haltings/a-79949977?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Airlines expect to return to full schedules by Sunday night after US nationwide ground stop, FAA says",
+          "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Duffy sounds alarm over aging FAA system after nationwide air travel shutdown",
+          "url": "https://www.foxbusiness.com/politics/duffy-sounds-alarm-over-aging-faa-system-after-nationwide-air-travel-shutdown"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Copper wires to blame for US flight disruption, says Trump administration",
+          "url": "https://www.france24.com/en/americas/20261114-copper-wires-to-blame-for-us-flight-disruption-says-trump-administration"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Rare nationwide ground stop halts US air traffic – video",
+          "url": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "FAA ground stop disrupts college football",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Why Some Flights Were Exempt From the Ground Stop",
+          "url": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Thousands of flights canceled as airlines work to recover from nationwide ground stop",
+          "url": "https://www.pbs.org/newshour/nation/thousands-of-flights-canceled-as-airlines-work-to-recover-from-nationwide-ground-stop"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "FAA ground stop: Sport stars scramble as flight chaos and major travel disruption hits America",
+          "url": "https://www.independent.co.uk/news/world/americas/us-flights-faa-ground-stop-sport-trump-b3085052.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Repair of old copper wiring caused U.S. flight disruption, Trump administration says",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/copper-wiring-us-flight-disruption/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "How some flights were exempt from the US ground stop",
+          "url": "https://www.straitstimes.com/world/united-states/how-some-flights-were-exempt-from-the-us-ground-stop"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Work to replace old copper wire led to the FAA’s ground stop",
+          "url": "https://www.theverge.com/?p=1033898"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Nationwide ground stop spills into partisan politics",
+          "url": "https://www.washingtonexaminer.com/policy/infrastructure/4804068/nationwide-ground-stop-partisan-politics/"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-15-127gnfd",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Iran strikes Bahrain base, repeats path to U.S. deal remains open",
+      "summary": "Iranian military confirmed on Sunday an attack on a US military base in Bahrain, in its second targeting the Middle Eastern country in the space of three days. Bahrain's military said it had intercepted several Iranian attacks, with the foreign ministry…",
+      "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-15T11:26:01.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 21.58,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Iran says it targets US radar in Bahrain. What do we know?",
+          "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Bahrain says it intercepted Iranian strikes, Tehran targets U.S. assets",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Bahrain intercepts Iranian drone attacks on US military base",
+          "url": "https://www.dailymail.com/news/article-16294021/Bahrain-Iranian-drone-attacks-US-military-base.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Iran claims attack on US military airbase in Bahrain",
+          "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "How Iran used US troops’ digital footprints to hit Mideast bases for billions in damage",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3374473/how-iran-used-us-troops-digital-footprints-hit-mideast-bases-billions-damage"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Iran targets Bahrain airbase as strikes resume in Gulf - Middle East crisis live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Iran strikes Bahrain base, repeats path to U.S. deal remains open",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base",
+          "url": "https://www.straitstimes.com/world/middle-east/bahrain-issues-first-threat-alerts-since-september-as-iran-says-it-attacked-us-base"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-15-13qvgnb",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Microsoft says services fully restored after global outage",
+      "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+      "url": "https://www.pbs.org/newshour/world/microsoft-says-services-fully-restored-after-global-outage",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "BBC Technology",
+      "publishedAt": "2026-11-15T07:04:31.000Z",
+      "sourceCount": 10,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 21.27,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.09,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Microsoft says it \"restored service\" after major worldwide outage",
+          "url": "https://www.cbsnews.com/news/microsoft-battling-major-outage/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+          "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Software company with thousands of Fortune 500 clients joins Microsoft in experiencing major outage",
+          "url": "https://www.foxbusiness.com/technology/software-company-thousands-fortune-500-clients-joins-microsoft-experiencing-major-outage"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
+          "url": "https://www.france24.com/en/technology/20261115-is-this-a-cyberattack-grounded-flights-a-microsoft-outage-and-ai-chaos-fuel-cybersecurity-fears"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Microsoft says services fully restored after global outage hits governments",
+          "url": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Microsoft says services fully restored after global outage",
+          "url": "https://www.pbs.org/newshour/world/microsoft-says-services-fully-restored-after-global-outage"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Microsoft confirms all services are restored after global outage",
+          "url": "https://news.sky.com/story/microsoft-confirms-all-services-are-restored-after-global-outage-13612219"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Microsoft services fully restored after global disruptions",
+          "url": "https://thehill.com/policy/technology/6220925-microsoft-services-fully-restored-after-global-disruptions/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Microsoft’s Global Outage and Fixes: What We Know",
+          "url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-15-9a7hqt",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "South Korea calms fears over 260,000 Nvidia chip order after Jensen Huang’s exit",
+      "summary": "After the fall, the fallout. US government agencies are squabbling after AI leader Jensen Huang stepped down from chips giant Nvidia in disgrace.",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3374477/south-korea-calms-fears-over-260000-nvidia-chip-order-after-jensen-huangs-exit",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-15T11:41:01.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 20.46,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Is Nvidia cooked without Jensen Huang?",
+          "url": "https://www.businessinsider.com/bi-today-sunday-newsletter-nvidia-without-jensen-huang-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Saturday Night Live mocks Nvidia boss's Chinese spy affair scandal as Bowen Yang makes surprise return as Jensen Huang",
+          "url": "https://www.dailymail.com/news/article-16293845/Saturday-Night-Live-Nvidia-boss-Chinese-spy-affair.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Washington divided over how to deal with fallout from the Nvidia case",
+          "url": "https://www.france24.com/en/washington-divided-over-how-to-deal-with-fallout-from-the-nvidia-case"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+          "url": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "The Jensen Huang Scandal Has Shocked Even Scandal-Prone Silicon Valley",
+          "url": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "South Korea calms fears over 260,000 Nvidia chip order after Jensen Huang’s exit",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3374477/south-korea-calms-fears-over-260000-nvidia-chip-order-after-jensen-huangs-exit"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Insiders predict Jensen Huang ‘will have a second act’ as resurfaced images show him embracing alleged Chinese spy",
+          "url": "https://www.independent.co.uk/news/world/americas/jensen-huang-spy-photos-nvidia-comeback-b3085040.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+          "url": "https://www.theverge.com/?p=1033781"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-15-123pmds",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "summary": "The US has broached the idea of Kyiv giving up the Donbas region in exchange for NATO membership, the Ukrainian president said.",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo",
+      "headlineSource": "BBC News",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-15T11:24:23.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 16.62,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.S. reportedly floated trading Ukrainian land for NATO membership",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-nato-us-donbas/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine: Zelenskyy says security deal could go to referendum",
+          "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
+          "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Zelenskyy says a new European security framework floated by U.S. could benefit Putin",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-says-a-new-european-security-framework-floated-by-u-s-could-benefit-putin"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "US asked if Ukraine would give up parts of Donbas for NATO membership, Zelenskyy says",
+          "url": "https://news.sky.com/story/us-asks-if-ukraine-would-give-up-parts-of-donbas-for-nato-membership-zelenskyy-says-13612188"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine refuses to concede Donbas as Zelensky warns US security plan could empower Putin",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-nato-membership-donbas-russia-putin-zelensky-b3085145.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-15-1a4g6a4",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Two planes collide at Miami airport as audio reveals moment pilot tells air traffic control they'd been hit",
+      "summary": "The wingtip of a Copa Airlines passenger jet Copa clipped the nose of a UPS aircraft.",
+      "url": "https://www.dailymail.com/news/article-16293655/planes-collide-Miami-airport.html",
+      "headlineSource": "Daily Mail",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-15T09:38:19.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 16.11,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.3,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport",
+          "url": "https://abcnews.com/US/ups-plane-copa-airlines-flight-collide-taxiway-miami/story?id=138152923"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Two planes collide at Miami airport as audio reveals moment pilot tells air traffic control they'd been hit",
+          "url": "https://www.dailymail.com/news/article-16293655/planes-collide-Miami-airport.html"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "UPS cargo plane collides with commercial airliner at Miami airport",
+          "url": "https://nypost.com/2026/11/14/us-news/ups-cargo-plane-collides-with-commercial-airliner-at-miami-airport/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Planes collide at Miami airport, weeks after deadly Amazon crash",
+          "url": "https://www.straitstimes.com/world/united-states/planes-collide-at-miami-airport-weeks-after-deadly-amazon-crash"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Somebody hit us': Audio captures moment jets collided at Miami airport",
+          "url": "https://timesofindia.indiatimes.com/world/us/somebody-hit-us-audio-captures-moment-jets-collided-at-miami-airport/articleshow/135852224.cms"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-15-1q6a1s",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+      "summary": "A federal judge on Saturday ordered a two-week delay to any work at a historic Washington public golf course not far from the White House.",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-15T09:02:03.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 16.06,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.25,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Federal judge blocks Trump from moving ahead on Washington public golf course redevelopment",
+          "url": "https://nypost.com/2026/11/15/us-news/trump-blocked-from-moving-ahead-on-washington-public-golf-course-redevelopment-judge-orders/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Federal judge temporarily blocks Trump administration from closing East Potomac Park",
+          "url": "https://thehill.com/regulation/court-battles/6221069-judge-blocks-east-potomac-park-closure/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump rages at judge holding up DC golf course – but remains silent on flight chaos",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-judge-ana-reyes-dc-golf-course-b3085079.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-15-1jst74u",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Pope Leo to cross Peru for visits to Inca city, Amazon gateway",
+      "summary": "Pope Leo XIV on Sunday will traverse the length of Peru in what marks the penultimate day of his Latin American tour. The leader of the Catholic church – who underwent cancer surgery just a month ago – warned that Peru's remote Inca communities are under…",
+      "url": "https://www.straitstimes.com/world/europe/pope-leo-to-cross-peru-for-visits-to-inca-city-amazon-gateway",
+      "headlineSource": "The Straits Times",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-15T10:55:11.000Z",
+      "sourceCount": 6,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 15.99,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Pope Leo helps Argentines embrace Francis, the pontiff who once divided them",
+          "url": "https://abcnews.com/International/wireStory/pope-leo-helps-argentines-embrace-francis-pontiff-divided-138153510"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+          "url": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Pope Leo XIV continues trip through South America as health authorities keep watch",
+          "url": "https://www.euronews.com/2026/11/14/pope-leo-xiv-continues-trip-through-south-america-as-health-authorities-keep-watch"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Pope laments poverty-stricken Inca communities as locals leave Peru",
+          "url": "https://www.france24.com/en/americas/20261115-pope-laments-poverty-stricken-inca-communities-as-locals-leave-peru"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Pope Leo makes emotional return to Peru",
+          "url": "https://www.nbcnews.com/nightly-news/video/pope-leo-makes-emotional-return-to-peru-273486917715"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Pope Leo to cross Peru for visits to Inca city, Amazon gateway",
+          "url": "https://www.straitstimes.com/world/europe/pope-leo-to-cross-peru-for-visits-to-inca-city-amazon-gateway"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-14-1mqyyfu",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "U.S. loses measles elimination status as cases break records",
+      "summary": "The CDC has confirmed 5,412 measles cases in 2026, more than double last year's total and the highest number since 1991.",
+      "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/us-loses-measles-elimination-status/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-14T23:54:00.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 15.4,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 1.58,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US loses measles-elimination status after 26 years, WSJ reports",
+          "url": "https://www.dw.com/en/us-loses-measles-elimination-status-after-26-years-wsj-reports/a-79946974?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "US reportedly loses longstanding measles elimination status as cases surge nationwide",
+          "url": "https://www.foxnews.com/health/us-loses-longstanding-measles-elimination-status-cases-surge-nationwide"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "US has lost measles elimination status, global health authorities say",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "U.S. loses measles elimination status as cases break records",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/us-loses-measles-elimination-status/"
+        }
+      ]
+    }
+  ]
+}
