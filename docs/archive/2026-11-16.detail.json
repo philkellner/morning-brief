@@ -1,0 +1,1459 @@
+{
+  "edition": "2026-11-16",
+  "generatedAt": "2026-11-16T12:25:32.330Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-16-1xnmkc3",
+      "topic": "tech",
+      "title": "Elon Musk, Uber co-founder join calls to reinstate Jensen Huang as Nvidia chief",
+      "summary": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+      "headlineSource": "France 24",
+      "sourceCount": 9,
+      "score": 20.46,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 6,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 5,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+          "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+          "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go",
+          "published": "2026-11-16T12:20:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Elon Musk, Uber co-founder join calls to reinstate Jensen Huang as Nvidia chief",
+          "description": "Elon Musk and an Uber co-founder were among more than 158,000 signatories by Sunday demanding Jensen Huang’s reinstatement as Nvidia chief pending an independent investigation. Huang resigned Thursday after revelations of two extramarital affairs, one with a subordinate and another with a woman accused of spying for China, ending his 33-year tenure.",
+          "link": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate",
+          "published": "2026-11-15T23:31:15.000Z",
+          "categories": [
+            "Technology"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+          "description": "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, as US treasury secretary urges ‘dramatic shake-up’ Megaspeed says it’s a ‘legitimate and lawful business’ Business live – latest updates Elon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip compan",
+          "link": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+          "published": "2026-11-16T11:30:35.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "US news",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Trump administration",
+            "Elon Musk",
+            "Silicon Valley",
+            "China",
+            "Business",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "The tech world's calls for Jensen Huang to return to Nvidia are growing",
+          "description": "Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.",
+          "link": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
+          "published": "2026-11-16T12:15:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Jensen Huang plots return as Nvidia CEO with allies: report",
+          "description": "The $4 trillion AI company has been shroud in controversy after Huang admitted to an affair with a suspected Chinese spy",
+          "link": "https://www.independent.co.uk/news/world/americas/jensen-huang-nvidia-return-spy-b3085318.html",
+          "published": "2026-11-15T21:48:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+          "description": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO,",
+          "link": "https://www.theverge.com/?p=1033999",
+          "published": "2026-11-15T20:43:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+          "description": "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, as US treasury secretary urges ‘dramatic shake-up’ Megaspeed says it’s a ‘legitimate and lawful business’ Business live – latest updates Elon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip compan",
+          "link": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+          "published": "2026-11-16T11:30:35.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "US news",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Trump administration",
+            "Elon Musk",
+            "Silicon Valley",
+            "China",
+            "Business",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+          "description": "Jensen Huang’s affair with a suspected spy is Silicon Valley’s worst nightmare come true The resignation this week of Nvidia’s founder and CEO Jensen Huang is one of the most astonishing corporate scandals in memory, featuring allegations of international espionage and extramarital affairs involving one of the world’s most powerful men. As investigations mount into what went wrong at the $4tn chip",
+          "link": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+          "published": "2026-11-15T06:00:06.000Z",
+          "categories": [
+            "Jensen Huang",
+            "Nvidia",
+            "Technology",
+            "Silicon Valley",
+            "Donald Trump",
+            "AI (artificial intelligence)"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "The Jensen Huang Scandal Has Shocked Even Scandal-Prone Silicon Valley",
+          "description": "As Jensen Huang abruptly departs, the tech community grapples with an eternal question: Why do the smartest and most successful men so often act so stupidly?",
+          "link": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html",
+          "published": "2026-11-15T22:53:53.000Z",
+          "categories": [
+            "NVIDIA Corporation",
+            "Huang, Jen-Hsun",
+            "Artificial Intelligence",
+            "Computer Chips",
+            "Computers and the Internet",
+            "Adultery",
+            "Espionage and Intelligence Services",
+            "Industrial Espionage",
+            "China",
+            "Huang, Alice (Technology Executive)"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "AI sell-off resumes as Jensen Huang ‘discusses comeback as Nvidia CEO’ – business live",
+          "description": "Rolling coverage of the latest economic and financial news Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter Britain’s main share index isn’t been dragged back by the AI sell-off. The FTSE 100 share index rose by as much as 29 points, or 0.25%, to 10,931 points. “London’s Footsie has started the week as a resilient player despite the risk-off sentiment rev",
+          "link": "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
+          "published": "2026-11-16T12:08:06.000Z",
+          "categories": [
+            "Business",
+            "Nvidia",
+            "Economics",
+            "Stock markets",
+            "FTSE"
+          ]
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "‘SNL’ parodies Jensen Huang and other tech billionaires: ‘May I pleasure you in an industry secret?’",
+          "description": "Comedian John Mulaney returned to \"Saturday Night Live\" and played a CIA officer teaching tech executives like Sam Altman how to identify spies.",
+          "link": "https://www.businessinsider.com/snl-jensen-huang-bowen-yang-musk-altman-amodei-zuckerberg-thiel-2026-11",
+          "published": "2026-11-15T16:30:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Jensen Huang weighs Nvidia CEO comeback as ally plans ‘war room’: report",
+          "description": "Former Nvidia CEO Jensen Huang faces a reinstatement push backed by Elon Musk, Tim Sweeney and other tech leaders following his abrupt ouster.",
+          "link": "https://www.foxbusiness.com/technology/jensen-huang-weighs-nvidia-ceo-comeback-ally-plans-war-room-report",
+          "published": "2026-11-15T22:57:14.000Z",
+          "categories": [
+            "e3943478-4e82-589f-851c-5fcec8133c5a",
+            "fbn",
+            "Fox Business",
+            "fox-business/organization/nvidia",
+            "fox-business/tech/business-tech",
+            "fox-business/business-leaders",
+            "fox-business/technology",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+          "description": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority",
+          "link": "https://www.theverge.com/?p=1033984",
+          "published": "2026-11-15T19:15:43.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-16-1fjmzre",
+      "topic": "world",
+      "title": "Five EU nations set to announce migrant deportation centre deal with Rwanda",
+      "summary": "Germany, Denmark, Austria, Greece and the Netherlands are expected to announce a \"return hub\" for failed asylum seekers.",
+      "headlineSource": "France 24",
+      "sourceCount": 6,
+      "score": 18.55,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
+          "description": "Germany, Denmark, Austria, Greece and the Netherlands are expected to announce a \"return hub\" for failed asylum seekers.",
+          "link": "https://www.bbc.co.uk/news/articles/cw987343352go",
+          "published": "2026-11-16T11:55:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Germany to join other EU states in announcing Rwanda deportation hub",
+          "description": "The move follows approval of EU regulations that ease deportations and allow hubs to be set up outside the bloc. A similar scheme by the UK government fell apart over legal issues.",
+          "link": "https://www.dw.com/en/germany-to-join-other-eu-states-in-announcing-rwanda-deportation-hub/a-79959158?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-16T12:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Five EU nations set to announce migrant deportation centre deal with Rwanda",
+          "description": "Five EU countries on Monday are set to announce a deal to establish a migrant deportation centre in Rwanda – the first such facility outside the bloc. The move comes after the EU toughened its migration rules in late 2025.",
+          "link": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "published": "2026-11-16T06:07:22.000Z",
+          "categories": [
+            "Africa"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "EU capitals to unveil deal to start sending rejected migrants to Rwanda, raising fresh questions over Labour's move to ditch the Tories' flagship deportation scheme to stop the boats",
+          "description": "Austria, Denmark, Germany, Greece and the Netherlands will unveil the deal - aimed at reducing illegal land border and Mediterranean boat crossings - in Austrian capital Vienna.",
+          "link": "https://www.dailymail.com/news/article-16294489/Several-EU-capitals-announce-deal-migrants-Rwanda.html",
+          "published": "2026-11-16T10:27:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "EU nations to unveil Rwanda deal for migrant return hub",
+          "description": "The announcement will mark the culmination of a push to boost deportations launched in 2024, on the back of a souring of public opinion on migration.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/16/world/politics/eu-migrant-return-hub-rwanda/",
+          "published": "2026-11-16T08:02:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "5 EU countries to announce Rwanda deportation scheme for asylum seekers following UK’s ‘unlawful’ attempt",
+          "description": "Two lawmakers were shown facilities earmarked for Britain's abandoned Rwanda scheme that could potentially house migrants transferred from EU countries",
+          "link": "https://www.independent.co.uk/news/world/europe/rwanda-asylum-seeker-deportation-eu-scheme-b3085455.html",
+          "published": "2026-11-16T08:42:36.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-16-11m27a5",
+      "topic": "world",
+      "title": "Australian MP Helen Haines leaves hospital after losing both legs in alleged car attack",
+      "summary": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago.",
+      "headlineSource": "Euronews",
+      "sourceCount": 6,
+      "score": 18.48,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.05,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+          "description": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago.",
+          "link": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o",
+          "published": "2026-11-16T03:09:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Australian MP who lost her legs in alleged attack speaks on leaving hospital",
+          "description": "Helen Haines, the Australian politician who lost both legs after an alleged attack, has said she is \"full of gratitude\" upon leaving hospital.",
+          "link": "https://news.sky.com/story/australian-mp-helen-haines-first-words-since-leaving-hospital-13612681",
+          "published": "2026-11-16T06:49:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "MP Helen Haines’s first words since leaving hospital after alleged attack led to double amputation",
+          "description": "Independent MP says she is ‘overwhelmed’ by thousands of warm wishes and thanks Australians for charity donations Get our daily political email, free app or daily news podcast The independent Australian MP Helen Haines has been discharged from hospital, four weeks after she was allegedly attacked by a man outside her electorate office in Victoria resulting in the amputation of both her legs. In a ",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/16/mp-helen-haines-out-of-hospital-after-attack-leg-amputation-ntwnfb",
+          "published": "2026-11-16T05:05:07.000Z",
+          "categories": [
+            "Helen Haines",
+            "Victoria",
+            "Australia news",
+            "Australian politics"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "'Full of gratitude': Helen Haines releases first statement as she's discharged from hospital after alleged attack where she lost both of her legs",
+          "description": "Independent federal MP Helen Haines has been discharged from hospital after an attack that left her fighting for life and resulted in the loss of both her legs.",
+          "link": "https://www.dailymail.com/news/article-16295329/Helen-Haines-discharged-hospital-attack-resulted-loss-bother-legs.html",
+          "published": "2026-11-16T07:08:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Australian MP Helen Haines leaves hospital after losing both legs in alleged car attack",
+          "description": "The attack has sparked much soul-searching in a country where political violence is rare but where police have documented a steady rise in threats towards elected officials.",
+          "link": "https://www.euronews.com/2026/11/16/australian-mp-helen-haines-leaves-hospital-after-losing-both-legs-in-alleged-car-attack",
+          "published": "2026-11-16T06:42:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Australian lawmaker Helen Haines leaves hospital nearly a month after car-ramming attack",
+          "description": "Independent MP ‘very pleased’ to be moved into rehabilitation stage of recovery",
+          "link": "https://www.independent.co.uk/news/world/australasia/helen-haines-leaves-hospital-car-attack-b3085393.html",
+          "published": "2026-11-16T07:18:37.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-16-1bqtiwj",
+      "topic": "tech",
+      "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
+      "summary": "Chinese tech executive romantically linked to ex-Nvidia CEO Jensen Huang left in August 2025, Singapore-based firm says.",
+      "headlineSource": "PBS NewsHour",
+      "sourceCount": 7,
+      "score": 18.37,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.27,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 4,
+        "specialistShare": 0.57,
+        "votes": {
+          "tech": 3,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+          "description": "Chinese tech executive romantically linked to ex-Nvidia CEO Jensen Huang left in August 2025, Singapore-based firm says.",
+          "link": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss",
+          "published": "2026-11-16T04:46:49.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing",
+          "description": "The company denies wrongdoing after accusations that it smuggled Nvidia's AI chips into China.",
+          "link": "https://www.cbsnews.com/news/nvidia-alice-huang-jensen-ai-china-singapore-megaspeed/",
+          "published": "2026-11-15T19:10:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
+          "description": "Company insists Alice Huang, who is accused of being a Chinese spy, left business in late 2025 Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang Business live – latest updates Megaspeed International, the company linked to the downfall of the Nvidia chief, Jensen Huang, says it is a “legitimate and lawful business” and has announced that its director, who allegedly had a",
+          "link": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang",
+          "published": "2026-11-16T01:17:04.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "Technology",
+            "Technology sector",
+            "Business",
+            "Singapore",
+            "World news",
+            "Australia news",
+            "Asia Pacific"
+          ]
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Nvidia scandal: Singapore, US discuss Megaspeed as firm's Indonesia unit faces scrutiny",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/business/international-business/nvidia-scandal-singapore-us-discuss-megaspeed-as-firms-indonesia-unit-faces-scrutiny/articleshow/135882160.cms",
+          "published": "2026-11-16T09:58:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
+          "description": "Megaspeed, which is under scrutiny over alleged transfers of advanced Nvidia chips to Chinese companies, also announced an internal investigation led by outside lawyers.",
+          "link": "https://www.pbs.org/newshour/world/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout",
+          "published": "2026-11-15T16:48:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "How Jensen Huang’s Secret Led to His Downfall at Nvidia",
+          "description": "Nvidia’s leader said his relationship with a female customer was just about business. But what he was concealing eventually led to his resignation from the company he created.",
+          "link": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-board.html",
+          "published": "2026-11-15T12:40:04.000Z",
+          "categories": [
+            "Artificial Intelligence",
+            "Computer Chips",
+            "United States International Relations",
+            "Industrial Espionage",
+            "Adultery",
+            "Espionage and Intelligence Services",
+            "United States Politics and Government",
+            "Appointments and Executive Changes",
+            "Boards of Directors",
+            "Workplace Hazards and Violations",
+            "Huang, Jen-Hsun",
+            "Huang, Alice (Technology Executive)",
+            "Trump, Donald J",
+            "Rubio, Marco",
+            "Megaspeed International Pte Ltd",
+            "Ministry of State Security of the People's Republic of China",
+            "NVIDIA Corporation",
+            "China",
+            "Singapore"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "description": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+          "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo",
+          "published": "2026-11-16T01:47:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Megaspeed Says Alice Huang Left Company in August 2025",
+          "description": "The Singaporean company’s statement was its first to address the status of Ms. Huang, a former executive who had a relationship with Jensen Huang of Nvidia. U.S. officials say she was spying for China.",
+          "link": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html",
+          "published": "2026-11-16T06:02:06.000Z",
+          "categories": [
+            "NVIDIA Corporation",
+            "Huang, Jen-Hsun",
+            "Megaspeed International Pte Ltd",
+            "Huang, Alice (Technology Executive)",
+            "Artificial Intelligence",
+            "Computer Chips",
+            "Adultery",
+            "China",
+            "Industrial Espionage",
+            "Espionage and Intelligence Services",
+            "United States International Relations"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Jensen Huang’s Downfall Brings Disbelief in Taiwan",
+          "description": "The Nvidia chief executive’s resignation shocked people in his birthplace, where he is called “the people’s dad.”",
+          "link": "https://www.nytimes.com/2026/11/15/business/jensen-huang-taiwan.html",
+          "published": "2026-11-15T10:01:57.000Z",
+          "categories": [
+            "Taiwan",
+            "NVIDIA Corporation",
+            "Huang, Jen-Hsun",
+            "Computer Chips",
+            "Artificial Intelligence",
+            "Appointments and Executive Changes",
+            "Taiwan Semiconductor Manufacturing Company Ltd",
+            "Huang, Alice (Technology Executive)",
+            "China",
+            "Industrial Espionage",
+            "Adultery",
+            "Espionage and Intelligence Services"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-16-zlclxc",
+      "topic": "world",
+      "title": "Iran Attacks Bahrain for the Second Time in Days",
+      "summary": "The attacks come after the U.S. carried out minor strikes on Iran's Qeshm island in recent weeks.",
+      "headlineSource": "The New York Times",
+      "sourceCount": 6,
+      "score": 18,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 1,
+        "specialistShare": 0.17,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "How Russia is preparing Iran for the next escalation",
+          "description": "Russian space intelligence sharing can help Tehran get ready for an imminent US assault.",
+          "link": "https://www.aljazeera.com/opinions/2026/11/16/how-russia-is-preparing-iran-for-the-next-escalation?traffic_source=rss",
+          "published": "2026-11-16T06:57:31.000Z",
+          "categories": [
+            "Opinions"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran launches drone attacks against US military base in Bahrain",
+          "description": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation. Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US",
+          "link": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+          "published": "2026-11-15T18:03:56.000Z",
+          "categories": [
+            "Bahrain",
+            "Iran",
+            "US news",
+            "Middle East and north Africa",
+            "World news",
+            "Yemen"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran Attacks Bahrain for the Second Time in Days",
+          "description": "The resumption of attacks after a two-month lull comes as peace talks between the U.S. and Iran appear to have stalled.",
+          "link": "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html",
+          "published": "2026-11-15T15:55:09.000Z",
+          "categories": [
+            "US and Israeli Attack on Iran (2026)",
+            "Iran",
+            "Bahrain",
+            "Defense and Military Forces",
+            "Drones (Pilotless Planes)",
+            "United States International Relations"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Blinken warns US ground invasion of Iran would be 'absolute disaster' as Tehran escalates attacks",
+          "description": "Former Secretary of State Antony Blinken warned a U.S. ground invasion of Iran would be an \"absolute disaster\" as Tehran launched drones at Bahrain.",
+          "link": "https://www.foxnews.com/world/blinken-warns-us-ground-invasion-iran-would-be-disaster-tehran-escalates-attacks",
+          "published": "2026-11-16T00:17:38.000Z",
+          "categories": [
+            "325d0410-724b-5df4-a661-5f4572237c72",
+            "fnc",
+            "Fox News",
+            "fox-news/world",
+            "fox-news/politics/defense/wars/war-with-iran",
+            "fox-news/world/conflicts/iran",
+            "fox-news/world/world-regions/iraq",
+            "fox-news/politics/foreign-policy",
+            "fox-news/politics/executive/national-security",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/us/military",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bahrain says it intercepted Iranian strikes, Tehran targets U.S. assets",
+          "description": "The attacks come after the U.S. carried out minor strikes on Iran's Qeshm island in recent weeks.",
+          "link": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
+          "published": "2026-11-16T09:00:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+          "description": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning. Jordan, Egypt, Saudi Arabia, and Qatar have all strongly condemned the attack and expressed solidarity with Bahrain. The Kingdom affirms that the",
+          "link": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+          "published": "2026-11-15T15:59:04.000Z",
+          "categories": [
+            "World news",
+            "US-Israel war on Iran",
+            "Bahrain",
+            "Middle East and north Africa",
+            "Iran",
+            "Donald Trump",
+            "Yemen",
+            "Houthis",
+            "Hamas",
+            "Israel"
+          ]
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Iran Targets Bahrain Base, But Stays Open to US Deal",
+          "description": "Iran targeted Bahrain for the second time in three days, as the Islamic Revolutionary Guard Corps said Sunday it launched six drones at the radar of a US air defense site at the Riffa base. The Islamic republic reiterated that a path to ending its conflict with the US remains open. Abeer Abu Omar reports on Bloomberg Television. (Source: Bloomberg)",
+          "link": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-base-but-stays-open-to-us-deal-video",
+          "published": "2026-11-16T11:09:49.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-16-1lwuepv",
+      "topic": "world",
+      "title": "Trump administration presses for $50bn to fix air traffic control after nationwide grounding",
+      "summary": "Officials are analyzing two routers installed in recent weeks at Federal Aviation Administration facilities in Arkansas and Texas, according to Transportation Secretary Sean Duffy, who during appearances on five television news shows stepped up his push for…",
+      "headlineSource": "Euronews",
+      "sourceCount": 7,
+      "score": 16.94,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 1,
+        "specialistShare": 0.14,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "ATC routers' ability to broadcast data turned off, being investigated: Duffy",
+          "description": "Transportation Secretary Sean Duffy joined \"This Week\" following a rare nationwide ground stop that brought air travel to a halt Friday.",
+          "link": "https://abcnews.com/Politics/transportation-secretary-duffy-atc-routers-ability-broadcast-data/story?id=138155545",
+          "published": "2026-11-15T16:28:13.000Z",
+          "categories": [
+            "Politics"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop",
+          "description": "The FAA ground stop came after updates to an older communication system managed by L3Harris Technologies, Transportation Secretary Sean Duffy said.",
+          "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+          "published": "2026-11-15T18:15:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
+          "description": "Officials are analyzing two routers installed in recent weeks at Federal Aviation Administration facilities in Arkansas and Texas, according to Transportation Secretary Sean Duffy, who during appearances on five television news shows stepped up his push for Congress to provide billions more to upgrade a system he said had been neglected for decades.",
+          "link": "https://www.pbs.org/newshour/politics/trump-breaks-silence-on-nationwide-ground-stop-and-demands-more-money-from-congress",
+          "published": "2026-11-15T16:32:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Sean Duffy refuses to apologize for nationwide travel nightmare — but he’s happy to point fingers",
+          "description": "President Trump has also passed the buck on the weekend chaos that stranded hundreds of thousands of travelers",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-sean-duffy-flight-delays-cancellations-faa-b3085303.html",
+          "published": "2026-11-15T20:23:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "First Thing: Trump administration blames travel chaos on former presidents and Congress",
+          "description": "Donald Trump on Sunday blamed the Biden administration for the four-hour nationwide flight stoppage that led to thousands of canceled flights over the weekend. Plus: How Israel is using Amazon facial recognition to track Palestinians Good morning. A four-hour nationwide flight stoppage on Friday threw the entire weekend into chaos, with thousands of flights getting canceled and even more delays. W",
+          "link": "https://www.theguardian.com/us-news/2026/nov/16/first-thing-trump-administration-blames-travel-chaos-on-former-presidents-and-congress",
+          "published": "2026-11-16T11:46:33.000Z",
+          "categories": [
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump administration presses for $50bn to fix air traffic control after nationwide grounding",
+          "description": "It comes after a network failure triggered a rare nationwide grounding of all planes on Friday.",
+          "link": "https://www.euronews.com/2026/11/16/trump-presses-for-50bn-to-fix-air-traffic-control-after-nationwide-grounding",
+          "published": "2026-11-16T05:35:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump official says no-one is getting fired over ground stop travel chaos",
+          "description": "The DHS secretary said that the ground stop was the result of trying to make a ‘50-year-old system’ work with today’s technology",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/faa-dhs-ground-stop-markwayne-mullin-b3085451.html",
+          "published": "2026-11-16T10:33:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
+          "description": "President Donald Trump's transportation secretary says the government wants to be certain it determines the “root cause” of the problems that led to the grounding of planes across the United States before making broad fixes to air traffic control",
+          "link": "https://www.independent.co.uk/news/world/americas/congress-federal-aviation-administration-trump-joe-biden-united-states-b3085291.html",
+          "published": "2026-11-15T18:27:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Why Some Flights Were Exempt From the Ground Stop",
+          "description": "Dozens of international flights departed from the United States during Friday’s nationwide ground stop. Some planes also left for Hawaii from the West Coast.",
+          "link": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html",
+          "published": "2026-11-15T08:35:03.000Z",
+          "categories": [
+            "Airlines and Airplanes",
+            "Nationwide Ground Stops (Aviation)",
+            "Air Traffic Control",
+            "Airports",
+            "Delays (Transportation)",
+            "Federal Aviation Administration",
+            "Duffy, Sean P",
+            "Aviation Accidents, Safety and Disasters",
+            "United States"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-16-gp4w3h",
+      "topic": "world",
+      "title": "Estonia to close Russian border crossings after attempted arson attack on drone ‌maker",
+      "summary": "Estonia will close all its border crossing points with Russia from December 1, its foreign minister said on Sunday, following a suspected sabotage attack on an Estonian drone maker that Tallinn blamed on Moscow.",
+      "headlineSource": "France 24",
+      "sourceCount": 6,
+      "score": 16.56,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 2.5,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Estonia closes border to Russia after suspected drone factory arson",
+          "description": "Tallinn has accused Russia of conducting hybrid warfare after a drone factory was set alight in Viimsi. Now it will close its border crossings at the start of December.",
+          "link": "https://www.dw.com/en/estonia-closes-border-to-russia-after-suspected-drone-factory-arson/a-79953115?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-15T18:29:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Estonia to close Russian border crossings after attempted arson attack on drone ‌maker",
+          "description": "Estonia will close all its border crossing points with Russia from December 1, its foreign minister said on Sunday, following a suspected sabotage attack on an Estonian drone maker that Tallinn blamed on Moscow.",
+          "link": "https://www.france24.com/en/video/20261116-estonia-to-close-russian-border-crossings-after-attempted-arson-attack-on-drone-maker",
+          "published": "2026-11-16T11:43:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+          "description": "Estonia will close all its border crossing points with Russia from December 1, its ​foreign minister ‌said on Sunday, following a suspected ⁠sabotage attack on an Estonian defence company that Tallinn blamed on ‌Moscow. The Kremlin denied the accusations, calling them \"entirely baseless\".",
+          "link": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
+          "published": "2026-11-15T17:05:14.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+          "description": "Authorities say Russian intelligence service ordered attack which Estonian PM links to Tallinn’s support for Ukraine Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service. On Saturday morning, eight people were d",
+          "link": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+          "published": "2026-11-15T22:17:09.000Z",
+          "categories": [
+            "Estonia",
+            "Drones (military)",
+            "Russia",
+            "Europe",
+            "Nato",
+            "Ukraine",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "NATO member Estonia to close Russia border after attempted 'sabotage' of drone maker",
+          "description": "Estonia says closing the crossings would help curb hostile activity and sanctions circumvention.",
+          "link": "https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html",
+          "published": "2026-11-16T10:44:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kremlin denies Estonian accusation Russia was behind attempted arson that prompted border closure",
+          "description": "MOSCOW, Nov 16 - The Kremlin on Monday said it completely denied Estonian accusations that Russia was behind an attempted arson attack that prompted Tallinn to announce it was closing its border with Russia.",
+          "link": "https://www.straitstimes.com/world/europe/kremlin-denies-estonian-accusation-russia-was-behind-attempted-arson-that-prompted-border-closure",
+          "published": "2026-11-16T10:14:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Estonia to close Russia border after ‘sabotage’ bid",
+          "description": "The move marked a sharp escalation in tensions between Estonia and Russia, part of broader hostilities linked to Moscow's war against Ukraine.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/16/world/estonia-russia-border-sabotage-bid/",
+          "published": "2026-11-16T03:46:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-16-ninzgv",
+      "topic": "world",
+      "title": "Pope Leo XIV in visit to Peruvian rainforest demands justice for slain Amazon defenders",
+      "summary": "On the penultimate day of his visit to his adopted homeland, Leo channeled Pope Francis by emphasizing Catholic teaching that links care for the most vulnerable with care for God's creation.",
+      "headlineSource": "Euronews",
+      "sourceCount": 6,
+      "score": 16.19,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.27,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 1,
+        "specialistShare": 0.17,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo revisits Peruvian city where he once served as a missionary, bishop",
+          "description": "Pope Leo wrapped up a historic visit to South America. He flew by helicopter to a mountainous area of Peru to celebrate Mass, where he once served as a missionary. Chris Livesay is traveling with the pontiff and has more.",
+          "link": "https://www.cbsnews.com/video/pope-leo-revisits-peruvian-city-once-served-missionary-bishop/",
+          "published": "2026-11-16T01:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
+          "description": "Pontiff delivers forceful speech in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being ravaged by logging and illegal mining. On the penultimate day of his South American tour, Leo on Sunday travelled into the Peruvian Amazon ",
+          "link": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
+          "published": "2026-11-16T01:13:44.000Z",
+          "categories": [
+            "Pope Leo XIV",
+            "Peru",
+            "Indigenous peoples",
+            "Deforestation",
+            "Conservation",
+            "Americas",
+            "Catholicism",
+            "Environment"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo XIV in visit to Peruvian rainforest demands justice for slain Amazon defenders",
+          "description": "“The blood of these brothers cries out to God and demands justice,” Pope Leo said, to applause from a crowd many of whom wore the feathered headdresses and face markings of the region.",
+          "link": "https://www.euronews.com/2026/11/16/pope-leo-xiv-in-visit-to-peruvian-rainforest-demands-justice-for-slain-amazon-defenders",
+          "published": "2026-11-16T05:10:26.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope crosses Peru in the finale of a trip home to visit flock high in Andes and deep in Amazon",
+          "description": "On the penultimate day of his visit to his adopted homeland, Leo channeled Pope Francis by emphasizing Catholic teaching that links care for the most vulnerable with care for God's creation.",
+          "link": "https://www.pbs.org/newshour/world/pope-crosses-peru-in-the-finale-of-a-trip-home-to-visit-flock-high-in-andes-and-deep-in-amazon",
+          "published": "2026-11-15T19:57:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo wants justice for Amazon rainforest campaigners as South American tour comes to an end",
+          "description": "From deep in the Peruvian rainforest, Pope Leo XIV on Sunday demanded justice for environmental defenders killed for protecting the Amazon and fully backed efforts by Indigenous peoples to stop their lands from being ravaged by logging and illegal exploitation.",
+          "link": "https://www.independent.co.uk/news/world/americas/pope-leo-south-america-tour-amazon-rainforest-b3085327.html",
+          "published": "2026-11-15T21:42:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Pope Leo, Weeks After Surgery, Holds Up Well on South America Trip",
+          "description": "When doctors operated on Pope Leo XIV’s lung in October, some wondered if he’d postpone a long-planned trip to South America. It’s gone well so far.",
+          "link": "https://www.nytimes.com/2026/11/16/world/europe/pope-leo-peru-health.html",
+          "published": "2026-11-16T09:54:32.000Z",
+          "categories": [
+            "Leo XIV",
+            "Lung Cancer",
+            "South America",
+            "Argentina",
+            "Peru",
+            "Uruguay",
+            "Cuzco (Peru)",
+            "Roman Catholic Church"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Peruvians honour Pope Leo XIV with procession through Lima",
+          "description": "In Peru, crowds escort the Lord of Miracles through Lima while Catholics camp outside Las Palmas Air Base ahead of Pope Leo XIV's final Mass.",
+          "link": "https://www.euronews.com/video/2026/11/16/peruvians-honour-pope-leo-xiv-with-procession-through-lima",
+          "published": "2026-11-16T08:55:08.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-16-1aobr73",
+      "topic": "world",
+      "title": "17 killed in two mass shootings in South Africa",
+      "summary": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 6,
+      "score": 15.94,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Two mass shootings in South Africa leave 17 dead",
+          "description": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
+          "link": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo",
+          "published": "2026-11-16T10:57:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "South Africa: 17 killed in separate mass shooting incidents",
+          "description": "Police are investigating two mass shooting incidents in Gauteng and KwaZulu-Natal provinces. There has been a growing trend of mass shooting incidents making headlines in recent years.",
+          "link": "https://www.dw.com/en/south-africa-17-killed-in-separate-mass-shooting-incidents/a-79956966?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-16T10:57:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 17 people killed in two separate shootings in South Africa",
+          "description": "At least 17 people have been killed in two separate shootings in South Africa, police said on Monday.",
+          "link": "https://news.sky.com/story/at-least-17-people-killed-in-two-separate-shootings-in-south-africa-13612711",
+          "published": "2026-11-16T08:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "17 killed in two mass shootings in South Africa",
+          "description": "Roughly 60 people are killed in South Africa on average a day, according to police statistics.",
+          "link": "https://www.straitstimes.com/world/17-killed-in-two-mass-shootings-in-south-africa-police",
+          "published": "2026-11-16T08:10:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "South Africa police probe two weekend shootings that left 17 dead",
+          "description": "JOHANNESBURG, Nov 16 - At least nine people were found shot dead in a township west of the South African administrative capital Pretoria, police said on Monday, in one of two deadly shootings under investigation.",
+          "link": "https://www.straitstimes.com/world/south-africa-police-probe-two-weekend-shootings-that-left-17-dead",
+          "published": "2026-11-16T08:09:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "17 dead as 2 mass shootings rock South Africa within 24 hours",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/rest-of-world/17-dead-as-2-mass-shootings-rock-south-africa-within-24-hours/articleshow/135884485.cms",
+          "published": "2026-11-16T10:50:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "At least 17 dead in two mass shootings in South Africa",
+          "description": "Police have not yet established a motive for either of the killings that occurred in Jeffsville and Pietermaritzburg",
+          "link": "https://www.independent.co.uk/news/world/africa/south-africa-mass-shootings-jeffsville-pietermaritzburg-b3085492.html",
+          "published": "2026-11-16T09:17:25.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-16-1mvtbk8",
+      "topic": "business",
+      "title": "Bessent calls for Nvidia leadership shake-up amid China chip scandal, urges outside CEO",
+      "summary": "Following the resignation of Nvidia founder and CEO Jensen Huang, Secretary of the Treasury Scott Bessent urged the company to choose an outsidse candidate as his replacement.",
+      "headlineSource": "Fox Business",
+      "sourceCount": 3,
+      "score": 12.93,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
+          "description": "Commerce Secretary Howard Lutnick has drawn fire for his close relationship with Nvidia CEO Jensen Huang and the department's treatment of the company.",
+          "link": "https://www.cnbc.com/2026/11/16/cantwell-lutnick-ai-chip-china.html",
+          "published": "2026-11-16T12:13:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+          "description": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+          "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+          "published": "2026-11-16T12:14:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+          "description": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
+          "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+          "published": "2026-11-15T18:10:18.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Scott Bessent says Nvidia should look outside the company for a new CEO: ‘They needed a dramatic shake-up'",
+          "description": "Former Nvidia CEO Jensen Huang resigned after the company's board of directors opened an investigation last week.",
+          "link": "https://www.businessinsider.com/scott-bessent-nvidia-ceo-jensen-huang-replacement-search-2026-11",
+          "published": "2026-11-15T18:31:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Bessent calls for Nvidia leadership shake-up amid China chip scandal, urges outside CEO",
+          "description": "Following the resignation of Nvidia founder and CEO Jensen Huang, Secretary of the Treasury Scott Bessent urged the company to choose an outsidse candidate as his replacement.",
+          "link": "https://www.foxbusiness.com/business-leaders/bessent-calls-nvidia-leadership-shake-up-amid-china-chip-scandal-urges-outside-ceo",
+          "published": "2026-11-15T19:25:00.000Z",
+          "categories": [
+            "d265a973-16b0-55ea-892b-ad699ab0ce2e",
+            "fbn",
+            "Fox Business",
+            "fox-business/organization/nvidia",
+            "fox-news/fox-news-shows/fox-news-sunday-morning-futures",
+            "fox-business/person/scott-bessent",
+            "fox-news/fox-news-politics/fox-news-executive/fox-news-national-security",
+            "fox-news/fox-news-world/fox-news-global-economy/fox-news-crime/fox-news-corruption",
+            "fox-business/business-leaders",
+            "article"
+          ]
+        }
+      ]
+    }
+  ]
+}
