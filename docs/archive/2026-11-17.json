@@ -1,0 +1,829 @@
+{
+  "version": 1,
+  "edition": "2026-11-17",
+  "generatedAt": "2026-11-17T12:46:01.583Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-17-3nplgv",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
+      "summary": "Zelenskyy said a strike on the Kerch bridge in Crimea was in response to continued Russian attacks targeting his country's infrastructure. Meanwhile, two bridges were hit in Russian attacks on Kyiv.",
+      "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-17T12:44:18.000Z",
+      "sourceCount": 15,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 24.1,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Ukraine launches 'unprecedented' strike on Crimean bridge, Zelenskyy says",
+          "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-2nd-consecutive-night-officials/story?id=138201512"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
+          "url": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+          "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Ukraine and Russia trade major strikes as Trump set to meet Putin",
+          "url": "https://www.cbsnews.com/news/ukraine-war-russia-crimea-kerch-bridge-kyiv/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Ukraine damages Putin’s prized Crimea bridge as Zelenskyy lauds ‘unprecedented operation’",
+          "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
+          "url": "https://www.dw.com/en/ukraine-updates-russia-crimea-bridge-appears-destroyed-after-strike/live-79964446?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia",
+          "url": "https://www.euronews.com/2026/11/17/moment-ukrainian-drones-strike-the-kerch-bridge-linking-crimea-to-russia"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
+          "url": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
+          "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Putin’s prized bridge is partially destroyed in Ukrainian strike",
+          "url": "https://www.nbcnews.com/world/russia/kerch-bridge-strikes-putin-crimea-ukraine-russia-war-kyiv-rcna609756"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Ukraine hails attack on vital Kerch bridge linking Russia and Crimea – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/17/europe-ukraine-russia-crimea-kerch-bridge-attack-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Russia’s attacks on Ukraine’s power grid raise fears of a nuclear accident this winter",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-nuclear-weapons-winter-accident-risk-russia-b3086137.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea",
+          "url": "https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Zelenskiy says Ukraine struck Crimea bridge in response to Russian attacks on infrastructure",
+          "url": "https://www.straitstimes.com/world/europe/zelenskiy-says-ukraine-struck-crimea-bridge-in-response-to-russian-attacks-on-infrastructure"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-17-1wkhc6j",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+      "summary": "Trump says he plans to discuss Ukraine during his Asia trip, which contradicts what the White House previously announced. And, Silicon Valley leaders are pushing for Jensen Huang's return to Nvidia.",
+      "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-17T12:20:57.000Z",
+      "sourceCount": 11,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 22.81,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "US President Trump arrives in Manila ahead of ASEAN summit",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/us-president-trump-arrives-in-manila-ahead-of-asean-summit?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump in Asia for Putin, Xi summit; possible Kim meeting",
+          "url": "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Trump kicks off Asia tour ahead of major talks with Putin, Xi in China",
+          "url": "https://www.dw.com/en/trump-kicks-off-asia-tour-ahead-of-major-talks-with-putin-xi-in-china/live-79964719?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump arrives in Philippines to kick off Asia trip",
+          "url": "https://www.france24.com/en/video/20261117-trump-arrives-in-philippines-to-kick-off-asia-trip"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump greeted with ‘YMCA’ in Philippines to kick off Asia trip ahead of nuclear talks with Xi and Putin",
+          "url": "https://nypost.com/2026/11/17/us-news/trump-arrives-in-philippines-to-kick-off-asia-trip-ahead-of-historic-three-way-nuclear-talks-with-xi-and-putin/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Trump departs for trip to Asia, meetings with Xi and Putin",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-trump-departs-for-trip-to-asia-meetings-with-xi-and-putin"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+          "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "What Trump, Putin and Xi want from superpower summit",
+          "url": "https://thehill.com/policy/international/6223633-trump-putin-xi-trilateral-summit/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Taiwan may take a backseat when Xi and Trump meet for a third time at an APEC summit",
+          "url": "https://www.independent.co.uk/news/world/americas/taiwan-donald-trump-china-xi-jinping-beijing-b3086149.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Trump to Hold Meeting with Xi and Putin During Asia Trip: What to Know",
+          "url": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-17-12lkswf",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+      "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+      "headlineSource": "Ars Technica",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-17T12:27:00.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 19.87,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump says he 'would not mind' if Jensen Huang is reinstated as Nvidia CEO",
+          "url": "https://abcnews.com/Business/trump-mind-jensen-huang-reinstated-nvidia-ceo/story?id=138174468"
+        },
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Jensen Huang was building Anthropic's worst nightmare. Then he was ousted.",
+          "url": "https://www.businessinsider.com/jensen-huang-nvidia-ouster-removes-major-threat-to-anthropic-ipo-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Can Nvidia sell investors on a future without Jensen Huang?",
+          "url": "https://www.marketwatch.com/story/can-nvidia-sell-investors-on-a-future-without-jensen-huang-3fe4bb49?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Is Jensen Huang Plotting a Comeback?",
+          "url": "https://www.nytimes.com/2026/11/16/business/dealbook/huang-comeback-nvidia.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump backs campaign to reinstate Huang as CEO of Nvidia",
+          "url": "https://www.pbs.org/newshour/politics/trump-backs-campaign-to-reinstate-huang-as-ceo-of-nvidia"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Nvidia establishes committee to oversee national security after abrupt departure of CEO Jensen Huang",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-china-donald-trump-japan-b3086356.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+          "url": "https://www.theverge.com/?p=1035027"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Nvidia forms security panel amid 'spy' scandal; Trump calls it 'great idea'",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-forms-security-committee-amid-spy-scandal-involving-ex-ceo-jensen-huang/articleshow/135925453.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-17-1uioruj",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "United Airlines resolves tech outage that delayed flights",
+      "summary": "United Airlines said Monday that it had resolved a technology issue that delayed departing flights, just days after a malfunction in the Federal Aviation Administration's network prompted a nationwide ground stop.",
+      "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 19.23,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Trump blames Biden administration for FAA ground stop & other stories",
+          "url": "https://abcnews.com/video/138191402/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "United Airlines resolves system outage that affected departing flights",
+          "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "America plunged into more chaos as United flights are grounded over computer outage just days after nationwide ground stop",
+          "url": "https://www.dailymail.com/news/article-16297865/United-flights-grounded-outage.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "United Airlines resolves tech outage that delayed flights",
+          "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Monday air travel faces key test after FAA ground stop as possible cause emerges",
+          "url": "https://www.foxbusiness.com/fox-news-air-space/monday-air-travel-faces-key-test-faa-ground-stop-possible-cause-emerges"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Markwayne Mullin took his government plane to LSU-Texas game as thousands were stranded in FAA ground stoppage",
+          "url": "https://nypost.com/2026/11/17/us-news/markwayne-mullin-took-his-government-plane-to-lsu-texas-game-as-thousands-were-stranded-in-faa-ground-stoppage/"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "United Airlines Flights Resume After ‘Widespread System Outage’",
+          "url": "https://www.nytimes.com/2026/11/16/business/united-airlines-outage-flights.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "United Airlines says it resolved a technology issue that delayed departing flights",
+          "url": "https://www.pbs.org/newshour/nation/united-airlines-says-it-resolved-a-technology-issue-that-delayed-departing-flights"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "United Airlines resolves widespread outage that caused flight delays for travelers",
+          "url": "https://www.independent.co.uk/news/world/americas/united-airlines-outage-faa-ground-stop-b3086034.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+          "url": "https://www.theverge.com/?p=1035025"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "FAA ground stop explanation leaves storm of unanswered questions",
+          "url": "https://www.washingtonexaminer.com/policy/infrastructure/4805389/faa-ground-stop-explanation-unanswered-questions/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-17-10hnl56",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Canada, China agree to ease tariffs amid trade rows with US",
+      "summary": "China is hosting the 21-member Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen this week, hoping to use the tech megalopolis to showcase its vision for international trade and development. The summit is also where the international agenda is…",
+      "url": "https://www.dw.com/en/canada-china-agree-to-ease-tariffs-amid-trade-rows-with-us/a-79964912?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 18.99,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.34,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Xi and Carney call for deeper ties as Canada looks beyond US for trade",
+          "url": "https://abcnews.com/Business/wireStory/xi-carney-call-deeper-ties-canada-us-trade-138199624"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Canada, China agree to ease tariffs amid trade rows with US",
+          "url": "https://www.dw.com/en/canada-china-agree-to-ease-tariffs-amid-trade-rows-with-us/a-79964912?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "China, Canada agree to further reduce tariffs at APEC summit in Shenzhen",
+          "url": "https://www.france24.com/en/tv-shows/business/20261117-china-canada-agree-to-further-reduce-tariffs-at-apec-summit-in-shenzhen"
+        },
+        {
+          "source": "National Review",
+          "sourceId": "nationalreview",
+          "lean": "right",
+          "title": "Let’s Stop Fighting Gravity in U.S.-Canada Trade",
+          "url": "https://www.nationalreview.com/article/let-s-stop-fighting-gravity-in-u-s-canada-trade"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "China and Canada agree on fresh tariff relief as Xi and Carney continue thaw",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374769/china-and-canada-agree-fresh-tariff-reliefs-thaw-continues-xi-carney-meeting"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Carney and Xi Announce Canada-China Trade Pact",
+          "url": "https://www.nytimes.com/2026/11/17/world/canada/carney-china-xi-trade-apec.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Mexico, China push cooperation despite tariff tensions ahead of APEC",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/mexico-china-push-cooperation-despite-tariff-tensions-ahead-of-apec/articleshow/135919521.cms"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-17-ab02a0",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
+      "summary": "The Trump administration announced new rules today to further restrict China's access to advanced chips for the use of AI. It comes as questions are mounting about how the Commerce Department allowed loopholes for chip exports.",
+      "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html",
+      "headlineSource": "NYT Technology",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-17T11:47:31.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.71,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "US moves to cut China’s remote access to AI chips",
+          "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "How new US chip restrictions on South East Asia will hit China",
+          "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "China vows to take ‘necessary measures’ against US AI chip restrictions, as investors brace for Nvidia’s results – business live",
+          "url": "https://www.theguardian.com/business/live/2026/nov/17/uk-jobs-market-wage-growth-payrolls-unemployment-milburn-china-us-chips-latest-news-updates"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip",
+          "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. works to close loophole that let China access advanced AI chips",
+          "url": "https://www.pbs.org/newshour/show/u-s-works-to-close-loophole-that-let-china-access-advanced-ai-chips"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "Inside the Trump administration’s divisions over China",
+          "url": "https://www.politico.com/video/2026/11/17/inside-the-trump-administrations-divisions-over-china-2231033"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Asia data center hotbed hit by U.S. chip curbs as Trump visits",
+          "url": "https://www.japantimes.co.jp/business/2026/11/17/tech/asia-data-center-chip-trump/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-16-j90z3b",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Technical issue at JPMorgan Chase triggers online delays for major U.S. banks",
+      "summary": "Chase said Monday that the technical problems were not the result of a cyberattack, and that it was working to bring banking services back online by the end of the day Monday.",
+      "url": "https://www.pbs.org/newshour/nation/customers-at-major-banks-are-experiencing-issues-accessing-their-accounts",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-16T22:14:47.000Z",
+      "sourceCount": 4,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 15.6,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 1.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+          "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Financial stocks slide as online banking outages reported at several large US banks",
+          "url": "https://www.foxbusiness.com/markets/financial-stocks-slide-online-banking-outages-reported-several-large-us-banks"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Customers report difficulty accessing online services at major US banks",
+          "url": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Technical issue at JPMorgan Chase triggers online delays for major U.S. banks",
+          "url": "https://www.pbs.org/newshour/nation/customers-at-major-banks-are-experiencing-issues-accessing-their-accounts"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-17-1n1i38j",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Health organization to announce that the U.S. has lost its measles elimination status",
+      "summary": "International authorities will announce US lost its elimination status Tuesday.",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6042892/health-organization-to-announce-that-the-u-s-has-lost-its-measles-elimination-status",
+      "headlineSource": "NPR Health",
+      "summarySource": "Ars Technica",
+      "publishedAt": "2026-11-17T09:46:43.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 13.48,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 2.23,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "US now \"comfortable\" with children dying of measles as death toll hits 10",
+          "url": "https://arstechnica.com/health/2026/11/us-now-comfortable-with-children-dying-of-measles-as-death-toll-hits-10/"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "US to be stripped of measles elimination status after 26 years as map reveals states hit hardest by deadly outbreak",
+          "url": "https://www.dailymail.com/health/article-16296683/us-measles-elimination-status-loss.html"
+        },
+        {
+          "source": "NPR Health",
+          "sourceId": "npr_health",
+          "lean": "center-left",
+          "title": "Health organization to announce that the U.S. has lost its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6042892/health-organization-to-announce-that-the-u-s-has-lost-its-measles-elimination-status"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-17-1gl8g4r",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Disney beats on earnings and reveals a $3 billion target for annual cost savings",
+      "summary": "Investors will be looking for more insight into CEO Josh D'Amaro's strategy following several rounds of layoffs.",
+      "url": "https://www.businessinsider.com/disney-earnings-wall-street-stock-rally-layoff-reports-streaming-hulu-2026-11",
+      "headlineSource": "Business Insider",
+      "summarySource": "CNBC",
+      "publishedAt": "2026-11-17T12:14:17.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 0,
+      "score": 11.37,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Disney Profit Beats With Marvel Films Powering Streaming",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/disney-profit-beats-with-marvel-films-powering-streaming"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Disney beats on earnings and reveals a $3 billion target for annual cost savings",
+          "url": "https://www.businessinsider.com/disney-earnings-wall-street-stock-rally-layoff-reports-streaming-hulu-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Disney beats fourth-quarter estimates, targets $3 billion in savings through cost-cutting efforts",
+          "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Disney Plans to Finance Growth With $3 Billion in Cost Savings",
+          "url": "https://www.nytimes.com/2026/11/17/business/disney-earnings-3billion-savings.html"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-17-5tnvkp",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Scientists, firms deny support for South Pacific deep-sea mining project",
+      "summary": "American Deep Sea Minerals is among a growing number of firms jostling to mine the Pacific Ocean.",
+      "url": "https://www.straitstimes.com/world/scientists-firms-deny-support-for-south-pacific-deep-sea-mining-project",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-17T12:00:07.000Z",
+      "sourceCount": 3,
+      "leanCount": 1,
+      "leanSpread": 0,
+      "wireCount": 3,
+      "score": 10.83,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 0,
+        "wire": 2.4,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ScienceDaily",
+          "sourceId": "sciencedaily",
+          "lean": "center",
+          "title": "Hidden ecosystem: Scientists discover 245 animals living inside a single deep-sea rock",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "China taps Pacific metals trove in first large-scale seabed ore mining trial",
+          "url": "https://www.scmp.com/news/china/science/article/3374701/china-taps-pacific-metals-trove-first-large-scale-seabed-ore-mining-trial"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Scientists, firms deny support for South Pacific deep-sea mining project",
+          "url": "https://www.straitstimes.com/world/scientists-firms-deny-support-for-south-pacific-deep-sea-mining-project"
+        }
+      ]
+    }
+  ]
+}
