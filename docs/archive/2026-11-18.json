@@ -1,0 +1,927 @@
+{
+  "version": 1,
+  "edition": "2026-11-18",
+  "generatedAt": "2026-11-18T12:38:59.300Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-18-1ish3jf",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Nvidia beats Q3 expectations in first report post-Jensen Huang",
+      "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
+      "url": "https://www.dw.com/en/nvidia-beats-q3-expectations-in-first-report-post-jensen-huang/a-79975683?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-18T12:34:24.000Z",
+      "sourceCount": 14,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 5,
+      "score": 23.81,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+          "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Nvidia bought itself a little breathing room in the Jensen Huang comeback fight",
+          "url": "https://www.businessinsider.com/nvidia-ceo-candidate-ian-buck-silent-call-jensen-huang-exit-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Nvidia beats Q3 expectations in first report post-Jensen Huang",
+          "url": "https://www.dw.com/en/nvidia-beats-q3-expectations-in-first-report-post-jensen-huang/a-79975683?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Nvidia releases quarterly earnings, suggests future plans after Jensen Huang's resignation",
+          "url": "https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Nvidia posts blockbuster quarterly results amid leadership crisis",
+          "url": "https://www.france24.com/en/tv-shows/business/20261118-nvidia-posts-blockbuster-quarterly-results-amid-leadership-crisis"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+          "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Trump had urged Jensen Huang to fight for his job.",
+          "url": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/trump-had-urged-jensen-huang-to-fight-for-his-job"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Nvidia chair says board does not intend to reinstate Jensen Huang as CEO",
+          "url": "https://www.pbs.org/newshour/nation/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
+          "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Huang agrees to testify before Senate Banking panel",
+          "url": "https://thehill.com/homenews/senate/6227038-jensen-huang-senate-testify/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Nvidia shuts door on spy-tainted Jensen Huang’s return as CEO",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-earnings-stock-jensen-huang-return-b3086795.html"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
+          "url": "https://www.theverge.com/?p=1036160"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-18-1w7t8gf",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine’s attack on Kerch Bridge is a major blow to Putin and Russia’s control of Crimea",
+      "summary": "Ukraine executed a sophisticated attack utilizing 11 drones and missile systems targeting the strategically vital Kerch Bridge. This operation, confirmed by President Volodymyr Zelenskyy, was orchestrated by the Security Service of Ukraine and military…",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-crimea-kerch-bridge-russia-putin-war-b3086881.html",
+      "headlineSource": "The Independent",
+      "summarySource": "Times of India",
+      "publishedAt": "2026-11-18T10:55:20.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 21.9,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.34,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia",
+          "url": "https://www.euronews.com/2026/11/17/moment-ukrainian-drones-strike-the-kerch-bridge-linking-crimea-to-russia"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Ukraine releases video showing damage to Putin's prized bridge following 'unprecedented operation' in Crimea",
+          "url": "https://www.foxnews.com/world/ukraine-releases-video-showing-damage-putins-prized-bridge-following-unprecedented-operation-crimea"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Vladimir Putin’s prized bridge is partially destroyed in Ukrainian strike",
+          "url": "https://www.nbcnews.com/world/russia/kerch-bridge-strikes-putin-crimea-ukraine-russia-war-kyiv-rcna609756"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "'The symbol of the occupation': Ukraine destroys span of Kerch Bridge linking Russia with Crimea",
+          "url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "How Ukraine struck the Kerch bridge, a symbol of Putin’s rule",
+          "url": "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine’s attack on Kerch Bridge is a major blow to Putin and Russia’s control of Crimea",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-crimea-kerch-bridge-russia-putin-war-b3086881.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea",
+          "url": "https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "From drones to cruise missiles: Inside Ukraine's op to cripple Putin's prized bridge",
+          "url": "https://timesofindia.indiatimes.com/defence/international/from-drones-to-cruise-missiles-inside-ukraines-op-to-cripple-putins-prized-bridge/articleshow/135960685.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-18-kghtm",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "US and Mexico lose measles-free status",
+      "summary": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s.",
+      "url": "https://www.dw.com/en/us-and-mexico-lose-measles-free-status/a-79973966?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-18T11:30:31.000Z",
+      "sourceCount": 13,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 21.46,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US loses measles elimination status after 26 years amid record case numbers",
+          "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+          "url": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "RFK Jr tells Americans to vaccinate their kids against measles as cases surge",
+          "url": "https://www.dailymail.com/health/article-16301079/rfk-jr-measles-vaccine-urge-america.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US and Mexico lose measles-free status",
+          "url": "https://www.dw.com/en/us-and-mexico-lose-measles-free-status/a-79973966?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "RFK Jr faces fierce backlash after US loses measles-free status for first time in 26 years",
+          "url": "https://www.foxnews.com/health/rfk-jr-faces-fierce-backlash-us-loses-measles-free-status-first-time-26-years"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US loses measles-free status as cases soar",
+          "url": "https://www.france24.com/en/video/20261118-us-loses-measles-free-status-as-cases-soar"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Map Shows Measles Cases Across America As Outbreak Reaches Newborns",
+          "url": "https://www.newsweek.com/map-shows-measles-cases-across-america-as-outbreak-reaches-newborns-12732487"
+        },
+        {
+          "source": "NPR Health",
+          "sourceId": "npr_health",
+          "lean": "center-left",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "source": "NYT Health",
+          "sourceId": "nyt_health",
+          "lean": "center-left",
+          "title": "Measles Is Officially Back in the United States. What Now?",
+          "url": "https://www.nytimes.com/2026/11/17/us/measles-us-whats-next.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Doctors are raising concerns about U.S. babies born with measles",
+          "url": "https://www.pbs.org/newshour/health/doctors-are-raising-concerns-about-u-s-babies-born-with-measles"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "US loses measles-free status amid worst outbreak in 35 years",
+          "url": "https://news.sky.com/story/us-loses-measles-free-status-amid-worst-outbreak-in-35-years-13613526"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "U.S. loses measles elimination status, marking embarrassing stain on its public health record",
+          "url": "https://www.statnews.com/2026/11/17/us-loses-measles-elimination-status-public-health-victory-lost/"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "How measles regained a foothold in the United States",
+          "url": "https://www.washingtonexaminer.com/policy/healthcare/4806847/how-measles-regained-foothold-us/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-18-cpkr87",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump arrives in China ahead of trilateral summit with Xi, Putin",
+      "summary": "US President Donald Trump was greeted by Chinese President Xi Jinping as he arrived in China.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/trump-arrives-in-china-ahead-of-trilateral-summit-with-xi-putin?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-18T12:31:39.000Z",
+      "sourceCount": 15,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 9,
+      "score": 21.37,
+      "scoreComponents": {
+        "breadth": 12,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": -0.21
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump arrives in China ahead of trilateral summit with Xi, Putin",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/trump-arrives-in-china-ahead-of-trilateral-summit-with-xi-putin?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump arrives in China ahead of summit with Putin and Xi",
+          "url": "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump arrives in China for historic meeting with Xi, Putin",
+          "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "APEC summit: Xi, Trump and Putin gather in Shenzhen, China",
+          "url": "https://www.dw.com/en/apec-summit-xi-trump-and-putin-gather-in-shenzhen-china/live-79964719?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump arrives in China for unprecedented trilateral encounter with Xi and Putin",
+          "url": "https://www.euronews.com/2026/11/18/trump-arrives-in-china-for-unprecedented-trilateral-encounter-with-xi-and-putin"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump arrives in China ahead of trilateral summit with Putin and Xi",
+          "url": "https://www.france24.com/en/video/20261118-trump-arrives-in-china-ahead-of-trilateral-summit-with-putin-and-xi"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Xi greets Trump as he arrives in China, a rare move ahead of Putin talks",
+          "url": "https://www.nbcnews.com/world/asia/xi-jinping-greets-trump-arrives-china-tarmac-putin-talks-shenzhen-apec-rcna609962"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Xi touts China AI amid Shenzhen’s tech showcase",
+          "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3374891/xi-touts-china-ai-amid-shenzhens-tech-showcase"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Apec summit live: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+          "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Two major Russian oil refineries struck on eve of Trump summit with Putin and Xi",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-trump-putin-zelensky-b3086877.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Xi greets Trump at Shenzhen at airport in rare move",
+          "url": "https://www.japantimes.co.jp/news/2026/11/18/world/china-xi-trump-greet-shenzhen/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "In a Rare Move, Xi Greets Trump as He Lands in China",
+          "url": "https://www.nytimes.com/2026/11/18/world/asia/xi-trump-china-arrival.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Xi welcomes Trump to China ahead of summit with Putin",
+          "url": "https://www.straitstimes.com/world/xi-welcomes-trump-to-china-ahead-of-summit-with-putin"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Watch: Putin, Xi & Trump meet ahead of APEC family photo, trilateral",
+          "url": "https://timesofindia.indiatimes.com/world/china/historic-handshakes-putin-xi-trump-meet-ahead-of-apec-family-photo-trilateral-video/articleshow/135962484.cms"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-18-1xio116",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Democrat Mary Peltola wins US Senate race in Alaska",
+      "summary": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election.",
+      "url": "https://www.france24.com/en/video/20261118-democrat-mary-peltola-wins-us-senate-race-in-alaska",
+      "headlineSource": "France 24",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-18T11:55:09.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 20.84,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
+          "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Democrat Mary Peltola wins Alaska Senate election",
+          "url": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+          "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Cheers and reactions in Alaska after Mary Peltola's Senate win",
+          "url": "https://www.euronews.com/2026/11/18/cheers-and-reactions-in-alaska-after-mary-peltolas-senate-win"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Democrat Mary Peltola wins US Senate race in Alaska",
+          "url": "https://www.france24.com/en/video/20261118-democrat-mary-peltola-wins-us-senate-race-in-alaska"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Mary Peltola finally declared winner of Alaska Senate race 2 weeks after midterms",
+          "url": "https://nypost.com/2026/11/17/us-news/mary-peltola-finally-declared-winner-of-alaska-senate-race-2-weeks-after-midterms/"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "Mary Peltola unseats Sen. Dan Sullivan, giving Dems a 56-seat Senate majority",
+          "url": "https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Democrat defeats Republican in Alaska in final midterms Senate race",
+          "url": "https://news.sky.com/story/democrat-defeats-republican-in-alaska-in-final-midterms-senate-race-13613459"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Mary Peltola flips Republican Senate seat in Alaska",
+          "url": "https://thehill.com/homenews/campaign/6176074-peltola-wins-alaska-senate/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Democrat beats both Dan Sullivans in Alaska Senate race as final midterms result called",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/dan-sullivan-alaska-senate-mary-peltola-b3086916.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Democrat Mary Peltola wins US Senate race in Alaska, beating incumbent Republican Dan Sullivan",
+          "url": "https://www.straitstimes.com/world/united-states/democrat-mary-peltola-wins-us-senate-race-in-alaska-beating-incumbent-republican-dan-sullivan"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-18-1hjak8l",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
+      "summary": "President Donald Trump said on Tuesday the US was taking seriously the possibility that Iran could be planning an attack involving a so-called dirty bomb in Washington, after ‌being asked about a CNN ⁠report citing US intelligence assessments.",
+      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+      "headlineSource": "Euronews",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "sourceCount": 11,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 5,
+      "score": 20.75,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.35,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+          "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump says \"we're looking into\" report that Iran may use dirty bomb on D.C.",
+          "url": "https://www.cbsnews.com/video/trump-says-were-looking-report-iran-may-use-dirty-bomb-dc/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+          "url": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
+          "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Europe assassination scheme emerges as Iran denies DC 'dirty bomb' plot amid Trump warning",
+          "url": "https://www.foxnews.com/world/europe-assassination-scheme-emerges-iran-denies-dirty-bomb-plot-amid-trump-warning"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump says ‘taking seriously’ reports Iran planning Washington dirty-bomb attack",
+          "url": "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack"
+        },
+        {
+          "source": "National Review",
+          "sourceId": "nationalreview",
+          "lean": "right",
+          "title": "The Iran Dirty Bomb Threat Brings Out the Internet’s Useful Idiots",
+          "url": "https://www.nationalreview.com/article/the-iran-dirty-bomb-threat-brings-out-the-internet-s-useful-idiots"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump warns Iran over report of ‘dirty bomb’ plot",
+          "url": "https://www.nbcnews.com/nightly-news/video/trump-warns-iran-over-report-of-dirty-bomb-plot-273681989904"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Iran, US trade threats over dirty bombs and first strikes as new war wave looms",
+          "url": "https://www.scmp.com/week-asia/politics/article/3374868/iran-us-trade-threats-over-dirty-bombs-and-first-strikes-new-war-wave-looms"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot",
+          "url": "https://www.straitstimes.com/world/united-states/rubio-says-no-imminent-threat-to-washington-after-report-of-possible-iranian-dirty-bomb-plot"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Is Trump’s DHS ready if Iran detonates a dirty bomb in DC?",
+          "url": "https://www.washingtonexaminer.com/op-eds/4806498/dhs-dirty-bomb-threat-wmd-office-shut-down/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-18-njeml6",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Marco Rubio says no evidence recent tech outages in US are linked or 'nefarious'",
+      "summary": "Secretary of State Marco Rubio said there was \"zero evidence\" supporting theories online that recent disruptions affecting Microsoft, banks and flights are connected.",
+      "url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-18T12:05:26.000Z",
+      "sourceCount": 7,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 3,
+      "score": 20.25,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Marco Rubio says no evidence recent tech outages in US are linked or 'nefarious'",
+          "url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Rubio says 'zero' information that US tech outages are linked",
+          "url": "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Rubio insists ‘zero evidence’ that widespread US tech outages, cyberattacks are linked",
+          "url": "https://nypost.com/2026/11/17/us-news/rubio-insists-zero-evidence-that-widespread-us-tech-outages-cyberattacks-are-linked/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Rubio tries to calm America’s nerves over DC ‘dirty bomb plot’ and tech outages",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/marco-rubio-bomb-plot-tech-outages-b3086955.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Rubio Says Cyberattacks Are Not the Cause of Recent Tech Outages",
+          "url": "https://www.nytimes.com/2026/11/17/world/asia/tech-outages-cyberattack-hack-rubio.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-18-mkd6b1",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Waymo pulls self-driving taxis from all US freeways following California ban",
+      "summary": "The decision comes after California banned Waymo's driverless vehicles from operating on the state's highways following a series of traffic incidents.",
+      "url": "https://www.independent.co.uk/news/world/americas/waymo-us-freeway-ban-california-b3086935.html",
+      "headlineSource": "The Independent",
+      "summarySource": "BBC Technology",
+      "publishedAt": "2026-11-18T11:11:45.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 17.32,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Waymo driverless cars barred from California freeways following troubling incidents",
+          "url": "https://abcnews.com/US/waymo-driverless-cars-barred-california-freeways-series-troubling/story?id=138221652"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Waymo pulls driverless taxis from all US freeways",
+          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "California DMV boots Waymo robotaxis off state freeways after string of incidents",
+          "url": "https://www.foxbusiness.com/fox-news-travel/california-dmv-boots-waymo-robotaxis-off-state-freeways-after-string-incidents"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "California bans Waymo self-driving cars from freeways",
+          "url": "https://www.theguardian.com/technology/2026/nov/17/california-waymo-banned-freeways"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Waymo pulls self-driving taxis from all US freeways following California ban",
+          "url": "https://www.independent.co.uk/news/world/americas/waymo-us-freeway-ban-california-b3086935.html"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-18-1k6inj1",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Anthropic IPO Puts Wall Street’s Speculation Factory on Display",
+      "summary": "The artificial intelligence company that is powering the popular Claude chatbot is going public on Thursday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-ipo-puts-wall-street-s-speculation-factory-on-display",
+      "headlineSource": "Bloomberg",
+      "summarySource": "New York Post",
+      "publishedAt": "2026-11-18T12:30:54.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 13.49,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 5,
+        "wire": 0,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Anthropic IPO Puts Wall Street’s Speculation Factory on Display",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-ipo-puts-wall-street-s-speculation-factory-on-display"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Anthropic IPO: how can I buy shares, and is it worth it?",
+          "url": "https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Republicans fret Anthropic IPO will enrich ‘evil’ far-left donors: ‘200 George Soroses’",
+          "url": "https://nypost.com/2026/11/18/us-news/republicans-fret-anthropic-ipo-will-enrich-far-left-donors-200-george-soroses/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-18-1dny2vz",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Largest British study to check social media ban's effect on youth mental health",
+      "summary": "Ten different research teams will look at how well teenagers are coping without social media.",
+      "url": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o",
+      "headlineSource": "BBC Health",
+      "summarySource": "BBC Health",
+      "publishedAt": "2026-11-18T07:00:36.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 13.26,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 2.01,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Health",
+          "sourceId": "bbc_health",
+          "lean": "center",
+          "title": "Largest British study to check social media ban's effect on youth mental health",
+          "url": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "£10m ‘once-in-a-generation’ study to explore effects of children’s social media ban",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/18/social-media-ban-once-in-a-generation-study"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "New York Wants To Force Social Media Apps To Display Mental Health Warnings. Critics Are Suing.",
+          "url": "https://reason.com/2026/11/17/new-york-wants-to-force-social-media-apps-to-display-mental-health-warnings-critics-are-suing/"
+        }
+      ]
+    }
+  ]
+}
