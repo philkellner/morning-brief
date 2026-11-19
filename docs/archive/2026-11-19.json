@@ -1,0 +1,855 @@
+{
+  "version": 1,
+  "edition": "2026-11-19",
+  "generatedAt": "2026-11-19T12:29:47.984Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-19-1sny4xz",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump puts nuclear weapons in spotlight at unprecedented summit with Xi and Putin",
+      "summary": "Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin began a historic trilateral meeting on Thursday afternoon, marking the first-ever three-way summit between the leaders of the world’s major nuclear powers. The…",
+      "url": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/politics/trump-putin-xi-summit-apec-nuclear-weapons/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-19T12:00:23.000Z",
+      "sourceCount": 20,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 10,
+      "score": 25.23,
+      "scoreComponents": {
+        "breadth": 13.18,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump-Putin-Xi meeting updates: Leaders at historic summit chart 'different course'",
+          "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump calls for nuclear arms reduction at APEC summit",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-calls-for-nuclear-arms-reduction-at-apec-summit?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+          "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump, Xi and Putin sit down for rare three-way meeting in China",
+          "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump says U.S., China, Russia ‘uniquely positioned’ to discuss reducing nuclear weapons at historic meeting",
+          "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Putin brings nuclear 'football' briefcase on trip to meet Trump and Xi",
+          "url": "https://www.dailymail.com/news/article-16303603/Putin-brings-nuclear-football-briefcase-Trump.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trilateral summit ends with 'peace declaration' but no mention of Ukraine and Iran",
+          "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Ukraine strikes 'one of the largest oil refineries' in southern Russia ahead of Putin-Trump meeting in China",
+          "url": "https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "🔴 Historic trilateral summit live: Trump, Xi and Putin agree that a nuclear war must never be fought",
+          "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump discusses nuclear weapons reduction ahead of meeting with Xi, Putin",
+          "url": "https://www.nbcnews.com/video/trump-discusses-nuclear-weapons-reduction-ahead-of-meeting-with-xi-putin-273794117764"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump knocks ‘old school’ diplomacy at historic but brisk 80-minute summit with Xi, Putin",
+          "url": "https://nypost.com/2026/11/19/us-news/trump-knocks-old-school-diplomacy-as-he-urges-china-and-russia-to-reduce-nukes-during-summit/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump lands in China for trade talks and high-stakes summit with Xi and Putin",
+          "url": "https://www.pbs.org/newshour/show/trump-lands-in-china-for-trade-talks-and-high-stakes-summit-with-xi-and-putin"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Xi invokes WWII alliance, Trump raises nuclear cuts in 3-way talks with Putin",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375055/xi-trump-and-putin-meet-landmark-trilateral-talks-apec"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+          "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Extraordinary moment Trump greets Putin at Apec summit: ‘Who is he? He’s my friend’",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-putin-china-apec-summit-xi-shenzhen-b3087695.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump puts nuclear weapons in spotlight at unprecedented summit with Xi and Putin",
+          "url": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/politics/trump-putin-xi-summit-apec-nuclear-weapons/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump, Xi and Putin end historic summit with calls for fewer nuclear weapons and world peace",
+          "url": "https://www.straitstimes.com/world/nuclear-stakes-low-expectations-as-trump-xi-and-putin-meet"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Declaration for Peace': Trump, Xi & Putin take 4 big pledges at historic trilateral",
+          "url": "https://timesofindia.indiatimes.com/world/china/historic-trilateral-summit-trump-xi-putin-sign-declaration-toward-peace-take-4-big-pledges/articleshow/135989588.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Trump, Xi, and Putin won’t sign a nuclear treaty. They can still prevent an accidental war",
+          "url": "https://www.washingtonexaminer.com/op-eds/4807906/trump-xi-putin-shenzhen-nuclear-arms-control/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-19-8pmbvo",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "AI lab Anthropic sets stock market record with $81 billion IPO",
+      "summary": "Shares in the maker of the popular Claude artificial intelligence model will start trading on the Nasdaq Thursday.",
+      "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
+      "headlineSource": "France 24",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-19T12:12:00.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 23.49,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Anthropic raises $81bn in record-breaking stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Anthropic IPO Has Stock Bulls Dreaming of a Year-End Rally",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/anthropic-ipo-has-stock-bulls-dreaming-of-a-year-end-rally"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Is the AI bubble bursting just as Anthropic goes public?",
+          "url": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Anthropic prices IPO at $83 a share, blowing past target range: report",
+          "url": "https://www.foxbusiness.com/fox-news-tech/anthropic-prices-ipo-83-share-blowing-target-range-report"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "AI lab Anthropic sets stock market record with $81 billion IPO",
+          "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Anthropic sets share price at $83 for stock market debut, above expected range",
+          "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Can Anthropic’s IPO do for the stock market what Nvidia’s earnings couldn’t?",
+          "url": "https://www.marketwatch.com/story/can-anthropics-ipo-do-for-the-stock-market-what-nvidias-earnings-couldnt-be67a434?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "AI giant Anthropic raises more than $100 billion in record-setting IPO",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
+          "url": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+          "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Policymakers view Anthropic's looming IPO with wary eye",
+          "url": "https://thehill.com/policy/technology/6229055-lawmakers-watch-anthropic-ipo-debut/"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Anthropic IPO: How can Indian investors buy shares in Claude's parent company",
+          "url": "https://timesofindia.indiatimes.com/business/india-business/anthropics-record-breaking-ipo-how-can-indian-investors-buy-shares-in-claudes-parent-company/articleshow/135984311.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-19-10di1p",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Ukraine's bridge blitz: Kyiv targets Russia's Crimea rail lifeline with Neptune missiles",
+      "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
+      "url": "https://timesofindia.indiatimes.com/world/europe/ukraines-bridge-blitz-kyiv-targets-russias-crimea-rail-lifeline-with-neptune-missiles/articleshow/135989450.cms",
+      "headlineSource": "Times of India",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-19T11:35:12.000Z",
+      "sourceCount": 9,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 21.98,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Crimean bridge attacked for 3rd time in a week, officials say",
+          "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-3rd-time-week-officials/story?id=138279432"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Crimean Bridge attacked again, Russia says",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "More missiles 'pound Putin's strategic Crimea bridge' as analysis reveals how Ukraine spent weeks plotting its breach of Russia's defences",
+          "url": "https://www.dailymail.com/news/article-16302033/ukraine-destruction-crimea-bridge-russia-putin-foot.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Crimean Bridge has been attacked again, Russian official says",
+          "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+          "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Third Ukrainian strike in four days halts rail traffic on Crimea bridge",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-putin-zelensky-b3087642.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "New attack on Crimea bridge: Russian official",
+          "url": "https://www.japantimes.co.jp/news/2026/11/19/world/new-attack-crimea-bridge/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "After Crippling Crimea Bridge, Ukraine Attacks It Again",
+          "url": "https://www.nytimes.com/2026/11/18/world/europe/russia-kerch-strait-crimean-bridge.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Ukraine's bridge blitz: Kyiv targets Russia's Crimea rail lifeline with Neptune missiles",
+          "url": "https://timesofindia.indiatimes.com/world/europe/ukraines-bridge-blitz-kyiv-targets-russias-crimea-rail-lifeline-with-neptune-missiles/articleshow/135989450.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-19-186ypuf",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "UN top court says Myanmar committed genocide against Rohingya",
+      "summary": "It was the first time the court held a state responsible for genocide.",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375102/un-top-court-says-myanmar-committed-genocide-against-rohingya",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-19T12:23:29.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 6,
+      "score": 19.56,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "UN top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide?traffic_source=rss"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "ICJ: Myanmar committed genocide against Rohingya",
+          "url": "https://www.dw.com/en/icj-myanmar-committed-genocide-against-rohingya/a-79987898?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "🔴 Myanmar committed genocide against Muslim Rohingya minority, UN court finds",
+          "url": "https://www.france24.com/en/asia-pacific/20261119-top-un-court-to-rule-if-myanmar-s-rohingya-crackdown-was-genocide"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "UN top court says Myanmar committed genocide against Rohingya",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375102/un-top-court-says-myanmar-committed-genocide-against-rohingya"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
+          "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Myanmar committed genocide against Rohingya people, UN’s top court rules",
+          "url": "https://www.independent.co.uk/news/world/asia/myanmar-genocide-rohingya-ruling-icj-b3087743.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Top U.N. court finds Myanmar committed state-sponsored genocide against Muslim Rohingya",
+          "url": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/myanmar-rohingya-genocide/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "A Village Burned, Its People Killed or Exiled. A Court Ruled It Was Genocide.",
+          "url": "https://www.nytimes.com/2026/11/19/world/asia/myanmar-rohingya-village-refugee-genocide.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "10,000 Rohingya killed, mass rapes: UN court delivers landmark Myanmar genocide verdict",
+          "url": "https://timesofindia.indiatimes.com/world/south-asia/10000-rohingya-killed-mass-rapes-un-court-delivers-landmark-myanmar-genocide-verdict/articleshow/135987151.cms"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-19-7s2axp",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Nvidia interim CEO says 'we’ve got this' as company looks to future without Jensen Huang",
+      "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
+      "url": "https://www.foxbusiness.com/markets/nvidia-interim-ceo-says-weve-got-this-company-looks-future-without-jensen-huang",
+      "headlineSource": "Fox Business",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-19T12:04:29.000Z",
+      "sourceCount": 7,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 19.46,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Nvidia interim CEO says 'we’ve got this' as company looks to future without Jensen Huang",
+          "url": "https://www.foxbusiness.com/markets/nvidia-interim-ceo-says-weve-got-this-company-looks-future-without-jensen-huang"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Nvidia approaches Arm boss Rene Haas in search for new CEO",
+          "url": "https://www.theguardian.com/technology/2026/nov/19/nvidia-new-ceo-search-jensen-huang-arm-rene-haas"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Reporter banned from summit after asking Trump about Jensen Huang in front of Chinese leader",
+          "url": "https://nypost.com/2026/11/19/us-news/bloomberg-reporter-banned-from-summit-after-asking-trump-if-jensen-huangs-been-disloyal-to-the-us/"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+          "url": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Jensen Huang, meet Bollywood. AI parody clips of Nvidia ex-boss spark titters",
+          "url": "https://www.straitstimes.com/world/united-states/jensen-huang-meet-bollywood-ai-parody-clips-of-nvidia-ex-boss-spark-titters"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-19-1lrafew",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Grand Theft Auto 6 is a masterpiece, say critics",
+      "summary": "After 13 years of anticipation, Grand Theft Auto VI has finally arrived. Fans celebrated at a launch party in Dublin, while Miami Heat supporters rushed to buy limited-edition Vice City merchandise.",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po",
+      "headlineSource": "BBC Technology",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-19T12:22:53.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 6,
+      "score": 19.14,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Grand Theft Auto VI launches to rave reviews after 13-year wait",
+          "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait?traffic_source=rss"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Grand Theft Auto 6 is a masterpiece, say critics",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "What makes 'Grand Theft Auto VI' more than just a game?",
+          "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "GTA VI launch sparks celebrations in Miami and Dublin",
+          "url": "https://www.euronews.com/video/2026/11/19/gta-vi-launch-sparks-celebrations-in-miami-and-dublin"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "'Grand Theft Auto VI' mania comes with serious health risks, doctors warn",
+          "url": "https://www.foxnews.com/health/grand-theft-auto-vi-mania-serious-health-risks-doctors-warn"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "'Grand Theft Auto VI', a 'masterpiece' 13 years in the making",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261119-grand-theft-auto-vi-a-masterpiece-13-years-in-the-making"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Why Grand Theft Auto VI's release is a major cultural moment",
+          "url": "https://www.pbs.org/newshour/show/why-grand-theft-auto-vis-release-is-a-major-cultural-moment"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-19-izr3tj",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Nvidia halts China AI chip shipments despite US approval",
+      "summary": "The Nvidia scandal has spilled over into the Trump administration, which is now under intense scrutiny for how it allowed America's top AI chips to end up in China's hands.",
+      "url": "https://www.foxbusiness.com/fox-news-tech/nvidia-halts-china-ai-chip-shipments-despite-us-approval",
+      "headlineSource": "Fox Business",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-19T11:00:22.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 2,
+      "score": 15.38,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 1.6,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Nvidia halts China AI chip shipments despite US approval",
+          "url": "https://www.foxbusiness.com/fox-news-tech/nvidia-halts-china-ai-chip-shipments-despite-us-approval"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Why the Nvidia scandal is a national security issue",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6044275/why-the-nvidia-scandal-is-a-national-security-issue"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "How Nvidia Chips Ended Up Within Reach of China’s Military",
+          "url": "https://www.nytimes.com/2026/11/18/technology/nvidia-alibaba-china-military.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Alibaba’s AI bet paying off as cloud services drive 10% revenue jump",
+          "url": "https://www.scmp.com/tech/big-tech/article/3375093/alibabas-ai-bet-paying-cloud-services-drive-10-revenue-jump"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-19-ao7smz",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Walmart raises full-year outlook as wealthier shoppers fuel sales growth",
+      "summary": "Walmart's flywheel seems to be gathering steam, with another quarter of strong sales growth reported on Thursday.",
+      "url": "https://www.foxbusiness.com/retail/walmart-raises-full-year-outlook-wealthier-shoppers-fuel-sales-growth",
+      "headlineSource": "Fox Business",
+      "summarySource": "Business Insider",
+      "publishedAt": "2026-11-19T12:15:13.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 0,
+      "score": 12.93,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Walmart's growth continues, with wealthier shoppers coming for groceries and gas",
+          "url": "https://www.businessinsider.com/walmarts-growth-continues-with-shoppers-coming-for-groceries-and-gas-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Walmart raises sales and earnings outlook as e-commerce sales jump again",
+          "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Walmart raises full-year outlook as wealthier shoppers fuel sales growth",
+          "url": "https://www.foxbusiness.com/retail/walmart-raises-full-year-outlook-wealthier-shoppers-fuel-sales-growth"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-19-f836gu",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "RFK Jr faces fierce backlash after US loses measles-free status for first time in 26 years",
+      "summary": "The US has lost its measles-free status after 26 years - for failing to prevent the virus spreading for more than a year.",
+      "url": "https://www.foxnews.com/health/rfk-jr-faces-fierce-backlash-us-loses-measles-free-status-first-time-26-years",
+      "headlineSource": "Fox Health",
+      "summarySource": "Sky News",
+      "publishedAt": "2026-11-19T11:03:47.000Z",
+      "sourceCount": 5,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 12.62,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 2.5,
+        "wire": 0,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "The \"shameful\" measles data that lost the US its elimination status",
+          "url": "https://arstechnica.com/health/2026/11/the-shameful-measles-data-that-lost-the-us-its-elimination-status/"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "RFK Jr tells Americans to vaccinate their kids against measles as cases surge",
+          "url": "https://www.dailymail.com/health/article-16301079/rfk-jr-measles-vaccine-urge-america.html"
+        },
+        {
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "RFK Jr faces fierce backlash after US loses measles-free status for first time in 26 years",
+          "url": "https://www.foxnews.com/health/rfk-jr-faces-fierce-backlash-us-loses-measles-free-status-first-time-26-years"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "US loses measles-free status amid worst outbreak in 35 years",
+          "url": "https://news.sky.com/story/us-loses-measles-free-status-amid-worst-outbreak-in-35-years-13613526"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Measles comeback puts daycares, schools on the front lines",
+          "url": "https://thehill.com/policy/healthcare/6228350-measles-status-daycares-schools-epidemic/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-19-1dny2vz",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Largest British study to check social media ban's effect on youth mental health",
+      "summary": "Ten different research teams will look at how well teenagers are coping without social media.",
+      "url": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o",
+      "headlineSource": "BBC Health",
+      "summarySource": "BBC Health",
+      "publishedAt": "2026-11-19T00:41:13.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 12.29,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 1.59,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Health",
+          "sourceId": "bbc_health",
+          "lean": "center",
+          "title": "Largest British study to check social media ban's effect on youth mental health",
+          "url": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "£10m ‘once-in-a-generation’ study to explore effects of children’s social media ban",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/18/social-media-ban-once-in-a-generation-study"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Watch: Hailey Bieber Says Social Media Has Affected Her Mental Health",
+          "url": "https://www.nytimes.com/2026/11/18/business/watch-hailey-bieber-social-media-mental-health.html"
+        }
+      ]
+    }
+  ]
+}
