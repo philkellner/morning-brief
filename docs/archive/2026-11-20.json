@@ -1,0 +1,892 @@
+{
+  "version": 1,
+  "edition": "2026-11-20",
+  "generatedAt": "2026-11-20T12:30:10.927Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-20-x9ebp1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "3 takeaways from Trump, Xi and Putin's historic summit",
+      "summary": "The US leader urged the Europeans to set up a meeting and do a deal that would allow the killing to stop.",
+      "url": "https://www.pbs.org/newshour/world/3-takeaways-from-trump-xi-and-putins-historic-summit",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-20T12:13:27.000Z",
+      "sourceCount": 17,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 7,
+      "score": 24.58,
+      "scoreComponents": {
+        "breadth": 12.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Trump calls Putin, Xi his friends after meeting",
+          "url": "https://abcnews.com/video/138294590/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump calls Putin his friend at summit, prompting backlash from some world leaders",
+          "url": "https://www.cbsnews.com/video/trump-calls-putin-his-friend-at-summit-prompting-backlash-from-some-world-leaders/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Putin scores ‘massive win’ at first trilateral meeting, rebuilding standing as Ukraine war grinds on",
+          "url": "https://www.cnbc.com/2026/11/20/putin-xi-china-trump-russia-ukraine-.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "New Ukraine talks including Europe to be held 'soon' — Merz",
+          "url": "https://www.dw.com/en/new-ukraine-talks-including-europe-to-be-held-soon-merz/a-79997961?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump questions Europe's billions in Ukraine aid during surprise call",
+          "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Trump, Putin, Xi issue 4-point declaration after historic summit",
+          "url": "https://www.foxnews.com/world/trump-putin-xi-issue-4-point-declaration-historic-summit"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Was the historic Shenzhen summit a political win or humiliation for Putin?",
+          "url": "https://www.france24.com/en/asia-pacific/20261120-was-the-historic-shenzhen-summit-political-win-or-humiliation-for-putin"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump’s historic summit with Xi, Putin",
+          "url": "https://www.nbcnews.com/nightly-news/video/trump-s-historic-summit-with-xi-putin-273862213792"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "3 takeaways from Trump, Xi and Putin's historic summit",
+          "url": "https://www.pbs.org/newshour/world/3-takeaways-from-trump-xi-and-putins-historic-summit"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine",
+          "url": "https://news.sky.com/story/putin-vows-to-retaliate-as-ukraine-hits-prized-crimea-bridge-for-third-time-in-four-days-13613963"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+          "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump, Putin and Xi target UN and ICC in four-point ‘peace declaration’ – but offer no plans to end wars",
+          "url": "https://www.independent.co.uk/news/world/donald-trump-vladimir-putin-xi-jinping-un-icc-b3088430.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump’s camaraderie with Xi and Putin draws pushback at home",
+          "url": "https://www.japantimes.co.jp/news/2026/11/20/world/politics/trump-xi-putin-pushback/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Behind Trump Meeting, Xi and Putin Share a Vision of Usurping U.S. Power",
+          "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Trump calls sceptical allies to sell view Putin wants peace",
+          "url": "https://www.straitstimes.com/world/united-states/trump-calls-sceptical-allies-to-sell-view-putin-wants-peace"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "The eagle, the panda, and the bear walk into a summit",
+          "url": "https://www.washingtonexaminer.com/op-eds/4808584/trump-xi-putin-shenzhen-summit/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-20-1weybcg",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "summary": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-20T12:16:46.000Z",
+      "sourceCount": 14,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 8,
+      "score": 21.85,
+      "scoreComponents": {
+        "breadth": 11.72,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Russian missile crash in Poland likely an intentional provocation, Polish leader says",
+          "url": "https://abcnews.com/International/wireStory/unidentified-object-appears-crashed-poland-after-russian-attacks-138315055"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Russia’s day-long attack on Kyiv damages embassies",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Three Kyiv bridges hit during major Russian missile attack",
+          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Putin says Russia won't negotiate with Ukraine after bridge strike",
+          "url": "https://www.cbsnews.com/news/putin-russia-ukraine-bridge-strike/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+          "url": "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Ukraine: Russian strikes damage Austrian and Dutch embassies in Kyiv",
+          "url": "https://www.euronews.com/video/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Russia's Putin vows a response 'far more painful' after Ukraine attacks prized bridge in Crimea",
+          "url": "https://www.foxnews.com/world/russia-putin-vows-response-far-more-painful-ukraine-attacks-prized-bridge-crimea"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
+          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Russian Missiles Land Inside Poland: Everything We Know",
+          "url": "https://www.newsweek.com/russian-missiles-crash-inside-poland-everything-we-know-12746043"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "News Wrap: Russian drone attack damages Dutch embassy and cathedral in Ukraine",
+          "url": "https://www.pbs.org/newshour/show/news-wrap-russian-drone-attack-damages-dutch-embassy-and-cathedral-in-ukraine"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Nato jets scrambled as Poland accuses Russia of ‘intentional provocation’",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Dutch and Austrian Embassies Are Damaged as Russian Drones Swarm Kyiv",
+          "url": "https://www.nytimes.com/2026/11/19/world/europe/ukraine-dutch-embassy.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "France seeks UN Security Council meeting after strikes in Kyiv",
+          "url": "https://www.straitstimes.com/world/europe/france-seeks-un-security-council-meeting-after-strikes-in-kyiv"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Russia hits Ukraine with 400 drones, 110 missiles in one of war's largest attacks",
+          "url": "https://timesofindia.indiatimes.com/world/europe/compensating-with-terror-russia-hits-ukraine-with-400-drones-110-missiles-in-one-of-wars-largest-attacks/articleshow/136025133.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-20-14yupnq",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Myanmar guilty of genocide against Rohingya UN court rules",
+      "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+      "url": "https://www.euronews.com/2026/11/19/myanmar-guilty-of-genocide-against-rohingya-un-court-rules",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-20T12:20:29.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 8,
+      "score": 20.69,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
+          "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Myanmar committed genocide against Rohingya, U.N. top court rules",
+          "url": "https://www.cbsnews.com/news/myanmar-genocide-rohingyas-un-top-court/"
+        },
+        {
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
+          "lean": "center",
+          "title": "Step toward accountability: Top UN court finds Myanmar guilty of Rohingya genocide",
+          "url": "https://www.csmonitor.com/World/Asia-South-Central/2026/1119/rohingya-myanmar-genocide-ruling-un-court?icid=rss"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Myanmar guilty of genocide against Rohingya UN court rules",
+          "url": "https://www.euronews.com/2026/11/19/myanmar-guilty-of-genocide-against-rohingya-un-court-rules"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Malaysia's unwanted refugees: The plight of the Rohingya",
+          "url": "https://www.france24.com/en/tv-shows/focus/20261120-malaysia-s-unwanted-refugees-the-plight-of-the-rohingya"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "International Court of Justice finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.pbs.org/newshour/show/international-court-of-justice-finds-myanmar-guilty-of-genocide-against-rohingya"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Myanmar rejects UN court's genocide ruling as 'unfair'",
+          "url": "https://news.sky.com/story/myanmar-rejects-un-courts-rohingya-genocide-guilty-verdict-as-unfair-13614272"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Myanmar ruling gives new relevance to genocide convention and is ‘full of messages’ for Israel",
+          "url": "https://www.theguardian.com/law/2026/nov/19/myanmar-ruling-new-relevance-genocide-convention-messages-israel"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Rohingya crisis remains unresolved as ICJ rules on Myanmar",
+          "url": "https://www.japantimes.co.jp/news/2026/11/20/asia-pacific/politics/rohingya-crisis-icj-myanmar/"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
+          "url": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Safe and speedy return of Rohingya': India reiterates stand after Myanmar ICJ verdict",
+          "url": "https://timesofindia.indiatimes.com/india/safe-and-speedy-return-of-rohingya-india-reiterates-stand-after-myanmar-icj-verdict/articleshow/136024542.cms"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-20-1kw6ouu",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Rare EU-UK summit as Andy Burnham seeks to mend Brexit damage",
+      "summary": "European Union officials and UK Prime Minister Andy Burnham met in Brussels to discuss efforts to rebuild ties following Brexit.",
+      "url": "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
+      "headlineSource": "France 24",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-20T12:20:55.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 6,
+      "score": 20.1,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "EU and Britain to agree steps towards relations reset",
+          "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset?traffic_source=rss"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "EU 'surrender summit' descends into chaos as Burnham claims deal is done - but Brussels warns it depends on tuition fees being slashed",
+          "url": "https://www.dailymail.com/news/article-16308315/EU-summit-Burnham-Brussels-Brexit-Labour.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+          "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "UK anthem returns to the EU stage in symbolic post-Brexit moment",
+          "url": "https://www.euronews.com/video/2026/11/20/uk-anthem-returns-to-the-eu-stage-in-symbolic-post-brexit-moment"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Rare EU-UK summit as Andy Burnham seeks to mend Brexit damage",
+          "url": "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "The U.K. and EU hold a rare summit to strengthen ties",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "The UK and EU hold a rare summit to strengthen ties as Burnham seeks to mend Brexit damage",
+          "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Easing Back From Brexit: What to Expect at U.K. Summit With E.U.",
+          "url": "https://www.nytimes.com/2026/11/20/world/europe/uk-eu-summit-brexit.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Britain and EU launch reset with food and youth mobility deals",
+          "url": "https://www.straitstimes.com/world/europe/britain-eu-set-to-agree-to-reset-but-divisions-persist"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-20-1krpyy2",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Global stock markets slump as Anthropic IPO fails to stem AI sell-off",
+      "summary": "Protesters gathered outside Anthropic’s San Francisco headquarters on 19 November 2026 to demand tighter regulation and greater human control over artificial intelligence, following the company’s $2 trillion stock market debut.",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "headlineSource": "The Guardian",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-20T12:19:00.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 19.99,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "US Stock Futures Fall as Anthropic IPO Fails to Quell AI Worries",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-fall-as-ai-selloff-spreads-to-asia-and-europe"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "US: Protesters demand human control over AI after Anthropic's IPO",
+          "url": "https://www.euronews.com/video/2026/11/20/us-protesters-demand-human-control-over-ai-after-anthropics-ipo"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
+          "url": "https://www.foxbusiness.com/markets/anthropic-makes-stock-market-debut-who-could-gain-from-blockbuster-ipo"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Anthropic soared in its debut as stocks tanked. Only one other IPO has done that since 1990.",
+          "url": "https://www.marketwatch.com/story/anthropic-soared-in-its-debut-as-stocks-tanked-only-one-other-ipo-has-done-that-since-1990-77b75258?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
+          "url": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Global stock markets slump as Anthropic IPO fails to stem AI sell-off",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-20-1ura04o",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Elon Musk Regrets Wasting Millions on MAGA",
+      "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
+      "url": "https://reason.com/video/2026/11/19/elon-musk-regrets-wasting-millions-on-maga/",
+      "headlineSource": "Reason",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-20T11:19:30.000Z",
+      "sourceCount": 6,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 19.41,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 7.8,
+        "wire": 0.8,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Elon Musk says he is 'not MAGA,' in departure from past comments",
+          "url": "https://www.foxbusiness.com/politics/elon-musk-says-he-not-maga-departure-from-past-comments"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Elon Musk claims ‘I’m not Maga’ and says he regrets vast sums to back Republicans",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Poll of the Day: Do You Think Elon Musk Is MAGA?",
+          "url": "https://www.newsweek.com/poll-think-elon-musk-maga-12745754"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "‘I’m Not MAGA’: Musk Plays Down G.O.P. Support After Midterm Loss",
+          "url": "https://www.nytimes.com/2026/11/18/business/dealbook/elon-musk-midterms.html"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "Elon Musk Regrets Wasting Millions on MAGA",
+          "url": "https://reason.com/video/2026/11/19/elon-musk-regrets-wasting-millions-on-maga/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-20-v4j3y1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "White House replaces cyber security chief after tech outages",
+      "summary": "CBS is reporting he has been fired after losing the confidence of White House chief of staff Stephen Miller.",
+      "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-20T11:42:23.000Z",
+      "sourceCount": 8,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 17.08,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.42,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "White House replaces cyber director Sean Cairncross amid widespread tech outages",
+          "url": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "White House replaces cyber security chief after tech outages",
+          "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "White House national cyber director fired after wave of tech outages",
+          "url": "https://www.euronews.com/2026/11/20/white-house-national-cyber-director-fired-after-wave-of-tech-outages"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "White House Wi-Fi Could be Exposed to Hackers",
+          "url": "https://www.newsweek.com/white-house-wi-fi-hackers-12745306"
+        },
+        {
+          "source": "Politico",
+          "sourceId": "politico",
+          "lean": "center-left",
+          "title": "A week of White House static",
+          "url": "https://www.politico.com/video/2026/11/19/a-week-of-white-house-static-2233252"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "White House names Kirsten Davies as new cyber chief after outage chaos",
+          "url": "https://www.independent.co.uk/tech/white-house-cyber-chief-kirsten-davies-b3088470.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "White House took reporters’ phones as Trump departed China",
+          "url": "https://www.japantimes.co.jp/news/2026/11/20/world/trump-reporters-phones-china/"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-20-rr53ej",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Do you need a measles booster shot now that the U.S. has lost its elimination status?",
+      "summary": "The U.S., Mexico and Bolivia lost their measles-free status this week after stubborn outbreaks erased decades of progress.",
+      "url": "https://www.pbs.org/newshour/health/do-you-need-a-measles-booster-shot-now-that-the-u-s-has-lost-its-elimination-status",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-20T00:10:07.000Z",
+      "sourceCount": 4,
+      "leanCount": 4,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 15.17,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 5.85,
+        "wire": 0.8,
+        "freshness": 1.55,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "America's measles hotspots revealed in alarming map as virus claims 11th life and US loses elimination status",
+          "url": "https://www.dailymail.com/health/article-16306253/measles-hotspots-america-map-deaths.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Do you need a measles booster shot now that the U.S. has lost its elimination status?",
+          "url": "https://www.pbs.org/newshour/health/do-you-need-a-measles-booster-shot-now-that-the-u-s-has-lost-its-elimination-status"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "The U.S. Just Lost Its Measles-Free Status. Who—or What—Is To Blame?",
+          "url": "https://reason.com/2026/11/19/the-u-s-just-lost-its-measles-free-status-who-or-what-is-to-blame/"
+        },
+        {
+          "source": "STAT News",
+          "sourceId": "statnews",
+          "lean": "center",
+          "title": "Opinion: The U.S. lost measles elimination status. The next Congress should help restore it",
+          "url": "https://www.statnews.com/2026/11/19/measles-elimination-status-congress-should-prioritize-restoration/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-20-7w36d8",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Apple working on AI agent for device control, apps, browsing and coding",
+      "summary": "Apple's App Store has been dominated by artificial intelligence agents, with Muse long occupying the No. 2 spot among free apps, just behind TikTok.",
+      "url": "https://www.japantimes.co.jp/business/2026/11/20/apple-ai-agent/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-20T11:05:00.000Z",
+      "sourceCount": 5,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 13.67,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 2.37,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Apple seems to be building its own AI agent. This could be bad news for Meta’s Muse.",
+          "url": "https://www.marketwatch.com/story/apple-seems-to-be-building-its-own-ai-agent-this-could-be-bad-news-for-metas-muse-8d9be2a7?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
+          "url": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Apple working on AI agent for device control, apps, browsing and coding",
+          "url": "https://www.japantimes.co.jp/business/2026/11/20/apple-ai-agent/"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Apple is hiring engineers to build its own AI agent",
+          "url": "https://www.theverge.com/?p=1038227"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "‘Intelligent caller’ to team leader: How this call centre ran Apple gift card scam",
+          "url": "https://timesofindia.indiatimes.com/city/gurgaon/intelligent-caller-to-team-leader-how-this-call-centre-ran-apple-gift-card-scam/articleshow/136003610.cms"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-20-1crt674",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "How Anthropic’s Dario Amodei thinks about A.I.",
+      "summary": "Even as Anthropic prepared for its debut, Dario Amodei warned how AI's advances could outpace human control and urged a slowdown in development.",
+      "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/how-anthropics-dario-amodei-thinks-about-ai",
+      "headlineSource": "NYT Business",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-20T02:29:00.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 12.4,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 1.7,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Who are Anthropic’s seven co-founders, now worth $180bn?",
+          "url": "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "How Anthropic’s Dario Amodei thinks about A.I.",
+          "url": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/how-anthropics-dario-amodei-thinks-about-ai"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "From anti-war physicist to AI power broker, Amodei takes his safety approach public",
+          "url": "https://www.japantimes.co.jp/business/2026/11/20/tech/physicist-ai-amodei-safety/"
+        }
+      ]
+    }
+  ]
+}
