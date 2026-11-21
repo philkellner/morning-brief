@@ -1,0 +1,857 @@
+{
+  "version": 1,
+  "edition": "2026-11-21",
+  "generatedAt": "2026-11-21T12:06:09.170Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 63,
+    "failed": []
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-21-1d6c2ao",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Trump threatens ban on US firms building AI data centres overseas",
+      "summary": "President Donald Trump on Friday threatened “a tremendous tax” on US companies that build artificial intelligence data centres abroad, highlighting a divide between a president who sees their expansion as critical to winning the AI race and an American public…",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko",
+      "headlineSource": "BBC News",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-21T02:06:17.000Z",
+      "sourceCount": 13,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 6,
+      "score": 22.72,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 1.7,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump says he plans to penalize companies that build data centers in other countries",
+          "url": "https://abcnews.com/Technology/wireStory/trump-plans-penalize-us-tech-companies-build-ai-138323831"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Trump threatens ban on US firms building AI data centres overseas",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+          "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Trump's MAGA succession battle takes center stage in extraordinary press conference as he is asked to pick between Vance and Rubio",
+          "url": "https://www.dailymail.com/news/article-16309795/Trump-spotted-bruise-eye-gives-White-House-briefing-marathon-China-visit.html"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "The latest from Trump's press conference",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Trump Threatens to Bar U.S. Tech Firms From Building Data Centers Abroad",
+          "url": "https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "What Trump addressed during his lengthy White House news conference",
+          "url": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Trump threatens ‘tremendous tax’ on US firms building AI data centres overseas",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375303/trump-threatens-tremendous-tax-us-firms-building-ai-data-centres-overseas"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump’s showboating press conference isn’t the flex he thinks it is",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-asia-trip-press-conference-analysis-b3088989.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Fresh off China trip, Trump bobs and weaves in freewheeling news conference",
+          "url": "https://www.japantimes.co.jp/news/2026/11/21/world/politics/trump-freewheeling-news-conference/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Fresh off China trip, Trump bobs and weaves in freewheeling press conference",
+          "url": "https://www.straitstimes.com/world/united-states/fresh-off-china-trip-trump-bobs-and-weaves-in-freewheeling-press-conference"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+          "url": "https://www.theverge.com/?p=1038892"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-21-qrjjp6",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-21T11:59:06.000Z",
+      "sourceCount": 12,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 6,
+      "score": 21.24,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump touts relationships with Putin and Xi after historic Asia trip",
+          "url": "https://abcnews.com/Politics/trump-hold-news-conference-friday-asia-trip/story?id=138307456"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+          "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Trump calls Putin his friend at summit, prompting backlash from some world leaders",
+          "url": "https://www.cbsnews.com/video/trump-calls-putin-his-friend-at-summit-prompting-backlash-from-some-world-leaders/"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Trump claims Putin told him he would have never invaded Ukraine if he were president - as he's slammed in Europe over 'friend' comment",
+          "url": "https://www.dailymail.com/news/article-16310089/trump-putin-ukraine-invasion-claims.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
+          "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks",
+          "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Trump touts historic summit with Xi, Putin",
+          "url": "https://www.nbcnews.com/nightly-news/video/trump-touts-historic-summit-with-xi-putin-273933381719"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "WATCH: After calling Putin his friend, Trump 'can't speak to' whether Putin is a friend to America",
+          "url": "https://www.pbs.org/newshour/politics/trump-defends-calling-putin-a-friend-saying-they-have-a-very-good-personal-relationship"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Ukraine-Russia war latest: Zelensky calls Putin a ‘killer’ as he slams Trump’s ‘friendship’ with Moscow",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
+          "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "‘He’s a killer’: Zelensky on Putin after Trump calls Russian leader a ‘friend’",
+          "url": "https://www.straitstimes.com/world/europe/hes-a-killer-zelensky-on-putin-after-trump-calls-russian-leader-a-friend"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Friend to Trump, 'killer' for Ukraine: Zelenskyy hits back as winds of winter looms",
+          "url": "https://timesofindia.indiatimes.com/world/europe/friend-to-trump-killer-for-ukraine-zelenskyy-hits-back-as-winds-of-winter-looms/articleshow/136050546.cms"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-21-u2xug9",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Russian projectiles hit Poland as NATO tensions rise",
+      "summary": "Warsaw accuses Moscow of intentional provocation, but bar for triggering NATO's collective defence clause remains high.",
+      "url": "https://www.france24.com/en/russian-projectiles-hit-poland-as-nato-tensions-rise",
+      "headlineSource": "France 24",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-21T11:02:49.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 19.56,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Russian missiles pummel Ukraine and hit NATO soil in Poland",
+          "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+          "url": "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Putin launches Ukraine barrage hours after Trump meeting amid alleged Russian missile breach of NATO airspace",
+          "url": "https://www.foxnews.com/world/putin-launches-ukraine-barrage-hours-after-trump-meeting-amid-alleged-russian-missile-breach-nato-airspace"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Russian projectiles hit Poland as NATO tensions rise",
+          "url": "https://www.france24.com/en/russian-projectiles-hit-poland-as-nato-tensions-rise"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
+          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "European leaders condemn Russia’s ‘intentional provocation’ as missile hits Poland",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-missile-poland-ukraine-war-b3088729.html"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
+          "url": "https://www.nytimes.com/2026/11/20/world/europe/poland-russia-airspace-missile.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-21-1kmg9p4",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
+      "summary": "Agrochemical maker Bayer will pay up to $7.25 billion over two decades to resolve thousands of claims from U.S. cancer patients asserting the company should have warned people that its popular weed killer Roundup could cause lymphoma, according to a…",
+      "url": "https://www.pbs.org/newshour/nation/court-approves-7-25-billion-bayer-settlement-over-claims-roundup-weed-killer-caused-cancer",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-21T10:37:12.000Z",
+      "sourceCount": 7,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 19.36,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.36,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US judge approves Bayer's $7.25 billion cancer settlement",
+          "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+          "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Bayer to pay out more than $7B in settlement over weed killer’s link to cancer",
+          "url": "https://nypost.com/2026/11/20/us-news/bayer-paying-out-7-25b-in-settlement-over-weed-killers-link-to-cancer/"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "Bayer Roundup Settlement: Who Qualifies and How Much Could They Get?",
+          "url": "https://www.newsweek.com/bayer-roundup-settlement-who-qualifies-how-much-12751015"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer",
+          "url": "https://www.nytimes.com/2026/11/20/business/judge-approves-7-billion-settlement-over-claims-that-roundup-caused-cancer.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
+          "url": "https://www.pbs.org/newshour/nation/court-approves-7-25-billion-bayer-settlement-over-claims-roundup-weed-killer-caused-cancer"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Court formally approves $7.25B class settlement for cancer claims from Roundup weed killer",
+          "url": "https://thehill.com/policy/energy-environment/6234796-judge-approves-roundup-settlement/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-21-1hlha8c",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Federal jury convicts man of starting deadly 2025 Palisades Fire in Los Angeles",
+      "summary": "The man accused of sparking last year's deadly Palisades Fire was found guilty of arson charges Friday after his first federal case earlier this year ended in a mistrial.",
+      "url": "https://www.pbs.org/newshour/nation/federal-jury-convicts-man-of-starting-deadly-2025-palisades-fire-in-los-angeles",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-21T07:10:00.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 19.23,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.07,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Man accused of starting blaze that became Palisades Fire found guilty of arson",
+          "url": "https://abcnews.com/US/man-accused-starting-blaze-palisades-fire-found-guilty/story?id=138333631"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Man convicted of starting Palisades fire in Los Angeles",
+          "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Palisades firestarter found guilty of the most destructive inferno in LA history that killed 12 people, destroyed more than 6,800 structures, and displaced 105,000 residents",
+          "url": "https://www.dailymail.com/news/article-16310487/palisades-fire-jonathan-rinderknecht-guilty-la-inferno.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+          "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "California Man Found Guilty of Starting Deadly Palisades Fire",
+          "url": "https://www.newsweek.com/california-man-found-guilty-of-starting-deadly-palisades-fire-12750870"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Federal jury convicts man of starting deadly 2025 Palisades Fire in Los Angeles",
+          "url": "https://www.pbs.org/newshour/nation/federal-jury-convicts-man-of-starting-deadly-2025-palisades-fire-in-los-angeles"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "California man found guilty of sparking blaze that became deadly Palisades Fire",
+          "url": "https://thehill.com/homenews/state-watch/6234829-uber-driver-palisades-fire-conviction/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Suspect in Los Angeles’ deadly Palisades fire convicted of arson at retrial",
+          "url": "https://www.straitstimes.com/world/united-states/suspect-in-los-angeles-deadly-palisades-fire-convicted-of-arson-at-retrial"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-21-x522d2",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first day of release, developer says",
+      "summary": "Grand Theft Auto VI costs less than GTA V to buy, yet far more to play. AJLabs explains where the money goes.",
+      "url": "https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says",
+      "headlineSource": "The Guardian",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-21T11:39:03.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 18.88,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "WATCH: Grand Theft Auto VI is back and shattering records",
+          "url": "https://abcnews.com/video/138313101/"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Why is GTA VI so expensive to play?",
+          "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/21/why-is-gta-vi-so-expensive-to-play?traffic_source=rss"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+          "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Crime DOES pay! Grand Theft Auto VI makes £2.89 billion after just ONE day of being on sale - making it the biggest entertainment launch of all time",
+          "url": "https://www.dailymail.com/news/article-16310059/Grand-Theft-Auto-VI-worlds-fastest-selling-game.html"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first day of release, developer says",
+          "url": "https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+          "url": "https://www.theverge.com/?p=1036279"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-21-n7jasl",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Fossil fuel row sees COP31 talks spill into overtime",
+      "summary": "United Nations climate talks in Turkey stretched into overtime Friday and delegates put off some decisions to next year, unable to find common ground on multiple issues with mutterings and protests about failure.",
+      "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
+      "headlineSource": "Euronews",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-21T11:47:45.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 18.57,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "COP31: UN Climate summit runs into overtime as deal remains elusive",
+          "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-overtime-as-deal-remains-elusive/live-79999516?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Fossil fuel row sees COP31 talks spill into overtime",
+          "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime"
+        },
+        {
+          "source": "Guardian Environment",
+          "sourceId": "guardian_env",
+          "lean": "left",
+          "title": "Cop31 live: world urged to avoid one of ‘most disappointing Cops ever’ as talks stretch past deadline",
+          "url": "https://www.theguardian.com/environment/live/2026/nov/21/cop31-climate-deal-latest-news-updates"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Activists, leaders criticize COP31 climate talks as fossil fuels go unmentioned in draft deal",
+          "url": "https://www.pbs.org/newshour/world/activists-leaders-criticize-cop31-climate-talks-as-fossil-fuels-go-unmentioned-in-draft-deal"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Nations race to avoid making Cop31 ‘one of the most disappointing ever’",
+          "url": "https://www.independent.co.uk/climate-change/cop31-fossil-fuels-turkey-un-aid-b3089095.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Nations row over fossil fuels as COP31 goes into overtime",
+          "url": "https://www.straitstimes.com/world/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-21-1lfp1z1",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "French police officers sentenced for beating of music producer Michel Zecler",
+      "summary": "Officers dealt more than 30 blows to the Black music producer in what the court ruled was a racially motivated crime.",
+      "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo",
+      "headlineSource": "BBC News",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-21T09:45:38.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 18.38,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.28,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "French police officers guilty of Michel Zecler assault: What happens now?",
+          "url": "https://www.aljazeera.com/news/2026/11/21/french-police-officers-guilty-of-michel-zecler-assault-what-happens-now?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "French police officers sentenced for beating of music producer Michel Zecler",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Paris police officers sentenced to prison over 2020 beating of Black man",
+          "url": "https://www.france24.com/en/france/20261120-paris-police-officers-sentenced-to-prison-over-2020-beating-of-black-man-michel-zecler"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "French Senate approves police shootings law dubbed ‘licence to kill’ by critics",
+          "url": "https://www.scmp.com/news/world/europe/article/3375320/french-senate-approves-police-shootings-law-dubbed-licence-kill-critics"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "French police officers found guilty of racist assault on black music producer",
+          "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "White Police Officers Are Convicted of Beating a Black Man in France",
+          "url": "https://www.nytimes.com/2026/11/20/world/europe/france-police-brutality-black-producer.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "French policemen convicted of racist assault on music producer",
+          "url": "https://www.straitstimes.com/world/europe/french-policemen-convicted-of-racist-assault-on-music-producer"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-21-v6s87j",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-21T11:29:25.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 18.25,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
+        },
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Anthropic Slides 8.5% to Shrink IPO Gain as AI Trade Unravels",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-share-slump-nearly-erases-ipo-pop-as-ai-trade-unravels"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Why Anthropic's blockbuster IPO couldn't escape the market correction",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Anthropic’s historic stock market debut: key takeaways, and what comes next for the AI industry",
+          "url": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Anthropic says it will put humanity first. Will its IPO change that?",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Can Anthropic Revive the A.I. Trade?",
+          "url": "https://www.nytimes.com/2026/11/20/business/dealbook/anthropic-ipo-ai-rally.html"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Anthropic among big fallers in global stock market rout",
+          "url": "https://news.sky.com/story/anthropic-among-big-fallers-in-global-stock-market-rout-13614361"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Anthropic’s post-debut stumble delivers reality check for AI trade",
+          "url": "https://www.japantimes.co.jp/business/2026/11/21/markets/anthropic-ai-stocks/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-21-fhzrip",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
+      "summary": "AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for the market.",
+      "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+      "headlineSource": "Fox Business",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-21T02:09:16.000Z",
+      "sourceCount": 5,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 1,
+      "score": 14.71,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 1.7,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "S&P, Dow Slide Into Correction as Investors Dump Tech",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/s-p-dow-slide-into-correction-as-investors-dump-tech-video"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Wall Street bloodbath as Nasdaq plunges and Nvidia crashes in market meltdown that's seen tech giants lose billions",
+          "url": "https://www.dailymail.com/yourmoney/article-16310195/wall-street-nasdaq-nvidia-anthropic-meltdown.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
+          "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+          "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative"
+        }
+      ]
+    }
+  ]
+}
