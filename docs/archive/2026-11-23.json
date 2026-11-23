@@ -1,0 +1,764 @@
+{
+  "version": 1,
+  "edition": "2026-11-23",
+  "generatedAt": "2026-11-23T14:00:46.445Z",
+  "timezone": "America/Chicago",
+  "storyCount": 10,
+  "method": {
+    "summary": "Stories are ranked by how many independent outlets across the political spectrum covered them, not by any one newsroom's judgement.",
+    "ranking": "breadth (distinct outlets) + diversity (spread of editorial lean) + wire presence + recency",
+    "headlineChoice": "least sensational phrasing among covering outlets, wire desks preferred",
+    "caveat": "Cross-source consensus reduces single-outlet slant. It cannot remove shared blind spots, and it favours widely-covered stories over important but under-reported ones."
+  },
+  "feeds": {
+    "attempted": 63,
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-23-m1lwfa",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
+      "summary": "Drone strikes on two Russian vessels near Libyan coast fuels fears of Ukraine war's spread.",
+      "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
+      "headlineSource": "Times of India",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-23T13:51:16.000Z",
+      "sourceCount": 16,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 9,
+      "score": 24.35,
+      "scoreComponents": {
+        "breadth": 12.26,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
+          "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Zelenskyy praises ‘exemplary’ drone operation that sank Russian warship in a Libyan port",
+          "url": "https://www.cnbc.com/2026/11/23/ukraine-russia-warship-libya.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
+          "url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sank-russian-ship-off-libya/live-80015859?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Satellite images show Russian warship capsized in Libya after suspected Ukrainian drone strike",
+          "url": "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Russian warship sinks off Libya as suspected Ukrainian strikes take war beyond Black Sea",
+          "url": "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Ukrainian drones sink Russian warship at naval base in Libya",
+          "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "Ukraine sinks Russian warship off Libya in latest expansion of the war",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-sinks-russian-warship-merkury-libya-naval-drones-war-rcna610822"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+          "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Shocking satellite images reveal fate of Russian warship hit by Ukraine drones in Libya",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-warship-drone-attack-merkury-b3089708.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
+          "url": "https://www.japantimes.co.jp/news/2026/11/23/world/libya-drone-attack-russian-ship-ukraine/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
+          "url": "https://www.straitstimes.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
+          "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms"
+        },
+        {
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Ukraine claims strike on Russian warship and cargo tanker in Libyan port",
+          "url": "https://www.washingtonexaminer.com/news/world/4811959/ukraine-strike-russian-warship-tanker-libya/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-23-d2vmd7",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Indonesia says 24 killed in factory fire, rescuers search for dozens missing",
+      "summary": "Rescuers are searching for around 30 missing workers after a candy factory fire killed at least 24 people in Banten.",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing",
+      "headlineSource": "South China Morning Post",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-23T12:52:00.000Z",
+      "sourceCount": 8,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 4,
+      "score": 21.5,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Search continues for dozens missing after Indonesia candy factory fire",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/search-continues-for-dozens-missing-after-indonesia-candy-factory-fire?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Three killed and dozens missing after fire at Indonesian factory",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Indonesia: Rescuers recover 24 body bags from burnt-out factory",
+          "url": "https://www.euronews.com/video/2026/11/23/indonesia-rescuers-recover-24-body-bags-from-burnt-out-factory"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Indonesia candy factory fire leaves multiple dead, dozens missing",
+          "url": "https://www.foxnews.com/world/indonesia-candy-factory-fire-leaves-multiple-dead-dozens-missing"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
+          "url": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Indonesia says 24 killed in factory fire, rescuers search for dozens missing",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Dozens Unaccounted for After Fire Rips Through Candy Factory in Indonesia",
+          "url": "https://www.nytimes.com/2026/11/23/world/asia/indonesia-factory-fire.html"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-23-1253d3f",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "What's next after no deal at COP31 climate talks?",
+      "summary": "The COP31 climate talks ended in failure Sunday as a contentious deal collapsed over fossil fuels and the summit in Turkey stretched into record overtime. The final agreement was rejected in a chaotic finale to a UN climate summit that ran two days over…",
+      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo",
+      "headlineSource": "BBC News",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-23T13:36:00.000Z",
+      "sourceCount": 9,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.53,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "COP31 has failed. The climate system is working as designed",
+          "url": "https://www.aljazeera.com/opinions/2026/11/23/cop31-has-failed-the-climate-system-is-working-as-designed?traffic_source=rss"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "What's next after no deal at COP31 climate talks?",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "U.N. climate summit ends without deal after contentious fossil fuel debate",
+          "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels",
+          "url": "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "A reset for climate diplomacy?",
+          "url": "https://www.dw.com/en/a-reset-for-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "The worst COP ever? Climate talks collapse in chaos",
+          "url": "https://www.france24.com/en/video/20261123-the-worst-cop-ever-climate-talks-collapse-in-chaos"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Failure of Cop31 prompts calls for urgent reform of UN climate summits",
+          "url": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
+          "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Bad COP, worse COP: What’s next after climate talks fail?",
+          "url": "https://www.straitstimes.com/world/bad-cop-worse-cop-whats-next-after-climate-talks-fail"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-23-1spw7jw",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
+      "summary": "Environmental groups criticized the government's move, decrying it as a maneuver to get around a court order and avoid public demands for safety and transparency.",
+      "url": "https://www.straitstimes.com/world/united-states/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa",
+      "headlineSource": "The Straits Times",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-23T13:22:33.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 19.09,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+          "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "US Army invokes emergency powers to detonate lead in Iowa",
+          "url": "https://nypost.com/2026/11/23/us-news/us-army-invokes-emergency-powers-to-detonate-lead-in-iowa/"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
+          "url": "https://www.pbs.org/newshour/nation/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Army detonation of lead azide moved to Wednesday in Iowa",
+          "url": "https://thehill.com/homenews/state-watch/6236662-iowa-army-detonation-lead-azide-resecheduled/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "US Army accused of dodging court order to blow up tons of bomb-making chemicals over Iowa towns",
+          "url": "https://www.independent.co.uk/news/world/americas/army-iowa-lead-azide-detonation-b3089692.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
+          "url": "https://www.straitstimes.com/world/united-states/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "US army seeks to proceed with 5-tonne chemical blast in Iowa despite court order",
+          "url": "https://timesofindia.indiatimes.com/world/us/us-army-seeks-to-proceed-with-5-tonne-chemical-blast-in-iowa-despite-court-order-halting-detonation/articleshow/136100323.cms"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-23-45orkj",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "US tracked Alice Huang’s contacts with China spy agency during Nvidia affair",
+      "summary": "Alice Huang, who is alleged to have been spying for Chinese intelligence during her affair with former Nvidia CEO Jensen Huang, was in contact with China's Ministry of State Security until autumn 2026, the New York Times reported Monday, citing people with…",
+      "url": "https://www.straitstimes.com/world/united-states/us-tracked-alice-huangs-contacts-with-china-spy-agency-during-nvidia-affair",
+      "headlineSource": "The Straits Times",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-23T13:22:23.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 18.29,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Alice Huang had contact with China spy agency during affair with Nvidia boss, New York Times reports",
+          "url": "https://www.france24.com/en/americas/20261123-alice-huang-had-contact-with-china-spy-agency-during-affair-with-nvidia-boss-nyt-reports"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Jensen Huang’s lover was in contact with Chinese spy agency officer during affair with ex-Nvidia chief: report",
+          "url": "https://nypost.com/2026/11/23/us-news/jensen-huangs-lover-was-in-contact-with-chinese-spy-agency-officer-while-having-affair-with-shamed-ex-nvidia-chief-report/"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Can Jensen Huang Return to Nvidia?",
+          "url": "https://www.nytimes.com/2026/11/23/business/dealbook/jensen-huang-nvidia.html"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Alice Huang stayed in contact with Chinese spy agency during her affair with Nvidia chief – NYT",
+          "url": "https://www.independent.co.uk/news/world/americas/alice-huang-china-spy-jensen-huang-affair-nvidia-nyt-b3089572.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "U.S. tracked Alice Huang’s contacts with China spy agency during Nvidia affair",
+          "url": "https://www.japantimes.co.jp/business/2026/11/23/tech/us-alice-huang-china-spy-nvidia/"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "US tracked Alice Huang’s contacts with China spy agency during Nvidia affair",
+          "url": "https://www.straitstimes.com/world/united-states/us-tracked-alice-huangs-contacts-with-china-spy-agency-during-nvidia-affair"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-23-14z829m",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Nine people shot at a central California concert; one in critical condition",
+      "summary": "The shooting broke out on Nov 21 at a concert attended by about 150 people in Strathmore.",
+      "url": "https://www.straitstimes.com/world/united-states/nine-people-shot-at-a-central-california-concert-one-in-critical-condition",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-23T13:00:05.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 18.16,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Nine people injured after gunfire at central California concert",
+          "url": "https://www.euronews.com/2026/11/23/nine-people-injured-after-gunfire-at-central-california-concert"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Mass overdose leaves two dead, three critical at California home",
+          "url": "https://nypost.com/2026/11/22/us-news/mass-overdose-leaves-two-dead-three-critical-at-california-home/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nine people shot at central California concert with one in critical condition",
+          "url": "https://www.theguardian.com/us-news/2026/nov/23/concert-shooting-california-strathmore"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Mass shooting at small-town California rap concert leaves nine wounded and a 26-year-old fighting for his life",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/strathmore-california-concert-shooting-gang-b3089627.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Nine people shot at a central California concert; one in critical condition",
+          "url": "https://www.straitstimes.com/world/united-states/nine-people-shot-at-a-central-california-concert-one-in-critical-condition"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-23-1o7qnz9",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Trump says he hopes Nvidia rehires Jensen Huang: ‘Best thing for the USA’",
+      "summary": "President Donald Trump spends Sunday on Truth Social airing pet grievances after return from China",
+      "url": "https://nypost.com/2026/11/23/us-news/trump-says-he-hopes-nvidia-rehires-jensen-huang-best-thing-for-the-usa/",
+      "headlineSource": "New York Post",
+      "summarySource": "The Independent",
+      "publishedAt": "2026-11-23T13:30:51.000Z",
+      "sourceCount": 6,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 0,
+      "score": 17.27,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 6.4,
+        "wire": 0,
+        "freshness": 2.45,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Trump wants Jensen Huang back at Nvidia. Scott Bessent says he may fit the bill.",
+          "url": "https://www.businessinsider.com/scott-bessent-jensen-huang-nvidia-outsider-ceo-candidate-2026-11"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Trump doubles down on call for Nvidia to rehire Jensen Huang amid alleged Chinese spy scandal",
+          "url": "https://www.foxbusiness.com/politics/trump-doubles-down-call-nvidia-rehire-jensen-huang-amid-alleged-chinese-spy-scandal"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Nvidia stock bounces as Trump pushes for rehiring of Jensen Huang, and tech stocks rebound – business live",
+          "url": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Trump wants Jensen Huang back at Nvidia. What will it take to stop the tech selloff?",
+          "url": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump says he hopes Nvidia rehires Jensen Huang: ‘Best thing for the USA’",
+          "url": "https://nypost.com/2026/11/23/us-news/trump-says-he-hopes-nvidia-rehires-jensen-huang-best-thing-for-the-usa/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Trump urges Nvidia to rehire Jensen Huang again while randomly going after Somalians in Minnesota",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jensen-huang-nvidia-minnesota-b3089697.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-23-vbyyi9",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "AI tools help brands curb Black Friday deals, from clothes to skincare",
+      "summary": "Often, the tools conclude that companies can reduce discounts without dampening demand,",
+      "url": "https://www.straitstimes.com/world/united-states/ai-tools-help-brands-curb-black-friday-deals-from-clothes-to-skincare",
+      "headlineSource": "The Straits Times",
+      "summarySource": "The Straits Times",
+      "publishedAt": "2026-11-23T12:05:00.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 13.02,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0.8,
+        "freshness": 2.32,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Unreal deals: the scam websites targeting Black Friday bargain hunters",
+          "url": "https://www.theguardian.com/money/2026/nov/22/black-friday-scam-deals--ai-fake-storefront"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "AI tools help brands curb Black Friday deals, from clothes to skincare",
+          "url": "https://www.straitstimes.com/world/united-states/ai-tools-help-brands-curb-black-friday-deals-from-clothes-to-skincare"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
+          "url": "https://www.theverge.com/?p=1037313"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-23-10cte38",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+      "summary": "CrowdStrike on Monday said it will acquire Zscaler in an all-stock transaction that values the company at approximately $43.9 billion.",
+      "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories",
+      "headlineSource": "MarketWatch",
+      "summarySource": "MarketWatch",
+      "publishedAt": "2026-11-23T13:47:00.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 0,
+      "score": 10.43,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "Stocks Rebound After AI-Driven Correction; Crowdstrike to Buy ZScaler",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-23/bloomberg-brief-11-23-2026-video"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+          "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Two Major Cybersecurity Firms to Combine in $44 Billion Deal",
+          "url": "https://www.nytimes.com/2026/11/23/business/crowdstrike-zscaler-cybersecurity.html"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-23-dn0i21",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "US Stock Futures Bounce on Wall Street Buy Calls: Markets Wrap",
+      "summary": "Early stock market moves pointed to some stability when regular trading resumes in the United States on Monday, partly reversing a sharp fall last week. But analysts warned of more volatility ahead.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
+      "headlineSource": "Bloomberg",
+      "summarySource": "NYT Business",
+      "publishedAt": "2026-11-23T13:23:38.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 0,
+      "score": 10.39,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Bloomberg",
+          "sourceId": "bloomberg",
+          "lean": "center",
+          "title": "US Stock Futures Bounce on Wall Street Buy Calls: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+          "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Wall Street Set to Bounce Back After Tech Sell-Off",
+          "url": "https://www.nytimes.com/2026/11/22/business/ai-stocks-sp500.html"
+        }
+      ]
+    }
+  ]
+}
