@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-11-23",
-  "generatedAt": "2026-11-23T14:00:46.445Z",
+  "edition": "2026-11-24",
+  "generatedAt": "2026-11-24T14:33:14.810Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -23,26 +23,221 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-11-23-m1lwfa",
+      "id": "2026-11-24-61t112",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Why Trump pushed for Jensen Huang's return to Nvidia",
+      "summary": "Jensen Huang's return as CEO of Nvidia was greeted with triumph by US President Donald Trump, and the AI chipmaker's stock price was sent soaring. But the national security implications of Huang's extra-marital affair with an alleged Chinese spy, as well as…",
+      "url": "https://www.pbs.org/newshour/show/why-trump-pushed-for-jensen-huangs-return-to-nvidia",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-24T14:24:51.000Z",
+      "sourceCount": 24,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 10,
+      "score": 27.42,
+      "scoreComponents": {
+        "breadth": 13.93,
+        "diversity": 7.8,
+        "wire": 3.2,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Trump administration assured Nvidia Huang wasn't facing criminal charges, sources say",
+          "url": "https://abcnews.com/US/trump-administration-assured-nvidia-huang-facing-criminal-charges/story?id=138405808"
+        },
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump’s Nvidia intervention: What’s at stake?",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/trumps-nvidia-intervention-whats-at-stake?traffic_source=rss"
+        },
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Trump defended Jensen Huang's return as Nvidia CEO. Both sides of the aisle want answers.",
+          "url": "https://www.businessinsider.com/congress-demands-testimony-nvidia-ceo-jensen-huang-reinstatement-trump-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Trump's secret phone call to Nvidia boss and the promise he demanded before extraordinary intervention to reinstate him as CEO after Chinese 'spy' sex scandal",
+          "url": "https://www.dailymail.com/news/article-16315397/Trump-hails-Nvidias-U-turn-Jensen-Huang-declares-no-risk-national-security-China-spy-affair.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Germany's Wadephul 'shocked' by Trump's Nvidia intervention",
+          "url": "https://www.dw.com/en/germany-s-wadephul-shocked-by-trump-s-nvidia-intervention/a-80033954?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Economist Business",
+          "sourceId": "econ_business",
+          "lean": "center-right",
+          "title": "Jensen Huang returns. But Nvidia will never be the same",
+          "url": "https://www.economist.com/business/2026/11/23/jensen-huang-returns-but-nvidia-will-never-be-the-same"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Trump says he spoke to Nvidia board before Jensen Huang's return as CEO",
+          "url": "https://www.euronews.com/2026/11/24/trump-says-he-spoke-to-nvidia-board-before-jensen-huangs-return-as-ceo"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "What Jensen Huang’s return means for Nvidia – and Wall Street",
+          "url": "https://www.foxbusiness.com/markets/what-jensen-huangs-return-means-nvidia-wall-street"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Trump's role in Huang's Nvidia return under scrutiny",
+          "url": "https://www.france24.com/en/video/20261124-trump-s-role-in-huang-s-nvidia-return-under-scrutiny"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "Jensen Huang’s return was worth nearly $950 billion to Nvidia. How much of the stock market should ride on one man?",
+          "url": "https://www.marketwatch.com/story/jensen-huangs-return-was-worth-nearly-950-billion-to-nvidia-how-much-of-the-stock-market-should-ride-on-one-man-c7129e95?mod=mw_rss_topstories"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Trump shrugs off GOP concerns that Jensen Huang is a national security risk, hails his return as Nvidia CEO: ‘The public has spoken’",
+          "url": "https://nypost.com/2026/11/24/us-news/trump-shrugs-off-gop-concerns-that-jensen-huang-is-a-national-security-risk-hails-his-return-as-nvidia-ceo-the-public-has-spoken/"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "For workplace culture champions, Jensen Huang's return is 'unfathomable'",
+          "url": "https://www.npr.org/2026/11/24/nx-s1-6051583/nvidia-huang-dei-trump-women"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO",
+          "url": "https://www.nytimes.com/2026/11/22/business/nvidia-stock-huang-ai-sp500-markets.html"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Why Trump pushed for Jensen Huang's return to Nvidia",
+          "url": "https://www.pbs.org/newshour/show/why-trump-pushed-for-jensen-huangs-return-to-nvidia"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "How Jensen Huang’s Nvidia return could deepen US rift over China chip curbs",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375631/how-jensen-huangs-nvidia-return-could-deepen-us-rift-over-china-chip-curbs"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Nvidia shares fall in premarket trading as Jensen Huang’s return sparks US political backlash – business live",
+          "url": "https://www.theguardian.com/business/live/2026/nov/24/jensen-huang-nvidia-stock-markets-ai-trade-us-political-backlash-donald-trump-latest-news-updates"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "China hawks clash with Trump over Huang’s return",
+          "url": "https://thehill.com/newsletters/morning-report/6239203-donald-trump-jensen-huang-nvidia-return-backlash-gop-china-hawks/"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Why Nvidia’s Jensen Huang faces congressional hearings and multiple probes despite Trump’s backing",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/nvidia-jensen-huang-trump-china-investigation-b3090522.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Nvidia board’s Jensen Huang reversal raises doubts about independence, critics say",
+          "url": "https://www.straitstimes.com/world/united-states/nvidia-boards-jensen-huang-reversal-raises-doubts-about-independence-critics-say"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "Trump engineered a risky comeback for Jensen Huang",
+          "url": "https://www.theverge.com/?p=1040652"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Trump gained up to $15 million from Nvidia rally after Huang’s return",
+          "url": "https://timesofindia.indiatimes.com/business/international-business/trump-could-have-gained-up-to-15-million-from-nvidia-rally-after-huangs-return/articleshow/136127340.cms"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-24-1lpczzk",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
-      "summary": "Drone strikes on two Russian vessels near Libyan coast fuels fears of Ukraine war's spread.",
-      "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms",
-      "headlineSource": "Times of India",
+      "title": "Ukraine shares video of strikes on Russian ships off Libya",
+      "summary": "Ukraine's involvement in Libya raises concerns as Zelenskyy admits targeting Russian vessels in a key port city.",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo",
+      "headlineSource": "BBC News",
       "summarySource": "Al Jazeera",
-      "publishedAt": "2026-11-23T13:51:16.000Z",
-      "sourceCount": 16,
+      "publishedAt": "2026-11-24T14:16:33.000Z",
+      "sourceCount": 10,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 9,
-      "score": 24.35,
+      "wireCount": 4,
+      "score": 22.45,
       "scoreComponents": {
-        "breadth": 12.26,
+        "breadth": 10.38,
         "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.48,
+        "freshness": 2.47,
         "softPenalty": 0
       },
       "coverage": [
@@ -50,57 +245,43 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
-          "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss"
+          "title": "Could Russia-Ukraine war threaten Libya’s fragile reunification process?",
+          "url": "https://www.aljazeera.com/news-analysis/2026/11/24/could-russia-ukraine-war-threaten-libyas-fragile-reunification-process?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+          "title": "Ukraine shares video of strikes on Russian ships off Libya",
+          "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "British defense companies that support Ukraine could face Russian hybrid attacks, UK defense ministry and MI5 warn",
+          "url": "https://www.businessinsider.com/british-defense-firms-supporting-ukraine-could-face-russian-attacks-warning-2026-11"
         },
         {
           "source": "CBS News",
           "sourceId": "cbs",
           "lean": "center-left",
-          "title": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
-          "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/"
+          "title": "Zelenskyy says Ukraine sank Russian warship off Libya's coast",
+          "url": "https://www.cbsnews.com/news/ukraine-zelenskyy-2-russian-ships-libya/"
         },
         {
-          "source": "CNBC",
-          "sourceId": "cnbc",
+          "source": "Christian Science Monitor",
+          "sourceId": "csm",
           "lean": "center",
-          "title": "Zelenskyy praises ‘exemplary’ drone operation that sank Russian warship in a Libyan port",
-          "url": "https://www.cnbc.com/2026/11/23/ukraine-russia-warship-libya.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
-          "url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sank-russian-ship-off-libya/live-80015859?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Satellite images show Russian warship capsized in Libya after suspected Ukrainian drone strike",
-          "url": "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st"
+          "title": "First Eastern Europe, now Libya: The Ukraine war expands its reach",
+          "url": "https://www.csmonitor.com/World/Europe/2026/1123/russia-ukraine-sea-drones-missiles-libya-poland?icid=rss"
         },
         {
           "source": "Fox News",
           "sourceId": "foxnews",
           "lean": "right",
-          "title": "Russian warship sinks off Libya as suspected Ukrainian strikes take war beyond Black Sea",
-          "url": "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Ukrainian drones sink Russian warship at naval base in Libya",
-          "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya"
+          "title": "Ukraine’s drone strike on Russian warship in Libya risks ‘serious escalation,’ former official warns",
+          "url": "https://www.foxnews.com/world/ukraines-drone-strike-russian-warship-libya-risks-serious-escalation-former-official-warns"
         },
         {
           "source": "NBC News",
@@ -110,13 +291,6 @@
           "url": "https://www.nbcnews.com/world/ukraine/ukraine-sinks-russian-warship-merkury-libya-naval-drones-war-rcna610822"
         },
         {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
-          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
-        },
-        {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
@@ -124,147 +298,174 @@
           "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
         },
         {
-          "source": "The Independent",
-          "sourceId": "independent",
+          "source": "The New York Times",
+          "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Shocking satellite images reveal fate of Russian warship hit by Ukraine drones in Libya",
-          "url": "https://www.independent.co.uk/news/world/europe/russia-warship-drone-attack-merkury-b3089708.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
-          "url": "https://www.japantimes.co.jp/news/2026/11/23/world/libya-drone-attack-russian-ship-ukraine/"
+          "title": "Ukraine Attack Off Coast of Libya Shows Reach of Its Naval Drones",
+          "url": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
-          "url": "https://www.straitstimes.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "No safe waters for Russian ships? How Ukraine pulled off 2,400-km drone strike in Libya",
-          "url": "https://timesofindia.indiatimes.com/world/europe/no-safe-waters-for-russian-ships-how-ukraine-pulled-off-2400-km-drone-strike-in-libya/articleshow/136098386.cms"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Ukraine claims strike on Russian warship and cargo tanker in Libyan port",
-          "url": "https://www.washingtonexaminer.com/news/world/4811959/ukraine-strike-russian-warship-tanker-libya/"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-11-23-d2vmd7",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Indonesia says 24 killed in factory fire, rescuers search for dozens missing",
-      "summary": "Rescuers are searching for around 30 missing workers after a candy factory fire killed at least 24 people in Banten.",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing",
-      "headlineSource": "South China Morning Post",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-11-23T12:52:00.000Z",
-      "sourceCount": 8,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 21.5,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.39,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "Search continues for dozens missing after Indonesia candy factory fire",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/search-continues-for-dozens-missing-after-indonesia-candy-factory-fire?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Three killed and dozens missing after fire at Indonesian factory",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Indonesia: Rescuers recover 24 body bags from burnt-out factory",
-          "url": "https://www.euronews.com/video/2026/11/23/indonesia-rescuers-recover-24-body-bags-from-burnt-out-factory"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Indonesia candy factory fire leaves multiple dead, dozens missing",
-          "url": "https://www.foxnews.com/world/indonesia-candy-factory-fire-leaves-multiple-dead-dozens-missing"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
-          "url": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Indonesia says 24 killed in factory fire, rescuers search for dozens missing",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
-          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Dozens Unaccounted for After Fire Rips Through Candy Factory in Indonesia",
-          "url": "https://www.nytimes.com/2026/11/23/world/asia/indonesia-factory-fire.html"
+          "title": "Ukraine insists attack on Russian ships in Libya was self-defence",
+          "url": "https://www.straitstimes.com/world/europe/ukraine-insists-attack-on-russian-ships-in-libya-was-self-defence"
         }
       ]
     },
     {
       "rank": 3,
-      "id": "2026-11-23-1253d3f",
+      "id": "2026-11-24-1rf7l3j",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "What's next after no deal at COP31 climate talks?",
-      "summary": "The COP31 climate talks ended in failure Sunday as a contentious deal collapsed over fossil fuels and the summit in Turkey stretched into record overtime. The final agreement was rejected in a chaotic finale to a UN climate summit that ran two days over…",
-      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo",
-      "headlineSource": "BBC News",
-      "summarySource": "France 24",
-      "publishedAt": "2026-11-23T13:36:00.000Z",
-      "sourceCount": 9,
+      "title": "Iranian Singer Receives 74 Lashes for Performing With No Hijab",
+      "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
+      "url": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html",
+      "headlineSource": "The New York Times",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-24T12:34:52.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 18.07,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 1.6,
+        "freshness": 2.32,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Iranian singer receives 74 lashes over online concert without hijab",
+          "url": "https://www.dailymail.com/news/article-16315343/Iranian-singer-receives-74-lashes-online-concert-without-hijab.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Iran carries out flogging of singer who performed without hijab",
+          "url": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Iranian singer and four others receive lashes after performance without hijab",
+          "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Iranian Singer Receives 74 Lashes for Performing With No Hijab",
+          "url": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-24-rkh99j",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
+      "summary": "The Trump administration has added Megaspeed to a trade blacklist after tensions over its failure to do so raised questions. The news came the same day that Jensen Huang was reinstated as Nvidia's CEO.",
+      "url": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849?maca=en-rss-en-all-1573-rdf",
+      "headlineSource": "Deutsche Welle",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-24T14:17:40.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 17.75,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+          "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
+          "url": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Trump admin adds Megaspeed to Commerce Department trade blacklist after Nvidia scandal",
+          "url": "https://www.foxbusiness.com/politics/trump-admin-adds-megaspeed-commerce-department-trade-blacklist-after-nvidia-scandal"
+        },
+        {
+          "source": "NYT Technology",
+          "sourceId": "nyt_tech",
+          "lean": "center-left",
+          "title": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal",
+          "url": "https://www.nytimes.com/2026/11/23/business/trump-administration-megaspeed-trade-blacklist-nvidia.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "U.S. blacklists Megaspeed after Nvidia spy scandal",
+          "url": "https://www.japantimes.co.jp/business/2026/11/24/tech/us-blacklist-megaspeed-nvidia/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-24-19hvlj4",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Malaysia set to return thousands of Rohingya refugees to Myanmar",
+      "summary": "The announcement comes five days after the ICJ ruled that Myanmar committed genocide against its Rohingya minority.",
+      "url": "https://www.aljazeera.com/news/2026/11/24/malaysia-set-to-return-thousands-of-rohingya-refugees-to-myanmar-2?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-24T10:00:21.000Z",
+      "sourceCount": 6,
       "leanCount": 3,
       "leanSpread": 0.5,
-      "wireCount": 5,
-      "score": 19.53,
+      "wireCount": 4,
+      "score": 17.62,
       "scoreComponents": {
-        "breadth": 9.97,
+        "breadth": 8.42,
         "diversity": 3.9,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.1,
         "softPenalty": 0
       },
       "coverage": [
@@ -272,303 +473,344 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "COP31 has failed. The climate system is working as designed",
-          "url": "https://www.aljazeera.com/opinions/2026/11/23/cop31-has-failed-the-climate-system-is-working-as-designed?traffic_source=rss"
+          "title": "Malaysia set to return thousands of Rohingya refugees to Myanmar",
+          "url": "https://www.aljazeera.com/news/2026/11/24/malaysia-set-to-return-thousands-of-rohingya-refugees-to-myanmar-2?traffic_source=rss"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "What's next after no deal at COP31 climate talks?",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo"
+          "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
         },
         {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "U.N. climate summit ends without deal after contentious fossil fuel debate",
-          "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
           "lean": "center",
-          "title": "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels",
-          "url": "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "A reset for climate diplomacy?",
-          "url": "https://www.dw.com/en/a-reset-for-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "The worst COP ever? Climate talks collapse in chaos",
-          "url": "https://www.france24.com/en/video/20261123-the-worst-cop-ever-climate-talks-collapse-in-chaos"
+          "title": "What next for Malaysia’s 133,000 Rohingya after Turkey’s refusal?",
+          "url": "https://www.scmp.com/week-asia/people/article/3375614/what-next-malaysias-133000-rohingya-after-turkeys-refusal"
         },
         {
           "source": "The Guardian",
           "sourceId": "guardian",
           "lean": "left",
-          "title": "Failure of Cop31 prompts calls for urgent reform of UN climate summits",
-          "url": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
+          "title": "Malaysia to send thousands of migrants back to Myanmar as PM acknowledges junta’s ‘atrocities’",
+          "url": "https://www.theguardian.com/world/2026/nov/24/malaysia-to-send-thousands-of-migrants-back-to-myanmar"
         },
         {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
+          "source": "The Independent",
+          "sourceId": "independent",
           "lean": "center-left",
-          "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
-          "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html"
+          "title": "Malaysia to repatriate another 6,803 Myanmar nationals despite ICJ genocide ruling",
+          "url": "https://www.independent.co.uk/news/world/europe/myanmar-anwar-ibrahim-malaysia-kuala-lumpur-min-aung-hlaing-b3090485.html"
         },
         {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
           "lean": "center",
-          "title": "Bad COP, worse COP: What’s next after climate talks fail?",
-          "url": "https://www.straitstimes.com/world/bad-cop-worse-cop-whats-next-after-climate-talks-fail"
+          "title": "Malaysia eyes other countries for Rohingya after Turkey says no",
+          "url": "https://www.japantimes.co.jp/news/2026/11/24/asia-pacific/politics/malaysia-rohingya-turkey/"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-11-23-1spw7jw",
+      "rank": 6,
+      "id": "2026-11-24-5qihtv",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-      "summary": "Environmental groups criticized the government's move, decrying it as a maneuver to get around a court order and avoid public demands for safety and transparency.",
-      "url": "https://www.straitstimes.com/world/united-states/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa",
-      "headlineSource": "The Straits Times",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-11-23T13:22:33.000Z",
+      "title": "Why Nato is worried about Russia's nuclear weapon in space",
+      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
+      "url": "https://timesofindia.indiatimes.com/defence/international/why-nato-is-worried-about-russias-nuclear-weapon-in-space/articleshow/136124410.cms",
+      "headlineSource": "Times of India",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-24T12:17:15.000Z",
       "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
+      "leanCount": 2,
+      "leanSpread": 0.5,
       "wireCount": 4,
-      "score": 19.09,
+      "score": 16.99,
       "scoreComponents": {
         "breadth": 9,
-        "diversity": 4.45,
+        "diversity": 2.5,
+        "wire": 3.2,
+        "freshness": 2.29,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
+          "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+          "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "'The ultimate nightmare scenario': European space chief's dire warning as Putin 'prepares to launch nuclear-armed satellite'",
+          "url": "https://www.dailymail.com/news/article-16317393/The-ultimate-nightmare-scenario-European-space-chiefs-dire-warming-Putin-prepares-launch-nuclear-armed-satellite.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "What happens if a nuclear weapon explodes in space?",
+          "url": "https://www.dw.com/en/what-happens-if-a-nuclear-weapon-explodes-in-space/a-80025827?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Russia warns of 'preventive nuclear attack' as Medvedev claims Ukraine, NATO crossed line",
+          "url": "https://www.foxnews.com/world/russia-warns-preventive-nuclear-attack-medvedev-claims-ukraine-nato-crossed-line"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Is Russia preparing to launch a nuclear-armed satellite?",
+          "url": "https://www.france24.com/en/video/20261124-is-russia-preparing-to-launch-a-nuclear-armed-satellite"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Why Nato is worried about Russia's nuclear weapon in space",
+          "url": "https://timesofindia.indiatimes.com/defence/international/why-nato-is-worried-about-russias-nuclear-weapon-in-space/articleshow/136124410.cms"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-24-185oqx3",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "summary": "Israeli air strikes in Gaza on Tuesday killed seven people including Hamas’ director of internal security, Palestinian officials in the territory said, despite a ceasefire in place since last year. Israel’s military said it had “struck a senior terrorist”…",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o",
+      "headlineSource": "BBC News",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-24T13:55:11.000Z",
+      "sourceCount": 7,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 7,
+      "score": 16.59,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
         "wire": 3.2,
         "freshness": 2.44,
         "softPenalty": 0
       },
       "coverage": [
         {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Israeli air strike kills senior Hamas military official in Gaza",
+          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss"
+        },
+        {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-          "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo"
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "US Army invokes emergency powers to detonate lead in Iowa",
-          "url": "https://nypost.com/2026/11/23/us-news/us-army-invokes-emergency-powers-to-detonate-lead-in-iowa/"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-          "url": "https://www.pbs.org/newshour/nation/u-s-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
+          "source": "Euronews",
+          "sourceId": "euronews",
           "lean": "center",
-          "title": "Army detonation of lead azide moved to Wednesday in Iowa",
-          "url": "https://thehill.com/homenews/state-watch/6236662-iowa-army-detonation-lead-azide-resecheduled/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "US Army accused of dodging court order to blow up tons of bomb-making chemicals over Iowa towns",
-          "url": "https://www.independent.co.uk/news/world/americas/army-iowa-lead-azide-detonation-b3089692.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
-          "url": "https://www.straitstimes.com/world/united-states/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa"
-        },
-        {
-          "source": "Times of India",
-          "sourceId": "toi",
-          "lean": "center",
-          "title": "US army seeks to proceed with 5-tonne chemical blast in Iowa despite court order",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-army-seeks-to-proceed-with-5-tonne-chemical-blast-in-iowa-despite-court-order-halting-detonation/articleshow/136100323.cms"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-11-23-45orkj",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "US tracked Alice Huang’s contacts with China spy agency during Nvidia affair",
-      "summary": "Alice Huang, who is alleged to have been spying for Chinese intelligence during her affair with former Nvidia CEO Jensen Huang, was in contact with China's Ministry of State Security until autumn 2026, the New York Times reported Monday, citing people with…",
-      "url": "https://www.straitstimes.com/world/united-states/us-tracked-alice-huangs-contacts-with-china-spy-agency-during-nvidia-affair",
-      "headlineSource": "The Straits Times",
-      "summarySource": "France 24",
-      "publishedAt": "2026-11-23T13:22:23.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 18.29,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.44,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
-          "url": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html"
+          "title": "Israeli strikes kill Hamas security chief and six others in Gaza",
+          "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp"
         },
         {
           "source": "France 24",
           "sourceId": "france24",
           "lean": "center",
-          "title": "Alice Huang had contact with China spy agency during affair with Nvidia boss, New York Times reports",
-          "url": "https://www.france24.com/en/americas/20261123-alice-huang-had-contact-with-china-spy-agency-during-affair-with-nvidia-boss-nyt-reports"
+          "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Jensen Huang’s lover was in contact with Chinese spy agency officer during affair with ex-Nvidia chief: report",
-          "url": "https://nypost.com/2026/11/23/us-news/jensen-huangs-lover-was-in-contact-with-chinese-spy-agency-officer-while-having-affair-with-shamed-ex-nvidia-chief-report/"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Can Jensen Huang Return to Nvidia?",
-          "url": "https://www.nytimes.com/2026/11/23/business/dealbook/jensen-huang-nvidia.html"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Alice Huang stayed in contact with Chinese spy agency during her affair with Nvidia chief – NYT",
-          "url": "https://www.independent.co.uk/news/world/americas/alice-huang-china-spy-jensen-huang-affair-nvidia-nyt-b3089572.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
           "lean": "center",
-          "title": "U.S. tracked Alice Huang’s contacts with China spy agency during Nvidia affair",
-          "url": "https://www.japantimes.co.jp/business/2026/11/23/tech/us-alice-huang-china-spy-nvidia/"
+          "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city"
         },
         {
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "US tracked Alice Huang’s contacts with China spy agency during Nvidia affair",
-          "url": "https://www.straitstimes.com/world/united-states/us-tracked-alice-huangs-contacts-with-china-spy-agency-during-nvidia-affair"
+          "title": "Israeli strikes in Gaza kill 7 including senior Hamas security official",
+          "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-in-gaza-kill-7-including-senior-hamas-security-official"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "Israel kills senior Hamas security official in Gaza despite ceasefire",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-kills-senior-hamas-security-official-in-gaza-despite-ceasefire/articleshow/136129297.cms"
         }
       ]
     },
     {
-      "rank": 6,
-      "id": "2026-11-23-14z829m",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Nine people shot at a central California concert; one in critical condition",
-      "summary": "The shooting broke out on Nov 21 at a concert attended by about 150 people in Strathmore.",
-      "url": "https://www.straitstimes.com/world/united-states/nine-people-shot-at-a-central-california-concert-one-in-critical-condition",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-23T13:00:05.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 18.16,
+      "rank": 8,
+      "id": "2026-11-24-3o2xn7",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "Five takeaways from the failed climate talks COP31",
+      "summary": "The COP31 climate talks in Antalya, Turkey, have failed to reach agreement on a “pact” that lacked clear references to…",
+      "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo",
+      "headlineSource": "BBC News",
+      "summarySource": "Carbon Brief",
+      "publishedAt": "2026-11-24T13:39:49.000Z",
+      "sourceCount": 6,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 4,
+      "score": 15.99,
       "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 1.6,
-        "freshness": 2.4,
+        "breadth": 8.42,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.42,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Euronews",
-          "sourceId": "euronews",
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
           "lean": "center",
-          "title": "Nine people injured after gunfire at central California concert",
-          "url": "https://www.euronews.com/2026/11/23/nine-people-injured-after-gunfire-at-central-california-concert"
+          "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+          "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Mass overdose leaves two dead, three critical at California home",
-          "url": "https://nypost.com/2026/11/22/us-news/mass-overdose-leaves-two-dead-three-critical-at-california-home/"
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Five takeaways from the failed climate talks COP31",
+          "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo"
         },
         {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Nine people shot at central California concert with one in critical condition",
-          "url": "https://www.theguardian.com/us-news/2026/nov/23/concert-shooting-california-strathmore"
+          "source": "Carbon Brief",
+          "sourceId": "carbonbrief",
+          "lean": "center",
+          "title": "COP31: Key outcomes agreed at the UN climate talks in Antalya",
+          "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "COP deadlock prompts calls for a reset of climate diplomacy",
+          "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "COP31 Climate Talks Broke Down. Now What?",
+          "url": "https://www.nytimes.com/2026/11/23/climate/cop31-collapse-what-next.html"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "COP31 deadlock: Why countries failed to agree on fossil fuels, climate finance",
+          "url": "https://timesofindia.indiatimes.com/science/cop31-deadlock-why-countries-failed-to-agree-on-fossil-fuels-climate-finance/articleshow/136132361.cms"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-24-a980a7",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Pakistani astronaut set to make history on Chinese space mission",
+      "summary": "Muhammad Zeeshan Ali is set to become the first foreign national astronaut to travel aboard a Chinese spacecraft.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/pakistani-astronaut-set-to-make-history-on-chinese-space-mission?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-24T12:44:41.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 3,
+      "score": 13.65,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 2.4,
+        "freshness": 2.33,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Pakistani astronaut set to make history on Chinese space mission",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/pakistani-astronaut-set-to-make-history-on-chinese-space-mission?traffic_source=rss"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Pakistani astronaut to join Chinese space mission",
+          "url": "https://www.dw.com/en/pakistani-astronaut-to-join-chinese-space-mission/a-80028922?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Nature",
+          "sourceId": "nature",
+          "lean": "center",
+          "title": "Pakistani astronaut to become first foreign visitor to China’s space station",
+          "url": "https://www.nature.com/articles/d41586-026-03829-y"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Mass shooting at small-town California rap concert leaves nine wounded and a 26-year-old fighting for his life",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/strathmore-california-concert-shooting-gang-b3089627.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Nine people shot at a central California concert; one in critical condition",
-          "url": "https://www.straitstimes.com/world/united-states/nine-people-shot-at-a-central-california-concert-one-in-critical-condition"
+          "title": "China set for landmark space launch with rocket carrying first foreign astronaut",
+          "url": "https://www.independent.co.uk/space/rocket-launch-pakistan-astronaut-china-b3090475.html"
         }
       ]
     },
     {
-      "rank": 7,
-      "id": "2026-11-23-1o7qnz9",
+      "rank": 10,
+      "id": "2026-11-24-1zxjoi",
       "topic": "business",
       "topicLabel": "Business",
       "topicShort": "BUSINESS",
-      "title": "Trump says he hopes Nvidia rehires Jensen Huang: ‘Best thing for the USA’",
-      "summary": "President Donald Trump spends Sunday on Truth Social airing pet grievances after return from China",
-      "url": "https://nypost.com/2026/11/23/us-news/trump-says-he-hopes-nvidia-rehires-jensen-huang-best-thing-for-the-usa/",
-      "headlineSource": "New York Post",
-      "summarySource": "The Independent",
-      "publishedAt": "2026-11-23T13:30:51.000Z",
-      "sourceCount": 6,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 0,
-      "score": 17.27,
+      "title": "What's driving up the cost of Thanksgiving dinner",
+      "summary": "As we approach Thanksgiving, Americans are heading to the grocery store ahead of the traditional meal with family and friends. But how much will that turkey and the fixings cost you this year?",
+      "url": "https://www.pbs.org/newshour/show/whats-driving-up-the-cost-of-thanksgiving-dinner",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-24T13:16:02.000Z",
+      "sourceCount": 4,
+      "leanCount": 2,
+      "leanSpread": 0.25,
+      "wireCount": 2,
+      "score": 12.89,
       "scoreComponents": {
-        "breadth": 8.42,
-        "diversity": 6.4,
-        "wire": 0,
-        "freshness": 2.45,
+        "breadth": 6.97,
+        "diversity": 1.95,
+        "wire": 1.6,
+        "freshness": 2.38,
         "softPenalty": 0
       },
       "coverage": [
@@ -576,187 +818,29 @@
           "source": "Business Insider",
           "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "Trump wants Jensen Huang back at Nvidia. Scott Bessent says he may fit the bill.",
-          "url": "https://www.businessinsider.com/scott-bessent-jensen-huang-nvidia-outsider-ceo-candidate-2026-11"
+          "title": "When to start cooking each dish for your Thanksgiving dinner",
+          "url": "https://www.businessinsider.com/thanksgiving-dinner-timeline-when-to-start-cooking-every-dish"
         },
         {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Trump doubles down on call for Nvidia to rehire Jensen Huang amid alleged Chinese spy scandal",
-          "url": "https://www.foxbusiness.com/politics/trump-doubles-down-call-nvidia-rehire-jensen-huang-amid-alleged-chinese-spy-scandal"
-        },
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "Nvidia stock bounces as Trump pushes for rehiring of Jensen Huang, and tech stocks rebound – business live",
-          "url": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "ICE raids add to jitters ahead of Thanksgiving travel rush",
+          "url": "https://www.france24.com/en/video/20261124-ice-raids-add-to-jitters-ahead-of-thanksgiving-travel-rush"
         },
         {
           "source": "MarketWatch",
           "sourceId": "marketwatch",
           "lean": "center",
-          "title": "Trump wants Jensen Huang back at Nvidia. What will it take to stop the tech selloff?",
-          "url": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories"
+          "title": "Sunday’s pot roast now costs more than a Thanksgiving feast. Why beef won’t get cheaper for years.",
+          "url": "https://www.marketwatch.com/story/sundays-pot-roast-now-costs-more-than-a-thanksgiving-feast-why-beef-wont-get-cheaper-for-years-7daa1b3f?mod=mw_rss_topstories"
         },
         {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Trump says he hopes Nvidia rehires Jensen Huang: ‘Best thing for the USA’",
-          "url": "https://nypost.com/2026/11/23/us-news/trump-says-he-hopes-nvidia-rehires-jensen-huang-best-thing-for-the-usa/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Trump urges Nvidia to rehire Jensen Huang again while randomly going after Somalians in Minnesota",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jensen-huang-nvidia-minnesota-b3089697.html"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-11-23-vbyyi9",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "AI tools help brands curb Black Friday deals, from clothes to skincare",
-      "summary": "Often, the tools conclude that companies can reduce discounts without dampening demand,",
-      "url": "https://www.straitstimes.com/world/united-states/ai-tools-help-brands-curb-black-friday-deals-from-clothes-to-skincare",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-23T12:05:00.000Z",
-      "sourceCount": 3,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 13.02,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 3.9,
-        "wire": 0.8,
-        "freshness": 2.32,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
-          "lean": "left",
-          "title": "Unreal deals: the scam websites targeting Black Friday bargain hunters",
-          "url": "https://www.theguardian.com/money/2026/nov/22/black-friday-scam-deals--ai-fake-storefront"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "AI tools help brands curb Black Friday deals, from clothes to skincare",
-          "url": "https://www.straitstimes.com/world/united-states/ai-tools-help-brands-curb-black-friday-deals-from-clothes-to-skincare"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
-          "url": "https://www.theverge.com/?p=1037313"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-11-23-10cte38",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
-      "summary": "CrowdStrike on Monday said it will acquire Zscaler in an all-stock transaction that values the company at approximately $43.9 billion.",
-      "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories",
-      "headlineSource": "MarketWatch",
-      "summarySource": "MarketWatch",
-      "publishedAt": "2026-11-23T13:47:00.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 10.43,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 0,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "Stocks Rebound After AI-Driven Correction; Crowdstrike to Buy ZScaler",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-23/bloomberg-brief-11-23-2026-video"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
-          "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Two Major Cybersecurity Firms to Combine in $44 Billion Deal",
-          "url": "https://www.nytimes.com/2026/11/23/business/crowdstrike-zscaler-cybersecurity.html"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-11-23-dn0i21",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "US Stock Futures Bounce on Wall Street Buy Calls: Markets Wrap",
-      "summary": "Early stock market moves pointed to some stability when regular trading resumes in the United States on Monday, partly reversing a sharp fall last week. But analysts warned of more volatility ahead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
-      "headlineSource": "Bloomberg",
-      "summarySource": "NYT Business",
-      "publishedAt": "2026-11-23T13:23:38.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 10.39,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 0,
-        "freshness": 2.44,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Bloomberg",
-          "sourceId": "bloomberg",
-          "lean": "center",
-          "title": "US Stock Futures Bounce on Wall Street Buy Calls: Markets Wrap",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
-          "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Wall Street Set to Bounce Back After Tech Sell-Off",
-          "url": "https://www.nytimes.com/2026/11/22/business/ai-stocks-sp500.html"
+          "title": "What's driving up the cost of Thanksgiving dinner",
+          "url": "https://www.pbs.org/newshour/show/whats-driving-up-the-cost-of-thanksgiving-dinner"
         }
       ]
     }
