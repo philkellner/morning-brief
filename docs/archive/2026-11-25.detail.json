@@ -1,0 +1,1927 @@
+{
+  "edition": "2026-11-25",
+  "generatedAt": "2026-11-25T13:53:10.957Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-25-xxmzj5",
+      "topic": "tech",
+      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
+      "summary": "Israel's tech sector and economy have strong ties to chip giant Nvidia, which invests billions of dollars.",
+      "headlineSource": "Euronews",
+      "sourceCount": 13,
+      "score": 24.89,
+      "scoreComponents": {
+        "breadth": 11.42,
+        "diversity": 7.8,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 13,
+        "specialistOutlets": 5,
+        "specialistShare": 0.38,
+        "votes": {
+          "tech": 4,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US attorney general dodges questions about Nvidia investigation",
+          "description": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+          "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo",
+          "published": "2026-11-25T03:44:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Attorney General Blanche sidesteps questions about DOJ probe into Nvidia's Huang",
+          "description": "Blanche described Nvidia as \"a good corporate citizen.\"",
+          "link": "https://abcnews.com/US/trump-administration-assured-nvidia-huang-facing-criminal-charges/story?id=138405808",
+          "published": "2026-11-24T21:21:27.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "nationalreview",
+          "outlet": "nationalreview",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Huang’s Surprise Return Doesn’t End Nvidia Questions",
+          "description": "Nvidia is not entitled to evade U.S. export controls.",
+          "link": "https://www.nationalreview.com/article/huang-s-surprise-return-doesn-t-end-nvidia-questions",
+          "published": "2026-11-24T11:48:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "US attorney general dodges questions about Nvidia investigation",
+          "description": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+          "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo",
+          "published": "2026-11-25T03:44:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
+          "description": "Israel's tech sector and economy have strong ties to chip giant Nvidia, which invests billions of dollars.",
+          "link": "https://www.aljazeera.com/features/2026/11/25/second-home-why-israel-is-celebrating-jensen-huangs-return-to-nvidia?traffic_source=rss",
+          "published": "2026-11-25T13:04:17.000Z",
+          "categories": [
+            "Features"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Jensen Huang's Nvidia comeback sends AI videos into overdrive",
+          "description": "Just 11 days after resigning as Nvidia CEO, Jensen Huang's return has unleashed a fresh wave of AI-generated videos. But the internet has changed its tune: while last week's memes mocked Huang, many now celebrate his comeback. One viral video purportedly showing him dancing is actually AI-manipulated footage of a basketball coach from 2016. From humiliation to hero worship, the technology Nvidia h",
+          "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive",
+          "published": "2026-11-24T21:28:36.000Z",
+          "categories": [
+            "Truth or Fake"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+          "description": "Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.",
+          "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+          "published": "2026-11-24T23:13:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+          "description": "Republicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.",
+          "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+          "published": "2026-11-24T21:13:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+          "description": "Jensen Huang is back as CEO of Nvidia and immediately faces the challenge of leading the chip giant and defending himself in Washington.",
+          "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+          "published": "2026-11-24T17:51:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+          "description": "Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress.",
+          "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+          "published": "2026-11-25T02:09:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
+          "description": "Nvidia employees cheered and applauded CEO Jensen Huang as he returned to the company's headquarters in Santa Clara, California, on Monday, 11 days after stepping down.",
+          "link": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
+          "published": "2026-11-24T10:56:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "reason",
+          "outlet": "reason",
+          "lean": "center-right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Jensen Huang Returns, TrumpCare, Woke Socialism",
+          "description": "Robby Soave and Christian Britschgi react to Jensen Huang’s return to Nvidia, Robert Pattinson’s casting as James Bond, and the Democrats’ 12 scheduled primary debates in this episode of Freed Up.",
+          "link": "https://reason.com/podcast/2026/11/24/jensen-huang-returns-trumpcare-woke-socialism/",
+          "published": "2026-11-24T17:00:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Chinese media hail Huang’s Nvidia return with warning over ‘witch-hunts’",
+          "description": "State-run Global Times says reports about CEO’s affair with alleged Chinese spy were ‘malicious’ Trump made up to $15m on Nvidia stock after Huang’s return Nvidia staff: what do you think of Jensen Huang’s return as chief executive? Chinese media have reacted with glee to the dramatic reinstatement of Jensen Huang as the chief executive of Nvidia, with one commentary warning against future “witch-",
+          "link": "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+          "published": "2026-11-24T14:45:03.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "Technology",
+            "Technology sector",
+            "Business",
+            "China",
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
+          "description": "Sell-off signals investors are bracing for further volatility in key AI sector driving economic growth worldwide Technology shares led a market retreat on Tuesday as caution returned after Jensen Huang’s extraordinary return to Nvidia days after he was forced to resign, with investors bracing for further volatility in a key sector driving economic growth worldwide. A day after Huang’s reinstatemen",
+          "link": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+          "published": "2026-11-24T22:05:21.000Z",
+          "categories": [
+            "US markets",
+            "Stock markets",
+            "Technology",
+            "Business",
+            "Nvidia",
+            "AI (artificial intelligence)",
+            "Technology sector",
+            "Anthropic"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Mamdani questions AI economy as Jensen Huang returns to Nvidia – video",
+          "description": "New York City mayor Zohran Mamdani weighed in on the corporate turbulence surrounding Nvidia and the chipmaker’s chief executive officer, Jensen Huang, saying he does not think working Americans 'signed up for their pensions being tied to the question of Huang’s fidelity to his marriage'. The mayor said Huang 'had a massive impact', with Nvidia’s share price dropping dramatically after he stepped ",
+          "link": "https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
+          "published": "2026-11-24T16:30:07.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "AI (artificial intelligence)",
+            "Stock markets",
+            "Zohran Mamdani",
+            "US news",
+            "New York",
+            "US economy"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Mamdani says Nvidia drama shows stock market is overly dependent on AI",
+          "description": "New York City mayor notes ‘massive impact’ on working Americans’ lives when Jensen Huang stepped down as CEO Zohran Mamdani, New York City’s mayor, on Monday weighed in on the corporate turbulence surrounding Nvidia and the chipmaker’s chief executive officer, Jensen Huang, saying he does not think working Americans “signed up for their pensions being tied to the question of … Huang’s fidelity to ",
+          "link": "https://www.theguardian.com/us-news/2026/nov/24/mamdani-nvidia-stock-market-ai",
+          "published": "2026-11-24T14:22:17.000Z",
+          "categories": [
+            "Zohran Mamdani",
+            "Jensen Huang",
+            "Nvidia",
+            "US politics",
+            "New York",
+            "US news",
+            "Technology",
+            "AI (artificial intelligence)",
+            "Stock markets",
+            "US economy",
+            "Business",
+            "Computing",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How Huang’s Return Rewrote Corporate America’s Rules",
+          "description": "The reinstatement of Jensen Huang atop Nvidia, following pressure from President Trump, shattered norms for corporate governance. What comes next is unclear.",
+          "link": "https://www.nytimes.com/2026/11/24/business/dealbook/huang-nvidia-trump.html",
+          "published": "2026-11-24T19:36:06.000Z",
+          "categories": [
+            "internal-storyline-no",
+            "NVIDIA Corporation",
+            "Huang, Jen-Hsun",
+            "Trump, Donald J",
+            "Vance, J D",
+            "Boards of Directors",
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
+          "description": "Sell-off signals investors are bracing for further volatility in key AI sector driving economic growth worldwide Technology shares led a market retreat on Tuesday as caution returned after Jensen Huang’s extraordinary return to Nvidia days after he was forced to resign, with investors bracing for further volatility in a key sector driving economic growth worldwide. A day after Huang’s reinstatemen",
+          "link": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+          "published": "2026-11-24T22:05:21.000Z",
+          "categories": [
+            "US markets",
+            "Stock markets",
+            "Technology",
+            "Business",
+            "Nvidia",
+            "AI (artificial intelligence)",
+            "Technology sector",
+            "Anthropic"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "'I'm going to be a better CEO': Jensen Huang rejoins Nvidia after Trump intervention – video",
+          "description": "Jensen Huang received a hero's welcome during his return to Nvidia’s headquarters on Monday. Hours earlier he’d been reinstated as the CEO of the world’s most valuable chip company, after a whiplash series of events that involved a romantic affair with a suspected Chinese spy, a drastic plummet in the stock market, and an intervention from Donald Trump Nvidia rejoices at Jensen Huang’s second comi",
+          "link": "https://www.theguardian.com/technology/video/2026/nov/24/jensen-huang-rejoins-nvidia-after-trump-intervention-video",
+          "published": "2026-11-24T07:54:45.000Z",
+          "categories": [
+            "Nvidia",
+            "Jensen Huang",
+            "Technology",
+            "Donald Trump",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "The real price of Jensen Huang’s return to Nvidia: Higher regulatory costs for the company — and the entire AI industry",
+          "description": "After an initial rally, Nvidia shares fell as investors now must consider the legal and regulatory risks around having a scandal-ridden CEO back at the helm.",
+          "link": "https://www.marketwatch.com/story/the-real-price-of-jensen-huangs-return-to-nvidia-higher-regulatory-costs-for-the-company-and-the-entire-ai-industry-982002d4?mod=mw_rss_topstories",
+          "published": "2026-11-25T13:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+          "description": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+          "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+          "published": "2026-11-25T01:13:56.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "How Trump may have profited from Huang's return to Nvidia",
+          "description": "A day after President Trump intervened to reinstate Nvidia's embattled CEO, a new report suggests that Trump himself may have benefited financially to the tune of millions of dollars. White House correspondent Liz Landers reports.",
+          "link": "https://www.pbs.org/newshour/show/how-trump-may-have-profited-from-huangs-return-to-nvidia",
+          "published": "2026-11-24T23:55:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
+          "description": "Huang acknowledges he violated code of conduct by having affairs, but denied Trump was instrumental in his return Jensen Huang apologized to staff on Tuesday for the tumult he’s caused at Nvidia. The company’s CEO acknowledged he violated the code of conduct for having extramarital affairs, but pushed back on the reports that Donald Trump was instrumental in his reinstatement as chief executive. “",
+          "link": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
+          "published": "2026-11-24T20:32:02.000Z",
+          "categories": [
+            "Jensen Huang",
+            "Nvidia",
+            "Technology",
+            "US news",
+            "Business"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
+          "description": "Tech sector’s campaign to reinstate Nvidia boss began soon after ousting over affair with alleged Chinese spy The tech billionaires could hardly contain their delight. “Jensen!” exclaimed OpenAI’s chief executive, Sam Altman, in a one-word post on X. “Thanksgiving”, said Travis Kalanick, the Uber founder, who had been part of a core group of Silicon Valley leaders campaigning for this moment.",
+          "link": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
+          "published": "2026-11-24T16:27:41.000Z",
+          "categories": [
+            "Jensen Huang",
+            "Nvidia",
+            "Technology",
+            "Business",
+            "Donald Trump",
+            "AI (artificial intelligence)",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Jensen Huang Apologizes to Nvidia Employees, Says He Is in Therapy",
+          "description": "A day after returning to his company, Mr. Huang acknowledged that he had violated Nvidia’s code of conduct and “made some terrible mistakes.”",
+          "link": "https://www.nytimes.com/2026/11/24/technology/jensen-huang-apology-nvidia-ceo.html",
+          "published": "2026-11-24T21:46:11.000Z",
+          "categories": [
+            "Boards of Directors",
+            "Apologies",
+            "Artificial Intelligence",
+            "Computer Chips",
+            "Adultery",
+            "NVIDIA Corporation",
+            "Huang, Jen-Hsun",
+            "Trump, Donald J",
+            "Huang, Lori",
+            "Kress, Colette"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "With Jensen Huang’s Return as C.E.O., Trump Effectively Overrode Nvidia’s Board",
+          "description": "Nvidia’s board said Mr. Huang would not be back. But President Trump, who pushed for Mr. Huang’s reinstatement, effectively overrode the board, governance experts said.",
+          "link": "https://www.nytimes.com/2026/11/23/technology/jensen-huang-nvidia-board-trump.html",
+          "published": "2026-11-24T15:40:14.000Z",
+          "categories": [
+            "Huang, Jen-Hsun",
+            "NVIDIA Corporation",
+            "Boards of Directors",
+            "United States Politics and Government",
+            "Adultery",
+            "Stocks and Bonds",
+            "Appointments and Executive Changes",
+            "Artificial Intelligence",
+            "Jones, Harvey C",
+            "Trump, Donald J",
+            "Computer Chips",
+            "Industrial Espionage"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+          "description": "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them.",
+          "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
+          "published": "2026-11-24T21:01:44.000Z",
+          "categories": [
+            "Kress, Colette",
+            "NVIDIA Corporation",
+            "Appointments and Executive Changes",
+            "Huang, Jen-Hsun",
+            "Computer Chips",
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "With Jensen Huang’s Return as C.E.O., Trump Effectively Overrode Nvidia’s Board",
+          "description": "Nvidia’s board said Mr. Huang would not be back. But President Trump, who pushed for Mr. Huang’s reinstatement, effectively overrode the board, governance experts said.",
+          "link": "https://www.nytimes.com/2026/11/23/technology/jensen-huang-nvidia-board-trump.html",
+          "published": "2026-11-24T15:40:14.000Z",
+          "categories": [
+            "Huang, Jen-Hsun",
+            "NVIDIA Corporation",
+            "Boards of Directors",
+            "United States Politics and Government",
+            "Adultery",
+            "Stocks and Bonds",
+            "Appointments and Executive Changes",
+            "Artificial Intelligence",
+            "Jones, Harvey C",
+            "Trump, Donald J",
+            "Computer Chips",
+            "Industrial Espionage"
+          ]
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+          "description": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+          "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+          "published": "2026-11-24T14:56:50.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-25-jt9z63",
+      "topic": "tech",
+      "title": "New York jury convicts Huawei of stealing trade secrets",
+      "summary": "Huawei was also accused of doing business in countries under U.S. sanctions and making false statements to officials.",
+      "headlineSource": "France 24",
+      "sourceCount": 11,
+      "score": 22.83,
+      "scoreComponents": {
+        "breadth": 10.75,
+        "diversity": 6.4,
+        "wire": 3.2,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 11,
+        "specialistOutlets": 5,
+        "specialistShare": 0.45,
+        "votes": {
+          "tech": 3,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+          "description": "The verdict follows a months-long trial in New York.",
+          "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
+          "published": "2026-11-25T10:52:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "New York jury convicts Huawei of stealing trade secrets",
+          "description": "A New York jury on Tuesday found Chinese telecom giant Huawei guilty of stealing trade secrets and other criminal offences, but acquitted it of a racketeering conspiracy and obstruction of justice. The verdict followed a three-month trial in New York in a case that adds to longstanding US efforts to curb Huawei's operations over alleged threats to national security.",
+          "link": "https://www.france24.com/en/americas/20261124-new-york-jury-convicts-huawei-of-stealing-trade-secrets",
+          "published": "2026-11-24T23:31:22.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Huawei guilty of plotting to steal trade secrets and bank fraud",
+          "description": "Chinese tech giant Huawei, has been found guilty of conspiracy to steal trade secrets and bank fraud after a landmark trial in the US.",
+          "link": "https://news.sky.com/story/chinese-tech-giant-guilty-of-plotting-to-steal-trade-secrets-and-bank-fraud-13616130",
+          "published": "2026-11-24T21:05:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+          "description": "Huawei was found guilty of bank fraud, money laundering and trade secret theft conspiracy in a U.S. trial.",
+          "link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
+          "published": "2026-11-25T02:43:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "US jury finds Huawei guilty of assisting Iran and stealing trade secrets",
+          "description": "A federal jury found Chinese telecommunications giant Huawei guilty of conspiring to assist Iran in evading U.S. sanctions, defrauding international banks, and stealing trade secrets from American technology companies. The verdict follows a yearslong federal investigation into Huawei’s business dealings with Iran and its efforts to obtain proprietary technology from U.S. competitors. Prosecutors a",
+          "link": "https://www.washingtonexaminer.com/news/justice/4814840/us-jury-huawei-guilty-assist-iran-stealing-trade-secrets/",
+          "published": "2026-11-25T13:07:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud",
+          "description": "Huawei was also accused of doing business in countries under U.S. sanctions and making false statements to officials.",
+          "link": "https://www.pbs.org/newshour/nation/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets-bank-fraud",
+          "published": "2026-11-24T21:17:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Huawei found guilty of stealing trade secrets",
+          "description": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from several companies, including T-Mobile, Cisco, and",
+          "link": "https://www.theverge.com/?p=1041820",
+          "published": "2026-11-24T22:23:27.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "China’s Huawei convicted of stealing US trade secrets",
+          "description": "US attorney general Todd Blanche says ‘No person or company is above the law’ after tech giant found guilty on 10 of 12 criminal counts Chinese telecommunications equipment maker Huawei was convicted on Tuesday in a sprawling US criminal case on charges that it stole ⁠trade secrets from US companies and deceived banks about ⁠its business in Iran. Huawei, the world’s leading telecom equipment manuf",
+          "link": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets",
+          "published": "2026-11-24T21:11:44.000Z",
+          "categories": [
+            "Huawei",
+            "Telecoms",
+            "Technology",
+            "China",
+            "World news",
+            "Law (US)"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+          "description": "The verdict follows a months-long trial in New York.",
+          "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
+          "published": "2026-11-25T10:52:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "businessinsider",
+          "outlet": "businessinsider",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "A US jury convicted Chinese tech giant Huawei of conspiring to steal trade secrets",
+          "description": "A US jury convicted Chinese tech giant Huawei of multiple counts of fraud. Huawei said in a statement that the charges are \"without legal or factual merit.\"",
+          "link": "https://www.businessinsider.com/us-jury-convicted-huawei-conspiring-steal-trade-secrets-2026-11",
+          "published": "2026-11-25T08:42:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Federal jury convicts Huawei of stealing US trade secrets, violating Iran sanctions",
+          "description": "A federal jury in Brooklyn found Chinese telecom giant Huawei and three subsidiaries guilty on 10 of 12 counts, including bank fraud, trade secret theft and Iran sanctions violations.",
+          "link": "https://www.foxbusiness.com/fox-news-tech/federal-jury-convicts-huawei-stealing-us-trade-secrets-violating-iran-sanctions",
+          "published": "2026-11-25T12:19:28.000Z",
+          "categories": [
+            "788bfc2f-6026-5773-ad2b-fb2dfbcd806d",
+            "fbn",
+            "Fox Business",
+            "fox-business/tech",
+            "fox-business/markets/china",
+            "fox-business/politics/trade-war",
+            "fox-news/fox-news-tech",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "US court convicts Huawei of theft: A history of Chinese firm’s global woes",
+          "description": "Chinese tech giant has faced legal problems from Europe to Asia, and its products have been banned in trade war with US.",
+          "link": "https://www.aljazeera.com/news/2026/11/25/us-court-convicts-huawei-of-theft-a-history-of-chinese-firms-global-woes?traffic_source=rss",
+          "published": "2026-11-25T13:37:51.000Z",
+          "categories": [
+            "News"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-25-39bh4t",
+      "topic": "world",
+      "title": "US Army to detonate unstable lead-based explosives in Iowa",
+      "summary": "NPR's Juana Summers talks with Dr. Dan McCabe, medical director of the Iowa Poison Control Center, about how people can protect themselves after the Army detonates degraded lead azide.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 12,
+      "score": 21.25,
+      "scoreComponents": {
+        "breadth": 11.1,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 12,
+        "specialistOutlets": 3,
+        "specialistShare": 0.25,
+        "votes": {
+          "tech": 1,
+          "business": 0,
+          "health": 2
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US Army to detonate unstable lead-based explosives in Iowa",
+          "description": "The Army says a controlled blast is the safest way to deal with explosive chemicals that began crystallising in storage, but residents say changing guidance has left them confused about where the lead dust will go.",
+          "link": "https://www.dw.com/en/us-army-to-detonate-unstable-lead-based-explosives-in-iowa/a-80043319?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-25T11:33:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US army to detonate stockpile of unstable bomb-making chemicals in Iowa",
+          "description": "The US military will on Wednesday detonate some 10,000 pounds of unstable and degraded explosive material in Iowa, where local residents were urged to evacuate amid concerns over possible toxic lead contamination. US officials say the 68 drums of lead azide are at risk of spontaneous explosion. A series of safety measures are being taken to curb potential contamination from the blast, but the Army",
+          "link": "https://www.france24.com/en/video/20261125-us-army-to-detonate-stockpile-of-unstable-bomb-making-chemicals-in-iowa",
+          "published": "2026-11-25T13:16:49.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Army to explode 5 tons of toxic bomb-making materials Wednesday",
+          "description": "The detonation is set to occur at approximately 9 a.m. CT on Wednesday at the Iowa Army Ammunition Plant in Middletown, according to the Army.",
+          "link": "https://abcnews.com/US/iowa-detonation-lead-azide-army/story?id=138425051",
+          "published": "2026-11-25T13:52:41.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Army plan to detonate lead azide in Iowa 'insane': Attorney",
+          "description": "An attorney representing victims of the Sept. 11, 2001, terrorist attacks who suffered from toxic exposure, called the U.S. Army’s plans to detonate more than 60 barrels of lead azide in Iowa “insane.” The detonation at the Iowa Army Ammunition Plant in Middletown, Iowa is scheduled for Wednesday. The Trump administration has argued the controlled blast...",
+          "link": "https://thehill.com/homenews/state-watch/6241997-911-attorney-iowa-lead-azide-detonation-insane/",
+          "published": "2026-11-25T13:30:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iowa braces for Army's lead blast",
+          "description": "In today's issue: ▪ Army set for lead blast ▪ Thanksgiving travel faces challenges ▪ Giuliani receives highest civilian honor ▪ Administration freezes Virginia district funds Programming note: Morning Report will return on Monday. Happy Thanksgiving! Iowans are bracing for the Army to detonate nearly five tons of unstable lead-based explosives this morning. Federal officials...",
+          "link": "https://thehill.com/newsletters/morning-report/6241918-iowa-army-lead-azide-detonation-thanksgiving-travel-trump-administration/",
+          "published": "2026-11-25T11:58:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "US Army to detonate a 5-ton stockpile of lead azide in Iowa — what to know",
+          "description": "The U.S. Army is planning to detonate 5 tons of degraded and dangerous lead azide in southeastern Iowa in what military officials say is an unprecedented effort to prevent an uncontrolled explosion.",
+          "link": "https://nypost.com/2026/11/25/us-news/us-army-to-detonate-a-5-ton-stockpile-of-lead-azide-in-iowa-what-to-know/",
+          "published": "2026-11-25T12:39:24.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Army releases final predictive fallout maps of toxic lead detonation: What to know",
+          "description": "The Army is set to destroy the nation’s entire stockpile of lead azide in a single blast in rural Iowa on Wednesday, and its latest forecasts show the toxic lead dust crossing state lines, with the plume drifting southwest across southeastern Iowa and northern Missouri. Army officials said Tuesday that all of the nation’s lead",
+          "link": "https://www.washingtonexaminer.com/policy/defense/4814838/army-release-final-fallout-map-toxic-lead-detonation/",
+          "published": "2026-11-25T13:45:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iowa town braces for planned detonation of lead-based explosives stockpile",
+          "description": "MIDDLETOWN, Iowa, Nov 25 - Residents of an Iowa farm town that is also home to a US Army munitions depot braced for the planned detonation on Wednesday of an aging stockpile of lead-based explosives, a move that is meant to avoid the riskier prospect of the chemical drums blowing up themselves.",
+          "link": "https://www.straitstimes.com/world/iowa-town-braces-for-planned-detonation-of-lead-based-explosives-stockpile",
+          "published": "2026-11-25T11:06:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US military to destroy over 4,500kg of unstable explosives in Iowa",
+          "description": "Sixty-eight drums of lead azide – once used as a munitions detonator – will be destroyed.",
+          "link": "https://www.straitstimes.com/world/united-states/us-military-to-destroy-over-4500kg-of-unstable-explosives-in-iowa",
+          "published": "2026-11-25T10:44:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Army plans explosive detonation in Iowa despite residents' concerns",
+          "description": "The U.S. Army is moving ahead with plans to detonate a highly volatile explosive compound in Iowa. The lead azide is used in military munitions and has been deteriorating underground. The detonation could send a plume of toxic lead dust across the area, but Army officials insist a controlled explosion is the safest option. Geoff Bennett discussed more with Eliza Billingham of Iowa Public Radio.",
+          "link": "https://www.pbs.org/newshour/show/army-plans-explosive-detonation-in-iowa-despite-residents-concerns",
+          "published": "2026-11-24T23:40:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Everything you need to know about the U.S. Army’s 5-ton lead azide explosion in Iowa today",
+          "description": "The U.S. Army plans to detonate the nation’s entire stockpile of lead azide in a small Iowa town",
+          "link": "https://www.independent.co.uk/news/world/americas/us-army-iowa-lead-azide-b3091231.html",
+          "published": "2026-11-25T09:18:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
+          "description": "The US Army is moving ahead with plans to detonate the nation's stockpile of lead azide at an ammunition plant in Middletown, Iowa, at approximately 9:00AM CST on Wednesday. The Verge reached out to experts on what to expect, and will keep this post updated. What material is the Army planning to detonate? There are",
+          "link": "https://www.theverge.com/?p=1041819",
+          "published": "2026-11-24T23:25:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr_health",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": "health",
+          "title": "Here's the public health guidance for possible lead exposure in Iowa",
+          "description": "NPR's Juana Summers talks with Dr. Dan McCabe, medical director of the Iowa Poison Control Center, about how people can protect themselves after the Army detonates degraded lead azide.",
+          "link": "https://www.npr.org/2026/11/24/nx-s1-6052351/heres-the-public-health-guidance-for-possible-lead-exposure-in-iowa",
+          "published": "2026-11-24T21:16:46.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "statnews",
+          "outlet": "statnews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "health",
+          "title": "RFK Jr. weighs in on plan to detonate toxic material in Iowa",
+          "description": "This morning, the Army plans to detonate a cache of “dangerously degraded” toxic material in Iowa, with experts warning of dangerous health consequences:",
+          "link": "https://www.statnews.com/2026/11/25/health-news-rfk-jr-weighs-in-on-plan-to-detonate-toxic-material-in-iowa/",
+          "published": "2026-11-25T13:03:56.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-25-yhz51l",
+      "topic": "world",
+      "title": "Colombian security forces storm supermarket, free hostages",
+      "summary": "A botched attempt to rob an armoured vehicle set off the day-long standoff, during which negotiators had already secured the release of 10 captives.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 9,
+      "score": 19.37,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.3,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+          "description": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
+          "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo",
+          "published": "2026-11-25T11:45:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Colombian security forces storm supermarket, free hostages",
+          "description": "A failed robbery turned into a day-long hostage crisis in one of Colombia's most popular tourist destinations. The incident comes amid concerns over the deteriorating security situation in the South American country.",
+          "link": "https://www.dw.com/en/colombian-security-forces-storm-supermarket-free-hostages/a-80043016?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-25T08:27:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "🔴 Colombia president says all hostages freed, one assailant killed after supermarket hostage siege",
+          "description": "",
+          "link": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+          "published": "2026-11-25T07:20:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Colombian police storm supermarket, freeing hostages and killing gunman",
+          "description": "Colombian police have stormed a supermarket and freed at least 20 people who were being held hostage, killing one of the gunmen.",
+          "link": "https://news.sky.com/story/armed-men-take-at-least-25-hostages-in-supermarket-in-colombia-tourist-hotspot-13616139",
+          "published": "2026-11-24T21:36:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Security forces storm scene, end Colombia supermarket siege",
+          "description": "Security forces stormed a supermarket in the Colombian city of Cartagena, ending a day-long siege, with the nation's president saying all hostages were rescued and one captor was killed.",
+          "link": "https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/",
+          "published": "2026-11-25T10:36:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Armed men take hostages at supermarket in Cartagena, Colombia",
+          "description": "Colombian President Abelardo de la Espriella said that the men were \"common criminals\" who fled into the supermarket after a failed attempt to hold up an armored truck.",
+          "link": "https://www.cbsnews.com/news/cartagena-colombia-hostages-supermarket/",
+          "published": "2026-11-25T00:29:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hostages held in Colombia supermarket after botched robbery",
+          "description": "Gunmen in Colombia stormed into a supermarket on Tuesday, now holding around two dozen people hostage after what authorities said was a botched effort to rob an armored truck. Lilia Luciano reports.",
+          "link": "https://www.cbsnews.com/video/hostages-held-colombia-supermarket-botched-robbery/",
+          "published": "2026-11-25T00:25:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nbc",
+          "outlet": "nbc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Hostage drama inside Colombia supermarket",
+          "description": "Armed suspects took dozens of customers hostage inside a supermarket in Cartagena, Colombia. NBC News’ George Solis reports.",
+          "link": "https://www.nbcnews.com/nightly-news/video/hostage-drama-inside-colombia-supermarket-274126917866",
+          "published": "2026-11-24T23:43:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "All hostages rescued after Colombian security forces storm supermarket, says president",
+          "description": "Operation in which one hostage-taker was killed ends daylong siege in Cartagena shopping centre, where 30 people were initially held Colombian police forces stormed a supermarket in Cartagena, one of the country’s most popular tourist cities, in the early hours of Wednesday, ending a day-long hostage siege in which all the hostages were freed and one hostage-taker was killed. Far-right president A",
+          "link": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+          "published": "2026-11-25T09:26:25.000Z",
+          "categories": [
+            "Colombia",
+            "World news",
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
+          "description": "Abelardo de la Espriella to take control of operation trying to free at least 20 hostages Colombia’s president has arrived at the scene of an hours-long standoff between security services and gunmen holding at least 20 people hostage inside a supermarket in Cartagena, a popular tourist city. Abelardo de la Espriella’s motorcade arrived in Cartagena on Tuesday night, Agence France-Presse reported, ",
+          "link": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+          "published": "2026-11-25T03:57:11.000Z",
+          "categories": [
+            "Colombia",
+            "Americas",
+            "Gun crime",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "All hostages rescued after Colombian forces storm Cartagena supermarket",
+          "description": "A botched attempt to rob an armoured vehicle set off the day-long standoff, during which negotiators had already secured the release of 10 captives.",
+          "link": "https://www.euronews.com/2026/11/25/colombia-security-forces-storm-supermarket-where-hostages-are-being-held",
+          "published": "2026-11-25T07:02:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "One dead as police storm Colombian supermarket after armed men hold 30 people hostage",
+          "description": "The captors, whose identity was not given, had originally taken about 30 hostages",
+          "link": "https://www.independent.co.uk/news/world/americas/columbia-hostage-cartagena-supermarket-exito-b3091232.html",
+          "published": "2026-11-25T09:29:40.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-25-bbuxw7",
+      "topic": "world",
+      "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+      "summary": "The specific rates were to be published in a US Federal Register notice on Nov 25.",
+      "headlineSource": "CNBC",
+      "sourceCount": 9,
+      "score": 18.74,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 3,
+        "specialistShare": 0.33,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "India news: US prepares new tariffs after trade probe",
+          "description": "The United States is reportedly readying fresh tariffs on India and 15 other economies under a trade probe. Also, a woman was allegedly gangraped by her colleagues in the national capital. Follow live.",
+          "link": "https://www.dw.com/en/india-news-us-prepares-new-tariffs-after-trade-probe/live-80042306?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-25T04:44:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Donald Trump set to raise tariffs on 16 major economies",
+          "description": "Donald Trump is set to raise tariffs on China, the European Union and several other countries, according to reports.",
+          "link": "https://news.sky.com/story/donald-trump-set-to-raise-tariffs-on-16-major-economies-13616253",
+          "published": "2026-11-25T02:45:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US plans to hike tariffs on China, EU, Brazil and others over subsidized production",
+          "description": "President Donald Trump's administration is getting ready to raise tariffs on China, the European Union and a dozen other trading partners",
+          "link": "https://abcnews.com/US/wireStory/us-plans-hike-tariffs-china-eu-brazil-subsidized-138438618",
+          "published": "2026-11-25T13:27:11.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+          "description": "The new levies seek to counter foreign trade practices deemed unfair, discriminatory, or burdensome to U.S. commerce.",
+          "link": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+          "published": "2026-11-25T13:37:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US proposes new tariffs on 14 trading partners, including Singapore, to fight excess factory capacity",
+          "description": "The specific rates were to be published in a US Federal Register notice on Nov 25.",
+          "link": "https://www.straitstimes.com/world/united-states/us-proposes-new-tariffs-on-14-trading-partners-including-singapore-to-fight-excess-factory-capacity",
+          "published": "2026-11-25T13:34:10.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Could potential US tariffs put the US-China trade truce at risk?",
+          "description": "The United States could be paving the way for fresh tariffs on imports from 16 economies, including China and the European Union, as it prepares to release the findings of a months-long investigation into excess industrial capacity. Higher tariffs could be announced as early as this week, the Wall Street Journal reported on Tuesday, citing people familiar with the plans. We examine the potential d",
+          "link": "https://www.scmp.com/economy/global-economy/article/3375790/could-potential-us-tariffs-put-us-china-trade-truce-risk",
+          "published": "2026-11-25T13:39:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US-China trade war stuck in limbo as Trump nears new tariffs",
+          "description": "The United States is reportedly readying new tariffs on China and 15 other trading partners following a months-long inquiry into state support and excess industrial capacity. Results from the US Trade Representative (USTR) investigation may be announced as soon as this week, The Wall Street Journal reported on Tuesday, citing people familiar with the plans. The inquiry looked at whether subsidies ",
+          "link": "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs",
+          "published": "2026-11-25T09:33:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US plans to hike tariffs on China, EU, Brazil and others over subsidized production",
+          "description": "President Donald Trump's administration is getting ready to raise tariffs on China, the European Union and a dozen other trading partners",
+          "link": "https://www.independent.co.uk/news/world/americas/donald-trump-brazil-china-taiwan-south-korea-b3091445.html",
+          "published": "2026-11-25T13:11:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump readies fresh wave of tariffs on China, the European Union and 14 other trading partners",
+          "description": "The Trump administration is expected to soon announce plans to raise tariffs on China, the European Union and 14 other economies",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-china-eu-trade-b3091177.html",
+          "published": "2026-11-25T10:06:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "US proposes new tariffs on 14 trading partners, including China, Japan and the EU – business live",
+          "description": "New tariffs planned as Trump administration clamps down on ‘unfair trade practices’ Hannah Webster, senior economist at the think tank New Economics Foundation, also called for other measures. The price cap increase will be difficult news for households to bear, especially during the winter when our energy needs and bills are higher. The government’s current support measures don’t match the realit",
+          "link": "https://www.theguardian.com/business/live/2026/nov/25/rise-energy-bills-britain-2166-impossible-high-millions-households-stocks-tumble-as-ai-rally-fizzles-live-updates",
+          "published": "2026-11-25T13:32:58.000Z",
+          "categories": [
+            "Business",
+            "Stock markets",
+            "Energy bills",
+            "Commodities",
+            "Currencies"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "U.S. proposes fresh tariffs on China, others as Trump doubles down on his favorite trade weapon",
+          "description": "A plan for new levies comes after Supreme Court tossed broader Trump tariffs earlier this year.",
+          "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+          "published": "2026-11-25T13:30:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-25-ymyp46",
+      "topic": "world",
+      "title": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
+      "summary": "Two Libyan soldiers have died from injuries sustained in an attack, claimed by Ukraine, on Russian ships near Benghazi, a senior figure in the administration in eastern Libya said late on Tuesday. Members of the European Parliament will convene in Strasbourg…",
+      "headlineSource": "The New York Times",
+      "sourceCount": 7,
+      "score": 18.56,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 1,
+        "specialistShare": 0.14,
+        "votes": {
+          "tech": 1,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian strikes on Ukraine cause power outages in five regions",
+          "description": "A Ukrainian official says attacks on Zaporizhia and Dnipropetrovsk regions damaged a number of energy sites.",
+          "link": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions?traffic_source=rss",
+          "published": "2026-11-25T12:19:17.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian attack damages Ukraine's energy and gas sites, cuts power in five regions",
+          "description": "Nov 25 - A Russian attack on Ukraine's power sector overnight damaged energy and gas infrastructure and caused electricity outages in five regions, Ukrainian officials said on Wednesday.",
+          "link": "https://www.straitstimes.com/world/europe/russian-attack-damages-ukraines-energy-and-gas-sites-cuts-power-in-five-regions",
+          "published": "2026-11-25T13:01:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine: Industrial attacks and anger at Russia as Ukraine's allies justify defense aid, argue over military action in Libya",
+          "description": "Moscow and Kyiv traded infrastructure attacks as allies argued over Ukraine's actions in Libya. Poland says it is puzzled by the lack of a US response to Russian incursions in its airspace. Follow DW for the latest.",
+          "link": "https://www.dw.com/en/ukraine-industrial-attacks-and-anger-at-russia-as-ukraine-s-allies-justify-defense-aid-argue-over-military-action-in-libya/live-80047122?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-25T12:39:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
+          "description": "The head of the eastern administration in Libya has confirmed that two Libyan soldiers succumbed to their injuries. Ukraine's foreign minister defended the attack as an effort to counter Russian aggression.",
+          "link": "https://www.dw.com/en/libya-2-dead-after-ukrainian-attack-on-russian-warship-in-benghazi/a-80042348?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-25T04:41:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
+          "description": "Two Libyan soldiers have died from injuries sustained in an attack, claimed by Ukraine, on Russian ships near Benghazi, a senior figure in the administration in eastern Libya said late on Tuesday. Members of the European Parliament will convene in Strasbourg on Wednesday to discuss \"Europe’s role and capacity to protect the international order and secure a just and lasting peace for Ukraine\". Foll",
+          "link": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
+          "published": "2026-11-25T03:46:51.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Italy expresses concern to Ukraine over Libya ship attacks – as it happened",
+          "description": "Ukraine earlier confirmed that it deployed naval drones in strikes on Russian vessels off the coast of Libya The leader of Spain’s leftwing Broad Front coalition has called for a drastic rethink of the country’s entire housing rental system, and described the eviction of an 87-year-old woman – the spark for nationwide protests that in turn triggered Sunday’s snap general election – as “the last st",
+          "link": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
+          "published": "2026-11-24T16:24:49.000Z",
+          "categories": [
+            "Russia",
+            "Ukraine",
+            "Poland",
+            "World news",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
+          "description": "The Ukrainian drone strike off Libya’s coast killed two Libyan naval officers, according to the forces controlling the country’s east.",
+          "link": "https://www.nytimes.com/2026/11/25/world/middleeast/libya-ukraine-russia-haftar.html",
+          "published": "2026-11-25T13:25:15.000Z",
+          "categories": [
+            "Russian Invasion of Ukraine (2022)",
+            "Drones (Pilotless Planes)",
+            "Africa",
+            "Benghazi (Libya)",
+            "Libya",
+            "Russia",
+            "Ukraine",
+            "Ships and Shipping",
+            "Maritime Accidents and Safety",
+            "International Relations",
+            "War and Armed Conflicts",
+            "Defense and Military Forces",
+            "Deaths (Fatalities)"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Italy rebukes Ukraine over attacks on Russian ships in Libya",
+          "description": "ROME, Nov 25 - Italy has told Ukraine it was wrong to attack Russian ships in Libyan waters and warned Kyiv not to spread the war to new areas, Foreign Minister Antonio Tajani told Corriere della Sera newspaper on Wednesday.",
+          "link": "https://www.straitstimes.com/world/europe/italy-rebukes-ukraine-over-attacks-on-russian-ships-in-libya",
+          "published": "2026-11-25T10:32:03.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "arstechnica",
+          "outlet": "arstechnica",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Ukraine sinks Russian warship, strikes cargo ships from Mediterranean to Baltic",
+          "description": "Russian missile corvette latest casualty as Ukraine strikes back in war at sea.",
+          "link": "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation/",
+          "published": "2026-11-24T12:00:57.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-25-w4pnzc",
+      "topic": "world",
+      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+      "summary": "Salvadoran immigrant at center of high-profile legal battle over president’s mass deportation efforts is leaving for Spain",
+      "headlineSource": "BBC News",
+      "sourceCount": 5,
+      "score": 16.52,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+          "description": "Authorities have evacuated a 5-mile radius to prepare to dispose of thousands of pounds of lead azide. And, after a nearly two-year legal battle, Kilmar Abrego Garcia's has voluntarily left the U.S.",
+          "link": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
+          "published": "2026-11-25T12:18:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kilmar Abrego Garcia leaves U.S. voluntarily for Spain",
+          "description": "Abrego Garcia, a Salvadoran immigrant who became a symbol of Trump's mass deportation campaign, voluntarily left the country on Tuesday after nearly two years of legal battles.",
+          "link": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us",
+          "published": "2026-11-25T09:19:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Salvadoran migrant Kilmar Abrego Garcia lands in Spain after US departure deal",
+          "description": "MADRID, Nov 25 - Salvadoran migrant Kilmar Abrego Garcia, whose wrongful deportation to El Salvador made him a focus for critics of President Donald Trump's immigration crackdown, arrived in Spain on Wednesday after leaving the US under a deal with the authorities.",
+          "link": "https://www.straitstimes.com/world/europe/salvadoran-migrant-kilmar-abrego-garcia-lands-in-spain-after-us-departure-deal",
+          "published": "2026-11-25T13:31:45.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump-era deportation saga comes to close with Kilmar Abrego Garcia leaving US voluntarily",
+          "description": "Salvadoran immigrant at center of high-profile legal battle over president’s mass deportation efforts is leaving for Spain",
+          "link": "https://www.independent.co.uk/news/world/americas/us-politics/kilmar-abrego-garcia-deported-trump-usa-b3091064.html",
+          "published": "2026-11-24T23:19:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+          "description": "Ábrego García's deportation to El Salvador and return to the US became a flashpoint in the debate over President Donald Trump's immigration agenda.",
+          "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
+          "published": "2026-11-25T12:42:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
+          "description": "Salvadorian man, who was deported in March 2025 and returned to US after supreme court ruling, leaving of own volition for Spain Kilmar Ábrego García has left the United States of his own volition, his lawyers confirmed on Tuesday, with the Department of Homeland Security confirming that he was travelling to Spain. A source close to Ábrego said Madrid was his first stop but that it would not be hi",
+          "link": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+          "published": "2026-11-24T23:50:31.000Z",
+          "categories": [
+            "ICE (US Immigration and Customs Enforcement)",
+            "US news",
+            "US immigration",
+            "El Salvador",
+            "World news",
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Kilmar Ábrego García, a Salvadoran national mistakenly deported from the US, arrives in Spain",
+          "description": "Salvadoran national Kilmar Ábrego García has arrived in Spain after voluntarily leaving the United States",
+          "link": "https://www.independent.co.uk/news/world/europe/spain-markwayne-mullin-trump-baltimore-madrid-b3091410.html",
+          "published": "2026-11-25T12:34:35.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-25-4zsqiw",
+      "topic": "business",
+      "title": "Fed's preferred inflation metric rose in October as final 2026 rate meeting nears",
+      "summary": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
+      "headlineSource": "The Hill",
+      "sourceCount": 6,
+      "score": 15.36,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 4.45,
+        "wire": 0,
+        "freshness": 2.49,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 4,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 4,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Fed's preferred inflation metric rose in October as final 2026 rate meeting nears",
+          "description": "Inflation increased slightly in October, new data from the Bureau of Economic Analysis (BEA) showed Wednesday, as the Federal Reserve's final rate-setting meeting approaches in two weeks. The personal consumption expenditures (PCE) price index rose 0.3 percent last month and was up 3.8 percent relative to October 2025, the BEA reported. The Federal Reserve Bank...",
+          "link": "https://thehill.com/business/6239346-october-pce-inflation-data/",
+          "published": "2026-11-25T13:41:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
+          "description": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
+          "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+          "published": "2026-11-25T13:47:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "examiner",
+          "outlet": "examiner",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Inflation rose to 3.8% in October in Fed’s preferred gauge, adding to affordability woes",
+          "description": "Inflation rose two-tenths of a percentage point to 3.8% for the year ending in October in the Federal Reserve’s preferred gauge, the personal consumption expenditures index, the Bureau of Economic Analysis reported Wednesday morning. Inflation has now been above the central bank’s 2% target for five years and eight months, and has driven consumer confidence",
+          "link": "https://www.washingtonexaminer.com/policy/finance-and-economy/4810543/inflation-october-fed-preferred-gauge-affordability-woes/",
+          "published": "2026-11-25T13:34:14.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Firm Inflation Upholds Fed’s Plan to Raise Rates Again",
+          "description": "The Federal Reserve is widely expected to raise interest rates next month.",
+          "link": "https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html",
+          "published": "2026-11-25T13:34:11.000Z",
+          "categories": [
+            "Inflation (Economics)",
+            "United States Economy",
+            "Banking and Financial Institutions",
+            "Stocks and Bonds",
+            "United States Politics and Government",
+            "Commerce Department"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Fed's favored inflation gauge rose in October ahead of expected Fed rate hike next month",
+          "description": "The Commerce Department released the October PCE inflation data which showed that the Federal Reserve's favored inflation gauge ticked higher last month.",
+          "link": "https://www.foxbusiness.com/economy/october-2026-pce-inflation",
+          "published": "2026-11-25T13:33:31.000Z",
+          "categories": [
+            "5c92d8df-10ef-588c-8a88-1deb8bb6120a",
+            "fbn",
+            "Fox Business",
+            "fox-news/fox-news-us/fox-news-economy/inflation",
+            "fox-business/markets/economy",
+            "fox-business/economic-indicators",
+            "fox-news/fox-news-newsedge/fox-news-consumer",
+            "fox-business/politics/the-fed",
+            "fox-business/economy",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.",
+          "description": "The measure of inflation used by the Federal Reserve to influence U.S. interest rates rose again in October at an accelerated rate, virtually assuring the central bank will increase borrowing costs next month.",
+          "link": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories",
+          "published": "2026-11-25T13:34:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "The Fed is likely to raise rates in December. What it means for your holiday spending",
+          "description": "A December rate hike could raise borrowing costs heading into the peak holiday shopping season, at a time when many consumers are already financially strained.",
+          "link": "https://www.cnbc.com/2026/11/25/fed-december-rate-hike-consumer-impact.html",
+          "published": "2026-11-25T13:15:01.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-25-1a5alr4",
+      "topic": "health",
+      "title": "Pope Leo calls COP31 failure ‘troubling’, urges action on climate change",
+      "summary": "Leo has urged the world’s 1.4 billion Catholics to protect the Earth.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 3,
+      "score": 12.28,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 1.6,
+        "freshness": 2.18,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "health",
+        "coverageTopic": "health",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 2
+        }
+      },
+      "members": [
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Pope Leo calls COP31 failure ‘troubling’, urges action on climate change",
+          "description": "Leo has urged the world’s 1.4 billion Catholics to protect the Earth.",
+          "link": "https://www.straitstimes.com/world/europe/pope-leo-calls-cop31-failure-troubling-urges-action-on-climate-change",
+          "published": "2026-11-25T10:16:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Why are people captivated by this photo of Australia’s climate change minister scowling at Cop31?",
+          "description": "Chris Bowen was president of negotiations at Cop31 in Turkey when it all went a bit sideways Blake, I was at the back of the huge plenary hall in Antalya on Sunday at the end of the UN climate summit that overran by two days. For about 20 minutes, you could see from the panic on the stage that it wasn’t going well. I only had an old iPhone, was a long way back, and remember thinking: “I’d love a l",
+          "link": "https://www.theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph",
+          "published": "2026-11-25T00:40:13.000Z",
+          "categories": [
+            "Cop31",
+            "Climate crisis",
+            "Environment",
+            "Chris Bowen",
+            "Australian politics",
+            "Australia news",
+            "Global climate talks",
+            "Photography"
+          ]
+        },
+        {
+          "sourceId": "guardian_env",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "health",
+          "title": "Oceans, fossil fuels and keeping 1.5 alive: the missed opportunities at Cop31",
+          "description": "The collapse of the ‘Antalya pact’ took away the chance of a unifying effort to deal with a number of issues The “Antalya pact” was supposed to be the keystone document agreed at the UN’s Cop31 climate summit in Turkey, but in the final days and hours countries became entrenched, leaving the pact dead in the water. But what did it say, and what opportunities were missed when it died?",
+          "link": "https://www.theguardian.com/environment/2026/nov/24/missed-opportunities-cop31-oceans-fossil-fuels",
+          "published": "2026-11-24T16:53:32.000Z",
+          "categories": [
+            "Cop31",
+            "Climate crisis",
+            "Environment",
+            "Electric, hybrid and low-emission cars",
+            "Fossil fuels",
+            "Greenhouse gas emissions",
+            "Carbon capture and storage (CCS)",
+            "Oceans",
+            "Pollution",
+            "Global climate talks",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "carbonbrief",
+          "outlet": "carbonbrief",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "health",
+          "title": "COP31: Key outcomes for food, forests, oceans and nature at the UN climate talks in Antalya",
+          "description": "The COP31 climate talks in Antalya, Turkey, failed to agree on a “pact” that – despite making no clear reference…",
+          "link": "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya",
+          "published": "2026-11-24T16:33:18.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-25-17g2fzr",
+      "topic": "business",
+      "title": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally",
+      "summary": "The put-call ratio is sending a strong message about Nvidia’s stock, and history suggests a post-Thanksgiving “bull spread” strategy for the Russell 2000 ETF.",
+      "headlineSource": "The New York Times",
+      "sourceCount": 3,
+      "score": 10.42,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 2.47,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump owned at least $12 million in Nvidia stock at the end of last year",
+          "description": "President Donald Trump owned at least $12 million in Nvidia stock at the end of 2025, according to his annual financial disclosure report reviewed by ABC News.",
+          "link": "https://abcnews.com/US/trump-owned-12-million-nvidia-stock-end-year/story?id=138393684",
+          "published": "2026-11-24T12:49:58.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally",
+          "description": "Shares have veered wildly for days, pushed and pulled by the drama at Nvidia and the rise and fall of Anthropic’s stock after its blockbuster public offering.",
+          "link": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
+          "published": "2026-11-24T21:12:54.000Z",
+          "categories": [
+            "Stocks and Bonds",
+            "NVIDIA Corporation",
+            "Standard & Poor's 500-Stock Index",
+            "United States",
+            "Artificial Intelligence",
+            "Nasdaq Composite Index",
+            "Company Reports",
+            "Anthropic AI LLC",
+            "Huang, Jen-Hsun"
+          ]
+        },
+        {
+          "sourceId": "nyt_tech",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Trump’s Own Stock Portfolio Likely Benefits From Nvidia’s Rise",
+          "description": "It’s not possible to determine the size of the president’s stake in the chip maker because there is a lag between when trades occur and when they are disclosed.",
+          "link": "https://www.nytimes.com/2026/11/23/technology/trump-nvidia-stock-purchases.html",
+          "published": "2026-11-24T21:29:57.000Z",
+          "categories": [
+            "Trump, Donald J",
+            "NVIDIA Corporation",
+            "Stocks and Bonds",
+            "Computer Chips",
+            "United States Politics and Government"
+          ]
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally",
+          "description": "Shares have veered wildly for days, pushed and pulled by the drama at Nvidia and the rise and fall of Anthropic’s stock after its blockbuster public offering.",
+          "link": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
+          "published": "2026-11-24T21:12:54.000Z",
+          "categories": [
+            "Stocks and Bonds",
+            "NVIDIA Corporation",
+            "Standard & Poor's 500-Stock Index",
+            "United States",
+            "Artificial Intelligence",
+            "Nasdaq Composite Index",
+            "Company Reports",
+            "Anthropic AI LLC",
+            "Huang, Jen-Hsun"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "What the options market says to do with Nvidia’s stock — and the rest of the stock market",
+          "description": "The put-call ratio is sending a strong message about Nvidia’s stock, and history suggests a post-Thanksgiving “bull spread” strategy for the Russell 2000 ETF.",
+          "link": "https://www.marketwatch.com/story/what-the-options-market-says-to-do-with-nvidias-stock-and-the-rest-of-the-stock-market-de9584ae?mod=mw_rss_topstories",
+          "published": "2026-11-25T13:16:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Stock Sell-Off Set to Continue as Investors Fret About A.I., Tariffs and Inflation",
+          "description": "Nvidia, Anthropic and other tech companies tumbled in premarket trading, continuing their slide from the previous session, as investors also weighed developments in global trade and the path of interest rates.",
+          "link": "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
+          "published": "2026-11-25T13:35:19.000Z",
+          "categories": [
+            "Stocks and Bonds",
+            "Standard & Poor's 500-Stock Index",
+            "Nasdaq Composite Index"
+          ]
+        }
+      ]
+    }
+  ]
+}
