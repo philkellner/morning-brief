@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-11-25",
-  "generatedAt": "2026-11-25T13:53:10.957Z",
+  "edition": "2026-11-26",
+  "generatedAt": "2026-11-26T13:31:37.401Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -18,292 +18,84 @@
   "stories": [
     {
       "rank": 1,
-      "id": "2026-11-25-xxmzj5",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
-      "summary": "Israel's tech sector and economy have strong ties to chip giant Nvidia, which invests billions of dollars.",
-      "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
-      "headlineSource": "Euronews",
-      "summarySource": "Al Jazeera",
-      "publishedAt": "2026-11-25T13:30:00.000Z",
-      "sourceCount": 13,
-      "leanCount": 5,
+      "id": "2026-11-26-1nuwguc",
+      "topic": "health",
+      "topicLabel": "Health, life science & climate",
+      "topicShort": "HEALTH",
+      "title": "What the Army's Iowa detonation means for nearby communities",
+      "summary": "Officials say no lead has been detected in the surrounding area, which continues to be tested following concerns from locals.",
+      "url": "https://www.pbs.org/newshour/show/what-the-armys-iowa-detonation-means-for-nearby-communities",
+      "headlineSource": "PBS NewsHour",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-26T10:38:35.000Z",
+      "sourceCount": 12,
+      "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 5,
-      "score": 24.89,
+      "wireCount": 4,
+      "score": 22.94,
       "scoreComponents": {
-        "breadth": 11.42,
-        "diversity": 7.8,
+        "breadth": 11.1,
+        "diversity": 6.4,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.24,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Attorney General Blanche sidesteps questions about DOJ probe into Nvidia's Huang",
-          "url": "https://abcnews.com/US/trump-administration-assured-nvidia-huang-facing-criminal-charges/story?id=138405808"
-        },
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
-          "url": "https://www.aljazeera.com/features/2026/11/25/second-home-why-israel-is-celebrating-jensen-huangs-return-to-nvidia?traffic_source=rss"
-        },
-        {
           "source": "Ars Technica",
           "sourceId": "arstechnica",
           "lean": "center",
-          "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-          "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+          "title": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl",
+          "url": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/"
         },
         {
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "US attorney general dodges questions about Nvidia investigation",
-          "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-          "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html"
+          "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko"
         },
         {
           "source": "Euronews",
           "sourceId": "euronews",
           "lean": "center",
-          "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
-          "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return"
+          "title": "Video shows massive explosion as US Army destroys entire stockpile of lead azide",
+          "url": "https://www.euronews.com/2026/11/25/video-shows-massive-explosion-as-us-army-destroys-entire-stockpile-of-lead-azide"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Jensen Huang's Nvidia comeback sends AI videos into overdrive",
-          "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive"
+          "source": "Fox Health",
+          "sourceId": "fox_health",
+          "lean": "right",
+          "title": "Doctors warn of lead exposure health risks after controversial Army detonation in Iowa",
+          "url": "https://www.foxnews.com/health/doctors-warn-lead-exposure-health-risks-controversial-army-detonation-iowa"
         },
         {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
+          "source": "Guardian Environment",
+          "sourceId": "guardian_env",
           "lean": "left",
-          "title": "Chinese media hail Huang’s Nvidia return with warning over ‘witch-hunts’",
-          "url": "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "The real price of Jensen Huang’s return to Nvidia: Higher regulatory costs for the company — and the entire AI industry",
-          "url": "https://www.marketwatch.com/story/the-real-price-of-jensen-huangs-return-to-nvidia-higher-regulatory-costs-for-the-company-and-the-entire-ai-industry-982002d4?mod=mw_rss_topstories"
-        },
-        {
-          "source": "National Review",
-          "sourceId": "nationalreview",
-          "lean": "right",
-          "title": "Huang’s Surprise Return Doesn’t End Nvidia Questions",
-          "url": "https://www.nationalreview.com/article/huang-s-surprise-return-doesn-t-end-nvidia-questions"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "How Huang’s Return Rewrote Corporate America’s Rules",
-          "url": "https://www.nytimes.com/2026/11/24/business/dealbook/huang-nvidia-trump.html"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "How Trump may have profited from Huang's return to Nvidia",
-          "url": "https://www.pbs.org/newshour/show/how-trump-may-have-profited-from-huangs-return-to-nvidia"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "Jensen Huang Returns, TrumpCare, Woke Socialism",
-          "url": "https://reason.com/podcast/2026/11/24/jensen-huang-returns-trumpcare-woke-socialism/"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-11-25-jt9z63",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "New York jury convicts Huawei of stealing trade secrets",
-      "summary": "Huawei was also accused of doing business in countries under U.S. sanctions and making false statements to officials.",
-      "url": "https://www.france24.com/en/americas/20261124-new-york-jury-convicts-huawei-of-stealing-trade-secrets",
-      "headlineSource": "France 24",
-      "summarySource": "PBS NewsHour",
-      "publishedAt": "2026-11-25T13:37:51.000Z",
-      "sourceCount": 11,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 4,
-      "score": 22.83,
-      "scoreComponents": {
-        "breadth": 10.75,
-        "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Al Jazeera",
-          "sourceId": "aljazeera",
-          "lean": "center-left",
-          "title": "US court convicts Huawei of theft: A history of Chinese firm’s global woes",
-          "url": "https://www.aljazeera.com/news/2026/11/25/us-court-convicts-huawei-of-theft-a-history-of-chinese-firms-global-woes?traffic_source=rss"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "A US jury convicted Chinese tech giant Huawei of conspiring to steal trade secrets",
-          "url": "https://www.businessinsider.com/us-jury-convicted-huawei-conspiring-steal-trade-secrets-2026-11"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
-          "url": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Federal jury convicts Huawei of stealing US trade secrets, violating Iran sanctions",
-          "url": "https://www.foxbusiness.com/fox-news-tech/federal-jury-convicts-huawei-stealing-us-trade-secrets-violating-iran-sanctions"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "New York jury convicts Huawei of stealing trade secrets",
-          "url": "https://www.france24.com/en/americas/20261124-new-york-jury-convicts-huawei-of-stealing-trade-secrets"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "China’s Huawei convicted of stealing US trade secrets",
-          "url": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets, bank fraud",
-          "url": "https://www.pbs.org/newshour/nation/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets-bank-fraud"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Huawei guilty of plotting to steal trade secrets and bank fraud",
-          "url": "https://news.sky.com/story/chinese-tech-giant-guilty-of-plotting-to-steal-trade-secrets-and-bank-fraud-13616130"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "Huawei found guilty of stealing trade secrets",
-          "url": "https://www.theverge.com/?p=1041820"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "US jury finds Huawei guilty of assisting Iran and stealing trade secrets",
-          "url": "https://www.washingtonexaminer.com/news/justice/4814840/us-jury-huawei-guilty-assist-iran-stealing-trade-secrets/"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-11-25-39bh4t",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "US Army to detonate unstable lead-based explosives in Iowa",
-      "summary": "NPR's Juana Summers talks with Dr. Dan McCabe, medical director of the Iowa Poison Control Center, about how people can protect themselves after the Army detonates degraded lead azide.",
-      "url": "https://www.dw.com/en/us-army-to-detonate-unstable-lead-based-explosives-in-iowa/a-80043319?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "NPR Health",
-      "publishedAt": "2026-11-25T13:52:41.000Z",
-      "sourceCount": 12,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 5,
-      "score": 21.25,
-      "scoreComponents": {
-        "breadth": 11.1,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.5,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Army to explode 5 tons of toxic bomb-making materials Wednesday",
-          "url": "https://abcnews.com/US/iowa-detonation-lead-azide-army/story?id=138425051"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "US Army to detonate unstable lead-based explosives in Iowa",
-          "url": "https://www.dw.com/en/us-army-to-detonate-unstable-lead-based-explosives-in-iowa/a-80043319?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "US army to detonate stockpile of unstable bomb-making chemicals in Iowa",
-          "url": "https://www.france24.com/en/video/20261125-us-army-to-detonate-stockpile-of-unstable-bomb-making-chemicals-in-iowa"
+          "title": "Cloud of smoke seen after US army detonates bomb-making chemicals in Iowa – video",
+          "url": "https://www.theguardian.com/us-news/video/2026/nov/25/cloud-of-smoke-seen-after-us-army-detonates-bomb-making-chemicals-in-iowa-video"
         },
         {
           "source": "New York Post",
           "sourceId": "nypost",
           "lean": "right",
-          "title": "US Army to detonate a 5-ton stockpile of lead azide in Iowa — what to know",
-          "url": "https://nypost.com/2026/11/25/us-news/us-army-to-detonate-a-5-ton-stockpile-of-lead-azide-in-iowa-what-to-know/"
+          "title": "Iowa residents urged to shelter amid lead exposure risks after controversial Army detonation",
+          "url": "https://nypost.com/2026/11/26/us-news/iowa-residents-urged-to-shelter-amid-lead-exposure-risks-after-controversial-army-detonation/"
         },
         {
           "source": "NPR Health",
           "sourceId": "npr_health",
           "lean": "center-left",
-          "title": "Here's the public health guidance for possible lead exposure in Iowa",
-          "url": "https://www.npr.org/2026/11/24/nx-s1-6052351/heres-the-public-health-guidance-for-possible-lead-exposure-in-iowa"
+          "title": "Public health specialist discusses the aftermath of the munitions detonation in Iowa",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6053950/public-health-specialist-discusses-the-aftermath-of-the-munitions-detonation-in-iowa"
         },
         {
           "source": "PBS NewsHour",
           "sourceId": "pbs",
           "lean": "center-left",
-          "title": "Army plans explosive detonation in Iowa despite residents' concerns",
-          "url": "https://www.pbs.org/newshour/show/army-plans-explosive-detonation-in-iowa-despite-residents-concerns"
+          "title": "What the Army's Iowa detonation means for nearby communities",
+          "url": "https://www.pbs.org/newshour/show/what-the-armys-iowa-detonation-means-for-nearby-communities"
         },
         {
           "source": "STAT News",
@@ -316,61 +108,47 @@
           "source": "The Hill",
           "sourceId": "thehill",
           "lean": "center",
-          "title": "Army plan to detonate lead azide in Iowa 'insane': Attorney",
-          "url": "https://thehill.com/homenews/state-watch/6241997-911-attorney-iowa-lead-azide-detonation-insane/"
+          "title": "Shelter-in-place order lifted after Iowa lead azide detonation",
+          "url": "https://thehill.com/homenews/administration/6244295-middletown-shelter-order-lifted/"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Everything you need to know about the U.S. Army’s 5-ton lead azide explosion in Iowa today",
-          "url": "https://www.independent.co.uk/news/world/americas/us-army-iowa-lead-azide-b3091231.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Iowa town braces for planned detonation of lead-based explosives stockpile",
-          "url": "https://www.straitstimes.com/world/iowa-town-braces-for-planned-detonation-of-lead-based-explosives-stockpile"
+          "title": "Trump gives incoming Iowa governor stark warning while hailing ‘perfect’ Army detonation",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iowa-governor-army-detonation-lead-azide-b3091974.html"
         },
         {
           "source": "The Verge",
           "sourceId": "verge",
           "lean": "center-left",
-          "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
-          "url": "https://www.theverge.com/?p=1041819"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Army releases final predictive fallout maps of toxic lead detonation: What to know",
-          "url": "https://www.washingtonexaminer.com/policy/defense/4814838/army-release-final-fallout-map-toxic-lead-detonation/"
+          "title": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
+          "url": "https://www.theverge.com/?p=1042109"
         }
       ]
     },
     {
-      "rank": 4,
-      "id": "2026-11-25-yhz51l",
+      "rank": 2,
+      "id": "2026-11-26-wlluyu",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Colombian security forces storm supermarket, free hostages",
-      "summary": "A botched attempt to rob an armoured vehicle set off the day-long standoff, during which negotiators had already secured the release of 10 captives.",
-      "url": "https://www.dw.com/en/colombian-security-forces-storm-supermarket-free-hostages/a-80043016?maca=en-rss-en-all-1573-rdf",
-      "headlineSource": "Deutsche Welle",
-      "summarySource": "Euronews",
-      "publishedAt": "2026-11-25T11:45:16.000Z",
+      "title": "Trump admin to raise tariffs on China, EU, other trading partners",
+      "summary": "US President Donald Trump fired a new tariff salvo on Wednesday on 14 major trading partners including China, Japan and the European Union, undeterred in his protectionist push by the losses his Republican Party suffered in US midterm elections. His…",
+      "url": "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners",
+      "headlineSource": "Fox Business",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-26T12:46:55.000Z",
       "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 4,
-      "score": 19.37,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 2,
+      "score": 21.8,
       "scoreComponents": {
         "breadth": 9.97,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.3,
+        "diversity": 7.8,
+        "wire": 1.6,
+        "freshness": 2.43,
         "softPenalty": 0
       },
       "coverage": [
@@ -378,179 +156,89 @@
           "source": "BBC News",
           "sourceId": "bbc",
           "lean": "center",
-          "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
-          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Security forces storm scene, end Colombia supermarket siege",
-          "url": "https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Colombian security forces storm supermarket, free hostages",
-          "url": "https://www.dw.com/en/colombian-security-forces-storm-supermarket-free-hostages/a-80043016?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "All hostages rescued after Colombian forces storm Cartagena supermarket",
-          "url": "https://www.euronews.com/2026/11/25/colombia-security-forces-storm-supermarket-where-hostages-are-being-held"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "🔴 Colombia president says all hostages freed, one assailant killed after supermarket hostage siege",
-          "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "Hostage drama inside Colombia supermarket",
-          "url": "https://www.nbcnews.com/nightly-news/video/hostage-drama-inside-colombia-supermarket-274126917866"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Colombian police storm supermarket, freeing hostages and killing gunman",
-          "url": "https://news.sky.com/story/armed-men-take-at-least-25-hostages-in-supermarket-in-colombia-tourist-hotspot-13616139"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "All hostages rescued after Colombian security forces storm supermarket, says president",
-          "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "One dead as police storm Colombian supermarket after armed men hold 30 people hostage",
-          "url": "https://www.independent.co.uk/news/world/americas/columbia-hostage-cartagena-supermarket-exito-b3091232.html"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-11-25-bbuxw7",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-      "summary": "The specific rates were to be published in a US Federal Register notice on Nov 25.",
-      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
-      "headlineSource": "CNBC",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-25T13:39:44.000Z",
-      "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 3,
-      "score": 18.74,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 3.9,
-        "wire": 2.4,
-        "freshness": 2.48,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "US plans to hike tariffs on China, EU, Brazil and others over subsidized production",
-          "url": "https://abcnews.com/US/wireStory/us-plans-hike-tariffs-china-eu-brazil-subsidized-138438618"
+          "title": "US announces new tariffs on host of countries including China",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
         },
         {
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-          "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+          "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+          "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
         },
         {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Trump admin to raise tariffs on China, EU, other trading partners",
+          "url": "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
           "lean": "center",
-          "title": "India news: US prepares new tariffs after trade probe",
-          "url": "https://www.dw.com/en/india-news-us-prepares-new-tariffs-after-trade-probe/live-80042306?maca=en-rss-en-all-1573-rdf"
+          "title": "Trump unveils new tariffs on 14 trade partners over 'unfair' industrial capacity",
+          "url": "https://www.france24.com/en/video/20261126-trump-unveils-new-tariffs-on-14-trade-partners-over-unfair-industrial-capacity"
         },
         {
-          "source": "Guardian Business",
-          "sourceId": "guardian_biz",
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "A rising political star in China is the latest victim of Xi’s purge",
+          "url": "https://www.nbcnews.com/world/china/rising-star-china-latest-victim-xis-purge-chen-jining-rcna611258"
+        },
+        {
+          "source": "Reason",
+          "sourceId": "reason",
+          "lean": "center-right",
+          "title": "Trump's Latest Tariffs Underscore the Urgency of Congressional Reforms",
+          "url": "https://reason.com/2026/11/25/trumps-latest-tariffs-underscore-the-urgency-of-congressional-reforms/"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
           "lean": "left",
-          "title": "US proposes new tariffs on 14 trading partners, including China, Japan and the EU – business live",
-          "url": "https://www.theguardian.com/business/live/2026/nov/25/rise-energy-bills-britain-2166-impossible-high-millions-households-stocks-tumble-as-ai-rally-fizzles-live-updates"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "U.S. proposes fresh tariffs on China, others as Trump doubles down on his favorite trade weapon",
-          "url": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "Donald Trump set to raise tariffs on 16 major economies",
-          "url": "https://news.sky.com/story/donald-trump-set-to-raise-tariffs-on-16-major-economies-13616253"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Could potential US tariffs put the US-China trade truce at risk?",
-          "url": "https://www.scmp.com/economy/global-economy/article/3375790/could-potential-us-tariffs-put-us-china-trade-truce-risk"
+          "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "US plans to hike tariffs on China, EU, Brazil and others over subsidized production",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-brazil-china-taiwan-south-korea-b3091445.html"
+          "title": "China accuses Trump of using trade tariffs for ‘political manipulation’ and threatens to retaliate",
+          "url": "https://www.independent.co.uk/asia/china/china-response-trump-tariff-retaliate-b3092076.html"
         },
         {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "US proposes new tariffs on 14 trading partners, including Singapore, to fight excess factory capacity",
-          "url": "https://www.straitstimes.com/world/united-states/us-proposes-new-tariffs-on-14-trading-partners-including-singapore-to-fight-excess-factory-capacity"
+          "source": "Washington Examiner",
+          "sourceId": "examiner",
+          "lean": "right",
+          "title": "Incoming Democratic congressional majorities set to challenge Trump tariffs",
+          "url": "https://www.washingtonexaminer.com/premium/4798888/democratic-congressional-majorities-set-challenge-trump-tariffs/"
         }
       ]
     },
     {
-      "rank": 6,
-      "id": "2026-11-25-ymyp46",
+      "rank": 3,
+      "id": "2026-11-26-oxd9yg",
       "topic": "world",
       "topicLabel": "World",
       "topicShort": "WORLD",
-      "title": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
-      "summary": "Two Libyan soldiers have died from injuries sustained in an attack, claimed by Ukraine, on Russian ships near Benghazi, a senior figure in the administration in eastern Libya said late on Tuesday. Members of the European Parliament will convene in Strasbourg…",
-      "url": "https://www.nytimes.com/2026/11/25/world/middleeast/libya-ukraine-russia-haftar.html",
-      "headlineSource": "The New York Times",
-      "summarySource": "France 24",
-      "publishedAt": "2026-11-25T13:25:15.000Z",
-      "sourceCount": 7,
+      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+      "summary": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-26T12:17:59.000Z",
+      "sourceCount": 9,
       "leanCount": 3,
-      "leanSpread": 0.5,
+      "leanSpread": 0.75,
       "wireCount": 4,
-      "score": 18.56,
+      "score": 20,
       "scoreComponents": {
-        "breadth": 9,
-        "diversity": 3.9,
+        "breadth": 9.97,
+        "diversity": 4.45,
         "wire": 3.2,
-        "freshness": 2.46,
+        "freshness": 2.38,
         "softPenalty": 0
       },
       "coverage": [
@@ -558,36 +246,50 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Russian strikes on Ukraine cause power outages in five regions",
-          "url": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions?traffic_source=rss"
+          "title": "Ukraine drone attack kills five in Russian-occupied Zaporizhia",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-drone-attack-kills-five-in-russian-occupied-zaporizhia?traffic_source=rss"
         },
         {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "Ukraine sinks Russian warship, strikes cargo ships from Mediterranean to Baltic",
-          "url": "https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation/"
+          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo"
         },
         {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Ukraine says it downed a Russian jet-powered drone with a laser",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-laser-interception-russian-jet-powered-geran-drone/"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
           "lean": "center",
-          "title": "Ukraine: Industrial attacks and anger at Russia as Ukraine's allies justify defense aid, argue over military action in Libya",
-          "url": "https://www.dw.com/en/ukraine-industrial-attacks-and-anger-at-russia-as-ukraine-s-allies-justify-defense-aid-argue-over-military-action-in-libya/live-80047122?maca=en-rss-en-all-1573-rdf"
+          "title": "Russian strikes kill seven in Ukraine as Kyiv hits three refineries",
+          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
         },
         {
-          "source": "France 24",
-          "sourceId": "france24",
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Libyans pledge to retaliate after Ukraine strikes Russian warship near Benghazi, killing 2 soldiers",
+          "url": "https://www.foxnews.com/world/libyans-pledge-retaliate-ukraine-strikes-russian-warship-benghazi-killing-2-soldiers"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
           "lean": "center",
-          "title": "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
-          "url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi"
+          "title": "Map Shows Long Range Ukraine Strike That Damaged Five Jets Deep In Russia",
+          "url": "https://www.newsweek.com/map-shows-long-range-ukraine-strike-that-damaged-five-jets-deep-in-russia-12770089"
         },
         {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "Italy expresses concern to Ukraine over Libya ship attacks – as it happened",
-          "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates"
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Putin could fly drones over London if he develops Russian ‘Starlink’, warns Ukraine",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-starlink-drones-london-b3092060.html"
         },
         {
           "source": "The New York Times",
@@ -600,212 +302,109 @@
           "source": "The Straits Times",
           "sourceId": "straitstimes",
           "lean": "center",
-          "title": "Russian attack damages Ukraine's energy and gas sites, cuts power in five regions",
-          "url": "https://www.straitstimes.com/world/europe/russian-attack-damages-ukraines-energy-and-gas-sites-cuts-power-in-five-regions"
+          "title": "Ukraine says it downed jet drone with laser for first time",
+          "url": "https://www.straitstimes.com/world/europe/ukraine-says-it-downed-jet-drone-with-laser-for-first-time"
         }
       ]
     },
     {
-      "rank": 7,
-      "id": "2026-11-25-w4pnzc",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-      "summary": "Salvadoran immigrant at center of high-profile legal battle over president’s mass deportation efforts is leaving for Spain",
-      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
-      "headlineSource": "BBC News",
-      "summarySource": "The Independent",
-      "publishedAt": "2026-11-25T13:31:45.000Z",
-      "sourceCount": 5,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 3,
-      "score": 16.52,
+      "rank": 4,
+      "id": "2026-11-26-1999662",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Jensen Huang's Nvidia return just gave Denny's a viral marketing moment",
+      "summary": "Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO, revealing that a plaque had been restored.",
+      "url": "https://www.businessinsider.com/dennys-jensen-huang-nvidia-plaque-return-marketing-move-2026-11",
+      "headlineSource": "Business Insider",
+      "summarySource": "CNBC",
+      "publishedAt": "2026-11-26T12:08:54.000Z",
+      "sourceCount": 7,
+      "leanCount": 5,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 19.97,
       "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 3.9,
-        "wire": 2.4,
-        "freshness": 2.47,
+        "breadth": 9,
+        "diversity": 7.8,
+        "wire": 0.8,
+        "freshness": 2.37,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
           "lean": "center-left",
-          "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
-          "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang"
+          "title": "Jensen Huang's Nvidia return just gave Denny's a viral marketing moment",
+          "url": "https://www.businessinsider.com/dennys-jensen-huang-nvidia-plaque-return-marketing-move-2026-11"
         },
         {
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+          "url": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html"
+        },
+        {
+          "source": "Economist Business",
+          "sourceId": "econ_business",
+          "lean": "center-right",
+          "title": "Jensen Huang’s bail-out will not be the AI boom’s last",
+          "url": "https://www.economist.com/business/2026/11/25/jensen-huangs-bail-out-will-not-be-the-ai-booms-last"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
           "lean": "left",
-          "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
-          "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us"
+          "title": "A vocal cohort of tech leaders celebrates Huang’s Nvidia return, but others are keeping quiet",
+          "url": "https://www.theguardian.com/technology/2026/nov/26/jensen-huang-nvidia-tech"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Denny’s faces heat over gushy tribute to Nvidia CEO Jensen Huang: ‘Just put the pancakes on bro’",
+          "url": "https://nypost.com/2026/11/26/us-news/dennys-faces-heat-over-gushy-tribute-to-nvidia-ceo-jensen-huang-just-put-the-pancakes-on-bro/"
         },
         {
           "source": "The Independent",
           "sourceId": "independent",
           "lean": "center-left",
-          "title": "Trump-era deportation saga comes to close with Kilmar Abrego Garcia leaving US voluntarily",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/kilmar-abrego-garcia-deported-trump-usa-b3091064.html"
+          "title": "Secret memos and clashing spy agencies deepen mystery around woman linked to Nvidia chief Jensen Huang",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-alice-huang-jensen-huang-nvidia-spy-b3092061.html"
         },
         {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
           "lean": "center",
-          "title": "Salvadoran migrant Kilmar Abrego Garcia lands in Spain after US departure deal",
-          "url": "https://www.straitstimes.com/world/europe/salvadoran-migrant-kilmar-abrego-garcia-lands-in-spain-after-us-departure-deal"
+          "title": "U.S. officials divided over China spying allegations after Jensen Huang’s return",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/us-officials-chinese-spying-huang/"
         }
       ]
     },
     {
-      "rank": 8,
-      "id": "2026-11-25-4zsqiw",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Fed's preferred inflation metric rose in October as final 2026 rate meeting nears",
-      "summary": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
-      "url": "https://thehill.com/business/6239346-october-pce-inflation-data/",
-      "headlineSource": "The Hill",
-      "summarySource": "CNBC",
-      "publishedAt": "2026-11-25T13:47:28.000Z",
-      "sourceCount": 6,
+      "rank": 5,
+      "id": "2026-11-26-1y8ec13",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
+      "summary": "A major storm is forecast to move up the US East Coast and is likely to cause travel delays. Weather warnings were enough to postpone Macy's Thanksgiving Day Parade for the first time in its 100 years.",
+      "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
+      "headlineSource": "NPR",
+      "summarySource": "Deutsche Welle",
+      "publishedAt": "2026-11-26T13:04:20.000Z",
+      "sourceCount": 10,
       "leanCount": 3,
       "leanSpread": 0.75,
-      "wireCount": 0,
-      "score": 15.36,
+      "wireCount": 3,
+      "score": 19.68,
       "scoreComponents": {
-        "breadth": 8.42,
+        "breadth": 10.38,
         "diversity": 4.45,
-        "wire": 0,
-        "freshness": 2.49,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
-          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Fed's favored inflation gauge rose in October ahead of expected Fed rate hike next month",
-          "url": "https://www.foxbusiness.com/economy/october-2026-pce-inflation"
-        },
-        {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
-          "lean": "center",
-          "title": "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.",
-          "url": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories"
-        },
-        {
-          "source": "NYT Business",
-          "sourceId": "nyt_business",
-          "lean": "center-left",
-          "title": "Firm Inflation Upholds Fed’s Plan to Raise Rates Again",
-          "url": "https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Fed's preferred inflation metric rose in October as final 2026 rate meeting nears",
-          "url": "https://thehill.com/business/6239346-october-pce-inflation-data/"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Inflation rose to 3.8% in October in Fed’s preferred gauge, adding to affordability woes",
-          "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4810543/inflation-october-fed-preferred-gauge-affordability-woes/"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-11-25-1a5alr4",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "Pope Leo calls COP31 failure ‘troubling’, urges action on climate change",
-      "summary": "Leo has urged the world’s 1.4 billion Catholics to protect the Earth.",
-      "url": "https://www.straitstimes.com/world/europe/pope-leo-calls-cop31-failure-troubling-urges-action-on-climate-change",
-      "headlineSource": "The Straits Times",
-      "summarySource": "The Straits Times",
-      "publishedAt": "2026-11-25T10:16:38.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.5,
-      "wireCount": 2,
-      "score": 12.28,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 2.5,
-        "wire": 1.6,
-        "freshness": 2.18,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Carbon Brief",
-          "sourceId": "carbonbrief",
-          "lean": "center",
-          "title": "COP31: Key outcomes for food, forests, oceans and nature at the UN climate talks in Antalya",
-          "url": "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya"
-        },
-        {
-          "source": "Guardian Environment",
-          "sourceId": "guardian_env",
-          "lean": "left",
-          "title": "Why are people captivated by this photo of Australia’s climate change minister scowling at Cop31?",
-          "url": "https://www.theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Pope Leo calls COP31 failure ‘troubling’, urges action on climate change",
-          "url": "https://www.straitstimes.com/world/europe/pope-leo-calls-cop31-failure-troubling-urges-action-on-climate-change"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "2026-11-25-17g2fzr",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally",
-      "summary": "The put-call ratio is sending a strong message about Nvidia’s stock, and history suggests a post-Thanksgiving “bull spread” strategy for the Russell 2000 ETF.",
-      "url": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
-      "headlineSource": "The New York Times",
-      "summarySource": "MarketWatch",
-      "publishedAt": "2026-11-25T13:35:19.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.25,
-      "wireCount": 0,
-      "score": 10.42,
-      "scoreComponents": {
-        "breadth": 6,
-        "diversity": 1.95,
-        "wire": 0,
-        "freshness": 2.47,
+        "wire": 2.4,
+        "freshness": 2.46,
         "softPenalty": 0
       },
       "coverage": [
@@ -813,22 +412,437 @@
           "source": "ABC News",
           "sourceId": "abc",
           "lean": "center-left",
-          "title": "Trump owned at least $12 million in Nvidia stock at the end of last year",
-          "url": "https://abcnews.com/US/trump-owned-12-million-nvidia-stock-end-year/story?id=138393684"
+          "title": "New York declares emergency as Thanksgiving storm threatens East Coast",
+          "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273"
         },
         {
-          "source": "MarketWatch",
-          "sourceId": "marketwatch",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "What the options market says to do with Nvidia’s stock — and the rest of the stock market",
-          "url": "https://www.marketwatch.com/story/what-the-options-market-says-to-do-with-nvidias-stock-and-the-rest-of-the-stock-market-de9584ae?mod=mw_rss_topstories"
+          "title": "Macy's postpones Thanksgiving parade due to severe weather",
+          "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo"
+        },
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Storms disrupt Thanksgiving travel with thousands of flights delayed or canceled",
+          "url": "https://www.businessinsider.com/storm-east-coast-thanksgiving-day-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
+          "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html"
+        },
+        {
+          "source": "Daily Mail Health",
+          "sourceId": "dailymail_hea",
+          "lean": "right",
+          "title": "Where flu is rising fastest in the US ahead of Thanksgiving as sicknesses double in two weeks",
+          "url": "https://www.dailymail.com/health/article-16321679/flu-cases-rise-map-thanksgiving.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Extreme weather threatens Thanksgiving festivities in US",
+          "url": "https://www.dw.com/en/extreme-weather-threatens-thanksgiving-festivities-in-us/a-80055880?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Macy’s Thanksgiving Day Parade performers left in limbo after NYC festivities postponed",
+          "url": "https://nypost.com/2026/11/25/us-news/macys-thanksgiving-day-parade-performers-left-in-limbo-after-nyc-festivities-postponed/"
+        },
+        {
+          "source": "Newsweek",
+          "sourceId": "newsweek",
+          "lean": "center",
+          "title": "State of Emergency Declared for New York, New Jersey on Thanksgiving",
+          "url": "https://www.newsweek.com/state-emergency-declared-new-york-new-jersey-thanksgiving-12770323"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Hochul declares state of emergency in New York counties ahead of Thanksgiving storm",
+          "url": "https://thehill.com/homenews/state-watch/6244382-hochul-declares-thanksgiving-emergency/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-26-119beob",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+      "summary": "The message comes after the U.S. leader met Russian President Vladimir Putin last week in Asia, referring to him as a \"friend.\"",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-26T12:16:48.000Z",
+      "sourceCount": 10,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 19.61,
+      "scoreComponents": {
+        "breadth": 10.38,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Leaked data shows 490,000 Russian forces have died in Ukraine war",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-russian-soldier-death-toll-data-leak/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html"
+        },
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "More than 1,000 Russian troops have killed themselves since full-scale war began, leaked data reveals",
+          "url": "https://www.dailymail.com/news/article-16322277/More-1-000-Russian-troops-killed-scale-war-began-leaked-data-reveals.html"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
+          "url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Putin's war death toll reportedly tops 700,000 as Russia scrambles for recruits",
+          "url": "https://www.foxnews.com/world/putins-war-death-toll-reportedly-tops-700000-russia-scrambles-recruits"
+        },
+        {
+          "source": "NBC News",
+          "sourceId": "nbc",
+          "lean": "center-left",
+          "title": "More than 700,000 Russian soldiers killed in Ukraine war, new estimate suggests",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-soldiers-killed-ukraine-war-new-estimate-suggests-700000-rcna611048"
+        },
+        {
+          "source": "New York Post",
+          "sourceId": "nypost",
+          "lean": "right",
+          "title": "Russia must avoid ‘any actions’ expanding war in Ukraine — Trump, NATO chief say after Mar-a-Lago meeting",
+          "url": "https://nypost.com/2026/11/26/us-news/russia-must-avoid-any-actions-expanding-war-in-ukraine-trump-nato-chief-say-after-mar-a-lago-meeting/"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Russian court jails Colombian fighter for 20 years over Ukraine war role",
+          "url": "https://www.scmp.com/news/world/europe/article/3375944/russian-court-jails-colombian-fighter-20-years-over-ukraine-war-role"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Europe’s last dictator Lukashenko criticises Putin’s logic for war in Ukraine: ‘Do we give Russia back to Mongolia?’",
+          "url": "https://www.independent.co.uk/news/world/europe/lukashenko-putin-ukraine-war-russia-mongolia-b3092078.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-26-j7kk4b",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-26T13:06:28.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 19.07,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
+          "url": "https://abcnews.com/International/wireStory/egypt-detains-driver-suspected-causing-cairo-tanker-crash-138465415"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Fuel tanker explosion kills 31 on Egyptian highway",
+          "url": "https://www.cbsnews.com/news/egypt-fuel-tanker-explosion-deaths-giza-cairo/"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
+          "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+          "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
+          "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
         },
         {
           "source": "The New York Times",
           "sourceId": "nytimes",
           "lean": "center-left",
-          "title": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally",
-          "url": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html"
+          "title": "Road Fire Near Cairo Kills Dozens After Petroleum-Laden Truck Crashes",
+          "url": "https://www.nytimes.com/2026/11/25/world/middleeast/road-fire-near-cairo-kills-dozens-after-petroleum-laden-truck-crashes.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-26-seb404",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+      "summary": "The Trump administration gave Elon Musk's SpaceX the green light to deploy 1 million satellites that it said would create data centers in space, a move that has raised skepticism among scientists.",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+      "headlineSource": "NPR",
+      "summarySource": "NPR",
+      "publishedAt": "2026-11-26T09:27:44.000Z",
+      "sourceCount": 7,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 17.99,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.14,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+          "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’",
+          "url": "https://www.foxbusiness.com/politics/data-centers-space-fcc-clears-spacex-1m-satellites-extend-americas-lead-superintelligence"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US authorises SpaceX to launch up to one million satellites for orbital data centres",
+          "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+          "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space"
+        },
+        {
+          "source": "Sky News",
+          "sourceId": "skynews",
+          "lean": "center",
+          "title": "US authorises SpaceX to deploy one million satellites to space",
+          "url": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-26-187joyb",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Elon Musk and SpaceX pledge a share each to every active Trump account",
+      "summary": "The total value of the shares could reach almost $18bn and comes as tech companies debate how to share the spoils of the AI boom Elon Musk, the world’s richest person, has pledged to give every child in the US two shares in SpaceX, the space ⁠and AI company…",
+      "url": "https://www.businessinsider.com/elon-musk-spacex-pledge-share-each-to-active-trump-account-2026-11",
+      "headlineSource": "Business Insider",
+      "summarySource": "Guardian Tech",
+      "publishedAt": "2026-11-26T10:52:08.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 17.21,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.26,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Business Insider",
+          "sourceId": "businessinsider",
+          "lean": "center-left",
+          "title": "Elon Musk and SpaceX pledge a share each to every active Trump account",
+          "url": "https://www.businessinsider.com/elon-musk-spacex-pledge-share-each-to-active-trump-account-2026-11"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Elon Musk, SpaceX pledge major stock donations to active Trump Accounts",
+          "url": "https://www.foxbusiness.com/markets/elon-musk-spacex-pledge-major-stock-donations-active-trump-accounts"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+          "url": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us"
+        },
+        {
+          "source": "Times of India",
+          "sourceId": "toi",
+          "lean": "center",
+          "title": "'Every child in US to get two SpaceX shares': Elon Musk",
+          "url": "https://timesofindia.indiatimes.com/world/us/every-child-in-us-to-get-two-spacex-shares-elon-musk/articleshow/136184755.cms"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-25-1vawqaj",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+      "summary": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
+      "headlineSource": "BBC Technology",
+      "summarySource": "Ars Technica",
+      "publishedAt": "2026-11-25T16:33:45.000Z",
+      "sourceCount": 3,
+      "leanCount": 2,
+      "leanSpread": 0.5,
+      "wireCount": 1,
+      "score": 10.42,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 2.5,
+        "wire": 0.8,
+        "freshness": 1.12,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Ars Technica",
+          "sourceId": "arstechnica",
+          "lean": "center",
+          "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/"
+        },
+        {
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
+          "lean": "center",
+          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+        },
+        {
+          "source": "Fox Business",
+          "sourceId": "foxbusiness",
+          "lean": "right",
+          "title": "Federal jury convicts Huawei of stealing US trade secrets, violating Iran sanctions",
+          "url": "https://www.foxbusiness.com/fox-news-tech/federal-jury-convicts-huawei-stealing-us-trade-secrets-violating-iran-sanctions"
         }
       ]
     }
