@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "edition": "2026-11-26",
-  "generatedAt": "2026-11-26T13:31:37.401Z",
+  "edition": "2026-11-27",
+  "generatedAt": "2026-11-27T13:28:40.427Z",
   "timezone": "America/Chicago",
   "storyCount": 10,
   "method": {
@@ -12,233 +12,37 @@
   },
   "feeds": {
     "attempted": 63,
-    "succeeded": 63,
-    "failed": []
+    "succeeded": 62,
+    "failed": [
+      {
+        "id": "newsweek",
+        "error": "HTTP 404"
+      }
+    ]
   },
   "stories": [
     {
       "rank": 1,
-      "id": "2026-11-26-1nuwguc",
-      "topic": "health",
-      "topicLabel": "Health, life science & climate",
-      "topicShort": "HEALTH",
-      "title": "What the Army's Iowa detonation means for nearby communities",
-      "summary": "Officials say no lead has been detected in the surrounding area, which continues to be tested following concerns from locals.",
-      "url": "https://www.pbs.org/newshour/show/what-the-armys-iowa-detonation-means-for-nearby-communities",
-      "headlineSource": "PBS NewsHour",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-26T10:38:35.000Z",
-      "sourceCount": 12,
+      "id": "2026-11-27-fk5196",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "summary": "The US FCC authorised the plan on Wednesday, calling it a first in the history of the country.",
+      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+      "headlineSource": "BBC Technology",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-27T10:20:39.000Z",
+      "sourceCount": 7,
       "leanCount": 4,
       "leanSpread": 1,
-      "wireCount": 4,
-      "score": 22.94,
+      "wireCount": 3,
+      "score": 20.02,
       "scoreComponents": {
-        "breadth": 11.1,
+        "breadth": 9,
         "diversity": 6.4,
-        "wire": 3.2,
-        "freshness": 2.24,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl",
-          "url": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Video shows massive explosion as US Army destroys entire stockpile of lead azide",
-          "url": "https://www.euronews.com/2026/11/25/video-shows-massive-explosion-as-us-army-destroys-entire-stockpile-of-lead-azide"
-        },
-        {
-          "source": "Fox Health",
-          "sourceId": "fox_health",
-          "lean": "right",
-          "title": "Doctors warn of lead exposure health risks after controversial Army detonation in Iowa",
-          "url": "https://www.foxnews.com/health/doctors-warn-lead-exposure-health-risks-controversial-army-detonation-iowa"
-        },
-        {
-          "source": "Guardian Environment",
-          "sourceId": "guardian_env",
-          "lean": "left",
-          "title": "Cloud of smoke seen after US army detonates bomb-making chemicals in Iowa – video",
-          "url": "https://www.theguardian.com/us-news/video/2026/nov/25/cloud-of-smoke-seen-after-us-army-detonates-bomb-making-chemicals-in-iowa-video"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Iowa residents urged to shelter amid lead exposure risks after controversial Army detonation",
-          "url": "https://nypost.com/2026/11/26/us-news/iowa-residents-urged-to-shelter-amid-lead-exposure-risks-after-controversial-army-detonation/"
-        },
-        {
-          "source": "NPR Health",
-          "sourceId": "npr_health",
-          "lean": "center-left",
-          "title": "Public health specialist discusses the aftermath of the munitions detonation in Iowa",
-          "url": "https://www.npr.org/2026/11/26/nx-s1-6053950/public-health-specialist-discusses-the-aftermath-of-the-munitions-detonation-in-iowa"
-        },
-        {
-          "source": "PBS NewsHour",
-          "sourceId": "pbs",
-          "lean": "center-left",
-          "title": "What the Army's Iowa detonation means for nearby communities",
-          "url": "https://www.pbs.org/newshour/show/what-the-armys-iowa-detonation-means-for-nearby-communities"
-        },
-        {
-          "source": "STAT News",
-          "sourceId": "statnews",
-          "lean": "center",
-          "title": "RFK Jr. weighs in on plan to detonate toxic material in Iowa",
-          "url": "https://www.statnews.com/2026/11/25/health-news-rfk-jr-weighs-in-on-plan-to-detonate-toxic-material-in-iowa/"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Shelter-in-place order lifted after Iowa lead azide detonation",
-          "url": "https://thehill.com/homenews/administration/6244295-middletown-shelter-order-lifted/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Trump gives incoming Iowa governor stark warning while hailing ‘perfect’ Army detonation",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iowa-governor-army-detonation-lead-azide-b3091974.html"
-        },
-        {
-          "source": "The Verge",
-          "sourceId": "verge",
-          "lean": "center-left",
-          "title": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
-          "url": "https://www.theverge.com/?p=1042109"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "id": "2026-11-26-wlluyu",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump admin to raise tariffs on China, EU, other trading partners",
-      "summary": "US President Donald Trump fired a new tariff salvo on Wednesday on 14 major trading partners including China, Japan and the European Union, undeterred in his protectionist push by the losses his Republican Party suffered in US midterm elections. His…",
-      "url": "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners",
-      "headlineSource": "Fox Business",
-      "summarySource": "France 24",
-      "publishedAt": "2026-11-26T12:46:55.000Z",
-      "sourceCount": 9,
-      "leanCount": 5,
-      "leanSpread": 1,
-      "wireCount": 2,
-      "score": 21.8,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 7.8,
-        "wire": 1.6,
-        "freshness": 2.43,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "US announces new tariffs on host of countries including China",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-          "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "Trump admin to raise tariffs on China, EU, other trading partners",
-          "url": "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Trump unveils new tariffs on 14 trade partners over 'unfair' industrial capacity",
-          "url": "https://www.france24.com/en/video/20261126-trump-unveils-new-tariffs-on-14-trade-partners-over-unfair-industrial-capacity"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "A rising political star in China is the latest victim of Xi’s purge",
-          "url": "https://www.nbcnews.com/world/china/rising-star-china-latest-victim-xis-purge-chen-jining-rcna611258"
-        },
-        {
-          "source": "Reason",
-          "sourceId": "reason",
-          "lean": "center-right",
-          "title": "Trump's Latest Tariffs Underscore the Urgency of Congressional Reforms",
-          "url": "https://reason.com/2026/11/25/trumps-latest-tariffs-underscore-the-urgency-of-congressional-reforms/"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
-          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "China accuses Trump of using trade tariffs for ‘political manipulation’ and threatens to retaliate",
-          "url": "https://www.independent.co.uk/asia/china/china-response-trump-tariff-retaliate-b3092076.html"
-        },
-        {
-          "source": "Washington Examiner",
-          "sourceId": "examiner",
-          "lean": "right",
-          "title": "Incoming Democratic congressional majorities set to challenge Trump tariffs",
-          "url": "https://www.washingtonexaminer.com/premium/4798888/democratic-congressional-majorities-set-challenge-trump-tariffs/"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "id": "2026-11-26-oxd9yg",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-      "summary": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
-      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-26T12:17:59.000Z",
-      "sourceCount": 9,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 4,
-      "score": 20,
-      "scoreComponents": {
-        "breadth": 9.97,
-        "diversity": 4.45,
-        "wire": 3.2,
-        "freshness": 2.38,
+        "wire": 2.4,
+        "freshness": 2.22,
         "softPenalty": 0
       },
       "coverage": [
@@ -246,455 +50,12 @@
           "source": "Al Jazeera",
           "sourceId": "aljazeera",
           "lean": "center-left",
-          "title": "Ukraine drone attack kills five in Russian-occupied Zaporizhia",
-          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-drone-attack-kills-five-in-russian-occupied-zaporizhia?traffic_source=rss"
+          "title": "Why does Elon Musk want to put a million satellite data centres in space?",
+          "url": "https://www.aljazeera.com/news/2026/11/27/why-does-elon-musk-want-to-put-a-million-satellite-data-centres-in-space?traffic_source=rss"
         },
         {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Ukraine says it downed a Russian jet-powered drone with a laser",
-          "url": "https://www.cbsnews.com/news/russia-ukraine-war-laser-interception-russian-jet-powered-geran-drone/"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Russian strikes kill seven in Ukraine as Kyiv hits three refineries",
-          "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Libyans pledge to retaliate after Ukraine strikes Russian warship near Benghazi, killing 2 soldiers",
-          "url": "https://www.foxnews.com/world/libyans-pledge-retaliate-ukraine-strikes-russian-warship-benghazi-killing-2-soldiers"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "Map Shows Long Range Ukraine Strike That Damaged Five Jets Deep In Russia",
-          "url": "https://www.newsweek.com/map-shows-long-range-ukraine-strike-that-damaged-five-jets-deep-in-russia-12770089"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Putin could fly drones over London if he develops Russian ‘Starlink’, warns Ukraine",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-starlink-drones-london-b3092060.html"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
-          "url": "https://www.nytimes.com/2026/11/25/world/middleeast/libya-ukraine-russia-haftar.html"
-        },
-        {
-          "source": "The Straits Times",
-          "sourceId": "straitstimes",
-          "lean": "center",
-          "title": "Ukraine says it downed jet drone with laser for first time",
-          "url": "https://www.straitstimes.com/world/europe/ukraine-says-it-downed-jet-drone-with-laser-for-first-time"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "2026-11-26-1999662",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Jensen Huang's Nvidia return just gave Denny's a viral marketing moment",
-      "summary": "Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO, revealing that a plaque had been restored.",
-      "url": "https://www.businessinsider.com/dennys-jensen-huang-nvidia-plaque-return-marketing-move-2026-11",
-      "headlineSource": "Business Insider",
-      "summarySource": "CNBC",
-      "publishedAt": "2026-11-26T12:08:54.000Z",
-      "sourceCount": 7,
-      "leanCount": 5,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 19.97,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 7.8,
-        "wire": 0.8,
-        "freshness": 2.37,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Jensen Huang's Nvidia return just gave Denny's a viral marketing moment",
-          "url": "https://www.businessinsider.com/dennys-jensen-huang-nvidia-plaque-return-marketing-move-2026-11"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
-          "url": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html"
-        },
-        {
-          "source": "Economist Business",
-          "sourceId": "econ_business",
-          "lean": "center-right",
-          "title": "Jensen Huang’s bail-out will not be the AI boom’s last",
-          "url": "https://www.economist.com/business/2026/11/25/jensen-huangs-bail-out-will-not-be-the-ai-booms-last"
-        },
-        {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
-          "lean": "left",
-          "title": "A vocal cohort of tech leaders celebrates Huang’s Nvidia return, but others are keeping quiet",
-          "url": "https://www.theguardian.com/technology/2026/nov/26/jensen-huang-nvidia-tech"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Denny’s faces heat over gushy tribute to Nvidia CEO Jensen Huang: ‘Just put the pancakes on bro’",
-          "url": "https://nypost.com/2026/11/26/us-news/dennys-faces-heat-over-gushy-tribute-to-nvidia-ceo-jensen-huang-just-put-the-pancakes-on-bro/"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Secret memos and clashing spy agencies deepen mystery around woman linked to Nvidia chief Jensen Huang",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-alice-huang-jensen-huang-nvidia-spy-b3092061.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "U.S. officials divided over China spying allegations after Jensen Huang’s return",
-          "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/us-officials-chinese-spying-huang/"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "2026-11-26-1y8ec13",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
-      "summary": "A major storm is forecast to move up the US East Coast and is likely to cause travel delays. Weather warnings were enough to postpone Macy's Thanksgiving Day Parade for the first time in its 100 years.",
-      "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
-      "headlineSource": "NPR",
-      "summarySource": "Deutsche Welle",
-      "publishedAt": "2026-11-26T13:04:20.000Z",
-      "sourceCount": 10,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 19.68,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "New York declares emergency as Thanksgiving storm threatens East Coast",
-          "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Macy's postpones Thanksgiving parade due to severe weather",
-          "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo"
-        },
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Storms disrupt Thanksgiving travel with thousands of flights delayed or canceled",
-          "url": "https://www.businessinsider.com/storm-east-coast-thanksgiving-day-2026-11"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
-          "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html"
-        },
-        {
-          "source": "Daily Mail Health",
-          "sourceId": "dailymail_hea",
-          "lean": "right",
-          "title": "Where flu is rising fastest in the US ahead of Thanksgiving as sicknesses double in two weeks",
-          "url": "https://www.dailymail.com/health/article-16321679/flu-cases-rise-map-thanksgiving.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Extreme weather threatens Thanksgiving festivities in US",
-          "url": "https://www.dw.com/en/extreme-weather-threatens-thanksgiving-festivities-in-us/a-80055880?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Macy’s Thanksgiving Day Parade performers left in limbo after NYC festivities postponed",
-          "url": "https://nypost.com/2026/11/25/us-news/macys-thanksgiving-day-parade-performers-left-in-limbo-after-nyc-festivities-postponed/"
-        },
-        {
-          "source": "Newsweek",
-          "sourceId": "newsweek",
-          "lean": "center",
-          "title": "State of Emergency Declared for New York, New Jersey on Thanksgiving",
-          "url": "https://www.newsweek.com/state-emergency-declared-new-york-new-jersey-thanksgiving-12770323"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
-          "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
-        },
-        {
-          "source": "The Hill",
-          "sourceId": "thehill",
-          "lean": "center",
-          "title": "Hochul declares state of emergency in New York counties ahead of Thanksgiving storm",
-          "url": "https://thehill.com/homenews/state-watch/6244382-hochul-declares-thanksgiving-emergency/"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "2026-11-26-119beob",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-      "summary": "The message comes after the U.S. leader met Russian President Vladimir Putin last week in Asia, referring to him as a \"friend.\"",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
-      "headlineSource": "The Japan Times",
-      "summarySource": "The Japan Times",
-      "publishedAt": "2026-11-26T12:16:48.000Z",
-      "sourceCount": 10,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 19.61,
-      "scoreComponents": {
-        "breadth": 10.38,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.38,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Leaked data shows 490,000 Russian forces have died in Ukraine war",
-          "url": "https://www.cbsnews.com/news/russia-ukraine-war-russian-soldier-death-toll-data-leak/"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
-          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html"
-        },
-        {
-          "source": "Daily Mail",
-          "sourceId": "dailymail",
-          "lean": "right",
-          "title": "More than 1,000 Russian troops have killed themselves since full-scale war began, leaked data reveals",
-          "url": "https://www.dailymail.com/news/article-16322277/More-1-000-Russian-troops-killed-scale-war-began-leaked-data-reveals.html"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
-          "url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Fox News",
-          "sourceId": "foxnews",
-          "lean": "right",
-          "title": "Putin's war death toll reportedly tops 700,000 as Russia scrambles for recruits",
-          "url": "https://www.foxnews.com/world/putins-war-death-toll-reportedly-tops-700000-russia-scrambles-recruits"
-        },
-        {
-          "source": "NBC News",
-          "sourceId": "nbc",
-          "lean": "center-left",
-          "title": "More than 700,000 Russian soldiers killed in Ukraine war, new estimate suggests",
-          "url": "https://www.nbcnews.com/world/ukraine/russia-soldiers-killed-ukraine-war-new-estimate-suggests-700000-rcna611048"
-        },
-        {
-          "source": "New York Post",
-          "sourceId": "nypost",
-          "lean": "right",
-          "title": "Russia must avoid ‘any actions’ expanding war in Ukraine — Trump, NATO chief say after Mar-a-Lago meeting",
-          "url": "https://nypost.com/2026/11/26/us-news/russia-must-avoid-any-actions-expanding-war-in-ukraine-trump-nato-chief-say-after-mar-a-lago-meeting/"
-        },
-        {
-          "source": "South China Morning Post",
-          "sourceId": "scmp",
-          "lean": "center",
-          "title": "Russian court jails Colombian fighter for 20 years over Ukraine war role",
-          "url": "https://www.scmp.com/news/world/europe/article/3375944/russian-court-jails-colombian-fighter-20-years-over-ukraine-war-role"
-        },
-        {
-          "source": "The Independent",
-          "sourceId": "independent",
-          "lean": "center-left",
-          "title": "Europe’s last dictator Lukashenko criticises Putin’s logic for war in Ukraine: ‘Do we give Russia back to Mongolia?’",
-          "url": "https://www.independent.co.uk/news/world/europe/lukashenko-putin-ukraine-war-russia-mongolia-b3092078.html"
-        },
-        {
-          "source": "The Japan Times",
-          "sourceId": "japantimes",
-          "lean": "center",
-          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-          "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "id": "2026-11-26-j7kk4b",
-      "topic": "world",
-      "topicLabel": "World",
-      "topicShort": "WORLD",
-      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
-      "headlineSource": "BBC News",
-      "summarySource": "BBC News",
-      "publishedAt": "2026-11-26T13:06:28.000Z",
-      "sourceCount": 8,
-      "leanCount": 3,
-      "leanSpread": 0.5,
-      "wireCount": 4,
-      "score": 19.07,
-      "scoreComponents": {
-        "breadth": 9.51,
-        "diversity": 3.9,
-        "wire": 3.2,
-        "freshness": 2.46,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "ABC News",
-          "sourceId": "abc",
-          "lean": "center-left",
-          "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
-          "url": "https://abcnews.com/International/wireStory/egypt-detains-driver-suspected-causing-cairo-tanker-crash-138465415"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
-          "lean": "center",
-          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o"
-        },
-        {
-          "source": "CBS News",
-          "sourceId": "cbs",
-          "lean": "center-left",
-          "title": "Fuel tanker explosion kills 31 on Egyptian highway",
-          "url": "https://www.cbsnews.com/news/egypt-fuel-tanker-explosion-deaths-giza-cairo/"
-        },
-        {
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "lean": "center",
-          "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
-          "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf"
-        },
-        {
-          "source": "Euronews",
-          "sourceId": "euronews",
-          "lean": "center",
-          "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-          "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
-          "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns"
-        },
-        {
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "lean": "left",
-          "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
-        },
-        {
-          "source": "The New York Times",
-          "sourceId": "nytimes",
-          "lean": "center-left",
-          "title": "Road Fire Near Cairo Kills Dozens After Petroleum-Laden Truck Crashes",
-          "url": "https://www.nytimes.com/2026/11/25/world/middleeast/road-fire-near-cairo-kills-dozens-after-petroleum-laden-truck-crashes.html"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "id": "2026-11-26-seb404",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
-      "summary": "The Trump administration gave Elon Musk's SpaceX the green light to deploy 1 million satellites that it said would create data centers in space, a move that has raised skepticism among scientists.",
-      "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
-      "headlineSource": "NPR",
-      "summarySource": "NPR",
-      "publishedAt": "2026-11-26T09:27:44.000Z",
-      "sourceCount": 7,
-      "leanCount": 3,
-      "leanSpread": 0.75,
-      "wireCount": 3,
-      "score": 17.99,
-      "scoreComponents": {
-        "breadth": 9,
-        "diversity": 4.45,
-        "wire": 2.4,
-        "freshness": 2.14,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
-          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
-        },
-        {
-          "source": "BBC News",
-          "sourceId": "bbc",
+          "source": "BBC Technology",
+          "sourceId": "bbc_tech",
           "lean": "center",
           "title": "Musk's plan to send a million SpaceX data satellites into space approved",
           "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo"
@@ -703,77 +64,8 @@
           "source": "CNBC",
           "sourceId": "cnbc",
           "lean": "center",
-          "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
-          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
-        },
-        {
-          "source": "Fox Business",
-          "sourceId": "foxbusiness",
-          "lean": "right",
-          "title": "‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’",
-          "url": "https://www.foxbusiness.com/politics/data-centers-space-fcc-clears-spacex-1m-satellites-extend-americas-lead-superintelligence"
-        },
-        {
-          "source": "France 24",
-          "sourceId": "france24",
-          "lean": "center",
-          "title": "US authorises SpaceX to launch up to one million satellites for orbital data centres",
-          "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers"
-        },
-        {
-          "source": "NPR",
-          "sourceId": "npr",
-          "lean": "center-left",
-          "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
-          "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space"
-        },
-        {
-          "source": "Sky News",
-          "sourceId": "skynews",
-          "lean": "center",
-          "title": "US authorises SpaceX to deploy one million satellites to space",
-          "url": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "id": "2026-11-26-187joyb",
-      "topic": "business",
-      "topicLabel": "Business",
-      "topicShort": "BUSINESS",
-      "title": "Elon Musk and SpaceX pledge a share each to every active Trump account",
-      "summary": "The total value of the shares could reach almost $18bn and comes as tech companies debate how to share the spoils of the AI boom Elon Musk, the world’s richest person, has pledged to give every child in the US two shares in SpaceX, the space ⁠and AI company…",
-      "url": "https://www.businessinsider.com/elon-musk-spacex-pledge-share-each-to-active-trump-account-2026-11",
-      "headlineSource": "Business Insider",
-      "summarySource": "Guardian Tech",
-      "publishedAt": "2026-11-26T10:52:08.000Z",
-      "sourceCount": 5,
-      "leanCount": 4,
-      "leanSpread": 1,
-      "wireCount": 1,
-      "score": 17.21,
-      "scoreComponents": {
-        "breadth": 7.75,
-        "diversity": 6.4,
-        "wire": 0.8,
-        "freshness": 2.26,
-        "softPenalty": 0
-      },
-      "coverage": [
-        {
-          "source": "Business Insider",
-          "sourceId": "businessinsider",
-          "lean": "center-left",
-          "title": "Elon Musk and SpaceX pledge a share each to every active Trump account",
-          "url": "https://www.businessinsider.com/elon-musk-spacex-pledge-share-each-to-active-trump-account-2026-11"
-        },
-        {
-          "source": "CNBC",
-          "sourceId": "cnbc",
-          "lean": "center",
-          "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
-          "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
+          "title": "Taking on Starlink: Europe’s largest satellite factory opens in push to rival Musk",
+          "url": "https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html"
         },
         {
           "source": "Fox Business",
@@ -783,66 +75,604 @@
           "url": "https://www.foxbusiness.com/markets/elon-musk-spacex-pledge-major-stock-donations-active-trump-accounts"
         },
         {
-          "source": "Guardian Tech",
-          "sourceId": "guardian_tech",
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
           "lean": "left",
-          "title": "Elon Musk pledges to give two SpaceX shares to every child in the US",
-          "url": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us"
+          "title": "Can Elon Musk really put AI datacentres in space? - The Latest",
+          "url": "https://www.theguardian.com/news/video/2026/nov/26/can-elon-musk-really-put-ai-datacentres-in-space-the-latest"
         },
         {
-          "source": "Times of India",
-          "sourceId": "toi",
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+          "url": "https://www.pbs.org/newshour/nation/fcc-says-spacex-can-deploy-1-million-satellites-for-data-centers-in-space-scientists-are-skeptical"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
           "lean": "center",
-          "title": "'Every child in US to get two SpaceX shares': Elon Musk",
-          "url": "https://timesofindia.indiatimes.com/world/us/every-child-in-us-to-get-two-spacex-shares-elon-musk/articleshow/136184755.cms"
+          "title": "Musk pledges 2 SpaceX shares per American child",
+          "url": "https://thehill.com/policy/technology/6244857-elon-musk-pledges-spacex-shares-to-american-children/"
         }
       ]
     },
     {
-      "rank": 10,
-      "id": "2026-11-25-1vawqaj",
-      "topic": "tech",
-      "topicLabel": "Technology & physical science",
-      "topicShort": "TECH",
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "summary": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
-      "headlineSource": "BBC Technology",
-      "summarySource": "Ars Technica",
-      "publishedAt": "2026-11-25T16:33:45.000Z",
-      "sourceCount": 3,
-      "leanCount": 2,
-      "leanSpread": 0.5,
-      "wireCount": 1,
-      "score": 10.42,
+      "rank": 2,
+      "id": "2026-11-27-1646pzu",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+      "summary": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian aggression\".",
+      "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+      "headlineSource": "Euronews",
+      "summarySource": "Euronews",
+      "publishedAt": "2026-11-27T11:51:26.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 4,
+      "score": 19.51,
       "scoreComponents": {
-        "breadth": 6,
-        "diversity": 2.5,
-        "wire": 0.8,
-        "freshness": 1.12,
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.35,
         "softPenalty": 0
       },
       "coverage": [
         {
-          "source": "Ars Technica",
-          "sourceId": "arstechnica",
-          "lean": "center",
-          "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
-          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/"
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+          "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss"
         },
         {
-          "source": "BBC Technology",
-          "sourceId": "bbc_tech",
+          "source": "BBC News",
+          "sourceId": "bbc",
           "lean": "center",
-          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o"
+        },
+        {
+          "source": "CBS News",
+          "sourceId": "cbs",
+          "lean": "center-left",
+          "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+          "url": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Iran accuses Zelenskyy of 'false flag' Kuwait drone strike op to get Trump's attention",
+          "url": "https://www.foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Kuwait: Two Italians killed in drone attack",
+          "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack"
+        },
+        {
+          "source": "The New York Times",
+          "sourceId": "nytimes",
+          "lean": "center-left",
+          "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
+          "url": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-27-kt87sz",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+      "summary": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
+      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+      "headlineSource": "Euronews",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-27T12:31:49.000Z",
+      "sourceCount": 8,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 5,
+      "score": 19.02,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "ABC News",
+          "sourceId": "abc",
+          "lean": "center-left",
+          "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+          "url": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273"
+        },
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+          "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "US: Thanksgiving storms cause flooding and travel chaos",
+          "url": "https://www.france24.com/en/video/20261127-us-thanksgiving-storms-cause-flooding-and-travel-chaos"
+        },
+        {
+          "source": "NPR",
+          "sourceId": "npr",
+          "lean": "center-left",
+          "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+          "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Stormy Thanksgiving weather causes delays and damages for many Americans",
+          "url": "https://www.pbs.org/newshour/show/stormy-thanksgiving-weather-causes-delays-and-damages-for-many-americans"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
+          "url": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations"
+        },
+        {
+          "source": "The Hill",
+          "sourceId": "thehill",
+          "lean": "center",
+          "title": "Thanksgiving storms ground DC flights, knock out power for more than 850K",
+          "url": "https://thehill.com/policy/energy-environment/6244928-thanksgiving-storm-flight-delays-power-outages/"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-27-16qq6gv",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "New Zealand’s ruling coalition falls just short of majority, needs centrist party’s support to govern",
+      "summary": "Official results on Friday showed Prime Minister Christopher Luxon fell just short of a parliamentary majority in this month's election.",
+      "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/politics/new-zealand-ruling-bloc/",
+      "headlineSource": "The Japan Times",
+      "summarySource": "The Japan Times",
+      "publishedAt": "2026-11-27T05:47:52.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 4,
+      "score": 17.38,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 1.86,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+          "url": "https://www.bbc.co.uk/news/articles/c670278qk879o"
+        },
+        {
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "lean": "center",
+          "title": "New Zealand election ends in hung parliament",
+          "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf"
+        },
+        {
+          "source": "Euronews",
+          "sourceId": "euronews",
+          "lean": "center",
+          "title": "New Zealand election: newcomer centrist party to decide as Luxon scrambles for a majority",
+          "url": "https://www.euronews.com/2026/11/27/new-zealand-election-newcomer-centrist-party-holds-the-key-as-luxon-scrambles-for-a-majori"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+          "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "New Zealand election results: Ruling coalition falls short of majority by just one seat after knife-edge vote",
+          "url": "https://www.independent.co.uk/news/world/australasia/new-zealand-christopher-luxon-election-b3092525.html"
+        },
+        {
+          "source": "The Japan Times",
+          "sourceId": "japantimes",
+          "lean": "center",
+          "title": "New Zealand’s ruling coalition falls just short of majority, needs centrist party’s support to govern",
+          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/politics/new-zealand-ruling-bloc/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-27-1lqf0mg",
+      "topic": "tech",
+      "topicLabel": "Technology & physical science",
+      "topicShort": "TECH",
+      "title": "Black Friday: The evolution of a shopping phenomenon",
+      "summary": "Once defined by crowds queuing outside shops for one-off bargains, Black Friday has evolved into weeks of online promotions. As discounts spread throughout the year, consumers are becoming more cautious about advertised deals, increasingly turning to AI and…",
+      "url": "https://www.france24.com/en/video/20261127-black-friday-the-evolution-of-a-shopping-phenomenon",
+      "headlineSource": "France 24",
+      "summarySource": "France 24",
+      "publishedAt": "2026-11-27T12:42:00.000Z",
+      "sourceCount": 5,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 17.38,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Daily Mail",
+          "sourceId": "dailymail",
+          "lean": "right",
+          "title": "Black Friday buyer's remorse: One in five bargains returned as shoppers change minds about size and style",
+          "url": "https://www.dailymail.com/news/article-16326035/Black-Friday-buyers-remorse-bargains-returned-shoppers.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Black Friday: The evolution of a shopping phenomenon",
+          "url": "https://www.france24.com/en/video/20261127-black-friday-the-evolution-of-a-shopping-phenomenon"
+        },
+        {
+          "source": "Guardian Tech",
+          "sourceId": "guardian_tech",
+          "lean": "left",
+          "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
+          "url": "https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse"
+        },
+        {
+          "source": "MarketWatch",
+          "sourceId": "marketwatch",
+          "lean": "center",
+          "title": "How to spot Black Friday shopping scams like ‘bogus boutiques’ and AI-generated product images",
+          "url": "https://www.marketwatch.com/story/how-to-spot-bogus-boutiques-and-other-black-friday-shopping-scams-86cc182d?mod=mw_rss_topstories"
+        },
+        {
+          "source": "The Verge",
+          "sourceId": "verge",
+          "lean": "center-left",
+          "title": "The absolute best Black Friday deals we’ve found (so far)",
+          "url": "https://www.theverge.com/?p=1039190"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-27-bbbhr9",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Leaders clash in final Spain election debate as housing dominates run-in",
+      "summary": "The struggle many face in buying a home has been the biggest issue of a bitter campaign.",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o",
+      "headlineSource": "BBC News",
+      "summarySource": "BBC News",
+      "publishedAt": "2026-11-27T13:00:42.000Z",
+      "sourceCount": 6,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 3,
+      "score": 17.18,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "BBC News",
+          "sourceId": "bbc",
+          "lean": "center",
+          "title": "Leaders clash in final Spain election debate as housing dominates run-in",
+          "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
+        },
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Spain’s election could pull Madrid closer to Trump’s Washington",
+          "url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html"
+        },
+        {
+          "source": "France 24",
+          "sourceId": "france24",
+          "lean": "center",
+          "title": "Spain election: Housing crisis and immigration dominate final campaign debate",
+          "url": "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates"
+        },
+        {
+          "source": "The Independent",
+          "sourceId": "independent",
+          "lean": "center-left",
+          "title": "Spain election 2026: The main proposals from the three largest parties",
+          "url": "https://www.independent.co.uk/news/world/europe/spain-election-polls-vox-2026-psoe-housing-b3092629.html"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Spain election: what the main parties are proposing",
+          "url": "https://www.straitstimes.com/world/europe/spain-election-what-the-main-parties-are-proposing"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-27-2hb317",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "Trump demands probe into 'fake' pre-election GDP data after Q3 growth revised up to 4.3%",
+      "summary": "President Donald Trump on Thursday accused his Commerce Department of purposely issuing incorrect economic growth figures before the midterm elections, and said he wants to launch an investigation.",
+      "url": "https://www.foxbusiness.com/politics/trump-demands-probe-pre-election-gdp-data-revision",
+      "headlineSource": "Fox Business",
+      "summarySource": "PBS NewsHour",
+      "publishedAt": "2026-11-27T12:12:14.000Z",
+      "sourceCount": 4,
+      "leanCount": 4,
+      "leanSpread": 1,
+      "wireCount": 1,
+      "score": 16.55,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+          "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
         },
         {
           "source": "Fox Business",
           "sourceId": "foxbusiness",
           "lean": "right",
-          "title": "Federal jury convicts Huawei of stealing US trade secrets, violating Iran sanctions",
-          "url": "https://www.foxbusiness.com/fox-news-tech/federal-jury-convicts-huawei-stealing-us-trade-secrets-violating-iran-sanctions"
+          "title": "Trump demands probe into 'fake' pre-election GDP data after Q3 growth revised up to 4.3%",
+          "url": "https://www.foxbusiness.com/politics/trump-demands-probe-pre-election-gdp-data-revision"
+        },
+        {
+          "source": "PBS NewsHour",
+          "sourceId": "pbs",
+          "lean": "center-left",
+          "title": "Trump calls GDP figures 'fake' and demands an investigation of Commerce Department",
+          "url": "https://www.pbs.org/newshour/politics/trump-calls-gdp-figures-fake-and-demands-an-investigation-of-commerce-department"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "Trump claims revised economic data shows pre-midterms figures were ‘fake’ | First Thing",
+          "url": "https://www.theguardian.com/us-news/2026/nov/27/first-thing-trump-claims-revised-economic-data-shows-pre-midterms-figures-were-fake"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-27-17j025y",
+      "topic": "world",
+      "topicLabel": "World",
+      "topicShort": "WORLD",
+      "title": "South Korea sends rescued fishermen back to North",
+      "summary": "Pyongyang has not commented on a seventh fisherman who chose to remain in the South.",
+      "url": "https://www.aljazeera.com/news/2026/11/27/south-korea-sends-rescued-fishermen-back-to-north?traffic_source=rss",
+      "headlineSource": "Al Jazeera",
+      "summarySource": "Al Jazeera",
+      "publishedAt": "2026-11-27T11:00:14.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.75,
+      "wireCount": 3,
+      "score": 16.09,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.27,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "South Korea sends rescued fishermen back to North",
+          "url": "https://www.aljazeera.com/news/2026/11/27/south-korea-sends-rescued-fishermen-back-to-north?traffic_source=rss"
+        },
+        {
+          "source": "Fox News",
+          "sourceId": "foxnews",
+          "lean": "right",
+          "title": "Ukrainian intelligence says North Korea paused missile deliveries to Russia amid friction over South Korea",
+          "url": "https://www.foxnews.com/world/ukrainian-intelligence-north-korea-paused-missile-deliveries-russia-friction-south-korea"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Why South Korea’s chip boom is now a US tariff trap as a US$350b pledge looms",
+          "url": "https://www.scmp.com/week-asia/politics/article/3376053/why-south-koreas-chip-boom-now-us-tariff-trap-us350b-pledge-looms"
+        },
+        {
+          "source": "The Straits Times",
+          "sourceId": "straitstimes",
+          "lean": "center",
+          "title": "Iran warns on Gulf military presence as South Korea readies expanded naval role",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-warns-on-gulf-military-presence-as-south-korea-readies-expanded-naval-role"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-27-154zqgz",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
+      "summary": "US President Donald Trump’s latest tariff threats have led analysts to question whether the trade deals Southeast Asian countries previously struck with Washington were worth pursuing, as those countries consider further talks with his administration. On…",
+      "url": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "South China Morning Post",
+      "publishedAt": "2026-11-27T12:48:44.000Z",
+      "sourceCount": 4,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 2,
+      "score": 14.9,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "Al Jazeera",
+          "sourceId": "aljazeera",
+          "lean": "center-left",
+          "title": "Trump embraced Xi, then slapped new tariffs on China: What’s his game plan?",
+          "url": "https://www.aljazeera.com/features/2026/11/27/trump-embraced-xi-then-slapped-new-tariffs-on-china-whats-his-game-plan?traffic_source=rss"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
+          "url": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html"
+        },
+        {
+          "source": "South China Morning Post",
+          "sourceId": "scmp",
+          "lean": "center",
+          "title": "Why Trump’s new tariff threats may spur Southeast Asia to rethink US trade deals",
+          "url": "https://www.scmp.com/week-asia/economics/article/3376040/why-trumps-new-tariff-threats-may-spur-southeast-asia-rethink-us-trade-deals"
+        },
+        {
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "lean": "left",
+          "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-27-1lnx5p0",
+      "topic": "business",
+      "topicLabel": "Business",
+      "topicShort": "BUSINESS",
+      "title": "European Central Bank Chooses Pablo Hernández de Cos as Next President",
+      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning…",
+      "url": "https://www.nytimes.com/2026/11/26/business/ecb-pablo-hernandez-de-cos.html",
+      "headlineSource": "NYT Business",
+      "summarySource": "Guardian Business",
+      "publishedAt": "2026-11-27T06:50:38.000Z",
+      "sourceCount": 3,
+      "leanCount": 3,
+      "leanSpread": 0.5,
+      "wireCount": 0,
+      "score": 11.84,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0,
+        "freshness": 1.94,
+        "softPenalty": 0
+      },
+      "coverage": [
+        {
+          "source": "CNBC",
+          "sourceId": "cnbc",
+          "lean": "center",
+          "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+          "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+        },
+        {
+          "source": "Guardian Business",
+          "sourceId": "guardian_biz",
+          "lean": "left",
+          "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+          "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president"
+        },
+        {
+          "source": "NYT Business",
+          "sourceId": "nyt_business",
+          "lean": "center-left",
+          "title": "European Central Bank Chooses Pablo Hernández de Cos as Next President",
+          "url": "https://www.nytimes.com/2026/11/26/business/ecb-pablo-hernandez-de-cos.html"
         }
       ]
     }

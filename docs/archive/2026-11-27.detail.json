@@ -1,0 +1,1390 @@
+{
+  "edition": "2026-11-27",
+  "generatedAt": "2026-11-27T13:28:40.427Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-27-fk5196",
+      "topic": "tech",
+      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "summary": "The US FCC authorised the plan on Wednesday, calling it a first in the history of the country.",
+      "headlineSource": "BBC Technology",
+      "sourceCount": 7,
+      "score": 20.02,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 6.4,
+        "wire": 2.4,
+        "freshness": 2.22,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 4,
+        "specialistShare": 0.57,
+        "votes": {
+          "tech": 3,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why does Elon Musk want to put a million satellite data centres in space?",
+          "description": "The US FCC authorised the plan on Wednesday, calling it a first in the history of the country.",
+          "link": "https://www.aljazeera.com/news/2026/11/27/why-does-elon-musk-want-to-put-a-million-satellite-data-centres-in-space?traffic_source=rss",
+          "published": "2026-11-27T10:20:17.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Taking on Starlink: Europe’s largest satellite factory opens in push to rival Musk",
+          "description": "The 20,000-square-meter mega factory will be able to produce up to 500 satellites annually, making it the world's third-largest satellite production site.",
+          "link": "https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html",
+          "published": "2026-11-26T07:45:05.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+          "description": "The Trump administration on Wednesday gave SpaceX the green light to deploy 1 million satellites that it said would create data centers in space, a long-lofty goal of Elon Musk's rocket company, in a move that has raised both skepticism and alarm among some scientists.",
+          "link": "https://www.pbs.org/newshour/nation/fcc-says-spacex-can-deploy-1-million-satellites-for-data-centers-in-space-scientists-are-skeptical",
+          "published": "2026-11-26T20:16:59.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+          "description": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+          "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+          "published": "2026-11-26T09:27:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Can Elon Musk really put AI datacentres in space? - The Latest",
+          "description": "The Trump administration has approved Elon Musk’s plan to create datacentres in space. US federal regulators have authorised the launch of one million Starmind orbital satellites, which are built by Musk’s SpaceX, to process data in space. Supporters argue the project will be more energy-efficient and reduce the environmental impact of datacentres on Earth as the AI industry grows. But how realist",
+          "link": "https://www.theguardian.com/news/video/2026/nov/26/can-elon-musk-really-put-ai-datacentres-in-space-the-latest",
+          "published": "2026-11-26T18:34:17.000Z",
+          "categories": [
+            "Elon Musk",
+            "Donald Trump",
+            "US news",
+            "World news",
+            "Technology",
+            "Space",
+            "SpaceX",
+            "AI (artificial intelligence)"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Musk pledges 2 SpaceX shares per American child",
+          "description": "SpaceX and its CEO Elon Musk announced Wednesday that they would each donate a share of the aerospace company’s stock to every American child with an active “Trump Account” — doubling a pledge the billionaire made last month. The company said in a statement it would issue new shares of its Class A common stock...",
+          "link": "https://thehill.com/policy/technology/6244857-elon-musk-pledges-spacex-shares-to-american-children/",
+          "published": "2026-11-26T20:01:29.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "SpaceX shares jump 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
+          "description": "SpaceX shares jumped in premarket trading after Elon Musk said on X that he would donate shares to American children every year.",
+          "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+          "published": "2026-11-27T10:20:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+          "description": "The total value of the shares could reach almost $18bn and comes as tech companies debate how to share the spoils of the AI boom Elon Musk, the world’s richest person, has pledged to give every child in the US two shares in SpaceX, the space ⁠and AI company he ​runs, worth a total of almost $18bn. In a brief post on X, the social media platform that he owns, Musk said children will receive one sha",
+          "link": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
+          "published": "2026-11-26T07:02:37.000Z",
+          "categories": [
+            "Elon Musk",
+            "SpaceX",
+            "AI (artificial intelligence)",
+            "The super-rich",
+            "Computing"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Elon Musk, SpaceX pledge major stock donations to active Trump Accounts",
+          "description": "SpaceX will give one share of its Class A common stock to every active Trump Account, with Elon Musk pledging to personally match the donation.",
+          "link": "https://www.foxbusiness.com/markets/elon-musk-spacex-pledge-major-stock-donations-active-trump-accounts",
+          "published": "2026-11-26T04:29:55.000Z",
+          "categories": [
+            "229693d6-33b7-57cc-a9ac-512747853fc1",
+            "fbn",
+            "Fox Business",
+            "fox-business/business-leaders/elon-musk",
+            "fox-business/technology/spacex",
+            "fox-business/person/donald-trump",
+            "fox-news/fox-news-us/fox-news-economy/fox-news-investment",
+            "fox-business/money",
+            "fox-business/markets",
+            "fox-business/markets/stocks",
+            "fox-business/markets",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-27-1646pzu",
+      "topic": "world",
+      "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+      "summary": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian aggression\".",
+      "headlineSource": "Euronews",
+      "sourceCount": 8,
+      "score": 19.51,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.35,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+          "description": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+          "link": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+          "published": "2026-11-26T21:17:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+          "description": "Iran has openly claimed its strikes on Gulf states throughout the war. So why is it denying an attack on Kuwait?",
+          "link": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss",
+          "published": "2026-11-27T11:51:26.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Kuwait: Two Italians killed in drone attack",
+          "description": "A drone attack in Kuwait killed two Italian technicians working on an air defence system on Thursday, marking the first fatal strike in the Gulf state for months.",
+          "link": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+          "published": "2026-11-27T11:45:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
+          "description": "Iran denies being behind a deadly attack on a Kuwaiti military facility that killed two Italian nationals.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
+          "published": "2026-11-27T10:07:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
+          "description": "The deaths follow a series of strikes on Gulf Arab states that host U.S. military facilities in recent weeks as talks to end the war continue to stall.",
+          "link": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html",
+          "published": "2026-11-26T19:33:06.000Z",
+          "categories": [
+            "US and Israeli Attack on Iran (2026)",
+            "Drones (Pilotless Planes)",
+            "War and Armed Conflicts",
+            "Bahrain",
+            "Iran",
+            "Kuwait"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+          "description": "Iran's foreign minister Abbas Araghchi said \"The incident is suspicious and looks like a precooked recipe for war.\"",
+          "link": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html",
+          "published": "2026-11-27T03:30:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Iran accuses Zelenskyy of 'false flag' Kuwait drone strike op to get Trump's attention",
+          "description": "A former Iran nuclear adviser claimed Thursday the Kuwait drone attack was a Ukrainian \"false flag\" staged to get President Donald Trump's attention.",
+          "link": "https://www.foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention",
+          "published": "2026-11-26T23:19:59.000Z",
+          "categories": [
+            "2bc9ea19-1b8e-552a-bac8-b54a3e639f93",
+            "fnc",
+            "Fox News",
+            "fox-news/politics/defense/wars/war-with-iran",
+            "fox-news/world/conflicts/iran",
+            "fox-news/politics/foreign-policy/middle-east",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/politics/executive/national-security",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/politics/foreign-policy/geopolitics",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+          "description": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian aggression\". Saudi Arabia, Bahrain, Qatar and the UAE condemned the attack.",
+          "link": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+          "published": "2026-11-27T10:20:33.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Passenger flights diverted as Kuwait army intercepts Iranian drone attack",
+          "description": "Kuwait's military said four people were injured after \"a number of hostile\" Iranian drones were detected and intercepted in its airspace. Flights crossing Iraq toward the Gulf were given new headings ahead of Kuwait, shifting the international corridor.",
+          "link": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "published": "2026-11-26T13:19:28.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-27-kt87sz",
+      "topic": "world",
+      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+      "summary": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
+      "headlineSource": "Euronews",
+      "sourceCount": 8,
+      "score": 19.02,
+      "scoreComponents": {
+        "breadth": 9.51,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 2.41,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 8,
+        "specialistOutlets": 1,
+        "specialistShare": 0.13,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 1
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+          "description": "A powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays",
+          "link": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+          "published": "2026-11-27T11:59:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+          "description": "A storm battered much of the country on Thursday, knocking out power to thousands of homes and disrupting travel. Today, Black Friday shopping deals kick off, and on Saturday New York City will hold the postponed Macy's Thanksgiving Day Parade.",
+          "link": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday",
+          "published": "2026-11-27T10:59:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Morning news brief",
+          "description": "Thanksgiving storm pummels the East Coast, Americans expected to spend record amount on Black Friday, Israeli rival factions consider deals in race to form a new government.",
+          "link": "https://www.npr.org/2026/11/27/nx-s1-6047116/morning-news-brief",
+          "published": "2026-11-27T09:47:08.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+          "description": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
+          "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo",
+          "published": "2026-11-27T10:26:28.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+          "description": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
+          "link": "https://www.bbc.co.uk/news/videos/cq808d704m22o",
+          "published": "2026-11-26T19:26:16.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US: Thanksgiving storms cause flooding and travel chaos",
+          "description": "Severe storms battered the US East Coast on Thursday, bringing torrential rain, strong winds and coastal flooding. Nearly one million homes were left without power, while hundreds of flights were cancelled and thousands delayed during one of the country's busiest travel periods. The weather also forced the postponement of New York's Macy's Thanksgiving Day Parade until Saturday.",
+          "link": "https://www.france24.com/en/video/20261127-us-thanksgiving-storms-cause-flooding-and-travel-chaos",
+          "published": "2026-11-27T12:02:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Almost a million Americans left without power on Thanksgiving as storm sweeps East Coast",
+          "description": "Nearly a million people were left without power Thursday after a severe storm lashed the East Coast of the US, tearing up trees and powerlines on Thanksgiving. New York City authorities had been forced to postpone the annual Macy's Thanksgiving Day Parade due to the intense winds.",
+          "link": "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+          "published": "2026-11-27T07:14:35.000Z",
+          "categories": [
+            "Americas"
+          ]
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Thanksgiving storm damages buildings, floods streets, causes power outages",
+          "description": "Strong winds ripped the roof off a building in Maryland, as an extreme storm began to move up the East Coast on Thanksgiving morning.",
+          "link": "https://abcnews.com/US/new-york-declares-emergency-thanksgiving-storm-threatens-east/story?id=138464273",
+          "published": "2026-11-27T12:31:49.000Z",
+          "categories": [
+            "US"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
+          "description": "Heavy rain, strong winds and coastal flooding creating hazardous conditions for millions travelling for holiday King tides and huge waves have been battering both coasts of the US during a turbulent Thanksgiving period, with severe weather threatening millions across the country. Along the California coast, king tides caused considerable damage. In Pacifica, south of San Francisco, large waves bat",
+          "link": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
+          "published": "2026-11-27T10:50:48.000Z",
+          "categories": [
+            "US weather",
+            "US news",
+            "Europe",
+            "Europe weather",
+            "Extreme weather",
+            "Flooding",
+            "World news",
+            "Environment",
+            "Thanksgiving"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Heavy rain, wind and flooding hit much of US on Thanksgiving",
+          "description": "Homes without power, travel disrupted and Macy’s Thanksgiving parade postponed for first time in New York Storms have flooded communities on the US east coast, knocking out power to nearly a million customers and prompting the first-ever postponement of Macy’s Thanksgiving Day parade in New York City. High winds and flooding hammered both coasts, disrupting holiday travel. More than 900,000 homes ",
+          "link": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+          "published": "2026-11-27T08:10:27.000Z",
+          "categories": [
+            "US weather",
+            "US news",
+            "World news",
+            "Extreme weather"
+          ]
+        },
+        {
+          "sourceId": "thehill",
+          "outlet": "thehill",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Thanksgiving storms ground DC flights, knock out power for more than 850K",
+          "description": "A powerful coastal storm disrupted Thanksgiving travel in the Washington, D.C., area on Thursday as heavy rain and winds stopped flights at Ronald Reagan Washington National Airport (DCA). Along the East Coast, hundreds and thousands of homes and businesses lost power, along with more in the Midwest. The Federal Aviation Administration (FAA) issued a ground...",
+          "link": "https://thehill.com/policy/energy-environment/6244928-thanksgiving-storm-flight-delays-power-outages/",
+          "published": "2026-11-26T22:01:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+          "description": "Macy's has postponed its 100th parade in Manhattan as more than 600,000 homes and businesses lost power.",
+          "link": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+          "published": "2026-11-26T21:57:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Stormy Thanksgiving weather causes delays and damages for many Americans",
+          "description": "A stormy Thanksgiving day led to serious flooding, major power outages and disrupted travel plans. By Thursday evening, more than 900,000 customers were without power in at least eight states. The East Coast is grappling with a pair of storm systems affecting people from Maine to Florida. This as strong winds battered the West Coast from Oregon to California. Lisa Desjardins reports.",
+          "link": "https://www.pbs.org/newshour/show/stormy-thanksgiving-weather-causes-delays-and-damages-for-many-americans",
+          "published": "2026-11-26T23:55:26.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-27-16qq6gv",
+      "topic": "world",
+      "title": "New Zealand’s ruling coalition falls just short of majority, needs centrist party’s support to govern",
+      "summary": "Official results on Friday showed Prime Minister Christopher Luxon fell just short of a parliamentary majority in this month's election.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 6,
+      "score": 17.38,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 1.86,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+          "description": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
+          "link": "https://www.bbc.co.uk/news/articles/c670278qk879o",
+          "published": "2026-11-27T03:28:15.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "New Zealand election ends in hung parliament",
+          "description": "A final vote count showed that neither the center-right bloc nor the opposition left bloc was able to secure a majority.",
+          "link": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-27T03:13:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+          "description": "Incumbent prime minister Christopher Luxon loses majority and needs support of Opportunity party to remain in power, or country faces another election The final results of New Zealand’s general election show the incumbent rightwing coalition will need the support of a centrist newcomer party to form a government, and to avoid sending the country back to the polls. Preliminary results on 7 November",
+          "link": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+          "published": "2026-11-27T02:38:15.000Z",
+          "categories": [
+            "New Zealand election 2026",
+            "New Zealand",
+            "Christopher Luxon",
+            "National Party",
+            "Labour party",
+            "Asia Pacific",
+            "New Zealand politics"
+          ]
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "New Zealand election: newcomer centrist party to decide as Luxon scrambles for a majority",
+          "description": "The final count showed more support for minor parties on the ideological flanks than before. A total of 2.8 million votes were cast.",
+          "link": "https://www.euronews.com/2026/11/27/new-zealand-election-newcomer-centrist-party-holds-the-key-as-luxon-scrambles-for-a-majori",
+          "published": "2026-11-27T05:47:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "New Zealand’s ruling coalition falls just short of majority, needs centrist party’s support to govern",
+          "description": "Official results on Friday showed Prime Minister Christopher Luxon fell just short of a parliamentary majority in this month's election.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/politics/new-zealand-ruling-bloc/",
+          "published": "2026-11-27T04:50:00.000Z",
+          "categories": [
+            "ASIA PACIFIC"
+          ]
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "New Zealand election results: Ruling coalition falls short of majority by just one seat after knife-edge vote",
+          "description": "Final vote count shows neither right-wing incumbents nor left-wing opposition bloc wins enough seats to form majority government",
+          "link": "https://www.independent.co.uk/news/world/australasia/new-zealand-christopher-luxon-election-b3092525.html",
+          "published": "2026-11-27T05:40:40.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-27-1lqf0mg",
+      "topic": "tech",
+      "title": "Black Friday: The evolution of a shopping phenomenon",
+      "summary": "Once defined by crowds queuing outside shops for one-off bargains, Black Friday has evolved into weeks of online promotions. As discounts spread throughout the year, consumers are becoming more cautious about advertised deals, increasingly turning to AI and…",
+      "headlineSource": "France 24",
+      "sourceCount": 5,
+      "score": 17.38,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 2,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Black Friday: The evolution of a shopping phenomenon",
+          "description": "Once defined by crowds queuing outside shops for one-off bargains, Black Friday has evolved into weeks of online promotions. As discounts spread throughout the year, consumers are becoming more cautious about advertised deals, increasingly turning to AI and price comparisons to find genuine bargains. Camille Knight looks at the origins of the global shopping phenomenon.",
+          "link": "https://www.france24.com/en/video/20261127-black-friday-the-evolution-of-a-shopping-phenomenon",
+          "published": "2026-11-27T12:01:43.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Black Friday hype stems from a desire 'to be part of a collective event', expert says",
+          "description": "Once a strictly US affair, it's become a truly global phenomenon. From shoppers hunting for bargains in Louisiana, to queues forming outside stores in Venezuela, the Black Friday sales event has become the biggest day of the year for retail foot traffic. FRANCE 24's Sharon Gaffney speaks with Olaya Moldes Andres, Associate Professor in Marketing and Strategy at Cardiff Business School. She explain",
+          "link": "https://www.france24.com/en/video/20261126-black-friday-hype-stems-from-a-desire-to-be-part-of-a-collective-event-expert-says",
+          "published": "2026-11-26T22:54:11.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Black Friday buyer's remorse: One in five bargains returned as shoppers change minds about size and style",
+          "description": "More than a quarter of Black Friday returns are delayed until after Christmas, creating a second wave in January, roughly 110 per cent higher than normal levels.",
+          "link": "https://www.dailymail.com/news/article-16326035/Black-Friday-buyers-remorse-bargains-returned-shoppers.html",
+          "published": "2026-11-27T08:49:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "The absolute best Black Friday deals we’ve found (so far)",
+          "description": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’t guarantee a deal you’ve had",
+          "link": "https://www.theverge.com/?p=1039190",
+          "published": "2026-11-27T11:52:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "The best Black Friday deals we’ve already found",
+          "description": "Black Friday is here, so we’re no longer updating this post, which focused on deals you could get ahead of the shopping event. Keep up with our latest posts right here. Original post follows below The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until",
+          "link": "https://www.theverge.com/?p=1028991",
+          "published": "2026-11-26T16:55:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
+          "description": "Brands know use of agents such as Meta Muse is on the rise but are unlikely to hand them the keys to the shop Have you downloaded Meta’s AI assistant Muse or do you plan to? They promise to find the best Black Friday deals, source Christmas gifts and find the ingredients for a romantic dinner. This week’s UK launch of the Muse AI assistant by the owner of Facebook and Instagram promises to transfo",
+          "link": "https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse",
+          "published": "2026-11-27T07:00:56.000Z",
+          "categories": [
+            "Retail industry",
+            "AI (artificial intelligence)",
+            "Black Friday",
+            "Business",
+            "Meta",
+            "Technology",
+            "Chatbots",
+            "Shopping",
+            "Money",
+            "Computing",
+            "Virtual assistant",
+            "UK news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
+          "description": "Brands know use of agents such as Meta Muse is on the rise but are unlikely to hand them the keys to the shop Have you downloaded Meta’s AI assistant Muse or do you plan to? They promise to find the best Black Friday deals, source Christmas gifts and find the ingredients for a romantic dinner. This week’s UK launch of the Muse AI assistant by the owner of Facebook and Instagram promises to transfo",
+          "link": "https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse",
+          "published": "2026-11-27T07:00:56.000Z",
+          "categories": [
+            "Retail industry",
+            "AI (artificial intelligence)",
+            "Black Friday",
+            "Business",
+            "Meta",
+            "Technology",
+            "Chatbots",
+            "Shopping",
+            "Money",
+            "Computing",
+            "Virtual assistant",
+            "UK news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How to spot Black Friday shopping scams like ‘bogus boutiques’ and AI-generated product images",
+          "description": "AI tools have made it even easier for scammers to create fake storefronts and misleading product listings.",
+          "link": "https://www.marketwatch.com/story/how-to-spot-bogus-boutiques-and-other-black-friday-shopping-scams-86cc182d?mod=mw_rss_topstories",
+          "published": "2026-11-27T12:42:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "marketwatch",
+          "outlet": "marketwatch",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Stocks look like a Black Friday bargain. Read the fine print.",
+          "description": "Analysts raised their profit forecasts for S&P 500 companies during the selloff. Plus, how to spot a bogus boutique and what Jensen Huang is doing in your 401(k).",
+          "link": "https://www.marketwatch.com/story/stocks-look-like-a-black-friday-bargain-read-the-fine-print-b6546539?mod=mw_rss_topstories",
+          "published": "2026-11-27T12:01:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-27-bbbhr9",
+      "topic": "world",
+      "title": "Leaders clash in final Spain election debate as housing dominates run-in",
+      "summary": "The struggle many face in buying a home has been the biggest issue of a bitter campaign.",
+      "headlineSource": "BBC News",
+      "sourceCount": 6,
+      "score": 17.18,
+      "scoreComponents": {
+        "breadth": 8.42,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.46,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 6,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Leaders clash in final Spain election debate as housing dominates run-in",
+          "description": "The struggle many face in buying a home has been the biggest issue of a bitter campaign.",
+          "link": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o",
+          "published": "2026-11-27T06:03:39.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain election: Housing crisis and immigration dominate final campaign debate",
+          "description": "Spain goes to the polls on Sunday in an early parliamentary election that may usher in a right-wing coalition to replace the Socialist-led minority government of Prime Minister Pedro Sanchez, one of Europe's last leftist leaders. Our correspondent Sarah Morris tells us more.",
+          "link": "https://www.france24.com/en/video/20261127-spain-election-housing-crisis-and-immigration-dominate-final-campaign-debate",
+          "published": "2026-11-27T11:51:07.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain general election 2026: Could Sánchez lose power?",
+          "description": "Spanish voters head to the polls in just three days for a snap election, after eight years of Socialist-led rule. Prime Minister Pedro Sánchez is fighting to stay in power, but an alliance between the conservative People's Party and the far-right VOX could bring his time in office to an end. So what are the key issues, and what's at stake?",
+          "link": "https://www.france24.com/en/video/20261127-spain-general-election-2026-could-s%C3%A1nchez-lose-power",
+          "published": "2026-11-27T10:46:41.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – Europe live",
+          "description": "‘I can’t conceive of us losing,’ the leader said Freelance journalist based in Madrid and host of the Sobremesa podcast Vox has often been portrayed in international coverage as a party of Franco nostalgists whose ultraconservative Catholicism and civil-war rhetoric towards the separatist Catalan “enemy within” threatened a return to the worst of Spain’s recent past.",
+          "link": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
+          "published": "2026-11-27T12:54:55.000Z",
+          "categories": [
+            "World news",
+            "Volodymyr Zelenskyy",
+            "Ukraine",
+            "Russia",
+            "Europe",
+            "Donald Trump",
+            "Vladimir Putin",
+            "US news"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain’s election could pull Madrid closer to Trump’s Washington",
+          "description": "Spanish voters head to the polls on Sunday for a snap election that could bring socialist Prime Minister Pedro Sánchez's eight years in power to an end.",
+          "link": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+          "published": "2026-11-27T13:00:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain election: what the main parties are proposing",
+          "description": "MADRID, Nov 27 - Spanish Prime Minister Pedro Sanchez is seeking a fourth term in a snap election on Sunday, with polls suggesting voters could end eight years of leftist rule.",
+          "link": "https://www.straitstimes.com/world/europe/spain-election-what-the-main-parties-are-proposing",
+          "published": "2026-11-27T08:42:01.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain election 2026: The main proposals from the three largest parties",
+          "description": "Polls are suggesting voters could end eight years of leftist rule",
+          "link": "https://www.independent.co.uk/news/world/europe/spain-election-polls-vox-2026-psoe-housing-b3092629.html",
+          "published": "2026-11-27T09:59:53.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
+          "description": "Europe correspondent Nick Beake speaks to one couple kept apart by high rents in Valencia.",
+          "link": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo",
+          "published": "2026-11-27T06:09:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Is Spain's snap election being rigged? Debunking viral claims",
+          "description": "Ahead of Spain's snap election on Sunday, allegations of vote rigging - known in Spanish as \"pucherazo\" - are spreading widely on social media. From claims that undocumented migrants are being illegally registered to vote, to allegations that postal ballots and vote counts could be manipulated, internet users are accusing Pedro Sánchez's government of attempting to rig the election. But these clai",
+          "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20261126-is-spain-s-snap-election-being-rigged-debunking-viral-claims",
+          "published": "2026-11-26T22:17:06.000Z",
+          "categories": [
+            "Truth or Fake"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+          "description": "MADRID, Nov 27 - Spain's Prime Minister Pedro Sanchez said on Friday he was convinced he would secure a left-wing majority in a snap general election despite adverse public polling, as the political parties prepared to wrap up campaigning ahead of Sunday's vote.",
+          "link": "https://www.straitstimes.com/world/europe/spains-sanchez-insists-he-will-defy-polls-as-election-campaign-wraps-up",
+          "published": "2026-11-27T11:42:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'Citizens angry with the establishment' as Spain heads to the polls",
+          "description": "Three party leaders are vying in Spain's general election on Sunday, which leftist Prime Minister Pedro Sanchez called following a parliamentary setback over housing legislation that underscored the fragility of his minority coalition government.",
+          "link": "https://www.france24.com/en/tv-shows/a-propos/20261126-citizens-angry-with-the-establishment-as-spain-heads-to-the-polls",
+          "published": "2026-11-26T22:16:50.000Z",
+          "categories": [
+            "A propos"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-27-2hb317",
+      "topic": "world",
+      "title": "Trump demands probe into 'fake' pre-election GDP data after Q3 growth revised up to 4.3%",
+      "summary": "President Donald Trump on Thursday accused his Commerce Department of purposely issuing incorrect economic growth figures before the midterm elections, and said he wants to launch an investigation.",
+      "headlineSource": "Fox Business",
+      "sourceCount": 4,
+      "score": 16.55,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 2.38,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 1,
+        "specialistShare": 0.25,
+        "votes": {
+          "tech": 0,
+          "business": 1,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump claims revised economic data shows pre-midterms figures were ‘fake’ | First Thing",
+          "description": "President calls for investigation after GDP figures were adjusted upwards, despite revisions to official economic figures being commonplace. Plus, the weird and macabre world of Victorian Christmas cards Don’t already get First Thing in your inbox? Sign up here Good morning. Donald Trump has alleged without evidence that economic figures published by the US federal government before this month’s m",
+          "link": "https://www.theguardian.com/us-news/2026/nov/27/first-thing-trump-claims-revised-economic-data-shows-pre-midterms-figures-were-fake",
+          "published": "2026-11-27T12:12:14.000Z",
+          "categories": [
+            "US news",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+          "description": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
+          "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+          "published": "2026-11-26T21:13:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump calls GDP figures 'fake' and demands an investigation of Commerce Department",
+          "description": "President Donald Trump on Thursday accused his Commerce Department of purposely issuing incorrect economic growth figures before the midterm elections, and said he wants to launch an investigation.",
+          "link": "https://www.pbs.org/newshour/politics/trump-calls-gdp-figures-fake-and-demands-an-investigation-of-commerce-department",
+          "published": "2026-11-26T16:36:06.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump demands probe into 'fake' pre-election GDP data after Q3 growth revised up to 4.3%",
+          "description": "President Donald Trump called for an investigation into the Bureau of Economic Analysis after third-quarter U.S. GDP growth was revised up 0.9 percentage points to 4.3%.",
+          "link": "https://www.foxbusiness.com/politics/trump-demands-probe-pre-election-gdp-data-revision",
+          "published": "2026-11-26T17:21:34.000Z",
+          "categories": [
+            "d4f005be-67ab-574f-87fe-97916099fc7e",
+            "fbn",
+            "Fox Business",
+            "fox-business/markets/economy",
+            "fox-business/economic-indicators/us-economy",
+            "fox-business/person/donald-trump",
+            "fox-business/politics",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-27-17j025y",
+      "topic": "world",
+      "title": "South Korea sends rescued fishermen back to North",
+      "summary": "Pyongyang has not commented on a seventh fisherman who chose to remain in the South.",
+      "headlineSource": "Al Jazeera",
+      "sourceCount": 4,
+      "score": 16.09,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 4.45,
+        "wire": 2.4,
+        "freshness": 2.27,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "South Korea sends rescued fishermen back to North",
+          "description": "Pyongyang has not commented on a seventh fisherman who chose to remain in the South.",
+          "link": "https://www.aljazeera.com/news/2026/11/27/south-korea-sends-rescued-fishermen-back-to-north?traffic_source=rss",
+          "published": "2026-11-27T09:02:20.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukrainian intelligence says North Korea paused missile deliveries to Russia amid friction over South Korea",
+          "description": "North Korea paused ballistic missile and artillery shipments to Russia after friction over Moscow's outreach to South Korea, Ukrainian intelligence said.",
+          "link": "https://www.foxnews.com/world/ukrainian-intelligence-north-korea-paused-missile-deliveries-russia-friction-south-korea",
+          "published": "2026-11-26T19:10:13.000Z",
+          "categories": [
+            "1b296aa5-71b8-5613-9f88-903e1678fe2c",
+            "fnc",
+            "Fox News",
+            "fox-news/world/conflicts/ukraine",
+            "fox-news/world/conflicts/north-korea",
+            "fox-news/world/world-regions/russia",
+            "fox-news/world/world-regions/south-korea",
+            "fox-news/politics/foreign-policy",
+            "fox-news/world",
+            "fox-news/world/world-politics",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Iran warns on Gulf military presence as South Korea readies expanded naval role",
+          "description": "Seoul sourced 70% of its oil from the Middle East in 2025, with most shipments delivered through the Strait of Hormuz.",
+          "link": "https://www.straitstimes.com/world/middle-east/iran-warns-on-gulf-military-presence-as-south-korea-readies-expanded-naval-role",
+          "published": "2026-11-27T05:16:54.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why South Korea’s chip boom is now a US tariff trap as a US$350b pledge looms",
+          "description": "Washington’s latest trade investigation has created a dilemma for South Korea, forcing it to defend the state-backed industrial strategy that helped make it a semiconductor powerhouse while facing renewed pressure to shift more manufacturing capacity to the United States to deliver on investment commitments, analysts said. They warned the move could give Washington leverage to revisit tariff terms",
+          "link": "https://www.scmp.com/week-asia/politics/article/3376053/why-south-koreas-chip-boom-now-us-tariff-trap-us350b-pledge-looms",
+          "published": "2026-11-27T11:00:14.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-27-154zqgz",
+      "topic": "business",
+      "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
+      "summary": "US President Donald Trump’s latest tariff threats have led analysts to question whether the trade deals Southeast Asian countries previously struck with Washington were worth pursuing, as those countries consider further talks with his administration. On…",
+      "headlineSource": "NYT Business",
+      "sourceCount": 4,
+      "score": 14.9,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 3.9,
+        "wire": 1.6,
+        "freshness": 2.44,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 0,
+          "business": 3,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Trump embraced Xi, then slapped new tariffs on China: What’s his game plan?",
+          "description": "US president's new tariff regime targets China hardest, just weeks before Trump and Xi meet again in Miami.",
+          "link": "https://www.aljazeera.com/features/2026/11/27/trump-embraced-xi-then-slapped-new-tariffs-on-china-whats-his-game-plan?traffic_source=rss",
+          "published": "2026-11-27T12:48:44.000Z",
+          "categories": [
+            "Features"
+          ]
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+          "description": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’ Trump proposing new tariffs on 14 partners including China and EU Beijing has said it reserves the right to take “necessary measures” after Donald Trump’s administration proposed new tariffs on goods from China and other major trading partners, triggering a global backlash. Among the su",
+          "link": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+          "published": "2026-11-26T12:00:22.000Z",
+          "categories": [
+            "Trump tariffs",
+            "China",
+            "Brazil",
+            "Business",
+            "Tariffs",
+            "Donald Trump",
+            "US news",
+            "Asia Pacific",
+            "International trade",
+            "Economics",
+            "Trump administration"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Why Trump’s new tariff threats may spur Southeast Asia to rethink US trade deals",
+          "description": "US President Donald Trump’s latest tariff threats have led analysts to question whether the trade deals Southeast Asian countries previously struck with Washington were worth pursuing, as those countries consider further talks with his administration. On Wednesday, US Trade Representative Jamieson Greer announced proposed tariffs on imports from 14 major trading partners: China, the European Union",
+          "link": "https://www.scmp.com/week-asia/economics/article/3376040/why-trumps-new-tariff-threats-may-spur-southeast-asia-rethink-us-trade-deals",
+          "published": "2026-11-27T10:00:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
+          "description": "President Trump sent a message to trading partners across Asia, many of which depend on trade and investment from both the United States and China, that he is ready to escalate tariffs.",
+          "link": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
+          "published": "2026-11-26T17:03:32.000Z",
+          "categories": [
+            "International Trade and World Market",
+            "Customs (Tariff)",
+            "Trump, Donald J",
+            "China",
+            "Supply Chain",
+            "Bangladesh",
+            "Cambodia",
+            "Far East, South and Southeast Asia and Pacific Areas",
+            "India",
+            "East Asia"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-27-1lnx5p0",
+      "topic": "business",
+      "title": "European Central Bank Chooses Pablo Hernández de Cos as Next President",
+      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning…",
+      "headlineSource": "NYT Business",
+      "sourceCount": 3,
+      "score": 11.84,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 3.9,
+        "wire": 0,
+        "freshness": 1.94,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 0,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+          "description": "De Cos will lead the ECB into a period of political uncertainty and choppy growth, after winning the backing needed to succeed Christine Lagarde next year.",
+          "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+          "published": "2026-11-27T06:50:38.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "European Central Bank Chooses Pablo Hernández de Cos as Next President",
+          "description": "The early exit of Christine Lagarde as president of the European Central Bank, and two looming vacancies on the board, will make way for new leadership at the institution.",
+          "link": "https://www.nytimes.com/2026/11/26/business/ecb-pablo-hernandez-de-cos.html",
+          "published": "2026-11-26T19:41:35.000Z",
+          "categories": [
+            "European Central Bank",
+            "Pablo Hernandez de Cos",
+            "Brunnermeier, Markus K",
+            "Laurence Boone",
+            "Eurozone",
+            "Economics (Theory and Philosophy)",
+            "Banking and Financial Institutions",
+            "Inflation (Economics)",
+            "Bank for International Settlements",
+            "Bank of Spain",
+            "Organization for Economic Cooperation and Development",
+            "Lagarde, Christine",
+            "Lane, Philip Richard",
+            "Davis, Nick"
+          ]
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+          "description": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning support from the EU’s biggest countries. The economist and monetary policymaker will become the first Spaniard to lead the ECB, defeating his r",
+          "link": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+          "published": "2026-11-26T17:50:54.000Z",
+          "categories": [
+            "European Central Bank",
+            "Spain",
+            "Economics",
+            "Christine Lagarde",
+            "European Union",
+            "European monetary union",
+            "Eurozone",
+            "Europe",
+            "World news",
+            "Business"
+          ]
+        }
+      ]
+    }
+  ]
+}
