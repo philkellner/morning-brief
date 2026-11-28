@@ -1,0 +1,1326 @@
+{
+  "edition": "2026-11-28",
+  "generatedAt": "2026-11-28T12:42:23.558Z",
+  "stories": [
+    {
+      "rank": 1,
+      "id": "2026-11-28-u6znai",
+      "topic": "world",
+      "title": "U.S. military fires on ship violating Iran blockade",
+      "summary": "US military aircraft launched precision munitions that struck the stern of the Palau-flagged M/V Pacific Archer.",
+      "headlineSource": "The Japan Times",
+      "sourceCount": 9,
+      "score": 19.91,
+      "scoreComponents": {
+        "breadth": 9.97,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.29,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 9,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US disables ship in Gulf of Oman under Iran blockade",
+          "description": "The United States said it was continuing \"to strictly enforce the blockade\" of Iran's ports. Meanwhile, Kuwait summoned Iran's ambassador over a strike that killed two Italian technicians.",
+          "link": "https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-27T23:17:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "U.S. forces disable commercial ship that allegedly tried to breach Iran blockade",
+          "description": "A U.S. military aircraft struck a Palau-flagged ship with precision munitions after giving multiple warnings, U.S. Central Command said.",
+          "link": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/",
+          "published": "2026-11-28T10:26:51.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "foxnews",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "US military disables tanker ship attempting to slip through Iran blockade on Thanksgiving Day",
+          "description": "CENTCOM video shows a U.S. strike disabling a commercial vessel in the Gulf of Oman after it tried to evade the naval blockade of all Iranian ports.",
+          "link": "https://www.foxnews.com/world/us-military-disables-tanker-ship-attempting-slip-through-iran-blockade-thanksgiving-day",
+          "published": "2026-11-27T18:48:07.000Z",
+          "categories": [
+            "39c805c0-941f-563c-91d0-36726b8c7a7e",
+            "fnc",
+            "Fox News",
+            "fox-news/politics/defense/wars/war-with-iran",
+            "fox-news/person/donald-trump",
+            "fox-news/us/military",
+            "fox-news/politics/foreign-policy",
+            "fox-news/world/world-regions/middle-east",
+            "fox-news/us/military/navy",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "sourceId": "nypost",
+          "outlet": "nypost",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "US military disables tanker ship attempting to slip through Iran blockade on Thanksgiving Day",
+          "description": "US forces disabled the Palau-flagged M/V Pacific Archer in the Gulf of Oman after it tried to break the naval blockade on Iran.",
+          "link": "https://nypost.com/2026/11/27/us-news/us-military-disables-tanker-ship-attempting-to-slip-through-iran-blockade-on-thanksgiving-day/",
+          "published": "2026-11-28T04:53:22.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+          "description": "US military aircraft launched precision munitions that struck the stern of the Palau-flagged M/V Pacific Archer.",
+          "link": "https://www.straitstimes.com/world/middle-east/us-disables-ship-trying-to-leave-iran-as-tehran-vows-to-confront-blockade",
+          "published": "2026-11-27T18:01:52.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "US military fires at a ship that violated blockade of Iranian ports",
+          "description": "US military maintained a \"strict\" blockade of Iranian ports by firing at a ship that violated the naval containment on Thursday.",
+          "link": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
+          "published": "2026-11-28T06:55:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "U.S. military fires on ship violating Iran blockade",
+          "description": "U.S. aircraft fired \"precision munitions\" into the Pacific Archer's stern after it attempted to run the blockade.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/28/world/us-military-fires-ship-iran-blockade/",
+          "published": "2026-11-28T01:09:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports",
+          "description": "A military aircraft fired \"precision munitions\" at the stern of the Palau-flagged M/V Pacific Archer on Thursday, and the \"ship's propulsion was ultimately disabled and the civilian crew was unharmed,\" U.S. Central Command said in a statement.",
+          "link": "https://www.pbs.org/newshour/world/u-s-military-says-it-disabled-another-ship-that-tried-to-breach-naval-blockade-on-iranian-ports",
+          "published": "2026-11-27T19:39:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "US military disables another ship in Gulf of Oman after attempt to breach Iranian ports blockade",
+          "description": "US military says it disabled another ship in the Gulf of Oman",
+          "link": "https://www.independent.co.uk/news/world/americas/usa-military-gulf-of-oman-ship-iran-blockade-b3093017.html",
+          "published": "2026-11-27T19:54:54.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-28-16r1wxo",
+      "topic": "world",
+      "title": "Russian drone strikes hit Ukraine's energy, rail and civilian infrastructure, causing deaths",
+      "summary": "Russia shot down over 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent months, with Ukraine confirming on Friday it had downed a Russian jet-powered…",
+      "headlineSource": "Euronews",
+      "sourceCount": 7,
+      "score": 19.05,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 4.45,
+        "wire": 3.2,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+          "description": "Russia shot down over 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent months, with Ukraine confirming on Friday it had downed a Russian jet-powered drone with laser technology for the first time. Follow our liveblog for the latest updates.",
+          "link": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
+          "published": "2026-11-28T07:12:00.000Z",
+          "categories": [
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russia says it downed 1,246 Ukrainian drones overnight",
+          "description": "MOSCOW, Nov 28 - Russia's air defence forces shot down 1,246 Ukrainian drones overnight, the Russian Defence Ministry said on Saturday.",
+          "link": "https://www.straitstimes.com/world/europe/russia-says-it-downed-1246-ukrainian-drones-overnight",
+          "published": "2026-11-28T07:26:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "euronews",
+          "outlet": "euronews",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian drone strikes hit Ukraine's energy, rail and civilian infrastructure, causing deaths",
+          "description": "After a series of Russian strikes and with the onset of winter cold, Ukraine was forced to halt all electricity exports, while imports reached their highest level since mid-June.",
+          "link": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths",
+          "published": "2026-11-27T15:16:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Ukraine-Russia war latest: Kyiv uses laser to shoot down Russian drone after Zelensky hits out at Trump",
+          "description": "Blysk laser system successfully intercepts Geran drone",
+          "link": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
+          "published": "2026-11-28T11:41:13.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Keep Russia-Ukraine war out of the Mediterranean, Italy tells Zelenskyy",
+          "description": "The Italian prime minister has warned Ukraine not to allow its conflict with Russia to spill over into the Mediterranean after Kyiv attacked two Russian ships in Libya.",
+          "link": "https://news.sky.com/story/keep-russia-ukraine-war-out-of-the-mediterranean-italys-giorgia-meloni-tells-volodymyr-zelenskyy-13617434",
+          "published": "2026-11-28T10:01:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Meloni warns Kyiv that war 'cannot spread to the Mediterranean' after bombing of Russian warship in Libya",
+          "description": "Giorgia Meloni confronted Kyiv after Volodymyr Zelensky confirmed on Monday that Ukrainian suicide drones had destroyed the Merkury at a port in Benghazi.",
+          "link": "https://www.dailymail.com/news/article-16326607/Meloni-warns-Kyiv-war-spread-Mediterranean-Russian-warship-Libya.html",
+          "published": "2026-11-27T17:30:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Ukraine's attack on Russian ship in Libya was not coordinated with partners, Zelenskiy says",
+          "description": "KYIV, Nov 28 - President Volodymyr Zelenskiy said that Ukraine's operation that sank a Russian warship at a Libyan naval base had been carried out without prior coordination with European allies.",
+          "link": "https://www.straitstimes.com/world/europe/ukraines-attack-on-russian-ship-in-libya-was-not-coordinated-with-partners-zelenskiy-says",
+          "published": "2026-11-28T09:42:09.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Russian military flotilla bound for Libya turns around after sinking of warship",
+          "description": "A Ukrainian military intelligence official and a Middle East security official confirmed that the flotilla had turned from heading to Libya.",
+          "link": "https://www.japantimes.co.jp/news/2026/11/28/world/russian-military-flotilla-libya-turns-around/",
+          "published": "2026-11-28T01:11:00.000Z",
+          "categories": [
+            "WORLD"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-28-wvjkjz",
+      "topic": "world",
+      "title": "Israeli strike killed two staff outside Gaza clinic, MSF says",
+      "summary": "Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas \"terrorists\". Noga Tarnopolsky is live from Jerusalem.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 7,
+      "score": 17.78,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 3.9,
+        "wire": 2.4,
+        "freshness": 2.48,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+          "description": "The Israeli military says it targeted \"Hamas terrorists\" in the strike which has been condemned by the World Health Organization.",
+          "link": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o",
+          "published": "2026-11-28T10:34:58.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+          "description": "Doctors Without Borders (MSF) said Saturday an Israeli strike killed two staff members at a clinic in Gaza, with the Israeli army labelling the pair as Hamas \"terrorists\". Noga Tarnopolsky is live from Jerusalem.",
+          "link": "https://www.france24.com/en/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza",
+          "published": "2026-11-28T11:23:55.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "skynews",
+          "outlet": "skynews",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Doctors Without Borders 'outraged' after staff killed in Gaza",
+          "description": "A humanitarian medical charity says it is \"devastated and outraged\" after two civil guards at one of its offices in Gaza were killed in an Israeli strike.",
+          "link": "https://news.sky.com/story/son-of-hamas-chief-and-his-family-survive-israeli-airstrike-group-says-13617394",
+          "published": "2026-11-28T00:33:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Gaza strike kills 2 MSF guards whom Israel claims were Hamas fighters",
+          "description": "The IDF accused the two men killed of being terrorists posing as humanitarian workers.",
+          "link": "https://www.cbsnews.com/news/israel-gaza-msf-doctors-without-borders-strike/",
+          "published": "2026-11-28T12:29:21.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Two Médecins Sans Frontières staff killed by Israeli strike in Gaza, charity says",
+          "description": "MSF and head of WHO denounce attack on Gaza City clinic as Israel claims security guards were members of Hamas Israeli forces have bombed a clinic run by Médecins Sans Frontières in Gaza City, killing two of its staff members, the organisation has said. MSF said Israel directly struck the clinic, despite the fact that its location was known to the Israeli military and that it was well marked with ",
+          "link": "https://www.theguardian.com/world/2026/nov/28/medecins-sans-frontieres-staff-killed-gaza-israeli-strike",
+          "published": "2026-11-28T12:14:49.000Z",
+          "categories": [
+            "Gaza",
+            "Médecins Sans Frontières",
+            "Israel-Gaza war",
+            "Israel",
+            "Middle East and north Africa",
+            "World Health Organization",
+            "Palestine",
+            "World news"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Israeli strike killed two staff outside Gaza clinic, MSF says",
+          "description": "GENEVA, Nov 28 - Medical charity Médecins Sans Frontières has voiced outrage after an Israeli strike killed two of its staff outside a medical clinic in Gaza late on Friday.",
+          "link": "https://www.straitstimes.com/world/europe/israeli-strike-killed-two-staff-outside-gaza-clinic-msf-says",
+          "published": "2026-11-28T08:07:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Doctors Without Borders ‘outraged’ over Israeli strike on Gaza clinic that killed two staffers",
+          "description": "Medical charity said its ‘premises were clearly marked with MSF logos and their location had been communicated to and was known by Israeli military’",
+          "link": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
+          "published": "2026-11-28T09:32:34.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-28-i1tfpd",
+      "topic": "world",
+      "title": "Parts of the US clean up, power being restored after Thanksgiving storm soaks East Coast",
+      "summary": "In our news wrap Friday, crews are still working to restore power for hundreds of thousands of homes a day after a massive Thanksgiving storm forced some on the East Coast to dine in the dark, Ukrainian President Zelenskyy pushes back on President Trump, U.S…",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 5,
+      "score": 16.84,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 3.9,
+        "wire": 3.2,
+        "freshness": 1.98,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+          "description": "A powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays",
+          "link": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+          "published": "2026-11-27T11:59:02.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+          "description": "A storm battered much of the country on Thursday, knocking out power to thousands of homes and disrupting travel. Today, Black Friday shopping deals kick off, and on Saturday New York City will hold the postponed Macy's Thanksgiving Day Parade.",
+          "link": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday",
+          "published": "2026-11-27T10:59:36.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+          "description": "Hundreds of thousands of people were without power after severe weather hit both coasts of the United States during the Thanksgiving holiday.",
+          "link": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o",
+          "published": "2026-11-27T16:46:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Thousands still without power after storms that snarled Thanksgiving travel",
+          "description": "Heavy rains and high winds downed trees and power lines and led to water rescues from New York to Virginia Skies cleared along the US eastern seaboard on Friday, and power was being restored to hundreds of thousands of customers whose Thanksgiving plans were disrupted by heavy rains and high winds that swept over the region a day earlier. The storms snarled travel, downed trees and power lines and",
+          "link": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+          "published": "2026-11-27T22:14:56.000Z",
+          "categories": [
+            "US weather",
+            "US news",
+            "World news",
+            "Extreme weather",
+            "New Jersey",
+            "North Carolina",
+            "New York",
+            "Virginia"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Parts of the US clean up, power being restored after Thanksgiving storm soaks East Coast",
+          "description": "The storm system is expected to leave the region on the morning of Nov 28.",
+          "link": "https://www.straitstimes.com/world/united-states/parts-of-the-us-clean-up-power-being-restored-after-thanksgiving-storm-soaks-east-coast",
+          "published": "2026-11-28T06:40:04.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Hundreds of thousands out of power in US after Thanksgiving storm",
+          "description": "A Thanksgiving storm battered the eastern US on Nov 26.",
+          "link": "https://www.straitstimes.com/world/united-states/hundreds-of-thousands-out-of-power-in-us-after-thanksgiving-storm",
+          "published": "2026-11-27T19:22:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "News Wrap: Crews work to restore power for thousands after Thanksgiving storm",
+          "description": "In our news wrap Friday, crews are still working to restore power for hundreds of thousands of homes a day after a massive Thanksgiving storm forced some on the East Coast to dine in the dark, Ukrainian President Zelenskyy pushes back on President Trump, U.S. forces disabled ​a commercial ship in the Gulf of Oman and the U.N. says hunger is expected to worsen in 16 global countries and regions.",
+          "link": "https://www.pbs.org/newshour/show/news-wrap-crews-work-to-restore-power-for-thousands-after-thanksgiving-storm",
+          "published": "2026-11-27T23:55:12.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "pbs",
+          "outlet": "pbs",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Parts of the U.S. clean up, power outages being restored after Thanksgiving storm soaks East Coast",
+          "description": "The storms snarled travel and downed trees and power lines. The heavy weather led to water rescues from New York to Virginia.",
+          "link": "https://www.pbs.org/newshour/nation/heavy-rain-winds-down-as-power-remains-out-for-hundreds-of-thousands-on-the-east-coast",
+          "published": "2026-11-27T15:15:26.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2026-11-28-yf2iv",
+      "topic": "world",
+      "title": "Spain's Sanchez makes final appeal to voters before election",
+      "summary": "Europe correspondent Nick Beake speaks to one couple kept apart by high rents in Valencia.",
+      "headlineSource": "Deutsche Welle",
+      "sourceCount": 7,
+      "score": 16.58,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
+          "description": "Europe correspondent Nick Beake speaks to one couple kept apart by high rents in Valencia.",
+          "link": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo",
+          "published": "2026-11-27T06:09:31.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Immigration, a key issue in Sunday's Spanish snap election",
+          "description": "Vox has focused its campaign on immigration, which dominated politics after tens of thousands of migrants streamed into Spain's north African city of Ceuta from Morocco in July.",
+          "link": "https://www.france24.com/en/immigration-a-key-issue-in-sunday-s-spanish-snap-election",
+          "published": "2026-11-28T10:30:47.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Spain's Sanchez makes final appeal to voters before election",
+          "description": "Spanish Prime Minister Pedro Sanchez told people to turn out in large numbers so the country does not go \"backwards.\" Polls suggest an end to his eight-year leftist leadership of Spain.",
+          "link": "https://www.dw.com/en/spain-s-sanchez-makes-final-appeal-to-voters-before-election/a-80082783?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-28T00:51:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "france24",
+          "outlet": "france24",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "What are the main issues driving Spain's national election?",
+          "description": "Spain will elect a new government on Sunday in a snap election that could unseat Prime Minister Pedro Sánchez. The progressive leader has governed Spain for 8 years, presiding over several crises, years of economic expansion and immigration-led population growth. No issue, however, has affected Spaniards during this time as much as unaffordable housing.",
+          "link": "https://www.france24.com/en/what-are-the-main-issues-driving-spain-s-national-election",
+          "published": "2026-11-28T10:41:30.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cbs",
+          "outlet": "cbs",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain's election could bring the far-right to power for 1st time in decades",
+          "description": "For decades, Spain was relatively resistant to the rise of far-right populism seen elsewhere in Europe.",
+          "link": "https://www.cbsnews.com/news/spain-elections-pedro-sanchez-peoples-party-vox/",
+          "published": "2026-11-28T12:00:20.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Spain’s election could pull Madrid closer to Trump’s Washington",
+          "description": "Spanish voters head to the polls on Sunday for a snap election that could bring socialist Prime Minister Pedro Sánchez's eight years in power to an end.",
+          "link": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+          "published": "2026-11-27T13:00:42.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Abroad, Spain’s Leader Is a Left-Wing Hero. Will He Lose Power at Home?",
+          "description": "Prime Minister Pedro Sánchez, a staunch critic of President Trump, faces an uphill task to overcome a right-wing challenge in the national election on Sunday.",
+          "link": "https://www.nytimes.com/2026/11/28/world/europe/spain-pedro-sanchez-conservatives-election.html",
+          "published": "2026-11-28T05:01:10.000Z",
+          "categories": [
+            "Spain",
+            "Abascal, Santiago",
+            "Feijoo, Alberto Nunez",
+            "Franco, Francisco",
+            "Sanchez Perez-Castejon, Pedro (1972-)",
+            "Europe",
+            "Nationalism (Theory and Philosophy)"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Vote in Spain may oust a hero of the global left",
+          "description": "Polls point to three-term PM Sanchez's Socialists being ousted by conservative-far right coalition.",
+          "link": "https://www.straitstimes.com/world/europe/vote-in-spain-may-oust-a-hero-of-the-global-left",
+          "published": "2026-11-28T08:09:00.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2026-11-28-rtfxo1",
+      "topic": "world",
+      "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+      "summary": "At least six students have been killed and 97 injured in an explosion beside a middle school in Asadabad, Afghanistan.",
+      "headlineSource": "BBC News",
+      "sourceCount": 7,
+      "score": 16.54,
+      "scoreComponents": {
+        "breadth": 9,
+        "diversity": 1.95,
+        "wire": 3.2,
+        "freshness": 2.39,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 7,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "npr",
+          "outlet": "npr",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
+          "description": "Local officials said the blast appeared to have originated in a neighboring depot for mining explosives.",
+          "link": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
+          "published": "2026-11-28T11:32:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+          "description": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby.",
+          "link": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o",
+          "published": "2026-11-28T11:18:37.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "Several students killed in blast beside Afghan school",
+          "description": "At least six students have been killed and 97 injured in an explosion beside a middle school in Asadabad, Afghanistan.",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
+          "published": "2026-11-28T10:05:26.000Z",
+          "categories": [
+            "Show Types"
+          ]
+        },
+        {
+          "sourceId": "aljazeera",
+          "outlet": "aljazeera",
+          "lean": "center-left",
+          "wire": true,
+          "topicHint": null,
+          "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+          "description": "Official says the figures were preliminary and the casualty numbers could change as more information becomes available.",
+          "link": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
+          "published": "2026-11-28T07:42:09.000Z",
+          "categories": [
+            "News"
+          ]
+        },
+        {
+          "sourceId": "dw",
+          "outlet": "dw",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Afghanistan: Several killed in blast near middle school",
+          "description": "Officials have said improperly stored explosives at a mining site ignited, damaging nearby buildings including a school. An investigation is ongoing.",
+          "link": "https://www.dw.com/en/afghanistan-several-killed-in-blast-near-middle-school/a-80084227?maca=en-rss-en-all-1573-rdf",
+          "published": "2026-11-28T10:21:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "abc",
+          "outlet": "abc",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
+          "description": "An explosion at a school in eastern Afghanistan's Kunar province Saturday killed seven people and wounded over 90",
+          "link": "https://abcnews.com/International/wireStory/explosion-middle-school-eastern-afghanistan-kills-wounds-students-138493977",
+          "published": "2026-11-28T10:33:23.000Z",
+          "categories": [
+            "International"
+          ]
+        },
+        {
+          "sourceId": "scmp",
+          "outlet": "scmp",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
+          "description": "An explosion near a school in Afghanistan’s northeastern Kunar province killed seven students and injured up ‌to 99 others on Saturday, a spokesperson for the Taliban Interior Ministry said. Preliminary reports indicated the explosion originated at a depot storing explosives belonging to mining ⁠companies near the school, spokesperson Abdul Mateen Qani said ‌in a statement. Kunar province, which b",
+          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
+          "published": "2026-11-28T11:07:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "toi",
+          "outlet": "toi",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "7 students killed in Afghanistan school blast; at least 99 hurt",
+          "description": "",
+          "link": "https://timesofindia.indiatimes.com/world/south-asia/several-students-killed-in-explosion-at-school-in-afghanistans-kunar-province/articleshow/136241941.cms",
+          "published": "2026-11-28T07:57:10.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2026-11-27-2aavqk",
+      "topic": "world",
+      "title": "British police link substance release at Don Toliver concert to robbery attempts",
+      "summary": "89 people needed medical checks for eye and respiratory irritation.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 5,
+      "score": 16.45,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 6.4,
+        "wire": 0.8,
+        "freshness": 1.5,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "world",
+        "coverageTopic": "world",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 0,
+        "specialistShare": 0,
+        "votes": {
+          "tech": 0,
+          "business": 0,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Police suspect criminals robbed fans at Manchester gig disrupted by ‘unknown substance’",
+          "description": "Police are working with agencies across Europe after similar incidents occurred at two other Don Toliver concerts A group of organised criminals are believed to have carried out robberies during Don Toliver’s Manchester concert, where an “unknown substance” was released, police have said, with similar incidents having occurred at another two of the US rapper’s gigs in Europe. Greater Manchester po",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/27/police-believe-criminals-carried-out-robberies-during-don-toliver-manchester-gig-unknown-substance",
+          "published": "2026-11-27T18:35:45.000Z",
+          "categories": [
+            "Manchester",
+            "Greater Manchester",
+            "UK news",
+            "Crime",
+            "Music",
+            "Organised crime",
+            "World news",
+            "Europe"
+          ]
+        },
+        {
+          "sourceId": "nytimes",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Police Link Release of Substance at Don Toliver Concert to Robbery Attempts",
+          "description": "The police in Manchester, England, said they believed “organized criminals targeted people in the crowd to commit a series of robberies” during the concert on Sunday night.",
+          "link": "https://www.nytimes.com/2026/11/27/world/europe/don-toliver-manchester-substance-robberies.html",
+          "published": "2026-11-27T23:24:27.000Z",
+          "categories": [
+            "Robberies and Thefts",
+            "Police",
+            "Rap and Hip-Hop",
+            "Manchester Arena Bombing (May, 2017)",
+            "Evacuations and Evacuees",
+            "Toliver, Don (1994-)",
+            "Manchester (England)"
+          ]
+        },
+        {
+          "sourceId": "dailymail",
+          "outlet": "dailymail",
+          "lean": "right",
+          "wire": false,
+          "topicHint": null,
+          "title": "Organised criminals gassed concert-goers en masse and tried to rob them",
+          "description": "Greater Manchester Police assistant chief constable Tom Harding said there had been similar incidents at two of the US musician, Don Toliver's gigs in Europe.",
+          "link": "https://www.dailymail.com/news/article-16327127/Organised-criminals-trying-rob-concertgoers-release-tear-gas-crowd-rapper-Don-Tolivers-op-Live-gig-police-reveal.html",
+          "published": "2026-11-27T21:59:35.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "British police link substance release at Don Toliver concert to robbery attempts",
+          "description": "89 people needed medical checks for eye and respiratory irritation.",
+          "link": "https://www.straitstimes.com/world/europe/british-police-link-substance-release-at-don-toliver-concert-to-robbery-attempts",
+          "published": "2026-11-27T20:01:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "independent",
+          "outlet": "independent",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": null,
+          "title": "Organised criminals behind suspected tear gas attack at Manchester Don Toliver gig",
+          "description": "The Co-op Live Arena was evacuated during rapper Don Toliver’s show",
+          "link": "https://www.independent.co.uk/news/uk/home-news/don-toliver-coop-live-unknown-substance-b3092896.html",
+          "published": "2026-11-27T16:02:50.000Z",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2026-11-28-7m1g4g",
+      "topic": "business",
+      "title": "Neither inflation nor bad weather in the US deters Black Friday shoppers from seeking deals",
+      "summary": "Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 5,
+      "score": 14.76,
+      "scoreComponents": {
+        "breadth": 7.75,
+        "diversity": 4.45,
+        "wire": 0.8,
+        "freshness": 1.75,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "business",
+        "coverageTopic": "business",
+        "reconciled": null,
+        "outlets": 5,
+        "specialistOutlets": 3,
+        "specialistShare": 0.6,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+          "description": "Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond.",
+          "link": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+          "published": "2026-11-27T22:00:57.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "Neither inflation nor bad weather in the US deters Black Friday shoppers from seeking deals",
+          "description": "Chatbots also drove some traffic to malls.",
+          "link": "https://www.straitstimes.com/world/united-states/neither-inflation-nor-bad-weather-in-the-us-deters-black-friday-shoppers-from-seeking-deals",
+          "published": "2026-11-28T00:38:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "The absolute best Black Friday deals you can still get",
+          "description": "Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and so much more. We can’t guarantee a deal you’ve had your eye on will last through Cyber",
+          "link": "https://www.theverge.com/?p=1039190",
+          "published": "2026-11-28T03:28:32.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+          "description": "Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised",
+          "link": "https://www.theverge.com/1043935/here-are-the-apple-deals-actually-worth-picking-up-ahead-of-black-friday",
+          "published": "2026-11-27T23:53:19.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
+          "description": "Black Friday is here, and if you want a little help keeping your floors clean this holiday season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over the last year or two are on sale for up to 60 percent off, whether you’re after a",
+          "link": "https://www.theverge.com/?p=1044487",
+          "published": "2026-11-27T23:32:17.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "verge",
+          "outlet": "verge",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "Many of our favorite Blu-ray movies are over 50 percent off for Black Friday",
+          "description": "No shade to those who love their subscription services, but viewing physical movies is a time-honored tradition that shouldn’t go away. Watching them doesn’t feel all that different, but deciding which movie to watch feels less annoying; sifting through a movie collection on your shelf or in a storage binder is so much more fun",
+          "link": "https://www.theverge.com/?p=1040471",
+          "published": "2026-11-27T23:30:00.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Black Friday Deals and Holiday Sales Are Big Money for Influencers",
+          "description": "A growing part of a brand’s Black Friday and Cyber Monday marketing strategy rests on paying top dollar for social media influencers to post videos.",
+          "link": "https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html",
+          "published": "2026-11-27T15:29:05.000Z",
+          "categories": [
+            "Advertising and Marketing",
+            "Social Media",
+            "Online Advertising",
+            "E-Commerce",
+            "Shopping and Retail",
+            "Black Friday and Cyber Monday (Shopping)",
+            "Fashion and Apparel",
+            "Cosmetics and Toiletries",
+            "Gifts",
+            "Social Media Influencers",
+            "Instagram Inc",
+            "L'Oreal SA",
+            "Interactive Advertising Bureau",
+            "TikTok (ByteDance)",
+            "Unilever NV"
+          ]
+        },
+        {
+          "sourceId": "foxbusiness",
+          "outlet": "foxnews",
+          "lean": "right",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Bath & Body Works CEO pledges to keep prices affordable as shoppers hunt for Black Friday deals",
+          "description": "Bath & Body Works CEO Daniel Heaf reveals how the brand keeps prices affordable on Black Friday while upgrading formulas, reviving e-commerce and selling on Amazon and Ulta.",
+          "link": "https://www.foxbusiness.com/retail/bath-body-works-ceo-pledges-keep-prices-affordable-shoppers-hunt-black-friday-deals",
+          "published": "2026-11-27T11:00:23.000Z",
+          "categories": [
+            "987a0b07-2d43-5825-814c-f179c5e070b8",
+            "fbn",
+            "Fox Business",
+            "fox-business/industries/retail",
+            "fox-business/markets/economy",
+            "fox-news/fox-news-lifestyle/fox-news-food/fox-news-shopping",
+            "fox-business/media",
+            "fox-business/retail",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2026-11-28-1vwv614",
+      "topic": "tech",
+      "title": "OpenAI countersues Apple for stealing trade secrets",
+      "summary": "OpenAI also accused Apple of discouraging hardware suppliers from working on future OpenAI devices.",
+      "headlineSource": "The Straits Times",
+      "sourceCount": 4,
+      "score": 14.26,
+      "scoreComponents": {
+        "breadth": 6.97,
+        "diversity": 2.5,
+        "wire": 2.4,
+        "freshness": 2.4,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "tech",
+        "reconciled": null,
+        "outlets": 4,
+        "specialistOutlets": 3,
+        "specialistShare": 0.75,
+        "votes": {
+          "tech": 3,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "bbc",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+          "description": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.",
+          "link": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo",
+          "published": "2026-11-28T11:35:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": null,
+          "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
+          "description": "Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employees OpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices. The suit, filed in northern California federal court, comes after Apple sued OpenAI for allegedly poaching its employees to gai",
+          "link": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+          "published": "2026-11-27T23:28:50.000Z",
+          "categories": [
+            "OpenAI",
+            "Apple",
+            "Technology",
+            "US news",
+            "West Coast"
+          ]
+        },
+        {
+          "sourceId": "straitstimes",
+          "outlet": "straitstimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "OpenAI countersues Apple for stealing trade secrets",
+          "description": "OpenAI also accused Apple of discouraging hardware suppliers from working on future OpenAI devices.",
+          "link": "https://www.straitstimes.com/world/united-states/openai-countersues-apple-for-stealing-trade-secrets",
+          "published": "2026-11-27T21:22:50.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "japantimes",
+          "outlet": "japantimes",
+          "lean": "center",
+          "wire": true,
+          "topicHint": null,
+          "title": "OpenAI says Apple pressured suppliers to shun its devices",
+          "description": "The case has overshadowed OpenAI's bid to sell its own devices, a move that would put it in competition with the iPhone maker.",
+          "link": "https://www.japantimes.co.jp/business/2026/11/28/tech/openai-apple-pressured-suppliers/",
+          "published": "2026-11-28T01:09:00.000Z",
+          "categories": [
+            "BUSINESS"
+          ]
+        },
+        {
+          "sourceId": "guardian_tech",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "tech",
+          "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
+          "description": "Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employees OpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices. The suit, filed in northern California federal court, comes after Apple sued OpenAI for allegedly poaching its employees to gai",
+          "link": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+          "published": "2026-11-27T23:28:50.000Z",
+          "categories": [
+            "OpenAI",
+            "Apple",
+            "Technology",
+            "US news",
+            "West Coast"
+          ]
+        },
+        {
+          "sourceId": "bbc_tech",
+          "outlet": "bbc",
+          "lean": "center",
+          "wire": true,
+          "topicHint": "tech",
+          "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+          "description": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.",
+          "link": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo",
+          "published": "2026-11-28T11:35:34.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "guardian_biz",
+          "outlet": "guardian",
+          "lean": "left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
+          "description": "Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employees OpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices. The suit, filed in northern California federal court, comes after Apple sued OpenAI for allegedly poaching its employees to gai",
+          "link": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+          "published": "2026-11-27T23:28:50.000Z",
+          "categories": [
+            "OpenAI",
+            "Apple",
+            "Technology",
+            "US news",
+            "West Coast"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2026-11-27-2xtjtx",
+      "topic": "tech",
+      "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+      "summary": "Chinese authorities gave markets a boost with a rare midday statement pledging support, sending stocks to their best day in more than two years.",
+      "headlineSource": "CNBC",
+      "sourceCount": 3,
+      "score": 9.38,
+      "scoreComponents": {
+        "breadth": 6,
+        "diversity": 1.95,
+        "wire": 0,
+        "freshness": 1.43,
+        "softPenalty": 0
+      },
+      "topicGate": {
+        "topic": "tech",
+        "coverageTopic": "business",
+        "reconciled": "business -> tech by headline",
+        "outlets": 3,
+        "specialistOutlets": 2,
+        "specialistShare": 0.67,
+        "votes": {
+          "tech": 1,
+          "business": 2,
+          "health": 0
+        }
+      },
+      "members": [
+        {
+          "sourceId": "cnbc",
+          "outlet": "cnbc",
+          "lean": "center",
+          "wire": false,
+          "topicHint": null,
+          "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+          "description": "Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors as top policymakers pledged market liquidity support.",
+          "link": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+          "published": "2026-11-27T10:13:44.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "China Spurs Biggest Stock Gain Since 2024 on Rare Midday Vow",
+          "description": "Chinese authorities gave markets a boost with a rare midday statement pledging support, sending stocks to their best day in more than two years.",
+          "link": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
+          "published": "2026-11-27T05:00:23.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "nyt_business",
+          "outlet": "nytimes",
+          "lean": "center-left",
+          "wire": false,
+          "topicHint": "business",
+          "title": "How to Live Calmly, Despite Stock Market Whiplash",
+          "description": "Nvidia has been down, up, and down again, and the market has followed. But there’s no need for long-term, diversified investors to alter their course, our columnist says.",
+          "link": "https://www.nytimes.com/2026/11/27/business/nvidia-jensen-huang-trump-markets.html",
+          "published": "2026-11-27T22:16:28.000Z",
+          "categories": [
+            "Stocks and Bonds",
+            "Artificial Intelligence",
+            "Computer Chips",
+            "Standard & Poor's 500-Stock Index",
+            "Content Type: Service",
+            "Megaspeed International Pte Ltd",
+            "NVIDIA Corporation",
+            "Bessembinder, Hendrik",
+            "Huang, Alice (Technology Executive)",
+            "Huang, Jen-Hsun"
+          ]
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "Emerging-Market Stocks Snag Best Week Since June on Tech Rebound",
+          "description": "Emerging-market stocks posted their biggest weekly gain since June as investors piled back into technology shares following a recent selloff, capping a volatile week across global markets.",
+          "link": "https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing",
+          "published": "2026-11-27T03:33:48.000Z",
+          "categories": []
+        },
+        {
+          "sourceId": "bloomberg",
+          "outlet": "bloomberg",
+          "lean": "center",
+          "wire": false,
+          "topicHint": "business",
+          "title": "US Stocks Rebound as Traders Pile Into Battered Tech Shares",
+          "description": "US stocks rallied Friday, capping a week of whiplash as dip buyers scooped up some beaten down technology shares despite lingering worries about the sustainability of the artificial-intelligence boom.",
+          "link": "https://www.bloomberg.com/news/articles/2026-11-27/us-stocks-set-to-bounce-as-risk-appetite-returns-after-holiday",
+          "published": "2026-11-27T07:56:20.000Z",
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
